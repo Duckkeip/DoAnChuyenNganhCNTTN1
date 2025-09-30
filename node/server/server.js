@@ -14,6 +14,8 @@ connectDB();
 // Routes
 app.use('/auth', require('./routes/auth'));
 
+app.use('/quizzes', require('./routes/quizzes'));
+
 // Test route
 app.get('/', (req, res) => {
   res.send('Quiz API đang chạy...');
