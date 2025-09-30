@@ -1,0 +1,11 @@
+# Node modules
+server/node_modules/
+# Log files
+server/npm-debug.log*
+server/yarn-debug.log*
+server/yarn-error.log*
+# Environment variables
+server/.env
+# Editor files
+*.swp
+.DS_Store
