@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+//reference User, Category lien ket toi cac bang khac
 const quizSchema = new mongoose.Schema({
   ownerId: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
   title: String,
