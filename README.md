@@ -123,7 +123,7 @@ MIT
 ## Liên hệ
 
 * Nhóm: Nhóm 01 - Lớp 03
-* Email liên hệ: [your-team-email@example.com](mailto:your-team-email@example.com)
+* Email liên hệ: doggygerman@gmail.com
 
 
 
