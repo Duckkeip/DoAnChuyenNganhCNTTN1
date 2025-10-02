@@ -56,7 +56,7 @@ npm run dev
 
 ```.env
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/quizgame
+MONGO_URI=mongodb://localhost:27017/quizz
 JWT_SECRET=verysecretkey
 ```
 
@@ -79,7 +79,7 @@ npx react-native run-android
 npx react-native run-ios
 ```
 
-## Cấu trúc dự án (gợi ý)
+## Cấu trúc dự án 
 
 ```
 /DoAnChuyenNganhCNTTN1
@@ -98,22 +98,19 @@ npx react-native run-ios
 * `POST /api/quizzes/:id/submit` — nộp bài và nhận điểm
 * `GET /api/users/:id/history` — lịch sử làm bài của user
 
-> Ghi chú: Thêm mô tả chi tiết cho từng endpoint trong file `docs/api.md`.
+
 
 ## Triển khai (Deployment)
 
 * Backend: hosting trên Heroku / Render / Vercel (serverless) hoặc VPS
-* Database: MongoDB Atlas
+* Database: MongoDB Compass
 * Frontend: Vercel / Netlify
 
 ## Hướng dẫn đóng gói để nộp đồ án
 
-1. Đảm bảo file `README.md` mô tả rõ cách chạy
-2. Đính kèm file export DB mẫu (nếu cần)
-3. Thêm ảnh chụp màn hình (screenshots) trong `docs/screenshots/`
-4. Ghi rõ phân công nhiệm vụ từng thành viên trong `docs/team.md`
 
-## Góp ý & Phát triển tiếp
+
+## Contributes
 
 * Thêm chức năng thi theo thời gian thực (real-time leaderboard)
 * Hỗ trợ import/export câu hỏi theo CSV
