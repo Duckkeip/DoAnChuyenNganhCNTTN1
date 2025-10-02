@@ -108,7 +108,7 @@ npx react-native run-ios
 
 ## Hướng dẫn đóng gói để nộp đồ án
 
-
+(HERE)
 
 ## Contributes
 
