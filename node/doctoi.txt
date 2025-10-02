@@ -1,4 +1,4 @@
-khi clone rep về máy thì trong node/server/ tạo 1 file .env nhập như sau 
+khi clone rep về máy thì trong node/server/ tạo 1 file .env nhập như sau
 
 ------------
 MONGO_URI=mongodb://127.0.0.1:27017/quizz
