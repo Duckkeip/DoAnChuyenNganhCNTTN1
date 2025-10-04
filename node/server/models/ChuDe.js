@@ -1,13 +1,16 @@
-// server/models/ChuDe.js
 const mongoose = require('mongoose');
 
 const chuDeSchema = new mongoose.Schema({
-  id_chude: String,
+  // ten chu de
   tenchude: { type: String, required: true },
-  loai: String,
-  user_id: String, // id user tạo
+  // loại chủ đề (nếu có)
+  loai: { type: String },
+  // id user tạo
+  user_id: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
+  // ngày tạo
   ngaytao: { type: Date, default: Date.now },
-  tinhtrang: { type: String, default: 'active' }
+  // tình trạng
+  tinhtrang: { type: String, enum: ['active', 'inactive'], default: 'active' }
 });
 
 module.exports = mongoose.model('ChuDe', chuDeSchema);
