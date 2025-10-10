@@ -1,16 +1,20 @@
+// server/models/Chude.js
 const mongoose = require('mongoose');
 
-const chuDeSchema = new mongoose.Schema({
-  // ten chu de
+const chudeSchema = new mongoose.Schema({
+  id_chude: String,
   tenchude: { type: String, required: true },
-  // loại chủ đề (nếu có)
-  loai: { type: String },
-  // id user tạo
-  user_id: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
-  // ngày tạo
+  loaichude: { 
+    type: String, 
+    enum: ['ôn tập', 'thi thử', 'đố vui', 'thi đấu'],
+    required: true
+  },
+  user_id: { 
+    type: mongoose.Schema.Types.ObjectId,  // 👈 Quan trọng: dùng ObjectId
+    ref: 'User'                             // 👈 ref đến model User
+  },
   ngaytao: { type: Date, default: Date.now },
-  // tình trạng
-  tinhtrang: { type: String, enum: ['active', 'inactive'], default: 'active' }
+  tinhtrang: { type: String, default: 'active' }
 });
 
-module.exports = mongoose.model('ChuDe', chuDeSchema);
+module.exports = mongoose.model('Chude', chudeSchema);

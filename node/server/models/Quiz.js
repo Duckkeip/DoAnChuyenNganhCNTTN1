@@ -4,7 +4,7 @@ const quizSchema = new mongoose.Schema({
   ownerId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
   title: { type: String, required: true },
   description: { type: String },
-  categoryId: { type: mongoose.Schema.Types.ObjectId, ref: 'ChuDe', required: true },
+  categoryId: { type: mongoose.Schema.Types.ObjectId, ref: 'Chude', required: true },
   questions: [
     {
       content: { type: String, required: true },
