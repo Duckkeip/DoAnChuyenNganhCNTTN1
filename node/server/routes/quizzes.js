@@ -1,23 +1,70 @@
 const express = require('express');
 const router = express.Router();
-const Quiz = require('../models/Quiz');
-const auth = require('../middleware/auth');
+const Chude = require('../models/ChuDe');
+const Ketqua = require('../models/ketqua');
+const Quizzuser = require('../models/Quizzuser');
 
-// Lấy danh sách quiz
-router.get('/', async (req,res)=>{
-  const quizzes = await Quiz.find({approved:true});
-  res.json(quizzes);
+// ✅ Lấy danh sách chủ đề
+router.get('/chude', async (req, res) => {
+  try {
+    const data = await Chude.find().populate('user_id', 'username');
+    res.json(data);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
 });
 
-// Tạo quiz mới (user)
-router.post('/', auth(), async (req,res)=>{
-  const {title, description, categoryId, questions} = req.body;
-  const newQuiz = new Quiz({
-    ownerId: req.user.id,
-    title, description, categoryId, questions
-  });
-  await newQuiz.save();
-  res.json({message:'Quiz tạo thành công', quiz:newQuiz});
+// ✅ Tạo chủ đề mới
+router.post('/chude', async (req, res) => {
+  try {
+    const newChude = new Chude(req.body);
+    await newChude.save();
+    res.json(newChude);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// ✅ Thêm câu hỏi vào chủ đề
+router.post('/ketqua', async (req, res) => {
+  try {
+    const newQ = new Ketqua(req.body);
+    await newQ.save();
+    res.json(newQ);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// ✅ Lấy câu hỏi theo chủ đề
+router.get('/ketqua/:id_chude', async (req, res) => {
+  try {
+    const data = await Ketqua.find({ id_chude: req.params.id_chude });
+    res.json(data);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// ✅ Tạo phòng thi (quizz room)
+router.post('/room', async (req, res) => {
+  try {
+    const room = new Quizzuser(req.body);
+    await room.save();
+    res.json(room);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// ✅ Lấy danh sách phòng
+router.get('/room', async (req, res) => {
+  try {
+    const rooms = await Quizzuser.find().populate('id_host', 'username');
+    res.json(rooms);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
 });
 
 module.exports = router;

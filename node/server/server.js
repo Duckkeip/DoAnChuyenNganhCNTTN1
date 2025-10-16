@@ -13,6 +13,7 @@ connectDB();
 
 // Routes
 app.use('/auth', require('./routes/auth'));
+app.use('/api/auth', require('./routes/auth'));
 
 app.use('/quizzes', require('./routes/quizzes'));
 
