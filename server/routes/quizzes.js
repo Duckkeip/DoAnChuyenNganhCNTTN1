@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const Chude = require('../models/ChuDe');
-const Ketqua = require('../models/ketqua');
+const Chude = require('../models/ChuDe');//main
+const Ketqua = require('../models/ketqua');//main
 const Quizzuser = require('../models/Quizzuser');
 
 // ✅ Lấy danh sách chủ đề
