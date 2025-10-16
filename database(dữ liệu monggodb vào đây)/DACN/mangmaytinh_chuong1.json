@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 1): Mô hình Client-Server mô tả điều gì?",
+    "options": [
+      "Máy khách gửi yêu cầu, máy chủ xử lý và phản hồi",
+      "Các máy tính trao đổi ngang hàng",
+      "Chỉ có một máy điều khiển tất cả",
+      "Dữ liệu lưu trên USB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 2 (Chương 1): Topologi mạng dạng hình sao (star) có ưu điểm gì?",
+    "options": [
+      "Dễ quản lý và cô lập lỗi",
+      "Chi phí thấp nhất",
+      "Tốc độ nhanh nhất",
+      "Không cần switch"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 3 (Chương 1): Topologi mạng dạng hình sao (star) có ưu điểm gì?",
+    "options": [
+      "Dễ quản lý và cô lập lỗi",
+      "Chi phí thấp nhất",
+      "Tốc độ nhanh nhất",
+      "Không cần switch"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 4 (Chương 1): Topologi mạng dạng hình sao (star) có ưu điểm gì?",
+    "options": [
+      "Dễ quản lý và cô lập lỗi",
+      "Chi phí thấp nhất",
+      "Tốc độ nhanh nhất",
+      "Không cần switch"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 5 (Chương 1): LAN là viết tắt của gì?",
+    "options": [
+      "Local Area Network",
+      "Large Access Node",
+      "Long Access Network",
+      "Local Allocation Node"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 6 (Chương 1): Mô hình Client-Server mô tả điều gì?",
+    "options": [
+      "Máy khách gửi yêu cầu, máy chủ xử lý và phản hồi",
+      "Các máy tính trao đổi ngang hàng",
+      "Chỉ có một máy điều khiển tất cả",
+      "Dữ liệu lưu trên USB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 7 (Chương 1): Mục đích chính của mạng máy tính là gì?",
+    "options": [
+      "Chia sẻ dữ liệu và tài nguyên giữa các thiết bị",
+      "Tăng dung lượng ổ đĩa",
+      "Giảm tốc độ xử lý",
+      "Lưu trữ dữ liệu tạm thời"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 8 (Chương 1): Băng thông (bandwidth) trong mạng là gì?",
+    "options": [
+      "Dung lượng dữ liệu tối đa có thể truyền trong một giây",
+      "Kích thước bộ nhớ",
+      "Độ trễ mạng",
+      "Tốc độ CPU"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 9 (Chương 1): Mục đích chính của mạng máy tính là gì?",
+    "options": [
+      "Chia sẻ dữ liệu và tài nguyên giữa các thiết bị",
+      "Tăng dung lượng ổ đĩa",
+      "Giảm tốc độ xử lý",
+      "Lưu trữ dữ liệu tạm thời"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 10 (Chương 1): Topologi mạng dạng hình sao (star) có ưu điểm gì?",
+    "options": [
+      "Dễ quản lý và cô lập lỗi",
+      "Chi phí thấp nhất",
+      "Tốc độ nhanh nhất",
+      "Không cần switch"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 11 (Chương 1): Thiết bị nào dùng để định tuyến gói tin giữa các mạng khác nhau?",
+    "options": [
+      "Router",
+      "Switch",
+      "Repeater",
+      "Bridge"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 12 (Chương 1): WAN là loại mạng có đặc điểm gì?",
+    "options": [
+      "Phạm vi rộng, kết nối nhiều mạng LAN ở khoảng cách lớn",
+      "Giới hạn trong một tòa nhà",
+      "Chỉ kết nối không dây",
+      "Chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 13 (Chương 1): Mô hình Client-Server mô tả điều gì?",
+    "options": [
+      "Máy khách gửi yêu cầu, máy chủ xử lý và phản hồi",
+      "Các máy tính trao đổi ngang hàng",
+      "Chỉ có một máy điều khiển tất cả",
+      "Dữ liệu lưu trên USB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 14 (Chương 1): Topologi mạng dạng hình sao (star) có ưu điểm gì?",
+    "options": [
+      "Dễ quản lý và cô lập lỗi",
+      "Chi phí thấp nhất",
+      "Tốc độ nhanh nhất",
+      "Không cần switch"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 15 (Chương 1): Thiết bị nào được dùng để kết nối nhiều máy tính trong cùng mạng LAN?",
+    "options": [
+      "Switch",
+      "Router",
+      "Modem",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 16 (Chương 1): Thiết bị nào được dùng để kết nối nhiều máy tính trong cùng mạng LAN?",
+    "options": [
+      "Switch",
+      "Router",
+      "Modem",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 17 (Chương 1): Mô hình Client-Server mô tả điều gì?",
+    "options": [
+      "Máy khách gửi yêu cầu, máy chủ xử lý và phản hồi",
+      "Các máy tính trao đổi ngang hàng",
+      "Chỉ có một máy điều khiển tất cả",
+      "Dữ liệu lưu trên USB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 18 (Chương 1): Mô hình Client-Server mô tả điều gì?",
+    "options": [
+      "Máy khách gửi yêu cầu, máy chủ xử lý và phản hồi",
+      "Các máy tính trao đổi ngang hàng",
+      "Chỉ có một máy điều khiển tất cả",
+      "Dữ liệu lưu trên USB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 19 (Chương 1): Thiết bị nào dùng để định tuyến gói tin giữa các mạng khác nhau?",
+    "options": [
+      "Router",
+      "Switch",
+      "Repeater",
+      "Bridge"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 20 (Chương 1): WAN là loại mạng có đặc điểm gì?",
+    "options": [
+      "Phạm vi rộng, kết nối nhiều mạng LAN ở khoảng cách lớn",
+      "Giới hạn trong một tòa nhà",
+      "Chỉ kết nối không dây",
+      "Chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 21 (Chương 1): Mục đích chính của mạng máy tính là gì?",
+    "options": [
+      "Chia sẻ dữ liệu và tài nguyên giữa các thiết bị",
+      "Tăng dung lượng ổ đĩa",
+      "Giảm tốc độ xử lý",
+      "Lưu trữ dữ liệu tạm thời"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 22 (Chương 1): Mạng máy tính là gì?",
+    "options": [
+      "Tập hợp các máy tính được kết nối để chia sẻ tài nguyên và dữ liệu",
+      "Một hệ thống phần mềm độc lập",
+      "Một ổ cứng mạng",
+      "Một thiết bị đầu cuối"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 23 (Chương 1): Mạng máy tính là gì?",
+    "options": [
+      "Tập hợp các máy tính được kết nối để chia sẻ tài nguyên và dữ liệu",
+      "Một hệ thống phần mềm độc lập",
+      "Một ổ cứng mạng",
+      "Một thiết bị đầu cuối"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 24 (Chương 1): LAN là viết tắt của gì?",
+    "options": [
+      "Local Area Network",
+      "Large Access Node",
+      "Long Access Network",
+      "Local Allocation Node"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 25 (Chương 1): Băng thông (bandwidth) trong mạng là gì?",
+    "options": [
+      "Dung lượng dữ liệu tối đa có thể truyền trong một giây",
+      "Kích thước bộ nhớ",
+      "Độ trễ mạng",
+      "Tốc độ CPU"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 26 (Chương 1): Mục đích chính của mạng máy tính là gì?",
+    "options": [
+      "Chia sẻ dữ liệu và tài nguyên giữa các thiết bị",
+      "Tăng dung lượng ổ đĩa",
+      "Giảm tốc độ xử lý",
+      "Lưu trữ dữ liệu tạm thời"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 27 (Chương 1): Mạng máy tính là gì?",
+    "options": [
+      "Tập hợp các máy tính được kết nối để chia sẻ tài nguyên và dữ liệu",
+      "Một hệ thống phần mềm độc lập",
+      "Một ổ cứng mạng",
+      "Một thiết bị đầu cuối"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 28 (Chương 1): WAN là loại mạng có đặc điểm gì?",
+    "options": [
+      "Phạm vi rộng, kết nối nhiều mạng LAN ở khoảng cách lớn",
+      "Giới hạn trong một tòa nhà",
+      "Chỉ kết nối không dây",
+      "Chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 29 (Chương 1): Thiết bị nào được dùng để kết nối nhiều máy tính trong cùng mạng LAN?",
+    "options": [
+      "Switch",
+      "Router",
+      "Modem",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 30 (Chương 1): Tốc độ truyền dữ liệu thường được đo bằng đơn vị nào?",
+    "options": [
+      "bps (bit per second)",
+      "Hz",
+      "Bytes",
+      "MB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 31 (Chương 1): Mạng máy tính là gì?",
+    "options": [
+      "Tập hợp các máy tính được kết nối để chia sẻ tài nguyên và dữ liệu",
+      "Một hệ thống phần mềm độc lập",
+      "Một ổ cứng mạng",
+      "Một thiết bị đầu cuối"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 32 (Chương 1): Băng thông (bandwidth) trong mạng là gì?",
+    "options": [
+      "Dung lượng dữ liệu tối đa có thể truyền trong một giây",
+      "Kích thước bộ nhớ",
+      "Độ trễ mạng",
+      "Tốc độ CPU"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 33 (Chương 1): Mô hình Client-Server mô tả điều gì?",
+    "options": [
+      "Máy khách gửi yêu cầu, máy chủ xử lý và phản hồi",
+      "Các máy tính trao đổi ngang hàng",
+      "Chỉ có một máy điều khiển tất cả",
+      "Dữ liệu lưu trên USB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 34 (Chương 1): Tốc độ truyền dữ liệu thường được đo bằng đơn vị nào?",
+    "options": [
+      "bps (bit per second)",
+      "Hz",
+      "Bytes",
+      "MB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 35 (Chương 1): Mô hình Client-Server mô tả điều gì?",
+    "options": [
+      "Máy khách gửi yêu cầu, máy chủ xử lý và phản hồi",
+      "Các máy tính trao đổi ngang hàng",
+      "Chỉ có một máy điều khiển tất cả",
+      "Dữ liệu lưu trên USB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 36 (Chương 1): WAN là loại mạng có đặc điểm gì?",
+    "options": [
+      "Phạm vi rộng, kết nối nhiều mạng LAN ở khoảng cách lớn",
+      "Giới hạn trong một tòa nhà",
+      "Chỉ kết nối không dây",
+      "Chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 37 (Chương 1): LAN là viết tắt của gì?",
+    "options": [
+      "Local Area Network",
+      "Large Access Node",
+      "Long Access Network",
+      "Local Allocation Node"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 38 (Chương 1): Tốc độ truyền dữ liệu thường được đo bằng đơn vị nào?",
+    "options": [
+      "bps (bit per second)",
+      "Hz",
+      "Bytes",
+      "MB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 39 (Chương 1): Topologi mạng dạng hình sao (star) có ưu điểm gì?",
+    "options": [
+      "Dễ quản lý và cô lập lỗi",
+      "Chi phí thấp nhất",
+      "Tốc độ nhanh nhất",
+      "Không cần switch"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 40 (Chương 1): Topologi mạng dạng hình sao (star) có ưu điểm gì?",
+    "options": [
+      "Dễ quản lý và cô lập lỗi",
+      "Chi phí thấp nhất",
+      "Tốc độ nhanh nhất",
+      "Không cần switch"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 41 (Chương 1): Thiết bị nào dùng để định tuyến gói tin giữa các mạng khác nhau?",
+    "options": [
+      "Router",
+      "Switch",
+      "Repeater",
+      "Bridge"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 42 (Chương 1): Tốc độ truyền dữ liệu thường được đo bằng đơn vị nào?",
+    "options": [
+      "bps (bit per second)",
+      "Hz",
+      "Bytes",
+      "MB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 43 (Chương 1): LAN là viết tắt của gì?",
+    "options": [
+      "Local Area Network",
+      "Large Access Node",
+      "Long Access Network",
+      "Local Allocation Node"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 44 (Chương 1): Mô hình Client-Server mô tả điều gì?",
+    "options": [
+      "Máy khách gửi yêu cầu, máy chủ xử lý và phản hồi",
+      "Các máy tính trao đổi ngang hàng",
+      "Chỉ có một máy điều khiển tất cả",
+      "Dữ liệu lưu trên USB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 45 (Chương 1): Mục đích chính của mạng máy tính là gì?",
+    "options": [
+      "Chia sẻ dữ liệu và tài nguyên giữa các thiết bị",
+      "Tăng dung lượng ổ đĩa",
+      "Giảm tốc độ xử lý",
+      "Lưu trữ dữ liệu tạm thời"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 46 (Chương 1): Băng thông (bandwidth) trong mạng là gì?",
+    "options": [
+      "Dung lượng dữ liệu tối đa có thể truyền trong một giây",
+      "Kích thước bộ nhớ",
+      "Độ trễ mạng",
+      "Tốc độ CPU"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 47 (Chương 1): Mạng máy tính là gì?",
+    "options": [
+      "Tập hợp các máy tính được kết nối để chia sẻ tài nguyên và dữ liệu",
+      "Một hệ thống phần mềm độc lập",
+      "Một ổ cứng mạng",
+      "Một thiết bị đầu cuối"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 48 (Chương 1): Mô hình Client-Server mô tả điều gì?",
+    "options": [
+      "Máy khách gửi yêu cầu, máy chủ xử lý và phản hồi",
+      "Các máy tính trao đổi ngang hàng",
+      "Chỉ có một máy điều khiển tất cả",
+      "Dữ liệu lưu trên USB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 49 (Chương 1): Thiết bị nào được dùng để kết nối nhiều máy tính trong cùng mạng LAN?",
+    "options": [
+      "Switch",
+      "Router",
+      "Modem",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 50 (Chương 1): LAN là viết tắt của gì?",
+    "options": [
+      "Local Area Network",
+      "Large Access Node",
+      "Long Access Network",
+      "Local Allocation Node"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 51 (Chương 1): Thiết bị nào được dùng để kết nối nhiều máy tính trong cùng mạng LAN?",
+    "options": [
+      "Switch",
+      "Router",
+      "Modem",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 52 (Chương 1): Băng thông (bandwidth) trong mạng là gì?",
+    "options": [
+      "Dung lượng dữ liệu tối đa có thể truyền trong một giây",
+      "Kích thước bộ nhớ",
+      "Độ trễ mạng",
+      "Tốc độ CPU"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 53 (Chương 1): Tốc độ truyền dữ liệu thường được đo bằng đơn vị nào?",
+    "options": [
+      "bps (bit per second)",
+      "Hz",
+      "Bytes",
+      "MB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 54 (Chương 1): Tốc độ truyền dữ liệu thường được đo bằng đơn vị nào?",
+    "options": [
+      "bps (bit per second)",
+      "Hz",
+      "Bytes",
+      "MB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 55 (Chương 1): Tốc độ truyền dữ liệu thường được đo bằng đơn vị nào?",
+    "options": [
+      "bps (bit per second)",
+      "Hz",
+      "Bytes",
+      "MB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 56 (Chương 1): Mô hình Client-Server mô tả điều gì?",
+    "options": [
+      "Máy khách gửi yêu cầu, máy chủ xử lý và phản hồi",
+      "Các máy tính trao đổi ngang hàng",
+      "Chỉ có một máy điều khiển tất cả",
+      "Dữ liệu lưu trên USB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 57 (Chương 1): Mạng máy tính là gì?",
+    "options": [
+      "Tập hợp các máy tính được kết nối để chia sẻ tài nguyên và dữ liệu",
+      "Một hệ thống phần mềm độc lập",
+      "Một ổ cứng mạng",
+      "Một thiết bị đầu cuối"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 58 (Chương 1): LAN là viết tắt của gì?",
+    "options": [
+      "Local Area Network",
+      "Large Access Node",
+      "Long Access Network",
+      "Local Allocation Node"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 59 (Chương 1): Tốc độ truyền dữ liệu thường được đo bằng đơn vị nào?",
+    "options": [
+      "bps (bit per second)",
+      "Hz",
+      "Bytes",
+      "MB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 60 (Chương 1): LAN là viết tắt của gì?",
+    "options": [
+      "Local Area Network",
+      "Large Access Node",
+      "Long Access Network",
+      "Local Allocation Node"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 61 (Chương 1): Mục đích chính của mạng máy tính là gì?",
+    "options": [
+      "Chia sẻ dữ liệu và tài nguyên giữa các thiết bị",
+      "Tăng dung lượng ổ đĩa",
+      "Giảm tốc độ xử lý",
+      "Lưu trữ dữ liệu tạm thời"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 62 (Chương 1): WAN là loại mạng có đặc điểm gì?",
+    "options": [
+      "Phạm vi rộng, kết nối nhiều mạng LAN ở khoảng cách lớn",
+      "Giới hạn trong một tòa nhà",
+      "Chỉ kết nối không dây",
+      "Chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 63 (Chương 1): Mô hình Client-Server mô tả điều gì?",
+    "options": [
+      "Máy khách gửi yêu cầu, máy chủ xử lý và phản hồi",
+      "Các máy tính trao đổi ngang hàng",
+      "Chỉ có một máy điều khiển tất cả",
+      "Dữ liệu lưu trên USB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 64 (Chương 1): Mô hình Client-Server mô tả điều gì?",
+    "options": [
+      "Máy khách gửi yêu cầu, máy chủ xử lý và phản hồi",
+      "Các máy tính trao đổi ngang hàng",
+      "Chỉ có một máy điều khiển tất cả",
+      "Dữ liệu lưu trên USB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 65 (Chương 1): Thiết bị nào được dùng để kết nối nhiều máy tính trong cùng mạng LAN?",
+    "options": [
+      "Switch",
+      "Router",
+      "Modem",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 66 (Chương 1): Tốc độ truyền dữ liệu thường được đo bằng đơn vị nào?",
+    "options": [
+      "bps (bit per second)",
+      "Hz",
+      "Bytes",
+      "MB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 67 (Chương 1): Mô hình Client-Server mô tả điều gì?",
+    "options": [
+      "Máy khách gửi yêu cầu, máy chủ xử lý và phản hồi",
+      "Các máy tính trao đổi ngang hàng",
+      "Chỉ có một máy điều khiển tất cả",
+      "Dữ liệu lưu trên USB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 68 (Chương 1): Mạng máy tính là gì?",
+    "options": [
+      "Tập hợp các máy tính được kết nối để chia sẻ tài nguyên và dữ liệu",
+      "Một hệ thống phần mềm độc lập",
+      "Một ổ cứng mạng",
+      "Một thiết bị đầu cuối"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 69 (Chương 1): Thiết bị nào dùng để định tuyến gói tin giữa các mạng khác nhau?",
+    "options": [
+      "Router",
+      "Switch",
+      "Repeater",
+      "Bridge"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 70 (Chương 1): Băng thông (bandwidth) trong mạng là gì?",
+    "options": [
+      "Dung lượng dữ liệu tối đa có thể truyền trong một giây",
+      "Kích thước bộ nhớ",
+      "Độ trễ mạng",
+      "Tốc độ CPU"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 71 (Chương 1): Băng thông (bandwidth) trong mạng là gì?",
+    "options": [
+      "Dung lượng dữ liệu tối đa có thể truyền trong một giây",
+      "Kích thước bộ nhớ",
+      "Độ trễ mạng",
+      "Tốc độ CPU"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 72 (Chương 1): Băng thông (bandwidth) trong mạng là gì?",
+    "options": [
+      "Dung lượng dữ liệu tối đa có thể truyền trong một giây",
+      "Kích thước bộ nhớ",
+      "Độ trễ mạng",
+      "Tốc độ CPU"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 73 (Chương 1): Topologi mạng dạng hình sao (star) có ưu điểm gì?",
+    "options": [
+      "Dễ quản lý và cô lập lỗi",
+      "Chi phí thấp nhất",
+      "Tốc độ nhanh nhất",
+      "Không cần switch"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 74 (Chương 1): Băng thông (bandwidth) trong mạng là gì?",
+    "options": [
+      "Dung lượng dữ liệu tối đa có thể truyền trong một giây",
+      "Kích thước bộ nhớ",
+      "Độ trễ mạng",
+      "Tốc độ CPU"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 75 (Chương 1): Mục đích chính của mạng máy tính là gì?",
+    "options": [
+      "Chia sẻ dữ liệu và tài nguyên giữa các thiết bị",
+      "Tăng dung lượng ổ đĩa",
+      "Giảm tốc độ xử lý",
+      "Lưu trữ dữ liệu tạm thời"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 76 (Chương 1): WAN là loại mạng có đặc điểm gì?",
+    "options": [
+      "Phạm vi rộng, kết nối nhiều mạng LAN ở khoảng cách lớn",
+      "Giới hạn trong một tòa nhà",
+      "Chỉ kết nối không dây",
+      "Chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 77 (Chương 1): Thiết bị nào được dùng để kết nối nhiều máy tính trong cùng mạng LAN?",
+    "options": [
+      "Switch",
+      "Router",
+      "Modem",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 78 (Chương 1): Thiết bị nào được dùng để kết nối nhiều máy tính trong cùng mạng LAN?",
+    "options": [
+      "Switch",
+      "Router",
+      "Modem",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 79 (Chương 1): Băng thông (bandwidth) trong mạng là gì?",
+    "options": [
+      "Dung lượng dữ liệu tối đa có thể truyền trong một giây",
+      "Kích thước bộ nhớ",
+      "Độ trễ mạng",
+      "Tốc độ CPU"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 80 (Chương 1): Thiết bị nào được dùng để kết nối nhiều máy tính trong cùng mạng LAN?",
+    "options": [
+      "Switch",
+      "Router",
+      "Modem",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 81 (Chương 1): LAN là viết tắt của gì?",
+    "options": [
+      "Local Area Network",
+      "Large Access Node",
+      "Long Access Network",
+      "Local Allocation Node"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 82 (Chương 1): Mô hình Client-Server mô tả điều gì?",
+    "options": [
+      "Máy khách gửi yêu cầu, máy chủ xử lý và phản hồi",
+      "Các máy tính trao đổi ngang hàng",
+      "Chỉ có một máy điều khiển tất cả",
+      "Dữ liệu lưu trên USB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 83 (Chương 1): Mạng máy tính là gì?",
+    "options": [
+      "Tập hợp các máy tính được kết nối để chia sẻ tài nguyên và dữ liệu",
+      "Một hệ thống phần mềm độc lập",
+      "Một ổ cứng mạng",
+      "Một thiết bị đầu cuối"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 84 (Chương 1): LAN là viết tắt của gì?",
+    "options": [
+      "Local Area Network",
+      "Large Access Node",
+      "Long Access Network",
+      "Local Allocation Node"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 85 (Chương 1): Mạng máy tính là gì?",
+    "options": [
+      "Tập hợp các máy tính được kết nối để chia sẻ tài nguyên và dữ liệu",
+      "Một hệ thống phần mềm độc lập",
+      "Một ổ cứng mạng",
+      "Một thiết bị đầu cuối"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 86 (Chương 1): Mô hình Client-Server mô tả điều gì?",
+    "options": [
+      "Máy khách gửi yêu cầu, máy chủ xử lý và phản hồi",
+      "Các máy tính trao đổi ngang hàng",
+      "Chỉ có một máy điều khiển tất cả",
+      "Dữ liệu lưu trên USB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 87 (Chương 1): WAN là loại mạng có đặc điểm gì?",
+    "options": [
+      "Phạm vi rộng, kết nối nhiều mạng LAN ở khoảng cách lớn",
+      "Giới hạn trong một tòa nhà",
+      "Chỉ kết nối không dây",
+      "Chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 88 (Chương 1): Topologi mạng dạng hình sao (star) có ưu điểm gì?",
+    "options": [
+      "Dễ quản lý và cô lập lỗi",
+      "Chi phí thấp nhất",
+      "Tốc độ nhanh nhất",
+      "Không cần switch"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 89 (Chương 1): Mục đích chính của mạng máy tính là gì?",
+    "options": [
+      "Chia sẻ dữ liệu và tài nguyên giữa các thiết bị",
+      "Tăng dung lượng ổ đĩa",
+      "Giảm tốc độ xử lý",
+      "Lưu trữ dữ liệu tạm thời"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 90 (Chương 1): Topologi mạng dạng hình sao (star) có ưu điểm gì?",
+    "options": [
+      "Dễ quản lý và cô lập lỗi",
+      "Chi phí thấp nhất",
+      "Tốc độ nhanh nhất",
+      "Không cần switch"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 91 (Chương 1): Mô hình Client-Server mô tả điều gì?",
+    "options": [
+      "Máy khách gửi yêu cầu, máy chủ xử lý và phản hồi",
+      "Các máy tính trao đổi ngang hàng",
+      "Chỉ có một máy điều khiển tất cả",
+      "Dữ liệu lưu trên USB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 92 (Chương 1): Tốc độ truyền dữ liệu thường được đo bằng đơn vị nào?",
+    "options": [
+      "bps (bit per second)",
+      "Hz",
+      "Bytes",
+      "MB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 93 (Chương 1): LAN là viết tắt của gì?",
+    "options": [
+      "Local Area Network",
+      "Large Access Node",
+      "Long Access Network",
+      "Local Allocation Node"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 94 (Chương 1): Thiết bị nào được dùng để kết nối nhiều máy tính trong cùng mạng LAN?",
+    "options": [
+      "Switch",
+      "Router",
+      "Modem",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 95 (Chương 1): Thiết bị nào dùng để định tuyến gói tin giữa các mạng khác nhau?",
+    "options": [
+      "Router",
+      "Switch",
+      "Repeater",
+      "Bridge"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 96 (Chương 1): LAN là viết tắt của gì?",
+    "options": [
+      "Local Area Network",
+      "Large Access Node",
+      "Long Access Network",
+      "Local Allocation Node"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 97 (Chương 1): Mô hình Client-Server mô tả điều gì?",
+    "options": [
+      "Máy khách gửi yêu cầu, máy chủ xử lý và phản hồi",
+      "Các máy tính trao đổi ngang hàng",
+      "Chỉ có một máy điều khiển tất cả",
+      "Dữ liệu lưu trên USB"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 98 (Chương 1): WAN là loại mạng có đặc điểm gì?",
+    "options": [
+      "Phạm vi rộng, kết nối nhiều mạng LAN ở khoảng cách lớn",
+      "Giới hạn trong một tòa nhà",
+      "Chỉ kết nối không dây",
+      "Chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 99 (Chương 1): Thiết bị nào dùng để định tuyến gói tin giữa các mạng khác nhau?",
+    "options": [
+      "Router",
+      "Switch",
+      "Repeater",
+      "Bridge"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  },
+  {
+    "question": "Câu 100 (Chương 1): WAN là loại mạng có đặc điểm gì?",
+    "options": [
+      "Phạm vi rộng, kết nối nhiều mạng LAN ở khoảng cách lớn",
+      "Giới hạn trong một tòa nhà",
+      "Chỉ kết nối không dây",
+      "Chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính"
+  }
+]

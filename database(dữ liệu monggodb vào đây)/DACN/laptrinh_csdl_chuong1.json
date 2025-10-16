@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 1): Cơ sở dữ liệu (CSDL) là gì?",
+    "options": [
+      "Tập hợp các dữ liệu có cấu trúc, được lưu trữ và quản lý bằng máy tính",
+      "Một phần mềm để thiết kế giao diện người dùng",
+      "Một tập tin văn bản chứa dữ liệu ngẫu nhiên",
+      "Một hệ điều hành quản lý phần cứng máy tính"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 2 (Chương 1): Ưu điểm nổi bật của DBMS so với hệ thống tệp tin truyền thống là gì?",
+    "options": [
+      "Giảm trùng lặp dữ liệu và đảm bảo tính toàn vẹn",
+      "Dễ bị mất dữ liệu khi nhiều người truy cập",
+      "Không cần phần mềm hỗ trợ",
+      "Lưu trữ dữ liệu bằng giấy tờ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 3 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 4 (Chương 1): Kiến trúc 3 lớp của hệ thống CSDL gồm những lớp nào?",
+    "options": [
+      "Lớp ngoại, lớp khái niệm và lớp vật lý",
+      "Lớp giao diện, lớp điều khiển và lớp dữ liệu",
+      "Lớp ứng dụng, lớp dịch vụ và lớp trình bày",
+      "Lớp mô hình, lớp xử lý và lớp truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 5 (Chương 1): Ưu điểm nổi bật của DBMS so với hệ thống tệp tin truyền thống là gì?",
+    "options": [
+      "Giảm trùng lặp dữ liệu và đảm bảo tính toàn vẹn",
+      "Dễ bị mất dữ liệu khi nhiều người truy cập",
+      "Không cần phần mềm hỗ trợ",
+      "Lưu trữ dữ liệu bằng giấy tờ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 6 (Chương 1): Mô hình dữ liệu quan hệ thể hiện dữ liệu dưới dạng nào?",
+    "options": [
+      "Các bảng (table) gồm hàng và cột",
+      "Cây phân cấp",
+      "Mạng các nút liên kết",
+      "Tập hợp các file riêng lẻ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 7 (Chương 1): Hệ quản trị cơ sở dữ liệu (DBMS) có chức năng chính nào sau đây?",
+    "options": [
+      "Quản lý việc lưu trữ, truy xuất và bảo mật dữ liệu",
+      "Thực hiện biên dịch chương trình",
+      "Xử lý ảnh và đồ họa",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 8 (Chương 1): Ưu điểm nổi bật của DBMS so với hệ thống tệp tin truyền thống là gì?",
+    "options": [
+      "Giảm trùng lặp dữ liệu và đảm bảo tính toàn vẹn",
+      "Dễ bị mất dữ liệu khi nhiều người truy cập",
+      "Không cần phần mềm hỗ trợ",
+      "Lưu trữ dữ liệu bằng giấy tờ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 9 (Chương 1): Cơ sở dữ liệu (CSDL) là gì?",
+    "options": [
+      "Tập hợp các dữ liệu có cấu trúc, được lưu trữ và quản lý bằng máy tính",
+      "Một phần mềm để thiết kế giao diện người dùng",
+      "Một tập tin văn bản chứa dữ liệu ngẫu nhiên",
+      "Một hệ điều hành quản lý phần cứng máy tính"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 10 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 11 (Chương 1): Ưu điểm nổi bật của DBMS so với hệ thống tệp tin truyền thống là gì?",
+    "options": [
+      "Giảm trùng lặp dữ liệu và đảm bảo tính toàn vẹn",
+      "Dễ bị mất dữ liệu khi nhiều người truy cập",
+      "Không cần phần mềm hỗ trợ",
+      "Lưu trữ dữ liệu bằng giấy tờ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 12 (Chương 1): Cơ sở dữ liệu (CSDL) là gì?",
+    "options": [
+      "Tập hợp các dữ liệu có cấu trúc, được lưu trữ và quản lý bằng máy tính",
+      "Một phần mềm để thiết kế giao diện người dùng",
+      "Một tập tin văn bản chứa dữ liệu ngẫu nhiên",
+      "Một hệ điều hành quản lý phần cứng máy tính"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 13 (Chương 1): Kiến trúc 3 lớp của hệ thống CSDL gồm những lớp nào?",
+    "options": [
+      "Lớp ngoại, lớp khái niệm và lớp vật lý",
+      "Lớp giao diện, lớp điều khiển và lớp dữ liệu",
+      "Lớp ứng dụng, lớp dịch vụ và lớp trình bày",
+      "Lớp mô hình, lớp xử lý và lớp truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 14 (Chương 1): Hệ quản trị cơ sở dữ liệu (DBMS) có chức năng chính nào sau đây?",
+    "options": [
+      "Quản lý việc lưu trữ, truy xuất và bảo mật dữ liệu",
+      "Thực hiện biên dịch chương trình",
+      "Xử lý ảnh và đồ họa",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 15 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 16 (Chương 1): Ưu điểm nổi bật của DBMS so với hệ thống tệp tin truyền thống là gì?",
+    "options": [
+      "Giảm trùng lặp dữ liệu và đảm bảo tính toàn vẹn",
+      "Dễ bị mất dữ liệu khi nhiều người truy cập",
+      "Không cần phần mềm hỗ trợ",
+      "Lưu trữ dữ liệu bằng giấy tờ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 17 (Chương 1): Mô hình dữ liệu quan hệ thể hiện dữ liệu dưới dạng nào?",
+    "options": [
+      "Các bảng (table) gồm hàng và cột",
+      "Cây phân cấp",
+      "Mạng các nút liên kết",
+      "Tập hợp các file riêng lẻ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 18 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 19 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 20 (Chương 1): Cơ sở dữ liệu (CSDL) là gì?",
+    "options": [
+      "Tập hợp các dữ liệu có cấu trúc, được lưu trữ và quản lý bằng máy tính",
+      "Một phần mềm để thiết kế giao diện người dùng",
+      "Một tập tin văn bản chứa dữ liệu ngẫu nhiên",
+      "Một hệ điều hành quản lý phần cứng máy tính"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 21 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 22 (Chương 1): Hệ quản trị cơ sở dữ liệu (DBMS) có chức năng chính nào sau đây?",
+    "options": [
+      "Quản lý việc lưu trữ, truy xuất và bảo mật dữ liệu",
+      "Thực hiện biên dịch chương trình",
+      "Xử lý ảnh và đồ họa",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 23 (Chương 1): Hệ quản trị cơ sở dữ liệu (DBMS) có chức năng chính nào sau đây?",
+    "options": [
+      "Quản lý việc lưu trữ, truy xuất và bảo mật dữ liệu",
+      "Thực hiện biên dịch chương trình",
+      "Xử lý ảnh và đồ họa",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 24 (Chương 1): Ưu điểm nổi bật của DBMS so với hệ thống tệp tin truyền thống là gì?",
+    "options": [
+      "Giảm trùng lặp dữ liệu và đảm bảo tính toàn vẹn",
+      "Dễ bị mất dữ liệu khi nhiều người truy cập",
+      "Không cần phần mềm hỗ trợ",
+      "Lưu trữ dữ liệu bằng giấy tờ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 25 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 26 (Chương 1): Ưu điểm nổi bật của DBMS so với hệ thống tệp tin truyền thống là gì?",
+    "options": [
+      "Giảm trùng lặp dữ liệu và đảm bảo tính toàn vẹn",
+      "Dễ bị mất dữ liệu khi nhiều người truy cập",
+      "Không cần phần mềm hỗ trợ",
+      "Lưu trữ dữ liệu bằng giấy tờ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 27 (Chương 1): Hệ quản trị cơ sở dữ liệu (DBMS) có chức năng chính nào sau đây?",
+    "options": [
+      "Quản lý việc lưu trữ, truy xuất và bảo mật dữ liệu",
+      "Thực hiện biên dịch chương trình",
+      "Xử lý ảnh và đồ họa",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 28 (Chương 1): Cơ sở dữ liệu (CSDL) là gì?",
+    "options": [
+      "Tập hợp các dữ liệu có cấu trúc, được lưu trữ và quản lý bằng máy tính",
+      "Một phần mềm để thiết kế giao diện người dùng",
+      "Một tập tin văn bản chứa dữ liệu ngẫu nhiên",
+      "Một hệ điều hành quản lý phần cứng máy tính"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 29 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 30 (Chương 1): Hệ quản trị cơ sở dữ liệu (DBMS) có chức năng chính nào sau đây?",
+    "options": [
+      "Quản lý việc lưu trữ, truy xuất và bảo mật dữ liệu",
+      "Thực hiện biên dịch chương trình",
+      "Xử lý ảnh và đồ họa",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 31 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 32 (Chương 1): Mô hình dữ liệu quan hệ thể hiện dữ liệu dưới dạng nào?",
+    "options": [
+      "Các bảng (table) gồm hàng và cột",
+      "Cây phân cấp",
+      "Mạng các nút liên kết",
+      "Tập hợp các file riêng lẻ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 33 (Chương 1): Hệ quản trị cơ sở dữ liệu (DBMS) có chức năng chính nào sau đây?",
+    "options": [
+      "Quản lý việc lưu trữ, truy xuất và bảo mật dữ liệu",
+      "Thực hiện biên dịch chương trình",
+      "Xử lý ảnh và đồ họa",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 34 (Chương 1): Cơ sở dữ liệu (CSDL) là gì?",
+    "options": [
+      "Tập hợp các dữ liệu có cấu trúc, được lưu trữ và quản lý bằng máy tính",
+      "Một phần mềm để thiết kế giao diện người dùng",
+      "Một tập tin văn bản chứa dữ liệu ngẫu nhiên",
+      "Một hệ điều hành quản lý phần cứng máy tính"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 35 (Chương 1): Cơ sở dữ liệu (CSDL) là gì?",
+    "options": [
+      "Tập hợp các dữ liệu có cấu trúc, được lưu trữ và quản lý bằng máy tính",
+      "Một phần mềm để thiết kế giao diện người dùng",
+      "Một tập tin văn bản chứa dữ liệu ngẫu nhiên",
+      "Một hệ điều hành quản lý phần cứng máy tính"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 36 (Chương 1): Hệ quản trị cơ sở dữ liệu (DBMS) có chức năng chính nào sau đây?",
+    "options": [
+      "Quản lý việc lưu trữ, truy xuất và bảo mật dữ liệu",
+      "Thực hiện biên dịch chương trình",
+      "Xử lý ảnh và đồ họa",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 37 (Chương 1): Kiến trúc 3 lớp của hệ thống CSDL gồm những lớp nào?",
+    "options": [
+      "Lớp ngoại, lớp khái niệm và lớp vật lý",
+      "Lớp giao diện, lớp điều khiển và lớp dữ liệu",
+      "Lớp ứng dụng, lớp dịch vụ và lớp trình bày",
+      "Lớp mô hình, lớp xử lý và lớp truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 38 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 39 (Chương 1): Mô hình dữ liệu quan hệ thể hiện dữ liệu dưới dạng nào?",
+    "options": [
+      "Các bảng (table) gồm hàng và cột",
+      "Cây phân cấp",
+      "Mạng các nút liên kết",
+      "Tập hợp các file riêng lẻ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 40 (Chương 1): Ưu điểm nổi bật của DBMS so với hệ thống tệp tin truyền thống là gì?",
+    "options": [
+      "Giảm trùng lặp dữ liệu và đảm bảo tính toàn vẹn",
+      "Dễ bị mất dữ liệu khi nhiều người truy cập",
+      "Không cần phần mềm hỗ trợ",
+      "Lưu trữ dữ liệu bằng giấy tờ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 41 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 42 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 43 (Chương 1): Ưu điểm nổi bật của DBMS so với hệ thống tệp tin truyền thống là gì?",
+    "options": [
+      "Giảm trùng lặp dữ liệu và đảm bảo tính toàn vẹn",
+      "Dễ bị mất dữ liệu khi nhiều người truy cập",
+      "Không cần phần mềm hỗ trợ",
+      "Lưu trữ dữ liệu bằng giấy tờ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 44 (Chương 1): Kiến trúc 3 lớp của hệ thống CSDL gồm những lớp nào?",
+    "options": [
+      "Lớp ngoại, lớp khái niệm và lớp vật lý",
+      "Lớp giao diện, lớp điều khiển và lớp dữ liệu",
+      "Lớp ứng dụng, lớp dịch vụ và lớp trình bày",
+      "Lớp mô hình, lớp xử lý và lớp truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 45 (Chương 1): Ưu điểm nổi bật của DBMS so với hệ thống tệp tin truyền thống là gì?",
+    "options": [
+      "Giảm trùng lặp dữ liệu và đảm bảo tính toàn vẹn",
+      "Dễ bị mất dữ liệu khi nhiều người truy cập",
+      "Không cần phần mềm hỗ trợ",
+      "Lưu trữ dữ liệu bằng giấy tờ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 46 (Chương 1): Mô hình dữ liệu quan hệ thể hiện dữ liệu dưới dạng nào?",
+    "options": [
+      "Các bảng (table) gồm hàng và cột",
+      "Cây phân cấp",
+      "Mạng các nút liên kết",
+      "Tập hợp các file riêng lẻ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 47 (Chương 1): Cơ sở dữ liệu (CSDL) là gì?",
+    "options": [
+      "Tập hợp các dữ liệu có cấu trúc, được lưu trữ và quản lý bằng máy tính",
+      "Một phần mềm để thiết kế giao diện người dùng",
+      "Một tập tin văn bản chứa dữ liệu ngẫu nhiên",
+      "Một hệ điều hành quản lý phần cứng máy tính"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 48 (Chương 1): Cơ sở dữ liệu (CSDL) là gì?",
+    "options": [
+      "Tập hợp các dữ liệu có cấu trúc, được lưu trữ và quản lý bằng máy tính",
+      "Một phần mềm để thiết kế giao diện người dùng",
+      "Một tập tin văn bản chứa dữ liệu ngẫu nhiên",
+      "Một hệ điều hành quản lý phần cứng máy tính"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 49 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 50 (Chương 1): Ưu điểm nổi bật của DBMS so với hệ thống tệp tin truyền thống là gì?",
+    "options": [
+      "Giảm trùng lặp dữ liệu và đảm bảo tính toàn vẹn",
+      "Dễ bị mất dữ liệu khi nhiều người truy cập",
+      "Không cần phần mềm hỗ trợ",
+      "Lưu trữ dữ liệu bằng giấy tờ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 51 (Chương 1): Mô hình dữ liệu quan hệ thể hiện dữ liệu dưới dạng nào?",
+    "options": [
+      "Các bảng (table) gồm hàng và cột",
+      "Cây phân cấp",
+      "Mạng các nút liên kết",
+      "Tập hợp các file riêng lẻ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 52 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 53 (Chương 1): Ưu điểm nổi bật của DBMS so với hệ thống tệp tin truyền thống là gì?",
+    "options": [
+      "Giảm trùng lặp dữ liệu và đảm bảo tính toàn vẹn",
+      "Dễ bị mất dữ liệu khi nhiều người truy cập",
+      "Không cần phần mềm hỗ trợ",
+      "Lưu trữ dữ liệu bằng giấy tờ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 54 (Chương 1): Kiến trúc 3 lớp của hệ thống CSDL gồm những lớp nào?",
+    "options": [
+      "Lớp ngoại, lớp khái niệm và lớp vật lý",
+      "Lớp giao diện, lớp điều khiển và lớp dữ liệu",
+      "Lớp ứng dụng, lớp dịch vụ và lớp trình bày",
+      "Lớp mô hình, lớp xử lý và lớp truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 55 (Chương 1): Cơ sở dữ liệu (CSDL) là gì?",
+    "options": [
+      "Tập hợp các dữ liệu có cấu trúc, được lưu trữ và quản lý bằng máy tính",
+      "Một phần mềm để thiết kế giao diện người dùng",
+      "Một tập tin văn bản chứa dữ liệu ngẫu nhiên",
+      "Một hệ điều hành quản lý phần cứng máy tính"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 56 (Chương 1): Cơ sở dữ liệu (CSDL) là gì?",
+    "options": [
+      "Tập hợp các dữ liệu có cấu trúc, được lưu trữ và quản lý bằng máy tính",
+      "Một phần mềm để thiết kế giao diện người dùng",
+      "Một tập tin văn bản chứa dữ liệu ngẫu nhiên",
+      "Một hệ điều hành quản lý phần cứng máy tính"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 57 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 58 (Chương 1): Mô hình dữ liệu quan hệ thể hiện dữ liệu dưới dạng nào?",
+    "options": [
+      "Các bảng (table) gồm hàng và cột",
+      "Cây phân cấp",
+      "Mạng các nút liên kết",
+      "Tập hợp các file riêng lẻ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 59 (Chương 1): Hệ quản trị cơ sở dữ liệu (DBMS) có chức năng chính nào sau đây?",
+    "options": [
+      "Quản lý việc lưu trữ, truy xuất và bảo mật dữ liệu",
+      "Thực hiện biên dịch chương trình",
+      "Xử lý ảnh và đồ họa",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 60 (Chương 1): Kiến trúc 3 lớp của hệ thống CSDL gồm những lớp nào?",
+    "options": [
+      "Lớp ngoại, lớp khái niệm và lớp vật lý",
+      "Lớp giao diện, lớp điều khiển và lớp dữ liệu",
+      "Lớp ứng dụng, lớp dịch vụ và lớp trình bày",
+      "Lớp mô hình, lớp xử lý và lớp truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 61 (Chương 1): Kiến trúc 3 lớp của hệ thống CSDL gồm những lớp nào?",
+    "options": [
+      "Lớp ngoại, lớp khái niệm và lớp vật lý",
+      "Lớp giao diện, lớp điều khiển và lớp dữ liệu",
+      "Lớp ứng dụng, lớp dịch vụ và lớp trình bày",
+      "Lớp mô hình, lớp xử lý và lớp truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 62 (Chương 1): Hệ quản trị cơ sở dữ liệu (DBMS) có chức năng chính nào sau đây?",
+    "options": [
+      "Quản lý việc lưu trữ, truy xuất và bảo mật dữ liệu",
+      "Thực hiện biên dịch chương trình",
+      "Xử lý ảnh và đồ họa",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 63 (Chương 1): Hệ quản trị cơ sở dữ liệu (DBMS) có chức năng chính nào sau đây?",
+    "options": [
+      "Quản lý việc lưu trữ, truy xuất và bảo mật dữ liệu",
+      "Thực hiện biên dịch chương trình",
+      "Xử lý ảnh và đồ họa",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 64 (Chương 1): Cơ sở dữ liệu (CSDL) là gì?",
+    "options": [
+      "Tập hợp các dữ liệu có cấu trúc, được lưu trữ và quản lý bằng máy tính",
+      "Một phần mềm để thiết kế giao diện người dùng",
+      "Một tập tin văn bản chứa dữ liệu ngẫu nhiên",
+      "Một hệ điều hành quản lý phần cứng máy tính"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 65 (Chương 1): Cơ sở dữ liệu (CSDL) là gì?",
+    "options": [
+      "Tập hợp các dữ liệu có cấu trúc, được lưu trữ và quản lý bằng máy tính",
+      "Một phần mềm để thiết kế giao diện người dùng",
+      "Một tập tin văn bản chứa dữ liệu ngẫu nhiên",
+      "Một hệ điều hành quản lý phần cứng máy tính"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 66 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 67 (Chương 1): Mô hình dữ liệu quan hệ thể hiện dữ liệu dưới dạng nào?",
+    "options": [
+      "Các bảng (table) gồm hàng và cột",
+      "Cây phân cấp",
+      "Mạng các nút liên kết",
+      "Tập hợp các file riêng lẻ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 68 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 69 (Chương 1): Ưu điểm nổi bật của DBMS so với hệ thống tệp tin truyền thống là gì?",
+    "options": [
+      "Giảm trùng lặp dữ liệu và đảm bảo tính toàn vẹn",
+      "Dễ bị mất dữ liệu khi nhiều người truy cập",
+      "Không cần phần mềm hỗ trợ",
+      "Lưu trữ dữ liệu bằng giấy tờ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 70 (Chương 1): Mô hình dữ liệu quan hệ thể hiện dữ liệu dưới dạng nào?",
+    "options": [
+      "Các bảng (table) gồm hàng và cột",
+      "Cây phân cấp",
+      "Mạng các nút liên kết",
+      "Tập hợp các file riêng lẻ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 71 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 72 (Chương 1): Kiến trúc 3 lớp của hệ thống CSDL gồm những lớp nào?",
+    "options": [
+      "Lớp ngoại, lớp khái niệm và lớp vật lý",
+      "Lớp giao diện, lớp điều khiển và lớp dữ liệu",
+      "Lớp ứng dụng, lớp dịch vụ và lớp trình bày",
+      "Lớp mô hình, lớp xử lý và lớp truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 73 (Chương 1): Kiến trúc 3 lớp của hệ thống CSDL gồm những lớp nào?",
+    "options": [
+      "Lớp ngoại, lớp khái niệm và lớp vật lý",
+      "Lớp giao diện, lớp điều khiển và lớp dữ liệu",
+      "Lớp ứng dụng, lớp dịch vụ và lớp trình bày",
+      "Lớp mô hình, lớp xử lý và lớp truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 74 (Chương 1): Mô hình dữ liệu quan hệ thể hiện dữ liệu dưới dạng nào?",
+    "options": [
+      "Các bảng (table) gồm hàng và cột",
+      "Cây phân cấp",
+      "Mạng các nút liên kết",
+      "Tập hợp các file riêng lẻ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 75 (Chương 1): Cơ sở dữ liệu (CSDL) là gì?",
+    "options": [
+      "Tập hợp các dữ liệu có cấu trúc, được lưu trữ và quản lý bằng máy tính",
+      "Một phần mềm để thiết kế giao diện người dùng",
+      "Một tập tin văn bản chứa dữ liệu ngẫu nhiên",
+      "Một hệ điều hành quản lý phần cứng máy tính"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 76 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 77 (Chương 1): Ưu điểm nổi bật của DBMS so với hệ thống tệp tin truyền thống là gì?",
+    "options": [
+      "Giảm trùng lặp dữ liệu và đảm bảo tính toàn vẹn",
+      "Dễ bị mất dữ liệu khi nhiều người truy cập",
+      "Không cần phần mềm hỗ trợ",
+      "Lưu trữ dữ liệu bằng giấy tờ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 78 (Chương 1): Ưu điểm nổi bật của DBMS so với hệ thống tệp tin truyền thống là gì?",
+    "options": [
+      "Giảm trùng lặp dữ liệu và đảm bảo tính toàn vẹn",
+      "Dễ bị mất dữ liệu khi nhiều người truy cập",
+      "Không cần phần mềm hỗ trợ",
+      "Lưu trữ dữ liệu bằng giấy tờ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 79 (Chương 1): Cơ sở dữ liệu (CSDL) là gì?",
+    "options": [
+      "Tập hợp các dữ liệu có cấu trúc, được lưu trữ và quản lý bằng máy tính",
+      "Một phần mềm để thiết kế giao diện người dùng",
+      "Một tập tin văn bản chứa dữ liệu ngẫu nhiên",
+      "Một hệ điều hành quản lý phần cứng máy tính"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 80 (Chương 1): Kiến trúc 3 lớp của hệ thống CSDL gồm những lớp nào?",
+    "options": [
+      "Lớp ngoại, lớp khái niệm và lớp vật lý",
+      "Lớp giao diện, lớp điều khiển và lớp dữ liệu",
+      "Lớp ứng dụng, lớp dịch vụ và lớp trình bày",
+      "Lớp mô hình, lớp xử lý và lớp truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 81 (Chương 1): Cơ sở dữ liệu (CSDL) là gì?",
+    "options": [
+      "Tập hợp các dữ liệu có cấu trúc, được lưu trữ và quản lý bằng máy tính",
+      "Một phần mềm để thiết kế giao diện người dùng",
+      "Một tập tin văn bản chứa dữ liệu ngẫu nhiên",
+      "Một hệ điều hành quản lý phần cứng máy tính"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 82 (Chương 1): Ưu điểm nổi bật của DBMS so với hệ thống tệp tin truyền thống là gì?",
+    "options": [
+      "Giảm trùng lặp dữ liệu và đảm bảo tính toàn vẹn",
+      "Dễ bị mất dữ liệu khi nhiều người truy cập",
+      "Không cần phần mềm hỗ trợ",
+      "Lưu trữ dữ liệu bằng giấy tờ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 83 (Chương 1): Kiến trúc 3 lớp của hệ thống CSDL gồm những lớp nào?",
+    "options": [
+      "Lớp ngoại, lớp khái niệm và lớp vật lý",
+      "Lớp giao diện, lớp điều khiển và lớp dữ liệu",
+      "Lớp ứng dụng, lớp dịch vụ và lớp trình bày",
+      "Lớp mô hình, lớp xử lý và lớp truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 84 (Chương 1): Kiến trúc 3 lớp của hệ thống CSDL gồm những lớp nào?",
+    "options": [
+      "Lớp ngoại, lớp khái niệm và lớp vật lý",
+      "Lớp giao diện, lớp điều khiển và lớp dữ liệu",
+      "Lớp ứng dụng, lớp dịch vụ và lớp trình bày",
+      "Lớp mô hình, lớp xử lý và lớp truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 85 (Chương 1): Hệ quản trị cơ sở dữ liệu (DBMS) có chức năng chính nào sau đây?",
+    "options": [
+      "Quản lý việc lưu trữ, truy xuất và bảo mật dữ liệu",
+      "Thực hiện biên dịch chương trình",
+      "Xử lý ảnh và đồ họa",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 86 (Chương 1): Kiến trúc 3 lớp của hệ thống CSDL gồm những lớp nào?",
+    "options": [
+      "Lớp ngoại, lớp khái niệm và lớp vật lý",
+      "Lớp giao diện, lớp điều khiển và lớp dữ liệu",
+      "Lớp ứng dụng, lớp dịch vụ và lớp trình bày",
+      "Lớp mô hình, lớp xử lý và lớp truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 87 (Chương 1): Mô hình dữ liệu quan hệ thể hiện dữ liệu dưới dạng nào?",
+    "options": [
+      "Các bảng (table) gồm hàng và cột",
+      "Cây phân cấp",
+      "Mạng các nút liên kết",
+      "Tập hợp các file riêng lẻ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 88 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 89 (Chương 1): Hệ quản trị cơ sở dữ liệu (DBMS) có chức năng chính nào sau đây?",
+    "options": [
+      "Quản lý việc lưu trữ, truy xuất và bảo mật dữ liệu",
+      "Thực hiện biên dịch chương trình",
+      "Xử lý ảnh và đồ họa",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 90 (Chương 1): Hệ quản trị cơ sở dữ liệu (DBMS) có chức năng chính nào sau đây?",
+    "options": [
+      "Quản lý việc lưu trữ, truy xuất và bảo mật dữ liệu",
+      "Thực hiện biên dịch chương trình",
+      "Xử lý ảnh và đồ họa",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 91 (Chương 1): Cơ sở dữ liệu (CSDL) là gì?",
+    "options": [
+      "Tập hợp các dữ liệu có cấu trúc, được lưu trữ và quản lý bằng máy tính",
+      "Một phần mềm để thiết kế giao diện người dùng",
+      "Một tập tin văn bản chứa dữ liệu ngẫu nhiên",
+      "Một hệ điều hành quản lý phần cứng máy tính"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 92 (Chương 1): Hệ quản trị cơ sở dữ liệu (DBMS) có chức năng chính nào sau đây?",
+    "options": [
+      "Quản lý việc lưu trữ, truy xuất và bảo mật dữ liệu",
+      "Thực hiện biên dịch chương trình",
+      "Xử lý ảnh và đồ họa",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 93 (Chương 1): Ưu điểm nổi bật của DBMS so với hệ thống tệp tin truyền thống là gì?",
+    "options": [
+      "Giảm trùng lặp dữ liệu và đảm bảo tính toàn vẹn",
+      "Dễ bị mất dữ liệu khi nhiều người truy cập",
+      "Không cần phần mềm hỗ trợ",
+      "Lưu trữ dữ liệu bằng giấy tờ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 94 (Chương 1): Cơ sở dữ liệu (CSDL) là gì?",
+    "options": [
+      "Tập hợp các dữ liệu có cấu trúc, được lưu trữ và quản lý bằng máy tính",
+      "Một phần mềm để thiết kế giao diện người dùng",
+      "Một tập tin văn bản chứa dữ liệu ngẫu nhiên",
+      "Một hệ điều hành quản lý phần cứng máy tính"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 95 (Chương 1): Người dùng cuối (end-user) là ai trong hệ thống CSDL?",
+    "options": [
+      "Người trực tiếp sử dụng ứng dụng để truy cập và thao tác dữ liệu",
+      "Người thiết kế và xây dựng CSDL",
+      "Người quản lý hệ thống mạng",
+      "Người phát triển phần cứng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 96 (Chương 1): Hệ quản trị cơ sở dữ liệu (DBMS) có chức năng chính nào sau đây?",
+    "options": [
+      "Quản lý việc lưu trữ, truy xuất và bảo mật dữ liệu",
+      "Thực hiện biên dịch chương trình",
+      "Xử lý ảnh và đồ họa",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 97 (Chương 1): Hệ quản trị cơ sở dữ liệu (DBMS) có chức năng chính nào sau đây?",
+    "options": [
+      "Quản lý việc lưu trữ, truy xuất và bảo mật dữ liệu",
+      "Thực hiện biên dịch chương trình",
+      "Xử lý ảnh và đồ họa",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 98 (Chương 1): Cơ sở dữ liệu (CSDL) là gì?",
+    "options": [
+      "Tập hợp các dữ liệu có cấu trúc, được lưu trữ và quản lý bằng máy tính",
+      "Một phần mềm để thiết kế giao diện người dùng",
+      "Một tập tin văn bản chứa dữ liệu ngẫu nhiên",
+      "Một hệ điều hành quản lý phần cứng máy tính"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 99 (Chương 1): Mô hình dữ liệu quan hệ thể hiện dữ liệu dưới dạng nào?",
+    "options": [
+      "Các bảng (table) gồm hàng và cột",
+      "Cây phân cấp",
+      "Mạng các nút liên kết",
+      "Tập hợp các file riêng lẻ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  },
+  {
+    "question": "Câu 100 (Chương 1): Cơ sở dữ liệu (CSDL) là gì?",
+    "options": [
+      "Tập hợp các dữ liệu có cấu trúc, được lưu trữ và quản lý bằng máy tính",
+      "Một phần mềm để thiết kế giao diện người dùng",
+      "Một tập tin văn bản chứa dữ liệu ngẫu nhiên",
+      "Một hệ điều hành quản lý phần cứng máy tính"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu"
+  }
+]

@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 3): Mục đích của bộ nhớ đệm (cache) là gì?",
+    "options": [
+      "Giảm thời gian truy cập dữ liệu thường xuyên sử dụng",
+      "Tăng dung lượng bộ nhớ",
+      "Lưu trữ tạm thời file hệ thống",
+      "Quản lý tiến trình"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 2 (Chương 3): Page fault xảy ra khi nào?",
+    "options": [
+      "Khi truy cập trang không có trong bộ nhớ vật lý",
+      "Khi CPU dừng đột ngột",
+      "Khi chương trình bị lỗi cú pháp",
+      "Khi ổ đĩa đầy"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 3 (Chương 3): Page fault xảy ra khi nào?",
+    "options": [
+      "Khi truy cập trang không có trong bộ nhớ vật lý",
+      "Khi CPU dừng đột ngột",
+      "Khi chương trình bị lỗi cú pháp",
+      "Khi ổ đĩa đầy"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 4 (Chương 3): Bộ nhớ ảo (virtual memory) cho phép điều gì?",
+    "options": [
+      "Sử dụng không gian địa chỉ lớn hơn bộ nhớ vật lý",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước ổ cứng",
+      "Tăng dung lượng RAM"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 5 (Chương 3): Khi nào xảy ra stack overflow?",
+    "options": [
+      "Khi chương trình sử dụng quá nhiều bộ nhớ stack",
+      "Khi ổ đĩa hỏng",
+      "Khi file bị mất",
+      "Khi user logout"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 6 (Chương 3): Page fault xảy ra khi nào?",
+    "options": [
+      "Khi truy cập trang không có trong bộ nhớ vật lý",
+      "Khi CPU dừng đột ngột",
+      "Khi chương trình bị lỗi cú pháp",
+      "Khi ổ đĩa đầy"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 7 (Chương 3): Bộ nhớ ảo (virtual memory) cho phép điều gì?",
+    "options": [
+      "Sử dụng không gian địa chỉ lớn hơn bộ nhớ vật lý",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước ổ cứng",
+      "Tăng dung lượng RAM"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 8 (Chương 3): Bộ nhớ ảo (virtual memory) cho phép điều gì?",
+    "options": [
+      "Sử dụng không gian địa chỉ lớn hơn bộ nhớ vật lý",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước ổ cứng",
+      "Tăng dung lượng RAM"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 9 (Chương 3): Copy-on-write (COW) giúp tiết kiệm bộ nhớ bằng cách nào?",
+    "options": [
+      "Chia sẻ trang giữa tiến trình cho đến khi có ghi thực sự",
+      "Tạo bản sao bộ nhớ mỗi lần đọc",
+      "Nén dữ liệu RAM",
+      "Tăng dung lượng swap"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 10 (Chương 3): Bộ nhớ ảo (virtual memory) cho phép điều gì?",
+    "options": [
+      "Sử dụng không gian địa chỉ lớn hơn bộ nhớ vật lý",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước ổ cứng",
+      "Tăng dung lượng RAM"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 11 (Chương 3): Paging trong hệ điều hành là gì?",
+    "options": [
+      "Chia bộ nhớ thành các trang cố định và ánh xạ tới khung trang vật lý",
+      "Phân vùng ổ đĩa",
+      "Sao lưu dữ liệu",
+      "Nén dữ liệu bộ nhớ"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 12 (Chương 3): Thrashing xảy ra khi nào trong quản lý bộ nhớ?",
+    "options": [
+      "Hệ thống phải hoán đổi liên tục do thiếu RAM",
+      "CPU quá tải",
+      "Ổ cứng lỗi",
+      "Không có tiến trình nào chạy"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 13 (Chương 3): Mục đích của bộ nhớ đệm (cache) là gì?",
+    "options": [
+      "Giảm thời gian truy cập dữ liệu thường xuyên sử dụng",
+      "Tăng dung lượng bộ nhớ",
+      "Lưu trữ tạm thời file hệ thống",
+      "Quản lý tiến trình"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 14 (Chương 3): Fragmentation (phân mảnh) trong bộ nhớ là gì?",
+    "options": [
+      "Không gian trống bị chia nhỏ gây khó cấp phát liên tục",
+      "Sự cố CPU",
+      "Mất điện đột ngột",
+      "Thiếu ổ cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 15 (Chương 3): Mục đích của bộ nhớ đệm (cache) là gì?",
+    "options": [
+      "Giảm thời gian truy cập dữ liệu thường xuyên sử dụng",
+      "Tăng dung lượng bộ nhớ",
+      "Lưu trữ tạm thời file hệ thống",
+      "Quản lý tiến trình"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 16 (Chương 3): Khi nào xảy ra stack overflow?",
+    "options": [
+      "Khi chương trình sử dụng quá nhiều bộ nhớ stack",
+      "Khi ổ đĩa hỏng",
+      "Khi file bị mất",
+      "Khi user logout"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 17 (Chương 3): Bộ nhớ ảo (virtual memory) cho phép điều gì?",
+    "options": [
+      "Sử dụng không gian địa chỉ lớn hơn bộ nhớ vật lý",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước ổ cứng",
+      "Tăng dung lượng RAM"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 18 (Chương 3): Chiến lược cấp phát 'first-fit' hoạt động như thế nào?",
+    "options": [
+      "Chọn khối bộ nhớ đầu tiên đủ lớn để cấp phát",
+      "Chọn khối lớn nhất",
+      "Chọn khối nhỏ nhất",
+      "Chọn khối cuối cùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 19 (Chương 3): Bộ nhớ ảo (virtual memory) cho phép điều gì?",
+    "options": [
+      "Sử dụng không gian địa chỉ lớn hơn bộ nhớ vật lý",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước ổ cứng",
+      "Tăng dung lượng RAM"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 20 (Chương 3): Bộ nhớ ảo (virtual memory) cho phép điều gì?",
+    "options": [
+      "Sử dụng không gian địa chỉ lớn hơn bộ nhớ vật lý",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước ổ cứng",
+      "Tăng dung lượng RAM"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 21 (Chương 3): Chiến lược cấp phát 'first-fit' hoạt động như thế nào?",
+    "options": [
+      "Chọn khối bộ nhớ đầu tiên đủ lớn để cấp phát",
+      "Chọn khối lớn nhất",
+      "Chọn khối nhỏ nhất",
+      "Chọn khối cuối cùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 22 (Chương 3): Mục đích của bộ nhớ đệm (cache) là gì?",
+    "options": [
+      "Giảm thời gian truy cập dữ liệu thường xuyên sử dụng",
+      "Tăng dung lượng bộ nhớ",
+      "Lưu trữ tạm thời file hệ thống",
+      "Quản lý tiến trình"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 23 (Chương 3): Paging trong hệ điều hành là gì?",
+    "options": [
+      "Chia bộ nhớ thành các trang cố định và ánh xạ tới khung trang vật lý",
+      "Phân vùng ổ đĩa",
+      "Sao lưu dữ liệu",
+      "Nén dữ liệu bộ nhớ"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 24 (Chương 3): Paging trong hệ điều hành là gì?",
+    "options": [
+      "Chia bộ nhớ thành các trang cố định và ánh xạ tới khung trang vật lý",
+      "Phân vùng ổ đĩa",
+      "Sao lưu dữ liệu",
+      "Nén dữ liệu bộ nhớ"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 25 (Chương 3): Page fault xảy ra khi nào?",
+    "options": [
+      "Khi truy cập trang không có trong bộ nhớ vật lý",
+      "Khi CPU dừng đột ngột",
+      "Khi chương trình bị lỗi cú pháp",
+      "Khi ổ đĩa đầy"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 26 (Chương 3): Copy-on-write (COW) giúp tiết kiệm bộ nhớ bằng cách nào?",
+    "options": [
+      "Chia sẻ trang giữa tiến trình cho đến khi có ghi thực sự",
+      "Tạo bản sao bộ nhớ mỗi lần đọc",
+      "Nén dữ liệu RAM",
+      "Tăng dung lượng swap"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 27 (Chương 3): Paging trong hệ điều hành là gì?",
+    "options": [
+      "Chia bộ nhớ thành các trang cố định và ánh xạ tới khung trang vật lý",
+      "Phân vùng ổ đĩa",
+      "Sao lưu dữ liệu",
+      "Nén dữ liệu bộ nhớ"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 28 (Chương 3): Paging trong hệ điều hành là gì?",
+    "options": [
+      "Chia bộ nhớ thành các trang cố định và ánh xạ tới khung trang vật lý",
+      "Phân vùng ổ đĩa",
+      "Sao lưu dữ liệu",
+      "Nén dữ liệu bộ nhớ"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 29 (Chương 3): Page fault xảy ra khi nào?",
+    "options": [
+      "Khi truy cập trang không có trong bộ nhớ vật lý",
+      "Khi CPU dừng đột ngột",
+      "Khi chương trình bị lỗi cú pháp",
+      "Khi ổ đĩa đầy"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 30 (Chương 3): Copy-on-write (COW) giúp tiết kiệm bộ nhớ bằng cách nào?",
+    "options": [
+      "Chia sẻ trang giữa tiến trình cho đến khi có ghi thực sự",
+      "Tạo bản sao bộ nhớ mỗi lần đọc",
+      "Nén dữ liệu RAM",
+      "Tăng dung lượng swap"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 31 (Chương 3): Thrashing xảy ra khi nào trong quản lý bộ nhớ?",
+    "options": [
+      "Hệ thống phải hoán đổi liên tục do thiếu RAM",
+      "CPU quá tải",
+      "Ổ cứng lỗi",
+      "Không có tiến trình nào chạy"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 32 (Chương 3): Paging trong hệ điều hành là gì?",
+    "options": [
+      "Chia bộ nhớ thành các trang cố định và ánh xạ tới khung trang vật lý",
+      "Phân vùng ổ đĩa",
+      "Sao lưu dữ liệu",
+      "Nén dữ liệu bộ nhớ"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 33 (Chương 3): Bộ nhớ ảo (virtual memory) cho phép điều gì?",
+    "options": [
+      "Sử dụng không gian địa chỉ lớn hơn bộ nhớ vật lý",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước ổ cứng",
+      "Tăng dung lượng RAM"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 34 (Chương 3): Paging trong hệ điều hành là gì?",
+    "options": [
+      "Chia bộ nhớ thành các trang cố định và ánh xạ tới khung trang vật lý",
+      "Phân vùng ổ đĩa",
+      "Sao lưu dữ liệu",
+      "Nén dữ liệu bộ nhớ"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 35 (Chương 3): Chiến lược cấp phát 'first-fit' hoạt động như thế nào?",
+    "options": [
+      "Chọn khối bộ nhớ đầu tiên đủ lớn để cấp phát",
+      "Chọn khối lớn nhất",
+      "Chọn khối nhỏ nhất",
+      "Chọn khối cuối cùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 36 (Chương 3): Mục đích của bộ nhớ đệm (cache) là gì?",
+    "options": [
+      "Giảm thời gian truy cập dữ liệu thường xuyên sử dụng",
+      "Tăng dung lượng bộ nhớ",
+      "Lưu trữ tạm thời file hệ thống",
+      "Quản lý tiến trình"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 37 (Chương 3): Page fault xảy ra khi nào?",
+    "options": [
+      "Khi truy cập trang không có trong bộ nhớ vật lý",
+      "Khi CPU dừng đột ngột",
+      "Khi chương trình bị lỗi cú pháp",
+      "Khi ổ đĩa đầy"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 38 (Chương 3): Page fault xảy ra khi nào?",
+    "options": [
+      "Khi truy cập trang không có trong bộ nhớ vật lý",
+      "Khi CPU dừng đột ngột",
+      "Khi chương trình bị lỗi cú pháp",
+      "Khi ổ đĩa đầy"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 39 (Chương 3): Copy-on-write (COW) giúp tiết kiệm bộ nhớ bằng cách nào?",
+    "options": [
+      "Chia sẻ trang giữa tiến trình cho đến khi có ghi thực sự",
+      "Tạo bản sao bộ nhớ mỗi lần đọc",
+      "Nén dữ liệu RAM",
+      "Tăng dung lượng swap"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 40 (Chương 3): Thrashing xảy ra khi nào trong quản lý bộ nhớ?",
+    "options": [
+      "Hệ thống phải hoán đổi liên tục do thiếu RAM",
+      "CPU quá tải",
+      "Ổ cứng lỗi",
+      "Không có tiến trình nào chạy"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 41 (Chương 3): Khi nào xảy ra stack overflow?",
+    "options": [
+      "Khi chương trình sử dụng quá nhiều bộ nhớ stack",
+      "Khi ổ đĩa hỏng",
+      "Khi file bị mất",
+      "Khi user logout"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 42 (Chương 3): Thrashing xảy ra khi nào trong quản lý bộ nhớ?",
+    "options": [
+      "Hệ thống phải hoán đổi liên tục do thiếu RAM",
+      "CPU quá tải",
+      "Ổ cứng lỗi",
+      "Không có tiến trình nào chạy"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 43 (Chương 3): TLB (Translation Lookaside Buffer) có vai trò gì?",
+    "options": [
+      "Lưu cache ánh xạ trang ảo sang trang vật lý",
+      "Lưu dữ liệu ổ đĩa",
+      "Quản lý tiến trình",
+      "Lưu thông tin người dùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 44 (Chương 3): Bộ nhớ ảo (virtual memory) cho phép điều gì?",
+    "options": [
+      "Sử dụng không gian địa chỉ lớn hơn bộ nhớ vật lý",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước ổ cứng",
+      "Tăng dung lượng RAM"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 45 (Chương 3): Khi nào xảy ra stack overflow?",
+    "options": [
+      "Khi chương trình sử dụng quá nhiều bộ nhớ stack",
+      "Khi ổ đĩa hỏng",
+      "Khi file bị mất",
+      "Khi user logout"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 46 (Chương 3): Chiến lược cấp phát 'first-fit' hoạt động như thế nào?",
+    "options": [
+      "Chọn khối bộ nhớ đầu tiên đủ lớn để cấp phát",
+      "Chọn khối lớn nhất",
+      "Chọn khối nhỏ nhất",
+      "Chọn khối cuối cùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 47 (Chương 3): Bộ nhớ ảo (virtual memory) cho phép điều gì?",
+    "options": [
+      "Sử dụng không gian địa chỉ lớn hơn bộ nhớ vật lý",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước ổ cứng",
+      "Tăng dung lượng RAM"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 48 (Chương 3): Thrashing xảy ra khi nào trong quản lý bộ nhớ?",
+    "options": [
+      "Hệ thống phải hoán đổi liên tục do thiếu RAM",
+      "CPU quá tải",
+      "Ổ cứng lỗi",
+      "Không có tiến trình nào chạy"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 49 (Chương 3): Fragmentation (phân mảnh) trong bộ nhớ là gì?",
+    "options": [
+      "Không gian trống bị chia nhỏ gây khó cấp phát liên tục",
+      "Sự cố CPU",
+      "Mất điện đột ngột",
+      "Thiếu ổ cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 50 (Chương 3): TLB (Translation Lookaside Buffer) có vai trò gì?",
+    "options": [
+      "Lưu cache ánh xạ trang ảo sang trang vật lý",
+      "Lưu dữ liệu ổ đĩa",
+      "Quản lý tiến trình",
+      "Lưu thông tin người dùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 51 (Chương 3): Fragmentation (phân mảnh) trong bộ nhớ là gì?",
+    "options": [
+      "Không gian trống bị chia nhỏ gây khó cấp phát liên tục",
+      "Sự cố CPU",
+      "Mất điện đột ngột",
+      "Thiếu ổ cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 52 (Chương 3): Chiến lược cấp phát 'first-fit' hoạt động như thế nào?",
+    "options": [
+      "Chọn khối bộ nhớ đầu tiên đủ lớn để cấp phát",
+      "Chọn khối lớn nhất",
+      "Chọn khối nhỏ nhất",
+      "Chọn khối cuối cùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 53 (Chương 3): Khi nào xảy ra stack overflow?",
+    "options": [
+      "Khi chương trình sử dụng quá nhiều bộ nhớ stack",
+      "Khi ổ đĩa hỏng",
+      "Khi file bị mất",
+      "Khi user logout"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 54 (Chương 3): Khi nào xảy ra stack overflow?",
+    "options": [
+      "Khi chương trình sử dụng quá nhiều bộ nhớ stack",
+      "Khi ổ đĩa hỏng",
+      "Khi file bị mất",
+      "Khi user logout"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 55 (Chương 3): Bộ nhớ ảo (virtual memory) cho phép điều gì?",
+    "options": [
+      "Sử dụng không gian địa chỉ lớn hơn bộ nhớ vật lý",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước ổ cứng",
+      "Tăng dung lượng RAM"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 56 (Chương 3): Paging trong hệ điều hành là gì?",
+    "options": [
+      "Chia bộ nhớ thành các trang cố định và ánh xạ tới khung trang vật lý",
+      "Phân vùng ổ đĩa",
+      "Sao lưu dữ liệu",
+      "Nén dữ liệu bộ nhớ"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 57 (Chương 3): Paging trong hệ điều hành là gì?",
+    "options": [
+      "Chia bộ nhớ thành các trang cố định và ánh xạ tới khung trang vật lý",
+      "Phân vùng ổ đĩa",
+      "Sao lưu dữ liệu",
+      "Nén dữ liệu bộ nhớ"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 58 (Chương 3): Paging trong hệ điều hành là gì?",
+    "options": [
+      "Chia bộ nhớ thành các trang cố định và ánh xạ tới khung trang vật lý",
+      "Phân vùng ổ đĩa",
+      "Sao lưu dữ liệu",
+      "Nén dữ liệu bộ nhớ"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 59 (Chương 3): TLB (Translation Lookaside Buffer) có vai trò gì?",
+    "options": [
+      "Lưu cache ánh xạ trang ảo sang trang vật lý",
+      "Lưu dữ liệu ổ đĩa",
+      "Quản lý tiến trình",
+      "Lưu thông tin người dùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 60 (Chương 3): Bộ nhớ ảo (virtual memory) cho phép điều gì?",
+    "options": [
+      "Sử dụng không gian địa chỉ lớn hơn bộ nhớ vật lý",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước ổ cứng",
+      "Tăng dung lượng RAM"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 61 (Chương 3): Mục đích của bộ nhớ đệm (cache) là gì?",
+    "options": [
+      "Giảm thời gian truy cập dữ liệu thường xuyên sử dụng",
+      "Tăng dung lượng bộ nhớ",
+      "Lưu trữ tạm thời file hệ thống",
+      "Quản lý tiến trình"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 62 (Chương 3): Khi nào xảy ra stack overflow?",
+    "options": [
+      "Khi chương trình sử dụng quá nhiều bộ nhớ stack",
+      "Khi ổ đĩa hỏng",
+      "Khi file bị mất",
+      "Khi user logout"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 63 (Chương 3): TLB (Translation Lookaside Buffer) có vai trò gì?",
+    "options": [
+      "Lưu cache ánh xạ trang ảo sang trang vật lý",
+      "Lưu dữ liệu ổ đĩa",
+      "Quản lý tiến trình",
+      "Lưu thông tin người dùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 64 (Chương 3): TLB (Translation Lookaside Buffer) có vai trò gì?",
+    "options": [
+      "Lưu cache ánh xạ trang ảo sang trang vật lý",
+      "Lưu dữ liệu ổ đĩa",
+      "Quản lý tiến trình",
+      "Lưu thông tin người dùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 65 (Chương 3): Page fault xảy ra khi nào?",
+    "options": [
+      "Khi truy cập trang không có trong bộ nhớ vật lý",
+      "Khi CPU dừng đột ngột",
+      "Khi chương trình bị lỗi cú pháp",
+      "Khi ổ đĩa đầy"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 66 (Chương 3): Bộ nhớ ảo (virtual memory) cho phép điều gì?",
+    "options": [
+      "Sử dụng không gian địa chỉ lớn hơn bộ nhớ vật lý",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước ổ cứng",
+      "Tăng dung lượng RAM"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 67 (Chương 3): Chiến lược cấp phát 'first-fit' hoạt động như thế nào?",
+    "options": [
+      "Chọn khối bộ nhớ đầu tiên đủ lớn để cấp phát",
+      "Chọn khối lớn nhất",
+      "Chọn khối nhỏ nhất",
+      "Chọn khối cuối cùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 68 (Chương 3): Page fault xảy ra khi nào?",
+    "options": [
+      "Khi truy cập trang không có trong bộ nhớ vật lý",
+      "Khi CPU dừng đột ngột",
+      "Khi chương trình bị lỗi cú pháp",
+      "Khi ổ đĩa đầy"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 69 (Chương 3): TLB (Translation Lookaside Buffer) có vai trò gì?",
+    "options": [
+      "Lưu cache ánh xạ trang ảo sang trang vật lý",
+      "Lưu dữ liệu ổ đĩa",
+      "Quản lý tiến trình",
+      "Lưu thông tin người dùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 70 (Chương 3): Thrashing xảy ra khi nào trong quản lý bộ nhớ?",
+    "options": [
+      "Hệ thống phải hoán đổi liên tục do thiếu RAM",
+      "CPU quá tải",
+      "Ổ cứng lỗi",
+      "Không có tiến trình nào chạy"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 71 (Chương 3): Chiến lược cấp phát 'first-fit' hoạt động như thế nào?",
+    "options": [
+      "Chọn khối bộ nhớ đầu tiên đủ lớn để cấp phát",
+      "Chọn khối lớn nhất",
+      "Chọn khối nhỏ nhất",
+      "Chọn khối cuối cùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 72 (Chương 3): Thrashing xảy ra khi nào trong quản lý bộ nhớ?",
+    "options": [
+      "Hệ thống phải hoán đổi liên tục do thiếu RAM",
+      "CPU quá tải",
+      "Ổ cứng lỗi",
+      "Không có tiến trình nào chạy"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 73 (Chương 3): Chiến lược cấp phát 'first-fit' hoạt động như thế nào?",
+    "options": [
+      "Chọn khối bộ nhớ đầu tiên đủ lớn để cấp phát",
+      "Chọn khối lớn nhất",
+      "Chọn khối nhỏ nhất",
+      "Chọn khối cuối cùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 74 (Chương 3): Bộ nhớ ảo (virtual memory) cho phép điều gì?",
+    "options": [
+      "Sử dụng không gian địa chỉ lớn hơn bộ nhớ vật lý",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước ổ cứng",
+      "Tăng dung lượng RAM"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 75 (Chương 3): Chiến lược cấp phát 'first-fit' hoạt động như thế nào?",
+    "options": [
+      "Chọn khối bộ nhớ đầu tiên đủ lớn để cấp phát",
+      "Chọn khối lớn nhất",
+      "Chọn khối nhỏ nhất",
+      "Chọn khối cuối cùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 76 (Chương 3): Copy-on-write (COW) giúp tiết kiệm bộ nhớ bằng cách nào?",
+    "options": [
+      "Chia sẻ trang giữa tiến trình cho đến khi có ghi thực sự",
+      "Tạo bản sao bộ nhớ mỗi lần đọc",
+      "Nén dữ liệu RAM",
+      "Tăng dung lượng swap"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 77 (Chương 3): Copy-on-write (COW) giúp tiết kiệm bộ nhớ bằng cách nào?",
+    "options": [
+      "Chia sẻ trang giữa tiến trình cho đến khi có ghi thực sự",
+      "Tạo bản sao bộ nhớ mỗi lần đọc",
+      "Nén dữ liệu RAM",
+      "Tăng dung lượng swap"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 78 (Chương 3): Paging trong hệ điều hành là gì?",
+    "options": [
+      "Chia bộ nhớ thành các trang cố định và ánh xạ tới khung trang vật lý",
+      "Phân vùng ổ đĩa",
+      "Sao lưu dữ liệu",
+      "Nén dữ liệu bộ nhớ"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 79 (Chương 3): Khi nào xảy ra stack overflow?",
+    "options": [
+      "Khi chương trình sử dụng quá nhiều bộ nhớ stack",
+      "Khi ổ đĩa hỏng",
+      "Khi file bị mất",
+      "Khi user logout"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 80 (Chương 3): TLB (Translation Lookaside Buffer) có vai trò gì?",
+    "options": [
+      "Lưu cache ánh xạ trang ảo sang trang vật lý",
+      "Lưu dữ liệu ổ đĩa",
+      "Quản lý tiến trình",
+      "Lưu thông tin người dùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 81 (Chương 3): Mục đích của bộ nhớ đệm (cache) là gì?",
+    "options": [
+      "Giảm thời gian truy cập dữ liệu thường xuyên sử dụng",
+      "Tăng dung lượng bộ nhớ",
+      "Lưu trữ tạm thời file hệ thống",
+      "Quản lý tiến trình"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 82 (Chương 3): Copy-on-write (COW) giúp tiết kiệm bộ nhớ bằng cách nào?",
+    "options": [
+      "Chia sẻ trang giữa tiến trình cho đến khi có ghi thực sự",
+      "Tạo bản sao bộ nhớ mỗi lần đọc",
+      "Nén dữ liệu RAM",
+      "Tăng dung lượng swap"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 83 (Chương 3): Paging trong hệ điều hành là gì?",
+    "options": [
+      "Chia bộ nhớ thành các trang cố định và ánh xạ tới khung trang vật lý",
+      "Phân vùng ổ đĩa",
+      "Sao lưu dữ liệu",
+      "Nén dữ liệu bộ nhớ"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 84 (Chương 3): Chiến lược cấp phát 'first-fit' hoạt động như thế nào?",
+    "options": [
+      "Chọn khối bộ nhớ đầu tiên đủ lớn để cấp phát",
+      "Chọn khối lớn nhất",
+      "Chọn khối nhỏ nhất",
+      "Chọn khối cuối cùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 85 (Chương 3): Paging trong hệ điều hành là gì?",
+    "options": [
+      "Chia bộ nhớ thành các trang cố định và ánh xạ tới khung trang vật lý",
+      "Phân vùng ổ đĩa",
+      "Sao lưu dữ liệu",
+      "Nén dữ liệu bộ nhớ"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 86 (Chương 3): Mục đích của bộ nhớ đệm (cache) là gì?",
+    "options": [
+      "Giảm thời gian truy cập dữ liệu thường xuyên sử dụng",
+      "Tăng dung lượng bộ nhớ",
+      "Lưu trữ tạm thời file hệ thống",
+      "Quản lý tiến trình"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 87 (Chương 3): Chiến lược cấp phát 'first-fit' hoạt động như thế nào?",
+    "options": [
+      "Chọn khối bộ nhớ đầu tiên đủ lớn để cấp phát",
+      "Chọn khối lớn nhất",
+      "Chọn khối nhỏ nhất",
+      "Chọn khối cuối cùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 88 (Chương 3): Chiến lược cấp phát 'first-fit' hoạt động như thế nào?",
+    "options": [
+      "Chọn khối bộ nhớ đầu tiên đủ lớn để cấp phát",
+      "Chọn khối lớn nhất",
+      "Chọn khối nhỏ nhất",
+      "Chọn khối cuối cùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 89 (Chương 3): Chiến lược cấp phát 'first-fit' hoạt động như thế nào?",
+    "options": [
+      "Chọn khối bộ nhớ đầu tiên đủ lớn để cấp phát",
+      "Chọn khối lớn nhất",
+      "Chọn khối nhỏ nhất",
+      "Chọn khối cuối cùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 90 (Chương 3): Thrashing xảy ra khi nào trong quản lý bộ nhớ?",
+    "options": [
+      "Hệ thống phải hoán đổi liên tục do thiếu RAM",
+      "CPU quá tải",
+      "Ổ cứng lỗi",
+      "Không có tiến trình nào chạy"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 91 (Chương 3): Paging trong hệ điều hành là gì?",
+    "options": [
+      "Chia bộ nhớ thành các trang cố định và ánh xạ tới khung trang vật lý",
+      "Phân vùng ổ đĩa",
+      "Sao lưu dữ liệu",
+      "Nén dữ liệu bộ nhớ"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 92 (Chương 3): TLB (Translation Lookaside Buffer) có vai trò gì?",
+    "options": [
+      "Lưu cache ánh xạ trang ảo sang trang vật lý",
+      "Lưu dữ liệu ổ đĩa",
+      "Quản lý tiến trình",
+      "Lưu thông tin người dùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 93 (Chương 3): Fragmentation (phân mảnh) trong bộ nhớ là gì?",
+    "options": [
+      "Không gian trống bị chia nhỏ gây khó cấp phát liên tục",
+      "Sự cố CPU",
+      "Mất điện đột ngột",
+      "Thiếu ổ cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 94 (Chương 3): Copy-on-write (COW) giúp tiết kiệm bộ nhớ bằng cách nào?",
+    "options": [
+      "Chia sẻ trang giữa tiến trình cho đến khi có ghi thực sự",
+      "Tạo bản sao bộ nhớ mỗi lần đọc",
+      "Nén dữ liệu RAM",
+      "Tăng dung lượng swap"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 95 (Chương 3): Page fault xảy ra khi nào?",
+    "options": [
+      "Khi truy cập trang không có trong bộ nhớ vật lý",
+      "Khi CPU dừng đột ngột",
+      "Khi chương trình bị lỗi cú pháp",
+      "Khi ổ đĩa đầy"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 96 (Chương 3): Thrashing xảy ra khi nào trong quản lý bộ nhớ?",
+    "options": [
+      "Hệ thống phải hoán đổi liên tục do thiếu RAM",
+      "CPU quá tải",
+      "Ổ cứng lỗi",
+      "Không có tiến trình nào chạy"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 97 (Chương 3): Mục đích của bộ nhớ đệm (cache) là gì?",
+    "options": [
+      "Giảm thời gian truy cập dữ liệu thường xuyên sử dụng",
+      "Tăng dung lượng bộ nhớ",
+      "Lưu trữ tạm thời file hệ thống",
+      "Quản lý tiến trình"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 98 (Chương 3): Khi nào xảy ra stack overflow?",
+    "options": [
+      "Khi chương trình sử dụng quá nhiều bộ nhớ stack",
+      "Khi ổ đĩa hỏng",
+      "Khi file bị mất",
+      "Khi user logout"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 99 (Chương 3): Khi nào xảy ra stack overflow?",
+    "options": [
+      "Khi chương trình sử dụng quá nhiều bộ nhớ stack",
+      "Khi ổ đĩa hỏng",
+      "Khi file bị mất",
+      "Khi user logout"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  },
+  {
+    "question": "Câu 100 (Chương 3): Bộ nhớ ảo (virtual memory) cho phép điều gì?",
+    "options": [
+      "Sử dụng không gian địa chỉ lớn hơn bộ nhớ vật lý",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước ổ cứng",
+      "Tăng dung lượng RAM"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 3: Quản lý bộ nhớ"
+  }
+]

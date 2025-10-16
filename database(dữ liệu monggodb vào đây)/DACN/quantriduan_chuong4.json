@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 4): Phương pháp PERT được dùng để làm gì?",
+    "options": [
+      "Ước lượng thời gian hoàn thành dự án dựa trên xác suất",
+      "Tính toán chi phí thực tế",
+      "Xác định nhân sự cần thiết",
+      "Lập kế hoạch marketing"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 2 (Chương 4): Chi phí gián tiếp trong dự án bao gồm gì?",
+    "options": [
+      "Chi phí quản lý, hành chính và hỗ trợ chung",
+      "Chi phí vật liệu trực tiếp",
+      "Chi phí thiết bị thi công",
+      "Chi phí nhân công cụ thể"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 3 (Chương 4): Kỹ thuật Earned Value Management (EVM) được sử dụng để làm gì?",
+    "options": [
+      "Đánh giá hiệu quả tiến độ và chi phí của dự án",
+      "Phân bổ nhân sự hợp lý",
+      "Phân tích rủi ro an ninh",
+      "Theo dõi thay đổi phạm vi"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 4 (Chương 4): Trong sơ đồ Gantt, các thanh màu thể hiện điều gì?",
+    "options": [
+      "Thời gian bắt đầu và kết thúc của từng hoạt động",
+      "Chi phí của từng giai đoạn",
+      "Số lượng nhân viên tham gia",
+      "Độ ưu tiên của hoạt động"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 5 (Chương 4): Phương pháp PERT được dùng để làm gì?",
+    "options": [
+      "Ước lượng thời gian hoàn thành dự án dựa trên xác suất",
+      "Tính toán chi phí thực tế",
+      "Xác định nhân sự cần thiết",
+      "Lập kế hoạch marketing"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 6 (Chương 4): Đường găng (Critical Path) trong sơ đồ PERT/CPM là gì?",
+    "options": [
+      "Chuỗi các công việc quyết định tổng thời gian của dự án",
+      "Các hoạt động có thể trì hoãn tùy ý",
+      "Các công việc không quan trọng",
+      "Các hoạt động có chi phí thấp nhất"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 7 (Chương 4): Trong quản lý chi phí, BAC (Budget at Completion) là gì?",
+    "options": [
+      "Tổng ngân sách dự kiến khi dự án hoàn thành",
+      "Chi phí phát sinh ngoài kế hoạch",
+      "Ngân sách thực tế tại một thời điểm",
+      "Số tiền cần chi mỗi tháng"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 8 (Chương 4): Khi một hoạt động nằm trên đường găng bị trì hoãn, điều gì xảy ra?",
+    "options": [
+      "Toàn bộ dự án sẽ bị trì hoãn",
+      "Chi phí giảm xuống",
+      "Không ảnh hưởng đến tiến độ",
+      "Chỉ ảnh hưởng đến một phần nhỏ"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 9 (Chương 4): Khi một hoạt động nằm trên đường găng bị trì hoãn, điều gì xảy ra?",
+    "options": [
+      "Toàn bộ dự án sẽ bị trì hoãn",
+      "Chi phí giảm xuống",
+      "Không ảnh hưởng đến tiến độ",
+      "Chỉ ảnh hưởng đến một phần nhỏ"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 10 (Chương 4): Chi phí trực tiếp trong dự án là gì?",
+    "options": [
+      "Chi phí gắn trực tiếp với hoạt động cụ thể của dự án",
+      "Chi phí quản lý hành chính chung",
+      "Chi phí thuê ngoài gián tiếp",
+      "Chi phí không tính vào ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 11 (Chương 4): Float (độ trễ) trong sơ đồ mạng dự án là gì?",
+    "options": [
+      "Khoảng thời gian mà một hoạt động có thể trì hoãn mà không ảnh hưởng đến tiến độ tổng thể",
+      "Thời gian thực hiện công việc",
+      "Khoảng thời gian trống trong ngân sách",
+      "Khoảng thời gian dành cho bảo trì"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 12 (Chương 4): Chi phí gián tiếp trong dự án bao gồm gì?",
+    "options": [
+      "Chi phí quản lý, hành chính và hỗ trợ chung",
+      "Chi phí vật liệu trực tiếp",
+      "Chi phí thiết bị thi công",
+      "Chi phí nhân công cụ thể"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 13 (Chương 4): Biểu đồ Gantt được sử dụng để làm gì trong quản lý dự án?",
+    "options": [
+      "Theo dõi tiến độ và thời gian thực hiện các công việc",
+      "Phân tích rủi ro tài chính",
+      "Phân công nhân sự",
+      "Xác định phạm vi dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 14 (Chương 4): Float (độ trễ) trong sơ đồ mạng dự án là gì?",
+    "options": [
+      "Khoảng thời gian mà một hoạt động có thể trì hoãn mà không ảnh hưởng đến tiến độ tổng thể",
+      "Thời gian thực hiện công việc",
+      "Khoảng thời gian trống trong ngân sách",
+      "Khoảng thời gian dành cho bảo trì"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 15 (Chương 4): Biểu đồ Gantt được sử dụng để làm gì trong quản lý dự án?",
+    "options": [
+      "Theo dõi tiến độ và thời gian thực hiện các công việc",
+      "Phân tích rủi ro tài chính",
+      "Phân công nhân sự",
+      "Xác định phạm vi dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 16 (Chương 4): Đường găng (Critical Path) trong sơ đồ PERT/CPM là gì?",
+    "options": [
+      "Chuỗi các công việc quyết định tổng thời gian của dự án",
+      "Các hoạt động có thể trì hoãn tùy ý",
+      "Các công việc không quan trọng",
+      "Các hoạt động có chi phí thấp nhất"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 17 (Chương 4): Phương pháp PERT được dùng để làm gì?",
+    "options": [
+      "Ước lượng thời gian hoàn thành dự án dựa trên xác suất",
+      "Tính toán chi phí thực tế",
+      "Xác định nhân sự cần thiết",
+      "Lập kế hoạch marketing"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 18 (Chương 4): Chi phí gián tiếp trong dự án bao gồm gì?",
+    "options": [
+      "Chi phí quản lý, hành chính và hỗ trợ chung",
+      "Chi phí vật liệu trực tiếp",
+      "Chi phí thiết bị thi công",
+      "Chi phí nhân công cụ thể"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 19 (Chương 4): Đường găng (Critical Path) trong sơ đồ PERT/CPM là gì?",
+    "options": [
+      "Chuỗi các công việc quyết định tổng thời gian của dự án",
+      "Các hoạt động có thể trì hoãn tùy ý",
+      "Các công việc không quan trọng",
+      "Các hoạt động có chi phí thấp nhất"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 20 (Chương 4): Đường găng (Critical Path) trong sơ đồ PERT/CPM là gì?",
+    "options": [
+      "Chuỗi các công việc quyết định tổng thời gian của dự án",
+      "Các hoạt động có thể trì hoãn tùy ý",
+      "Các công việc không quan trọng",
+      "Các hoạt động có chi phí thấp nhất"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 21 (Chương 4): Float (độ trễ) trong sơ đồ mạng dự án là gì?",
+    "options": [
+      "Khoảng thời gian mà một hoạt động có thể trì hoãn mà không ảnh hưởng đến tiến độ tổng thể",
+      "Thời gian thực hiện công việc",
+      "Khoảng thời gian trống trong ngân sách",
+      "Khoảng thời gian dành cho bảo trì"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 22 (Chương 4): Chi phí trực tiếp trong dự án là gì?",
+    "options": [
+      "Chi phí gắn trực tiếp với hoạt động cụ thể của dự án",
+      "Chi phí quản lý hành chính chung",
+      "Chi phí thuê ngoài gián tiếp",
+      "Chi phí không tính vào ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 23 (Chương 4): Chi phí trực tiếp trong dự án là gì?",
+    "options": [
+      "Chi phí gắn trực tiếp với hoạt động cụ thể của dự án",
+      "Chi phí quản lý hành chính chung",
+      "Chi phí thuê ngoài gián tiếp",
+      "Chi phí không tính vào ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 24 (Chương 4): Float (độ trễ) trong sơ đồ mạng dự án là gì?",
+    "options": [
+      "Khoảng thời gian mà một hoạt động có thể trì hoãn mà không ảnh hưởng đến tiến độ tổng thể",
+      "Thời gian thực hiện công việc",
+      "Khoảng thời gian trống trong ngân sách",
+      "Khoảng thời gian dành cho bảo trì"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 25 (Chương 4): Trong quản lý chi phí, BAC (Budget at Completion) là gì?",
+    "options": [
+      "Tổng ngân sách dự kiến khi dự án hoàn thành",
+      "Chi phí phát sinh ngoài kế hoạch",
+      "Ngân sách thực tế tại một thời điểm",
+      "Số tiền cần chi mỗi tháng"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 26 (Chương 4): Kỹ thuật Earned Value Management (EVM) được sử dụng để làm gì?",
+    "options": [
+      "Đánh giá hiệu quả tiến độ và chi phí của dự án",
+      "Phân bổ nhân sự hợp lý",
+      "Phân tích rủi ro an ninh",
+      "Theo dõi thay đổi phạm vi"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 27 (Chương 4): Khi một hoạt động nằm trên đường găng bị trì hoãn, điều gì xảy ra?",
+    "options": [
+      "Toàn bộ dự án sẽ bị trì hoãn",
+      "Chi phí giảm xuống",
+      "Không ảnh hưởng đến tiến độ",
+      "Chỉ ảnh hưởng đến một phần nhỏ"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 28 (Chương 4): Trong sơ đồ Gantt, các thanh màu thể hiện điều gì?",
+    "options": [
+      "Thời gian bắt đầu và kết thúc của từng hoạt động",
+      "Chi phí của từng giai đoạn",
+      "Số lượng nhân viên tham gia",
+      "Độ ưu tiên của hoạt động"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 29 (Chương 4): Float (độ trễ) trong sơ đồ mạng dự án là gì?",
+    "options": [
+      "Khoảng thời gian mà một hoạt động có thể trì hoãn mà không ảnh hưởng đến tiến độ tổng thể",
+      "Thời gian thực hiện công việc",
+      "Khoảng thời gian trống trong ngân sách",
+      "Khoảng thời gian dành cho bảo trì"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 30 (Chương 4): Phương pháp PERT được dùng để làm gì?",
+    "options": [
+      "Ước lượng thời gian hoàn thành dự án dựa trên xác suất",
+      "Tính toán chi phí thực tế",
+      "Xác định nhân sự cần thiết",
+      "Lập kế hoạch marketing"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 31 (Chương 4): Trong quản lý chi phí, BAC (Budget at Completion) là gì?",
+    "options": [
+      "Tổng ngân sách dự kiến khi dự án hoàn thành",
+      "Chi phí phát sinh ngoài kế hoạch",
+      "Ngân sách thực tế tại một thời điểm",
+      "Số tiền cần chi mỗi tháng"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 32 (Chương 4): Trong sơ đồ Gantt, các thanh màu thể hiện điều gì?",
+    "options": [
+      "Thời gian bắt đầu và kết thúc của từng hoạt động",
+      "Chi phí của từng giai đoạn",
+      "Số lượng nhân viên tham gia",
+      "Độ ưu tiên của hoạt động"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 33 (Chương 4): Biểu đồ Gantt được sử dụng để làm gì trong quản lý dự án?",
+    "options": [
+      "Theo dõi tiến độ và thời gian thực hiện các công việc",
+      "Phân tích rủi ro tài chính",
+      "Phân công nhân sự",
+      "Xác định phạm vi dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 34 (Chương 4): Chi phí trực tiếp trong dự án là gì?",
+    "options": [
+      "Chi phí gắn trực tiếp với hoạt động cụ thể của dự án",
+      "Chi phí quản lý hành chính chung",
+      "Chi phí thuê ngoài gián tiếp",
+      "Chi phí không tính vào ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 35 (Chương 4): Khi một hoạt động nằm trên đường găng bị trì hoãn, điều gì xảy ra?",
+    "options": [
+      "Toàn bộ dự án sẽ bị trì hoãn",
+      "Chi phí giảm xuống",
+      "Không ảnh hưởng đến tiến độ",
+      "Chỉ ảnh hưởng đến một phần nhỏ"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 36 (Chương 4): Chi phí gián tiếp trong dự án bao gồm gì?",
+    "options": [
+      "Chi phí quản lý, hành chính và hỗ trợ chung",
+      "Chi phí vật liệu trực tiếp",
+      "Chi phí thiết bị thi công",
+      "Chi phí nhân công cụ thể"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 37 (Chương 4): Float (độ trễ) trong sơ đồ mạng dự án là gì?",
+    "options": [
+      "Khoảng thời gian mà một hoạt động có thể trì hoãn mà không ảnh hưởng đến tiến độ tổng thể",
+      "Thời gian thực hiện công việc",
+      "Khoảng thời gian trống trong ngân sách",
+      "Khoảng thời gian dành cho bảo trì"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 38 (Chương 4): Float (độ trễ) trong sơ đồ mạng dự án là gì?",
+    "options": [
+      "Khoảng thời gian mà một hoạt động có thể trì hoãn mà không ảnh hưởng đến tiến độ tổng thể",
+      "Thời gian thực hiện công việc",
+      "Khoảng thời gian trống trong ngân sách",
+      "Khoảng thời gian dành cho bảo trì"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 39 (Chương 4): Chi phí gián tiếp trong dự án bao gồm gì?",
+    "options": [
+      "Chi phí quản lý, hành chính và hỗ trợ chung",
+      "Chi phí vật liệu trực tiếp",
+      "Chi phí thiết bị thi công",
+      "Chi phí nhân công cụ thể"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 40 (Chương 4): Đường găng (Critical Path) trong sơ đồ PERT/CPM là gì?",
+    "options": [
+      "Chuỗi các công việc quyết định tổng thời gian của dự án",
+      "Các hoạt động có thể trì hoãn tùy ý",
+      "Các công việc không quan trọng",
+      "Các hoạt động có chi phí thấp nhất"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 41 (Chương 4): Phương pháp PERT được dùng để làm gì?",
+    "options": [
+      "Ước lượng thời gian hoàn thành dự án dựa trên xác suất",
+      "Tính toán chi phí thực tế",
+      "Xác định nhân sự cần thiết",
+      "Lập kế hoạch marketing"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 42 (Chương 4): Biểu đồ Gantt được sử dụng để làm gì trong quản lý dự án?",
+    "options": [
+      "Theo dõi tiến độ và thời gian thực hiện các công việc",
+      "Phân tích rủi ro tài chính",
+      "Phân công nhân sự",
+      "Xác định phạm vi dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 43 (Chương 4): Kỹ thuật Earned Value Management (EVM) được sử dụng để làm gì?",
+    "options": [
+      "Đánh giá hiệu quả tiến độ và chi phí của dự án",
+      "Phân bổ nhân sự hợp lý",
+      "Phân tích rủi ro an ninh",
+      "Theo dõi thay đổi phạm vi"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 44 (Chương 4): Chi phí gián tiếp trong dự án bao gồm gì?",
+    "options": [
+      "Chi phí quản lý, hành chính và hỗ trợ chung",
+      "Chi phí vật liệu trực tiếp",
+      "Chi phí thiết bị thi công",
+      "Chi phí nhân công cụ thể"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 45 (Chương 4): Trong quản lý chi phí, BAC (Budget at Completion) là gì?",
+    "options": [
+      "Tổng ngân sách dự kiến khi dự án hoàn thành",
+      "Chi phí phát sinh ngoài kế hoạch",
+      "Ngân sách thực tế tại một thời điểm",
+      "Số tiền cần chi mỗi tháng"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 46 (Chương 4): Phương pháp PERT được dùng để làm gì?",
+    "options": [
+      "Ước lượng thời gian hoàn thành dự án dựa trên xác suất",
+      "Tính toán chi phí thực tế",
+      "Xác định nhân sự cần thiết",
+      "Lập kế hoạch marketing"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 47 (Chương 4): Đường găng (Critical Path) trong sơ đồ PERT/CPM là gì?",
+    "options": [
+      "Chuỗi các công việc quyết định tổng thời gian của dự án",
+      "Các hoạt động có thể trì hoãn tùy ý",
+      "Các công việc không quan trọng",
+      "Các hoạt động có chi phí thấp nhất"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 48 (Chương 4): Kỹ thuật Earned Value Management (EVM) được sử dụng để làm gì?",
+    "options": [
+      "Đánh giá hiệu quả tiến độ và chi phí của dự án",
+      "Phân bổ nhân sự hợp lý",
+      "Phân tích rủi ro an ninh",
+      "Theo dõi thay đổi phạm vi"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 49 (Chương 4): Trong sơ đồ Gantt, các thanh màu thể hiện điều gì?",
+    "options": [
+      "Thời gian bắt đầu và kết thúc của từng hoạt động",
+      "Chi phí của từng giai đoạn",
+      "Số lượng nhân viên tham gia",
+      "Độ ưu tiên của hoạt động"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 50 (Chương 4): Đường găng (Critical Path) trong sơ đồ PERT/CPM là gì?",
+    "options": [
+      "Chuỗi các công việc quyết định tổng thời gian của dự án",
+      "Các hoạt động có thể trì hoãn tùy ý",
+      "Các công việc không quan trọng",
+      "Các hoạt động có chi phí thấp nhất"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 51 (Chương 4): Chi phí gián tiếp trong dự án bao gồm gì?",
+    "options": [
+      "Chi phí quản lý, hành chính và hỗ trợ chung",
+      "Chi phí vật liệu trực tiếp",
+      "Chi phí thiết bị thi công",
+      "Chi phí nhân công cụ thể"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 52 (Chương 4): Chi phí trực tiếp trong dự án là gì?",
+    "options": [
+      "Chi phí gắn trực tiếp với hoạt động cụ thể của dự án",
+      "Chi phí quản lý hành chính chung",
+      "Chi phí thuê ngoài gián tiếp",
+      "Chi phí không tính vào ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 53 (Chương 4): Phương pháp PERT được dùng để làm gì?",
+    "options": [
+      "Ước lượng thời gian hoàn thành dự án dựa trên xác suất",
+      "Tính toán chi phí thực tế",
+      "Xác định nhân sự cần thiết",
+      "Lập kế hoạch marketing"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 54 (Chương 4): Phương pháp PERT được dùng để làm gì?",
+    "options": [
+      "Ước lượng thời gian hoàn thành dự án dựa trên xác suất",
+      "Tính toán chi phí thực tế",
+      "Xác định nhân sự cần thiết",
+      "Lập kế hoạch marketing"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 55 (Chương 4): Đường găng (Critical Path) trong sơ đồ PERT/CPM là gì?",
+    "options": [
+      "Chuỗi các công việc quyết định tổng thời gian của dự án",
+      "Các hoạt động có thể trì hoãn tùy ý",
+      "Các công việc không quan trọng",
+      "Các hoạt động có chi phí thấp nhất"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 56 (Chương 4): Khi một hoạt động nằm trên đường găng bị trì hoãn, điều gì xảy ra?",
+    "options": [
+      "Toàn bộ dự án sẽ bị trì hoãn",
+      "Chi phí giảm xuống",
+      "Không ảnh hưởng đến tiến độ",
+      "Chỉ ảnh hưởng đến một phần nhỏ"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 57 (Chương 4): Kỹ thuật Earned Value Management (EVM) được sử dụng để làm gì?",
+    "options": [
+      "Đánh giá hiệu quả tiến độ và chi phí của dự án",
+      "Phân bổ nhân sự hợp lý",
+      "Phân tích rủi ro an ninh",
+      "Theo dõi thay đổi phạm vi"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 58 (Chương 4): Biểu đồ Gantt được sử dụng để làm gì trong quản lý dự án?",
+    "options": [
+      "Theo dõi tiến độ và thời gian thực hiện các công việc",
+      "Phân tích rủi ro tài chính",
+      "Phân công nhân sự",
+      "Xác định phạm vi dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 59 (Chương 4): Khi một hoạt động nằm trên đường găng bị trì hoãn, điều gì xảy ra?",
+    "options": [
+      "Toàn bộ dự án sẽ bị trì hoãn",
+      "Chi phí giảm xuống",
+      "Không ảnh hưởng đến tiến độ",
+      "Chỉ ảnh hưởng đến một phần nhỏ"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 60 (Chương 4): Chi phí trực tiếp trong dự án là gì?",
+    "options": [
+      "Chi phí gắn trực tiếp với hoạt động cụ thể của dự án",
+      "Chi phí quản lý hành chính chung",
+      "Chi phí thuê ngoài gián tiếp",
+      "Chi phí không tính vào ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 61 (Chương 4): Kỹ thuật Earned Value Management (EVM) được sử dụng để làm gì?",
+    "options": [
+      "Đánh giá hiệu quả tiến độ và chi phí của dự án",
+      "Phân bổ nhân sự hợp lý",
+      "Phân tích rủi ro an ninh",
+      "Theo dõi thay đổi phạm vi"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 62 (Chương 4): Chi phí gián tiếp trong dự án bao gồm gì?",
+    "options": [
+      "Chi phí quản lý, hành chính và hỗ trợ chung",
+      "Chi phí vật liệu trực tiếp",
+      "Chi phí thiết bị thi công",
+      "Chi phí nhân công cụ thể"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 63 (Chương 4): Kỹ thuật Earned Value Management (EVM) được sử dụng để làm gì?",
+    "options": [
+      "Đánh giá hiệu quả tiến độ và chi phí của dự án",
+      "Phân bổ nhân sự hợp lý",
+      "Phân tích rủi ro an ninh",
+      "Theo dõi thay đổi phạm vi"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 64 (Chương 4): Chi phí gián tiếp trong dự án bao gồm gì?",
+    "options": [
+      "Chi phí quản lý, hành chính và hỗ trợ chung",
+      "Chi phí vật liệu trực tiếp",
+      "Chi phí thiết bị thi công",
+      "Chi phí nhân công cụ thể"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 65 (Chương 4): Khi một hoạt động nằm trên đường găng bị trì hoãn, điều gì xảy ra?",
+    "options": [
+      "Toàn bộ dự án sẽ bị trì hoãn",
+      "Chi phí giảm xuống",
+      "Không ảnh hưởng đến tiến độ",
+      "Chỉ ảnh hưởng đến một phần nhỏ"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 66 (Chương 4): Chi phí trực tiếp trong dự án là gì?",
+    "options": [
+      "Chi phí gắn trực tiếp với hoạt động cụ thể của dự án",
+      "Chi phí quản lý hành chính chung",
+      "Chi phí thuê ngoài gián tiếp",
+      "Chi phí không tính vào ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 67 (Chương 4): Chi phí trực tiếp trong dự án là gì?",
+    "options": [
+      "Chi phí gắn trực tiếp với hoạt động cụ thể của dự án",
+      "Chi phí quản lý hành chính chung",
+      "Chi phí thuê ngoài gián tiếp",
+      "Chi phí không tính vào ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 68 (Chương 4): Biểu đồ Gantt được sử dụng để làm gì trong quản lý dự án?",
+    "options": [
+      "Theo dõi tiến độ và thời gian thực hiện các công việc",
+      "Phân tích rủi ro tài chính",
+      "Phân công nhân sự",
+      "Xác định phạm vi dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 69 (Chương 4): Chi phí trực tiếp trong dự án là gì?",
+    "options": [
+      "Chi phí gắn trực tiếp với hoạt động cụ thể của dự án",
+      "Chi phí quản lý hành chính chung",
+      "Chi phí thuê ngoài gián tiếp",
+      "Chi phí không tính vào ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 70 (Chương 4): Float (độ trễ) trong sơ đồ mạng dự án là gì?",
+    "options": [
+      "Khoảng thời gian mà một hoạt động có thể trì hoãn mà không ảnh hưởng đến tiến độ tổng thể",
+      "Thời gian thực hiện công việc",
+      "Khoảng thời gian trống trong ngân sách",
+      "Khoảng thời gian dành cho bảo trì"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 71 (Chương 4): Đường găng (Critical Path) trong sơ đồ PERT/CPM là gì?",
+    "options": [
+      "Chuỗi các công việc quyết định tổng thời gian của dự án",
+      "Các hoạt động có thể trì hoãn tùy ý",
+      "Các công việc không quan trọng",
+      "Các hoạt động có chi phí thấp nhất"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 72 (Chương 4): Đường găng (Critical Path) trong sơ đồ PERT/CPM là gì?",
+    "options": [
+      "Chuỗi các công việc quyết định tổng thời gian của dự án",
+      "Các hoạt động có thể trì hoãn tùy ý",
+      "Các công việc không quan trọng",
+      "Các hoạt động có chi phí thấp nhất"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 73 (Chương 4): Chi phí gián tiếp trong dự án bao gồm gì?",
+    "options": [
+      "Chi phí quản lý, hành chính và hỗ trợ chung",
+      "Chi phí vật liệu trực tiếp",
+      "Chi phí thiết bị thi công",
+      "Chi phí nhân công cụ thể"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 74 (Chương 4): Chi phí gián tiếp trong dự án bao gồm gì?",
+    "options": [
+      "Chi phí quản lý, hành chính và hỗ trợ chung",
+      "Chi phí vật liệu trực tiếp",
+      "Chi phí thiết bị thi công",
+      "Chi phí nhân công cụ thể"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 75 (Chương 4): Chi phí trực tiếp trong dự án là gì?",
+    "options": [
+      "Chi phí gắn trực tiếp với hoạt động cụ thể của dự án",
+      "Chi phí quản lý hành chính chung",
+      "Chi phí thuê ngoài gián tiếp",
+      "Chi phí không tính vào ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 76 (Chương 4): Khi một hoạt động nằm trên đường găng bị trì hoãn, điều gì xảy ra?",
+    "options": [
+      "Toàn bộ dự án sẽ bị trì hoãn",
+      "Chi phí giảm xuống",
+      "Không ảnh hưởng đến tiến độ",
+      "Chỉ ảnh hưởng đến một phần nhỏ"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 77 (Chương 4): Đường găng (Critical Path) trong sơ đồ PERT/CPM là gì?",
+    "options": [
+      "Chuỗi các công việc quyết định tổng thời gian của dự án",
+      "Các hoạt động có thể trì hoãn tùy ý",
+      "Các công việc không quan trọng",
+      "Các hoạt động có chi phí thấp nhất"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 78 (Chương 4): Phương pháp PERT được dùng để làm gì?",
+    "options": [
+      "Ước lượng thời gian hoàn thành dự án dựa trên xác suất",
+      "Tính toán chi phí thực tế",
+      "Xác định nhân sự cần thiết",
+      "Lập kế hoạch marketing"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 79 (Chương 4): Trong sơ đồ Gantt, các thanh màu thể hiện điều gì?",
+    "options": [
+      "Thời gian bắt đầu và kết thúc của từng hoạt động",
+      "Chi phí của từng giai đoạn",
+      "Số lượng nhân viên tham gia",
+      "Độ ưu tiên của hoạt động"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 80 (Chương 4): Trong sơ đồ Gantt, các thanh màu thể hiện điều gì?",
+    "options": [
+      "Thời gian bắt đầu và kết thúc của từng hoạt động",
+      "Chi phí của từng giai đoạn",
+      "Số lượng nhân viên tham gia",
+      "Độ ưu tiên của hoạt động"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 81 (Chương 4): Phương pháp PERT được dùng để làm gì?",
+    "options": [
+      "Ước lượng thời gian hoàn thành dự án dựa trên xác suất",
+      "Tính toán chi phí thực tế",
+      "Xác định nhân sự cần thiết",
+      "Lập kế hoạch marketing"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 82 (Chương 4): Chi phí trực tiếp trong dự án là gì?",
+    "options": [
+      "Chi phí gắn trực tiếp với hoạt động cụ thể của dự án",
+      "Chi phí quản lý hành chính chung",
+      "Chi phí thuê ngoài gián tiếp",
+      "Chi phí không tính vào ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 83 (Chương 4): Đường găng (Critical Path) trong sơ đồ PERT/CPM là gì?",
+    "options": [
+      "Chuỗi các công việc quyết định tổng thời gian của dự án",
+      "Các hoạt động có thể trì hoãn tùy ý",
+      "Các công việc không quan trọng",
+      "Các hoạt động có chi phí thấp nhất"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 84 (Chương 4): Phương pháp PERT được dùng để làm gì?",
+    "options": [
+      "Ước lượng thời gian hoàn thành dự án dựa trên xác suất",
+      "Tính toán chi phí thực tế",
+      "Xác định nhân sự cần thiết",
+      "Lập kế hoạch marketing"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 85 (Chương 4): Biểu đồ Gantt được sử dụng để làm gì trong quản lý dự án?",
+    "options": [
+      "Theo dõi tiến độ và thời gian thực hiện các công việc",
+      "Phân tích rủi ro tài chính",
+      "Phân công nhân sự",
+      "Xác định phạm vi dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 86 (Chương 4): Kỹ thuật Earned Value Management (EVM) được sử dụng để làm gì?",
+    "options": [
+      "Đánh giá hiệu quả tiến độ và chi phí của dự án",
+      "Phân bổ nhân sự hợp lý",
+      "Phân tích rủi ro an ninh",
+      "Theo dõi thay đổi phạm vi"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 87 (Chương 4): Khi một hoạt động nằm trên đường găng bị trì hoãn, điều gì xảy ra?",
+    "options": [
+      "Toàn bộ dự án sẽ bị trì hoãn",
+      "Chi phí giảm xuống",
+      "Không ảnh hưởng đến tiến độ",
+      "Chỉ ảnh hưởng đến một phần nhỏ"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 88 (Chương 4): Khi một hoạt động nằm trên đường găng bị trì hoãn, điều gì xảy ra?",
+    "options": [
+      "Toàn bộ dự án sẽ bị trì hoãn",
+      "Chi phí giảm xuống",
+      "Không ảnh hưởng đến tiến độ",
+      "Chỉ ảnh hưởng đến một phần nhỏ"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 89 (Chương 4): Khi một hoạt động nằm trên đường găng bị trì hoãn, điều gì xảy ra?",
+    "options": [
+      "Toàn bộ dự án sẽ bị trì hoãn",
+      "Chi phí giảm xuống",
+      "Không ảnh hưởng đến tiến độ",
+      "Chỉ ảnh hưởng đến một phần nhỏ"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 90 (Chương 4): Trong sơ đồ Gantt, các thanh màu thể hiện điều gì?",
+    "options": [
+      "Thời gian bắt đầu và kết thúc của từng hoạt động",
+      "Chi phí của từng giai đoạn",
+      "Số lượng nhân viên tham gia",
+      "Độ ưu tiên của hoạt động"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 91 (Chương 4): Trong quản lý chi phí, BAC (Budget at Completion) là gì?",
+    "options": [
+      "Tổng ngân sách dự kiến khi dự án hoàn thành",
+      "Chi phí phát sinh ngoài kế hoạch",
+      "Ngân sách thực tế tại một thời điểm",
+      "Số tiền cần chi mỗi tháng"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 92 (Chương 4): Biểu đồ Gantt được sử dụng để làm gì trong quản lý dự án?",
+    "options": [
+      "Theo dõi tiến độ và thời gian thực hiện các công việc",
+      "Phân tích rủi ro tài chính",
+      "Phân công nhân sự",
+      "Xác định phạm vi dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 93 (Chương 4): Trong quản lý chi phí, BAC (Budget at Completion) là gì?",
+    "options": [
+      "Tổng ngân sách dự kiến khi dự án hoàn thành",
+      "Chi phí phát sinh ngoài kế hoạch",
+      "Ngân sách thực tế tại một thời điểm",
+      "Số tiền cần chi mỗi tháng"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 94 (Chương 4): Kỹ thuật Earned Value Management (EVM) được sử dụng để làm gì?",
+    "options": [
+      "Đánh giá hiệu quả tiến độ và chi phí của dự án",
+      "Phân bổ nhân sự hợp lý",
+      "Phân tích rủi ro an ninh",
+      "Theo dõi thay đổi phạm vi"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 95 (Chương 4): Chi phí trực tiếp trong dự án là gì?",
+    "options": [
+      "Chi phí gắn trực tiếp với hoạt động cụ thể của dự án",
+      "Chi phí quản lý hành chính chung",
+      "Chi phí thuê ngoài gián tiếp",
+      "Chi phí không tính vào ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 96 (Chương 4): Chi phí gián tiếp trong dự án bao gồm gì?",
+    "options": [
+      "Chi phí quản lý, hành chính và hỗ trợ chung",
+      "Chi phí vật liệu trực tiếp",
+      "Chi phí thiết bị thi công",
+      "Chi phí nhân công cụ thể"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 97 (Chương 4): Trong sơ đồ Gantt, các thanh màu thể hiện điều gì?",
+    "options": [
+      "Thời gian bắt đầu và kết thúc của từng hoạt động",
+      "Chi phí của từng giai đoạn",
+      "Số lượng nhân viên tham gia",
+      "Độ ưu tiên của hoạt động"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 98 (Chương 4): Biểu đồ Gantt được sử dụng để làm gì trong quản lý dự án?",
+    "options": [
+      "Theo dõi tiến độ và thời gian thực hiện các công việc",
+      "Phân tích rủi ro tài chính",
+      "Phân công nhân sự",
+      "Xác định phạm vi dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 99 (Chương 4): Trong quản lý chi phí, BAC (Budget at Completion) là gì?",
+    "options": [
+      "Tổng ngân sách dự kiến khi dự án hoàn thành",
+      "Chi phí phát sinh ngoài kế hoạch",
+      "Ngân sách thực tế tại một thời điểm",
+      "Số tiền cần chi mỗi tháng"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  },
+  {
+    "question": "Câu 100 (Chương 4): Đường găng (Critical Path) trong sơ đồ PERT/CPM là gì?",
+    "options": [
+      "Chuỗi các công việc quyết định tổng thời gian của dự án",
+      "Các hoạt động có thể trì hoãn tùy ý",
+      "Các công việc không quan trọng",
+      "Các hoạt động có chi phí thấp nhất"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án"
+  }
+]

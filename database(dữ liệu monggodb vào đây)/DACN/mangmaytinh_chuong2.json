@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 2): Sự khác nhau cơ bản giữa TCP và UDP là gì?",
+    "options": [
+      "TCP có kiểm soát lỗi, UDP không đảm bảo truyền tin cậy",
+      "UDP chậm hơn TCP",
+      "TCP không dùng trong Internet",
+      "UDP chỉ dùng trong LAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 2 (Chương 2): Địa chỉ IP dùng để làm gì?",
+    "options": [
+      "Định danh thiết bị trong mạng",
+      "Mã hóa dữ liệu",
+      "Tăng tốc kết nối",
+      "Lưu trữ thông tin người dùng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 3 (Chương 2): Chức năng chính của tầng vận chuyển (Transport layer) là gì?",
+    "options": [
+      "Đảm bảo truyền dữ liệu tin cậy từ đầu cuối đến đầu cuối",
+      "Chia nhỏ gói dữ liệu",
+      "Mã hóa dữ liệu",
+      "Kết nối vật lý"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 4 (Chương 2): Một địa chỉ IPv4 có bao nhiêu bit?",
+    "options": [
+      "32 bit",
+      "64 bit",
+      "16 bit",
+      "128 bit"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 5 (Chương 2): Tầng liên kết dữ liệu (Data Link) chịu trách nhiệm gì?",
+    "options": [
+      "Phát hiện và sửa lỗi trong khung dữ liệu",
+      "Mã hóa dữ liệu",
+      "Quản lý phiên kết nối",
+      "Chuyển tiếp gói tin"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 6 (Chương 2): Sự khác nhau cơ bản giữa TCP và UDP là gì?",
+    "options": [
+      "TCP có kiểm soát lỗi, UDP không đảm bảo truyền tin cậy",
+      "UDP chậm hơn TCP",
+      "TCP không dùng trong Internet",
+      "UDP chỉ dùng trong LAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 7 (Chương 2): Tầng vật lý (Physical layer) trong mô hình OSI có chức năng gì?",
+    "options": [
+      "Truyền tín hiệu bit qua môi trường vật lý",
+      "Xử lý lỗi truyền dữ liệu",
+      "Định tuyến gói tin",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 8 (Chương 2): Mô hình OSI gồm bao nhiêu tầng?",
+    "options": [
+      "7 tầng",
+      "5 tầng",
+      "6 tầng",
+      "8 tầng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 9 (Chương 2): Tầng liên kết dữ liệu (Data Link) chịu trách nhiệm gì?",
+    "options": [
+      "Phát hiện và sửa lỗi trong khung dữ liệu",
+      "Mã hóa dữ liệu",
+      "Quản lý phiên kết nối",
+      "Chuyển tiếp gói tin"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 10 (Chương 2): TCP là viết tắt của gì?",
+    "options": [
+      "Transmission Control Protocol",
+      "Transport Channel Protocol",
+      "Total Communication Path",
+      "Transmission Channel Path"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 11 (Chương 2): Tầng nào trong mô hình OSI tương ứng với tầng Application của mô hình TCP/IP?",
+    "options": [
+      "Application, Presentation, Session",
+      "Transport",
+      "Network",
+      "Data Link"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 12 (Chương 2): Tầng nào trong mô hình OSI tương ứng với tầng Application của mô hình TCP/IP?",
+    "options": [
+      "Application, Presentation, Session",
+      "Transport",
+      "Network",
+      "Data Link"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 13 (Chương 2): Một địa chỉ IPv4 có bao nhiêu bit?",
+    "options": [
+      "32 bit",
+      "64 bit",
+      "16 bit",
+      "128 bit"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 14 (Chương 2): Địa chỉ IP dùng để làm gì?",
+    "options": [
+      "Định danh thiết bị trong mạng",
+      "Mã hóa dữ liệu",
+      "Tăng tốc kết nối",
+      "Lưu trữ thông tin người dùng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 15 (Chương 2): Sự khác nhau cơ bản giữa TCP và UDP là gì?",
+    "options": [
+      "TCP có kiểm soát lỗi, UDP không đảm bảo truyền tin cậy",
+      "UDP chậm hơn TCP",
+      "TCP không dùng trong Internet",
+      "UDP chỉ dùng trong LAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 16 (Chương 2): Sự khác nhau cơ bản giữa TCP và UDP là gì?",
+    "options": [
+      "TCP có kiểm soát lỗi, UDP không đảm bảo truyền tin cậy",
+      "UDP chậm hơn TCP",
+      "TCP không dùng trong Internet",
+      "UDP chỉ dùng trong LAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 17 (Chương 2): Sự khác nhau cơ bản giữa TCP và UDP là gì?",
+    "options": [
+      "TCP có kiểm soát lỗi, UDP không đảm bảo truyền tin cậy",
+      "UDP chậm hơn TCP",
+      "TCP không dùng trong Internet",
+      "UDP chỉ dùng trong LAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 18 (Chương 2): Tầng liên kết dữ liệu (Data Link) chịu trách nhiệm gì?",
+    "options": [
+      "Phát hiện và sửa lỗi trong khung dữ liệu",
+      "Mã hóa dữ liệu",
+      "Quản lý phiên kết nối",
+      "Chuyển tiếp gói tin"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 19 (Chương 2): Tầng vật lý (Physical layer) trong mô hình OSI có chức năng gì?",
+    "options": [
+      "Truyền tín hiệu bit qua môi trường vật lý",
+      "Xử lý lỗi truyền dữ liệu",
+      "Định tuyến gói tin",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 20 (Chương 2): Địa chỉ IP dùng để làm gì?",
+    "options": [
+      "Định danh thiết bị trong mạng",
+      "Mã hóa dữ liệu",
+      "Tăng tốc kết nối",
+      "Lưu trữ thông tin người dùng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 21 (Chương 2): Tầng mạng (Network layer) sử dụng giao thức nào phổ biến nhất?",
+    "options": [
+      "IP (Internet Protocol)",
+      "TCP",
+      "FTP",
+      "HTTP"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 22 (Chương 2): Sự khác nhau cơ bản giữa TCP và UDP là gì?",
+    "options": [
+      "TCP có kiểm soát lỗi, UDP không đảm bảo truyền tin cậy",
+      "UDP chậm hơn TCP",
+      "TCP không dùng trong Internet",
+      "UDP chỉ dùng trong LAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 23 (Chương 2): Một địa chỉ IPv4 có bao nhiêu bit?",
+    "options": [
+      "32 bit",
+      "64 bit",
+      "16 bit",
+      "128 bit"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 24 (Chương 2): Tầng liên kết dữ liệu (Data Link) chịu trách nhiệm gì?",
+    "options": [
+      "Phát hiện và sửa lỗi trong khung dữ liệu",
+      "Mã hóa dữ liệu",
+      "Quản lý phiên kết nối",
+      "Chuyển tiếp gói tin"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 25 (Chương 2): Tầng nào trong mô hình OSI tương ứng với tầng Application của mô hình TCP/IP?",
+    "options": [
+      "Application, Presentation, Session",
+      "Transport",
+      "Network",
+      "Data Link"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 26 (Chương 2): Mô hình OSI gồm bao nhiêu tầng?",
+    "options": [
+      "7 tầng",
+      "5 tầng",
+      "6 tầng",
+      "8 tầng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 27 (Chương 2): TCP là viết tắt của gì?",
+    "options": [
+      "Transmission Control Protocol",
+      "Transport Channel Protocol",
+      "Total Communication Path",
+      "Transmission Channel Path"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 28 (Chương 2): Tầng nào trong mô hình OSI tương ứng với tầng Application của mô hình TCP/IP?",
+    "options": [
+      "Application, Presentation, Session",
+      "Transport",
+      "Network",
+      "Data Link"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 29 (Chương 2): Sự khác nhau cơ bản giữa TCP và UDP là gì?",
+    "options": [
+      "TCP có kiểm soát lỗi, UDP không đảm bảo truyền tin cậy",
+      "UDP chậm hơn TCP",
+      "TCP không dùng trong Internet",
+      "UDP chỉ dùng trong LAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 30 (Chương 2): Chức năng chính của tầng vận chuyển (Transport layer) là gì?",
+    "options": [
+      "Đảm bảo truyền dữ liệu tin cậy từ đầu cuối đến đầu cuối",
+      "Chia nhỏ gói dữ liệu",
+      "Mã hóa dữ liệu",
+      "Kết nối vật lý"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 31 (Chương 2): Địa chỉ IP dùng để làm gì?",
+    "options": [
+      "Định danh thiết bị trong mạng",
+      "Mã hóa dữ liệu",
+      "Tăng tốc kết nối",
+      "Lưu trữ thông tin người dùng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 32 (Chương 2): Tầng vật lý (Physical layer) trong mô hình OSI có chức năng gì?",
+    "options": [
+      "Truyền tín hiệu bit qua môi trường vật lý",
+      "Xử lý lỗi truyền dữ liệu",
+      "Định tuyến gói tin",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 33 (Chương 2): Mô hình OSI gồm bao nhiêu tầng?",
+    "options": [
+      "7 tầng",
+      "5 tầng",
+      "6 tầng",
+      "8 tầng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 34 (Chương 2): TCP là viết tắt của gì?",
+    "options": [
+      "Transmission Control Protocol",
+      "Transport Channel Protocol",
+      "Total Communication Path",
+      "Transmission Channel Path"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 35 (Chương 2): Mô hình OSI gồm bao nhiêu tầng?",
+    "options": [
+      "7 tầng",
+      "5 tầng",
+      "6 tầng",
+      "8 tầng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 36 (Chương 2): Tầng vật lý (Physical layer) trong mô hình OSI có chức năng gì?",
+    "options": [
+      "Truyền tín hiệu bit qua môi trường vật lý",
+      "Xử lý lỗi truyền dữ liệu",
+      "Định tuyến gói tin",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 37 (Chương 2): Tầng liên kết dữ liệu (Data Link) chịu trách nhiệm gì?",
+    "options": [
+      "Phát hiện và sửa lỗi trong khung dữ liệu",
+      "Mã hóa dữ liệu",
+      "Quản lý phiên kết nối",
+      "Chuyển tiếp gói tin"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 38 (Chương 2): Tầng liên kết dữ liệu (Data Link) chịu trách nhiệm gì?",
+    "options": [
+      "Phát hiện và sửa lỗi trong khung dữ liệu",
+      "Mã hóa dữ liệu",
+      "Quản lý phiên kết nối",
+      "Chuyển tiếp gói tin"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 39 (Chương 2): Tầng mạng (Network layer) sử dụng giao thức nào phổ biến nhất?",
+    "options": [
+      "IP (Internet Protocol)",
+      "TCP",
+      "FTP",
+      "HTTP"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 40 (Chương 2): TCP là viết tắt của gì?",
+    "options": [
+      "Transmission Control Protocol",
+      "Transport Channel Protocol",
+      "Total Communication Path",
+      "Transmission Channel Path"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 41 (Chương 2): Mô hình OSI gồm bao nhiêu tầng?",
+    "options": [
+      "7 tầng",
+      "5 tầng",
+      "6 tầng",
+      "8 tầng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 42 (Chương 2): Tầng liên kết dữ liệu (Data Link) chịu trách nhiệm gì?",
+    "options": [
+      "Phát hiện và sửa lỗi trong khung dữ liệu",
+      "Mã hóa dữ liệu",
+      "Quản lý phiên kết nối",
+      "Chuyển tiếp gói tin"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 43 (Chương 2): Một địa chỉ IPv4 có bao nhiêu bit?",
+    "options": [
+      "32 bit",
+      "64 bit",
+      "16 bit",
+      "128 bit"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 44 (Chương 2): Tầng nào trong mô hình OSI tương ứng với tầng Application của mô hình TCP/IP?",
+    "options": [
+      "Application, Presentation, Session",
+      "Transport",
+      "Network",
+      "Data Link"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 45 (Chương 2): Tầng nào trong mô hình OSI tương ứng với tầng Application của mô hình TCP/IP?",
+    "options": [
+      "Application, Presentation, Session",
+      "Transport",
+      "Network",
+      "Data Link"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 46 (Chương 2): Chức năng chính của tầng vận chuyển (Transport layer) là gì?",
+    "options": [
+      "Đảm bảo truyền dữ liệu tin cậy từ đầu cuối đến đầu cuối",
+      "Chia nhỏ gói dữ liệu",
+      "Mã hóa dữ liệu",
+      "Kết nối vật lý"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 47 (Chương 2): Sự khác nhau cơ bản giữa TCP và UDP là gì?",
+    "options": [
+      "TCP có kiểm soát lỗi, UDP không đảm bảo truyền tin cậy",
+      "UDP chậm hơn TCP",
+      "TCP không dùng trong Internet",
+      "UDP chỉ dùng trong LAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 48 (Chương 2): Tầng vật lý (Physical layer) trong mô hình OSI có chức năng gì?",
+    "options": [
+      "Truyền tín hiệu bit qua môi trường vật lý",
+      "Xử lý lỗi truyền dữ liệu",
+      "Định tuyến gói tin",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 49 (Chương 2): Tầng liên kết dữ liệu (Data Link) chịu trách nhiệm gì?",
+    "options": [
+      "Phát hiện và sửa lỗi trong khung dữ liệu",
+      "Mã hóa dữ liệu",
+      "Quản lý phiên kết nối",
+      "Chuyển tiếp gói tin"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 50 (Chương 2): Sự khác nhau cơ bản giữa TCP và UDP là gì?",
+    "options": [
+      "TCP có kiểm soát lỗi, UDP không đảm bảo truyền tin cậy",
+      "UDP chậm hơn TCP",
+      "TCP không dùng trong Internet",
+      "UDP chỉ dùng trong LAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 51 (Chương 2): Địa chỉ IP dùng để làm gì?",
+    "options": [
+      "Định danh thiết bị trong mạng",
+      "Mã hóa dữ liệu",
+      "Tăng tốc kết nối",
+      "Lưu trữ thông tin người dùng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 52 (Chương 2): Tầng mạng (Network layer) sử dụng giao thức nào phổ biến nhất?",
+    "options": [
+      "IP (Internet Protocol)",
+      "TCP",
+      "FTP",
+      "HTTP"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 53 (Chương 2): Một địa chỉ IPv4 có bao nhiêu bit?",
+    "options": [
+      "32 bit",
+      "64 bit",
+      "16 bit",
+      "128 bit"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 54 (Chương 2): Sự khác nhau cơ bản giữa TCP và UDP là gì?",
+    "options": [
+      "TCP có kiểm soát lỗi, UDP không đảm bảo truyền tin cậy",
+      "UDP chậm hơn TCP",
+      "TCP không dùng trong Internet",
+      "UDP chỉ dùng trong LAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 55 (Chương 2): Tầng vật lý (Physical layer) trong mô hình OSI có chức năng gì?",
+    "options": [
+      "Truyền tín hiệu bit qua môi trường vật lý",
+      "Xử lý lỗi truyền dữ liệu",
+      "Định tuyến gói tin",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 56 (Chương 2): Tầng nào trong mô hình OSI tương ứng với tầng Application của mô hình TCP/IP?",
+    "options": [
+      "Application, Presentation, Session",
+      "Transport",
+      "Network",
+      "Data Link"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 57 (Chương 2): Tầng nào trong mô hình OSI tương ứng với tầng Application của mô hình TCP/IP?",
+    "options": [
+      "Application, Presentation, Session",
+      "Transport",
+      "Network",
+      "Data Link"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 58 (Chương 2): TCP là viết tắt của gì?",
+    "options": [
+      "Transmission Control Protocol",
+      "Transport Channel Protocol",
+      "Total Communication Path",
+      "Transmission Channel Path"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 59 (Chương 2): Mô hình OSI gồm bao nhiêu tầng?",
+    "options": [
+      "7 tầng",
+      "5 tầng",
+      "6 tầng",
+      "8 tầng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 60 (Chương 2): Chức năng chính của tầng vận chuyển (Transport layer) là gì?",
+    "options": [
+      "Đảm bảo truyền dữ liệu tin cậy từ đầu cuối đến đầu cuối",
+      "Chia nhỏ gói dữ liệu",
+      "Mã hóa dữ liệu",
+      "Kết nối vật lý"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 61 (Chương 2): Mô hình OSI gồm bao nhiêu tầng?",
+    "options": [
+      "7 tầng",
+      "5 tầng",
+      "6 tầng",
+      "8 tầng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 62 (Chương 2): Tầng vật lý (Physical layer) trong mô hình OSI có chức năng gì?",
+    "options": [
+      "Truyền tín hiệu bit qua môi trường vật lý",
+      "Xử lý lỗi truyền dữ liệu",
+      "Định tuyến gói tin",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 63 (Chương 2): Tầng liên kết dữ liệu (Data Link) chịu trách nhiệm gì?",
+    "options": [
+      "Phát hiện và sửa lỗi trong khung dữ liệu",
+      "Mã hóa dữ liệu",
+      "Quản lý phiên kết nối",
+      "Chuyển tiếp gói tin"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 64 (Chương 2): Tầng nào trong mô hình OSI tương ứng với tầng Application của mô hình TCP/IP?",
+    "options": [
+      "Application, Presentation, Session",
+      "Transport",
+      "Network",
+      "Data Link"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 65 (Chương 2): Tầng nào trong mô hình OSI tương ứng với tầng Application của mô hình TCP/IP?",
+    "options": [
+      "Application, Presentation, Session",
+      "Transport",
+      "Network",
+      "Data Link"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 66 (Chương 2): Tầng vật lý (Physical layer) trong mô hình OSI có chức năng gì?",
+    "options": [
+      "Truyền tín hiệu bit qua môi trường vật lý",
+      "Xử lý lỗi truyền dữ liệu",
+      "Định tuyến gói tin",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 67 (Chương 2): Sự khác nhau cơ bản giữa TCP và UDP là gì?",
+    "options": [
+      "TCP có kiểm soát lỗi, UDP không đảm bảo truyền tin cậy",
+      "UDP chậm hơn TCP",
+      "TCP không dùng trong Internet",
+      "UDP chỉ dùng trong LAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 68 (Chương 2): Địa chỉ IP dùng để làm gì?",
+    "options": [
+      "Định danh thiết bị trong mạng",
+      "Mã hóa dữ liệu",
+      "Tăng tốc kết nối",
+      "Lưu trữ thông tin người dùng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 69 (Chương 2): Tầng liên kết dữ liệu (Data Link) chịu trách nhiệm gì?",
+    "options": [
+      "Phát hiện và sửa lỗi trong khung dữ liệu",
+      "Mã hóa dữ liệu",
+      "Quản lý phiên kết nối",
+      "Chuyển tiếp gói tin"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 70 (Chương 2): TCP là viết tắt của gì?",
+    "options": [
+      "Transmission Control Protocol",
+      "Transport Channel Protocol",
+      "Total Communication Path",
+      "Transmission Channel Path"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 71 (Chương 2): Một địa chỉ IPv4 có bao nhiêu bit?",
+    "options": [
+      "32 bit",
+      "64 bit",
+      "16 bit",
+      "128 bit"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 72 (Chương 2): Một địa chỉ IPv4 có bao nhiêu bit?",
+    "options": [
+      "32 bit",
+      "64 bit",
+      "16 bit",
+      "128 bit"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 73 (Chương 2): Tầng vật lý (Physical layer) trong mô hình OSI có chức năng gì?",
+    "options": [
+      "Truyền tín hiệu bit qua môi trường vật lý",
+      "Xử lý lỗi truyền dữ liệu",
+      "Định tuyến gói tin",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 74 (Chương 2): Tầng nào trong mô hình OSI tương ứng với tầng Application của mô hình TCP/IP?",
+    "options": [
+      "Application, Presentation, Session",
+      "Transport",
+      "Network",
+      "Data Link"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 75 (Chương 2): Sự khác nhau cơ bản giữa TCP và UDP là gì?",
+    "options": [
+      "TCP có kiểm soát lỗi, UDP không đảm bảo truyền tin cậy",
+      "UDP chậm hơn TCP",
+      "TCP không dùng trong Internet",
+      "UDP chỉ dùng trong LAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 76 (Chương 2): Tầng nào trong mô hình OSI tương ứng với tầng Application của mô hình TCP/IP?",
+    "options": [
+      "Application, Presentation, Session",
+      "Transport",
+      "Network",
+      "Data Link"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 77 (Chương 2): Chức năng chính của tầng vận chuyển (Transport layer) là gì?",
+    "options": [
+      "Đảm bảo truyền dữ liệu tin cậy từ đầu cuối đến đầu cuối",
+      "Chia nhỏ gói dữ liệu",
+      "Mã hóa dữ liệu",
+      "Kết nối vật lý"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 78 (Chương 2): Tầng liên kết dữ liệu (Data Link) chịu trách nhiệm gì?",
+    "options": [
+      "Phát hiện và sửa lỗi trong khung dữ liệu",
+      "Mã hóa dữ liệu",
+      "Quản lý phiên kết nối",
+      "Chuyển tiếp gói tin"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 79 (Chương 2): Tầng liên kết dữ liệu (Data Link) chịu trách nhiệm gì?",
+    "options": [
+      "Phát hiện và sửa lỗi trong khung dữ liệu",
+      "Mã hóa dữ liệu",
+      "Quản lý phiên kết nối",
+      "Chuyển tiếp gói tin"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 80 (Chương 2): Tầng mạng (Network layer) sử dụng giao thức nào phổ biến nhất?",
+    "options": [
+      "IP (Internet Protocol)",
+      "TCP",
+      "FTP",
+      "HTTP"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 81 (Chương 2): Tầng vật lý (Physical layer) trong mô hình OSI có chức năng gì?",
+    "options": [
+      "Truyền tín hiệu bit qua môi trường vật lý",
+      "Xử lý lỗi truyền dữ liệu",
+      "Định tuyến gói tin",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 82 (Chương 2): Mô hình OSI gồm bao nhiêu tầng?",
+    "options": [
+      "7 tầng",
+      "5 tầng",
+      "6 tầng",
+      "8 tầng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 83 (Chương 2): TCP là viết tắt của gì?",
+    "options": [
+      "Transmission Control Protocol",
+      "Transport Channel Protocol",
+      "Total Communication Path",
+      "Transmission Channel Path"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 84 (Chương 2): Chức năng chính của tầng vận chuyển (Transport layer) là gì?",
+    "options": [
+      "Đảm bảo truyền dữ liệu tin cậy từ đầu cuối đến đầu cuối",
+      "Chia nhỏ gói dữ liệu",
+      "Mã hóa dữ liệu",
+      "Kết nối vật lý"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 85 (Chương 2): Mô hình OSI gồm bao nhiêu tầng?",
+    "options": [
+      "7 tầng",
+      "5 tầng",
+      "6 tầng",
+      "8 tầng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 86 (Chương 2): Tầng nào trong mô hình OSI tương ứng với tầng Application của mô hình TCP/IP?",
+    "options": [
+      "Application, Presentation, Session",
+      "Transport",
+      "Network",
+      "Data Link"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 87 (Chương 2): Tầng nào trong mô hình OSI tương ứng với tầng Application của mô hình TCP/IP?",
+    "options": [
+      "Application, Presentation, Session",
+      "Transport",
+      "Network",
+      "Data Link"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 88 (Chương 2): Tầng vật lý (Physical layer) trong mô hình OSI có chức năng gì?",
+    "options": [
+      "Truyền tín hiệu bit qua môi trường vật lý",
+      "Xử lý lỗi truyền dữ liệu",
+      "Định tuyến gói tin",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 89 (Chương 2): Tầng vật lý (Physical layer) trong mô hình OSI có chức năng gì?",
+    "options": [
+      "Truyền tín hiệu bit qua môi trường vật lý",
+      "Xử lý lỗi truyền dữ liệu",
+      "Định tuyến gói tin",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 90 (Chương 2): Tầng liên kết dữ liệu (Data Link) chịu trách nhiệm gì?",
+    "options": [
+      "Phát hiện và sửa lỗi trong khung dữ liệu",
+      "Mã hóa dữ liệu",
+      "Quản lý phiên kết nối",
+      "Chuyển tiếp gói tin"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 91 (Chương 2): Chức năng chính của tầng vận chuyển (Transport layer) là gì?",
+    "options": [
+      "Đảm bảo truyền dữ liệu tin cậy từ đầu cuối đến đầu cuối",
+      "Chia nhỏ gói dữ liệu",
+      "Mã hóa dữ liệu",
+      "Kết nối vật lý"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 92 (Chương 2): Sự khác nhau cơ bản giữa TCP và UDP là gì?",
+    "options": [
+      "TCP có kiểm soát lỗi, UDP không đảm bảo truyền tin cậy",
+      "UDP chậm hơn TCP",
+      "TCP không dùng trong Internet",
+      "UDP chỉ dùng trong LAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 93 (Chương 2): Tầng mạng (Network layer) sử dụng giao thức nào phổ biến nhất?",
+    "options": [
+      "IP (Internet Protocol)",
+      "TCP",
+      "FTP",
+      "HTTP"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 94 (Chương 2): Địa chỉ IP dùng để làm gì?",
+    "options": [
+      "Định danh thiết bị trong mạng",
+      "Mã hóa dữ liệu",
+      "Tăng tốc kết nối",
+      "Lưu trữ thông tin người dùng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 95 (Chương 2): TCP là viết tắt của gì?",
+    "options": [
+      "Transmission Control Protocol",
+      "Transport Channel Protocol",
+      "Total Communication Path",
+      "Transmission Channel Path"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 96 (Chương 2): Sự khác nhau cơ bản giữa TCP và UDP là gì?",
+    "options": [
+      "TCP có kiểm soát lỗi, UDP không đảm bảo truyền tin cậy",
+      "UDP chậm hơn TCP",
+      "TCP không dùng trong Internet",
+      "UDP chỉ dùng trong LAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 97 (Chương 2): Sự khác nhau cơ bản giữa TCP và UDP là gì?",
+    "options": [
+      "TCP có kiểm soát lỗi, UDP không đảm bảo truyền tin cậy",
+      "UDP chậm hơn TCP",
+      "TCP không dùng trong Internet",
+      "UDP chỉ dùng trong LAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 98 (Chương 2): Tầng mạng (Network layer) sử dụng giao thức nào phổ biến nhất?",
+    "options": [
+      "IP (Internet Protocol)",
+      "TCP",
+      "FTP",
+      "HTTP"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 99 (Chương 2): TCP là viết tắt của gì?",
+    "options": [
+      "Transmission Control Protocol",
+      "Transport Channel Protocol",
+      "Total Communication Path",
+      "Transmission Channel Path"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  },
+  {
+    "question": "Câu 100 (Chương 2): Tầng liên kết dữ liệu (Data Link) chịu trách nhiệm gì?",
+    "options": [
+      "Phát hiện và sửa lỗi trong khung dữ liệu",
+      "Mã hóa dữ liệu",
+      "Quản lý phiên kết nối",
+      "Chuyển tiếp gói tin"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP"
+  }
+]

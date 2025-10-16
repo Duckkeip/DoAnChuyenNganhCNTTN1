@@ -1,25 +1,62 @@
+/* === Toàn bộ vùng chứa === */
 .auth-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #21dfdfb9, #470ad8cc);
+}
+
+/* === Bên trái: Logo / hình ảnh thương hiệu === */
+.auth-left {
+  flex: 1;
+  background: linear-gradient(135deg, #21dfdfb9, #470ad8cc);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background: linear-gradient(135deg, #00ffffb9,  #530cfacc);
-  font-family: "Segoe UI", sans-serif;
+  color: white;
+  text-align: center;
+  flex-direction: column;
+  border-radius: 100px;
+  padding: 40px;
 }
 
-.auth-card {
+.auth-left img {
+  width: 50vh;
+  max-width: 70%;
+  margin-bottom: 20px;
+}
+
+.auth-left h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+/* === Bên phải: Form đăng nhập/đăng ký === */
+.auth-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: white;
-  padding: 40px;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-  width: 350px;
-  text-align: center;
+  border-radius: 100px;
   animation: fadeIn 0.5s ease;
 }
 
+.auth-card {
+  background: #ffffff;
+  padding: 60px 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+}
+
 .auth-card h2 {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   color: #333;
+  font-size: 1.8rem;
 }
 
 .auth-card form {
@@ -29,21 +66,21 @@
 }
 
 .auth-card input {
-  padding: 10px 15px;
+  padding: 12px 15px;
   border: 1px solid #ccc;
   border-radius: 10px;
   font-size: 16px;
 }
 
 .auth-card button {
-  background: #4b6cb7;
-  background: linear-gradient(to right, #4b6cb7, #182848);
+  background: linear-gradient(to right, #6200ffb9, #0cececb9);
   color: white;
-  padding: 10px;
+  padding: 12px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.3s;
+  font-size: 1rem;
 }
 
 .auth-card button:hover {
@@ -63,7 +100,36 @@
   font-size: 14px;
 }
 
+/* === Hiệu ứng xuất hiện === */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(-20px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+/* === Responsive cho tablet và điện thoại === */
+@media (max-width: 900px) {
+  .auth-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .auth-left, .auth-right {
+    flex: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .auth-left {
+    padding: 30px 20px;
+  }
+
+  .auth-left img {
+    width: 120px;
+  }
+
+  .auth-card {
+    width: 90%;
+    max-width: 350px;
+    padding: 40px 25px;
+  }
 }

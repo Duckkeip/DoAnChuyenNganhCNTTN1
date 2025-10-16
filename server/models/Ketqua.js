@@ -1,24 +1,21 @@
 import mongoose from "mongoose";
 
 const KetquaSchema = new mongoose.Schema({
-  id_cauhoi: { type: String, required: true },
+  user_id: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
   id_chude: { type: mongoose.Schema.Types.ObjectId, ref: "Chude", required: true },
-  noidung: { type: String, required: true },
-  dapan_a: { type: String, required: true },
-  dapan_b: { type: String, required: true },
-  dapan_c: { type: String, required: true },
-  dapan_d: { type: String, required: true },
-  dapandung: { type: String, enum: ["A", "B", "C", "D"], required: true },
-  mucdo: { type: String, enum: ["easy", "average", "hard"], required: true },
-  diem: { 
-    type: Number,
-    default: function () {
-      // tính điểm theo mức độ
-      if (this.mucdo === "easy") return 5;
-      if (this.mucdo === "average") return 7;
-      return 10;
+  tong_cau: { type: Number, required: true },
+  cau_dung: { type: Number, required: true },
+  cau_sai: { type: Number, required: true },
+  tong_diem: { type: Number, required: true },
+  dapAnDaChon: [
+    {
+      id_cauhoi: { type: mongoose.Schema.Types.ObjectId, ref: "Cauhoi", required: true },
+      dapan_chon: { type: String, enum: ["A", "B", "C", "D"], required: true },
+      dung: { type: Boolean, required: true }
     }
-  }
+  ],
+  thoigian_lam: { type: String },
+  ngay_lam: { type: Date, default: Date.now }
 });
 
 export default mongoose.model("Ketqua", KetquaSchema);

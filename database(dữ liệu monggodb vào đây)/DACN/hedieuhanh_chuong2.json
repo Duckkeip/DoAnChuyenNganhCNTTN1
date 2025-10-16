@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 2): Thread khác process ở điểm nào?",
+    "options": [
+      "Thread chia sẻ không gian địa chỉ, process có không gian riêng",
+      "Thread có CPU riêng",
+      "Process nhanh hơn thread",
+      "Cả hai giống nhau"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 2 (Chương 2): Semaphore được sử dụng để làm gì?",
+    "options": [
+      "Đồng bộ hóa truy cập tài nguyên chia sẻ",
+      "Cấp phát bộ nhớ",
+      "Khởi tạo tiến trình",
+      "Gửi dữ liệu mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 3 (Chương 2): Tiến trình (process) trong hệ điều hành là gì?",
+    "options": [
+      "Chương trình đang thực thi cùng trạng thái và tài nguyên của nó",
+      "Một file dữ liệu tĩnh",
+      "Một module trong BIOS",
+      "Một thư mục trong ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 4 (Chương 2): Thread khác process ở điểm nào?",
+    "options": [
+      "Thread chia sẻ không gian địa chỉ, process có không gian riêng",
+      "Thread có CPU riêng",
+      "Process nhanh hơn thread",
+      "Cả hai giống nhau"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 5 (Chương 2): Inter-process Communication (IPC) dùng để làm gì?",
+    "options": [
+      "Trao đổi dữ liệu giữa các tiến trình",
+      "Tăng tốc CPU",
+      "Quản lý I/O",
+      "Giao tiếp giữa phần cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 6 (Chương 2): Thuật toán lập lịch CPU nào công bằng cho hệ thống chia sẻ thời gian?",
+    "options": [
+      "Round Robin",
+      "FIFO",
+      "SJF",
+      "Priority Scheduling"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 7 (Chương 2): Thuật toán lập lịch CPU nào công bằng cho hệ thống chia sẻ thời gian?",
+    "options": [
+      "Round Robin",
+      "FIFO",
+      "SJF",
+      "Priority Scheduling"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 8 (Chương 2): Tiến trình (process) trong hệ điều hành là gì?",
+    "options": [
+      "Chương trình đang thực thi cùng trạng thái và tài nguyên của nó",
+      "Một file dữ liệu tĩnh",
+      "Một module trong BIOS",
+      "Một thư mục trong ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 9 (Chương 2): Một ví dụ của cơ chế đồng bộ là gì?",
+    "options": [
+      "Mutex lock",
+      "File descriptor",
+      "Virtual memory",
+      "Page table"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 10 (Chương 2): Thuật toán lập lịch CPU nào công bằng cho hệ thống chia sẻ thời gian?",
+    "options": [
+      "Round Robin",
+      "FIFO",
+      "SJF",
+      "Priority Scheduling"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 11 (Chương 2): Priority inversion là gì?",
+    "options": [
+      "Tiến trình ưu tiên thấp giữ tài nguyên khiến tiến trình ưu tiên cao bị chặn",
+      "Khi tiến trình cao chiếm CPU quá lâu",
+      "Khi hệ thống mất điện",
+      "Khi bộ nhớ swap bị lỗi"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 12 (Chương 2): Một ví dụ của cơ chế đồng bộ là gì?",
+    "options": [
+      "Mutex lock",
+      "File descriptor",
+      "Virtual memory",
+      "Page table"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 13 (Chương 2): Một ví dụ của cơ chế đồng bộ là gì?",
+    "options": [
+      "Mutex lock",
+      "File descriptor",
+      "Virtual memory",
+      "Page table"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 14 (Chương 2): Một tiến trình có thể ở trạng thái nào?",
+    "options": [
+      "New, Ready, Running, Waiting, Terminated",
+      "Start, Pause, Stop",
+      "Open, Write, Close",
+      "Idle, Busy, Sleep"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 15 (Chương 2): Priority inversion là gì?",
+    "options": [
+      "Tiến trình ưu tiên thấp giữ tài nguyên khiến tiến trình ưu tiên cao bị chặn",
+      "Khi tiến trình cao chiếm CPU quá lâu",
+      "Khi hệ thống mất điện",
+      "Khi bộ nhớ swap bị lỗi"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 16 (Chương 2): Thread khác process ở điểm nào?",
+    "options": [
+      "Thread chia sẻ không gian địa chỉ, process có không gian riêng",
+      "Thread có CPU riêng",
+      "Process nhanh hơn thread",
+      "Cả hai giống nhau"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 17 (Chương 2): Inter-process Communication (IPC) dùng để làm gì?",
+    "options": [
+      "Trao đổi dữ liệu giữa các tiến trình",
+      "Tăng tốc CPU",
+      "Quản lý I/O",
+      "Giao tiếp giữa phần cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 18 (Chương 2): Thread khác process ở điểm nào?",
+    "options": [
+      "Thread chia sẻ không gian địa chỉ, process có không gian riêng",
+      "Thread có CPU riêng",
+      "Process nhanh hơn thread",
+      "Cả hai giống nhau"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 19 (Chương 2): Deadlock xảy ra khi nào trong hệ điều hành?",
+    "options": [
+      "Khi các tiến trình chờ tài nguyên của nhau vô thời hạn",
+      "Khi CPU ngừng hoạt động",
+      "Khi RAM bị đầy",
+      "Khi ổ cứng bị lỗi"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 20 (Chương 2): Semaphore được sử dụng để làm gì?",
+    "options": [
+      "Đồng bộ hóa truy cập tài nguyên chia sẻ",
+      "Cấp phát bộ nhớ",
+      "Khởi tạo tiến trình",
+      "Gửi dữ liệu mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 21 (Chương 2): Deadlock xảy ra khi nào trong hệ điều hành?",
+    "options": [
+      "Khi các tiến trình chờ tài nguyên của nhau vô thời hạn",
+      "Khi CPU ngừng hoạt động",
+      "Khi RAM bị đầy",
+      "Khi ổ cứng bị lỗi"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 22 (Chương 2): Một ví dụ của cơ chế đồng bộ là gì?",
+    "options": [
+      "Mutex lock",
+      "File descriptor",
+      "Virtual memory",
+      "Page table"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 23 (Chương 2): Một ví dụ của cơ chế đồng bộ là gì?",
+    "options": [
+      "Mutex lock",
+      "File descriptor",
+      "Virtual memory",
+      "Page table"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 24 (Chương 2): Inter-process Communication (IPC) dùng để làm gì?",
+    "options": [
+      "Trao đổi dữ liệu giữa các tiến trình",
+      "Tăng tốc CPU",
+      "Quản lý I/O",
+      "Giao tiếp giữa phần cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 25 (Chương 2): Priority inversion là gì?",
+    "options": [
+      "Tiến trình ưu tiên thấp giữ tài nguyên khiến tiến trình ưu tiên cao bị chặn",
+      "Khi tiến trình cao chiếm CPU quá lâu",
+      "Khi hệ thống mất điện",
+      "Khi bộ nhớ swap bị lỗi"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 26 (Chương 2): Thread khác process ở điểm nào?",
+    "options": [
+      "Thread chia sẻ không gian địa chỉ, process có không gian riêng",
+      "Thread có CPU riêng",
+      "Process nhanh hơn thread",
+      "Cả hai giống nhau"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 27 (Chương 2): Thuật toán lập lịch CPU nào công bằng cho hệ thống chia sẻ thời gian?",
+    "options": [
+      "Round Robin",
+      "FIFO",
+      "SJF",
+      "Priority Scheduling"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 28 (Chương 2): Semaphore được sử dụng để làm gì?",
+    "options": [
+      "Đồng bộ hóa truy cập tài nguyên chia sẻ",
+      "Cấp phát bộ nhớ",
+      "Khởi tạo tiến trình",
+      "Gửi dữ liệu mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 29 (Chương 2): Context switch là gì?",
+    "options": [
+      "Lưu và khôi phục trạng thái CPU khi chuyển tiến trình",
+      "Chuyển đổi chế độ kernel",
+      "Khởi động lại hệ thống",
+      "Lưu dữ liệu vào ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 30 (Chương 2): Priority inversion là gì?",
+    "options": [
+      "Tiến trình ưu tiên thấp giữ tài nguyên khiến tiến trình ưu tiên cao bị chặn",
+      "Khi tiến trình cao chiếm CPU quá lâu",
+      "Khi hệ thống mất điện",
+      "Khi bộ nhớ swap bị lỗi"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 31 (Chương 2): Semaphore được sử dụng để làm gì?",
+    "options": [
+      "Đồng bộ hóa truy cập tài nguyên chia sẻ",
+      "Cấp phát bộ nhớ",
+      "Khởi tạo tiến trình",
+      "Gửi dữ liệu mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 32 (Chương 2): Inter-process Communication (IPC) dùng để làm gì?",
+    "options": [
+      "Trao đổi dữ liệu giữa các tiến trình",
+      "Tăng tốc CPU",
+      "Quản lý I/O",
+      "Giao tiếp giữa phần cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 33 (Chương 2): Priority inversion là gì?",
+    "options": [
+      "Tiến trình ưu tiên thấp giữ tài nguyên khiến tiến trình ưu tiên cao bị chặn",
+      "Khi tiến trình cao chiếm CPU quá lâu",
+      "Khi hệ thống mất điện",
+      "Khi bộ nhớ swap bị lỗi"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 34 (Chương 2): Tiến trình (process) trong hệ điều hành là gì?",
+    "options": [
+      "Chương trình đang thực thi cùng trạng thái và tài nguyên của nó",
+      "Một file dữ liệu tĩnh",
+      "Một module trong BIOS",
+      "Một thư mục trong ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 35 (Chương 2): Thuật toán lập lịch CPU nào công bằng cho hệ thống chia sẻ thời gian?",
+    "options": [
+      "Round Robin",
+      "FIFO",
+      "SJF",
+      "Priority Scheduling"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 36 (Chương 2): Thuật toán lập lịch CPU nào công bằng cho hệ thống chia sẻ thời gian?",
+    "options": [
+      "Round Robin",
+      "FIFO",
+      "SJF",
+      "Priority Scheduling"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 37 (Chương 2): Priority inversion là gì?",
+    "options": [
+      "Tiến trình ưu tiên thấp giữ tài nguyên khiến tiến trình ưu tiên cao bị chặn",
+      "Khi tiến trình cao chiếm CPU quá lâu",
+      "Khi hệ thống mất điện",
+      "Khi bộ nhớ swap bị lỗi"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 38 (Chương 2): Một ví dụ của cơ chế đồng bộ là gì?",
+    "options": [
+      "Mutex lock",
+      "File descriptor",
+      "Virtual memory",
+      "Page table"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 39 (Chương 2): Tiến trình (process) trong hệ điều hành là gì?",
+    "options": [
+      "Chương trình đang thực thi cùng trạng thái và tài nguyên của nó",
+      "Một file dữ liệu tĩnh",
+      "Một module trong BIOS",
+      "Một thư mục trong ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 40 (Chương 2): Thread khác process ở điểm nào?",
+    "options": [
+      "Thread chia sẻ không gian địa chỉ, process có không gian riêng",
+      "Thread có CPU riêng",
+      "Process nhanh hơn thread",
+      "Cả hai giống nhau"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 41 (Chương 2): Inter-process Communication (IPC) dùng để làm gì?",
+    "options": [
+      "Trao đổi dữ liệu giữa các tiến trình",
+      "Tăng tốc CPU",
+      "Quản lý I/O",
+      "Giao tiếp giữa phần cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 42 (Chương 2): Context switch là gì?",
+    "options": [
+      "Lưu và khôi phục trạng thái CPU khi chuyển tiến trình",
+      "Chuyển đổi chế độ kernel",
+      "Khởi động lại hệ thống",
+      "Lưu dữ liệu vào ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 43 (Chương 2): Inter-process Communication (IPC) dùng để làm gì?",
+    "options": [
+      "Trao đổi dữ liệu giữa các tiến trình",
+      "Tăng tốc CPU",
+      "Quản lý I/O",
+      "Giao tiếp giữa phần cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 44 (Chương 2): Một ví dụ của cơ chế đồng bộ là gì?",
+    "options": [
+      "Mutex lock",
+      "File descriptor",
+      "Virtual memory",
+      "Page table"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 45 (Chương 2): Priority inversion là gì?",
+    "options": [
+      "Tiến trình ưu tiên thấp giữ tài nguyên khiến tiến trình ưu tiên cao bị chặn",
+      "Khi tiến trình cao chiếm CPU quá lâu",
+      "Khi hệ thống mất điện",
+      "Khi bộ nhớ swap bị lỗi"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 46 (Chương 2): Tiến trình (process) trong hệ điều hành là gì?",
+    "options": [
+      "Chương trình đang thực thi cùng trạng thái và tài nguyên của nó",
+      "Một file dữ liệu tĩnh",
+      "Một module trong BIOS",
+      "Một thư mục trong ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 47 (Chương 2): Thuật toán lập lịch CPU nào công bằng cho hệ thống chia sẻ thời gian?",
+    "options": [
+      "Round Robin",
+      "FIFO",
+      "SJF",
+      "Priority Scheduling"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 48 (Chương 2): Deadlock xảy ra khi nào trong hệ điều hành?",
+    "options": [
+      "Khi các tiến trình chờ tài nguyên của nhau vô thời hạn",
+      "Khi CPU ngừng hoạt động",
+      "Khi RAM bị đầy",
+      "Khi ổ cứng bị lỗi"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 49 (Chương 2): Priority inversion là gì?",
+    "options": [
+      "Tiến trình ưu tiên thấp giữ tài nguyên khiến tiến trình ưu tiên cao bị chặn",
+      "Khi tiến trình cao chiếm CPU quá lâu",
+      "Khi hệ thống mất điện",
+      "Khi bộ nhớ swap bị lỗi"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 50 (Chương 2): Tiến trình (process) trong hệ điều hành là gì?",
+    "options": [
+      "Chương trình đang thực thi cùng trạng thái và tài nguyên của nó",
+      "Một file dữ liệu tĩnh",
+      "Một module trong BIOS",
+      "Một thư mục trong ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 51 (Chương 2): Một tiến trình có thể ở trạng thái nào?",
+    "options": [
+      "New, Ready, Running, Waiting, Terminated",
+      "Start, Pause, Stop",
+      "Open, Write, Close",
+      "Idle, Busy, Sleep"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 52 (Chương 2): Deadlock xảy ra khi nào trong hệ điều hành?",
+    "options": [
+      "Khi các tiến trình chờ tài nguyên của nhau vô thời hạn",
+      "Khi CPU ngừng hoạt động",
+      "Khi RAM bị đầy",
+      "Khi ổ cứng bị lỗi"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 53 (Chương 2): Một ví dụ của cơ chế đồng bộ là gì?",
+    "options": [
+      "Mutex lock",
+      "File descriptor",
+      "Virtual memory",
+      "Page table"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 54 (Chương 2): Priority inversion là gì?",
+    "options": [
+      "Tiến trình ưu tiên thấp giữ tài nguyên khiến tiến trình ưu tiên cao bị chặn",
+      "Khi tiến trình cao chiếm CPU quá lâu",
+      "Khi hệ thống mất điện",
+      "Khi bộ nhớ swap bị lỗi"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 55 (Chương 2): Thread khác process ở điểm nào?",
+    "options": [
+      "Thread chia sẻ không gian địa chỉ, process có không gian riêng",
+      "Thread có CPU riêng",
+      "Process nhanh hơn thread",
+      "Cả hai giống nhau"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 56 (Chương 2): Một ví dụ của cơ chế đồng bộ là gì?",
+    "options": [
+      "Mutex lock",
+      "File descriptor",
+      "Virtual memory",
+      "Page table"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 57 (Chương 2): Một ví dụ của cơ chế đồng bộ là gì?",
+    "options": [
+      "Mutex lock",
+      "File descriptor",
+      "Virtual memory",
+      "Page table"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 58 (Chương 2): Một ví dụ của cơ chế đồng bộ là gì?",
+    "options": [
+      "Mutex lock",
+      "File descriptor",
+      "Virtual memory",
+      "Page table"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 59 (Chương 2): Thuật toán lập lịch CPU nào công bằng cho hệ thống chia sẻ thời gian?",
+    "options": [
+      "Round Robin",
+      "FIFO",
+      "SJF",
+      "Priority Scheduling"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 60 (Chương 2): Một tiến trình có thể ở trạng thái nào?",
+    "options": [
+      "New, Ready, Running, Waiting, Terminated",
+      "Start, Pause, Stop",
+      "Open, Write, Close",
+      "Idle, Busy, Sleep"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 61 (Chương 2): Thread khác process ở điểm nào?",
+    "options": [
+      "Thread chia sẻ không gian địa chỉ, process có không gian riêng",
+      "Thread có CPU riêng",
+      "Process nhanh hơn thread",
+      "Cả hai giống nhau"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 62 (Chương 2): Thuật toán lập lịch CPU nào công bằng cho hệ thống chia sẻ thời gian?",
+    "options": [
+      "Round Robin",
+      "FIFO",
+      "SJF",
+      "Priority Scheduling"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 63 (Chương 2): Inter-process Communication (IPC) dùng để làm gì?",
+    "options": [
+      "Trao đổi dữ liệu giữa các tiến trình",
+      "Tăng tốc CPU",
+      "Quản lý I/O",
+      "Giao tiếp giữa phần cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 64 (Chương 2): Inter-process Communication (IPC) dùng để làm gì?",
+    "options": [
+      "Trao đổi dữ liệu giữa các tiến trình",
+      "Tăng tốc CPU",
+      "Quản lý I/O",
+      "Giao tiếp giữa phần cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 65 (Chương 2): Thuật toán lập lịch CPU nào công bằng cho hệ thống chia sẻ thời gian?",
+    "options": [
+      "Round Robin",
+      "FIFO",
+      "SJF",
+      "Priority Scheduling"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 66 (Chương 2): Thuật toán lập lịch CPU nào công bằng cho hệ thống chia sẻ thời gian?",
+    "options": [
+      "Round Robin",
+      "FIFO",
+      "SJF",
+      "Priority Scheduling"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 67 (Chương 2): Tiến trình (process) trong hệ điều hành là gì?",
+    "options": [
+      "Chương trình đang thực thi cùng trạng thái và tài nguyên của nó",
+      "Một file dữ liệu tĩnh",
+      "Một module trong BIOS",
+      "Một thư mục trong ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 68 (Chương 2): Thuật toán lập lịch CPU nào công bằng cho hệ thống chia sẻ thời gian?",
+    "options": [
+      "Round Robin",
+      "FIFO",
+      "SJF",
+      "Priority Scheduling"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 69 (Chương 2): Thuật toán lập lịch CPU nào công bằng cho hệ thống chia sẻ thời gian?",
+    "options": [
+      "Round Robin",
+      "FIFO",
+      "SJF",
+      "Priority Scheduling"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 70 (Chương 2): Semaphore được sử dụng để làm gì?",
+    "options": [
+      "Đồng bộ hóa truy cập tài nguyên chia sẻ",
+      "Cấp phát bộ nhớ",
+      "Khởi tạo tiến trình",
+      "Gửi dữ liệu mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 71 (Chương 2): Một tiến trình có thể ở trạng thái nào?",
+    "options": [
+      "New, Ready, Running, Waiting, Terminated",
+      "Start, Pause, Stop",
+      "Open, Write, Close",
+      "Idle, Busy, Sleep"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 72 (Chương 2): Thuật toán lập lịch CPU nào công bằng cho hệ thống chia sẻ thời gian?",
+    "options": [
+      "Round Robin",
+      "FIFO",
+      "SJF",
+      "Priority Scheduling"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 73 (Chương 2): Priority inversion là gì?",
+    "options": [
+      "Tiến trình ưu tiên thấp giữ tài nguyên khiến tiến trình ưu tiên cao bị chặn",
+      "Khi tiến trình cao chiếm CPU quá lâu",
+      "Khi hệ thống mất điện",
+      "Khi bộ nhớ swap bị lỗi"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 74 (Chương 2): Một ví dụ của cơ chế đồng bộ là gì?",
+    "options": [
+      "Mutex lock",
+      "File descriptor",
+      "Virtual memory",
+      "Page table"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 75 (Chương 2): Deadlock xảy ra khi nào trong hệ điều hành?",
+    "options": [
+      "Khi các tiến trình chờ tài nguyên của nhau vô thời hạn",
+      "Khi CPU ngừng hoạt động",
+      "Khi RAM bị đầy",
+      "Khi ổ cứng bị lỗi"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 76 (Chương 2): Inter-process Communication (IPC) dùng để làm gì?",
+    "options": [
+      "Trao đổi dữ liệu giữa các tiến trình",
+      "Tăng tốc CPU",
+      "Quản lý I/O",
+      "Giao tiếp giữa phần cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 77 (Chương 2): Semaphore được sử dụng để làm gì?",
+    "options": [
+      "Đồng bộ hóa truy cập tài nguyên chia sẻ",
+      "Cấp phát bộ nhớ",
+      "Khởi tạo tiến trình",
+      "Gửi dữ liệu mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 78 (Chương 2): Một tiến trình có thể ở trạng thái nào?",
+    "options": [
+      "New, Ready, Running, Waiting, Terminated",
+      "Start, Pause, Stop",
+      "Open, Write, Close",
+      "Idle, Busy, Sleep"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 79 (Chương 2): Thread khác process ở điểm nào?",
+    "options": [
+      "Thread chia sẻ không gian địa chỉ, process có không gian riêng",
+      "Thread có CPU riêng",
+      "Process nhanh hơn thread",
+      "Cả hai giống nhau"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 80 (Chương 2): Inter-process Communication (IPC) dùng để làm gì?",
+    "options": [
+      "Trao đổi dữ liệu giữa các tiến trình",
+      "Tăng tốc CPU",
+      "Quản lý I/O",
+      "Giao tiếp giữa phần cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 81 (Chương 2): Một tiến trình có thể ở trạng thái nào?",
+    "options": [
+      "New, Ready, Running, Waiting, Terminated",
+      "Start, Pause, Stop",
+      "Open, Write, Close",
+      "Idle, Busy, Sleep"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 82 (Chương 2): Một ví dụ của cơ chế đồng bộ là gì?",
+    "options": [
+      "Mutex lock",
+      "File descriptor",
+      "Virtual memory",
+      "Page table"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 83 (Chương 2): Semaphore được sử dụng để làm gì?",
+    "options": [
+      "Đồng bộ hóa truy cập tài nguyên chia sẻ",
+      "Cấp phát bộ nhớ",
+      "Khởi tạo tiến trình",
+      "Gửi dữ liệu mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 84 (Chương 2): Tiến trình (process) trong hệ điều hành là gì?",
+    "options": [
+      "Chương trình đang thực thi cùng trạng thái và tài nguyên của nó",
+      "Một file dữ liệu tĩnh",
+      "Một module trong BIOS",
+      "Một thư mục trong ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 85 (Chương 2): Priority inversion là gì?",
+    "options": [
+      "Tiến trình ưu tiên thấp giữ tài nguyên khiến tiến trình ưu tiên cao bị chặn",
+      "Khi tiến trình cao chiếm CPU quá lâu",
+      "Khi hệ thống mất điện",
+      "Khi bộ nhớ swap bị lỗi"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 86 (Chương 2): Deadlock xảy ra khi nào trong hệ điều hành?",
+    "options": [
+      "Khi các tiến trình chờ tài nguyên của nhau vô thời hạn",
+      "Khi CPU ngừng hoạt động",
+      "Khi RAM bị đầy",
+      "Khi ổ cứng bị lỗi"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 87 (Chương 2): Inter-process Communication (IPC) dùng để làm gì?",
+    "options": [
+      "Trao đổi dữ liệu giữa các tiến trình",
+      "Tăng tốc CPU",
+      "Quản lý I/O",
+      "Giao tiếp giữa phần cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 88 (Chương 2): Tiến trình (process) trong hệ điều hành là gì?",
+    "options": [
+      "Chương trình đang thực thi cùng trạng thái và tài nguyên của nó",
+      "Một file dữ liệu tĩnh",
+      "Một module trong BIOS",
+      "Một thư mục trong ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 89 (Chương 2): Semaphore được sử dụng để làm gì?",
+    "options": [
+      "Đồng bộ hóa truy cập tài nguyên chia sẻ",
+      "Cấp phát bộ nhớ",
+      "Khởi tạo tiến trình",
+      "Gửi dữ liệu mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 90 (Chương 2): Deadlock xảy ra khi nào trong hệ điều hành?",
+    "options": [
+      "Khi các tiến trình chờ tài nguyên của nhau vô thời hạn",
+      "Khi CPU ngừng hoạt động",
+      "Khi RAM bị đầy",
+      "Khi ổ cứng bị lỗi"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 91 (Chương 2): Một ví dụ của cơ chế đồng bộ là gì?",
+    "options": [
+      "Mutex lock",
+      "File descriptor",
+      "Virtual memory",
+      "Page table"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 92 (Chương 2): Một ví dụ của cơ chế đồng bộ là gì?",
+    "options": [
+      "Mutex lock",
+      "File descriptor",
+      "Virtual memory",
+      "Page table"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 93 (Chương 2): Context switch là gì?",
+    "options": [
+      "Lưu và khôi phục trạng thái CPU khi chuyển tiến trình",
+      "Chuyển đổi chế độ kernel",
+      "Khởi động lại hệ thống",
+      "Lưu dữ liệu vào ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 94 (Chương 2): Deadlock xảy ra khi nào trong hệ điều hành?",
+    "options": [
+      "Khi các tiến trình chờ tài nguyên của nhau vô thời hạn",
+      "Khi CPU ngừng hoạt động",
+      "Khi RAM bị đầy",
+      "Khi ổ cứng bị lỗi"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 95 (Chương 2): Một ví dụ của cơ chế đồng bộ là gì?",
+    "options": [
+      "Mutex lock",
+      "File descriptor",
+      "Virtual memory",
+      "Page table"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 96 (Chương 2): Thuật toán lập lịch CPU nào công bằng cho hệ thống chia sẻ thời gian?",
+    "options": [
+      "Round Robin",
+      "FIFO",
+      "SJF",
+      "Priority Scheduling"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 97 (Chương 2): Deadlock xảy ra khi nào trong hệ điều hành?",
+    "options": [
+      "Khi các tiến trình chờ tài nguyên của nhau vô thời hạn",
+      "Khi CPU ngừng hoạt động",
+      "Khi RAM bị đầy",
+      "Khi ổ cứng bị lỗi"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 98 (Chương 2): Một tiến trình có thể ở trạng thái nào?",
+    "options": [
+      "New, Ready, Running, Waiting, Terminated",
+      "Start, Pause, Stop",
+      "Open, Write, Close",
+      "Idle, Busy, Sleep"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 99 (Chương 2): Tiến trình (process) trong hệ điều hành là gì?",
+    "options": [
+      "Chương trình đang thực thi cùng trạng thái và tài nguyên của nó",
+      "Một file dữ liệu tĩnh",
+      "Một module trong BIOS",
+      "Một thư mục trong ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  },
+  {
+    "question": "Câu 100 (Chương 2): Thuật toán lập lịch CPU nào công bằng cho hệ thống chia sẻ thời gian?",
+    "options": [
+      "Round Robin",
+      "FIFO",
+      "SJF",
+      "Priority Scheduling"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa"
+  }
+]

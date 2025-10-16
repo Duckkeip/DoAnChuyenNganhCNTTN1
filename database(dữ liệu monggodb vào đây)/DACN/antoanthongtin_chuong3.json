@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 3): Xác thực hai yếu tố (2FA) là gì?",
+    "options": [
+      "Sử dụng hai phương thức khác nhau để xác minh danh tính người dùng",
+      "Sử dụng một mật khẩu duy nhất",
+      "Mã hóa dữ liệu bằng hai khóa",
+      "Đăng nhập bằng IP cố định"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 2 (Chương 3): Mô hình DAC (Discretionary Access Control) cho phép điều gì?",
+    "options": [
+      "Chủ sở hữu tài nguyên có thể quyết định ai được truy cập",
+      "Quản trị viên quyết định toàn bộ quyền truy cập",
+      "Không ai có quyền thay đổi quyền truy cập",
+      "Chỉ áp dụng trong hệ thống mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 3 (Chương 3): RBAC là viết tắt của gì?",
+    "options": [
+      "Role-Based Access Control",
+      "Rule-Based Access Configuration",
+      "Read-Blocked Authentication Check",
+      "Restricted Binary Access Channel"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 4 (Chương 3): Mô hình DAC (Discretionary Access Control) cho phép điều gì?",
+    "options": [
+      "Chủ sở hữu tài nguyên có thể quyết định ai được truy cập",
+      "Quản trị viên quyết định toàn bộ quyền truy cập",
+      "Không ai có quyền thay đổi quyền truy cập",
+      "Chỉ áp dụng trong hệ thống mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 5 (Chương 3): Xác thực hai yếu tố (2FA) là gì?",
+    "options": [
+      "Sử dụng hai phương thức khác nhau để xác minh danh tính người dùng",
+      "Sử dụng một mật khẩu duy nhất",
+      "Mã hóa dữ liệu bằng hai khóa",
+      "Đăng nhập bằng IP cố định"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 6 (Chương 3): Một ví dụ của xác thực đa yếu tố (MFA) là gì?",
+    "options": [
+      "Kết hợp mật khẩu, mã OTP và vân tay",
+      "Chỉ dùng mật khẩu",
+      "Đăng nhập qua Facebook",
+      "Xác thực bằng IP"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 7 (Chương 3): Kiểm soát truy cập (access control) là gì?",
+    "options": [
+      "Cơ chế giới hạn người hoặc hệ thống được phép truy cập tài nguyên",
+      "Mã hóa dữ liệu trong mạng",
+      "Sao lưu thông tin định kỳ",
+      "Tối ưu hóa hiệu năng mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 8 (Chương 3): Single Sign-On (SSO) cho phép điều gì?",
+    "options": [
+      "Người dùng đăng nhập một lần để truy cập nhiều hệ thống",
+      "Người dùng phải xác thực nhiều lần",
+      "Tự động mã hóa file",
+      "Giới hạn thời gian truy cập"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 9 (Chương 3): Mô hình DAC (Discretionary Access Control) cho phép điều gì?",
+    "options": [
+      "Chủ sở hữu tài nguyên có thể quyết định ai được truy cập",
+      "Quản trị viên quyết định toàn bộ quyền truy cập",
+      "Không ai có quyền thay đổi quyền truy cập",
+      "Chỉ áp dụng trong hệ thống mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 10 (Chương 3): RBAC là viết tắt của gì?",
+    "options": [
+      "Role-Based Access Control",
+      "Rule-Based Access Configuration",
+      "Read-Blocked Authentication Check",
+      "Restricted Binary Access Channel"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 11 (Chương 3): Mô hình MAC (Mandatory Access Control) được đặc trưng bởi điều gì?",
+    "options": [
+      "Quyền truy cập được xác định bởi chính sách hệ thống, không do người dùng quyết định",
+      "Mỗi người dùng có toàn quyền kiểm soát dữ liệu",
+      "Áp dụng cho hệ thống không bảo mật",
+      "Chỉ sử dụng trong hệ thống thương mại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 12 (Chương 3): Một ví dụ của xác thực đa yếu tố (MFA) là gì?",
+    "options": [
+      "Kết hợp mật khẩu, mã OTP và vân tay",
+      "Chỉ dùng mật khẩu",
+      "Đăng nhập qua Facebook",
+      "Xác thực bằng IP"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 13 (Chương 3): Công cụ xác thực sinh trắc học dựa trên yếu tố nào?",
+    "options": [
+      "Đặc điểm vật lý hoặc hành vi của người dùng như vân tay, khuôn mặt",
+      "Mật khẩu văn bản",
+      "Thiết bị phần cứng",
+      "Địa chỉ IP"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 14 (Chương 3): Một ví dụ của xác thực đa yếu tố (MFA) là gì?",
+    "options": [
+      "Kết hợp mật khẩu, mã OTP và vân tay",
+      "Chỉ dùng mật khẩu",
+      "Đăng nhập qua Facebook",
+      "Xác thực bằng IP"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 15 (Chương 3): Nguyên tắc 'Least Privilege' trong phân quyền có nghĩa là gì?",
+    "options": [
+      "Người dùng chỉ được cấp quyền tối thiểu cần thiết để thực hiện công việc",
+      "Cấp quyền tối đa cho tất cả người dùng",
+      "Không cần phân quyền",
+      "Cấm truy cập hoàn toàn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 16 (Chương 3): Công cụ xác thực sinh trắc học dựa trên yếu tố nào?",
+    "options": [
+      "Đặc điểm vật lý hoặc hành vi của người dùng như vân tay, khuôn mặt",
+      "Mật khẩu văn bản",
+      "Thiết bị phần cứng",
+      "Địa chỉ IP"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 17 (Chương 3): Single Sign-On (SSO) cho phép điều gì?",
+    "options": [
+      "Người dùng đăng nhập một lần để truy cập nhiều hệ thống",
+      "Người dùng phải xác thực nhiều lần",
+      "Tự động mã hóa file",
+      "Giới hạn thời gian truy cập"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 18 (Chương 3): Công cụ xác thực sinh trắc học dựa trên yếu tố nào?",
+    "options": [
+      "Đặc điểm vật lý hoặc hành vi của người dùng như vân tay, khuôn mặt",
+      "Mật khẩu văn bản",
+      "Thiết bị phần cứng",
+      "Địa chỉ IP"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 19 (Chương 3): Mô hình MAC (Mandatory Access Control) được đặc trưng bởi điều gì?",
+    "options": [
+      "Quyền truy cập được xác định bởi chính sách hệ thống, không do người dùng quyết định",
+      "Mỗi người dùng có toàn quyền kiểm soát dữ liệu",
+      "Áp dụng cho hệ thống không bảo mật",
+      "Chỉ sử dụng trong hệ thống thương mại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 20 (Chương 3): Single Sign-On (SSO) cho phép điều gì?",
+    "options": [
+      "Người dùng đăng nhập một lần để truy cập nhiều hệ thống",
+      "Người dùng phải xác thực nhiều lần",
+      "Tự động mã hóa file",
+      "Giới hạn thời gian truy cập"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 21 (Chương 3): Mô hình MAC (Mandatory Access Control) được đặc trưng bởi điều gì?",
+    "options": [
+      "Quyền truy cập được xác định bởi chính sách hệ thống, không do người dùng quyết định",
+      "Mỗi người dùng có toàn quyền kiểm soát dữ liệu",
+      "Áp dụng cho hệ thống không bảo mật",
+      "Chỉ sử dụng trong hệ thống thương mại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 22 (Chương 3): Nguyên tắc 'Least Privilege' trong phân quyền có nghĩa là gì?",
+    "options": [
+      "Người dùng chỉ được cấp quyền tối thiểu cần thiết để thực hiện công việc",
+      "Cấp quyền tối đa cho tất cả người dùng",
+      "Không cần phân quyền",
+      "Cấm truy cập hoàn toàn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 23 (Chương 3): Một nguy cơ phổ biến trong quản lý mật khẩu là gì?",
+    "options": [
+      "Người dùng sử dụng cùng mật khẩu cho nhiều hệ thống",
+      "Thay đổi mật khẩu thường xuyên",
+      "Dùng mật khẩu mạnh",
+      "Lưu mật khẩu trong trình quản lý bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 24 (Chương 3): Công cụ xác thực sinh trắc học dựa trên yếu tố nào?",
+    "options": [
+      "Đặc điểm vật lý hoặc hành vi của người dùng như vân tay, khuôn mặt",
+      "Mật khẩu văn bản",
+      "Thiết bị phần cứng",
+      "Địa chỉ IP"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 25 (Chương 3): Mô hình DAC (Discretionary Access Control) cho phép điều gì?",
+    "options": [
+      "Chủ sở hữu tài nguyên có thể quyết định ai được truy cập",
+      "Quản trị viên quyết định toàn bộ quyền truy cập",
+      "Không ai có quyền thay đổi quyền truy cập",
+      "Chỉ áp dụng trong hệ thống mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 26 (Chương 3): Single Sign-On (SSO) cho phép điều gì?",
+    "options": [
+      "Người dùng đăng nhập một lần để truy cập nhiều hệ thống",
+      "Người dùng phải xác thực nhiều lần",
+      "Tự động mã hóa file",
+      "Giới hạn thời gian truy cập"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 27 (Chương 3): Mô hình MAC (Mandatory Access Control) được đặc trưng bởi điều gì?",
+    "options": [
+      "Quyền truy cập được xác định bởi chính sách hệ thống, không do người dùng quyết định",
+      "Mỗi người dùng có toàn quyền kiểm soát dữ liệu",
+      "Áp dụng cho hệ thống không bảo mật",
+      "Chỉ sử dụng trong hệ thống thương mại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 28 (Chương 3): Nguyên tắc 'Least Privilege' trong phân quyền có nghĩa là gì?",
+    "options": [
+      "Người dùng chỉ được cấp quyền tối thiểu cần thiết để thực hiện công việc",
+      "Cấp quyền tối đa cho tất cả người dùng",
+      "Không cần phân quyền",
+      "Cấm truy cập hoàn toàn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 29 (Chương 3): Mô hình MAC (Mandatory Access Control) được đặc trưng bởi điều gì?",
+    "options": [
+      "Quyền truy cập được xác định bởi chính sách hệ thống, không do người dùng quyết định",
+      "Mỗi người dùng có toàn quyền kiểm soát dữ liệu",
+      "Áp dụng cho hệ thống không bảo mật",
+      "Chỉ sử dụng trong hệ thống thương mại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 30 (Chương 3): RBAC là viết tắt của gì?",
+    "options": [
+      "Role-Based Access Control",
+      "Rule-Based Access Configuration",
+      "Read-Blocked Authentication Check",
+      "Restricted Binary Access Channel"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 31 (Chương 3): Một ví dụ của xác thực đa yếu tố (MFA) là gì?",
+    "options": [
+      "Kết hợp mật khẩu, mã OTP và vân tay",
+      "Chỉ dùng mật khẩu",
+      "Đăng nhập qua Facebook",
+      "Xác thực bằng IP"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 32 (Chương 3): Mô hình MAC (Mandatory Access Control) được đặc trưng bởi điều gì?",
+    "options": [
+      "Quyền truy cập được xác định bởi chính sách hệ thống, không do người dùng quyết định",
+      "Mỗi người dùng có toàn quyền kiểm soát dữ liệu",
+      "Áp dụng cho hệ thống không bảo mật",
+      "Chỉ sử dụng trong hệ thống thương mại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 33 (Chương 3): Single Sign-On (SSO) cho phép điều gì?",
+    "options": [
+      "Người dùng đăng nhập một lần để truy cập nhiều hệ thống",
+      "Người dùng phải xác thực nhiều lần",
+      "Tự động mã hóa file",
+      "Giới hạn thời gian truy cập"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 34 (Chương 3): Single Sign-On (SSO) cho phép điều gì?",
+    "options": [
+      "Người dùng đăng nhập một lần để truy cập nhiều hệ thống",
+      "Người dùng phải xác thực nhiều lần",
+      "Tự động mã hóa file",
+      "Giới hạn thời gian truy cập"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 35 (Chương 3): Single Sign-On (SSO) cho phép điều gì?",
+    "options": [
+      "Người dùng đăng nhập một lần để truy cập nhiều hệ thống",
+      "Người dùng phải xác thực nhiều lần",
+      "Tự động mã hóa file",
+      "Giới hạn thời gian truy cập"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 36 (Chương 3): Nguyên tắc 'Least Privilege' trong phân quyền có nghĩa là gì?",
+    "options": [
+      "Người dùng chỉ được cấp quyền tối thiểu cần thiết để thực hiện công việc",
+      "Cấp quyền tối đa cho tất cả người dùng",
+      "Không cần phân quyền",
+      "Cấm truy cập hoàn toàn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 37 (Chương 3): Một ví dụ của xác thực đa yếu tố (MFA) là gì?",
+    "options": [
+      "Kết hợp mật khẩu, mã OTP và vân tay",
+      "Chỉ dùng mật khẩu",
+      "Đăng nhập qua Facebook",
+      "Xác thực bằng IP"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 38 (Chương 3): Single Sign-On (SSO) cho phép điều gì?",
+    "options": [
+      "Người dùng đăng nhập một lần để truy cập nhiều hệ thống",
+      "Người dùng phải xác thực nhiều lần",
+      "Tự động mã hóa file",
+      "Giới hạn thời gian truy cập"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 39 (Chương 3): Mô hình DAC (Discretionary Access Control) cho phép điều gì?",
+    "options": [
+      "Chủ sở hữu tài nguyên có thể quyết định ai được truy cập",
+      "Quản trị viên quyết định toàn bộ quyền truy cập",
+      "Không ai có quyền thay đổi quyền truy cập",
+      "Chỉ áp dụng trong hệ thống mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 40 (Chương 3): Xác thực hai yếu tố (2FA) là gì?",
+    "options": [
+      "Sử dụng hai phương thức khác nhau để xác minh danh tính người dùng",
+      "Sử dụng một mật khẩu duy nhất",
+      "Mã hóa dữ liệu bằng hai khóa",
+      "Đăng nhập bằng IP cố định"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 41 (Chương 3): Xác thực hai yếu tố (2FA) là gì?",
+    "options": [
+      "Sử dụng hai phương thức khác nhau để xác minh danh tính người dùng",
+      "Sử dụng một mật khẩu duy nhất",
+      "Mã hóa dữ liệu bằng hai khóa",
+      "Đăng nhập bằng IP cố định"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 42 (Chương 3): Kiểm soát truy cập (access control) là gì?",
+    "options": [
+      "Cơ chế giới hạn người hoặc hệ thống được phép truy cập tài nguyên",
+      "Mã hóa dữ liệu trong mạng",
+      "Sao lưu thông tin định kỳ",
+      "Tối ưu hóa hiệu năng mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 43 (Chương 3): Công cụ xác thực sinh trắc học dựa trên yếu tố nào?",
+    "options": [
+      "Đặc điểm vật lý hoặc hành vi của người dùng như vân tay, khuôn mặt",
+      "Mật khẩu văn bản",
+      "Thiết bị phần cứng",
+      "Địa chỉ IP"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 44 (Chương 3): Xác thực hai yếu tố (2FA) là gì?",
+    "options": [
+      "Sử dụng hai phương thức khác nhau để xác minh danh tính người dùng",
+      "Sử dụng một mật khẩu duy nhất",
+      "Mã hóa dữ liệu bằng hai khóa",
+      "Đăng nhập bằng IP cố định"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 45 (Chương 3): Một nguy cơ phổ biến trong quản lý mật khẩu là gì?",
+    "options": [
+      "Người dùng sử dụng cùng mật khẩu cho nhiều hệ thống",
+      "Thay đổi mật khẩu thường xuyên",
+      "Dùng mật khẩu mạnh",
+      "Lưu mật khẩu trong trình quản lý bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 46 (Chương 3): Mô hình DAC (Discretionary Access Control) cho phép điều gì?",
+    "options": [
+      "Chủ sở hữu tài nguyên có thể quyết định ai được truy cập",
+      "Quản trị viên quyết định toàn bộ quyền truy cập",
+      "Không ai có quyền thay đổi quyền truy cập",
+      "Chỉ áp dụng trong hệ thống mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 47 (Chương 3): Single Sign-On (SSO) cho phép điều gì?",
+    "options": [
+      "Người dùng đăng nhập một lần để truy cập nhiều hệ thống",
+      "Người dùng phải xác thực nhiều lần",
+      "Tự động mã hóa file",
+      "Giới hạn thời gian truy cập"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 48 (Chương 3): Kiểm soát truy cập (access control) là gì?",
+    "options": [
+      "Cơ chế giới hạn người hoặc hệ thống được phép truy cập tài nguyên",
+      "Mã hóa dữ liệu trong mạng",
+      "Sao lưu thông tin định kỳ",
+      "Tối ưu hóa hiệu năng mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 49 (Chương 3): Nguyên tắc 'Least Privilege' trong phân quyền có nghĩa là gì?",
+    "options": [
+      "Người dùng chỉ được cấp quyền tối thiểu cần thiết để thực hiện công việc",
+      "Cấp quyền tối đa cho tất cả người dùng",
+      "Không cần phân quyền",
+      "Cấm truy cập hoàn toàn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 50 (Chương 3): Mô hình MAC (Mandatory Access Control) được đặc trưng bởi điều gì?",
+    "options": [
+      "Quyền truy cập được xác định bởi chính sách hệ thống, không do người dùng quyết định",
+      "Mỗi người dùng có toàn quyền kiểm soát dữ liệu",
+      "Áp dụng cho hệ thống không bảo mật",
+      "Chỉ sử dụng trong hệ thống thương mại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 51 (Chương 3): Một nguy cơ phổ biến trong quản lý mật khẩu là gì?",
+    "options": [
+      "Người dùng sử dụng cùng mật khẩu cho nhiều hệ thống",
+      "Thay đổi mật khẩu thường xuyên",
+      "Dùng mật khẩu mạnh",
+      "Lưu mật khẩu trong trình quản lý bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 52 (Chương 3): Nguyên tắc 'Least Privilege' trong phân quyền có nghĩa là gì?",
+    "options": [
+      "Người dùng chỉ được cấp quyền tối thiểu cần thiết để thực hiện công việc",
+      "Cấp quyền tối đa cho tất cả người dùng",
+      "Không cần phân quyền",
+      "Cấm truy cập hoàn toàn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 53 (Chương 3): Mô hình DAC (Discretionary Access Control) cho phép điều gì?",
+    "options": [
+      "Chủ sở hữu tài nguyên có thể quyết định ai được truy cập",
+      "Quản trị viên quyết định toàn bộ quyền truy cập",
+      "Không ai có quyền thay đổi quyền truy cập",
+      "Chỉ áp dụng trong hệ thống mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 54 (Chương 3): Mô hình DAC (Discretionary Access Control) cho phép điều gì?",
+    "options": [
+      "Chủ sở hữu tài nguyên có thể quyết định ai được truy cập",
+      "Quản trị viên quyết định toàn bộ quyền truy cập",
+      "Không ai có quyền thay đổi quyền truy cập",
+      "Chỉ áp dụng trong hệ thống mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 55 (Chương 3): Mô hình MAC (Mandatory Access Control) được đặc trưng bởi điều gì?",
+    "options": [
+      "Quyền truy cập được xác định bởi chính sách hệ thống, không do người dùng quyết định",
+      "Mỗi người dùng có toàn quyền kiểm soát dữ liệu",
+      "Áp dụng cho hệ thống không bảo mật",
+      "Chỉ sử dụng trong hệ thống thương mại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 56 (Chương 3): Kiểm soát truy cập (access control) là gì?",
+    "options": [
+      "Cơ chế giới hạn người hoặc hệ thống được phép truy cập tài nguyên",
+      "Mã hóa dữ liệu trong mạng",
+      "Sao lưu thông tin định kỳ",
+      "Tối ưu hóa hiệu năng mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 57 (Chương 3): Kiểm soát truy cập (access control) là gì?",
+    "options": [
+      "Cơ chế giới hạn người hoặc hệ thống được phép truy cập tài nguyên",
+      "Mã hóa dữ liệu trong mạng",
+      "Sao lưu thông tin định kỳ",
+      "Tối ưu hóa hiệu năng mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 58 (Chương 3): Một nguy cơ phổ biến trong quản lý mật khẩu là gì?",
+    "options": [
+      "Người dùng sử dụng cùng mật khẩu cho nhiều hệ thống",
+      "Thay đổi mật khẩu thường xuyên",
+      "Dùng mật khẩu mạnh",
+      "Lưu mật khẩu trong trình quản lý bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 59 (Chương 3): Công cụ xác thực sinh trắc học dựa trên yếu tố nào?",
+    "options": [
+      "Đặc điểm vật lý hoặc hành vi của người dùng như vân tay, khuôn mặt",
+      "Mật khẩu văn bản",
+      "Thiết bị phần cứng",
+      "Địa chỉ IP"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 60 (Chương 3): Single Sign-On (SSO) cho phép điều gì?",
+    "options": [
+      "Người dùng đăng nhập một lần để truy cập nhiều hệ thống",
+      "Người dùng phải xác thực nhiều lần",
+      "Tự động mã hóa file",
+      "Giới hạn thời gian truy cập"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 61 (Chương 3): Xác thực hai yếu tố (2FA) là gì?",
+    "options": [
+      "Sử dụng hai phương thức khác nhau để xác minh danh tính người dùng",
+      "Sử dụng một mật khẩu duy nhất",
+      "Mã hóa dữ liệu bằng hai khóa",
+      "Đăng nhập bằng IP cố định"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 62 (Chương 3): Single Sign-On (SSO) cho phép điều gì?",
+    "options": [
+      "Người dùng đăng nhập một lần để truy cập nhiều hệ thống",
+      "Người dùng phải xác thực nhiều lần",
+      "Tự động mã hóa file",
+      "Giới hạn thời gian truy cập"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 63 (Chương 3): Single Sign-On (SSO) cho phép điều gì?",
+    "options": [
+      "Người dùng đăng nhập một lần để truy cập nhiều hệ thống",
+      "Người dùng phải xác thực nhiều lần",
+      "Tự động mã hóa file",
+      "Giới hạn thời gian truy cập"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 64 (Chương 3): Mô hình MAC (Mandatory Access Control) được đặc trưng bởi điều gì?",
+    "options": [
+      "Quyền truy cập được xác định bởi chính sách hệ thống, không do người dùng quyết định",
+      "Mỗi người dùng có toàn quyền kiểm soát dữ liệu",
+      "Áp dụng cho hệ thống không bảo mật",
+      "Chỉ sử dụng trong hệ thống thương mại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 65 (Chương 3): Một nguy cơ phổ biến trong quản lý mật khẩu là gì?",
+    "options": [
+      "Người dùng sử dụng cùng mật khẩu cho nhiều hệ thống",
+      "Thay đổi mật khẩu thường xuyên",
+      "Dùng mật khẩu mạnh",
+      "Lưu mật khẩu trong trình quản lý bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 66 (Chương 3): Mô hình MAC (Mandatory Access Control) được đặc trưng bởi điều gì?",
+    "options": [
+      "Quyền truy cập được xác định bởi chính sách hệ thống, không do người dùng quyết định",
+      "Mỗi người dùng có toàn quyền kiểm soát dữ liệu",
+      "Áp dụng cho hệ thống không bảo mật",
+      "Chỉ sử dụng trong hệ thống thương mại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 67 (Chương 3): Kiểm soát truy cập (access control) là gì?",
+    "options": [
+      "Cơ chế giới hạn người hoặc hệ thống được phép truy cập tài nguyên",
+      "Mã hóa dữ liệu trong mạng",
+      "Sao lưu thông tin định kỳ",
+      "Tối ưu hóa hiệu năng mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 68 (Chương 3): Mô hình DAC (Discretionary Access Control) cho phép điều gì?",
+    "options": [
+      "Chủ sở hữu tài nguyên có thể quyết định ai được truy cập",
+      "Quản trị viên quyết định toàn bộ quyền truy cập",
+      "Không ai có quyền thay đổi quyền truy cập",
+      "Chỉ áp dụng trong hệ thống mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 69 (Chương 3): Mô hình MAC (Mandatory Access Control) được đặc trưng bởi điều gì?",
+    "options": [
+      "Quyền truy cập được xác định bởi chính sách hệ thống, không do người dùng quyết định",
+      "Mỗi người dùng có toàn quyền kiểm soát dữ liệu",
+      "Áp dụng cho hệ thống không bảo mật",
+      "Chỉ sử dụng trong hệ thống thương mại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 70 (Chương 3): Một nguy cơ phổ biến trong quản lý mật khẩu là gì?",
+    "options": [
+      "Người dùng sử dụng cùng mật khẩu cho nhiều hệ thống",
+      "Thay đổi mật khẩu thường xuyên",
+      "Dùng mật khẩu mạnh",
+      "Lưu mật khẩu trong trình quản lý bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 71 (Chương 3): Xác thực hai yếu tố (2FA) là gì?",
+    "options": [
+      "Sử dụng hai phương thức khác nhau để xác minh danh tính người dùng",
+      "Sử dụng một mật khẩu duy nhất",
+      "Mã hóa dữ liệu bằng hai khóa",
+      "Đăng nhập bằng IP cố định"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 72 (Chương 3): Công cụ xác thực sinh trắc học dựa trên yếu tố nào?",
+    "options": [
+      "Đặc điểm vật lý hoặc hành vi của người dùng như vân tay, khuôn mặt",
+      "Mật khẩu văn bản",
+      "Thiết bị phần cứng",
+      "Địa chỉ IP"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 73 (Chương 3): Mô hình MAC (Mandatory Access Control) được đặc trưng bởi điều gì?",
+    "options": [
+      "Quyền truy cập được xác định bởi chính sách hệ thống, không do người dùng quyết định",
+      "Mỗi người dùng có toàn quyền kiểm soát dữ liệu",
+      "Áp dụng cho hệ thống không bảo mật",
+      "Chỉ sử dụng trong hệ thống thương mại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 74 (Chương 3): Xác thực hai yếu tố (2FA) là gì?",
+    "options": [
+      "Sử dụng hai phương thức khác nhau để xác minh danh tính người dùng",
+      "Sử dụng một mật khẩu duy nhất",
+      "Mã hóa dữ liệu bằng hai khóa",
+      "Đăng nhập bằng IP cố định"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 75 (Chương 3): Mô hình MAC (Mandatory Access Control) được đặc trưng bởi điều gì?",
+    "options": [
+      "Quyền truy cập được xác định bởi chính sách hệ thống, không do người dùng quyết định",
+      "Mỗi người dùng có toàn quyền kiểm soát dữ liệu",
+      "Áp dụng cho hệ thống không bảo mật",
+      "Chỉ sử dụng trong hệ thống thương mại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 76 (Chương 3): RBAC là viết tắt của gì?",
+    "options": [
+      "Role-Based Access Control",
+      "Rule-Based Access Configuration",
+      "Read-Blocked Authentication Check",
+      "Restricted Binary Access Channel"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 77 (Chương 3): Xác thực hai yếu tố (2FA) là gì?",
+    "options": [
+      "Sử dụng hai phương thức khác nhau để xác minh danh tính người dùng",
+      "Sử dụng một mật khẩu duy nhất",
+      "Mã hóa dữ liệu bằng hai khóa",
+      "Đăng nhập bằng IP cố định"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 78 (Chương 3): Single Sign-On (SSO) cho phép điều gì?",
+    "options": [
+      "Người dùng đăng nhập một lần để truy cập nhiều hệ thống",
+      "Người dùng phải xác thực nhiều lần",
+      "Tự động mã hóa file",
+      "Giới hạn thời gian truy cập"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 79 (Chương 3): Kiểm soát truy cập (access control) là gì?",
+    "options": [
+      "Cơ chế giới hạn người hoặc hệ thống được phép truy cập tài nguyên",
+      "Mã hóa dữ liệu trong mạng",
+      "Sao lưu thông tin định kỳ",
+      "Tối ưu hóa hiệu năng mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 80 (Chương 3): Nguyên tắc 'Least Privilege' trong phân quyền có nghĩa là gì?",
+    "options": [
+      "Người dùng chỉ được cấp quyền tối thiểu cần thiết để thực hiện công việc",
+      "Cấp quyền tối đa cho tất cả người dùng",
+      "Không cần phân quyền",
+      "Cấm truy cập hoàn toàn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 81 (Chương 3): Kiểm soát truy cập (access control) là gì?",
+    "options": [
+      "Cơ chế giới hạn người hoặc hệ thống được phép truy cập tài nguyên",
+      "Mã hóa dữ liệu trong mạng",
+      "Sao lưu thông tin định kỳ",
+      "Tối ưu hóa hiệu năng mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 82 (Chương 3): RBAC là viết tắt của gì?",
+    "options": [
+      "Role-Based Access Control",
+      "Rule-Based Access Configuration",
+      "Read-Blocked Authentication Check",
+      "Restricted Binary Access Channel"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 83 (Chương 3): Một ví dụ của xác thực đa yếu tố (MFA) là gì?",
+    "options": [
+      "Kết hợp mật khẩu, mã OTP và vân tay",
+      "Chỉ dùng mật khẩu",
+      "Đăng nhập qua Facebook",
+      "Xác thực bằng IP"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 84 (Chương 3): Một ví dụ của xác thực đa yếu tố (MFA) là gì?",
+    "options": [
+      "Kết hợp mật khẩu, mã OTP và vân tay",
+      "Chỉ dùng mật khẩu",
+      "Đăng nhập qua Facebook",
+      "Xác thực bằng IP"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 85 (Chương 3): RBAC là viết tắt của gì?",
+    "options": [
+      "Role-Based Access Control",
+      "Rule-Based Access Configuration",
+      "Read-Blocked Authentication Check",
+      "Restricted Binary Access Channel"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 86 (Chương 3): Nguyên tắc 'Least Privilege' trong phân quyền có nghĩa là gì?",
+    "options": [
+      "Người dùng chỉ được cấp quyền tối thiểu cần thiết để thực hiện công việc",
+      "Cấp quyền tối đa cho tất cả người dùng",
+      "Không cần phân quyền",
+      "Cấm truy cập hoàn toàn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 87 (Chương 3): Mô hình DAC (Discretionary Access Control) cho phép điều gì?",
+    "options": [
+      "Chủ sở hữu tài nguyên có thể quyết định ai được truy cập",
+      "Quản trị viên quyết định toàn bộ quyền truy cập",
+      "Không ai có quyền thay đổi quyền truy cập",
+      "Chỉ áp dụng trong hệ thống mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 88 (Chương 3): Mô hình DAC (Discretionary Access Control) cho phép điều gì?",
+    "options": [
+      "Chủ sở hữu tài nguyên có thể quyết định ai được truy cập",
+      "Quản trị viên quyết định toàn bộ quyền truy cập",
+      "Không ai có quyền thay đổi quyền truy cập",
+      "Chỉ áp dụng trong hệ thống mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 89 (Chương 3): Single Sign-On (SSO) cho phép điều gì?",
+    "options": [
+      "Người dùng đăng nhập một lần để truy cập nhiều hệ thống",
+      "Người dùng phải xác thực nhiều lần",
+      "Tự động mã hóa file",
+      "Giới hạn thời gian truy cập"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 90 (Chương 3): Công cụ xác thực sinh trắc học dựa trên yếu tố nào?",
+    "options": [
+      "Đặc điểm vật lý hoặc hành vi của người dùng như vân tay, khuôn mặt",
+      "Mật khẩu văn bản",
+      "Thiết bị phần cứng",
+      "Địa chỉ IP"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 91 (Chương 3): RBAC là viết tắt của gì?",
+    "options": [
+      "Role-Based Access Control",
+      "Rule-Based Access Configuration",
+      "Read-Blocked Authentication Check",
+      "Restricted Binary Access Channel"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 92 (Chương 3): Single Sign-On (SSO) cho phép điều gì?",
+    "options": [
+      "Người dùng đăng nhập một lần để truy cập nhiều hệ thống",
+      "Người dùng phải xác thực nhiều lần",
+      "Tự động mã hóa file",
+      "Giới hạn thời gian truy cập"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 93 (Chương 3): Single Sign-On (SSO) cho phép điều gì?",
+    "options": [
+      "Người dùng đăng nhập một lần để truy cập nhiều hệ thống",
+      "Người dùng phải xác thực nhiều lần",
+      "Tự động mã hóa file",
+      "Giới hạn thời gian truy cập"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 94 (Chương 3): Mô hình MAC (Mandatory Access Control) được đặc trưng bởi điều gì?",
+    "options": [
+      "Quyền truy cập được xác định bởi chính sách hệ thống, không do người dùng quyết định",
+      "Mỗi người dùng có toàn quyền kiểm soát dữ liệu",
+      "Áp dụng cho hệ thống không bảo mật",
+      "Chỉ sử dụng trong hệ thống thương mại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 95 (Chương 3): Mô hình MAC (Mandatory Access Control) được đặc trưng bởi điều gì?",
+    "options": [
+      "Quyền truy cập được xác định bởi chính sách hệ thống, không do người dùng quyết định",
+      "Mỗi người dùng có toàn quyền kiểm soát dữ liệu",
+      "Áp dụng cho hệ thống không bảo mật",
+      "Chỉ sử dụng trong hệ thống thương mại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 96 (Chương 3): Single Sign-On (SSO) cho phép điều gì?",
+    "options": [
+      "Người dùng đăng nhập một lần để truy cập nhiều hệ thống",
+      "Người dùng phải xác thực nhiều lần",
+      "Tự động mã hóa file",
+      "Giới hạn thời gian truy cập"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 97 (Chương 3): Một nguy cơ phổ biến trong quản lý mật khẩu là gì?",
+    "options": [
+      "Người dùng sử dụng cùng mật khẩu cho nhiều hệ thống",
+      "Thay đổi mật khẩu thường xuyên",
+      "Dùng mật khẩu mạnh",
+      "Lưu mật khẩu trong trình quản lý bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 98 (Chương 3): Một nguy cơ phổ biến trong quản lý mật khẩu là gì?",
+    "options": [
+      "Người dùng sử dụng cùng mật khẩu cho nhiều hệ thống",
+      "Thay đổi mật khẩu thường xuyên",
+      "Dùng mật khẩu mạnh",
+      "Lưu mật khẩu trong trình quản lý bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 99 (Chương 3): Xác thực hai yếu tố (2FA) là gì?",
+    "options": [
+      "Sử dụng hai phương thức khác nhau để xác minh danh tính người dùng",
+      "Sử dụng một mật khẩu duy nhất",
+      "Mã hóa dữ liệu bằng hai khóa",
+      "Đăng nhập bằng IP cố định"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  },
+  {
+    "question": "Câu 100 (Chương 3): Nguyên tắc 'Least Privilege' trong phân quyền có nghĩa là gì?",
+    "options": [
+      "Người dùng chỉ được cấp quyền tối thiểu cần thiết để thực hiện công việc",
+      "Cấp quyền tối đa cho tất cả người dùng",
+      "Không cần phân quyền",
+      "Cấm truy cập hoàn toàn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực"
+  }
+]

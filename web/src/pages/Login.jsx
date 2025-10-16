@@ -10,7 +10,7 @@ function Login() {
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
-  };
+  };// Cập nhật trạng thái form khi người dùng nhập liệu
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -25,21 +25,29 @@ function Login() {
         
       setMessage("❌ " + (err.response?.data?.message || "Đăng nhập thất bại"));
     }
-  };
+  };// Xử lý khi người dùng submit form
 
   return (
     <div className="auth-container">
-      <div className="auth-card">
-        <h2>🔐 Đăng nhập</h2>
-        <form onSubmit={handleSubmit}>
-          <input type="text" name="identifier" placeholder="Email hoặc username" onChange={handleChange} required />
-          <input type="password" name="password" placeholder="Mật khẩu" onChange={handleChange} required />
-          <button type="submit">Đăng nhập</button>
-        </form>
-        <p className="switch">
-          Chưa có tài khoản? <a href="/register">Đăng ký</a>
-        </p>
-        {message && <p className="msg">{message}</p>}
+      {/* Cột trái: Logo */}
+      <div className="auth-left">
+        <img src="./logoa.png" alt="Logo Website" />
+        <h1>Quizz Game</h1>
+      </div>
+      {/* Cột phải: Form đăng nhập */}
+      <div className="auth-right">
+        <div className="auth-card">
+          <h2>🔐 Đăng nhập</h2>
+          <form onSubmit={handleSubmit}>
+            <input type="text" name="identifier" placeholder="Email hoặc username" onChange={handleChange} required />
+            <input type="password" name="password" placeholder="Mật khẩu" onChange={handleChange} required />
+            <button type="submit">Đăng nhập</button>
+          </form>
+          <p className="switch">
+            Chưa có tài khoản? <a href="/register">Đăng ký</a>
+          </p>
+          {message && <p className="msg">{message}</p>}
+        </div>
       </div>
     </div>
   );

@@ -25,20 +25,28 @@ function Register() {
   };
 
   return (
-    <div className="auth-container">
-      <div className="auth-card">
-        <h2>📝 Đăng ký</h2>
-        <form onSubmit={handleSubmit}>
-          <input name="username" placeholder="Tên đăng nhập" onChange={handleChange} required />
-          <input name="tenhienthi" placeholder="Tên hiển thị" onChange={handleChange} />
-          <input type="email" name="email" placeholder="Email" onChange={handleChange} required />
-          <input type="password" name="password" placeholder="Mật khẩu" onChange={handleChange} required />
-          <button type="submit">Tạo tài khoản</button>
-        </form>
-        <p className="switch">
-          Đã có tài khoản? <a href="/login">Đăng nhập</a>
-        </p>
-        {message && <p className="msg">{message}</p>}
+     <div className="auth-container">
+        {/* Cột trái: Logo */}
+        <div className="auth-left">
+          <img src="./logoa.png" alt="Logo Website" />
+          <h1>Quizz Game</h1>
+        </div>
+        {/* Cột phải: Form đăng nhập */}
+        <div className="auth-right">
+        <div className="auth-card">
+          <h2>📝 Đăng ký</h2>
+          <form onSubmit={handleSubmit}>
+            <input name="username" placeholder="Tên đăng nhập" onChange={handleChange} required />
+            <input name="tenhienthi" placeholder="Tên hiển thị" onChange={handleChange} />
+            <input type="email" name="email" placeholder="Email" onChange={handleChange} required />
+            <input type="password" name="password" placeholder="Mật khẩu" onChange={handleChange} required />
+            <button type="submit">Tạo tài khoản</button>
+          </form>
+          <p className="switch">
+            Đã có tài khoản? <a href="/login">Đăng nhập</a>
+          </p>
+          {message && <p className="msg">{message}</p>}
+        </div>
       </div>
     </div>
   );

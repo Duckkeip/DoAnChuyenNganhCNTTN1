@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 5): Mục tiêu chính của quản trị mạng là gì?",
+    "options": [
+      "Đảm bảo hệ thống mạng hoạt động ổn định, an toàn và hiệu quả",
+      "Giảm chi phí phần cứng",
+      "Tăng tốc độ CPU",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 2 (Chương 5): Network Topology Map thể hiện điều gì?",
+    "options": [
+      "Sơ đồ kết nối vật lý và logic của các thiết bị trong mạng",
+      "Cấu hình hệ điều hành",
+      "Danh sách ứng dụng",
+      "Bộ nhớ của server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 3 (Chương 5): QoS trong quản trị mạng có ý nghĩa là gì?",
+    "options": [
+      "Quality of Service – cơ chế đảm bảo chất lượng dịch vụ mạng",
+      "Query on System – truy vấn dữ liệu hệ thống",
+      "Quota of Signal – hạn mức tín hiệu",
+      "Quick operating system"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 4 (Chương 5): Syslog dùng để làm gì trong hệ thống mạng?",
+    "options": [
+      "Ghi lại và truyền các bản ghi sự kiện từ thiết bị mạng",
+      "Phân giải tên miền",
+      "Tạo địa chỉ IP tự động",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 5 (Chương 5): QoS trong quản trị mạng có ý nghĩa là gì?",
+    "options": [
+      "Quality of Service – cơ chế đảm bảo chất lượng dịch vụ mạng",
+      "Query on System – truy vấn dữ liệu hệ thống",
+      "Quota of Signal – hạn mức tín hiệu",
+      "Quick operating system"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 6 (Chương 5): QoS trong quản trị mạng có ý nghĩa là gì?",
+    "options": [
+      "Quality of Service – cơ chế đảm bảo chất lượng dịch vụ mạng",
+      "Query on System – truy vấn dữ liệu hệ thống",
+      "Quota of Signal – hạn mức tín hiệu",
+      "Quick operating system"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 7 (Chương 5): Traceroute giúp người quản trị mạng xác định điều gì?",
+    "options": [
+      "Đường đi của gói tin qua các router trung gian",
+      "Độ trễ trung bình của mạng",
+      "Tốc độ tải file",
+      "Độ mạnh tín hiệu Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 8 (Chương 5): Mục tiêu chính của quản trị mạng là gì?",
+    "options": [
+      "Đảm bảo hệ thống mạng hoạt động ổn định, an toàn và hiệu quả",
+      "Giảm chi phí phần cứng",
+      "Tăng tốc độ CPU",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 9 (Chương 5): Thiết bị nào thường được dùng để giám sát và thu thập dữ liệu mạng?",
+    "options": [
+      "Network Monitor hoặc SNMP Agent",
+      "Router",
+      "Switch",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 10 (Chương 5): SNMP là viết tắt của gì trong quản trị mạng?",
+    "options": [
+      "Simple Network Management Protocol",
+      "Secure Network Monitoring Protocol",
+      "System Network Maintenance Process",
+      "Standard Network Monitoring Path"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 11 (Chương 5): Load balancing trong mạng giúp đạt được điều gì?",
+    "options": [
+      "Phân phối tải giữa nhiều máy chủ để tăng hiệu suất và độ tin cậy",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước RAM",
+      "Tạo bản sao dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 12 (Chương 5): Mục tiêu chính của quản trị mạng là gì?",
+    "options": [
+      "Đảm bảo hệ thống mạng hoạt động ổn định, an toàn và hiệu quả",
+      "Giảm chi phí phần cứng",
+      "Tăng tốc độ CPU",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 13 (Chương 5): SNMP là viết tắt của gì trong quản trị mạng?",
+    "options": [
+      "Simple Network Management Protocol",
+      "Secure Network Monitoring Protocol",
+      "System Network Maintenance Process",
+      "Standard Network Monitoring Path"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 14 (Chương 5): Thiết bị nào thường được dùng để giám sát và thu thập dữ liệu mạng?",
+    "options": [
+      "Network Monitor hoặc SNMP Agent",
+      "Router",
+      "Switch",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 15 (Chương 5): Thiết bị nào thường được dùng để giám sát và thu thập dữ liệu mạng?",
+    "options": [
+      "Network Monitor hoặc SNMP Agent",
+      "Router",
+      "Switch",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 16 (Chương 5): Mục tiêu chính của quản trị mạng là gì?",
+    "options": [
+      "Đảm bảo hệ thống mạng hoạt động ổn định, an toàn và hiệu quả",
+      "Giảm chi phí phần cứng",
+      "Tăng tốc độ CPU",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 17 (Chương 5): Một công cụ phổ biến để giám sát mạng thời gian thực là gì?",
+    "options": [
+      "Wireshark",
+      "MS Word",
+      "Photoshop",
+      "Notepad"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 18 (Chương 5): Syslog dùng để làm gì trong hệ thống mạng?",
+    "options": [
+      "Ghi lại và truyền các bản ghi sự kiện từ thiết bị mạng",
+      "Phân giải tên miền",
+      "Tạo địa chỉ IP tự động",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 19 (Chương 5): Syslog dùng để làm gì trong hệ thống mạng?",
+    "options": [
+      "Ghi lại và truyền các bản ghi sự kiện từ thiết bị mạng",
+      "Phân giải tên miền",
+      "Tạo địa chỉ IP tự động",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 20 (Chương 5): Mục tiêu chính của quản trị mạng là gì?",
+    "options": [
+      "Đảm bảo hệ thống mạng hoạt động ổn định, an toàn và hiệu quả",
+      "Giảm chi phí phần cứng",
+      "Tăng tốc độ CPU",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 21 (Chương 5): Syslog dùng để làm gì trong hệ thống mạng?",
+    "options": [
+      "Ghi lại và truyền các bản ghi sự kiện từ thiết bị mạng",
+      "Phân giải tên miền",
+      "Tạo địa chỉ IP tự động",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 22 (Chương 5): Ping được sử dụng để kiểm tra điều gì?",
+    "options": [
+      "Kiểm tra khả năng kết nối giữa hai thiết bị mạng",
+      "Tốc độ ổ cứng",
+      "Mức tiêu thụ CPU",
+      "Địa chỉ MAC"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 23 (Chương 5): QoS trong quản trị mạng có ý nghĩa là gì?",
+    "options": [
+      "Quality of Service – cơ chế đảm bảo chất lượng dịch vụ mạng",
+      "Query on System – truy vấn dữ liệu hệ thống",
+      "Quota of Signal – hạn mức tín hiệu",
+      "Quick operating system"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 24 (Chương 5): Một công cụ phổ biến để giám sát mạng thời gian thực là gì?",
+    "options": [
+      "Wireshark",
+      "MS Word",
+      "Photoshop",
+      "Notepad"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 25 (Chương 5): Load balancing trong mạng giúp đạt được điều gì?",
+    "options": [
+      "Phân phối tải giữa nhiều máy chủ để tăng hiệu suất và độ tin cậy",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước RAM",
+      "Tạo bản sao dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 26 (Chương 5): Ping được sử dụng để kiểm tra điều gì?",
+    "options": [
+      "Kiểm tra khả năng kết nối giữa hai thiết bị mạng",
+      "Tốc độ ổ cứng",
+      "Mức tiêu thụ CPU",
+      "Địa chỉ MAC"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 27 (Chương 5): Một công cụ phổ biến để giám sát mạng thời gian thực là gì?",
+    "options": [
+      "Wireshark",
+      "MS Word",
+      "Photoshop",
+      "Notepad"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 28 (Chương 5): Network Topology Map thể hiện điều gì?",
+    "options": [
+      "Sơ đồ kết nối vật lý và logic của các thiết bị trong mạng",
+      "Cấu hình hệ điều hành",
+      "Danh sách ứng dụng",
+      "Bộ nhớ của server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 29 (Chương 5): Ping được sử dụng để kiểm tra điều gì?",
+    "options": [
+      "Kiểm tra khả năng kết nối giữa hai thiết bị mạng",
+      "Tốc độ ổ cứng",
+      "Mức tiêu thụ CPU",
+      "Địa chỉ MAC"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 30 (Chương 5): QoS trong quản trị mạng có ý nghĩa là gì?",
+    "options": [
+      "Quality of Service – cơ chế đảm bảo chất lượng dịch vụ mạng",
+      "Query on System – truy vấn dữ liệu hệ thống",
+      "Quota of Signal – hạn mức tín hiệu",
+      "Quick operating system"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 31 (Chương 5): QoS trong quản trị mạng có ý nghĩa là gì?",
+    "options": [
+      "Quality of Service – cơ chế đảm bảo chất lượng dịch vụ mạng",
+      "Query on System – truy vấn dữ liệu hệ thống",
+      "Quota of Signal – hạn mức tín hiệu",
+      "Quick operating system"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 32 (Chương 5): Ping được sử dụng để kiểm tra điều gì?",
+    "options": [
+      "Kiểm tra khả năng kết nối giữa hai thiết bị mạng",
+      "Tốc độ ổ cứng",
+      "Mức tiêu thụ CPU",
+      "Địa chỉ MAC"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 33 (Chương 5): Ping được sử dụng để kiểm tra điều gì?",
+    "options": [
+      "Kiểm tra khả năng kết nối giữa hai thiết bị mạng",
+      "Tốc độ ổ cứng",
+      "Mức tiêu thụ CPU",
+      "Địa chỉ MAC"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 34 (Chương 5): Mục tiêu chính của quản trị mạng là gì?",
+    "options": [
+      "Đảm bảo hệ thống mạng hoạt động ổn định, an toàn và hiệu quả",
+      "Giảm chi phí phần cứng",
+      "Tăng tốc độ CPU",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 35 (Chương 5): Traceroute giúp người quản trị mạng xác định điều gì?",
+    "options": [
+      "Đường đi của gói tin qua các router trung gian",
+      "Độ trễ trung bình của mạng",
+      "Tốc độ tải file",
+      "Độ mạnh tín hiệu Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 36 (Chương 5): Syslog dùng để làm gì trong hệ thống mạng?",
+    "options": [
+      "Ghi lại và truyền các bản ghi sự kiện từ thiết bị mạng",
+      "Phân giải tên miền",
+      "Tạo địa chỉ IP tự động",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 37 (Chương 5): QoS trong quản trị mạng có ý nghĩa là gì?",
+    "options": [
+      "Quality of Service – cơ chế đảm bảo chất lượng dịch vụ mạng",
+      "Query on System – truy vấn dữ liệu hệ thống",
+      "Quota of Signal – hạn mức tín hiệu",
+      "Quick operating system"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 38 (Chương 5): Load balancing trong mạng giúp đạt được điều gì?",
+    "options": [
+      "Phân phối tải giữa nhiều máy chủ để tăng hiệu suất và độ tin cậy",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước RAM",
+      "Tạo bản sao dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 39 (Chương 5): Network Topology Map thể hiện điều gì?",
+    "options": [
+      "Sơ đồ kết nối vật lý và logic của các thiết bị trong mạng",
+      "Cấu hình hệ điều hành",
+      "Danh sách ứng dụng",
+      "Bộ nhớ của server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 40 (Chương 5): Load balancing trong mạng giúp đạt được điều gì?",
+    "options": [
+      "Phân phối tải giữa nhiều máy chủ để tăng hiệu suất và độ tin cậy",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước RAM",
+      "Tạo bản sao dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 41 (Chương 5): QoS trong quản trị mạng có ý nghĩa là gì?",
+    "options": [
+      "Quality of Service – cơ chế đảm bảo chất lượng dịch vụ mạng",
+      "Query on System – truy vấn dữ liệu hệ thống",
+      "Quota of Signal – hạn mức tín hiệu",
+      "Quick operating system"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 42 (Chương 5): Mục tiêu chính của quản trị mạng là gì?",
+    "options": [
+      "Đảm bảo hệ thống mạng hoạt động ổn định, an toàn và hiệu quả",
+      "Giảm chi phí phần cứng",
+      "Tăng tốc độ CPU",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 43 (Chương 5): Mục tiêu chính của quản trị mạng là gì?",
+    "options": [
+      "Đảm bảo hệ thống mạng hoạt động ổn định, an toàn và hiệu quả",
+      "Giảm chi phí phần cứng",
+      "Tăng tốc độ CPU",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 44 (Chương 5): Thiết bị nào thường được dùng để giám sát và thu thập dữ liệu mạng?",
+    "options": [
+      "Network Monitor hoặc SNMP Agent",
+      "Router",
+      "Switch",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 45 (Chương 5): QoS trong quản trị mạng có ý nghĩa là gì?",
+    "options": [
+      "Quality of Service – cơ chế đảm bảo chất lượng dịch vụ mạng",
+      "Query on System – truy vấn dữ liệu hệ thống",
+      "Quota of Signal – hạn mức tín hiệu",
+      "Quick operating system"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 46 (Chương 5): Mục tiêu chính của quản trị mạng là gì?",
+    "options": [
+      "Đảm bảo hệ thống mạng hoạt động ổn định, an toàn và hiệu quả",
+      "Giảm chi phí phần cứng",
+      "Tăng tốc độ CPU",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 47 (Chương 5): Thiết bị nào thường được dùng để giám sát và thu thập dữ liệu mạng?",
+    "options": [
+      "Network Monitor hoặc SNMP Agent",
+      "Router",
+      "Switch",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 48 (Chương 5): SNMP là viết tắt của gì trong quản trị mạng?",
+    "options": [
+      "Simple Network Management Protocol",
+      "Secure Network Monitoring Protocol",
+      "System Network Maintenance Process",
+      "Standard Network Monitoring Path"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 49 (Chương 5): Thiết bị nào thường được dùng để giám sát và thu thập dữ liệu mạng?",
+    "options": [
+      "Network Monitor hoặc SNMP Agent",
+      "Router",
+      "Switch",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 50 (Chương 5): Một công cụ phổ biến để giám sát mạng thời gian thực là gì?",
+    "options": [
+      "Wireshark",
+      "MS Word",
+      "Photoshop",
+      "Notepad"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 51 (Chương 5): Load balancing trong mạng giúp đạt được điều gì?",
+    "options": [
+      "Phân phối tải giữa nhiều máy chủ để tăng hiệu suất và độ tin cậy",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước RAM",
+      "Tạo bản sao dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 52 (Chương 5): Ping được sử dụng để kiểm tra điều gì?",
+    "options": [
+      "Kiểm tra khả năng kết nối giữa hai thiết bị mạng",
+      "Tốc độ ổ cứng",
+      "Mức tiêu thụ CPU",
+      "Địa chỉ MAC"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 53 (Chương 5): Thiết bị nào thường được dùng để giám sát và thu thập dữ liệu mạng?",
+    "options": [
+      "Network Monitor hoặc SNMP Agent",
+      "Router",
+      "Switch",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 54 (Chương 5): Thiết bị nào thường được dùng để giám sát và thu thập dữ liệu mạng?",
+    "options": [
+      "Network Monitor hoặc SNMP Agent",
+      "Router",
+      "Switch",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 55 (Chương 5): Ping được sử dụng để kiểm tra điều gì?",
+    "options": [
+      "Kiểm tra khả năng kết nối giữa hai thiết bị mạng",
+      "Tốc độ ổ cứng",
+      "Mức tiêu thụ CPU",
+      "Địa chỉ MAC"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 56 (Chương 5): Syslog dùng để làm gì trong hệ thống mạng?",
+    "options": [
+      "Ghi lại và truyền các bản ghi sự kiện từ thiết bị mạng",
+      "Phân giải tên miền",
+      "Tạo địa chỉ IP tự động",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 57 (Chương 5): Một công cụ phổ biến để giám sát mạng thời gian thực là gì?",
+    "options": [
+      "Wireshark",
+      "MS Word",
+      "Photoshop",
+      "Notepad"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 58 (Chương 5): Thiết bị nào thường được dùng để giám sát và thu thập dữ liệu mạng?",
+    "options": [
+      "Network Monitor hoặc SNMP Agent",
+      "Router",
+      "Switch",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 59 (Chương 5): Network Topology Map thể hiện điều gì?",
+    "options": [
+      "Sơ đồ kết nối vật lý và logic của các thiết bị trong mạng",
+      "Cấu hình hệ điều hành",
+      "Danh sách ứng dụng",
+      "Bộ nhớ của server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 60 (Chương 5): Một công cụ phổ biến để giám sát mạng thời gian thực là gì?",
+    "options": [
+      "Wireshark",
+      "MS Word",
+      "Photoshop",
+      "Notepad"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 61 (Chương 5): Network Topology Map thể hiện điều gì?",
+    "options": [
+      "Sơ đồ kết nối vật lý và logic của các thiết bị trong mạng",
+      "Cấu hình hệ điều hành",
+      "Danh sách ứng dụng",
+      "Bộ nhớ của server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 62 (Chương 5): Load balancing trong mạng giúp đạt được điều gì?",
+    "options": [
+      "Phân phối tải giữa nhiều máy chủ để tăng hiệu suất và độ tin cậy",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước RAM",
+      "Tạo bản sao dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 63 (Chương 5): SNMP là viết tắt của gì trong quản trị mạng?",
+    "options": [
+      "Simple Network Management Protocol",
+      "Secure Network Monitoring Protocol",
+      "System Network Maintenance Process",
+      "Standard Network Monitoring Path"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 64 (Chương 5): Ping được sử dụng để kiểm tra điều gì?",
+    "options": [
+      "Kiểm tra khả năng kết nối giữa hai thiết bị mạng",
+      "Tốc độ ổ cứng",
+      "Mức tiêu thụ CPU",
+      "Địa chỉ MAC"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 65 (Chương 5): QoS trong quản trị mạng có ý nghĩa là gì?",
+    "options": [
+      "Quality of Service – cơ chế đảm bảo chất lượng dịch vụ mạng",
+      "Query on System – truy vấn dữ liệu hệ thống",
+      "Quota of Signal – hạn mức tín hiệu",
+      "Quick operating system"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 66 (Chương 5): Traceroute giúp người quản trị mạng xác định điều gì?",
+    "options": [
+      "Đường đi của gói tin qua các router trung gian",
+      "Độ trễ trung bình của mạng",
+      "Tốc độ tải file",
+      "Độ mạnh tín hiệu Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 67 (Chương 5): QoS trong quản trị mạng có ý nghĩa là gì?",
+    "options": [
+      "Quality of Service – cơ chế đảm bảo chất lượng dịch vụ mạng",
+      "Query on System – truy vấn dữ liệu hệ thống",
+      "Quota of Signal – hạn mức tín hiệu",
+      "Quick operating system"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 68 (Chương 5): Traceroute giúp người quản trị mạng xác định điều gì?",
+    "options": [
+      "Đường đi của gói tin qua các router trung gian",
+      "Độ trễ trung bình của mạng",
+      "Tốc độ tải file",
+      "Độ mạnh tín hiệu Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 69 (Chương 5): QoS trong quản trị mạng có ý nghĩa là gì?",
+    "options": [
+      "Quality of Service – cơ chế đảm bảo chất lượng dịch vụ mạng",
+      "Query on System – truy vấn dữ liệu hệ thống",
+      "Quota of Signal – hạn mức tín hiệu",
+      "Quick operating system"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 70 (Chương 5): Một công cụ phổ biến để giám sát mạng thời gian thực là gì?",
+    "options": [
+      "Wireshark",
+      "MS Word",
+      "Photoshop",
+      "Notepad"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 71 (Chương 5): Syslog dùng để làm gì trong hệ thống mạng?",
+    "options": [
+      "Ghi lại và truyền các bản ghi sự kiện từ thiết bị mạng",
+      "Phân giải tên miền",
+      "Tạo địa chỉ IP tự động",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 72 (Chương 5): Ping được sử dụng để kiểm tra điều gì?",
+    "options": [
+      "Kiểm tra khả năng kết nối giữa hai thiết bị mạng",
+      "Tốc độ ổ cứng",
+      "Mức tiêu thụ CPU",
+      "Địa chỉ MAC"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 73 (Chương 5): Thiết bị nào thường được dùng để giám sát và thu thập dữ liệu mạng?",
+    "options": [
+      "Network Monitor hoặc SNMP Agent",
+      "Router",
+      "Switch",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 74 (Chương 5): Traceroute giúp người quản trị mạng xác định điều gì?",
+    "options": [
+      "Đường đi của gói tin qua các router trung gian",
+      "Độ trễ trung bình của mạng",
+      "Tốc độ tải file",
+      "Độ mạnh tín hiệu Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 75 (Chương 5): Syslog dùng để làm gì trong hệ thống mạng?",
+    "options": [
+      "Ghi lại và truyền các bản ghi sự kiện từ thiết bị mạng",
+      "Phân giải tên miền",
+      "Tạo địa chỉ IP tự động",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 76 (Chương 5): Thiết bị nào thường được dùng để giám sát và thu thập dữ liệu mạng?",
+    "options": [
+      "Network Monitor hoặc SNMP Agent",
+      "Router",
+      "Switch",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 77 (Chương 5): Một công cụ phổ biến để giám sát mạng thời gian thực là gì?",
+    "options": [
+      "Wireshark",
+      "MS Word",
+      "Photoshop",
+      "Notepad"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 78 (Chương 5): Một công cụ phổ biến để giám sát mạng thời gian thực là gì?",
+    "options": [
+      "Wireshark",
+      "MS Word",
+      "Photoshop",
+      "Notepad"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 79 (Chương 5): Thiết bị nào thường được dùng để giám sát và thu thập dữ liệu mạng?",
+    "options": [
+      "Network Monitor hoặc SNMP Agent",
+      "Router",
+      "Switch",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 80 (Chương 5): Network Topology Map thể hiện điều gì?",
+    "options": [
+      "Sơ đồ kết nối vật lý và logic của các thiết bị trong mạng",
+      "Cấu hình hệ điều hành",
+      "Danh sách ứng dụng",
+      "Bộ nhớ của server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 81 (Chương 5): SNMP là viết tắt của gì trong quản trị mạng?",
+    "options": [
+      "Simple Network Management Protocol",
+      "Secure Network Monitoring Protocol",
+      "System Network Maintenance Process",
+      "Standard Network Monitoring Path"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 82 (Chương 5): Mục tiêu chính của quản trị mạng là gì?",
+    "options": [
+      "Đảm bảo hệ thống mạng hoạt động ổn định, an toàn và hiệu quả",
+      "Giảm chi phí phần cứng",
+      "Tăng tốc độ CPU",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 83 (Chương 5): Một công cụ phổ biến để giám sát mạng thời gian thực là gì?",
+    "options": [
+      "Wireshark",
+      "MS Word",
+      "Photoshop",
+      "Notepad"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 84 (Chương 5): Traceroute giúp người quản trị mạng xác định điều gì?",
+    "options": [
+      "Đường đi của gói tin qua các router trung gian",
+      "Độ trễ trung bình của mạng",
+      "Tốc độ tải file",
+      "Độ mạnh tín hiệu Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 85 (Chương 5): Network Topology Map thể hiện điều gì?",
+    "options": [
+      "Sơ đồ kết nối vật lý và logic của các thiết bị trong mạng",
+      "Cấu hình hệ điều hành",
+      "Danh sách ứng dụng",
+      "Bộ nhớ của server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 86 (Chương 5): Mục tiêu chính của quản trị mạng là gì?",
+    "options": [
+      "Đảm bảo hệ thống mạng hoạt động ổn định, an toàn và hiệu quả",
+      "Giảm chi phí phần cứng",
+      "Tăng tốc độ CPU",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 87 (Chương 5): Traceroute giúp người quản trị mạng xác định điều gì?",
+    "options": [
+      "Đường đi của gói tin qua các router trung gian",
+      "Độ trễ trung bình của mạng",
+      "Tốc độ tải file",
+      "Độ mạnh tín hiệu Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 88 (Chương 5): Mục tiêu chính của quản trị mạng là gì?",
+    "options": [
+      "Đảm bảo hệ thống mạng hoạt động ổn định, an toàn và hiệu quả",
+      "Giảm chi phí phần cứng",
+      "Tăng tốc độ CPU",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 89 (Chương 5): Network Topology Map thể hiện điều gì?",
+    "options": [
+      "Sơ đồ kết nối vật lý và logic của các thiết bị trong mạng",
+      "Cấu hình hệ điều hành",
+      "Danh sách ứng dụng",
+      "Bộ nhớ của server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 90 (Chương 5): Thiết bị nào thường được dùng để giám sát và thu thập dữ liệu mạng?",
+    "options": [
+      "Network Monitor hoặc SNMP Agent",
+      "Router",
+      "Switch",
+      "Hub"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 91 (Chương 5): Mục tiêu chính của quản trị mạng là gì?",
+    "options": [
+      "Đảm bảo hệ thống mạng hoạt động ổn định, an toàn và hiệu quả",
+      "Giảm chi phí phần cứng",
+      "Tăng tốc độ CPU",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 92 (Chương 5): Mục tiêu chính của quản trị mạng là gì?",
+    "options": [
+      "Đảm bảo hệ thống mạng hoạt động ổn định, an toàn và hiệu quả",
+      "Giảm chi phí phần cứng",
+      "Tăng tốc độ CPU",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 93 (Chương 5): Mục tiêu chính của quản trị mạng là gì?",
+    "options": [
+      "Đảm bảo hệ thống mạng hoạt động ổn định, an toàn và hiệu quả",
+      "Giảm chi phí phần cứng",
+      "Tăng tốc độ CPU",
+      "Quản lý hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 94 (Chương 5): Một công cụ phổ biến để giám sát mạng thời gian thực là gì?",
+    "options": [
+      "Wireshark",
+      "MS Word",
+      "Photoshop",
+      "Notepad"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 95 (Chương 5): Traceroute giúp người quản trị mạng xác định điều gì?",
+    "options": [
+      "Đường đi của gói tin qua các router trung gian",
+      "Độ trễ trung bình của mạng",
+      "Tốc độ tải file",
+      "Độ mạnh tín hiệu Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 96 (Chương 5): Network Topology Map thể hiện điều gì?",
+    "options": [
+      "Sơ đồ kết nối vật lý và logic của các thiết bị trong mạng",
+      "Cấu hình hệ điều hành",
+      "Danh sách ứng dụng",
+      "Bộ nhớ của server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 97 (Chương 5): Ping được sử dụng để kiểm tra điều gì?",
+    "options": [
+      "Kiểm tra khả năng kết nối giữa hai thiết bị mạng",
+      "Tốc độ ổ cứng",
+      "Mức tiêu thụ CPU",
+      "Địa chỉ MAC"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 98 (Chương 5): Load balancing trong mạng giúp đạt được điều gì?",
+    "options": [
+      "Phân phối tải giữa nhiều máy chủ để tăng hiệu suất và độ tin cậy",
+      "Tăng tốc độ CPU",
+      "Giảm kích thước RAM",
+      "Tạo bản sao dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 99 (Chương 5): Network Topology Map thể hiện điều gì?",
+    "options": [
+      "Sơ đồ kết nối vật lý và logic của các thiết bị trong mạng",
+      "Cấu hình hệ điều hành",
+      "Danh sách ứng dụng",
+      "Bộ nhớ của server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  },
+  {
+    "question": "Câu 100 (Chương 5): Traceroute giúp người quản trị mạng xác định điều gì?",
+    "options": [
+      "Đường đi của gói tin qua các router trung gian",
+      "Độ trễ trung bình của mạng",
+      "Tốc độ tải file",
+      "Độ mạnh tín hiệu Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng"
+  }
+]

@@ -1,10 +1,16 @@
 const express = require('express');
 const router = express.Router();
-const Chude = require('../models/ChuDe');//main
-const Ketqua = require('../models/ketqua');//main
+
+// 🧱 Models
+const Chude = require('../models/ChuDe');
+const Cauhoi = require('../models/Cauhoi');
+const Ketqua = require('../models/Ketqua');
 const Quizzuser = require('../models/Quizzuser');
 
-// ✅ Lấy danh sách chủ đề
+
+// ===================================================================
+// ✅ LẤY DANH SÁCH CHỦ ĐỀ
+// ===================================================================
 router.get('/chude', async (req, res) => {
   try {
     const data = await Chude.find().populate('user_id', 'username');
@@ -14,7 +20,7 @@ router.get('/chude', async (req, res) => {
   }
 });
 
-// ✅ Tạo chủ đề mới
+// ✅ TẠO CHỦ ĐỀ MỚI
 router.post('/chude', async (req, res) => {
   try {
     const newChude = new Chude(req.body);
@@ -25,28 +31,66 @@ router.post('/chude', async (req, res) => {
   }
 });
 
-// ✅ Thêm câu hỏi vào chủ đề
-router.post('/ketqua', async (req, res) => {
-  try {
-    const newQ = new Ketqua(req.body);
-    await newQ.save();
-    res.json(newQ);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
-});
 
-// ✅ Lấy câu hỏi theo chủ đề
-router.get('/ketqua/:id_chude', async (req, res) => {
+// ===================================================================
+// ✅ CÂU HỎI (Cauhoi)
+// ===================================================================
+
+// ✅ Lấy danh sách câu hỏi theo chủ đề
+router.get('/cauhoi/:id_chude', async (req, res) => {
   try {
-    const data = await Ketqua.find({ id_chude: req.params.id_chude });
+    const data = await Cauhoi.find({ id_chude: req.params.id_chude });
     res.json(data);
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
 });
 
-// ✅ Tạo phòng thi (quizz room)
+// ✅ Thêm câu hỏi vào chủ đề
+router.post('/cauhoi', async (req, res) => {
+  try {
+    const newQuestion = new Cauhoi(req.body);
+    await newQuestion.save();
+    res.json(newQuestion);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+
+// ===================================================================
+// ✅ KẾT QUẢ (Ketqua)
+// ===================================================================
+
+// ✅ Lưu kết quả bài làm
+router.post('/ketqua', async (req, res) => {
+  try {
+    const newResult = new Ketqua(req.body);
+    await newResult.save();
+    res.json(newResult);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// ✅ Lấy kết quả theo người dùng hoặc theo chủ đề (tùy bạn mở rộng sau)
+router.get('/ketqua', async (req, res) => {
+  try {
+    const data = await Ketqua.find()
+      .populate('user_id', 'username')
+      .populate('id_chude', 'tenchude');
+    res.json(data);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+
+// ===================================================================
+// ✅ PHÒNG THI (Quizz Room)
+// ===================================================================
+
+// ✅ Tạo phòng mới
 router.post('/room', async (req, res) => {
   try {
     const room = new Quizzuser(req.body);
@@ -67,4 +111,6 @@ router.get('/room', async (req, res) => {
   }
 });
 
+
+// ===================================================================
 module.exports = router;

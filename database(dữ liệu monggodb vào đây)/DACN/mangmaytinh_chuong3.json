@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 3): BGP thường được sử dụng trong môi trường nào?",
+    "options": [
+      "Internet (liên kết giữa các hệ thống tự trị - AS)",
+      "Mạng LAN nội bộ",
+      "Wi-Fi cá nhân",
+      "VPN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 2 (Chương 3): Giao thức TCP cung cấp loại dịch vụ nào?",
+    "options": [
+      "Truyền dữ liệu tin cậy, có kiểm soát lỗi và thứ tự",
+      "Truyền dữ liệu không đảm bảo",
+      "Truyền dữ liệu theo broadcast",
+      "Chỉ truyền dữ liệu nội bộ"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 3 (Chương 3): ARP có vai trò gì trong mạng máy tính?",
+    "options": [
+      "Chuyển đổi địa chỉ IP sang địa chỉ MAC",
+      "Chuyển địa chỉ MAC sang IP",
+      "Phân giải DNS",
+      "Xác định định tuyến"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 4 (Chương 3): HTTP hoạt động ở tầng nào của mô hình OSI?",
+    "options": [
+      "Tầng ứng dụng (Application)",
+      "Tầng vận chuyển",
+      "Tầng mạng",
+      "Tầng vật lý"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 5 (Chương 3): ICMP được dùng để làm gì?",
+    "options": [
+      "Chẩn đoán và báo lỗi trong truyền thông mạng",
+      "Truyền file",
+      "Mã hóa dữ liệu",
+      "Gửi email"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 6 (Chương 3): Giao thức DNS có nhiệm vụ gì?",
+    "options": [
+      "Chuyển đổi tên miền thành địa chỉ IP",
+      "Mã hóa dữ liệu truyền",
+      "Xác thực người dùng",
+      "Điều khiển lưu lượng mạng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 7 (Chương 3): Giao thức TCP cung cấp loại dịch vụ nào?",
+    "options": [
+      "Truyền dữ liệu tin cậy, có kiểm soát lỗi và thứ tự",
+      "Truyền dữ liệu không đảm bảo",
+      "Truyền dữ liệu theo broadcast",
+      "Chỉ truyền dữ liệu nội bộ"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 8 (Chương 3): ARP có vai trò gì trong mạng máy tính?",
+    "options": [
+      "Chuyển đổi địa chỉ IP sang địa chỉ MAC",
+      "Chuyển địa chỉ MAC sang IP",
+      "Phân giải DNS",
+      "Xác định định tuyến"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 9 (Chương 3): Thuật toán định tuyến nào sử dụng đường đi ngắn nhất dựa trên chi phí?",
+    "options": [
+      "OSPF",
+      "RIP",
+      "BGP",
+      "ICMP"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 10 (Chương 3): ICMP được dùng để làm gì?",
+    "options": [
+      "Chẩn đoán và báo lỗi trong truyền thông mạng",
+      "Truyền file",
+      "Mã hóa dữ liệu",
+      "Gửi email"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 11 (Chương 3): RIP là viết tắt của gì?",
+    "options": [
+      "Routing Information Protocol",
+      "Remote Internet Path",
+      "Reliable Internet Protocol",
+      "Route Initialization Program"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 12 (Chương 3): HTTP hoạt động ở tầng nào của mô hình OSI?",
+    "options": [
+      "Tầng ứng dụng (Application)",
+      "Tầng vận chuyển",
+      "Tầng mạng",
+      "Tầng vật lý"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 13 (Chương 3): UDP khác TCP ở điểm nào?",
+    "options": [
+      "UDP không đảm bảo tính tin cậy và không có kiểm soát lỗi",
+      "UDP chậm hơn TCP",
+      "UDP dùng cho file transfer",
+      "UDP có kiểm tra checksum bắt buộc"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 14 (Chương 3): RIP là viết tắt của gì?",
+    "options": [
+      "Routing Information Protocol",
+      "Remote Internet Path",
+      "Reliable Internet Protocol",
+      "Route Initialization Program"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 15 (Chương 3): BGP thường được sử dụng trong môi trường nào?",
+    "options": [
+      "Internet (liên kết giữa các hệ thống tự trị - AS)",
+      "Mạng LAN nội bộ",
+      "Wi-Fi cá nhân",
+      "VPN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 16 (Chương 3): BGP thường được sử dụng trong môi trường nào?",
+    "options": [
+      "Internet (liên kết giữa các hệ thống tự trị - AS)",
+      "Mạng LAN nội bộ",
+      "Wi-Fi cá nhân",
+      "VPN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 17 (Chương 3): UDP khác TCP ở điểm nào?",
+    "options": [
+      "UDP không đảm bảo tính tin cậy và không có kiểm soát lỗi",
+      "UDP chậm hơn TCP",
+      "UDP dùng cho file transfer",
+      "UDP có kiểm tra checksum bắt buộc"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 18 (Chương 3): RIP là viết tắt của gì?",
+    "options": [
+      "Routing Information Protocol",
+      "Remote Internet Path",
+      "Reliable Internet Protocol",
+      "Route Initialization Program"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 19 (Chương 3): ARP có vai trò gì trong mạng máy tính?",
+    "options": [
+      "Chuyển đổi địa chỉ IP sang địa chỉ MAC",
+      "Chuyển địa chỉ MAC sang IP",
+      "Phân giải DNS",
+      "Xác định định tuyến"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 20 (Chương 3): ICMP được dùng để làm gì?",
+    "options": [
+      "Chẩn đoán và báo lỗi trong truyền thông mạng",
+      "Truyền file",
+      "Mã hóa dữ liệu",
+      "Gửi email"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 21 (Chương 3): NAT có vai trò gì trong mạng IP?",
+    "options": [
+      "Chuyển đổi địa chỉ IP riêng sang IP công cộng và ngược lại",
+      "Phân giải tên miền",
+      "Định tuyến nội bộ",
+      "Tạo kết nối không dây"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 22 (Chương 3): Thuật toán định tuyến nào sử dụng đường đi ngắn nhất dựa trên chi phí?",
+    "options": [
+      "OSPF",
+      "RIP",
+      "BGP",
+      "ICMP"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 23 (Chương 3): NAT có vai trò gì trong mạng IP?",
+    "options": [
+      "Chuyển đổi địa chỉ IP riêng sang IP công cộng và ngược lại",
+      "Phân giải tên miền",
+      "Định tuyến nội bộ",
+      "Tạo kết nối không dây"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 24 (Chương 3): ARP có vai trò gì trong mạng máy tính?",
+    "options": [
+      "Chuyển đổi địa chỉ IP sang địa chỉ MAC",
+      "Chuyển địa chỉ MAC sang IP",
+      "Phân giải DNS",
+      "Xác định định tuyến"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 25 (Chương 3): BGP thường được sử dụng trong môi trường nào?",
+    "options": [
+      "Internet (liên kết giữa các hệ thống tự trị - AS)",
+      "Mạng LAN nội bộ",
+      "Wi-Fi cá nhân",
+      "VPN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 26 (Chương 3): Giao thức DNS có nhiệm vụ gì?",
+    "options": [
+      "Chuyển đổi tên miền thành địa chỉ IP",
+      "Mã hóa dữ liệu truyền",
+      "Xác thực người dùng",
+      "Điều khiển lưu lượng mạng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 27 (Chương 3): Giao thức TCP cung cấp loại dịch vụ nào?",
+    "options": [
+      "Truyền dữ liệu tin cậy, có kiểm soát lỗi và thứ tự",
+      "Truyền dữ liệu không đảm bảo",
+      "Truyền dữ liệu theo broadcast",
+      "Chỉ truyền dữ liệu nội bộ"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 28 (Chương 3): ARP có vai trò gì trong mạng máy tính?",
+    "options": [
+      "Chuyển đổi địa chỉ IP sang địa chỉ MAC",
+      "Chuyển địa chỉ MAC sang IP",
+      "Phân giải DNS",
+      "Xác định định tuyến"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 29 (Chương 3): Thuật toán định tuyến nào sử dụng đường đi ngắn nhất dựa trên chi phí?",
+    "options": [
+      "OSPF",
+      "RIP",
+      "BGP",
+      "ICMP"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 30 (Chương 3): ICMP được dùng để làm gì?",
+    "options": [
+      "Chẩn đoán và báo lỗi trong truyền thông mạng",
+      "Truyền file",
+      "Mã hóa dữ liệu",
+      "Gửi email"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 31 (Chương 3): ARP có vai trò gì trong mạng máy tính?",
+    "options": [
+      "Chuyển đổi địa chỉ IP sang địa chỉ MAC",
+      "Chuyển địa chỉ MAC sang IP",
+      "Phân giải DNS",
+      "Xác định định tuyến"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 32 (Chương 3): HTTP hoạt động ở tầng nào của mô hình OSI?",
+    "options": [
+      "Tầng ứng dụng (Application)",
+      "Tầng vận chuyển",
+      "Tầng mạng",
+      "Tầng vật lý"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 33 (Chương 3): Thuật toán định tuyến nào sử dụng đường đi ngắn nhất dựa trên chi phí?",
+    "options": [
+      "OSPF",
+      "RIP",
+      "BGP",
+      "ICMP"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 34 (Chương 3): UDP khác TCP ở điểm nào?",
+    "options": [
+      "UDP không đảm bảo tính tin cậy và không có kiểm soát lỗi",
+      "UDP chậm hơn TCP",
+      "UDP dùng cho file transfer",
+      "UDP có kiểm tra checksum bắt buộc"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 35 (Chương 3): BGP thường được sử dụng trong môi trường nào?",
+    "options": [
+      "Internet (liên kết giữa các hệ thống tự trị - AS)",
+      "Mạng LAN nội bộ",
+      "Wi-Fi cá nhân",
+      "VPN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 36 (Chương 3): HTTP hoạt động ở tầng nào của mô hình OSI?",
+    "options": [
+      "Tầng ứng dụng (Application)",
+      "Tầng vận chuyển",
+      "Tầng mạng",
+      "Tầng vật lý"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 37 (Chương 3): RIP là viết tắt của gì?",
+    "options": [
+      "Routing Information Protocol",
+      "Remote Internet Path",
+      "Reliable Internet Protocol",
+      "Route Initialization Program"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 38 (Chương 3): Giao thức TCP cung cấp loại dịch vụ nào?",
+    "options": [
+      "Truyền dữ liệu tin cậy, có kiểm soát lỗi và thứ tự",
+      "Truyền dữ liệu không đảm bảo",
+      "Truyền dữ liệu theo broadcast",
+      "Chỉ truyền dữ liệu nội bộ"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 39 (Chương 3): Thuật toán định tuyến nào sử dụng đường đi ngắn nhất dựa trên chi phí?",
+    "options": [
+      "OSPF",
+      "RIP",
+      "BGP",
+      "ICMP"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 40 (Chương 3): BGP thường được sử dụng trong môi trường nào?",
+    "options": [
+      "Internet (liên kết giữa các hệ thống tự trị - AS)",
+      "Mạng LAN nội bộ",
+      "Wi-Fi cá nhân",
+      "VPN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 41 (Chương 3): Giao thức TCP cung cấp loại dịch vụ nào?",
+    "options": [
+      "Truyền dữ liệu tin cậy, có kiểm soát lỗi và thứ tự",
+      "Truyền dữ liệu không đảm bảo",
+      "Truyền dữ liệu theo broadcast",
+      "Chỉ truyền dữ liệu nội bộ"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 42 (Chương 3): ICMP được dùng để làm gì?",
+    "options": [
+      "Chẩn đoán và báo lỗi trong truyền thông mạng",
+      "Truyền file",
+      "Mã hóa dữ liệu",
+      "Gửi email"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 43 (Chương 3): Giao thức DNS có nhiệm vụ gì?",
+    "options": [
+      "Chuyển đổi tên miền thành địa chỉ IP",
+      "Mã hóa dữ liệu truyền",
+      "Xác thực người dùng",
+      "Điều khiển lưu lượng mạng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 44 (Chương 3): Giao thức DNS có nhiệm vụ gì?",
+    "options": [
+      "Chuyển đổi tên miền thành địa chỉ IP",
+      "Mã hóa dữ liệu truyền",
+      "Xác thực người dùng",
+      "Điều khiển lưu lượng mạng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 45 (Chương 3): UDP khác TCP ở điểm nào?",
+    "options": [
+      "UDP không đảm bảo tính tin cậy và không có kiểm soát lỗi",
+      "UDP chậm hơn TCP",
+      "UDP dùng cho file transfer",
+      "UDP có kiểm tra checksum bắt buộc"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 46 (Chương 3): Thuật toán định tuyến nào sử dụng đường đi ngắn nhất dựa trên chi phí?",
+    "options": [
+      "OSPF",
+      "RIP",
+      "BGP",
+      "ICMP"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 47 (Chương 3): ICMP được dùng để làm gì?",
+    "options": [
+      "Chẩn đoán và báo lỗi trong truyền thông mạng",
+      "Truyền file",
+      "Mã hóa dữ liệu",
+      "Gửi email"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 48 (Chương 3): ARP có vai trò gì trong mạng máy tính?",
+    "options": [
+      "Chuyển đổi địa chỉ IP sang địa chỉ MAC",
+      "Chuyển địa chỉ MAC sang IP",
+      "Phân giải DNS",
+      "Xác định định tuyến"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 49 (Chương 3): UDP khác TCP ở điểm nào?",
+    "options": [
+      "UDP không đảm bảo tính tin cậy và không có kiểm soát lỗi",
+      "UDP chậm hơn TCP",
+      "UDP dùng cho file transfer",
+      "UDP có kiểm tra checksum bắt buộc"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 50 (Chương 3): Giao thức TCP cung cấp loại dịch vụ nào?",
+    "options": [
+      "Truyền dữ liệu tin cậy, có kiểm soát lỗi và thứ tự",
+      "Truyền dữ liệu không đảm bảo",
+      "Truyền dữ liệu theo broadcast",
+      "Chỉ truyền dữ liệu nội bộ"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 51 (Chương 3): Giao thức DNS có nhiệm vụ gì?",
+    "options": [
+      "Chuyển đổi tên miền thành địa chỉ IP",
+      "Mã hóa dữ liệu truyền",
+      "Xác thực người dùng",
+      "Điều khiển lưu lượng mạng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 52 (Chương 3): RIP là viết tắt của gì?",
+    "options": [
+      "Routing Information Protocol",
+      "Remote Internet Path",
+      "Reliable Internet Protocol",
+      "Route Initialization Program"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 53 (Chương 3): ICMP được dùng để làm gì?",
+    "options": [
+      "Chẩn đoán và báo lỗi trong truyền thông mạng",
+      "Truyền file",
+      "Mã hóa dữ liệu",
+      "Gửi email"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 54 (Chương 3): ICMP được dùng để làm gì?",
+    "options": [
+      "Chẩn đoán và báo lỗi trong truyền thông mạng",
+      "Truyền file",
+      "Mã hóa dữ liệu",
+      "Gửi email"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 55 (Chương 3): UDP khác TCP ở điểm nào?",
+    "options": [
+      "UDP không đảm bảo tính tin cậy và không có kiểm soát lỗi",
+      "UDP chậm hơn TCP",
+      "UDP dùng cho file transfer",
+      "UDP có kiểm tra checksum bắt buộc"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 56 (Chương 3): NAT có vai trò gì trong mạng IP?",
+    "options": [
+      "Chuyển đổi địa chỉ IP riêng sang IP công cộng và ngược lại",
+      "Phân giải tên miền",
+      "Định tuyến nội bộ",
+      "Tạo kết nối không dây"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 57 (Chương 3): UDP khác TCP ở điểm nào?",
+    "options": [
+      "UDP không đảm bảo tính tin cậy và không có kiểm soát lỗi",
+      "UDP chậm hơn TCP",
+      "UDP dùng cho file transfer",
+      "UDP có kiểm tra checksum bắt buộc"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 58 (Chương 3): UDP khác TCP ở điểm nào?",
+    "options": [
+      "UDP không đảm bảo tính tin cậy và không có kiểm soát lỗi",
+      "UDP chậm hơn TCP",
+      "UDP dùng cho file transfer",
+      "UDP có kiểm tra checksum bắt buộc"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 59 (Chương 3): HTTP hoạt động ở tầng nào của mô hình OSI?",
+    "options": [
+      "Tầng ứng dụng (Application)",
+      "Tầng vận chuyển",
+      "Tầng mạng",
+      "Tầng vật lý"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 60 (Chương 3): ARP có vai trò gì trong mạng máy tính?",
+    "options": [
+      "Chuyển đổi địa chỉ IP sang địa chỉ MAC",
+      "Chuyển địa chỉ MAC sang IP",
+      "Phân giải DNS",
+      "Xác định định tuyến"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 61 (Chương 3): Thuật toán định tuyến nào sử dụng đường đi ngắn nhất dựa trên chi phí?",
+    "options": [
+      "OSPF",
+      "RIP",
+      "BGP",
+      "ICMP"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 62 (Chương 3): ARP có vai trò gì trong mạng máy tính?",
+    "options": [
+      "Chuyển đổi địa chỉ IP sang địa chỉ MAC",
+      "Chuyển địa chỉ MAC sang IP",
+      "Phân giải DNS",
+      "Xác định định tuyến"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 63 (Chương 3): RIP là viết tắt của gì?",
+    "options": [
+      "Routing Information Protocol",
+      "Remote Internet Path",
+      "Reliable Internet Protocol",
+      "Route Initialization Program"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 64 (Chương 3): RIP là viết tắt của gì?",
+    "options": [
+      "Routing Information Protocol",
+      "Remote Internet Path",
+      "Reliable Internet Protocol",
+      "Route Initialization Program"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 65 (Chương 3): Giao thức DNS có nhiệm vụ gì?",
+    "options": [
+      "Chuyển đổi tên miền thành địa chỉ IP",
+      "Mã hóa dữ liệu truyền",
+      "Xác thực người dùng",
+      "Điều khiển lưu lượng mạng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 66 (Chương 3): Giao thức TCP cung cấp loại dịch vụ nào?",
+    "options": [
+      "Truyền dữ liệu tin cậy, có kiểm soát lỗi và thứ tự",
+      "Truyền dữ liệu không đảm bảo",
+      "Truyền dữ liệu theo broadcast",
+      "Chỉ truyền dữ liệu nội bộ"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 67 (Chương 3): HTTP hoạt động ở tầng nào của mô hình OSI?",
+    "options": [
+      "Tầng ứng dụng (Application)",
+      "Tầng vận chuyển",
+      "Tầng mạng",
+      "Tầng vật lý"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 68 (Chương 3): RIP là viết tắt của gì?",
+    "options": [
+      "Routing Information Protocol",
+      "Remote Internet Path",
+      "Reliable Internet Protocol",
+      "Route Initialization Program"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 69 (Chương 3): Giao thức TCP cung cấp loại dịch vụ nào?",
+    "options": [
+      "Truyền dữ liệu tin cậy, có kiểm soát lỗi và thứ tự",
+      "Truyền dữ liệu không đảm bảo",
+      "Truyền dữ liệu theo broadcast",
+      "Chỉ truyền dữ liệu nội bộ"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 70 (Chương 3): NAT có vai trò gì trong mạng IP?",
+    "options": [
+      "Chuyển đổi địa chỉ IP riêng sang IP công cộng và ngược lại",
+      "Phân giải tên miền",
+      "Định tuyến nội bộ",
+      "Tạo kết nối không dây"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 71 (Chương 3): Giao thức TCP cung cấp loại dịch vụ nào?",
+    "options": [
+      "Truyền dữ liệu tin cậy, có kiểm soát lỗi và thứ tự",
+      "Truyền dữ liệu không đảm bảo",
+      "Truyền dữ liệu theo broadcast",
+      "Chỉ truyền dữ liệu nội bộ"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 72 (Chương 3): NAT có vai trò gì trong mạng IP?",
+    "options": [
+      "Chuyển đổi địa chỉ IP riêng sang IP công cộng và ngược lại",
+      "Phân giải tên miền",
+      "Định tuyến nội bộ",
+      "Tạo kết nối không dây"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 73 (Chương 3): Giao thức TCP cung cấp loại dịch vụ nào?",
+    "options": [
+      "Truyền dữ liệu tin cậy, có kiểm soát lỗi và thứ tự",
+      "Truyền dữ liệu không đảm bảo",
+      "Truyền dữ liệu theo broadcast",
+      "Chỉ truyền dữ liệu nội bộ"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 74 (Chương 3): ARP có vai trò gì trong mạng máy tính?",
+    "options": [
+      "Chuyển đổi địa chỉ IP sang địa chỉ MAC",
+      "Chuyển địa chỉ MAC sang IP",
+      "Phân giải DNS",
+      "Xác định định tuyến"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 75 (Chương 3): Giao thức DNS có nhiệm vụ gì?",
+    "options": [
+      "Chuyển đổi tên miền thành địa chỉ IP",
+      "Mã hóa dữ liệu truyền",
+      "Xác thực người dùng",
+      "Điều khiển lưu lượng mạng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 76 (Chương 3): ICMP được dùng để làm gì?",
+    "options": [
+      "Chẩn đoán và báo lỗi trong truyền thông mạng",
+      "Truyền file",
+      "Mã hóa dữ liệu",
+      "Gửi email"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 77 (Chương 3): ICMP được dùng để làm gì?",
+    "options": [
+      "Chẩn đoán và báo lỗi trong truyền thông mạng",
+      "Truyền file",
+      "Mã hóa dữ liệu",
+      "Gửi email"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 78 (Chương 3): BGP thường được sử dụng trong môi trường nào?",
+    "options": [
+      "Internet (liên kết giữa các hệ thống tự trị - AS)",
+      "Mạng LAN nội bộ",
+      "Wi-Fi cá nhân",
+      "VPN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 79 (Chương 3): Giao thức TCP cung cấp loại dịch vụ nào?",
+    "options": [
+      "Truyền dữ liệu tin cậy, có kiểm soát lỗi và thứ tự",
+      "Truyền dữ liệu không đảm bảo",
+      "Truyền dữ liệu theo broadcast",
+      "Chỉ truyền dữ liệu nội bộ"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 80 (Chương 3): UDP khác TCP ở điểm nào?",
+    "options": [
+      "UDP không đảm bảo tính tin cậy và không có kiểm soát lỗi",
+      "UDP chậm hơn TCP",
+      "UDP dùng cho file transfer",
+      "UDP có kiểm tra checksum bắt buộc"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 81 (Chương 3): NAT có vai trò gì trong mạng IP?",
+    "options": [
+      "Chuyển đổi địa chỉ IP riêng sang IP công cộng và ngược lại",
+      "Phân giải tên miền",
+      "Định tuyến nội bộ",
+      "Tạo kết nối không dây"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 82 (Chương 3): ARP có vai trò gì trong mạng máy tính?",
+    "options": [
+      "Chuyển đổi địa chỉ IP sang địa chỉ MAC",
+      "Chuyển địa chỉ MAC sang IP",
+      "Phân giải DNS",
+      "Xác định định tuyến"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 83 (Chương 3): RIP là viết tắt của gì?",
+    "options": [
+      "Routing Information Protocol",
+      "Remote Internet Path",
+      "Reliable Internet Protocol",
+      "Route Initialization Program"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 84 (Chương 3): ICMP được dùng để làm gì?",
+    "options": [
+      "Chẩn đoán và báo lỗi trong truyền thông mạng",
+      "Truyền file",
+      "Mã hóa dữ liệu",
+      "Gửi email"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 85 (Chương 3): ARP có vai trò gì trong mạng máy tính?",
+    "options": [
+      "Chuyển đổi địa chỉ IP sang địa chỉ MAC",
+      "Chuyển địa chỉ MAC sang IP",
+      "Phân giải DNS",
+      "Xác định định tuyến"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 86 (Chương 3): ICMP được dùng để làm gì?",
+    "options": [
+      "Chẩn đoán và báo lỗi trong truyền thông mạng",
+      "Truyền file",
+      "Mã hóa dữ liệu",
+      "Gửi email"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 87 (Chương 3): ARP có vai trò gì trong mạng máy tính?",
+    "options": [
+      "Chuyển đổi địa chỉ IP sang địa chỉ MAC",
+      "Chuyển địa chỉ MAC sang IP",
+      "Phân giải DNS",
+      "Xác định định tuyến"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 88 (Chương 3): ICMP được dùng để làm gì?",
+    "options": [
+      "Chẩn đoán và báo lỗi trong truyền thông mạng",
+      "Truyền file",
+      "Mã hóa dữ liệu",
+      "Gửi email"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 89 (Chương 3): RIP là viết tắt của gì?",
+    "options": [
+      "Routing Information Protocol",
+      "Remote Internet Path",
+      "Reliable Internet Protocol",
+      "Route Initialization Program"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 90 (Chương 3): Giao thức TCP cung cấp loại dịch vụ nào?",
+    "options": [
+      "Truyền dữ liệu tin cậy, có kiểm soát lỗi và thứ tự",
+      "Truyền dữ liệu không đảm bảo",
+      "Truyền dữ liệu theo broadcast",
+      "Chỉ truyền dữ liệu nội bộ"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 91 (Chương 3): HTTP hoạt động ở tầng nào của mô hình OSI?",
+    "options": [
+      "Tầng ứng dụng (Application)",
+      "Tầng vận chuyển",
+      "Tầng mạng",
+      "Tầng vật lý"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 92 (Chương 3): UDP khác TCP ở điểm nào?",
+    "options": [
+      "UDP không đảm bảo tính tin cậy và không có kiểm soát lỗi",
+      "UDP chậm hơn TCP",
+      "UDP dùng cho file transfer",
+      "UDP có kiểm tra checksum bắt buộc"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 93 (Chương 3): HTTP hoạt động ở tầng nào của mô hình OSI?",
+    "options": [
+      "Tầng ứng dụng (Application)",
+      "Tầng vận chuyển",
+      "Tầng mạng",
+      "Tầng vật lý"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 94 (Chương 3): Giao thức TCP cung cấp loại dịch vụ nào?",
+    "options": [
+      "Truyền dữ liệu tin cậy, có kiểm soát lỗi và thứ tự",
+      "Truyền dữ liệu không đảm bảo",
+      "Truyền dữ liệu theo broadcast",
+      "Chỉ truyền dữ liệu nội bộ"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 95 (Chương 3): RIP là viết tắt của gì?",
+    "options": [
+      "Routing Information Protocol",
+      "Remote Internet Path",
+      "Reliable Internet Protocol",
+      "Route Initialization Program"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 96 (Chương 3): ICMP được dùng để làm gì?",
+    "options": [
+      "Chẩn đoán và báo lỗi trong truyền thông mạng",
+      "Truyền file",
+      "Mã hóa dữ liệu",
+      "Gửi email"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 97 (Chương 3): ARP có vai trò gì trong mạng máy tính?",
+    "options": [
+      "Chuyển đổi địa chỉ IP sang địa chỉ MAC",
+      "Chuyển địa chỉ MAC sang IP",
+      "Phân giải DNS",
+      "Xác định định tuyến"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 98 (Chương 3): Giao thức DNS có nhiệm vụ gì?",
+    "options": [
+      "Chuyển đổi tên miền thành địa chỉ IP",
+      "Mã hóa dữ liệu truyền",
+      "Xác thực người dùng",
+      "Điều khiển lưu lượng mạng"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 99 (Chương 3): RIP là viết tắt của gì?",
+    "options": [
+      "Routing Information Protocol",
+      "Remote Internet Path",
+      "Reliable Internet Protocol",
+      "Route Initialization Program"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  },
+  {
+    "question": "Câu 100 (Chương 3): ICMP được dùng để làm gì?",
+    "options": [
+      "Chẩn đoán và báo lỗi trong truyền thông mạng",
+      "Truyền file",
+      "Mã hóa dữ liệu",
+      "Gửi email"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến"
+  }
+]

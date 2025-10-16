@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 3): Phạm vi dự án (Project Scope) là gì?",
+    "options": [
+      "Tổng hợp các công việc cần thiết để hoàn thành dự án",
+      "Danh sách nhân sự tham gia dự án",
+      "Tổng chi phí thực hiện dự án",
+      "Bản mô tả kỹ thuật sản phẩm"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 2 (Chương 3): Tài liệu nào mô tả rõ ràng phạm vi, mục tiêu và sản phẩm bàn giao của dự án?",
+    "options": [
+      "Bản tuyên bố phạm vi (Scope Statement)",
+      "Báo cáo rủi ro",
+      "Biên bản nghiệm thu",
+      "Bảng ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 3 (Chương 3): Thay đổi phạm vi dự án cần được xử lý như thế nào?",
+    "options": [
+      "Theo quy trình quản lý thay đổi được phê duyệt",
+      "Thực hiện ngay để tiết kiệm thời gian",
+      "Bỏ qua nếu nhỏ",
+      "Tự ý điều chỉnh bởi nhóm kỹ thuật"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 4 (Chương 3): Phạm vi dự án (Project Scope) là gì?",
+    "options": [
+      "Tổng hợp các công việc cần thiết để hoàn thành dự án",
+      "Danh sách nhân sự tham gia dự án",
+      "Tổng chi phí thực hiện dự án",
+      "Bản mô tả kỹ thuật sản phẩm"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 5 (Chương 3): WBS thường được trình bày dưới dạng nào?",
+    "options": [
+      "Cây phân cấp công việc",
+      "Danh sách bảng biểu",
+      "Sơ đồ mạng lưới PERT",
+      "Bảng Gantt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 6 (Chương 3): WBS giúp ích cho hoạt động nào sau đây?",
+    "options": [
+      "Ước lượng chi phí, lập tiến độ và phân công công việc",
+      "Tuyển dụng nhân sự mới",
+      "Lựa chọn nhà cung cấp",
+      "Thiết kế giao diện phần mềm"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 7 (Chương 3): Khi phạm vi dự án bị mở rộng ngoài kế hoạch, hiện tượng đó gọi là gì?",
+    "options": [
+      "Scope creep",
+      "Time lag",
+      "Budget overflow",
+      "Risk escalation"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 8 (Chương 3): Ai chịu trách nhiệm chính trong việc phê duyệt thay đổi phạm vi dự án?",
+    "options": [
+      "Ban quản lý dự án hoặc hội đồng kiểm soát thay đổi (CCB)",
+      "Nhà tài trợ dự án duy nhất",
+      "Người thực hiện dự án",
+      "Bộ phận kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 9 (Chương 3): Ai chịu trách nhiệm chính trong việc phê duyệt thay đổi phạm vi dự án?",
+    "options": [
+      "Ban quản lý dự án hoặc hội đồng kiểm soát thay đổi (CCB)",
+      "Nhà tài trợ dự án duy nhất",
+      "Người thực hiện dự án",
+      "Bộ phận kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 10 (Chương 3): Lợi ích chính của việc lập kế hoạch phạm vi là gì?",
+    "options": [
+      "Xác định rõ ràng ranh giới của dự án và tránh thay đổi không cần thiết",
+      "Tăng chi phí dự án",
+      "Giảm số lượng nhân viên",
+      "Rút ngắn mọi giai đoạn dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 11 (Chương 3): WBS giúp ích cho hoạt động nào sau đây?",
+    "options": [
+      "Ước lượng chi phí, lập tiến độ và phân công công việc",
+      "Tuyển dụng nhân sự mới",
+      "Lựa chọn nhà cung cấp",
+      "Thiết kế giao diện phần mềm"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 12 (Chương 3): Lợi ích chính của việc lập kế hoạch phạm vi là gì?",
+    "options": [
+      "Xác định rõ ràng ranh giới của dự án và tránh thay đổi không cần thiết",
+      "Tăng chi phí dự án",
+      "Giảm số lượng nhân viên",
+      "Rút ngắn mọi giai đoạn dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 13 (Chương 3): Tài liệu nào mô tả rõ ràng phạm vi, mục tiêu và sản phẩm bàn giao của dự án?",
+    "options": [
+      "Bản tuyên bố phạm vi (Scope Statement)",
+      "Báo cáo rủi ro",
+      "Biên bản nghiệm thu",
+      "Bảng ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 14 (Chương 3): WBS giúp ích cho hoạt động nào sau đây?",
+    "options": [
+      "Ước lượng chi phí, lập tiến độ và phân công công việc",
+      "Tuyển dụng nhân sự mới",
+      "Lựa chọn nhà cung cấp",
+      "Thiết kế giao diện phần mềm"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 15 (Chương 3): Quy trình kiểm soát phạm vi dự án nhằm mục đích gì?",
+    "options": [
+      "Theo dõi và kiểm soát những thay đổi trong phạm vi dự án",
+      "Phân bổ ngân sách",
+      "Thay đổi mục tiêu dự án",
+      "Tuyển thêm nhân viên"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 16 (Chương 3): WBS thường được trình bày dưới dạng nào?",
+    "options": [
+      "Cây phân cấp công việc",
+      "Danh sách bảng biểu",
+      "Sơ đồ mạng lưới PERT",
+      "Bảng Gantt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 17 (Chương 3): Ai chịu trách nhiệm chính trong việc phê duyệt thay đổi phạm vi dự án?",
+    "options": [
+      "Ban quản lý dự án hoặc hội đồng kiểm soát thay đổi (CCB)",
+      "Nhà tài trợ dự án duy nhất",
+      "Người thực hiện dự án",
+      "Bộ phận kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 18 (Chương 3): Tài liệu nào mô tả rõ ràng phạm vi, mục tiêu và sản phẩm bàn giao của dự án?",
+    "options": [
+      "Bản tuyên bố phạm vi (Scope Statement)",
+      "Báo cáo rủi ro",
+      "Biên bản nghiệm thu",
+      "Bảng ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 19 (Chương 3): Khi phạm vi dự án bị mở rộng ngoài kế hoạch, hiện tượng đó gọi là gì?",
+    "options": [
+      "Scope creep",
+      "Time lag",
+      "Budget overflow",
+      "Risk escalation"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 20 (Chương 3): Khi phạm vi dự án bị mở rộng ngoài kế hoạch, hiện tượng đó gọi là gì?",
+    "options": [
+      "Scope creep",
+      "Time lag",
+      "Budget overflow",
+      "Risk escalation"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 21 (Chương 3): WBS giúp ích cho hoạt động nào sau đây?",
+    "options": [
+      "Ước lượng chi phí, lập tiến độ và phân công công việc",
+      "Tuyển dụng nhân sự mới",
+      "Lựa chọn nhà cung cấp",
+      "Thiết kế giao diện phần mềm"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 22 (Chương 3): WBS thường được trình bày dưới dạng nào?",
+    "options": [
+      "Cây phân cấp công việc",
+      "Danh sách bảng biểu",
+      "Sơ đồ mạng lưới PERT",
+      "Bảng Gantt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 23 (Chương 3): Thay đổi phạm vi dự án cần được xử lý như thế nào?",
+    "options": [
+      "Theo quy trình quản lý thay đổi được phê duyệt",
+      "Thực hiện ngay để tiết kiệm thời gian",
+      "Bỏ qua nếu nhỏ",
+      "Tự ý điều chỉnh bởi nhóm kỹ thuật"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 24 (Chương 3): Cấu trúc phân rã công việc (WBS) dùng để làm gì?",
+    "options": [
+      "Chia nhỏ phạm vi dự án thành các phần dễ quản lý hơn",
+      "Tăng tốc độ thực hiện dự án",
+      "Xác định chi phí cho từng nhân viên",
+      "Lập lịch trình nhân sự"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 25 (Chương 3): Ai chịu trách nhiệm chính trong việc phê duyệt thay đổi phạm vi dự án?",
+    "options": [
+      "Ban quản lý dự án hoặc hội đồng kiểm soát thay đổi (CCB)",
+      "Nhà tài trợ dự án duy nhất",
+      "Người thực hiện dự án",
+      "Bộ phận kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 26 (Chương 3): Khi phạm vi dự án bị mở rộng ngoài kế hoạch, hiện tượng đó gọi là gì?",
+    "options": [
+      "Scope creep",
+      "Time lag",
+      "Budget overflow",
+      "Risk escalation"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 27 (Chương 3): WBS giúp ích cho hoạt động nào sau đây?",
+    "options": [
+      "Ước lượng chi phí, lập tiến độ và phân công công việc",
+      "Tuyển dụng nhân sự mới",
+      "Lựa chọn nhà cung cấp",
+      "Thiết kế giao diện phần mềm"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 28 (Chương 3): Ai chịu trách nhiệm chính trong việc phê duyệt thay đổi phạm vi dự án?",
+    "options": [
+      "Ban quản lý dự án hoặc hội đồng kiểm soát thay đổi (CCB)",
+      "Nhà tài trợ dự án duy nhất",
+      "Người thực hiện dự án",
+      "Bộ phận kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 29 (Chương 3): Tài liệu nào mô tả rõ ràng phạm vi, mục tiêu và sản phẩm bàn giao của dự án?",
+    "options": [
+      "Bản tuyên bố phạm vi (Scope Statement)",
+      "Báo cáo rủi ro",
+      "Biên bản nghiệm thu",
+      "Bảng ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 30 (Chương 3): Thay đổi phạm vi dự án cần được xử lý như thế nào?",
+    "options": [
+      "Theo quy trình quản lý thay đổi được phê duyệt",
+      "Thực hiện ngay để tiết kiệm thời gian",
+      "Bỏ qua nếu nhỏ",
+      "Tự ý điều chỉnh bởi nhóm kỹ thuật"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 31 (Chương 3): Lợi ích chính của việc lập kế hoạch phạm vi là gì?",
+    "options": [
+      "Xác định rõ ràng ranh giới của dự án và tránh thay đổi không cần thiết",
+      "Tăng chi phí dự án",
+      "Giảm số lượng nhân viên",
+      "Rút ngắn mọi giai đoạn dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 32 (Chương 3): Tài liệu nào mô tả rõ ràng phạm vi, mục tiêu và sản phẩm bàn giao của dự án?",
+    "options": [
+      "Bản tuyên bố phạm vi (Scope Statement)",
+      "Báo cáo rủi ro",
+      "Biên bản nghiệm thu",
+      "Bảng ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 33 (Chương 3): Phạm vi dự án (Project Scope) là gì?",
+    "options": [
+      "Tổng hợp các công việc cần thiết để hoàn thành dự án",
+      "Danh sách nhân sự tham gia dự án",
+      "Tổng chi phí thực hiện dự án",
+      "Bản mô tả kỹ thuật sản phẩm"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 34 (Chương 3): Khi phạm vi dự án bị mở rộng ngoài kế hoạch, hiện tượng đó gọi là gì?",
+    "options": [
+      "Scope creep",
+      "Time lag",
+      "Budget overflow",
+      "Risk escalation"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 35 (Chương 3): Lợi ích chính của việc lập kế hoạch phạm vi là gì?",
+    "options": [
+      "Xác định rõ ràng ranh giới của dự án và tránh thay đổi không cần thiết",
+      "Tăng chi phí dự án",
+      "Giảm số lượng nhân viên",
+      "Rút ngắn mọi giai đoạn dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 36 (Chương 3): Tài liệu nào mô tả rõ ràng phạm vi, mục tiêu và sản phẩm bàn giao của dự án?",
+    "options": [
+      "Bản tuyên bố phạm vi (Scope Statement)",
+      "Báo cáo rủi ro",
+      "Biên bản nghiệm thu",
+      "Bảng ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 37 (Chương 3): WBS giúp ích cho hoạt động nào sau đây?",
+    "options": [
+      "Ước lượng chi phí, lập tiến độ và phân công công việc",
+      "Tuyển dụng nhân sự mới",
+      "Lựa chọn nhà cung cấp",
+      "Thiết kế giao diện phần mềm"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 38 (Chương 3): Quy trình kiểm soát phạm vi dự án nhằm mục đích gì?",
+    "options": [
+      "Theo dõi và kiểm soát những thay đổi trong phạm vi dự án",
+      "Phân bổ ngân sách",
+      "Thay đổi mục tiêu dự án",
+      "Tuyển thêm nhân viên"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 39 (Chương 3): Tài liệu nào mô tả rõ ràng phạm vi, mục tiêu và sản phẩm bàn giao của dự án?",
+    "options": [
+      "Bản tuyên bố phạm vi (Scope Statement)",
+      "Báo cáo rủi ro",
+      "Biên bản nghiệm thu",
+      "Bảng ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 40 (Chương 3): Quy trình kiểm soát phạm vi dự án nhằm mục đích gì?",
+    "options": [
+      "Theo dõi và kiểm soát những thay đổi trong phạm vi dự án",
+      "Phân bổ ngân sách",
+      "Thay đổi mục tiêu dự án",
+      "Tuyển thêm nhân viên"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 41 (Chương 3): Lợi ích chính của việc lập kế hoạch phạm vi là gì?",
+    "options": [
+      "Xác định rõ ràng ranh giới của dự án và tránh thay đổi không cần thiết",
+      "Tăng chi phí dự án",
+      "Giảm số lượng nhân viên",
+      "Rút ngắn mọi giai đoạn dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 42 (Chương 3): Cấu trúc phân rã công việc (WBS) dùng để làm gì?",
+    "options": [
+      "Chia nhỏ phạm vi dự án thành các phần dễ quản lý hơn",
+      "Tăng tốc độ thực hiện dự án",
+      "Xác định chi phí cho từng nhân viên",
+      "Lập lịch trình nhân sự"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 43 (Chương 3): Quy trình kiểm soát phạm vi dự án nhằm mục đích gì?",
+    "options": [
+      "Theo dõi và kiểm soát những thay đổi trong phạm vi dự án",
+      "Phân bổ ngân sách",
+      "Thay đổi mục tiêu dự án",
+      "Tuyển thêm nhân viên"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 44 (Chương 3): Quy trình kiểm soát phạm vi dự án nhằm mục đích gì?",
+    "options": [
+      "Theo dõi và kiểm soát những thay đổi trong phạm vi dự án",
+      "Phân bổ ngân sách",
+      "Thay đổi mục tiêu dự án",
+      "Tuyển thêm nhân viên"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 45 (Chương 3): Phạm vi dự án (Project Scope) là gì?",
+    "options": [
+      "Tổng hợp các công việc cần thiết để hoàn thành dự án",
+      "Danh sách nhân sự tham gia dự án",
+      "Tổng chi phí thực hiện dự án",
+      "Bản mô tả kỹ thuật sản phẩm"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 46 (Chương 3): Khi phạm vi dự án bị mở rộng ngoài kế hoạch, hiện tượng đó gọi là gì?",
+    "options": [
+      "Scope creep",
+      "Time lag",
+      "Budget overflow",
+      "Risk escalation"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 47 (Chương 3): Khi phạm vi dự án bị mở rộng ngoài kế hoạch, hiện tượng đó gọi là gì?",
+    "options": [
+      "Scope creep",
+      "Time lag",
+      "Budget overflow",
+      "Risk escalation"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 48 (Chương 3): Tài liệu nào mô tả rõ ràng phạm vi, mục tiêu và sản phẩm bàn giao của dự án?",
+    "options": [
+      "Bản tuyên bố phạm vi (Scope Statement)",
+      "Báo cáo rủi ro",
+      "Biên bản nghiệm thu",
+      "Bảng ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 49 (Chương 3): Cấu trúc phân rã công việc (WBS) dùng để làm gì?",
+    "options": [
+      "Chia nhỏ phạm vi dự án thành các phần dễ quản lý hơn",
+      "Tăng tốc độ thực hiện dự án",
+      "Xác định chi phí cho từng nhân viên",
+      "Lập lịch trình nhân sự"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 50 (Chương 3): Khi phạm vi dự án bị mở rộng ngoài kế hoạch, hiện tượng đó gọi là gì?",
+    "options": [
+      "Scope creep",
+      "Time lag",
+      "Budget overflow",
+      "Risk escalation"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 51 (Chương 3): WBS giúp ích cho hoạt động nào sau đây?",
+    "options": [
+      "Ước lượng chi phí, lập tiến độ và phân công công việc",
+      "Tuyển dụng nhân sự mới",
+      "Lựa chọn nhà cung cấp",
+      "Thiết kế giao diện phần mềm"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 52 (Chương 3): Thay đổi phạm vi dự án cần được xử lý như thế nào?",
+    "options": [
+      "Theo quy trình quản lý thay đổi được phê duyệt",
+      "Thực hiện ngay để tiết kiệm thời gian",
+      "Bỏ qua nếu nhỏ",
+      "Tự ý điều chỉnh bởi nhóm kỹ thuật"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 53 (Chương 3): WBS thường được trình bày dưới dạng nào?",
+    "options": [
+      "Cây phân cấp công việc",
+      "Danh sách bảng biểu",
+      "Sơ đồ mạng lưới PERT",
+      "Bảng Gantt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 54 (Chương 3): Lợi ích chính của việc lập kế hoạch phạm vi là gì?",
+    "options": [
+      "Xác định rõ ràng ranh giới của dự án và tránh thay đổi không cần thiết",
+      "Tăng chi phí dự án",
+      "Giảm số lượng nhân viên",
+      "Rút ngắn mọi giai đoạn dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 55 (Chương 3): WBS giúp ích cho hoạt động nào sau đây?",
+    "options": [
+      "Ước lượng chi phí, lập tiến độ và phân công công việc",
+      "Tuyển dụng nhân sự mới",
+      "Lựa chọn nhà cung cấp",
+      "Thiết kế giao diện phần mềm"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 56 (Chương 3): Ai chịu trách nhiệm chính trong việc phê duyệt thay đổi phạm vi dự án?",
+    "options": [
+      "Ban quản lý dự án hoặc hội đồng kiểm soát thay đổi (CCB)",
+      "Nhà tài trợ dự án duy nhất",
+      "Người thực hiện dự án",
+      "Bộ phận kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 57 (Chương 3): Ai chịu trách nhiệm chính trong việc phê duyệt thay đổi phạm vi dự án?",
+    "options": [
+      "Ban quản lý dự án hoặc hội đồng kiểm soát thay đổi (CCB)",
+      "Nhà tài trợ dự án duy nhất",
+      "Người thực hiện dự án",
+      "Bộ phận kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 58 (Chương 3): WBS giúp ích cho hoạt động nào sau đây?",
+    "options": [
+      "Ước lượng chi phí, lập tiến độ và phân công công việc",
+      "Tuyển dụng nhân sự mới",
+      "Lựa chọn nhà cung cấp",
+      "Thiết kế giao diện phần mềm"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 59 (Chương 3): Thay đổi phạm vi dự án cần được xử lý như thế nào?",
+    "options": [
+      "Theo quy trình quản lý thay đổi được phê duyệt",
+      "Thực hiện ngay để tiết kiệm thời gian",
+      "Bỏ qua nếu nhỏ",
+      "Tự ý điều chỉnh bởi nhóm kỹ thuật"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 60 (Chương 3): Cấu trúc phân rã công việc (WBS) dùng để làm gì?",
+    "options": [
+      "Chia nhỏ phạm vi dự án thành các phần dễ quản lý hơn",
+      "Tăng tốc độ thực hiện dự án",
+      "Xác định chi phí cho từng nhân viên",
+      "Lập lịch trình nhân sự"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 61 (Chương 3): Lợi ích chính của việc lập kế hoạch phạm vi là gì?",
+    "options": [
+      "Xác định rõ ràng ranh giới của dự án và tránh thay đổi không cần thiết",
+      "Tăng chi phí dự án",
+      "Giảm số lượng nhân viên",
+      "Rút ngắn mọi giai đoạn dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 62 (Chương 3): Cấu trúc phân rã công việc (WBS) dùng để làm gì?",
+    "options": [
+      "Chia nhỏ phạm vi dự án thành các phần dễ quản lý hơn",
+      "Tăng tốc độ thực hiện dự án",
+      "Xác định chi phí cho từng nhân viên",
+      "Lập lịch trình nhân sự"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 63 (Chương 3): Phạm vi dự án (Project Scope) là gì?",
+    "options": [
+      "Tổng hợp các công việc cần thiết để hoàn thành dự án",
+      "Danh sách nhân sự tham gia dự án",
+      "Tổng chi phí thực hiện dự án",
+      "Bản mô tả kỹ thuật sản phẩm"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 64 (Chương 3): Tài liệu nào mô tả rõ ràng phạm vi, mục tiêu và sản phẩm bàn giao của dự án?",
+    "options": [
+      "Bản tuyên bố phạm vi (Scope Statement)",
+      "Báo cáo rủi ro",
+      "Biên bản nghiệm thu",
+      "Bảng ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 65 (Chương 3): Cấu trúc phân rã công việc (WBS) dùng để làm gì?",
+    "options": [
+      "Chia nhỏ phạm vi dự án thành các phần dễ quản lý hơn",
+      "Tăng tốc độ thực hiện dự án",
+      "Xác định chi phí cho từng nhân viên",
+      "Lập lịch trình nhân sự"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 66 (Chương 3): Quy trình kiểm soát phạm vi dự án nhằm mục đích gì?",
+    "options": [
+      "Theo dõi và kiểm soát những thay đổi trong phạm vi dự án",
+      "Phân bổ ngân sách",
+      "Thay đổi mục tiêu dự án",
+      "Tuyển thêm nhân viên"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 67 (Chương 3): Quy trình kiểm soát phạm vi dự án nhằm mục đích gì?",
+    "options": [
+      "Theo dõi và kiểm soát những thay đổi trong phạm vi dự án",
+      "Phân bổ ngân sách",
+      "Thay đổi mục tiêu dự án",
+      "Tuyển thêm nhân viên"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 68 (Chương 3): Tài liệu nào mô tả rõ ràng phạm vi, mục tiêu và sản phẩm bàn giao của dự án?",
+    "options": [
+      "Bản tuyên bố phạm vi (Scope Statement)",
+      "Báo cáo rủi ro",
+      "Biên bản nghiệm thu",
+      "Bảng ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 69 (Chương 3): Ai chịu trách nhiệm chính trong việc phê duyệt thay đổi phạm vi dự án?",
+    "options": [
+      "Ban quản lý dự án hoặc hội đồng kiểm soát thay đổi (CCB)",
+      "Nhà tài trợ dự án duy nhất",
+      "Người thực hiện dự án",
+      "Bộ phận kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 70 (Chương 3): WBS thường được trình bày dưới dạng nào?",
+    "options": [
+      "Cây phân cấp công việc",
+      "Danh sách bảng biểu",
+      "Sơ đồ mạng lưới PERT",
+      "Bảng Gantt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 71 (Chương 3): WBS thường được trình bày dưới dạng nào?",
+    "options": [
+      "Cây phân cấp công việc",
+      "Danh sách bảng biểu",
+      "Sơ đồ mạng lưới PERT",
+      "Bảng Gantt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 72 (Chương 3): Tài liệu nào mô tả rõ ràng phạm vi, mục tiêu và sản phẩm bàn giao của dự án?",
+    "options": [
+      "Bản tuyên bố phạm vi (Scope Statement)",
+      "Báo cáo rủi ro",
+      "Biên bản nghiệm thu",
+      "Bảng ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 73 (Chương 3): Quy trình kiểm soát phạm vi dự án nhằm mục đích gì?",
+    "options": [
+      "Theo dõi và kiểm soát những thay đổi trong phạm vi dự án",
+      "Phân bổ ngân sách",
+      "Thay đổi mục tiêu dự án",
+      "Tuyển thêm nhân viên"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 74 (Chương 3): Thay đổi phạm vi dự án cần được xử lý như thế nào?",
+    "options": [
+      "Theo quy trình quản lý thay đổi được phê duyệt",
+      "Thực hiện ngay để tiết kiệm thời gian",
+      "Bỏ qua nếu nhỏ",
+      "Tự ý điều chỉnh bởi nhóm kỹ thuật"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 75 (Chương 3): Phạm vi dự án (Project Scope) là gì?",
+    "options": [
+      "Tổng hợp các công việc cần thiết để hoàn thành dự án",
+      "Danh sách nhân sự tham gia dự án",
+      "Tổng chi phí thực hiện dự án",
+      "Bản mô tả kỹ thuật sản phẩm"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 76 (Chương 3): Phạm vi dự án (Project Scope) là gì?",
+    "options": [
+      "Tổng hợp các công việc cần thiết để hoàn thành dự án",
+      "Danh sách nhân sự tham gia dự án",
+      "Tổng chi phí thực hiện dự án",
+      "Bản mô tả kỹ thuật sản phẩm"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 77 (Chương 3): Phạm vi dự án (Project Scope) là gì?",
+    "options": [
+      "Tổng hợp các công việc cần thiết để hoàn thành dự án",
+      "Danh sách nhân sự tham gia dự án",
+      "Tổng chi phí thực hiện dự án",
+      "Bản mô tả kỹ thuật sản phẩm"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 78 (Chương 3): WBS giúp ích cho hoạt động nào sau đây?",
+    "options": [
+      "Ước lượng chi phí, lập tiến độ và phân công công việc",
+      "Tuyển dụng nhân sự mới",
+      "Lựa chọn nhà cung cấp",
+      "Thiết kế giao diện phần mềm"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 79 (Chương 3): Thay đổi phạm vi dự án cần được xử lý như thế nào?",
+    "options": [
+      "Theo quy trình quản lý thay đổi được phê duyệt",
+      "Thực hiện ngay để tiết kiệm thời gian",
+      "Bỏ qua nếu nhỏ",
+      "Tự ý điều chỉnh bởi nhóm kỹ thuật"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 80 (Chương 3): WBS thường được trình bày dưới dạng nào?",
+    "options": [
+      "Cây phân cấp công việc",
+      "Danh sách bảng biểu",
+      "Sơ đồ mạng lưới PERT",
+      "Bảng Gantt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 81 (Chương 3): Thay đổi phạm vi dự án cần được xử lý như thế nào?",
+    "options": [
+      "Theo quy trình quản lý thay đổi được phê duyệt",
+      "Thực hiện ngay để tiết kiệm thời gian",
+      "Bỏ qua nếu nhỏ",
+      "Tự ý điều chỉnh bởi nhóm kỹ thuật"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 82 (Chương 3): Quy trình kiểm soát phạm vi dự án nhằm mục đích gì?",
+    "options": [
+      "Theo dõi và kiểm soát những thay đổi trong phạm vi dự án",
+      "Phân bổ ngân sách",
+      "Thay đổi mục tiêu dự án",
+      "Tuyển thêm nhân viên"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 83 (Chương 3): Quy trình kiểm soát phạm vi dự án nhằm mục đích gì?",
+    "options": [
+      "Theo dõi và kiểm soát những thay đổi trong phạm vi dự án",
+      "Phân bổ ngân sách",
+      "Thay đổi mục tiêu dự án",
+      "Tuyển thêm nhân viên"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 84 (Chương 3): Ai chịu trách nhiệm chính trong việc phê duyệt thay đổi phạm vi dự án?",
+    "options": [
+      "Ban quản lý dự án hoặc hội đồng kiểm soát thay đổi (CCB)",
+      "Nhà tài trợ dự án duy nhất",
+      "Người thực hiện dự án",
+      "Bộ phận kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 85 (Chương 3): Tài liệu nào mô tả rõ ràng phạm vi, mục tiêu và sản phẩm bàn giao của dự án?",
+    "options": [
+      "Bản tuyên bố phạm vi (Scope Statement)",
+      "Báo cáo rủi ro",
+      "Biên bản nghiệm thu",
+      "Bảng ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 86 (Chương 3): Phạm vi dự án (Project Scope) là gì?",
+    "options": [
+      "Tổng hợp các công việc cần thiết để hoàn thành dự án",
+      "Danh sách nhân sự tham gia dự án",
+      "Tổng chi phí thực hiện dự án",
+      "Bản mô tả kỹ thuật sản phẩm"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 87 (Chương 3): WBS thường được trình bày dưới dạng nào?",
+    "options": [
+      "Cây phân cấp công việc",
+      "Danh sách bảng biểu",
+      "Sơ đồ mạng lưới PERT",
+      "Bảng Gantt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 88 (Chương 3): Tài liệu nào mô tả rõ ràng phạm vi, mục tiêu và sản phẩm bàn giao của dự án?",
+    "options": [
+      "Bản tuyên bố phạm vi (Scope Statement)",
+      "Báo cáo rủi ro",
+      "Biên bản nghiệm thu",
+      "Bảng ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 89 (Chương 3): Cấu trúc phân rã công việc (WBS) dùng để làm gì?",
+    "options": [
+      "Chia nhỏ phạm vi dự án thành các phần dễ quản lý hơn",
+      "Tăng tốc độ thực hiện dự án",
+      "Xác định chi phí cho từng nhân viên",
+      "Lập lịch trình nhân sự"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 90 (Chương 3): Khi phạm vi dự án bị mở rộng ngoài kế hoạch, hiện tượng đó gọi là gì?",
+    "options": [
+      "Scope creep",
+      "Time lag",
+      "Budget overflow",
+      "Risk escalation"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 91 (Chương 3): Cấu trúc phân rã công việc (WBS) dùng để làm gì?",
+    "options": [
+      "Chia nhỏ phạm vi dự án thành các phần dễ quản lý hơn",
+      "Tăng tốc độ thực hiện dự án",
+      "Xác định chi phí cho từng nhân viên",
+      "Lập lịch trình nhân sự"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 92 (Chương 3): Lợi ích chính của việc lập kế hoạch phạm vi là gì?",
+    "options": [
+      "Xác định rõ ràng ranh giới của dự án và tránh thay đổi không cần thiết",
+      "Tăng chi phí dự án",
+      "Giảm số lượng nhân viên",
+      "Rút ngắn mọi giai đoạn dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 93 (Chương 3): Khi phạm vi dự án bị mở rộng ngoài kế hoạch, hiện tượng đó gọi là gì?",
+    "options": [
+      "Scope creep",
+      "Time lag",
+      "Budget overflow",
+      "Risk escalation"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 94 (Chương 3): Cấu trúc phân rã công việc (WBS) dùng để làm gì?",
+    "options": [
+      "Chia nhỏ phạm vi dự án thành các phần dễ quản lý hơn",
+      "Tăng tốc độ thực hiện dự án",
+      "Xác định chi phí cho từng nhân viên",
+      "Lập lịch trình nhân sự"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 95 (Chương 3): Quy trình kiểm soát phạm vi dự án nhằm mục đích gì?",
+    "options": [
+      "Theo dõi và kiểm soát những thay đổi trong phạm vi dự án",
+      "Phân bổ ngân sách",
+      "Thay đổi mục tiêu dự án",
+      "Tuyển thêm nhân viên"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 96 (Chương 3): Thay đổi phạm vi dự án cần được xử lý như thế nào?",
+    "options": [
+      "Theo quy trình quản lý thay đổi được phê duyệt",
+      "Thực hiện ngay để tiết kiệm thời gian",
+      "Bỏ qua nếu nhỏ",
+      "Tự ý điều chỉnh bởi nhóm kỹ thuật"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 97 (Chương 3): Khi phạm vi dự án bị mở rộng ngoài kế hoạch, hiện tượng đó gọi là gì?",
+    "options": [
+      "Scope creep",
+      "Time lag",
+      "Budget overflow",
+      "Risk escalation"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 98 (Chương 3): Khi phạm vi dự án bị mở rộng ngoài kế hoạch, hiện tượng đó gọi là gì?",
+    "options": [
+      "Scope creep",
+      "Time lag",
+      "Budget overflow",
+      "Risk escalation"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 99 (Chương 3): Cấu trúc phân rã công việc (WBS) dùng để làm gì?",
+    "options": [
+      "Chia nhỏ phạm vi dự án thành các phần dễ quản lý hơn",
+      "Tăng tốc độ thực hiện dự án",
+      "Xác định chi phí cho từng nhân viên",
+      "Lập lịch trình nhân sự"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  },
+  {
+    "question": "Câu 100 (Chương 3): WBS giúp ích cho hoạt động nào sau đây?",
+    "options": [
+      "Ước lượng chi phí, lập tiến độ và phân công công việc",
+      "Tuyển dụng nhân sự mới",
+      "Lựa chọn nhà cung cấp",
+      "Thiết kế giao diện phần mềm"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án"
+  }
+]

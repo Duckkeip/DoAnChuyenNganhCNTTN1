@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 1): Một ví dụ của hệ điều hành mã nguồn mở là gì?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "iOS"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 2 (Chương 1): Thành phần nào của hệ điều hành chịu trách nhiệm quản lý tài nguyên và điều phối tiến trình?",
+    "options": [
+      "Kernel",
+      "Shell",
+      "API",
+      "Driver"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 3 (Chương 1): Hệ điều hành có chức năng chính nào trong máy tính?",
+    "options": [
+      "Quản lý tài nguyên phần cứng",
+      "Thiết kế phần mềm",
+      "Soạn thảo văn bản",
+      "Tạo đồ họa 3D"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 4 (Chương 1): Hệ điều hành cung cấp giao diện giữa người dùng và phần nào?",
+    "options": [
+      "Phần cứng",
+      "Phần mềm ứng dụng",
+      "Mạng",
+      "CSDL"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 5 (Chương 1): Hệ điều hành có chức năng chính nào trong máy tính?",
+    "options": [
+      "Quản lý tài nguyên phần cứng",
+      "Thiết kế phần mềm",
+      "Soạn thảo văn bản",
+      "Tạo đồ họa 3D"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 6 (Chương 1): Hệ điều hành cung cấp giao diện giữa người dùng và phần nào?",
+    "options": [
+      "Phần cứng",
+      "Phần mềm ứng dụng",
+      "Mạng",
+      "CSDL"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 7 (Chương 1): Chế độ nhân (kernel mode) khác chế độ người dùng (user mode) ở điểm nào?",
+    "options": [
+      "Kernel mode có quyền truy cập toàn bộ phần cứng",
+      "User mode có quyền cao hơn",
+      "Cả hai giống nhau",
+      "Chỉ dùng trong Linux"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 8 (Chương 1): Hệ điều hành có chức năng chính nào trong máy tính?",
+    "options": [
+      "Quản lý tài nguyên phần cứng",
+      "Thiết kế phần mềm",
+      "Soạn thảo văn bản",
+      "Tạo đồ họa 3D"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 9 (Chương 1): Một hệ điều hành thời gian thực (real-time OS) đặc trưng bởi điều gì?",
+    "options": [
+      "Đáp ứng các yêu cầu trong thời gian xác định",
+      "Chạy chậm hơn hệ khác",
+      "Không hỗ trợ đa nhiệm",
+      "Không có kernel"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 10 (Chương 1): Một ví dụ của hệ điều hành mã nguồn mở là gì?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "iOS"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 11 (Chương 1): Một ví dụ của hệ điều hành mã nguồn mở là gì?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "iOS"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 12 (Chương 1): Bootloader có nhiệm vụ gì khi khởi động máy tính?",
+    "options": [
+      "Tải kernel của hệ điều hành vào bộ nhớ",
+      "Kiểm tra phần mềm ứng dụng",
+      "Khởi chạy trình duyệt web",
+      "Kích hoạt card mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 13 (Chương 1): Một ví dụ của hệ điều hành mã nguồn mở là gì?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "iOS"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 14 (Chương 1): Hệ điều hành đa nhiệm (multitasking) cho phép gì?",
+    "options": [
+      "Nhiều chương trình chạy đồng thời",
+      "Chỉ chạy một chương trình",
+      "Không dùng CPU",
+      "Chạy chương trình nhanh hơn 100 lần"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 15 (Chương 1): Một ví dụ của hệ điều hành mã nguồn mở là gì?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "iOS"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 16 (Chương 1): Một ví dụ của hệ điều hành mã nguồn mở là gì?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "iOS"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 17 (Chương 1): Một ví dụ của hệ điều hành mã nguồn mở là gì?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "iOS"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 18 (Chương 1): Hệ điều hành đa nhiệm (multitasking) cho phép gì?",
+    "options": [
+      "Nhiều chương trình chạy đồng thời",
+      "Chỉ chạy một chương trình",
+      "Không dùng CPU",
+      "Chạy chương trình nhanh hơn 100 lần"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 19 (Chương 1): Khái niệm 'abstraction' trong hệ điều hành có ý nghĩa gì?",
+    "options": [
+      "Ẩn chi tiết phần cứng và cung cấp giao diện đơn giản cho ứng dụng",
+      "Tăng tốc xử lý",
+      "Tự động khởi động hệ thống",
+      "Tăng dung lượng ổ cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 20 (Chương 1): Hệ điều hành có chức năng chính nào trong máy tính?",
+    "options": [
+      "Quản lý tài nguyên phần cứng",
+      "Thiết kế phần mềm",
+      "Soạn thảo văn bản",
+      "Tạo đồ họa 3D"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 21 (Chương 1): Hệ điều hành đa nhiệm (multitasking) cho phép gì?",
+    "options": [
+      "Nhiều chương trình chạy đồng thời",
+      "Chỉ chạy một chương trình",
+      "Không dùng CPU",
+      "Chạy chương trình nhanh hơn 100 lần"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 22 (Chương 1): Một ví dụ của hệ điều hành mã nguồn mở là gì?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "iOS"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 23 (Chương 1): Chức năng của hệ thống tập tin trong hệ điều hành là gì?",
+    "options": [
+      "Tổ chức và lưu trữ dữ liệu trên thiết bị lưu trữ",
+      "Quản lý CPU",
+      "Phân bổ RAM",
+      "Điều khiển thiết bị mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 24 (Chương 1): Bootloader có nhiệm vụ gì khi khởi động máy tính?",
+    "options": [
+      "Tải kernel của hệ điều hành vào bộ nhớ",
+      "Kiểm tra phần mềm ứng dụng",
+      "Khởi chạy trình duyệt web",
+      "Kích hoạt card mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 25 (Chương 1): Bootloader có nhiệm vụ gì khi khởi động máy tính?",
+    "options": [
+      "Tải kernel của hệ điều hành vào bộ nhớ",
+      "Kiểm tra phần mềm ứng dụng",
+      "Khởi chạy trình duyệt web",
+      "Kích hoạt card mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 26 (Chương 1): Một ví dụ của hệ điều hành mã nguồn mở là gì?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "iOS"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 27 (Chương 1): Một hệ điều hành thời gian thực (real-time OS) đặc trưng bởi điều gì?",
+    "options": [
+      "Đáp ứng các yêu cầu trong thời gian xác định",
+      "Chạy chậm hơn hệ khác",
+      "Không hỗ trợ đa nhiệm",
+      "Không có kernel"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 28 (Chương 1): Hệ điều hành đa nhiệm (multitasking) cho phép gì?",
+    "options": [
+      "Nhiều chương trình chạy đồng thời",
+      "Chỉ chạy một chương trình",
+      "Không dùng CPU",
+      "Chạy chương trình nhanh hơn 100 lần"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 29 (Chương 1): Hệ điều hành đa nhiệm (multitasking) cho phép gì?",
+    "options": [
+      "Nhiều chương trình chạy đồng thời",
+      "Chỉ chạy một chương trình",
+      "Không dùng CPU",
+      "Chạy chương trình nhanh hơn 100 lần"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 30 (Chương 1): Hệ điều hành có chức năng chính nào trong máy tính?",
+    "options": [
+      "Quản lý tài nguyên phần cứng",
+      "Thiết kế phần mềm",
+      "Soạn thảo văn bản",
+      "Tạo đồ họa 3D"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 31 (Chương 1): Một ví dụ của hệ điều hành mã nguồn mở là gì?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "iOS"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 32 (Chương 1): Thành phần nào của hệ điều hành chịu trách nhiệm quản lý tài nguyên và điều phối tiến trình?",
+    "options": [
+      "Kernel",
+      "Shell",
+      "API",
+      "Driver"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 33 (Chương 1): Một ví dụ của hệ điều hành mã nguồn mở là gì?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "iOS"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 34 (Chương 1): Hệ điều hành đa nhiệm (multitasking) cho phép gì?",
+    "options": [
+      "Nhiều chương trình chạy đồng thời",
+      "Chỉ chạy một chương trình",
+      "Không dùng CPU",
+      "Chạy chương trình nhanh hơn 100 lần"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 35 (Chương 1): Khái niệm 'abstraction' trong hệ điều hành có ý nghĩa gì?",
+    "options": [
+      "Ẩn chi tiết phần cứng và cung cấp giao diện đơn giản cho ứng dụng",
+      "Tăng tốc xử lý",
+      "Tự động khởi động hệ thống",
+      "Tăng dung lượng ổ cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 36 (Chương 1): Thành phần nào của hệ điều hành chịu trách nhiệm quản lý tài nguyên và điều phối tiến trình?",
+    "options": [
+      "Kernel",
+      "Shell",
+      "API",
+      "Driver"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 37 (Chương 1): Bootloader có nhiệm vụ gì khi khởi động máy tính?",
+    "options": [
+      "Tải kernel của hệ điều hành vào bộ nhớ",
+      "Kiểm tra phần mềm ứng dụng",
+      "Khởi chạy trình duyệt web",
+      "Kích hoạt card mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 38 (Chương 1): Chức năng của hệ thống tập tin trong hệ điều hành là gì?",
+    "options": [
+      "Tổ chức và lưu trữ dữ liệu trên thiết bị lưu trữ",
+      "Quản lý CPU",
+      "Phân bổ RAM",
+      "Điều khiển thiết bị mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 39 (Chương 1): Một hệ điều hành thời gian thực (real-time OS) đặc trưng bởi điều gì?",
+    "options": [
+      "Đáp ứng các yêu cầu trong thời gian xác định",
+      "Chạy chậm hơn hệ khác",
+      "Không hỗ trợ đa nhiệm",
+      "Không có kernel"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 40 (Chương 1): Chức năng của hệ thống tập tin trong hệ điều hành là gì?",
+    "options": [
+      "Tổ chức và lưu trữ dữ liệu trên thiết bị lưu trữ",
+      "Quản lý CPU",
+      "Phân bổ RAM",
+      "Điều khiển thiết bị mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 41 (Chương 1): Hệ điều hành đa nhiệm (multitasking) cho phép gì?",
+    "options": [
+      "Nhiều chương trình chạy đồng thời",
+      "Chỉ chạy một chương trình",
+      "Không dùng CPU",
+      "Chạy chương trình nhanh hơn 100 lần"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 42 (Chương 1): Bootloader có nhiệm vụ gì khi khởi động máy tính?",
+    "options": [
+      "Tải kernel của hệ điều hành vào bộ nhớ",
+      "Kiểm tra phần mềm ứng dụng",
+      "Khởi chạy trình duyệt web",
+      "Kích hoạt card mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 43 (Chương 1): Một ví dụ của hệ điều hành mã nguồn mở là gì?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "iOS"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 44 (Chương 1): Chế độ nhân (kernel mode) khác chế độ người dùng (user mode) ở điểm nào?",
+    "options": [
+      "Kernel mode có quyền truy cập toàn bộ phần cứng",
+      "User mode có quyền cao hơn",
+      "Cả hai giống nhau",
+      "Chỉ dùng trong Linux"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 45 (Chương 1): Một hệ điều hành thời gian thực (real-time OS) đặc trưng bởi điều gì?",
+    "options": [
+      "Đáp ứng các yêu cầu trong thời gian xác định",
+      "Chạy chậm hơn hệ khác",
+      "Không hỗ trợ đa nhiệm",
+      "Không có kernel"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 46 (Chương 1): Một ví dụ của hệ điều hành mã nguồn mở là gì?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "iOS"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 47 (Chương 1): Thành phần nào của hệ điều hành chịu trách nhiệm quản lý tài nguyên và điều phối tiến trình?",
+    "options": [
+      "Kernel",
+      "Shell",
+      "API",
+      "Driver"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 48 (Chương 1): Hệ điều hành có chức năng chính nào trong máy tính?",
+    "options": [
+      "Quản lý tài nguyên phần cứng",
+      "Thiết kế phần mềm",
+      "Soạn thảo văn bản",
+      "Tạo đồ họa 3D"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 49 (Chương 1): Một ví dụ của hệ điều hành mã nguồn mở là gì?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "iOS"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 50 (Chương 1): Khái niệm 'abstraction' trong hệ điều hành có ý nghĩa gì?",
+    "options": [
+      "Ẩn chi tiết phần cứng và cung cấp giao diện đơn giản cho ứng dụng",
+      "Tăng tốc xử lý",
+      "Tự động khởi động hệ thống",
+      "Tăng dung lượng ổ cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 51 (Chương 1): Khái niệm 'abstraction' trong hệ điều hành có ý nghĩa gì?",
+    "options": [
+      "Ẩn chi tiết phần cứng và cung cấp giao diện đơn giản cho ứng dụng",
+      "Tăng tốc xử lý",
+      "Tự động khởi động hệ thống",
+      "Tăng dung lượng ổ cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 52 (Chương 1): Chế độ nhân (kernel mode) khác chế độ người dùng (user mode) ở điểm nào?",
+    "options": [
+      "Kernel mode có quyền truy cập toàn bộ phần cứng",
+      "User mode có quyền cao hơn",
+      "Cả hai giống nhau",
+      "Chỉ dùng trong Linux"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 53 (Chương 1): Hệ điều hành đa nhiệm (multitasking) cho phép gì?",
+    "options": [
+      "Nhiều chương trình chạy đồng thời",
+      "Chỉ chạy một chương trình",
+      "Không dùng CPU",
+      "Chạy chương trình nhanh hơn 100 lần"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 54 (Chương 1): Một hệ điều hành thời gian thực (real-time OS) đặc trưng bởi điều gì?",
+    "options": [
+      "Đáp ứng các yêu cầu trong thời gian xác định",
+      "Chạy chậm hơn hệ khác",
+      "Không hỗ trợ đa nhiệm",
+      "Không có kernel"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 55 (Chương 1): Một ví dụ của hệ điều hành mã nguồn mở là gì?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "iOS"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 56 (Chương 1): Hệ điều hành đa nhiệm (multitasking) cho phép gì?",
+    "options": [
+      "Nhiều chương trình chạy đồng thời",
+      "Chỉ chạy một chương trình",
+      "Không dùng CPU",
+      "Chạy chương trình nhanh hơn 100 lần"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 57 (Chương 1): Hệ điều hành có chức năng chính nào trong máy tính?",
+    "options": [
+      "Quản lý tài nguyên phần cứng",
+      "Thiết kế phần mềm",
+      "Soạn thảo văn bản",
+      "Tạo đồ họa 3D"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 58 (Chương 1): Chức năng của hệ thống tập tin trong hệ điều hành là gì?",
+    "options": [
+      "Tổ chức và lưu trữ dữ liệu trên thiết bị lưu trữ",
+      "Quản lý CPU",
+      "Phân bổ RAM",
+      "Điều khiển thiết bị mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 59 (Chương 1): Bootloader có nhiệm vụ gì khi khởi động máy tính?",
+    "options": [
+      "Tải kernel của hệ điều hành vào bộ nhớ",
+      "Kiểm tra phần mềm ứng dụng",
+      "Khởi chạy trình duyệt web",
+      "Kích hoạt card mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 60 (Chương 1): Hệ điều hành cung cấp giao diện giữa người dùng và phần nào?",
+    "options": [
+      "Phần cứng",
+      "Phần mềm ứng dụng",
+      "Mạng",
+      "CSDL"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 61 (Chương 1): Chế độ nhân (kernel mode) khác chế độ người dùng (user mode) ở điểm nào?",
+    "options": [
+      "Kernel mode có quyền truy cập toàn bộ phần cứng",
+      "User mode có quyền cao hơn",
+      "Cả hai giống nhau",
+      "Chỉ dùng trong Linux"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 62 (Chương 1): Khái niệm 'abstraction' trong hệ điều hành có ý nghĩa gì?",
+    "options": [
+      "Ẩn chi tiết phần cứng và cung cấp giao diện đơn giản cho ứng dụng",
+      "Tăng tốc xử lý",
+      "Tự động khởi động hệ thống",
+      "Tăng dung lượng ổ cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 63 (Chương 1): Thành phần nào của hệ điều hành chịu trách nhiệm quản lý tài nguyên và điều phối tiến trình?",
+    "options": [
+      "Kernel",
+      "Shell",
+      "API",
+      "Driver"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 64 (Chương 1): Thành phần nào của hệ điều hành chịu trách nhiệm quản lý tài nguyên và điều phối tiến trình?",
+    "options": [
+      "Kernel",
+      "Shell",
+      "API",
+      "Driver"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 65 (Chương 1): Thành phần nào của hệ điều hành chịu trách nhiệm quản lý tài nguyên và điều phối tiến trình?",
+    "options": [
+      "Kernel",
+      "Shell",
+      "API",
+      "Driver"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 66 (Chương 1): Hệ điều hành cung cấp giao diện giữa người dùng và phần nào?",
+    "options": [
+      "Phần cứng",
+      "Phần mềm ứng dụng",
+      "Mạng",
+      "CSDL"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 67 (Chương 1): Khái niệm 'abstraction' trong hệ điều hành có ý nghĩa gì?",
+    "options": [
+      "Ẩn chi tiết phần cứng và cung cấp giao diện đơn giản cho ứng dụng",
+      "Tăng tốc xử lý",
+      "Tự động khởi động hệ thống",
+      "Tăng dung lượng ổ cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 68 (Chương 1): Chế độ nhân (kernel mode) khác chế độ người dùng (user mode) ở điểm nào?",
+    "options": [
+      "Kernel mode có quyền truy cập toàn bộ phần cứng",
+      "User mode có quyền cao hơn",
+      "Cả hai giống nhau",
+      "Chỉ dùng trong Linux"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 69 (Chương 1): Hệ điều hành đa nhiệm (multitasking) cho phép gì?",
+    "options": [
+      "Nhiều chương trình chạy đồng thời",
+      "Chỉ chạy một chương trình",
+      "Không dùng CPU",
+      "Chạy chương trình nhanh hơn 100 lần"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 70 (Chương 1): Khái niệm 'abstraction' trong hệ điều hành có ý nghĩa gì?",
+    "options": [
+      "Ẩn chi tiết phần cứng và cung cấp giao diện đơn giản cho ứng dụng",
+      "Tăng tốc xử lý",
+      "Tự động khởi động hệ thống",
+      "Tăng dung lượng ổ cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 71 (Chương 1): Chức năng của hệ thống tập tin trong hệ điều hành là gì?",
+    "options": [
+      "Tổ chức và lưu trữ dữ liệu trên thiết bị lưu trữ",
+      "Quản lý CPU",
+      "Phân bổ RAM",
+      "Điều khiển thiết bị mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 72 (Chương 1): Khái niệm 'abstraction' trong hệ điều hành có ý nghĩa gì?",
+    "options": [
+      "Ẩn chi tiết phần cứng và cung cấp giao diện đơn giản cho ứng dụng",
+      "Tăng tốc xử lý",
+      "Tự động khởi động hệ thống",
+      "Tăng dung lượng ổ cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 73 (Chương 1): Hệ điều hành cung cấp giao diện giữa người dùng và phần nào?",
+    "options": [
+      "Phần cứng",
+      "Phần mềm ứng dụng",
+      "Mạng",
+      "CSDL"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 74 (Chương 1): Hệ điều hành cung cấp giao diện giữa người dùng và phần nào?",
+    "options": [
+      "Phần cứng",
+      "Phần mềm ứng dụng",
+      "Mạng",
+      "CSDL"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 75 (Chương 1): Một ví dụ của hệ điều hành mã nguồn mở là gì?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "iOS"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 76 (Chương 1): Chức năng của hệ thống tập tin trong hệ điều hành là gì?",
+    "options": [
+      "Tổ chức và lưu trữ dữ liệu trên thiết bị lưu trữ",
+      "Quản lý CPU",
+      "Phân bổ RAM",
+      "Điều khiển thiết bị mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 77 (Chương 1): Thành phần nào của hệ điều hành chịu trách nhiệm quản lý tài nguyên và điều phối tiến trình?",
+    "options": [
+      "Kernel",
+      "Shell",
+      "API",
+      "Driver"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 78 (Chương 1): Khái niệm 'abstraction' trong hệ điều hành có ý nghĩa gì?",
+    "options": [
+      "Ẩn chi tiết phần cứng và cung cấp giao diện đơn giản cho ứng dụng",
+      "Tăng tốc xử lý",
+      "Tự động khởi động hệ thống",
+      "Tăng dung lượng ổ cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 79 (Chương 1): Hệ điều hành đa nhiệm (multitasking) cho phép gì?",
+    "options": [
+      "Nhiều chương trình chạy đồng thời",
+      "Chỉ chạy một chương trình",
+      "Không dùng CPU",
+      "Chạy chương trình nhanh hơn 100 lần"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 80 (Chương 1): Bootloader có nhiệm vụ gì khi khởi động máy tính?",
+    "options": [
+      "Tải kernel của hệ điều hành vào bộ nhớ",
+      "Kiểm tra phần mềm ứng dụng",
+      "Khởi chạy trình duyệt web",
+      "Kích hoạt card mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 81 (Chương 1): Hệ điều hành đa nhiệm (multitasking) cho phép gì?",
+    "options": [
+      "Nhiều chương trình chạy đồng thời",
+      "Chỉ chạy một chương trình",
+      "Không dùng CPU",
+      "Chạy chương trình nhanh hơn 100 lần"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 82 (Chương 1): Khái niệm 'abstraction' trong hệ điều hành có ý nghĩa gì?",
+    "options": [
+      "Ẩn chi tiết phần cứng và cung cấp giao diện đơn giản cho ứng dụng",
+      "Tăng tốc xử lý",
+      "Tự động khởi động hệ thống",
+      "Tăng dung lượng ổ cứng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 83 (Chương 1): Hệ điều hành cung cấp giao diện giữa người dùng và phần nào?",
+    "options": [
+      "Phần cứng",
+      "Phần mềm ứng dụng",
+      "Mạng",
+      "CSDL"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 84 (Chương 1): Hệ điều hành đa nhiệm (multitasking) cho phép gì?",
+    "options": [
+      "Nhiều chương trình chạy đồng thời",
+      "Chỉ chạy một chương trình",
+      "Không dùng CPU",
+      "Chạy chương trình nhanh hơn 100 lần"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 85 (Chương 1): Hệ điều hành có chức năng chính nào trong máy tính?",
+    "options": [
+      "Quản lý tài nguyên phần cứng",
+      "Thiết kế phần mềm",
+      "Soạn thảo văn bản",
+      "Tạo đồ họa 3D"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 86 (Chương 1): Hệ điều hành đa nhiệm (multitasking) cho phép gì?",
+    "options": [
+      "Nhiều chương trình chạy đồng thời",
+      "Chỉ chạy một chương trình",
+      "Không dùng CPU",
+      "Chạy chương trình nhanh hơn 100 lần"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 87 (Chương 1): Một hệ điều hành thời gian thực (real-time OS) đặc trưng bởi điều gì?",
+    "options": [
+      "Đáp ứng các yêu cầu trong thời gian xác định",
+      "Chạy chậm hơn hệ khác",
+      "Không hỗ trợ đa nhiệm",
+      "Không có kernel"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 88 (Chương 1): Bootloader có nhiệm vụ gì khi khởi động máy tính?",
+    "options": [
+      "Tải kernel của hệ điều hành vào bộ nhớ",
+      "Kiểm tra phần mềm ứng dụng",
+      "Khởi chạy trình duyệt web",
+      "Kích hoạt card mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 89 (Chương 1): Thành phần nào của hệ điều hành chịu trách nhiệm quản lý tài nguyên và điều phối tiến trình?",
+    "options": [
+      "Kernel",
+      "Shell",
+      "API",
+      "Driver"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 90 (Chương 1): Hệ điều hành đa nhiệm (multitasking) cho phép gì?",
+    "options": [
+      "Nhiều chương trình chạy đồng thời",
+      "Chỉ chạy một chương trình",
+      "Không dùng CPU",
+      "Chạy chương trình nhanh hơn 100 lần"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 91 (Chương 1): Hệ điều hành có chức năng chính nào trong máy tính?",
+    "options": [
+      "Quản lý tài nguyên phần cứng",
+      "Thiết kế phần mềm",
+      "Soạn thảo văn bản",
+      "Tạo đồ họa 3D"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 92 (Chương 1): Hệ điều hành có chức năng chính nào trong máy tính?",
+    "options": [
+      "Quản lý tài nguyên phần cứng",
+      "Thiết kế phần mềm",
+      "Soạn thảo văn bản",
+      "Tạo đồ họa 3D"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 93 (Chương 1): Hệ điều hành có chức năng chính nào trong máy tính?",
+    "options": [
+      "Quản lý tài nguyên phần cứng",
+      "Thiết kế phần mềm",
+      "Soạn thảo văn bản",
+      "Tạo đồ họa 3D"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 94 (Chương 1): Bootloader có nhiệm vụ gì khi khởi động máy tính?",
+    "options": [
+      "Tải kernel của hệ điều hành vào bộ nhớ",
+      "Kiểm tra phần mềm ứng dụng",
+      "Khởi chạy trình duyệt web",
+      "Kích hoạt card mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 95 (Chương 1): Bootloader có nhiệm vụ gì khi khởi động máy tính?",
+    "options": [
+      "Tải kernel của hệ điều hành vào bộ nhớ",
+      "Kiểm tra phần mềm ứng dụng",
+      "Khởi chạy trình duyệt web",
+      "Kích hoạt card mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 96 (Chương 1): Một hệ điều hành thời gian thực (real-time OS) đặc trưng bởi điều gì?",
+    "options": [
+      "Đáp ứng các yêu cầu trong thời gian xác định",
+      "Chạy chậm hơn hệ khác",
+      "Không hỗ trợ đa nhiệm",
+      "Không có kernel"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 97 (Chương 1): Hệ điều hành cung cấp giao diện giữa người dùng và phần nào?",
+    "options": [
+      "Phần cứng",
+      "Phần mềm ứng dụng",
+      "Mạng",
+      "CSDL"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 98 (Chương 1): Một ví dụ của hệ điều hành mã nguồn mở là gì?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "iOS"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 99 (Chương 1): Hệ điều hành đa nhiệm (multitasking) cho phép gì?",
+    "options": [
+      "Nhiều chương trình chạy đồng thời",
+      "Chỉ chạy một chương trình",
+      "Không dùng CPU",
+      "Chạy chương trình nhanh hơn 100 lần"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  },
+  {
+    "question": "Câu 100 (Chương 1): Chức năng của hệ thống tập tin trong hệ điều hành là gì?",
+    "options": [
+      "Tổ chức và lưu trữ dữ liệu trên thiết bị lưu trữ",
+      "Quản lý CPU",
+      "Phân bổ RAM",
+      "Điều khiển thiết bị mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành"
+  }
+]

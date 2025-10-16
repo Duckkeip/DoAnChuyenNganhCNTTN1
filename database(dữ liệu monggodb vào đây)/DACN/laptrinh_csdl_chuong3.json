@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 3): JDBC trong Java là viết tắt của cụm từ nào?",
+    "options": [
+      "Java Database Connectivity",
+      "Java Data Controller",
+      "Joint Database Connection",
+      "Java Data Compiler"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 2 (Chương 3): Đối tượng nào trong JDBC dùng để thực thi câu lệnh SQL?",
+    "options": [
+      "Statement",
+      "ResultSet",
+      "Connection",
+      "PreparedStatement"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 3 (Chương 3): Phương thức nào của lớp Connection được sử dụng để tạo đối tượng Statement?",
+    "options": [
+      "createStatement()",
+      "executeQuery()",
+      "prepareStatement()",
+      "connectDB()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 4 (Chương 3): Trong PHP, hàm nào được dùng để kết nối tới cơ sở dữ liệu MySQL?",
+    "options": [
+      "mysqli_connect()",
+      "connect_mysql()",
+      "db_connect()",
+      "mysql_open()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 5 (Chương 3): Khi sử dụng PreparedStatement trong Java, lợi ích chính là gì?",
+    "options": [
+      "Tăng tính bảo mật và hiệu năng khi thực thi truy vấn có tham số",
+      "Giúp tạo bảng tự động",
+      "Thay thế cho ResultSet",
+      "Không cần kết nối cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 6 (Chương 3): Phương thức nào trong JDBC dùng để thực thi lệnh SELECT?",
+    "options": [
+      "executeQuery()",
+      "executeUpdate()",
+      "executeInsert()",
+      "executeDelete()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 7 (Chương 3): Đối tượng ResultSet trong JDBC dùng để làm gì?",
+    "options": [
+      "Lưu trữ và duyệt kết quả truy vấn",
+      "Thực thi câu lệnh SQL",
+      "Tạo bảng mới",
+      "Kết nối cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 8 (Chương 3): Trong PHP, hàm nào được dùng để thực thi câu lệnh SQL?",
+    "options": [
+      "mysqli_query()",
+      "execute_sql()",
+      "run_query()",
+      "mysql_execute()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 9 (Chương 3): Khi kết nối cơ sở dữ liệu, tham số nào cần thiết trong chuỗi kết nối JDBC?",
+    "options": [
+      "URL, tên người dùng, mật khẩu",
+      "Đường dẫn file và mã hóa",
+      "IP, port, phiên bản Java",
+      "Host name duy nhất"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 10 (Chương 3): Phương thức close() trong JDBC có vai trò gì?",
+    "options": [
+      "Đóng kết nối và giải phóng tài nguyên",
+      "Xóa dữ liệu trong bảng",
+      "Ngắt chương trình",
+      "Làm mới bảng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 11 (Chương 3): JDBC trong Java là viết tắt của cụm từ nào?",
+    "options": [
+      "Java Database Connectivity",
+      "Java Data Controller",
+      "Joint Database Connection",
+      "Java Data Compiler"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 12 (Chương 3): Đối tượng nào trong JDBC dùng để thực thi câu lệnh SQL?",
+    "options": [
+      "Statement",
+      "ResultSet",
+      "Connection",
+      "PreparedStatement"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 13 (Chương 3): Phương thức nào của lớp Connection được sử dụng để tạo đối tượng Statement?",
+    "options": [
+      "createStatement()",
+      "executeQuery()",
+      "prepareStatement()",
+      "connectDB()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 14 (Chương 3): Trong PHP, hàm nào được dùng để kết nối tới cơ sở dữ liệu MySQL?",
+    "options": [
+      "mysqli_connect()",
+      "connect_mysql()",
+      "db_connect()",
+      "mysql_open()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 15 (Chương 3): Khi sử dụng PreparedStatement trong Java, lợi ích chính là gì?",
+    "options": [
+      "Tăng tính bảo mật và hiệu năng khi thực thi truy vấn có tham số",
+      "Giúp tạo bảng tự động",
+      "Thay thế cho ResultSet",
+      "Không cần kết nối cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 16 (Chương 3): Phương thức nào trong JDBC dùng để thực thi lệnh SELECT?",
+    "options": [
+      "executeQuery()",
+      "executeUpdate()",
+      "executeInsert()",
+      "executeDelete()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 17 (Chương 3): Đối tượng ResultSet trong JDBC dùng để làm gì?",
+    "options": [
+      "Lưu trữ và duyệt kết quả truy vấn",
+      "Thực thi câu lệnh SQL",
+      "Tạo bảng mới",
+      "Kết nối cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 18 (Chương 3): Trong PHP, hàm nào được dùng để thực thi câu lệnh SQL?",
+    "options": [
+      "mysqli_query()",
+      "execute_sql()",
+      "run_query()",
+      "mysql_execute()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 19 (Chương 3): Khi kết nối cơ sở dữ liệu, tham số nào cần thiết trong chuỗi kết nối JDBC?",
+    "options": [
+      "URL, tên người dùng, mật khẩu",
+      "Đường dẫn file và mã hóa",
+      "IP, port, phiên bản Java",
+      "Host name duy nhất"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 20 (Chương 3): Phương thức close() trong JDBC có vai trò gì?",
+    "options": [
+      "Đóng kết nối và giải phóng tài nguyên",
+      "Xóa dữ liệu trong bảng",
+      "Ngắt chương trình",
+      "Làm mới bảng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 21 (Chương 3): JDBC trong Java là viết tắt của cụm từ nào?",
+    "options": [
+      "Java Database Connectivity",
+      "Java Data Controller",
+      "Joint Database Connection",
+      "Java Data Compiler"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 22 (Chương 3): Đối tượng nào trong JDBC dùng để thực thi câu lệnh SQL?",
+    "options": [
+      "Statement",
+      "ResultSet",
+      "Connection",
+      "PreparedStatement"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 23 (Chương 3): Phương thức nào của lớp Connection được sử dụng để tạo đối tượng Statement?",
+    "options": [
+      "createStatement()",
+      "executeQuery()",
+      "prepareStatement()",
+      "connectDB()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 24 (Chương 3): Trong PHP, hàm nào được dùng để kết nối tới cơ sở dữ liệu MySQL?",
+    "options": [
+      "mysqli_connect()",
+      "connect_mysql()",
+      "db_connect()",
+      "mysql_open()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 25 (Chương 3): Khi sử dụng PreparedStatement trong Java, lợi ích chính là gì?",
+    "options": [
+      "Tăng tính bảo mật và hiệu năng khi thực thi truy vấn có tham số",
+      "Giúp tạo bảng tự động",
+      "Thay thế cho ResultSet",
+      "Không cần kết nối cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 26 (Chương 3): Phương thức nào trong JDBC dùng để thực thi lệnh SELECT?",
+    "options": [
+      "executeQuery()",
+      "executeUpdate()",
+      "executeInsert()",
+      "executeDelete()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 27 (Chương 3): Đối tượng ResultSet trong JDBC dùng để làm gì?",
+    "options": [
+      "Lưu trữ và duyệt kết quả truy vấn",
+      "Thực thi câu lệnh SQL",
+      "Tạo bảng mới",
+      "Kết nối cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 28 (Chương 3): Trong PHP, hàm nào được dùng để thực thi câu lệnh SQL?",
+    "options": [
+      "mysqli_query()",
+      "execute_sql()",
+      "run_query()",
+      "mysql_execute()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 29 (Chương 3): Khi kết nối cơ sở dữ liệu, tham số nào cần thiết trong chuỗi kết nối JDBC?",
+    "options": [
+      "URL, tên người dùng, mật khẩu",
+      "Đường dẫn file và mã hóa",
+      "IP, port, phiên bản Java",
+      "Host name duy nhất"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 30 (Chương 3): Phương thức close() trong JDBC có vai trò gì?",
+    "options": [
+      "Đóng kết nối và giải phóng tài nguyên",
+      "Xóa dữ liệu trong bảng",
+      "Ngắt chương trình",
+      "Làm mới bảng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 31 (Chương 3): JDBC trong Java là viết tắt của cụm từ nào?",
+    "options": [
+      "Java Database Connectivity",
+      "Java Data Controller",
+      "Joint Database Connection",
+      "Java Data Compiler"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 32 (Chương 3): Đối tượng nào trong JDBC dùng để thực thi câu lệnh SQL?",
+    "options": [
+      "Statement",
+      "ResultSet",
+      "Connection",
+      "PreparedStatement"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 33 (Chương 3): Phương thức nào của lớp Connection được sử dụng để tạo đối tượng Statement?",
+    "options": [
+      "createStatement()",
+      "executeQuery()",
+      "prepareStatement()",
+      "connectDB()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 34 (Chương 3): Trong PHP, hàm nào được dùng để kết nối tới cơ sở dữ liệu MySQL?",
+    "options": [
+      "mysqli_connect()",
+      "connect_mysql()",
+      "db_connect()",
+      "mysql_open()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 35 (Chương 3): Khi sử dụng PreparedStatement trong Java, lợi ích chính là gì?",
+    "options": [
+      "Tăng tính bảo mật và hiệu năng khi thực thi truy vấn có tham số",
+      "Giúp tạo bảng tự động",
+      "Thay thế cho ResultSet",
+      "Không cần kết nối cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 36 (Chương 3): Phương thức nào trong JDBC dùng để thực thi lệnh SELECT?",
+    "options": [
+      "executeQuery()",
+      "executeUpdate()",
+      "executeInsert()",
+      "executeDelete()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 37 (Chương 3): Đối tượng ResultSet trong JDBC dùng để làm gì?",
+    "options": [
+      "Lưu trữ và duyệt kết quả truy vấn",
+      "Thực thi câu lệnh SQL",
+      "Tạo bảng mới",
+      "Kết nối cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 38 (Chương 3): Trong PHP, hàm nào được dùng để thực thi câu lệnh SQL?",
+    "options": [
+      "mysqli_query()",
+      "execute_sql()",
+      "run_query()",
+      "mysql_execute()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 39 (Chương 3): Khi kết nối cơ sở dữ liệu, tham số nào cần thiết trong chuỗi kết nối JDBC?",
+    "options": [
+      "URL, tên người dùng, mật khẩu",
+      "Đường dẫn file và mã hóa",
+      "IP, port, phiên bản Java",
+      "Host name duy nhất"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 40 (Chương 3): Phương thức close() trong JDBC có vai trò gì?",
+    "options": [
+      "Đóng kết nối và giải phóng tài nguyên",
+      "Xóa dữ liệu trong bảng",
+      "Ngắt chương trình",
+      "Làm mới bảng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 41 (Chương 3): JDBC trong Java là viết tắt của cụm từ nào?",
+    "options": [
+      "Java Database Connectivity",
+      "Java Data Controller",
+      "Joint Database Connection",
+      "Java Data Compiler"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 42 (Chương 3): Đối tượng nào trong JDBC dùng để thực thi câu lệnh SQL?",
+    "options": [
+      "Statement",
+      "ResultSet",
+      "Connection",
+      "PreparedStatement"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 43 (Chương 3): Phương thức nào của lớp Connection được sử dụng để tạo đối tượng Statement?",
+    "options": [
+      "createStatement()",
+      "executeQuery()",
+      "prepareStatement()",
+      "connectDB()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 44 (Chương 3): Trong PHP, hàm nào được dùng để kết nối tới cơ sở dữ liệu MySQL?",
+    "options": [
+      "mysqli_connect()",
+      "connect_mysql()",
+      "db_connect()",
+      "mysql_open()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 45 (Chương 3): Khi sử dụng PreparedStatement trong Java, lợi ích chính là gì?",
+    "options": [
+      "Tăng tính bảo mật và hiệu năng khi thực thi truy vấn có tham số",
+      "Giúp tạo bảng tự động",
+      "Thay thế cho ResultSet",
+      "Không cần kết nối cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 46 (Chương 3): Phương thức nào trong JDBC dùng để thực thi lệnh SELECT?",
+    "options": [
+      "executeQuery()",
+      "executeUpdate()",
+      "executeInsert()",
+      "executeDelete()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 47 (Chương 3): Đối tượng ResultSet trong JDBC dùng để làm gì?",
+    "options": [
+      "Lưu trữ và duyệt kết quả truy vấn",
+      "Thực thi câu lệnh SQL",
+      "Tạo bảng mới",
+      "Kết nối cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 48 (Chương 3): Trong PHP, hàm nào được dùng để thực thi câu lệnh SQL?",
+    "options": [
+      "mysqli_query()",
+      "execute_sql()",
+      "run_query()",
+      "mysql_execute()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 49 (Chương 3): Khi kết nối cơ sở dữ liệu, tham số nào cần thiết trong chuỗi kết nối JDBC?",
+    "options": [
+      "URL, tên người dùng, mật khẩu",
+      "Đường dẫn file và mã hóa",
+      "IP, port, phiên bản Java",
+      "Host name duy nhất"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 50 (Chương 3): Phương thức close() trong JDBC có vai trò gì?",
+    "options": [
+      "Đóng kết nối và giải phóng tài nguyên",
+      "Xóa dữ liệu trong bảng",
+      "Ngắt chương trình",
+      "Làm mới bảng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 51 (Chương 3): JDBC trong Java là viết tắt của cụm từ nào?",
+    "options": [
+      "Java Database Connectivity",
+      "Java Data Controller",
+      "Joint Database Connection",
+      "Java Data Compiler"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 52 (Chương 3): Đối tượng nào trong JDBC dùng để thực thi câu lệnh SQL?",
+    "options": [
+      "Statement",
+      "ResultSet",
+      "Connection",
+      "PreparedStatement"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 53 (Chương 3): Phương thức nào của lớp Connection được sử dụng để tạo đối tượng Statement?",
+    "options": [
+      "createStatement()",
+      "executeQuery()",
+      "prepareStatement()",
+      "connectDB()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 54 (Chương 3): Trong PHP, hàm nào được dùng để kết nối tới cơ sở dữ liệu MySQL?",
+    "options": [
+      "mysqli_connect()",
+      "connect_mysql()",
+      "db_connect()",
+      "mysql_open()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 55 (Chương 3): Khi sử dụng PreparedStatement trong Java, lợi ích chính là gì?",
+    "options": [
+      "Tăng tính bảo mật và hiệu năng khi thực thi truy vấn có tham số",
+      "Giúp tạo bảng tự động",
+      "Thay thế cho ResultSet",
+      "Không cần kết nối cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 56 (Chương 3): Phương thức nào trong JDBC dùng để thực thi lệnh SELECT?",
+    "options": [
+      "executeQuery()",
+      "executeUpdate()",
+      "executeInsert()",
+      "executeDelete()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 57 (Chương 3): Đối tượng ResultSet trong JDBC dùng để làm gì?",
+    "options": [
+      "Lưu trữ và duyệt kết quả truy vấn",
+      "Thực thi câu lệnh SQL",
+      "Tạo bảng mới",
+      "Kết nối cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 58 (Chương 3): Trong PHP, hàm nào được dùng để thực thi câu lệnh SQL?",
+    "options": [
+      "mysqli_query()",
+      "execute_sql()",
+      "run_query()",
+      "mysql_execute()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 59 (Chương 3): Khi kết nối cơ sở dữ liệu, tham số nào cần thiết trong chuỗi kết nối JDBC?",
+    "options": [
+      "URL, tên người dùng, mật khẩu",
+      "Đường dẫn file và mã hóa",
+      "IP, port, phiên bản Java",
+      "Host name duy nhất"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 60 (Chương 3): Phương thức close() trong JDBC có vai trò gì?",
+    "options": [
+      "Đóng kết nối và giải phóng tài nguyên",
+      "Xóa dữ liệu trong bảng",
+      "Ngắt chương trình",
+      "Làm mới bảng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 61 (Chương 3): JDBC trong Java là viết tắt của cụm từ nào?",
+    "options": [
+      "Java Database Connectivity",
+      "Java Data Controller",
+      "Joint Database Connection",
+      "Java Data Compiler"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 62 (Chương 3): Đối tượng nào trong JDBC dùng để thực thi câu lệnh SQL?",
+    "options": [
+      "Statement",
+      "ResultSet",
+      "Connection",
+      "PreparedStatement"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 63 (Chương 3): Phương thức nào của lớp Connection được sử dụng để tạo đối tượng Statement?",
+    "options": [
+      "createStatement()",
+      "executeQuery()",
+      "prepareStatement()",
+      "connectDB()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 64 (Chương 3): Trong PHP, hàm nào được dùng để kết nối tới cơ sở dữ liệu MySQL?",
+    "options": [
+      "mysqli_connect()",
+      "connect_mysql()",
+      "db_connect()",
+      "mysql_open()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 65 (Chương 3): Khi sử dụng PreparedStatement trong Java, lợi ích chính là gì?",
+    "options": [
+      "Tăng tính bảo mật và hiệu năng khi thực thi truy vấn có tham số",
+      "Giúp tạo bảng tự động",
+      "Thay thế cho ResultSet",
+      "Không cần kết nối cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 66 (Chương 3): Phương thức nào trong JDBC dùng để thực thi lệnh SELECT?",
+    "options": [
+      "executeQuery()",
+      "executeUpdate()",
+      "executeInsert()",
+      "executeDelete()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 67 (Chương 3): Đối tượng ResultSet trong JDBC dùng để làm gì?",
+    "options": [
+      "Lưu trữ và duyệt kết quả truy vấn",
+      "Thực thi câu lệnh SQL",
+      "Tạo bảng mới",
+      "Kết nối cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 68 (Chương 3): Trong PHP, hàm nào được dùng để thực thi câu lệnh SQL?",
+    "options": [
+      "mysqli_query()",
+      "execute_sql()",
+      "run_query()",
+      "mysql_execute()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 69 (Chương 3): Khi kết nối cơ sở dữ liệu, tham số nào cần thiết trong chuỗi kết nối JDBC?",
+    "options": [
+      "URL, tên người dùng, mật khẩu",
+      "Đường dẫn file và mã hóa",
+      "IP, port, phiên bản Java",
+      "Host name duy nhất"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 70 (Chương 3): Phương thức close() trong JDBC có vai trò gì?",
+    "options": [
+      "Đóng kết nối và giải phóng tài nguyên",
+      "Xóa dữ liệu trong bảng",
+      "Ngắt chương trình",
+      "Làm mới bảng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 71 (Chương 3): JDBC trong Java là viết tắt của cụm từ nào?",
+    "options": [
+      "Java Database Connectivity",
+      "Java Data Controller",
+      "Joint Database Connection",
+      "Java Data Compiler"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 72 (Chương 3): Đối tượng nào trong JDBC dùng để thực thi câu lệnh SQL?",
+    "options": [
+      "Statement",
+      "ResultSet",
+      "Connection",
+      "PreparedStatement"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 73 (Chương 3): Phương thức nào của lớp Connection được sử dụng để tạo đối tượng Statement?",
+    "options": [
+      "createStatement()",
+      "executeQuery()",
+      "prepareStatement()",
+      "connectDB()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 74 (Chương 3): Trong PHP, hàm nào được dùng để kết nối tới cơ sở dữ liệu MySQL?",
+    "options": [
+      "mysqli_connect()",
+      "connect_mysql()",
+      "db_connect()",
+      "mysql_open()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 75 (Chương 3): Khi sử dụng PreparedStatement trong Java, lợi ích chính là gì?",
+    "options": [
+      "Tăng tính bảo mật và hiệu năng khi thực thi truy vấn có tham số",
+      "Giúp tạo bảng tự động",
+      "Thay thế cho ResultSet",
+      "Không cần kết nối cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 76 (Chương 3): Phương thức nào trong JDBC dùng để thực thi lệnh SELECT?",
+    "options": [
+      "executeQuery()",
+      "executeUpdate()",
+      "executeInsert()",
+      "executeDelete()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 77 (Chương 3): Đối tượng ResultSet trong JDBC dùng để làm gì?",
+    "options": [
+      "Lưu trữ và duyệt kết quả truy vấn",
+      "Thực thi câu lệnh SQL",
+      "Tạo bảng mới",
+      "Kết nối cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 78 (Chương 3): Trong PHP, hàm nào được dùng để thực thi câu lệnh SQL?",
+    "options": [
+      "mysqli_query()",
+      "execute_sql()",
+      "run_query()",
+      "mysql_execute()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 79 (Chương 3): Khi kết nối cơ sở dữ liệu, tham số nào cần thiết trong chuỗi kết nối JDBC?",
+    "options": [
+      "URL, tên người dùng, mật khẩu",
+      "Đường dẫn file và mã hóa",
+      "IP, port, phiên bản Java",
+      "Host name duy nhất"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 80 (Chương 3): Phương thức close() trong JDBC có vai trò gì?",
+    "options": [
+      "Đóng kết nối và giải phóng tài nguyên",
+      "Xóa dữ liệu trong bảng",
+      "Ngắt chương trình",
+      "Làm mới bảng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 81 (Chương 3): JDBC trong Java là viết tắt của cụm từ nào?",
+    "options": [
+      "Java Database Connectivity",
+      "Java Data Controller",
+      "Joint Database Connection",
+      "Java Data Compiler"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 82 (Chương 3): Đối tượng nào trong JDBC dùng để thực thi câu lệnh SQL?",
+    "options": [
+      "Statement",
+      "ResultSet",
+      "Connection",
+      "PreparedStatement"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 83 (Chương 3): Phương thức nào của lớp Connection được sử dụng để tạo đối tượng Statement?",
+    "options": [
+      "createStatement()",
+      "executeQuery()",
+      "prepareStatement()",
+      "connectDB()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 84 (Chương 3): Trong PHP, hàm nào được dùng để kết nối tới cơ sở dữ liệu MySQL?",
+    "options": [
+      "mysqli_connect()",
+      "connect_mysql()",
+      "db_connect()",
+      "mysql_open()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 85 (Chương 3): Khi sử dụng PreparedStatement trong Java, lợi ích chính là gì?",
+    "options": [
+      "Tăng tính bảo mật và hiệu năng khi thực thi truy vấn có tham số",
+      "Giúp tạo bảng tự động",
+      "Thay thế cho ResultSet",
+      "Không cần kết nối cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 86 (Chương 3): Phương thức nào trong JDBC dùng để thực thi lệnh SELECT?",
+    "options": [
+      "executeQuery()",
+      "executeUpdate()",
+      "executeInsert()",
+      "executeDelete()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 87 (Chương 3): Đối tượng ResultSet trong JDBC dùng để làm gì?",
+    "options": [
+      "Lưu trữ và duyệt kết quả truy vấn",
+      "Thực thi câu lệnh SQL",
+      "Tạo bảng mới",
+      "Kết nối cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 88 (Chương 3): Trong PHP, hàm nào được dùng để thực thi câu lệnh SQL?",
+    "options": [
+      "mysqli_query()",
+      "execute_sql()",
+      "run_query()",
+      "mysql_execute()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 89 (Chương 3): Khi kết nối cơ sở dữ liệu, tham số nào cần thiết trong chuỗi kết nối JDBC?",
+    "options": [
+      "URL, tên người dùng, mật khẩu",
+      "Đường dẫn file và mã hóa",
+      "IP, port, phiên bản Java",
+      "Host name duy nhất"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 90 (Chương 3): Phương thức close() trong JDBC có vai trò gì?",
+    "options": [
+      "Đóng kết nối và giải phóng tài nguyên",
+      "Xóa dữ liệu trong bảng",
+      "Ngắt chương trình",
+      "Làm mới bảng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 91 (Chương 3): JDBC trong Java là viết tắt của cụm từ nào?",
+    "options": [
+      "Java Database Connectivity",
+      "Java Data Controller",
+      "Joint Database Connection",
+      "Java Data Compiler"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 92 (Chương 3): Đối tượng nào trong JDBC dùng để thực thi câu lệnh SQL?",
+    "options": [
+      "Statement",
+      "ResultSet",
+      "Connection",
+      "PreparedStatement"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 93 (Chương 3): Phương thức nào của lớp Connection được sử dụng để tạo đối tượng Statement?",
+    "options": [
+      "createStatement()",
+      "executeQuery()",
+      "prepareStatement()",
+      "connectDB()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 94 (Chương 3): Trong PHP, hàm nào được dùng để kết nối tới cơ sở dữ liệu MySQL?",
+    "options": [
+      "mysqli_connect()",
+      "connect_mysql()",
+      "db_connect()",
+      "mysql_open()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 95 (Chương 3): Khi sử dụng PreparedStatement trong Java, lợi ích chính là gì?",
+    "options": [
+      "Tăng tính bảo mật và hiệu năng khi thực thi truy vấn có tham số",
+      "Giúp tạo bảng tự động",
+      "Thay thế cho ResultSet",
+      "Không cần kết nối cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 96 (Chương 3): Phương thức nào trong JDBC dùng để thực thi lệnh SELECT?",
+    "options": [
+      "executeQuery()",
+      "executeUpdate()",
+      "executeInsert()",
+      "executeDelete()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 97 (Chương 3): Đối tượng ResultSet trong JDBC dùng để làm gì?",
+    "options": [
+      "Lưu trữ và duyệt kết quả truy vấn",
+      "Thực thi câu lệnh SQL",
+      "Tạo bảng mới",
+      "Kết nối cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 98 (Chương 3): Trong PHP, hàm nào được dùng để thực thi câu lệnh SQL?",
+    "options": [
+      "mysqli_query()",
+      "execute_sql()",
+      "run_query()",
+      "mysql_execute()"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 99 (Chương 3): Khi kết nối cơ sở dữ liệu, tham số nào cần thiết trong chuỗi kết nối JDBC?",
+    "options": [
+      "URL, tên người dùng, mật khẩu",
+      "Đường dẫn file và mã hóa",
+      "IP, port, phiên bản Java",
+      "Host name duy nhất"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  },
+  {
+    "question": "Câu 100 (Chương 3): Phương thức close() trong JDBC có vai trò gì?",
+    "options": [
+      "Đóng kết nối và giải phóng tài nguyên",
+      "Xóa dữ liệu trong bảng",
+      "Ngắt chương trình",
+      "Làm mới bảng"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)"
+  }
+]

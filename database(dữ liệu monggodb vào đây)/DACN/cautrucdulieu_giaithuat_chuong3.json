@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 3): Trong cây nhị phân tìm kiếm (BST), giá trị bên trái nút cha có đặc điểm gì?",
+    "options": [
+      "Nhỏ hơn giá trị của nút cha",
+      "Lớn hơn giá trị của nút cha",
+      "Bằng giá trị của nút cha",
+      "Ngẫu nhiên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 2 (Chương 3): Cây cân bằng (Balanced Tree) có đặc điểm gì?",
+    "options": [
+      "Chiều cao của hai nhánh con bất kỳ không chênh lệch quá nhiều",
+      "Mỗi nút đều có hai con",
+      "Có số lượng lá bằng nhau",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 3 (Chương 3): Cấu trúc cây (Tree) là gì?",
+    "options": [
+      "Là cấu trúc dữ liệu phân cấp gồm các nút có quan hệ cha – con",
+      "Là danh sách tuyến tính các phần tử",
+      "Là bảng gồm các cột và hàng",
+      "Là một loại mảng đa chiều"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 4 (Chương 3): Trong cây nhị phân tìm kiếm (BST), giá trị bên trái nút cha có đặc điểm gì?",
+    "options": [
+      "Nhỏ hơn giá trị của nút cha",
+      "Lớn hơn giá trị của nút cha",
+      "Bằng giá trị của nút cha",
+      "Ngẫu nhiên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 5 (Chương 3): Chiều cao của cây được định nghĩa là gì?",
+    "options": [
+      "Số cạnh trên đường đi dài nhất từ gốc đến lá",
+      "Số nút trong cây",
+      "Số lượng con của nút gốc",
+      "Số cấp của cây nhị phân"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 6 (Chương 3): Cây cân bằng (Balanced Tree) có đặc điểm gì?",
+    "options": [
+      "Chiều cao của hai nhánh con bất kỳ không chênh lệch quá nhiều",
+      "Mỗi nút đều có hai con",
+      "Có số lượng lá bằng nhau",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 7 (Chương 3): Cây nhị phân (Binary Tree) là gì?",
+    "options": [
+      "Mỗi nút có tối đa hai nút con",
+      "Mỗi nút chỉ có một con",
+      "Mỗi nút có ba con",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 8 (Chương 3): Thuật toán duyệt theo chiều sâu (DFS) sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Ngăn xếp (Stack)",
+      "Hàng đợi (Queue)",
+      "Mảng",
+      "Cây nhị phân"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 9 (Chương 3): Đồ thị có hướng khác đồ thị vô hướng ở điểm nào?",
+    "options": [
+      "Các cạnh có chiều đi xác định",
+      "Các cạnh không có trọng số",
+      "Không có chu trình",
+      "Không có đỉnh"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 10 (Chương 3): Đồ thị (Graph) gồm những thành phần nào?",
+    "options": [
+      "Tập các đỉnh (vertex) và các cạnh (edge) nối giữa chúng",
+      "Tập các phần tử độc lập",
+      "Danh sách các cây con",
+      "Tập hợp các mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 11 (Chương 3): Thuật toán duyệt theo chiều rộng (BFS) sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Hàng đợi (Queue)",
+      "Ngăn xếp (Stack)",
+      "Cây",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 12 (Chương 3): Cây cân bằng (Balanced Tree) có đặc điểm gì?",
+    "options": [
+      "Chiều cao của hai nhánh con bất kỳ không chênh lệch quá nhiều",
+      "Mỗi nút đều có hai con",
+      "Có số lượng lá bằng nhau",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 13 (Chương 3): Chiều cao của cây được định nghĩa là gì?",
+    "options": [
+      "Số cạnh trên đường đi dài nhất từ gốc đến lá",
+      "Số nút trong cây",
+      "Số lượng con của nút gốc",
+      "Số cấp của cây nhị phân"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 14 (Chương 3): Đồ thị (Graph) gồm những thành phần nào?",
+    "options": [
+      "Tập các đỉnh (vertex) và các cạnh (edge) nối giữa chúng",
+      "Tập các phần tử độc lập",
+      "Danh sách các cây con",
+      "Tập hợp các mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 15 (Chương 3): Cây cân bằng (Balanced Tree) có đặc điểm gì?",
+    "options": [
+      "Chiều cao của hai nhánh con bất kỳ không chênh lệch quá nhiều",
+      "Mỗi nút đều có hai con",
+      "Có số lượng lá bằng nhau",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 16 (Chương 3): Đồ thị có hướng khác đồ thị vô hướng ở điểm nào?",
+    "options": [
+      "Các cạnh có chiều đi xác định",
+      "Các cạnh không có trọng số",
+      "Không có chu trình",
+      "Không có đỉnh"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 17 (Chương 3): Đồ thị (Graph) gồm những thành phần nào?",
+    "options": [
+      "Tập các đỉnh (vertex) và các cạnh (edge) nối giữa chúng",
+      "Tập các phần tử độc lập",
+      "Danh sách các cây con",
+      "Tập hợp các mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 18 (Chương 3): Nút gốc (Root) trong cây là gì?",
+    "options": [
+      "Là nút không có nút cha",
+      "Là nút có nhiều con nhất",
+      "Là nút nằm ở giữa cây",
+      "Là nút được thêm sau cùng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 19 (Chương 3): Thuật toán duyệt theo chiều sâu (DFS) sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Ngăn xếp (Stack)",
+      "Hàng đợi (Queue)",
+      "Mảng",
+      "Cây nhị phân"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 20 (Chương 3): Đồ thị (Graph) gồm những thành phần nào?",
+    "options": [
+      "Tập các đỉnh (vertex) và các cạnh (edge) nối giữa chúng",
+      "Tập các phần tử độc lập",
+      "Danh sách các cây con",
+      "Tập hợp các mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 21 (Chương 3): Thuật toán duyệt theo chiều sâu (DFS) sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Ngăn xếp (Stack)",
+      "Hàng đợi (Queue)",
+      "Mảng",
+      "Cây nhị phân"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 22 (Chương 3): Thuật toán duyệt theo chiều sâu (DFS) sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Ngăn xếp (Stack)",
+      "Hàng đợi (Queue)",
+      "Mảng",
+      "Cây nhị phân"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 23 (Chương 3): Trong cây nhị phân tìm kiếm (BST), giá trị bên trái nút cha có đặc điểm gì?",
+    "options": [
+      "Nhỏ hơn giá trị của nút cha",
+      "Lớn hơn giá trị của nút cha",
+      "Bằng giá trị của nút cha",
+      "Ngẫu nhiên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 24 (Chương 3): Chiều cao của cây được định nghĩa là gì?",
+    "options": [
+      "Số cạnh trên đường đi dài nhất từ gốc đến lá",
+      "Số nút trong cây",
+      "Số lượng con của nút gốc",
+      "Số cấp của cây nhị phân"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 25 (Chương 3): Nút gốc (Root) trong cây là gì?",
+    "options": [
+      "Là nút không có nút cha",
+      "Là nút có nhiều con nhất",
+      "Là nút nằm ở giữa cây",
+      "Là nút được thêm sau cùng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 26 (Chương 3): Cây nhị phân (Binary Tree) là gì?",
+    "options": [
+      "Mỗi nút có tối đa hai nút con",
+      "Mỗi nút chỉ có một con",
+      "Mỗi nút có ba con",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 27 (Chương 3): Cây nhị phân (Binary Tree) là gì?",
+    "options": [
+      "Mỗi nút có tối đa hai nút con",
+      "Mỗi nút chỉ có một con",
+      "Mỗi nút có ba con",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 28 (Chương 3): Thuật toán duyệt theo chiều rộng (BFS) sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Hàng đợi (Queue)",
+      "Ngăn xếp (Stack)",
+      "Cây",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 29 (Chương 3): Cây cân bằng (Balanced Tree) có đặc điểm gì?",
+    "options": [
+      "Chiều cao của hai nhánh con bất kỳ không chênh lệch quá nhiều",
+      "Mỗi nút đều có hai con",
+      "Có số lượng lá bằng nhau",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 30 (Chương 3): Trong cây nhị phân tìm kiếm (BST), giá trị bên trái nút cha có đặc điểm gì?",
+    "options": [
+      "Nhỏ hơn giá trị của nút cha",
+      "Lớn hơn giá trị của nút cha",
+      "Bằng giá trị của nút cha",
+      "Ngẫu nhiên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 31 (Chương 3): Thuật toán duyệt theo chiều rộng (BFS) sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Hàng đợi (Queue)",
+      "Ngăn xếp (Stack)",
+      "Cây",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 32 (Chương 3): Nút gốc (Root) trong cây là gì?",
+    "options": [
+      "Là nút không có nút cha",
+      "Là nút có nhiều con nhất",
+      "Là nút nằm ở giữa cây",
+      "Là nút được thêm sau cùng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 33 (Chương 3): Cây cân bằng (Balanced Tree) có đặc điểm gì?",
+    "options": [
+      "Chiều cao của hai nhánh con bất kỳ không chênh lệch quá nhiều",
+      "Mỗi nút đều có hai con",
+      "Có số lượng lá bằng nhau",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 34 (Chương 3): Cây nhị phân (Binary Tree) là gì?",
+    "options": [
+      "Mỗi nút có tối đa hai nút con",
+      "Mỗi nút chỉ có một con",
+      "Mỗi nút có ba con",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 35 (Chương 3): Thuật toán duyệt theo chiều rộng (BFS) sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Hàng đợi (Queue)",
+      "Ngăn xếp (Stack)",
+      "Cây",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 36 (Chương 3): Cây nhị phân (Binary Tree) là gì?",
+    "options": [
+      "Mỗi nút có tối đa hai nút con",
+      "Mỗi nút chỉ có một con",
+      "Mỗi nút có ba con",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 37 (Chương 3): Thuật toán duyệt theo chiều rộng (BFS) sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Hàng đợi (Queue)",
+      "Ngăn xếp (Stack)",
+      "Cây",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 38 (Chương 3): Thuật toán duyệt theo chiều rộng (BFS) sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Hàng đợi (Queue)",
+      "Ngăn xếp (Stack)",
+      "Cây",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 39 (Chương 3): Đồ thị có hướng khác đồ thị vô hướng ở điểm nào?",
+    "options": [
+      "Các cạnh có chiều đi xác định",
+      "Các cạnh không có trọng số",
+      "Không có chu trình",
+      "Không có đỉnh"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 40 (Chương 3): Đồ thị (Graph) gồm những thành phần nào?",
+    "options": [
+      "Tập các đỉnh (vertex) và các cạnh (edge) nối giữa chúng",
+      "Tập các phần tử độc lập",
+      "Danh sách các cây con",
+      "Tập hợp các mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 41 (Chương 3): Trong cây nhị phân tìm kiếm (BST), giá trị bên trái nút cha có đặc điểm gì?",
+    "options": [
+      "Nhỏ hơn giá trị của nút cha",
+      "Lớn hơn giá trị của nút cha",
+      "Bằng giá trị của nút cha",
+      "Ngẫu nhiên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 42 (Chương 3): Cấu trúc cây (Tree) là gì?",
+    "options": [
+      "Là cấu trúc dữ liệu phân cấp gồm các nút có quan hệ cha – con",
+      "Là danh sách tuyến tính các phần tử",
+      "Là bảng gồm các cột và hàng",
+      "Là một loại mảng đa chiều"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 43 (Chương 3): Đồ thị (Graph) gồm những thành phần nào?",
+    "options": [
+      "Tập các đỉnh (vertex) và các cạnh (edge) nối giữa chúng",
+      "Tập các phần tử độc lập",
+      "Danh sách các cây con",
+      "Tập hợp các mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 44 (Chương 3): Thuật toán duyệt theo chiều sâu (DFS) sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Ngăn xếp (Stack)",
+      "Hàng đợi (Queue)",
+      "Mảng",
+      "Cây nhị phân"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 45 (Chương 3): Nút gốc (Root) trong cây là gì?",
+    "options": [
+      "Là nút không có nút cha",
+      "Là nút có nhiều con nhất",
+      "Là nút nằm ở giữa cây",
+      "Là nút được thêm sau cùng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 46 (Chương 3): Cây nhị phân (Binary Tree) là gì?",
+    "options": [
+      "Mỗi nút có tối đa hai nút con",
+      "Mỗi nút chỉ có một con",
+      "Mỗi nút có ba con",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 47 (Chương 3): Trong cây nhị phân tìm kiếm (BST), giá trị bên trái nút cha có đặc điểm gì?",
+    "options": [
+      "Nhỏ hơn giá trị của nút cha",
+      "Lớn hơn giá trị của nút cha",
+      "Bằng giá trị của nút cha",
+      "Ngẫu nhiên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 48 (Chương 3): Thuật toán duyệt theo chiều sâu (DFS) sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Ngăn xếp (Stack)",
+      "Hàng đợi (Queue)",
+      "Mảng",
+      "Cây nhị phân"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 49 (Chương 3): Thuật toán duyệt theo chiều rộng (BFS) sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Hàng đợi (Queue)",
+      "Ngăn xếp (Stack)",
+      "Cây",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 50 (Chương 3): Trong cây nhị phân tìm kiếm (BST), giá trị bên trái nút cha có đặc điểm gì?",
+    "options": [
+      "Nhỏ hơn giá trị của nút cha",
+      "Lớn hơn giá trị của nút cha",
+      "Bằng giá trị của nút cha",
+      "Ngẫu nhiên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 51 (Chương 3): Cây cân bằng (Balanced Tree) có đặc điểm gì?",
+    "options": [
+      "Chiều cao của hai nhánh con bất kỳ không chênh lệch quá nhiều",
+      "Mỗi nút đều có hai con",
+      "Có số lượng lá bằng nhau",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 52 (Chương 3): Cây nhị phân (Binary Tree) là gì?",
+    "options": [
+      "Mỗi nút có tối đa hai nút con",
+      "Mỗi nút chỉ có một con",
+      "Mỗi nút có ba con",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 53 (Chương 3): Đồ thị có hướng khác đồ thị vô hướng ở điểm nào?",
+    "options": [
+      "Các cạnh có chiều đi xác định",
+      "Các cạnh không có trọng số",
+      "Không có chu trình",
+      "Không có đỉnh"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 54 (Chương 3): Nút gốc (Root) trong cây là gì?",
+    "options": [
+      "Là nút không có nút cha",
+      "Là nút có nhiều con nhất",
+      "Là nút nằm ở giữa cây",
+      "Là nút được thêm sau cùng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 55 (Chương 3): Thuật toán duyệt theo chiều rộng (BFS) sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Hàng đợi (Queue)",
+      "Ngăn xếp (Stack)",
+      "Cây",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 56 (Chương 3): Chiều cao của cây được định nghĩa là gì?",
+    "options": [
+      "Số cạnh trên đường đi dài nhất từ gốc đến lá",
+      "Số nút trong cây",
+      "Số lượng con của nút gốc",
+      "Số cấp của cây nhị phân"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 57 (Chương 3): Chiều cao của cây được định nghĩa là gì?",
+    "options": [
+      "Số cạnh trên đường đi dài nhất từ gốc đến lá",
+      "Số nút trong cây",
+      "Số lượng con của nút gốc",
+      "Số cấp của cây nhị phân"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 58 (Chương 3): Cây nhị phân (Binary Tree) là gì?",
+    "options": [
+      "Mỗi nút có tối đa hai nút con",
+      "Mỗi nút chỉ có một con",
+      "Mỗi nút có ba con",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 59 (Chương 3): Đồ thị có hướng khác đồ thị vô hướng ở điểm nào?",
+    "options": [
+      "Các cạnh có chiều đi xác định",
+      "Các cạnh không có trọng số",
+      "Không có chu trình",
+      "Không có đỉnh"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 60 (Chương 3): Đồ thị có hướng khác đồ thị vô hướng ở điểm nào?",
+    "options": [
+      "Các cạnh có chiều đi xác định",
+      "Các cạnh không có trọng số",
+      "Không có chu trình",
+      "Không có đỉnh"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 61 (Chương 3): Chiều cao của cây được định nghĩa là gì?",
+    "options": [
+      "Số cạnh trên đường đi dài nhất từ gốc đến lá",
+      "Số nút trong cây",
+      "Số lượng con của nút gốc",
+      "Số cấp của cây nhị phân"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 62 (Chương 3): Đồ thị (Graph) gồm những thành phần nào?",
+    "options": [
+      "Tập các đỉnh (vertex) và các cạnh (edge) nối giữa chúng",
+      "Tập các phần tử độc lập",
+      "Danh sách các cây con",
+      "Tập hợp các mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 63 (Chương 3): Chiều cao của cây được định nghĩa là gì?",
+    "options": [
+      "Số cạnh trên đường đi dài nhất từ gốc đến lá",
+      "Số nút trong cây",
+      "Số lượng con của nút gốc",
+      "Số cấp của cây nhị phân"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 64 (Chương 3): Đồ thị có hướng khác đồ thị vô hướng ở điểm nào?",
+    "options": [
+      "Các cạnh có chiều đi xác định",
+      "Các cạnh không có trọng số",
+      "Không có chu trình",
+      "Không có đỉnh"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 65 (Chương 3): Cây nhị phân (Binary Tree) là gì?",
+    "options": [
+      "Mỗi nút có tối đa hai nút con",
+      "Mỗi nút chỉ có một con",
+      "Mỗi nút có ba con",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 66 (Chương 3): Cấu trúc cây (Tree) là gì?",
+    "options": [
+      "Là cấu trúc dữ liệu phân cấp gồm các nút có quan hệ cha – con",
+      "Là danh sách tuyến tính các phần tử",
+      "Là bảng gồm các cột và hàng",
+      "Là một loại mảng đa chiều"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 67 (Chương 3): Cây cân bằng (Balanced Tree) có đặc điểm gì?",
+    "options": [
+      "Chiều cao của hai nhánh con bất kỳ không chênh lệch quá nhiều",
+      "Mỗi nút đều có hai con",
+      "Có số lượng lá bằng nhau",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 68 (Chương 3): Chiều cao của cây được định nghĩa là gì?",
+    "options": [
+      "Số cạnh trên đường đi dài nhất từ gốc đến lá",
+      "Số nút trong cây",
+      "Số lượng con của nút gốc",
+      "Số cấp của cây nhị phân"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 69 (Chương 3): Nút gốc (Root) trong cây là gì?",
+    "options": [
+      "Là nút không có nút cha",
+      "Là nút có nhiều con nhất",
+      "Là nút nằm ở giữa cây",
+      "Là nút được thêm sau cùng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 70 (Chương 3): Trong cây nhị phân tìm kiếm (BST), giá trị bên trái nút cha có đặc điểm gì?",
+    "options": [
+      "Nhỏ hơn giá trị của nút cha",
+      "Lớn hơn giá trị của nút cha",
+      "Bằng giá trị của nút cha",
+      "Ngẫu nhiên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 71 (Chương 3): Cây cân bằng (Balanced Tree) có đặc điểm gì?",
+    "options": [
+      "Chiều cao của hai nhánh con bất kỳ không chênh lệch quá nhiều",
+      "Mỗi nút đều có hai con",
+      "Có số lượng lá bằng nhau",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 72 (Chương 3): Trong cây nhị phân tìm kiếm (BST), giá trị bên trái nút cha có đặc điểm gì?",
+    "options": [
+      "Nhỏ hơn giá trị của nút cha",
+      "Lớn hơn giá trị của nút cha",
+      "Bằng giá trị của nút cha",
+      "Ngẫu nhiên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 73 (Chương 3): Nút gốc (Root) trong cây là gì?",
+    "options": [
+      "Là nút không có nút cha",
+      "Là nút có nhiều con nhất",
+      "Là nút nằm ở giữa cây",
+      "Là nút được thêm sau cùng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 74 (Chương 3): Cấu trúc cây (Tree) là gì?",
+    "options": [
+      "Là cấu trúc dữ liệu phân cấp gồm các nút có quan hệ cha – con",
+      "Là danh sách tuyến tính các phần tử",
+      "Là bảng gồm các cột và hàng",
+      "Là một loại mảng đa chiều"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 75 (Chương 3): Chiều cao của cây được định nghĩa là gì?",
+    "options": [
+      "Số cạnh trên đường đi dài nhất từ gốc đến lá",
+      "Số nút trong cây",
+      "Số lượng con của nút gốc",
+      "Số cấp của cây nhị phân"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 76 (Chương 3): Cây nhị phân (Binary Tree) là gì?",
+    "options": [
+      "Mỗi nút có tối đa hai nút con",
+      "Mỗi nút chỉ có một con",
+      "Mỗi nút có ba con",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 77 (Chương 3): Cây cân bằng (Balanced Tree) có đặc điểm gì?",
+    "options": [
+      "Chiều cao của hai nhánh con bất kỳ không chênh lệch quá nhiều",
+      "Mỗi nút đều có hai con",
+      "Có số lượng lá bằng nhau",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 78 (Chương 3): Cây cân bằng (Balanced Tree) có đặc điểm gì?",
+    "options": [
+      "Chiều cao của hai nhánh con bất kỳ không chênh lệch quá nhiều",
+      "Mỗi nút đều có hai con",
+      "Có số lượng lá bằng nhau",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 79 (Chương 3): Cấu trúc cây (Tree) là gì?",
+    "options": [
+      "Là cấu trúc dữ liệu phân cấp gồm các nút có quan hệ cha – con",
+      "Là danh sách tuyến tính các phần tử",
+      "Là bảng gồm các cột và hàng",
+      "Là một loại mảng đa chiều"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 80 (Chương 3): Cấu trúc cây (Tree) là gì?",
+    "options": [
+      "Là cấu trúc dữ liệu phân cấp gồm các nút có quan hệ cha – con",
+      "Là danh sách tuyến tính các phần tử",
+      "Là bảng gồm các cột và hàng",
+      "Là một loại mảng đa chiều"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 81 (Chương 3): Cấu trúc cây (Tree) là gì?",
+    "options": [
+      "Là cấu trúc dữ liệu phân cấp gồm các nút có quan hệ cha – con",
+      "Là danh sách tuyến tính các phần tử",
+      "Là bảng gồm các cột và hàng",
+      "Là một loại mảng đa chiều"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 82 (Chương 3): Trong cây nhị phân tìm kiếm (BST), giá trị bên trái nút cha có đặc điểm gì?",
+    "options": [
+      "Nhỏ hơn giá trị của nút cha",
+      "Lớn hơn giá trị của nút cha",
+      "Bằng giá trị của nút cha",
+      "Ngẫu nhiên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 83 (Chương 3): Thuật toán duyệt theo chiều sâu (DFS) sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Ngăn xếp (Stack)",
+      "Hàng đợi (Queue)",
+      "Mảng",
+      "Cây nhị phân"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 84 (Chương 3): Đồ thị có hướng khác đồ thị vô hướng ở điểm nào?",
+    "options": [
+      "Các cạnh có chiều đi xác định",
+      "Các cạnh không có trọng số",
+      "Không có chu trình",
+      "Không có đỉnh"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 85 (Chương 3): Đồ thị có hướng khác đồ thị vô hướng ở điểm nào?",
+    "options": [
+      "Các cạnh có chiều đi xác định",
+      "Các cạnh không có trọng số",
+      "Không có chu trình",
+      "Không có đỉnh"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 86 (Chương 3): Chiều cao của cây được định nghĩa là gì?",
+    "options": [
+      "Số cạnh trên đường đi dài nhất từ gốc đến lá",
+      "Số nút trong cây",
+      "Số lượng con của nút gốc",
+      "Số cấp của cây nhị phân"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 87 (Chương 3): Đồ thị (Graph) gồm những thành phần nào?",
+    "options": [
+      "Tập các đỉnh (vertex) và các cạnh (edge) nối giữa chúng",
+      "Tập các phần tử độc lập",
+      "Danh sách các cây con",
+      "Tập hợp các mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 88 (Chương 3): Trong cây nhị phân tìm kiếm (BST), giá trị bên trái nút cha có đặc điểm gì?",
+    "options": [
+      "Nhỏ hơn giá trị của nút cha",
+      "Lớn hơn giá trị của nút cha",
+      "Bằng giá trị của nút cha",
+      "Ngẫu nhiên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 89 (Chương 3): Nút gốc (Root) trong cây là gì?",
+    "options": [
+      "Là nút không có nút cha",
+      "Là nút có nhiều con nhất",
+      "Là nút nằm ở giữa cây",
+      "Là nút được thêm sau cùng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 90 (Chương 3): Chiều cao của cây được định nghĩa là gì?",
+    "options": [
+      "Số cạnh trên đường đi dài nhất từ gốc đến lá",
+      "Số nút trong cây",
+      "Số lượng con của nút gốc",
+      "Số cấp của cây nhị phân"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 91 (Chương 3): Đồ thị (Graph) gồm những thành phần nào?",
+    "options": [
+      "Tập các đỉnh (vertex) và các cạnh (edge) nối giữa chúng",
+      "Tập các phần tử độc lập",
+      "Danh sách các cây con",
+      "Tập hợp các mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 92 (Chương 3): Trong cây nhị phân tìm kiếm (BST), giá trị bên trái nút cha có đặc điểm gì?",
+    "options": [
+      "Nhỏ hơn giá trị của nút cha",
+      "Lớn hơn giá trị của nút cha",
+      "Bằng giá trị của nút cha",
+      "Ngẫu nhiên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 93 (Chương 3): Thuật toán duyệt theo chiều sâu (DFS) sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Ngăn xếp (Stack)",
+      "Hàng đợi (Queue)",
+      "Mảng",
+      "Cây nhị phân"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 94 (Chương 3): Cây nhị phân (Binary Tree) là gì?",
+    "options": [
+      "Mỗi nút có tối đa hai nút con",
+      "Mỗi nút chỉ có một con",
+      "Mỗi nút có ba con",
+      "Không có nút gốc"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 95 (Chương 3): Cấu trúc cây (Tree) là gì?",
+    "options": [
+      "Là cấu trúc dữ liệu phân cấp gồm các nút có quan hệ cha – con",
+      "Là danh sách tuyến tính các phần tử",
+      "Là bảng gồm các cột và hàng",
+      "Là một loại mảng đa chiều"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 96 (Chương 3): Cấu trúc cây (Tree) là gì?",
+    "options": [
+      "Là cấu trúc dữ liệu phân cấp gồm các nút có quan hệ cha – con",
+      "Là danh sách tuyến tính các phần tử",
+      "Là bảng gồm các cột và hàng",
+      "Là một loại mảng đa chiều"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 97 (Chương 3): Thuật toán duyệt theo chiều rộng (BFS) sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Hàng đợi (Queue)",
+      "Ngăn xếp (Stack)",
+      "Cây",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 98 (Chương 3): Trong cây nhị phân tìm kiếm (BST), giá trị bên trái nút cha có đặc điểm gì?",
+    "options": [
+      "Nhỏ hơn giá trị của nút cha",
+      "Lớn hơn giá trị của nút cha",
+      "Bằng giá trị của nút cha",
+      "Ngẫu nhiên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 99 (Chương 3): Nút gốc (Root) trong cây là gì?",
+    "options": [
+      "Là nút không có nút cha",
+      "Là nút có nhiều con nhất",
+      "Là nút nằm ở giữa cây",
+      "Là nút được thêm sau cùng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  },
+  {
+    "question": "Câu 100 (Chương 3): Trong cây nhị phân tìm kiếm (BST), giá trị bên trái nút cha có đặc điểm gì?",
+    "options": [
+      "Nhỏ hơn giá trị của nút cha",
+      "Lớn hơn giá trị của nút cha",
+      "Bằng giá trị của nút cha",
+      "Ngẫu nhiên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị"
+  }
+]

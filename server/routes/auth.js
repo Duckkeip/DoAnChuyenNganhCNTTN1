@@ -7,7 +7,7 @@ const User = require('../models/User');
 const transporter = require('../utils/mailer');
 
 // ----- Cấu hình chế độ dev/prod -----
-const DEV_MODE = true; 
+const DEV_MODE = false; 
 // true = dev: không gửi mail
 // false = production: gửi mail xác thực tài khoản
 
@@ -33,9 +33,9 @@ router.post('/register', async (req, res) => {
 
     // Tạo user object (chưa lưu)
     const user = new User({
+      user_id: crypto.randomBytes(16).toString('hex'),
       username,
       email,
-      tenhienthi,
       password,
       passwordHash,
       verificationToken,
@@ -101,7 +101,6 @@ router.post('/login', async (req, res) => {
         id: user._id,
         username: user.username,
         email: user.email,
-        tenhienthi: user.tenhienthi,
         avatar: user.avatar
       }
     });

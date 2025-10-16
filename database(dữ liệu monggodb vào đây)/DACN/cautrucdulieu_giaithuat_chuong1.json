@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 1): Cấu trúc dữ liệu tuyến tính là gì?",
+    "options": [
+      "Là cấu trúc trong đó các phần tử được sắp xếp theo một thứ tự tuần tự",
+      "Là cấu trúc không có quan hệ giữa các phần tử",
+      "Là cấu trúc cây",
+      "Là đồ thị có hướng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 2 (Chương 1): Ngôn ngữ lập trình ảnh hưởng thế nào đến cấu trúc dữ liệu?",
+    "options": [
+      "Quy định cách biểu diễn và thao tác trên dữ liệu",
+      "Không có ảnh hưởng nào",
+      "Chỉ quyết định tốc độ biên dịch",
+      "Chỉ quyết định giao diện"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 3 (Chương 1): Độ phức tạp không gian (space complexity) đo lường điều gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để thực hiện thuật toán",
+      "Thời gian xử lý thuật toán",
+      "Số dòng mã nguồn",
+      "Kích thước của file kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 4 (Chương 1): Cấu trúc dữ liệu là gì?",
+    "options": [
+      "Cách tổ chức và lưu trữ dữ liệu để có thể sử dụng hiệu quả",
+      "Một thuật toán sắp xếp dữ liệu",
+      "Một ngôn ngữ lập trình",
+      "Một hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 5 (Chương 1): Mục tiêu của việc sử dụng cấu trúc dữ liệu phù hợp là gì?",
+    "options": [
+      "Tăng hiệu suất xử lý và giảm tài nguyên sử dụng",
+      "Làm chương trình phức tạp hơn",
+      "Tăng độ dài mã nguồn",
+      "Giảm khả năng tái sử dụng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 6 (Chương 1): Tiêu chí nào sau đây KHÔNG phải là yếu tố đánh giá thuật toán?",
+    "options": [
+      "Màu sắc giao diện",
+      "Độ đúng đắn",
+      "Độ phức tạp thời gian",
+      "Độ phức tạp không gian"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 7 (Chương 1): Độ phức tạp không gian (space complexity) đo lường điều gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để thực hiện thuật toán",
+      "Thời gian xử lý thuật toán",
+      "Số dòng mã nguồn",
+      "Kích thước của file kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 8 (Chương 1): Tiêu chí nào sau đây KHÔNG phải là yếu tố đánh giá thuật toán?",
+    "options": [
+      "Màu sắc giao diện",
+      "Độ đúng đắn",
+      "Độ phức tạp thời gian",
+      "Độ phức tạp không gian"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 9 (Chương 1): Ngôn ngữ lập trình ảnh hưởng thế nào đến cấu trúc dữ liệu?",
+    "options": [
+      "Quy định cách biểu diễn và thao tác trên dữ liệu",
+      "Không có ảnh hưởng nào",
+      "Chỉ quyết định tốc độ biên dịch",
+      "Chỉ quyết định giao diện"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 10 (Chương 1): Độ phức tạp không gian (space complexity) đo lường điều gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để thực hiện thuật toán",
+      "Thời gian xử lý thuật toán",
+      "Số dòng mã nguồn",
+      "Kích thước của file kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 11 (Chương 1): Ngôn ngữ lập trình ảnh hưởng thế nào đến cấu trúc dữ liệu?",
+    "options": [
+      "Quy định cách biểu diễn và thao tác trên dữ liệu",
+      "Không có ảnh hưởng nào",
+      "Chỉ quyết định tốc độ biên dịch",
+      "Chỉ quyết định giao diện"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 12 (Chương 1): Giải thuật (thuật toán) là gì?",
+    "options": [
+      "Tập hợp các bước xử lý nhằm giải quyết một bài toán cụ thể",
+      "Một chương trình phần mềm",
+      "Một cấu trúc dữ liệu",
+      "Một loại biến trong lập trình"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 13 (Chương 1): Mục tiêu của việc sử dụng cấu trúc dữ liệu phù hợp là gì?",
+    "options": [
+      "Tăng hiệu suất xử lý và giảm tài nguyên sử dụng",
+      "Làm chương trình phức tạp hơn",
+      "Tăng độ dài mã nguồn",
+      "Giảm khả năng tái sử dụng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 14 (Chương 1): Ví dụ nào sau đây là cấu trúc dữ liệu phi tuyến tính?",
+    "options": [
+      "Cây (Tree)",
+      "Danh sách liên kết",
+      "Ngăn xếp",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 15 (Chương 1): Cấu trúc dữ liệu tuyến tính là gì?",
+    "options": [
+      "Là cấu trúc trong đó các phần tử được sắp xếp theo một thứ tự tuần tự",
+      "Là cấu trúc không có quan hệ giữa các phần tử",
+      "Là cấu trúc cây",
+      "Là đồ thị có hướng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 16 (Chương 1): Ví dụ nào sau đây là cấu trúc dữ liệu phi tuyến tính?",
+    "options": [
+      "Cây (Tree)",
+      "Danh sách liên kết",
+      "Ngăn xếp",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 17 (Chương 1): Thuật toán được xem là hiệu quả khi nào?",
+    "options": [
+      "Thời gian và bộ nhớ sử dụng là tối ưu so với các phương án khác",
+      "Càng dài càng tốt",
+      "Có nhiều vòng lặp lồng nhau",
+      "Không có chú thích trong mã nguồn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 18 (Chương 1): Ngôn ngữ lập trình ảnh hưởng thế nào đến cấu trúc dữ liệu?",
+    "options": [
+      "Quy định cách biểu diễn và thao tác trên dữ liệu",
+      "Không có ảnh hưởng nào",
+      "Chỉ quyết định tốc độ biên dịch",
+      "Chỉ quyết định giao diện"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 19 (Chương 1): Mục tiêu của việc sử dụng cấu trúc dữ liệu phù hợp là gì?",
+    "options": [
+      "Tăng hiệu suất xử lý và giảm tài nguyên sử dụng",
+      "Làm chương trình phức tạp hơn",
+      "Tăng độ dài mã nguồn",
+      "Giảm khả năng tái sử dụng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 20 (Chương 1): Độ phức tạp thời gian của thuật toán thể hiện điều gì?",
+    "options": [
+      "Số lượng thao tác cần thực hiện để hoàn thành thuật toán",
+      "Dung lượng bộ nhớ sử dụng",
+      "Tốc độ CPU",
+      "Kích thước của tệp tin kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 21 (Chương 1): Ngôn ngữ lập trình ảnh hưởng thế nào đến cấu trúc dữ liệu?",
+    "options": [
+      "Quy định cách biểu diễn và thao tác trên dữ liệu",
+      "Không có ảnh hưởng nào",
+      "Chỉ quyết định tốc độ biên dịch",
+      "Chỉ quyết định giao diện"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 22 (Chương 1): Cấu trúc dữ liệu tuyến tính là gì?",
+    "options": [
+      "Là cấu trúc trong đó các phần tử được sắp xếp theo một thứ tự tuần tự",
+      "Là cấu trúc không có quan hệ giữa các phần tử",
+      "Là cấu trúc cây",
+      "Là đồ thị có hướng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 23 (Chương 1): Độ phức tạp thời gian của thuật toán thể hiện điều gì?",
+    "options": [
+      "Số lượng thao tác cần thực hiện để hoàn thành thuật toán",
+      "Dung lượng bộ nhớ sử dụng",
+      "Tốc độ CPU",
+      "Kích thước của tệp tin kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 24 (Chương 1): Độ phức tạp thời gian của thuật toán thể hiện điều gì?",
+    "options": [
+      "Số lượng thao tác cần thực hiện để hoàn thành thuật toán",
+      "Dung lượng bộ nhớ sử dụng",
+      "Tốc độ CPU",
+      "Kích thước của tệp tin kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 25 (Chương 1): Cấu trúc dữ liệu tuyến tính là gì?",
+    "options": [
+      "Là cấu trúc trong đó các phần tử được sắp xếp theo một thứ tự tuần tự",
+      "Là cấu trúc không có quan hệ giữa các phần tử",
+      "Là cấu trúc cây",
+      "Là đồ thị có hướng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 26 (Chương 1): Cấu trúc dữ liệu tuyến tính là gì?",
+    "options": [
+      "Là cấu trúc trong đó các phần tử được sắp xếp theo một thứ tự tuần tự",
+      "Là cấu trúc không có quan hệ giữa các phần tử",
+      "Là cấu trúc cây",
+      "Là đồ thị có hướng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 27 (Chương 1): Độ phức tạp thời gian của thuật toán thể hiện điều gì?",
+    "options": [
+      "Số lượng thao tác cần thực hiện để hoàn thành thuật toán",
+      "Dung lượng bộ nhớ sử dụng",
+      "Tốc độ CPU",
+      "Kích thước của tệp tin kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 28 (Chương 1): Mục tiêu của việc sử dụng cấu trúc dữ liệu phù hợp là gì?",
+    "options": [
+      "Tăng hiệu suất xử lý và giảm tài nguyên sử dụng",
+      "Làm chương trình phức tạp hơn",
+      "Tăng độ dài mã nguồn",
+      "Giảm khả năng tái sử dụng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 29 (Chương 1): Ví dụ nào sau đây là cấu trúc dữ liệu phi tuyến tính?",
+    "options": [
+      "Cây (Tree)",
+      "Danh sách liên kết",
+      "Ngăn xếp",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 30 (Chương 1): Cấu trúc dữ liệu tuyến tính là gì?",
+    "options": [
+      "Là cấu trúc trong đó các phần tử được sắp xếp theo một thứ tự tuần tự",
+      "Là cấu trúc không có quan hệ giữa các phần tử",
+      "Là cấu trúc cây",
+      "Là đồ thị có hướng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 31 (Chương 1): Ngôn ngữ lập trình ảnh hưởng thế nào đến cấu trúc dữ liệu?",
+    "options": [
+      "Quy định cách biểu diễn và thao tác trên dữ liệu",
+      "Không có ảnh hưởng nào",
+      "Chỉ quyết định tốc độ biên dịch",
+      "Chỉ quyết định giao diện"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 32 (Chương 1): Thuật toán được xem là hiệu quả khi nào?",
+    "options": [
+      "Thời gian và bộ nhớ sử dụng là tối ưu so với các phương án khác",
+      "Càng dài càng tốt",
+      "Có nhiều vòng lặp lồng nhau",
+      "Không có chú thích trong mã nguồn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 33 (Chương 1): Cấu trúc dữ liệu là gì?",
+    "options": [
+      "Cách tổ chức và lưu trữ dữ liệu để có thể sử dụng hiệu quả",
+      "Một thuật toán sắp xếp dữ liệu",
+      "Một ngôn ngữ lập trình",
+      "Một hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 34 (Chương 1): Ví dụ nào sau đây là cấu trúc dữ liệu phi tuyến tính?",
+    "options": [
+      "Cây (Tree)",
+      "Danh sách liên kết",
+      "Ngăn xếp",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 35 (Chương 1): Cấu trúc dữ liệu là gì?",
+    "options": [
+      "Cách tổ chức và lưu trữ dữ liệu để có thể sử dụng hiệu quả",
+      "Một thuật toán sắp xếp dữ liệu",
+      "Một ngôn ngữ lập trình",
+      "Một hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 36 (Chương 1): Độ phức tạp không gian (space complexity) đo lường điều gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để thực hiện thuật toán",
+      "Thời gian xử lý thuật toán",
+      "Số dòng mã nguồn",
+      "Kích thước của file kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 37 (Chương 1): Ví dụ nào sau đây là cấu trúc dữ liệu phi tuyến tính?",
+    "options": [
+      "Cây (Tree)",
+      "Danh sách liên kết",
+      "Ngăn xếp",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 38 (Chương 1): Cấu trúc dữ liệu tuyến tính là gì?",
+    "options": [
+      "Là cấu trúc trong đó các phần tử được sắp xếp theo một thứ tự tuần tự",
+      "Là cấu trúc không có quan hệ giữa các phần tử",
+      "Là cấu trúc cây",
+      "Là đồ thị có hướng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 39 (Chương 1): Độ phức tạp thời gian của thuật toán thể hiện điều gì?",
+    "options": [
+      "Số lượng thao tác cần thực hiện để hoàn thành thuật toán",
+      "Dung lượng bộ nhớ sử dụng",
+      "Tốc độ CPU",
+      "Kích thước của tệp tin kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 40 (Chương 1): Giải thuật (thuật toán) là gì?",
+    "options": [
+      "Tập hợp các bước xử lý nhằm giải quyết một bài toán cụ thể",
+      "Một chương trình phần mềm",
+      "Một cấu trúc dữ liệu",
+      "Một loại biến trong lập trình"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 41 (Chương 1): Mục tiêu của việc sử dụng cấu trúc dữ liệu phù hợp là gì?",
+    "options": [
+      "Tăng hiệu suất xử lý và giảm tài nguyên sử dụng",
+      "Làm chương trình phức tạp hơn",
+      "Tăng độ dài mã nguồn",
+      "Giảm khả năng tái sử dụng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 42 (Chương 1): Độ phức tạp thời gian của thuật toán thể hiện điều gì?",
+    "options": [
+      "Số lượng thao tác cần thực hiện để hoàn thành thuật toán",
+      "Dung lượng bộ nhớ sử dụng",
+      "Tốc độ CPU",
+      "Kích thước của tệp tin kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 43 (Chương 1): Mục tiêu của việc sử dụng cấu trúc dữ liệu phù hợp là gì?",
+    "options": [
+      "Tăng hiệu suất xử lý và giảm tài nguyên sử dụng",
+      "Làm chương trình phức tạp hơn",
+      "Tăng độ dài mã nguồn",
+      "Giảm khả năng tái sử dụng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 44 (Chương 1): Mục tiêu của việc sử dụng cấu trúc dữ liệu phù hợp là gì?",
+    "options": [
+      "Tăng hiệu suất xử lý và giảm tài nguyên sử dụng",
+      "Làm chương trình phức tạp hơn",
+      "Tăng độ dài mã nguồn",
+      "Giảm khả năng tái sử dụng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 45 (Chương 1): Ví dụ nào sau đây là cấu trúc dữ liệu phi tuyến tính?",
+    "options": [
+      "Cây (Tree)",
+      "Danh sách liên kết",
+      "Ngăn xếp",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 46 (Chương 1): Ví dụ nào sau đây là cấu trúc dữ liệu phi tuyến tính?",
+    "options": [
+      "Cây (Tree)",
+      "Danh sách liên kết",
+      "Ngăn xếp",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 47 (Chương 1): Giải thuật (thuật toán) là gì?",
+    "options": [
+      "Tập hợp các bước xử lý nhằm giải quyết một bài toán cụ thể",
+      "Một chương trình phần mềm",
+      "Một cấu trúc dữ liệu",
+      "Một loại biến trong lập trình"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 48 (Chương 1): Cấu trúc dữ liệu tuyến tính là gì?",
+    "options": [
+      "Là cấu trúc trong đó các phần tử được sắp xếp theo một thứ tự tuần tự",
+      "Là cấu trúc không có quan hệ giữa các phần tử",
+      "Là cấu trúc cây",
+      "Là đồ thị có hướng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 49 (Chương 1): Thuật toán được xem là hiệu quả khi nào?",
+    "options": [
+      "Thời gian và bộ nhớ sử dụng là tối ưu so với các phương án khác",
+      "Càng dài càng tốt",
+      "Có nhiều vòng lặp lồng nhau",
+      "Không có chú thích trong mã nguồn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 50 (Chương 1): Tiêu chí nào sau đây KHÔNG phải là yếu tố đánh giá thuật toán?",
+    "options": [
+      "Màu sắc giao diện",
+      "Độ đúng đắn",
+      "Độ phức tạp thời gian",
+      "Độ phức tạp không gian"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 51 (Chương 1): Cấu trúc dữ liệu là gì?",
+    "options": [
+      "Cách tổ chức và lưu trữ dữ liệu để có thể sử dụng hiệu quả",
+      "Một thuật toán sắp xếp dữ liệu",
+      "Một ngôn ngữ lập trình",
+      "Một hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 52 (Chương 1): Độ phức tạp thời gian của thuật toán thể hiện điều gì?",
+    "options": [
+      "Số lượng thao tác cần thực hiện để hoàn thành thuật toán",
+      "Dung lượng bộ nhớ sử dụng",
+      "Tốc độ CPU",
+      "Kích thước của tệp tin kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 53 (Chương 1): Mục tiêu của việc sử dụng cấu trúc dữ liệu phù hợp là gì?",
+    "options": [
+      "Tăng hiệu suất xử lý và giảm tài nguyên sử dụng",
+      "Làm chương trình phức tạp hơn",
+      "Tăng độ dài mã nguồn",
+      "Giảm khả năng tái sử dụng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 54 (Chương 1): Thuật toán được xem là hiệu quả khi nào?",
+    "options": [
+      "Thời gian và bộ nhớ sử dụng là tối ưu so với các phương án khác",
+      "Càng dài càng tốt",
+      "Có nhiều vòng lặp lồng nhau",
+      "Không có chú thích trong mã nguồn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 55 (Chương 1): Ví dụ nào sau đây là cấu trúc dữ liệu phi tuyến tính?",
+    "options": [
+      "Cây (Tree)",
+      "Danh sách liên kết",
+      "Ngăn xếp",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 56 (Chương 1): Mục tiêu của việc sử dụng cấu trúc dữ liệu phù hợp là gì?",
+    "options": [
+      "Tăng hiệu suất xử lý và giảm tài nguyên sử dụng",
+      "Làm chương trình phức tạp hơn",
+      "Tăng độ dài mã nguồn",
+      "Giảm khả năng tái sử dụng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 57 (Chương 1): Độ phức tạp không gian (space complexity) đo lường điều gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để thực hiện thuật toán",
+      "Thời gian xử lý thuật toán",
+      "Số dòng mã nguồn",
+      "Kích thước của file kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 58 (Chương 1): Mục tiêu của việc sử dụng cấu trúc dữ liệu phù hợp là gì?",
+    "options": [
+      "Tăng hiệu suất xử lý và giảm tài nguyên sử dụng",
+      "Làm chương trình phức tạp hơn",
+      "Tăng độ dài mã nguồn",
+      "Giảm khả năng tái sử dụng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 59 (Chương 1): Cấu trúc dữ liệu là gì?",
+    "options": [
+      "Cách tổ chức và lưu trữ dữ liệu để có thể sử dụng hiệu quả",
+      "Một thuật toán sắp xếp dữ liệu",
+      "Một ngôn ngữ lập trình",
+      "Một hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 60 (Chương 1): Cấu trúc dữ liệu là gì?",
+    "options": [
+      "Cách tổ chức và lưu trữ dữ liệu để có thể sử dụng hiệu quả",
+      "Một thuật toán sắp xếp dữ liệu",
+      "Một ngôn ngữ lập trình",
+      "Một hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 61 (Chương 1): Độ phức tạp không gian (space complexity) đo lường điều gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để thực hiện thuật toán",
+      "Thời gian xử lý thuật toán",
+      "Số dòng mã nguồn",
+      "Kích thước của file kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 62 (Chương 1): Ngôn ngữ lập trình ảnh hưởng thế nào đến cấu trúc dữ liệu?",
+    "options": [
+      "Quy định cách biểu diễn và thao tác trên dữ liệu",
+      "Không có ảnh hưởng nào",
+      "Chỉ quyết định tốc độ biên dịch",
+      "Chỉ quyết định giao diện"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 63 (Chương 1): Độ phức tạp không gian (space complexity) đo lường điều gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để thực hiện thuật toán",
+      "Thời gian xử lý thuật toán",
+      "Số dòng mã nguồn",
+      "Kích thước của file kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 64 (Chương 1): Ví dụ nào sau đây là cấu trúc dữ liệu phi tuyến tính?",
+    "options": [
+      "Cây (Tree)",
+      "Danh sách liên kết",
+      "Ngăn xếp",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 65 (Chương 1): Mục tiêu của việc sử dụng cấu trúc dữ liệu phù hợp là gì?",
+    "options": [
+      "Tăng hiệu suất xử lý và giảm tài nguyên sử dụng",
+      "Làm chương trình phức tạp hơn",
+      "Tăng độ dài mã nguồn",
+      "Giảm khả năng tái sử dụng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 66 (Chương 1): Thuật toán được xem là hiệu quả khi nào?",
+    "options": [
+      "Thời gian và bộ nhớ sử dụng là tối ưu so với các phương án khác",
+      "Càng dài càng tốt",
+      "Có nhiều vòng lặp lồng nhau",
+      "Không có chú thích trong mã nguồn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 67 (Chương 1): Thuật toán được xem là hiệu quả khi nào?",
+    "options": [
+      "Thời gian và bộ nhớ sử dụng là tối ưu so với các phương án khác",
+      "Càng dài càng tốt",
+      "Có nhiều vòng lặp lồng nhau",
+      "Không có chú thích trong mã nguồn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 68 (Chương 1): Độ phức tạp thời gian của thuật toán thể hiện điều gì?",
+    "options": [
+      "Số lượng thao tác cần thực hiện để hoàn thành thuật toán",
+      "Dung lượng bộ nhớ sử dụng",
+      "Tốc độ CPU",
+      "Kích thước của tệp tin kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 69 (Chương 1): Độ phức tạp thời gian của thuật toán thể hiện điều gì?",
+    "options": [
+      "Số lượng thao tác cần thực hiện để hoàn thành thuật toán",
+      "Dung lượng bộ nhớ sử dụng",
+      "Tốc độ CPU",
+      "Kích thước của tệp tin kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 70 (Chương 1): Ngôn ngữ lập trình ảnh hưởng thế nào đến cấu trúc dữ liệu?",
+    "options": [
+      "Quy định cách biểu diễn và thao tác trên dữ liệu",
+      "Không có ảnh hưởng nào",
+      "Chỉ quyết định tốc độ biên dịch",
+      "Chỉ quyết định giao diện"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 71 (Chương 1): Cấu trúc dữ liệu tuyến tính là gì?",
+    "options": [
+      "Là cấu trúc trong đó các phần tử được sắp xếp theo một thứ tự tuần tự",
+      "Là cấu trúc không có quan hệ giữa các phần tử",
+      "Là cấu trúc cây",
+      "Là đồ thị có hướng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 72 (Chương 1): Thuật toán được xem là hiệu quả khi nào?",
+    "options": [
+      "Thời gian và bộ nhớ sử dụng là tối ưu so với các phương án khác",
+      "Càng dài càng tốt",
+      "Có nhiều vòng lặp lồng nhau",
+      "Không có chú thích trong mã nguồn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 73 (Chương 1): Cấu trúc dữ liệu tuyến tính là gì?",
+    "options": [
+      "Là cấu trúc trong đó các phần tử được sắp xếp theo một thứ tự tuần tự",
+      "Là cấu trúc không có quan hệ giữa các phần tử",
+      "Là cấu trúc cây",
+      "Là đồ thị có hướng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 74 (Chương 1): Độ phức tạp thời gian của thuật toán thể hiện điều gì?",
+    "options": [
+      "Số lượng thao tác cần thực hiện để hoàn thành thuật toán",
+      "Dung lượng bộ nhớ sử dụng",
+      "Tốc độ CPU",
+      "Kích thước của tệp tin kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 75 (Chương 1): Thuật toán được xem là hiệu quả khi nào?",
+    "options": [
+      "Thời gian và bộ nhớ sử dụng là tối ưu so với các phương án khác",
+      "Càng dài càng tốt",
+      "Có nhiều vòng lặp lồng nhau",
+      "Không có chú thích trong mã nguồn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 76 (Chương 1): Độ phức tạp không gian (space complexity) đo lường điều gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để thực hiện thuật toán",
+      "Thời gian xử lý thuật toán",
+      "Số dòng mã nguồn",
+      "Kích thước của file kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 77 (Chương 1): Mục tiêu của việc sử dụng cấu trúc dữ liệu phù hợp là gì?",
+    "options": [
+      "Tăng hiệu suất xử lý và giảm tài nguyên sử dụng",
+      "Làm chương trình phức tạp hơn",
+      "Tăng độ dài mã nguồn",
+      "Giảm khả năng tái sử dụng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 78 (Chương 1): Mục tiêu của việc sử dụng cấu trúc dữ liệu phù hợp là gì?",
+    "options": [
+      "Tăng hiệu suất xử lý và giảm tài nguyên sử dụng",
+      "Làm chương trình phức tạp hơn",
+      "Tăng độ dài mã nguồn",
+      "Giảm khả năng tái sử dụng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 79 (Chương 1): Cấu trúc dữ liệu tuyến tính là gì?",
+    "options": [
+      "Là cấu trúc trong đó các phần tử được sắp xếp theo một thứ tự tuần tự",
+      "Là cấu trúc không có quan hệ giữa các phần tử",
+      "Là cấu trúc cây",
+      "Là đồ thị có hướng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 80 (Chương 1): Giải thuật (thuật toán) là gì?",
+    "options": [
+      "Tập hợp các bước xử lý nhằm giải quyết một bài toán cụ thể",
+      "Một chương trình phần mềm",
+      "Một cấu trúc dữ liệu",
+      "Một loại biến trong lập trình"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 81 (Chương 1): Tiêu chí nào sau đây KHÔNG phải là yếu tố đánh giá thuật toán?",
+    "options": [
+      "Màu sắc giao diện",
+      "Độ đúng đắn",
+      "Độ phức tạp thời gian",
+      "Độ phức tạp không gian"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 82 (Chương 1): Cấu trúc dữ liệu là gì?",
+    "options": [
+      "Cách tổ chức và lưu trữ dữ liệu để có thể sử dụng hiệu quả",
+      "Một thuật toán sắp xếp dữ liệu",
+      "Một ngôn ngữ lập trình",
+      "Một hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 83 (Chương 1): Cấu trúc dữ liệu là gì?",
+    "options": [
+      "Cách tổ chức và lưu trữ dữ liệu để có thể sử dụng hiệu quả",
+      "Một thuật toán sắp xếp dữ liệu",
+      "Một ngôn ngữ lập trình",
+      "Một hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 84 (Chương 1): Tiêu chí nào sau đây KHÔNG phải là yếu tố đánh giá thuật toán?",
+    "options": [
+      "Màu sắc giao diện",
+      "Độ đúng đắn",
+      "Độ phức tạp thời gian",
+      "Độ phức tạp không gian"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 85 (Chương 1): Độ phức tạp thời gian của thuật toán thể hiện điều gì?",
+    "options": [
+      "Số lượng thao tác cần thực hiện để hoàn thành thuật toán",
+      "Dung lượng bộ nhớ sử dụng",
+      "Tốc độ CPU",
+      "Kích thước của tệp tin kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 86 (Chương 1): Thuật toán được xem là hiệu quả khi nào?",
+    "options": [
+      "Thời gian và bộ nhớ sử dụng là tối ưu so với các phương án khác",
+      "Càng dài càng tốt",
+      "Có nhiều vòng lặp lồng nhau",
+      "Không có chú thích trong mã nguồn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 87 (Chương 1): Độ phức tạp không gian (space complexity) đo lường điều gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để thực hiện thuật toán",
+      "Thời gian xử lý thuật toán",
+      "Số dòng mã nguồn",
+      "Kích thước của file kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 88 (Chương 1): Mục tiêu của việc sử dụng cấu trúc dữ liệu phù hợp là gì?",
+    "options": [
+      "Tăng hiệu suất xử lý và giảm tài nguyên sử dụng",
+      "Làm chương trình phức tạp hơn",
+      "Tăng độ dài mã nguồn",
+      "Giảm khả năng tái sử dụng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 89 (Chương 1): Thuật toán được xem là hiệu quả khi nào?",
+    "options": [
+      "Thời gian và bộ nhớ sử dụng là tối ưu so với các phương án khác",
+      "Càng dài càng tốt",
+      "Có nhiều vòng lặp lồng nhau",
+      "Không có chú thích trong mã nguồn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 90 (Chương 1): Tiêu chí nào sau đây KHÔNG phải là yếu tố đánh giá thuật toán?",
+    "options": [
+      "Màu sắc giao diện",
+      "Độ đúng đắn",
+      "Độ phức tạp thời gian",
+      "Độ phức tạp không gian"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 91 (Chương 1): Mục tiêu của việc sử dụng cấu trúc dữ liệu phù hợp là gì?",
+    "options": [
+      "Tăng hiệu suất xử lý và giảm tài nguyên sử dụng",
+      "Làm chương trình phức tạp hơn",
+      "Tăng độ dài mã nguồn",
+      "Giảm khả năng tái sử dụng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 92 (Chương 1): Ví dụ nào sau đây là cấu trúc dữ liệu phi tuyến tính?",
+    "options": [
+      "Cây (Tree)",
+      "Danh sách liên kết",
+      "Ngăn xếp",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 93 (Chương 1): Độ phức tạp không gian (space complexity) đo lường điều gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để thực hiện thuật toán",
+      "Thời gian xử lý thuật toán",
+      "Số dòng mã nguồn",
+      "Kích thước của file kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 94 (Chương 1): Mục tiêu của việc sử dụng cấu trúc dữ liệu phù hợp là gì?",
+    "options": [
+      "Tăng hiệu suất xử lý và giảm tài nguyên sử dụng",
+      "Làm chương trình phức tạp hơn",
+      "Tăng độ dài mã nguồn",
+      "Giảm khả năng tái sử dụng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 95 (Chương 1): Cấu trúc dữ liệu tuyến tính là gì?",
+    "options": [
+      "Là cấu trúc trong đó các phần tử được sắp xếp theo một thứ tự tuần tự",
+      "Là cấu trúc không có quan hệ giữa các phần tử",
+      "Là cấu trúc cây",
+      "Là đồ thị có hướng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 96 (Chương 1): Ví dụ nào sau đây là cấu trúc dữ liệu phi tuyến tính?",
+    "options": [
+      "Cây (Tree)",
+      "Danh sách liên kết",
+      "Ngăn xếp",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 97 (Chương 1): Ngôn ngữ lập trình ảnh hưởng thế nào đến cấu trúc dữ liệu?",
+    "options": [
+      "Quy định cách biểu diễn và thao tác trên dữ liệu",
+      "Không có ảnh hưởng nào",
+      "Chỉ quyết định tốc độ biên dịch",
+      "Chỉ quyết định giao diện"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 98 (Chương 1): Độ phức tạp thời gian của thuật toán thể hiện điều gì?",
+    "options": [
+      "Số lượng thao tác cần thực hiện để hoàn thành thuật toán",
+      "Dung lượng bộ nhớ sử dụng",
+      "Tốc độ CPU",
+      "Kích thước của tệp tin kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 99 (Chương 1): Cấu trúc dữ liệu tuyến tính là gì?",
+    "options": [
+      "Là cấu trúc trong đó các phần tử được sắp xếp theo một thứ tự tuần tự",
+      "Là cấu trúc không có quan hệ giữa các phần tử",
+      "Là cấu trúc cây",
+      "Là đồ thị có hướng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "question": "Câu 100 (Chương 1): Ví dụ nào sau đây là cấu trúc dữ liệu phi tuyến tính?",
+    "options": [
+      "Cây (Tree)",
+      "Danh sách liên kết",
+      "Ngăn xếp",
+      "Mảng"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật"
+  }
+]

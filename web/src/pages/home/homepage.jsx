@@ -1,36 +1,45 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import jwt_decode from "jwt-decode";
-
+import api from "../../api/checktoken";
 import "./Homepage.css";
 
 function Homepage() {
   const [user, setUser] = useState(null);
   const [chudes, setChudes] = useState([]);
-  const [room, setRoom] = useState(null); // phòng vừa tạo
+  const [, setRoom] = useState(null); // phòng vừa tạo
   const navigate = useNavigate();
 
   useEffect(() => {
     // Kiểm tra token user
-    const token = localStorage.getItem("token");
+   const token = localStorage.getItem("token");
     if (token) {
       try {
         const decoded = jwt_decode(token);
-        setUser(decoded);
+        const now = Date.now() / 1000; // thời gian hiện tại tính bằng giây
+        if (decoded.exp < now) {
+          console.log("Token đã hết hạn, đăng xuất...");
+          localStorage.removeItem("token");
+          navigate("/login");
+        } else {
+          setUser(decoded);
+        }
       } catch {
         localStorage.removeItem("token");
       }
     }
 
     // Lấy danh sách chủ đề từ backend
-    axios.get("http://localhost:5000/api/chude")
-      .then(res => setChudes(res.data))
+    api.get("/chude")
+        .then(res => {
+        console.log("Dữ liệu chủ đề nhận từ backend:", res.data);
+        setChudes(res.data);
+      })
       .catch(err => {
         console.error("Lỗi lấy chủ đề:", err);
         setChudes([]);
       });
-  }, []);
+  }, [navigate]);
 
   const handleStartQuiz = async (chude) => {
     if (!user) {
@@ -41,7 +50,7 @@ function Homepage() {
 
     try {
       // 1️⃣ Tạo phòng mới với chủ đề
-      const roomRes = await axios.post("http://localhost:5000/api/room", {
+      const roomRes = await api.post("/quizzes", {
         id_host: user._id,
         id_chude: chude._id,
         tenroom: `Phòng - ${chude.tenchude}`
@@ -51,7 +60,7 @@ function Homepage() {
       console.log("Phòng mới:", newRoom);
 
       // 2️⃣ Lấy câu hỏi của chủ đề
-      const questionRes = await axios.get(`http://localhost:5000/api/ketqua/${chude._id}`);
+      const questionRes = await api.get(`/cauhoi/${chude._id}`);
       const cauhoi = questionRes.data;
       console.log(`Câu hỏi của chủ đề ${chude.tenchude}:`, cauhoi);
 
@@ -95,7 +104,7 @@ function Homepage() {
 
       <section className="quiz-list">
         <h2 className="section-title">
-          <span className="section-icon">🚀</span> Danh sách chủ đề
+          <span className="section-icon"></span> Danh sách chủ đề
         </h2>
 
         <div className="quiz-grid">

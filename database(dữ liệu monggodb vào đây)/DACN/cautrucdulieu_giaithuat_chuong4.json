@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 4): Độ phức tạp thời gian trung bình của Bubble Sort là gì?",
+    "options": [
+      "O(n²)",
+      "O(log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 2 (Chương 4): Thuật toán sắp xếp chọn (Selection Sort) hoạt động như thế nào?",
+    "options": [
+      "Chọn phần tử nhỏ nhất và đưa về đầu danh sách",
+      "Chọn phần tử lớn nhất và loại bỏ",
+      "Chèn phần tử vào giữa danh sách",
+      "Đảo ngược thứ tự danh sách"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 3 (Chương 4): Thuật toán sắp xếp chọn (Selection Sort) hoạt động như thế nào?",
+    "options": [
+      "Chọn phần tử nhỏ nhất và đưa về đầu danh sách",
+      "Chọn phần tử lớn nhất và loại bỏ",
+      "Chèn phần tử vào giữa danh sách",
+      "Đảo ngược thứ tự danh sách"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 4 (Chương 4): Thuật toán sắp xếp nhanh (Quick Sort) dựa trên nguyên lý gì?",
+    "options": [
+      "Chia để trị (Divide and Conquer)",
+      "So sánh tuần tự",
+      "Ghép cặp phần tử",
+      "Tìm kiếm tuyến tính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 5 (Chương 4): Thuật toán sắp xếp trộn (Merge Sort) có độ phức tạp thời gian là gì?",
+    "options": [
+      "O(n log n)",
+      "O(n²)",
+      "O(log n)",
+      "O(n)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 6 (Chương 4): Thuật toán tìm kiếm nhị phân (Binary Search) yêu cầu dữ liệu như thế nào?",
+    "options": [
+      "Phải được sắp xếp trước",
+      "Không cần sắp xếp",
+      "Phải là số nguyên",
+      "Phải là mảng hai chiều"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 7 (Chương 4): Thuật toán sắp xếp chọn (Selection Sort) hoạt động như thế nào?",
+    "options": [
+      "Chọn phần tử nhỏ nhất và đưa về đầu danh sách",
+      "Chọn phần tử lớn nhất và loại bỏ",
+      "Chèn phần tử vào giữa danh sách",
+      "Đảo ngược thứ tự danh sách"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 8 (Chương 4): Độ phức tạp trung bình của thuật toán tìm kiếm nhị phân là gì?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 9 (Chương 4): Thuật toán tìm kiếm tuần tự (Linear Search) có độ phức tạp thời gian là gì?",
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 10 (Chương 4): Thuật toán sắp xếp nổi bọt (Bubble Sort) có đặc điểm nào?",
+    "options": [
+      "So sánh và hoán đổi các phần tử kề nhau qua nhiều vòng lặp",
+      "Chia danh sách thành hai phần nhỏ",
+      "Sử dụng cấu trúc cây nhị phân",
+      "Không cần so sánh phần tử"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 11 (Chương 4): Thuật toán tìm kiếm nhị phân không thể áp dụng cho cấu trúc dữ liệu nào?",
+    "options": [
+      "Danh sách liên kết chưa sắp xếp",
+      "Mảng tĩnh đã sắp xếp",
+      "Cây nhị phân tìm kiếm",
+      "Mảng số nguyên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 12 (Chương 4): Thuật toán sắp xếp nổi bọt (Bubble Sort) có đặc điểm nào?",
+    "options": [
+      "So sánh và hoán đổi các phần tử kề nhau qua nhiều vòng lặp",
+      "Chia danh sách thành hai phần nhỏ",
+      "Sử dụng cấu trúc cây nhị phân",
+      "Không cần so sánh phần tử"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 13 (Chương 4): Thuật toán tìm kiếm tuần tự (Linear Search) có độ phức tạp thời gian là gì?",
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 14 (Chương 4): Thuật toán tìm kiếm tuần tự (Linear Search) có độ phức tạp thời gian là gì?",
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 15 (Chương 4): Độ phức tạp thời gian trung bình của Bubble Sort là gì?",
+    "options": [
+      "O(n²)",
+      "O(log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 16 (Chương 4): Độ phức tạp thời gian trung bình của Bubble Sort là gì?",
+    "options": [
+      "O(n²)",
+      "O(log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 17 (Chương 4): Thuật toán tìm kiếm nhị phân (Binary Search) yêu cầu dữ liệu như thế nào?",
+    "options": [
+      "Phải được sắp xếp trước",
+      "Không cần sắp xếp",
+      "Phải là số nguyên",
+      "Phải là mảng hai chiều"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 18 (Chương 4): Thuật toán sắp xếp chọn (Selection Sort) hoạt động như thế nào?",
+    "options": [
+      "Chọn phần tử nhỏ nhất và đưa về đầu danh sách",
+      "Chọn phần tử lớn nhất và loại bỏ",
+      "Chèn phần tử vào giữa danh sách",
+      "Đảo ngược thứ tự danh sách"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 19 (Chương 4): Thuật toán Heap Sort sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Heap (đống)",
+      "Cây AVL",
+      "Ngăn xếp",
+      "Hàng đợi"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 20 (Chương 4): Thuật toán tìm kiếm nhị phân (Binary Search) yêu cầu dữ liệu như thế nào?",
+    "options": [
+      "Phải được sắp xếp trước",
+      "Không cần sắp xếp",
+      "Phải là số nguyên",
+      "Phải là mảng hai chiều"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 21 (Chương 4): Thuật toán sắp xếp nhanh (Quick Sort) dựa trên nguyên lý gì?",
+    "options": [
+      "Chia để trị (Divide and Conquer)",
+      "So sánh tuần tự",
+      "Ghép cặp phần tử",
+      "Tìm kiếm tuyến tính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 22 (Chương 4): Thuật toán sắp xếp nổi bọt (Bubble Sort) có đặc điểm nào?",
+    "options": [
+      "So sánh và hoán đổi các phần tử kề nhau qua nhiều vòng lặp",
+      "Chia danh sách thành hai phần nhỏ",
+      "Sử dụng cấu trúc cây nhị phân",
+      "Không cần so sánh phần tử"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 23 (Chương 4): Thuật toán tìm kiếm nhị phân (Binary Search) yêu cầu dữ liệu như thế nào?",
+    "options": [
+      "Phải được sắp xếp trước",
+      "Không cần sắp xếp",
+      "Phải là số nguyên",
+      "Phải là mảng hai chiều"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 24 (Chương 4): Thuật toán Heap Sort sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Heap (đống)",
+      "Cây AVL",
+      "Ngăn xếp",
+      "Hàng đợi"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 25 (Chương 4): Thuật toán Heap Sort sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Heap (đống)",
+      "Cây AVL",
+      "Ngăn xếp",
+      "Hàng đợi"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 26 (Chương 4): Thuật toán Heap Sort sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Heap (đống)",
+      "Cây AVL",
+      "Ngăn xếp",
+      "Hàng đợi"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 27 (Chương 4): Thuật toán sắp xếp nổi bọt (Bubble Sort) có đặc điểm nào?",
+    "options": [
+      "So sánh và hoán đổi các phần tử kề nhau qua nhiều vòng lặp",
+      "Chia danh sách thành hai phần nhỏ",
+      "Sử dụng cấu trúc cây nhị phân",
+      "Không cần so sánh phần tử"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 28 (Chương 4): Thuật toán tìm kiếm tuần tự (Linear Search) có độ phức tạp thời gian là gì?",
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 29 (Chương 4): Thuật toán sắp xếp nổi bọt (Bubble Sort) có đặc điểm nào?",
+    "options": [
+      "So sánh và hoán đổi các phần tử kề nhau qua nhiều vòng lặp",
+      "Chia danh sách thành hai phần nhỏ",
+      "Sử dụng cấu trúc cây nhị phân",
+      "Không cần so sánh phần tử"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 30 (Chương 4): Thuật toán tìm kiếm tuần tự (Linear Search) có độ phức tạp thời gian là gì?",
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 31 (Chương 4): Thuật toán sắp xếp nhanh (Quick Sort) dựa trên nguyên lý gì?",
+    "options": [
+      "Chia để trị (Divide and Conquer)",
+      "So sánh tuần tự",
+      "Ghép cặp phần tử",
+      "Tìm kiếm tuyến tính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 32 (Chương 4): Thuật toán tìm kiếm nhị phân (Binary Search) yêu cầu dữ liệu như thế nào?",
+    "options": [
+      "Phải được sắp xếp trước",
+      "Không cần sắp xếp",
+      "Phải là số nguyên",
+      "Phải là mảng hai chiều"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 33 (Chương 4): Thuật toán sắp xếp nhanh (Quick Sort) dựa trên nguyên lý gì?",
+    "options": [
+      "Chia để trị (Divide and Conquer)",
+      "So sánh tuần tự",
+      "Ghép cặp phần tử",
+      "Tìm kiếm tuyến tính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 34 (Chương 4): Thuật toán sắp xếp nổi bọt (Bubble Sort) có đặc điểm nào?",
+    "options": [
+      "So sánh và hoán đổi các phần tử kề nhau qua nhiều vòng lặp",
+      "Chia danh sách thành hai phần nhỏ",
+      "Sử dụng cấu trúc cây nhị phân",
+      "Không cần so sánh phần tử"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 35 (Chương 4): Độ phức tạp thời gian trung bình của Bubble Sort là gì?",
+    "options": [
+      "O(n²)",
+      "O(log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 36 (Chương 4): Thuật toán tìm kiếm tuần tự (Linear Search) có độ phức tạp thời gian là gì?",
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 37 (Chương 4): Thuật toán tìm kiếm nhị phân không thể áp dụng cho cấu trúc dữ liệu nào?",
+    "options": [
+      "Danh sách liên kết chưa sắp xếp",
+      "Mảng tĩnh đã sắp xếp",
+      "Cây nhị phân tìm kiếm",
+      "Mảng số nguyên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 38 (Chương 4): Thuật toán tìm kiếm nhị phân không thể áp dụng cho cấu trúc dữ liệu nào?",
+    "options": [
+      "Danh sách liên kết chưa sắp xếp",
+      "Mảng tĩnh đã sắp xếp",
+      "Cây nhị phân tìm kiếm",
+      "Mảng số nguyên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 39 (Chương 4): Thuật toán tìm kiếm tuần tự (Linear Search) có độ phức tạp thời gian là gì?",
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 40 (Chương 4): Thuật toán sắp xếp chọn (Selection Sort) hoạt động như thế nào?",
+    "options": [
+      "Chọn phần tử nhỏ nhất và đưa về đầu danh sách",
+      "Chọn phần tử lớn nhất và loại bỏ",
+      "Chèn phần tử vào giữa danh sách",
+      "Đảo ngược thứ tự danh sách"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 41 (Chương 4): Thuật toán sắp xếp chọn (Selection Sort) hoạt động như thế nào?",
+    "options": [
+      "Chọn phần tử nhỏ nhất và đưa về đầu danh sách",
+      "Chọn phần tử lớn nhất và loại bỏ",
+      "Chèn phần tử vào giữa danh sách",
+      "Đảo ngược thứ tự danh sách"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 42 (Chương 4): Độ phức tạp trung bình của thuật toán tìm kiếm nhị phân là gì?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 43 (Chương 4): Thuật toán Heap Sort sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Heap (đống)",
+      "Cây AVL",
+      "Ngăn xếp",
+      "Hàng đợi"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 44 (Chương 4): Độ phức tạp trung bình của thuật toán tìm kiếm nhị phân là gì?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 45 (Chương 4): Thuật toán sắp xếp nhanh (Quick Sort) dựa trên nguyên lý gì?",
+    "options": [
+      "Chia để trị (Divide and Conquer)",
+      "So sánh tuần tự",
+      "Ghép cặp phần tử",
+      "Tìm kiếm tuyến tính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 46 (Chương 4): Thuật toán sắp xếp trộn (Merge Sort) có độ phức tạp thời gian là gì?",
+    "options": [
+      "O(n log n)",
+      "O(n²)",
+      "O(log n)",
+      "O(n)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 47 (Chương 4): Độ phức tạp trung bình của thuật toán tìm kiếm nhị phân là gì?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 48 (Chương 4): Thuật toán sắp xếp trộn (Merge Sort) có độ phức tạp thời gian là gì?",
+    "options": [
+      "O(n log n)",
+      "O(n²)",
+      "O(log n)",
+      "O(n)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 49 (Chương 4): Thuật toán sắp xếp chọn (Selection Sort) hoạt động như thế nào?",
+    "options": [
+      "Chọn phần tử nhỏ nhất và đưa về đầu danh sách",
+      "Chọn phần tử lớn nhất và loại bỏ",
+      "Chèn phần tử vào giữa danh sách",
+      "Đảo ngược thứ tự danh sách"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 50 (Chương 4): Thuật toán tìm kiếm nhị phân không thể áp dụng cho cấu trúc dữ liệu nào?",
+    "options": [
+      "Danh sách liên kết chưa sắp xếp",
+      "Mảng tĩnh đã sắp xếp",
+      "Cây nhị phân tìm kiếm",
+      "Mảng số nguyên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 51 (Chương 4): Thuật toán tìm kiếm nhị phân không thể áp dụng cho cấu trúc dữ liệu nào?",
+    "options": [
+      "Danh sách liên kết chưa sắp xếp",
+      "Mảng tĩnh đã sắp xếp",
+      "Cây nhị phân tìm kiếm",
+      "Mảng số nguyên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 52 (Chương 4): Thuật toán tìm kiếm tuần tự (Linear Search) có độ phức tạp thời gian là gì?",
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 53 (Chương 4): Thuật toán tìm kiếm tuần tự (Linear Search) có độ phức tạp thời gian là gì?",
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 54 (Chương 4): Thuật toán sắp xếp trộn (Merge Sort) có độ phức tạp thời gian là gì?",
+    "options": [
+      "O(n log n)",
+      "O(n²)",
+      "O(log n)",
+      "O(n)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 55 (Chương 4): Độ phức tạp trung bình của thuật toán tìm kiếm nhị phân là gì?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 56 (Chương 4): Thuật toán sắp xếp chọn (Selection Sort) hoạt động như thế nào?",
+    "options": [
+      "Chọn phần tử nhỏ nhất và đưa về đầu danh sách",
+      "Chọn phần tử lớn nhất và loại bỏ",
+      "Chèn phần tử vào giữa danh sách",
+      "Đảo ngược thứ tự danh sách"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 57 (Chương 4): Thuật toán Heap Sort sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Heap (đống)",
+      "Cây AVL",
+      "Ngăn xếp",
+      "Hàng đợi"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 58 (Chương 4): Thuật toán sắp xếp nhanh (Quick Sort) dựa trên nguyên lý gì?",
+    "options": [
+      "Chia để trị (Divide and Conquer)",
+      "So sánh tuần tự",
+      "Ghép cặp phần tử",
+      "Tìm kiếm tuyến tính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 59 (Chương 4): Thuật toán Heap Sort sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Heap (đống)",
+      "Cây AVL",
+      "Ngăn xếp",
+      "Hàng đợi"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 60 (Chương 4): Thuật toán sắp xếp trộn (Merge Sort) có độ phức tạp thời gian là gì?",
+    "options": [
+      "O(n log n)",
+      "O(n²)",
+      "O(log n)",
+      "O(n)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 61 (Chương 4): Thuật toán sắp xếp trộn (Merge Sort) có độ phức tạp thời gian là gì?",
+    "options": [
+      "O(n log n)",
+      "O(n²)",
+      "O(log n)",
+      "O(n)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 62 (Chương 4): Độ phức tạp thời gian trung bình của Bubble Sort là gì?",
+    "options": [
+      "O(n²)",
+      "O(log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 63 (Chương 4): Độ phức tạp thời gian trung bình của Bubble Sort là gì?",
+    "options": [
+      "O(n²)",
+      "O(log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 64 (Chương 4): Độ phức tạp trung bình của thuật toán tìm kiếm nhị phân là gì?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 65 (Chương 4): Độ phức tạp trung bình của thuật toán tìm kiếm nhị phân là gì?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 66 (Chương 4): Độ phức tạp thời gian trung bình của Bubble Sort là gì?",
+    "options": [
+      "O(n²)",
+      "O(log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 67 (Chương 4): Độ phức tạp thời gian trung bình của Bubble Sort là gì?",
+    "options": [
+      "O(n²)",
+      "O(log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 68 (Chương 4): Thuật toán sắp xếp nhanh (Quick Sort) dựa trên nguyên lý gì?",
+    "options": [
+      "Chia để trị (Divide and Conquer)",
+      "So sánh tuần tự",
+      "Ghép cặp phần tử",
+      "Tìm kiếm tuyến tính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 69 (Chương 4): Thuật toán sắp xếp nhanh (Quick Sort) dựa trên nguyên lý gì?",
+    "options": [
+      "Chia để trị (Divide and Conquer)",
+      "So sánh tuần tự",
+      "Ghép cặp phần tử",
+      "Tìm kiếm tuyến tính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 70 (Chương 4): Thuật toán tìm kiếm nhị phân (Binary Search) yêu cầu dữ liệu như thế nào?",
+    "options": [
+      "Phải được sắp xếp trước",
+      "Không cần sắp xếp",
+      "Phải là số nguyên",
+      "Phải là mảng hai chiều"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 71 (Chương 4): Độ phức tạp trung bình của thuật toán tìm kiếm nhị phân là gì?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 72 (Chương 4): Thuật toán tìm kiếm nhị phân (Binary Search) yêu cầu dữ liệu như thế nào?",
+    "options": [
+      "Phải được sắp xếp trước",
+      "Không cần sắp xếp",
+      "Phải là số nguyên",
+      "Phải là mảng hai chiều"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 73 (Chương 4): Thuật toán sắp xếp chọn (Selection Sort) hoạt động như thế nào?",
+    "options": [
+      "Chọn phần tử nhỏ nhất và đưa về đầu danh sách",
+      "Chọn phần tử lớn nhất và loại bỏ",
+      "Chèn phần tử vào giữa danh sách",
+      "Đảo ngược thứ tự danh sách"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 74 (Chương 4): Độ phức tạp thời gian trung bình của Bubble Sort là gì?",
+    "options": [
+      "O(n²)",
+      "O(log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 75 (Chương 4): Thuật toán sắp xếp nổi bọt (Bubble Sort) có đặc điểm nào?",
+    "options": [
+      "So sánh và hoán đổi các phần tử kề nhau qua nhiều vòng lặp",
+      "Chia danh sách thành hai phần nhỏ",
+      "Sử dụng cấu trúc cây nhị phân",
+      "Không cần so sánh phần tử"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 76 (Chương 4): Độ phức tạp trung bình của thuật toán tìm kiếm nhị phân là gì?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 77 (Chương 4): Thuật toán tìm kiếm tuần tự (Linear Search) có độ phức tạp thời gian là gì?",
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 78 (Chương 4): Thuật toán Heap Sort sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Heap (đống)",
+      "Cây AVL",
+      "Ngăn xếp",
+      "Hàng đợi"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 79 (Chương 4): Độ phức tạp thời gian trung bình của Bubble Sort là gì?",
+    "options": [
+      "O(n²)",
+      "O(log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 80 (Chương 4): Độ phức tạp trung bình của thuật toán tìm kiếm nhị phân là gì?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 81 (Chương 4): Thuật toán sắp xếp trộn (Merge Sort) có độ phức tạp thời gian là gì?",
+    "options": [
+      "O(n log n)",
+      "O(n²)",
+      "O(log n)",
+      "O(n)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 82 (Chương 4): Thuật toán tìm kiếm nhị phân không thể áp dụng cho cấu trúc dữ liệu nào?",
+    "options": [
+      "Danh sách liên kết chưa sắp xếp",
+      "Mảng tĩnh đã sắp xếp",
+      "Cây nhị phân tìm kiếm",
+      "Mảng số nguyên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 83 (Chương 4): Thuật toán sắp xếp chọn (Selection Sort) hoạt động như thế nào?",
+    "options": [
+      "Chọn phần tử nhỏ nhất và đưa về đầu danh sách",
+      "Chọn phần tử lớn nhất và loại bỏ",
+      "Chèn phần tử vào giữa danh sách",
+      "Đảo ngược thứ tự danh sách"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 84 (Chương 4): Thuật toán sắp xếp nhanh (Quick Sort) dựa trên nguyên lý gì?",
+    "options": [
+      "Chia để trị (Divide and Conquer)",
+      "So sánh tuần tự",
+      "Ghép cặp phần tử",
+      "Tìm kiếm tuyến tính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 85 (Chương 4): Thuật toán sắp xếp nổi bọt (Bubble Sort) có đặc điểm nào?",
+    "options": [
+      "So sánh và hoán đổi các phần tử kề nhau qua nhiều vòng lặp",
+      "Chia danh sách thành hai phần nhỏ",
+      "Sử dụng cấu trúc cây nhị phân",
+      "Không cần so sánh phần tử"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 86 (Chương 4): Thuật toán tìm kiếm nhị phân không thể áp dụng cho cấu trúc dữ liệu nào?",
+    "options": [
+      "Danh sách liên kết chưa sắp xếp",
+      "Mảng tĩnh đã sắp xếp",
+      "Cây nhị phân tìm kiếm",
+      "Mảng số nguyên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 87 (Chương 4): Thuật toán tìm kiếm tuần tự (Linear Search) có độ phức tạp thời gian là gì?",
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 88 (Chương 4): Thuật toán tìm kiếm nhị phân không thể áp dụng cho cấu trúc dữ liệu nào?",
+    "options": [
+      "Danh sách liên kết chưa sắp xếp",
+      "Mảng tĩnh đã sắp xếp",
+      "Cây nhị phân tìm kiếm",
+      "Mảng số nguyên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 89 (Chương 4): Độ phức tạp thời gian trung bình của Bubble Sort là gì?",
+    "options": [
+      "O(n²)",
+      "O(log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 90 (Chương 4): Độ phức tạp trung bình của thuật toán tìm kiếm nhị phân là gì?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 91 (Chương 4): Thuật toán sắp xếp trộn (Merge Sort) có độ phức tạp thời gian là gì?",
+    "options": [
+      "O(n log n)",
+      "O(n²)",
+      "O(log n)",
+      "O(n)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 92 (Chương 4): Độ phức tạp trung bình của thuật toán tìm kiếm nhị phân là gì?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 93 (Chương 4): Độ phức tạp thời gian trung bình của Bubble Sort là gì?",
+    "options": [
+      "O(n²)",
+      "O(log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 94 (Chương 4): Thuật toán Heap Sort sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Heap (đống)",
+      "Cây AVL",
+      "Ngăn xếp",
+      "Hàng đợi"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 95 (Chương 4): Thuật toán sắp xếp chọn (Selection Sort) hoạt động như thế nào?",
+    "options": [
+      "Chọn phần tử nhỏ nhất và đưa về đầu danh sách",
+      "Chọn phần tử lớn nhất và loại bỏ",
+      "Chèn phần tử vào giữa danh sách",
+      "Đảo ngược thứ tự danh sách"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 96 (Chương 4): Thuật toán tìm kiếm tuần tự (Linear Search) có độ phức tạp thời gian là gì?",
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 97 (Chương 4): Thuật toán tìm kiếm nhị phân không thể áp dụng cho cấu trúc dữ liệu nào?",
+    "options": [
+      "Danh sách liên kết chưa sắp xếp",
+      "Mảng tĩnh đã sắp xếp",
+      "Cây nhị phân tìm kiếm",
+      "Mảng số nguyên"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 98 (Chương 4): Độ phức tạp thời gian trung bình của Bubble Sort là gì?",
+    "options": [
+      "O(n²)",
+      "O(log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 99 (Chương 4): Độ phức tạp trung bình của thuật toán tìm kiếm nhị phân là gì?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  },
+  {
+    "question": "Câu 100 (Chương 4): Thuật toán Heap Sort sử dụng cấu trúc dữ liệu nào?",
+    "options": [
+      "Heap (đống)",
+      "Cây AVL",
+      "Ngăn xếp",
+      "Hàng đợi"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp"
+  }
+]

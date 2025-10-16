@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 5): Phân tích rủi ro bao gồm các bước nào?",
+    "options": [
+      "Xác định tài sản, mối đe dọa, lỗ hổng và đánh giá tác động",
+      "Chỉ xác định lỗ hổng",
+      "Cập nhật phần mềm",
+      "Cài lại hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 2 (Chương 5): Tại sao kiểm thử kế hoạch DRP lại quan trọng?",
+    "options": [
+      "Đảm bảo kế hoạch có thể thực hiện hiệu quả khi xảy ra sự cố thật",
+      "Giúp tăng tốc độ mạng",
+      "Giảm chi phí đào tạo",
+      "Tối ưu hóa hiệu năng CPU"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 3 (Chương 5): Bước đầu tiên trong quản lý rủi ro là gì?",
+    "options": [
+      "Xác định tài sản thông tin cần bảo vệ",
+      "Cập nhật phần mềm",
+      "Thực hiện sao lưu",
+      "Đánh giá thiệt hại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 4 (Chương 5): Quản lý rủi ro trong an toàn thông tin là gì?",
+    "options": [
+      "Quá trình xác định, đánh giá và giảm thiểu rủi ro đối với tài sản thông tin",
+      "Sao lưu dữ liệu định kỳ",
+      "Tăng tốc độ mạng",
+      "Cập nhật hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 5 (Chương 5): RPO (Recovery Point Objective) là gì?",
+    "options": [
+      "Mức độ mất dữ liệu tối đa có thể chấp nhận được khi xảy ra sự cố",
+      "Thời gian cần thiết để khôi phục hệ thống",
+      "Tốc độ sao lưu dữ liệu",
+      "Dung lượng ổ đĩa cần thiết"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 6 (Chương 5): Mục tiêu chính của kế hoạch khôi phục sau thảm họa (DRP) là gì?",
+    "options": [
+      "Khôi phục hoạt động hệ thống và dữ liệu sau sự cố",
+      "Ngăn chặn tất cả tấn công mạng",
+      "Giảm chi phí vận hành",
+      "Bảo vệ mật khẩu người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 7 (Chương 5): ISO/IEC 27001 là tiêu chuẩn gì?",
+    "options": [
+      "Hệ thống quản lý an toàn thông tin (ISMS)",
+      "Tiêu chuẩn mạng LAN",
+      "Tiêu chuẩn phần cứng",
+      "Tiêu chuẩn lập trình an toàn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 8 (Chương 5): ISO/IEC 27001 là tiêu chuẩn gì?",
+    "options": [
+      "Hệ thống quản lý an toàn thông tin (ISMS)",
+      "Tiêu chuẩn mạng LAN",
+      "Tiêu chuẩn phần cứng",
+      "Tiêu chuẩn lập trình an toàn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 9 (Chương 5): Quản lý rủi ro trong an toàn thông tin là gì?",
+    "options": [
+      "Quá trình xác định, đánh giá và giảm thiểu rủi ro đối với tài sản thông tin",
+      "Sao lưu dữ liệu định kỳ",
+      "Tăng tốc độ mạng",
+      "Cập nhật hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 10 (Chương 5): Tại sao kiểm thử kế hoạch DRP lại quan trọng?",
+    "options": [
+      "Đảm bảo kế hoạch có thể thực hiện hiệu quả khi xảy ra sự cố thật",
+      "Giúp tăng tốc độ mạng",
+      "Giảm chi phí đào tạo",
+      "Tối ưu hóa hiệu năng CPU"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 11 (Chương 5): Quản lý rủi ro trong an toàn thông tin là gì?",
+    "options": [
+      "Quá trình xác định, đánh giá và giảm thiểu rủi ro đối với tài sản thông tin",
+      "Sao lưu dữ liệu định kỳ",
+      "Tăng tốc độ mạng",
+      "Cập nhật hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 12 (Chương 5): Bước đầu tiên trong quản lý rủi ro là gì?",
+    "options": [
+      "Xác định tài sản thông tin cần bảo vệ",
+      "Cập nhật phần mềm",
+      "Thực hiện sao lưu",
+      "Đánh giá thiệt hại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 13 (Chương 5): RPO (Recovery Point Objective) là gì?",
+    "options": [
+      "Mức độ mất dữ liệu tối đa có thể chấp nhận được khi xảy ra sự cố",
+      "Thời gian cần thiết để khôi phục hệ thống",
+      "Tốc độ sao lưu dữ liệu",
+      "Dung lượng ổ đĩa cần thiết"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 14 (Chương 5): Bước đầu tiên trong quản lý rủi ro là gì?",
+    "options": [
+      "Xác định tài sản thông tin cần bảo vệ",
+      "Cập nhật phần mềm",
+      "Thực hiện sao lưu",
+      "Đánh giá thiệt hại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 15 (Chương 5): RPO (Recovery Point Objective) là gì?",
+    "options": [
+      "Mức độ mất dữ liệu tối đa có thể chấp nhận được khi xảy ra sự cố",
+      "Thời gian cần thiết để khôi phục hệ thống",
+      "Tốc độ sao lưu dữ liệu",
+      "Dung lượng ổ đĩa cần thiết"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 16 (Chương 5): Phân tích rủi ro bao gồm các bước nào?",
+    "options": [
+      "Xác định tài sản, mối đe dọa, lỗ hổng và đánh giá tác động",
+      "Chỉ xác định lỗ hổng",
+      "Cập nhật phần mềm",
+      "Cài lại hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 17 (Chương 5): Kế hoạch ứng phó sự cố (IRP) giúp tổ chức làm gì?",
+    "options": [
+      "Phát hiện, phản ứng và khắc phục sự cố bảo mật",
+      "Giám sát lưu lượng mạng",
+      "Cài đặt phần mềm diệt virus",
+      "Đào tạo nhân viên mới"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 18 (Chương 5): Một biện pháp giảm thiểu rủi ro hiệu quả là gì?",
+    "options": [
+      "Thực hiện sao lưu định kỳ và kiểm tra phục hồi dữ liệu",
+      "Giảm dung lượng lưu trữ",
+      "Mở tất cả cổng mạng",
+      "Tắt hệ thống bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 19 (Chương 5): Phân tích rủi ro bao gồm các bước nào?",
+    "options": [
+      "Xác định tài sản, mối đe dọa, lỗ hổng và đánh giá tác động",
+      "Chỉ xác định lỗ hổng",
+      "Cập nhật phần mềm",
+      "Cài lại hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 20 (Chương 5): Tại sao kiểm thử kế hoạch DRP lại quan trọng?",
+    "options": [
+      "Đảm bảo kế hoạch có thể thực hiện hiệu quả khi xảy ra sự cố thật",
+      "Giúp tăng tốc độ mạng",
+      "Giảm chi phí đào tạo",
+      "Tối ưu hóa hiệu năng CPU"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 21 (Chương 5): Tại sao kiểm thử kế hoạch DRP lại quan trọng?",
+    "options": [
+      "Đảm bảo kế hoạch có thể thực hiện hiệu quả khi xảy ra sự cố thật",
+      "Giúp tăng tốc độ mạng",
+      "Giảm chi phí đào tạo",
+      "Tối ưu hóa hiệu năng CPU"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 22 (Chương 5): Quản lý rủi ro trong an toàn thông tin là gì?",
+    "options": [
+      "Quá trình xác định, đánh giá và giảm thiểu rủi ro đối với tài sản thông tin",
+      "Sao lưu dữ liệu định kỳ",
+      "Tăng tốc độ mạng",
+      "Cập nhật hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 23 (Chương 5): RTO (Recovery Time Objective) biểu thị điều gì?",
+    "options": [
+      "Thời gian tối đa chấp nhận được để khôi phục hệ thống sau sự cố",
+      "Số lượng người dùng bị ảnh hưởng",
+      "Mức độ bảo mật dữ liệu",
+      "Chi phí đầu tư hệ thống"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 24 (Chương 5): Tại sao kiểm thử kế hoạch DRP lại quan trọng?",
+    "options": [
+      "Đảm bảo kế hoạch có thể thực hiện hiệu quả khi xảy ra sự cố thật",
+      "Giúp tăng tốc độ mạng",
+      "Giảm chi phí đào tạo",
+      "Tối ưu hóa hiệu năng CPU"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 25 (Chương 5): Kế hoạch ứng phó sự cố (IRP) giúp tổ chức làm gì?",
+    "options": [
+      "Phát hiện, phản ứng và khắc phục sự cố bảo mật",
+      "Giám sát lưu lượng mạng",
+      "Cài đặt phần mềm diệt virus",
+      "Đào tạo nhân viên mới"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 26 (Chương 5): ISO/IEC 27001 là tiêu chuẩn gì?",
+    "options": [
+      "Hệ thống quản lý an toàn thông tin (ISMS)",
+      "Tiêu chuẩn mạng LAN",
+      "Tiêu chuẩn phần cứng",
+      "Tiêu chuẩn lập trình an toàn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 27 (Chương 5): ISO/IEC 27001 là tiêu chuẩn gì?",
+    "options": [
+      "Hệ thống quản lý an toàn thông tin (ISMS)",
+      "Tiêu chuẩn mạng LAN",
+      "Tiêu chuẩn phần cứng",
+      "Tiêu chuẩn lập trình an toàn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 28 (Chương 5): Kế hoạch ứng phó sự cố (IRP) giúp tổ chức làm gì?",
+    "options": [
+      "Phát hiện, phản ứng và khắc phục sự cố bảo mật",
+      "Giám sát lưu lượng mạng",
+      "Cài đặt phần mềm diệt virus",
+      "Đào tạo nhân viên mới"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 29 (Chương 5): Tại sao kiểm thử kế hoạch DRP lại quan trọng?",
+    "options": [
+      "Đảm bảo kế hoạch có thể thực hiện hiệu quả khi xảy ra sự cố thật",
+      "Giúp tăng tốc độ mạng",
+      "Giảm chi phí đào tạo",
+      "Tối ưu hóa hiệu năng CPU"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 30 (Chương 5): Mục tiêu chính của kế hoạch khôi phục sau thảm họa (DRP) là gì?",
+    "options": [
+      "Khôi phục hoạt động hệ thống và dữ liệu sau sự cố",
+      "Ngăn chặn tất cả tấn công mạng",
+      "Giảm chi phí vận hành",
+      "Bảo vệ mật khẩu người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 31 (Chương 5): ISO/IEC 27001 là tiêu chuẩn gì?",
+    "options": [
+      "Hệ thống quản lý an toàn thông tin (ISMS)",
+      "Tiêu chuẩn mạng LAN",
+      "Tiêu chuẩn phần cứng",
+      "Tiêu chuẩn lập trình an toàn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 32 (Chương 5): Bước đầu tiên trong quản lý rủi ro là gì?",
+    "options": [
+      "Xác định tài sản thông tin cần bảo vệ",
+      "Cập nhật phần mềm",
+      "Thực hiện sao lưu",
+      "Đánh giá thiệt hại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 33 (Chương 5): Kế hoạch ứng phó sự cố (IRP) giúp tổ chức làm gì?",
+    "options": [
+      "Phát hiện, phản ứng và khắc phục sự cố bảo mật",
+      "Giám sát lưu lượng mạng",
+      "Cài đặt phần mềm diệt virus",
+      "Đào tạo nhân viên mới"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 34 (Chương 5): Quản lý rủi ro trong an toàn thông tin là gì?",
+    "options": [
+      "Quá trình xác định, đánh giá và giảm thiểu rủi ro đối với tài sản thông tin",
+      "Sao lưu dữ liệu định kỳ",
+      "Tăng tốc độ mạng",
+      "Cập nhật hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 35 (Chương 5): Quản lý rủi ro trong an toàn thông tin là gì?",
+    "options": [
+      "Quá trình xác định, đánh giá và giảm thiểu rủi ro đối với tài sản thông tin",
+      "Sao lưu dữ liệu định kỳ",
+      "Tăng tốc độ mạng",
+      "Cập nhật hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 36 (Chương 5): Tại sao kiểm thử kế hoạch DRP lại quan trọng?",
+    "options": [
+      "Đảm bảo kế hoạch có thể thực hiện hiệu quả khi xảy ra sự cố thật",
+      "Giúp tăng tốc độ mạng",
+      "Giảm chi phí đào tạo",
+      "Tối ưu hóa hiệu năng CPU"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 37 (Chương 5): Phân tích rủi ro bao gồm các bước nào?",
+    "options": [
+      "Xác định tài sản, mối đe dọa, lỗ hổng và đánh giá tác động",
+      "Chỉ xác định lỗ hổng",
+      "Cập nhật phần mềm",
+      "Cài lại hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 38 (Chương 5): RPO (Recovery Point Objective) là gì?",
+    "options": [
+      "Mức độ mất dữ liệu tối đa có thể chấp nhận được khi xảy ra sự cố",
+      "Thời gian cần thiết để khôi phục hệ thống",
+      "Tốc độ sao lưu dữ liệu",
+      "Dung lượng ổ đĩa cần thiết"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 39 (Chương 5): Kế hoạch ứng phó sự cố (IRP) giúp tổ chức làm gì?",
+    "options": [
+      "Phát hiện, phản ứng và khắc phục sự cố bảo mật",
+      "Giám sát lưu lượng mạng",
+      "Cài đặt phần mềm diệt virus",
+      "Đào tạo nhân viên mới"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 40 (Chương 5): RTO (Recovery Time Objective) biểu thị điều gì?",
+    "options": [
+      "Thời gian tối đa chấp nhận được để khôi phục hệ thống sau sự cố",
+      "Số lượng người dùng bị ảnh hưởng",
+      "Mức độ bảo mật dữ liệu",
+      "Chi phí đầu tư hệ thống"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 41 (Chương 5): Tại sao kiểm thử kế hoạch DRP lại quan trọng?",
+    "options": [
+      "Đảm bảo kế hoạch có thể thực hiện hiệu quả khi xảy ra sự cố thật",
+      "Giúp tăng tốc độ mạng",
+      "Giảm chi phí đào tạo",
+      "Tối ưu hóa hiệu năng CPU"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 42 (Chương 5): RTO (Recovery Time Objective) biểu thị điều gì?",
+    "options": [
+      "Thời gian tối đa chấp nhận được để khôi phục hệ thống sau sự cố",
+      "Số lượng người dùng bị ảnh hưởng",
+      "Mức độ bảo mật dữ liệu",
+      "Chi phí đầu tư hệ thống"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 43 (Chương 5): Mục tiêu chính của kế hoạch khôi phục sau thảm họa (DRP) là gì?",
+    "options": [
+      "Khôi phục hoạt động hệ thống và dữ liệu sau sự cố",
+      "Ngăn chặn tất cả tấn công mạng",
+      "Giảm chi phí vận hành",
+      "Bảo vệ mật khẩu người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 44 (Chương 5): Quản lý rủi ro trong an toàn thông tin là gì?",
+    "options": [
+      "Quá trình xác định, đánh giá và giảm thiểu rủi ro đối với tài sản thông tin",
+      "Sao lưu dữ liệu định kỳ",
+      "Tăng tốc độ mạng",
+      "Cập nhật hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 45 (Chương 5): Phân tích rủi ro bao gồm các bước nào?",
+    "options": [
+      "Xác định tài sản, mối đe dọa, lỗ hổng và đánh giá tác động",
+      "Chỉ xác định lỗ hổng",
+      "Cập nhật phần mềm",
+      "Cài lại hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 46 (Chương 5): Một biện pháp giảm thiểu rủi ro hiệu quả là gì?",
+    "options": [
+      "Thực hiện sao lưu định kỳ và kiểm tra phục hồi dữ liệu",
+      "Giảm dung lượng lưu trữ",
+      "Mở tất cả cổng mạng",
+      "Tắt hệ thống bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 47 (Chương 5): Mục tiêu chính của kế hoạch khôi phục sau thảm họa (DRP) là gì?",
+    "options": [
+      "Khôi phục hoạt động hệ thống và dữ liệu sau sự cố",
+      "Ngăn chặn tất cả tấn công mạng",
+      "Giảm chi phí vận hành",
+      "Bảo vệ mật khẩu người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 48 (Chương 5): Một biện pháp giảm thiểu rủi ro hiệu quả là gì?",
+    "options": [
+      "Thực hiện sao lưu định kỳ và kiểm tra phục hồi dữ liệu",
+      "Giảm dung lượng lưu trữ",
+      "Mở tất cả cổng mạng",
+      "Tắt hệ thống bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 49 (Chương 5): Quản lý rủi ro trong an toàn thông tin là gì?",
+    "options": [
+      "Quá trình xác định, đánh giá và giảm thiểu rủi ro đối với tài sản thông tin",
+      "Sao lưu dữ liệu định kỳ",
+      "Tăng tốc độ mạng",
+      "Cập nhật hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 50 (Chương 5): Mục tiêu chính của kế hoạch khôi phục sau thảm họa (DRP) là gì?",
+    "options": [
+      "Khôi phục hoạt động hệ thống và dữ liệu sau sự cố",
+      "Ngăn chặn tất cả tấn công mạng",
+      "Giảm chi phí vận hành",
+      "Bảo vệ mật khẩu người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 51 (Chương 5): RPO (Recovery Point Objective) là gì?",
+    "options": [
+      "Mức độ mất dữ liệu tối đa có thể chấp nhận được khi xảy ra sự cố",
+      "Thời gian cần thiết để khôi phục hệ thống",
+      "Tốc độ sao lưu dữ liệu",
+      "Dung lượng ổ đĩa cần thiết"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 52 (Chương 5): Bước đầu tiên trong quản lý rủi ro là gì?",
+    "options": [
+      "Xác định tài sản thông tin cần bảo vệ",
+      "Cập nhật phần mềm",
+      "Thực hiện sao lưu",
+      "Đánh giá thiệt hại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 53 (Chương 5): Kế hoạch ứng phó sự cố (IRP) giúp tổ chức làm gì?",
+    "options": [
+      "Phát hiện, phản ứng và khắc phục sự cố bảo mật",
+      "Giám sát lưu lượng mạng",
+      "Cài đặt phần mềm diệt virus",
+      "Đào tạo nhân viên mới"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 54 (Chương 5): ISO/IEC 27001 là tiêu chuẩn gì?",
+    "options": [
+      "Hệ thống quản lý an toàn thông tin (ISMS)",
+      "Tiêu chuẩn mạng LAN",
+      "Tiêu chuẩn phần cứng",
+      "Tiêu chuẩn lập trình an toàn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 55 (Chương 5): Kế hoạch ứng phó sự cố (IRP) giúp tổ chức làm gì?",
+    "options": [
+      "Phát hiện, phản ứng và khắc phục sự cố bảo mật",
+      "Giám sát lưu lượng mạng",
+      "Cài đặt phần mềm diệt virus",
+      "Đào tạo nhân viên mới"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 56 (Chương 5): RPO (Recovery Point Objective) là gì?",
+    "options": [
+      "Mức độ mất dữ liệu tối đa có thể chấp nhận được khi xảy ra sự cố",
+      "Thời gian cần thiết để khôi phục hệ thống",
+      "Tốc độ sao lưu dữ liệu",
+      "Dung lượng ổ đĩa cần thiết"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 57 (Chương 5): Bước đầu tiên trong quản lý rủi ro là gì?",
+    "options": [
+      "Xác định tài sản thông tin cần bảo vệ",
+      "Cập nhật phần mềm",
+      "Thực hiện sao lưu",
+      "Đánh giá thiệt hại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 58 (Chương 5): Kế hoạch ứng phó sự cố (IRP) giúp tổ chức làm gì?",
+    "options": [
+      "Phát hiện, phản ứng và khắc phục sự cố bảo mật",
+      "Giám sát lưu lượng mạng",
+      "Cài đặt phần mềm diệt virus",
+      "Đào tạo nhân viên mới"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 59 (Chương 5): Bước đầu tiên trong quản lý rủi ro là gì?",
+    "options": [
+      "Xác định tài sản thông tin cần bảo vệ",
+      "Cập nhật phần mềm",
+      "Thực hiện sao lưu",
+      "Đánh giá thiệt hại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 60 (Chương 5): Phân tích rủi ro bao gồm các bước nào?",
+    "options": [
+      "Xác định tài sản, mối đe dọa, lỗ hổng và đánh giá tác động",
+      "Chỉ xác định lỗ hổng",
+      "Cập nhật phần mềm",
+      "Cài lại hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 61 (Chương 5): RTO (Recovery Time Objective) biểu thị điều gì?",
+    "options": [
+      "Thời gian tối đa chấp nhận được để khôi phục hệ thống sau sự cố",
+      "Số lượng người dùng bị ảnh hưởng",
+      "Mức độ bảo mật dữ liệu",
+      "Chi phí đầu tư hệ thống"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 62 (Chương 5): Mục tiêu chính của kế hoạch khôi phục sau thảm họa (DRP) là gì?",
+    "options": [
+      "Khôi phục hoạt động hệ thống và dữ liệu sau sự cố",
+      "Ngăn chặn tất cả tấn công mạng",
+      "Giảm chi phí vận hành",
+      "Bảo vệ mật khẩu người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 63 (Chương 5): Phân tích rủi ro bao gồm các bước nào?",
+    "options": [
+      "Xác định tài sản, mối đe dọa, lỗ hổng và đánh giá tác động",
+      "Chỉ xác định lỗ hổng",
+      "Cập nhật phần mềm",
+      "Cài lại hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 64 (Chương 5): Một biện pháp giảm thiểu rủi ro hiệu quả là gì?",
+    "options": [
+      "Thực hiện sao lưu định kỳ và kiểm tra phục hồi dữ liệu",
+      "Giảm dung lượng lưu trữ",
+      "Mở tất cả cổng mạng",
+      "Tắt hệ thống bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 65 (Chương 5): ISO/IEC 27001 là tiêu chuẩn gì?",
+    "options": [
+      "Hệ thống quản lý an toàn thông tin (ISMS)",
+      "Tiêu chuẩn mạng LAN",
+      "Tiêu chuẩn phần cứng",
+      "Tiêu chuẩn lập trình an toàn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 66 (Chương 5): Kế hoạch ứng phó sự cố (IRP) giúp tổ chức làm gì?",
+    "options": [
+      "Phát hiện, phản ứng và khắc phục sự cố bảo mật",
+      "Giám sát lưu lượng mạng",
+      "Cài đặt phần mềm diệt virus",
+      "Đào tạo nhân viên mới"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 67 (Chương 5): Bước đầu tiên trong quản lý rủi ro là gì?",
+    "options": [
+      "Xác định tài sản thông tin cần bảo vệ",
+      "Cập nhật phần mềm",
+      "Thực hiện sao lưu",
+      "Đánh giá thiệt hại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 68 (Chương 5): RPO (Recovery Point Objective) là gì?",
+    "options": [
+      "Mức độ mất dữ liệu tối đa có thể chấp nhận được khi xảy ra sự cố",
+      "Thời gian cần thiết để khôi phục hệ thống",
+      "Tốc độ sao lưu dữ liệu",
+      "Dung lượng ổ đĩa cần thiết"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 69 (Chương 5): Bước đầu tiên trong quản lý rủi ro là gì?",
+    "options": [
+      "Xác định tài sản thông tin cần bảo vệ",
+      "Cập nhật phần mềm",
+      "Thực hiện sao lưu",
+      "Đánh giá thiệt hại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 70 (Chương 5): Quản lý rủi ro trong an toàn thông tin là gì?",
+    "options": [
+      "Quá trình xác định, đánh giá và giảm thiểu rủi ro đối với tài sản thông tin",
+      "Sao lưu dữ liệu định kỳ",
+      "Tăng tốc độ mạng",
+      "Cập nhật hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 71 (Chương 5): Kế hoạch ứng phó sự cố (IRP) giúp tổ chức làm gì?",
+    "options": [
+      "Phát hiện, phản ứng và khắc phục sự cố bảo mật",
+      "Giám sát lưu lượng mạng",
+      "Cài đặt phần mềm diệt virus",
+      "Đào tạo nhân viên mới"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 72 (Chương 5): Mục tiêu chính của kế hoạch khôi phục sau thảm họa (DRP) là gì?",
+    "options": [
+      "Khôi phục hoạt động hệ thống và dữ liệu sau sự cố",
+      "Ngăn chặn tất cả tấn công mạng",
+      "Giảm chi phí vận hành",
+      "Bảo vệ mật khẩu người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 73 (Chương 5): Phân tích rủi ro bao gồm các bước nào?",
+    "options": [
+      "Xác định tài sản, mối đe dọa, lỗ hổng và đánh giá tác động",
+      "Chỉ xác định lỗ hổng",
+      "Cập nhật phần mềm",
+      "Cài lại hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 74 (Chương 5): Kế hoạch ứng phó sự cố (IRP) giúp tổ chức làm gì?",
+    "options": [
+      "Phát hiện, phản ứng và khắc phục sự cố bảo mật",
+      "Giám sát lưu lượng mạng",
+      "Cài đặt phần mềm diệt virus",
+      "Đào tạo nhân viên mới"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 75 (Chương 5): RPO (Recovery Point Objective) là gì?",
+    "options": [
+      "Mức độ mất dữ liệu tối đa có thể chấp nhận được khi xảy ra sự cố",
+      "Thời gian cần thiết để khôi phục hệ thống",
+      "Tốc độ sao lưu dữ liệu",
+      "Dung lượng ổ đĩa cần thiết"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 76 (Chương 5): Tại sao kiểm thử kế hoạch DRP lại quan trọng?",
+    "options": [
+      "Đảm bảo kế hoạch có thể thực hiện hiệu quả khi xảy ra sự cố thật",
+      "Giúp tăng tốc độ mạng",
+      "Giảm chi phí đào tạo",
+      "Tối ưu hóa hiệu năng CPU"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 77 (Chương 5): Tại sao kiểm thử kế hoạch DRP lại quan trọng?",
+    "options": [
+      "Đảm bảo kế hoạch có thể thực hiện hiệu quả khi xảy ra sự cố thật",
+      "Giúp tăng tốc độ mạng",
+      "Giảm chi phí đào tạo",
+      "Tối ưu hóa hiệu năng CPU"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 78 (Chương 5): Mục tiêu chính của kế hoạch khôi phục sau thảm họa (DRP) là gì?",
+    "options": [
+      "Khôi phục hoạt động hệ thống và dữ liệu sau sự cố",
+      "Ngăn chặn tất cả tấn công mạng",
+      "Giảm chi phí vận hành",
+      "Bảo vệ mật khẩu người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 79 (Chương 5): RPO (Recovery Point Objective) là gì?",
+    "options": [
+      "Mức độ mất dữ liệu tối đa có thể chấp nhận được khi xảy ra sự cố",
+      "Thời gian cần thiết để khôi phục hệ thống",
+      "Tốc độ sao lưu dữ liệu",
+      "Dung lượng ổ đĩa cần thiết"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 80 (Chương 5): Một biện pháp giảm thiểu rủi ro hiệu quả là gì?",
+    "options": [
+      "Thực hiện sao lưu định kỳ và kiểm tra phục hồi dữ liệu",
+      "Giảm dung lượng lưu trữ",
+      "Mở tất cả cổng mạng",
+      "Tắt hệ thống bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 81 (Chương 5): Tại sao kiểm thử kế hoạch DRP lại quan trọng?",
+    "options": [
+      "Đảm bảo kế hoạch có thể thực hiện hiệu quả khi xảy ra sự cố thật",
+      "Giúp tăng tốc độ mạng",
+      "Giảm chi phí đào tạo",
+      "Tối ưu hóa hiệu năng CPU"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 82 (Chương 5): Kế hoạch ứng phó sự cố (IRP) giúp tổ chức làm gì?",
+    "options": [
+      "Phát hiện, phản ứng và khắc phục sự cố bảo mật",
+      "Giám sát lưu lượng mạng",
+      "Cài đặt phần mềm diệt virus",
+      "Đào tạo nhân viên mới"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 83 (Chương 5): Mục tiêu chính của kế hoạch khôi phục sau thảm họa (DRP) là gì?",
+    "options": [
+      "Khôi phục hoạt động hệ thống và dữ liệu sau sự cố",
+      "Ngăn chặn tất cả tấn công mạng",
+      "Giảm chi phí vận hành",
+      "Bảo vệ mật khẩu người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 84 (Chương 5): Bước đầu tiên trong quản lý rủi ro là gì?",
+    "options": [
+      "Xác định tài sản thông tin cần bảo vệ",
+      "Cập nhật phần mềm",
+      "Thực hiện sao lưu",
+      "Đánh giá thiệt hại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 85 (Chương 5): Phân tích rủi ro bao gồm các bước nào?",
+    "options": [
+      "Xác định tài sản, mối đe dọa, lỗ hổng và đánh giá tác động",
+      "Chỉ xác định lỗ hổng",
+      "Cập nhật phần mềm",
+      "Cài lại hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 86 (Chương 5): Phân tích rủi ro bao gồm các bước nào?",
+    "options": [
+      "Xác định tài sản, mối đe dọa, lỗ hổng và đánh giá tác động",
+      "Chỉ xác định lỗ hổng",
+      "Cập nhật phần mềm",
+      "Cài lại hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 87 (Chương 5): RTO (Recovery Time Objective) biểu thị điều gì?",
+    "options": [
+      "Thời gian tối đa chấp nhận được để khôi phục hệ thống sau sự cố",
+      "Số lượng người dùng bị ảnh hưởng",
+      "Mức độ bảo mật dữ liệu",
+      "Chi phí đầu tư hệ thống"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 88 (Chương 5): Phân tích rủi ro bao gồm các bước nào?",
+    "options": [
+      "Xác định tài sản, mối đe dọa, lỗ hổng và đánh giá tác động",
+      "Chỉ xác định lỗ hổng",
+      "Cập nhật phần mềm",
+      "Cài lại hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 89 (Chương 5): ISO/IEC 27001 là tiêu chuẩn gì?",
+    "options": [
+      "Hệ thống quản lý an toàn thông tin (ISMS)",
+      "Tiêu chuẩn mạng LAN",
+      "Tiêu chuẩn phần cứng",
+      "Tiêu chuẩn lập trình an toàn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 90 (Chương 5): Phân tích rủi ro bao gồm các bước nào?",
+    "options": [
+      "Xác định tài sản, mối đe dọa, lỗ hổng và đánh giá tác động",
+      "Chỉ xác định lỗ hổng",
+      "Cập nhật phần mềm",
+      "Cài lại hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 91 (Chương 5): ISO/IEC 27001 là tiêu chuẩn gì?",
+    "options": [
+      "Hệ thống quản lý an toàn thông tin (ISMS)",
+      "Tiêu chuẩn mạng LAN",
+      "Tiêu chuẩn phần cứng",
+      "Tiêu chuẩn lập trình an toàn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 92 (Chương 5): RTO (Recovery Time Objective) biểu thị điều gì?",
+    "options": [
+      "Thời gian tối đa chấp nhận được để khôi phục hệ thống sau sự cố",
+      "Số lượng người dùng bị ảnh hưởng",
+      "Mức độ bảo mật dữ liệu",
+      "Chi phí đầu tư hệ thống"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 93 (Chương 5): Quản lý rủi ro trong an toàn thông tin là gì?",
+    "options": [
+      "Quá trình xác định, đánh giá và giảm thiểu rủi ro đối với tài sản thông tin",
+      "Sao lưu dữ liệu định kỳ",
+      "Tăng tốc độ mạng",
+      "Cập nhật hệ điều hành"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 94 (Chương 5): Tại sao kiểm thử kế hoạch DRP lại quan trọng?",
+    "options": [
+      "Đảm bảo kế hoạch có thể thực hiện hiệu quả khi xảy ra sự cố thật",
+      "Giúp tăng tốc độ mạng",
+      "Giảm chi phí đào tạo",
+      "Tối ưu hóa hiệu năng CPU"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 95 (Chương 5): Bước đầu tiên trong quản lý rủi ro là gì?",
+    "options": [
+      "Xác định tài sản thông tin cần bảo vệ",
+      "Cập nhật phần mềm",
+      "Thực hiện sao lưu",
+      "Đánh giá thiệt hại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 96 (Chương 5): Bước đầu tiên trong quản lý rủi ro là gì?",
+    "options": [
+      "Xác định tài sản thông tin cần bảo vệ",
+      "Cập nhật phần mềm",
+      "Thực hiện sao lưu",
+      "Đánh giá thiệt hại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 97 (Chương 5): ISO/IEC 27001 là tiêu chuẩn gì?",
+    "options": [
+      "Hệ thống quản lý an toàn thông tin (ISMS)",
+      "Tiêu chuẩn mạng LAN",
+      "Tiêu chuẩn phần cứng",
+      "Tiêu chuẩn lập trình an toàn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 98 (Chương 5): Bước đầu tiên trong quản lý rủi ro là gì?",
+    "options": [
+      "Xác định tài sản thông tin cần bảo vệ",
+      "Cập nhật phần mềm",
+      "Thực hiện sao lưu",
+      "Đánh giá thiệt hại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 99 (Chương 5): Một biện pháp giảm thiểu rủi ro hiệu quả là gì?",
+    "options": [
+      "Thực hiện sao lưu định kỳ và kiểm tra phục hồi dữ liệu",
+      "Giảm dung lượng lưu trữ",
+      "Mở tất cả cổng mạng",
+      "Tắt hệ thống bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  },
+  {
+    "question": "Câu 100 (Chương 5): Bước đầu tiên trong quản lý rủi ro là gì?",
+    "options": [
+      "Xác định tài sản thông tin cần bảo vệ",
+      "Cập nhật phần mềm",
+      "Thực hiện sao lưu",
+      "Đánh giá thiệt hại"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố"
+  }
+]

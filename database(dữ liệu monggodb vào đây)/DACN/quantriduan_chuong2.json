@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 2): Tại sao cần đánh giá sau khi kết thúc dự án?",
+    "options": [
+      "Để rút kinh nghiệm và cải thiện cho các dự án sau",
+      "Để xác định lại mục tiêu ban đầu",
+      "Để kéo dài dự án",
+      "Để thay đổi đội ngũ quản lý"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 2 (Chương 2): Tài liệu nào thường được tạo ra sau khi hoàn thành dự án?",
+    "options": [
+      "Báo cáo tổng kết dự án (Project Closure Report)",
+      "Bản điều lệ dự án",
+      "Biên bản khởi động",
+      "Bản kế hoạch sơ bộ"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 3 (Chương 2): Đầu ra quan trọng của giai đoạn khởi động là gì?",
+    "options": [
+      "Bản điều lệ dự án (Project Charter)",
+      "Báo cáo tiến độ",
+      "Kế hoạch rủi ro",
+      "Danh sách kiểm tra"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 4 (Chương 2): Mục tiêu của giai đoạn khởi động dự án là gì?",
+    "options": [
+      "Xác định tính khả thi và phê duyệt khởi tạo dự án",
+      "Phân công công việc cụ thể cho từng thành viên",
+      "Báo cáo tiến độ",
+      "Kiểm toán tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 5 (Chương 2): Giai đoạn nào tiêu tốn nhiều tài nguyên nhất trong chu kỳ dự án?",
+    "options": [
+      "Thực hiện dự án",
+      "Khởi động",
+      "Lập kế hoạch",
+      "Kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 6 (Chương 2): Mục tiêu của giai đoạn khởi động dự án là gì?",
+    "options": [
+      "Xác định tính khả thi và phê duyệt khởi tạo dự án",
+      "Phân công công việc cụ thể cho từng thành viên",
+      "Báo cáo tiến độ",
+      "Kiểm toán tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 7 (Chương 2): Giai đoạn nào nhằm đảm bảo dự án hoàn tất và bàn giao kết quả cho khách hàng?",
+    "options": [
+      "Kết thúc dự án",
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 8 (Chương 2): Tại sao cần đánh giá sau khi kết thúc dự án?",
+    "options": [
+      "Để rút kinh nghiệm và cải thiện cho các dự án sau",
+      "Để xác định lại mục tiêu ban đầu",
+      "Để kéo dài dự án",
+      "Để thay đổi đội ngũ quản lý"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 9 (Chương 2): Đầu ra quan trọng của giai đoạn khởi động là gì?",
+    "options": [
+      "Bản điều lệ dự án (Project Charter)",
+      "Báo cáo tiến độ",
+      "Kế hoạch rủi ro",
+      "Danh sách kiểm tra"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 10 (Chương 2): Mục tiêu của giai đoạn khởi động dự án là gì?",
+    "options": [
+      "Xác định tính khả thi và phê duyệt khởi tạo dự án",
+      "Phân công công việc cụ thể cho từng thành viên",
+      "Báo cáo tiến độ",
+      "Kiểm toán tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 11 (Chương 2): Trong giai đoạn thực hiện, người quản lý dự án cần tập trung vào điều gì?",
+    "options": [
+      "Điều phối nguồn lực và giám sát tiến độ",
+      "Đánh giá hiệu quả sau khi hoàn thành",
+      "Tổng kết chi phí",
+      "Tạo báo cáo kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 12 (Chương 2): Giai đoạn đầu tiên trong chu kỳ sống của dự án là gì?",
+    "options": [
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện",
+      "Kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 13 (Chương 2): Một trong những mục tiêu của giai đoạn lập kế hoạch là gì?",
+    "options": [
+      "Xây dựng kế hoạch chi tiết về phạm vi, tiến độ và chi phí",
+      "Tuyển dụng thêm nhân sự",
+      "Chấm dứt dự án",
+      "Đánh giá rủi ro tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 14 (Chương 2): Mục tiêu của giai đoạn khởi động dự án là gì?",
+    "options": [
+      "Xác định tính khả thi và phê duyệt khởi tạo dự án",
+      "Phân công công việc cụ thể cho từng thành viên",
+      "Báo cáo tiến độ",
+      "Kiểm toán tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 15 (Chương 2): Tại sao cần đánh giá sau khi kết thúc dự án?",
+    "options": [
+      "Để rút kinh nghiệm và cải thiện cho các dự án sau",
+      "Để xác định lại mục tiêu ban đầu",
+      "Để kéo dài dự án",
+      "Để thay đổi đội ngũ quản lý"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 16 (Chương 2): Mục tiêu của giai đoạn khởi động dự án là gì?",
+    "options": [
+      "Xác định tính khả thi và phê duyệt khởi tạo dự án",
+      "Phân công công việc cụ thể cho từng thành viên",
+      "Báo cáo tiến độ",
+      "Kiểm toán tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 17 (Chương 2): Chu kỳ sống của dự án bao gồm mấy giai đoạn chính?",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "answer": 1,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 18 (Chương 2): Mục tiêu của giai đoạn khởi động dự án là gì?",
+    "options": [
+      "Xác định tính khả thi và phê duyệt khởi tạo dự án",
+      "Phân công công việc cụ thể cho từng thành viên",
+      "Báo cáo tiến độ",
+      "Kiểm toán tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 19 (Chương 2): Chu kỳ sống của dự án bao gồm mấy giai đoạn chính?",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "answer": 1,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 20 (Chương 2): Giai đoạn nào tiêu tốn nhiều tài nguyên nhất trong chu kỳ dự án?",
+    "options": [
+      "Thực hiện dự án",
+      "Khởi động",
+      "Lập kế hoạch",
+      "Kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 21 (Chương 2): Giai đoạn nào nhằm đảm bảo dự án hoàn tất và bàn giao kết quả cho khách hàng?",
+    "options": [
+      "Kết thúc dự án",
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 22 (Chương 2): Đầu ra quan trọng của giai đoạn khởi động là gì?",
+    "options": [
+      "Bản điều lệ dự án (Project Charter)",
+      "Báo cáo tiến độ",
+      "Kế hoạch rủi ro",
+      "Danh sách kiểm tra"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 23 (Chương 2): Đầu ra quan trọng của giai đoạn khởi động là gì?",
+    "options": [
+      "Bản điều lệ dự án (Project Charter)",
+      "Báo cáo tiến độ",
+      "Kế hoạch rủi ro",
+      "Danh sách kiểm tra"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 24 (Chương 2): Mục tiêu của giai đoạn khởi động dự án là gì?",
+    "options": [
+      "Xác định tính khả thi và phê duyệt khởi tạo dự án",
+      "Phân công công việc cụ thể cho từng thành viên",
+      "Báo cáo tiến độ",
+      "Kiểm toán tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 25 (Chương 2): Mục tiêu của giai đoạn khởi động dự án là gì?",
+    "options": [
+      "Xác định tính khả thi và phê duyệt khởi tạo dự án",
+      "Phân công công việc cụ thể cho từng thành viên",
+      "Báo cáo tiến độ",
+      "Kiểm toán tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 26 (Chương 2): Trong giai đoạn thực hiện, người quản lý dự án cần tập trung vào điều gì?",
+    "options": [
+      "Điều phối nguồn lực và giám sát tiến độ",
+      "Đánh giá hiệu quả sau khi hoàn thành",
+      "Tổng kết chi phí",
+      "Tạo báo cáo kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 27 (Chương 2): Tại sao cần đánh giá sau khi kết thúc dự án?",
+    "options": [
+      "Để rút kinh nghiệm và cải thiện cho các dự án sau",
+      "Để xác định lại mục tiêu ban đầu",
+      "Để kéo dài dự án",
+      "Để thay đổi đội ngũ quản lý"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 28 (Chương 2): Chu kỳ sống của dự án bao gồm mấy giai đoạn chính?",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "answer": 1,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 29 (Chương 2): Giai đoạn nào tiêu tốn nhiều tài nguyên nhất trong chu kỳ dự án?",
+    "options": [
+      "Thực hiện dự án",
+      "Khởi động",
+      "Lập kế hoạch",
+      "Kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 30 (Chương 2): Giai đoạn nào nhằm đảm bảo dự án hoàn tất và bàn giao kết quả cho khách hàng?",
+    "options": [
+      "Kết thúc dự án",
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 31 (Chương 2): Giai đoạn đầu tiên trong chu kỳ sống của dự án là gì?",
+    "options": [
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện",
+      "Kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 32 (Chương 2): Giai đoạn nào tiêu tốn nhiều tài nguyên nhất trong chu kỳ dự án?",
+    "options": [
+      "Thực hiện dự án",
+      "Khởi động",
+      "Lập kế hoạch",
+      "Kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 33 (Chương 2): Trong giai đoạn thực hiện, người quản lý dự án cần tập trung vào điều gì?",
+    "options": [
+      "Điều phối nguồn lực và giám sát tiến độ",
+      "Đánh giá hiệu quả sau khi hoàn thành",
+      "Tổng kết chi phí",
+      "Tạo báo cáo kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 34 (Chương 2): Tài liệu nào thường được tạo ra sau khi hoàn thành dự án?",
+    "options": [
+      "Báo cáo tổng kết dự án (Project Closure Report)",
+      "Bản điều lệ dự án",
+      "Biên bản khởi động",
+      "Bản kế hoạch sơ bộ"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 35 (Chương 2): Giai đoạn đầu tiên trong chu kỳ sống của dự án là gì?",
+    "options": [
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện",
+      "Kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 36 (Chương 2): Trong giai đoạn thực hiện, người quản lý dự án cần tập trung vào điều gì?",
+    "options": [
+      "Điều phối nguồn lực và giám sát tiến độ",
+      "Đánh giá hiệu quả sau khi hoàn thành",
+      "Tổng kết chi phí",
+      "Tạo báo cáo kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 37 (Chương 2): Giai đoạn nào nhằm đảm bảo dự án hoàn tất và bàn giao kết quả cho khách hàng?",
+    "options": [
+      "Kết thúc dự án",
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 38 (Chương 2): Giai đoạn đầu tiên trong chu kỳ sống của dự án là gì?",
+    "options": [
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện",
+      "Kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 39 (Chương 2): Tài liệu nào thường được tạo ra sau khi hoàn thành dự án?",
+    "options": [
+      "Báo cáo tổng kết dự án (Project Closure Report)",
+      "Bản điều lệ dự án",
+      "Biên bản khởi động",
+      "Bản kế hoạch sơ bộ"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 40 (Chương 2): Giai đoạn nào tiêu tốn nhiều tài nguyên nhất trong chu kỳ dự án?",
+    "options": [
+      "Thực hiện dự án",
+      "Khởi động",
+      "Lập kế hoạch",
+      "Kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 41 (Chương 2): Tài liệu nào thường được tạo ra sau khi hoàn thành dự án?",
+    "options": [
+      "Báo cáo tổng kết dự án (Project Closure Report)",
+      "Bản điều lệ dự án",
+      "Biên bản khởi động",
+      "Bản kế hoạch sơ bộ"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 42 (Chương 2): Giai đoạn nào tiêu tốn nhiều tài nguyên nhất trong chu kỳ dự án?",
+    "options": [
+      "Thực hiện dự án",
+      "Khởi động",
+      "Lập kế hoạch",
+      "Kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 43 (Chương 2): Giai đoạn nào nhằm đảm bảo dự án hoàn tất và bàn giao kết quả cho khách hàng?",
+    "options": [
+      "Kết thúc dự án",
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 44 (Chương 2): Đầu ra quan trọng của giai đoạn khởi động là gì?",
+    "options": [
+      "Bản điều lệ dự án (Project Charter)",
+      "Báo cáo tiến độ",
+      "Kế hoạch rủi ro",
+      "Danh sách kiểm tra"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 45 (Chương 2): Trong giai đoạn thực hiện, người quản lý dự án cần tập trung vào điều gì?",
+    "options": [
+      "Điều phối nguồn lực và giám sát tiến độ",
+      "Đánh giá hiệu quả sau khi hoàn thành",
+      "Tổng kết chi phí",
+      "Tạo báo cáo kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 46 (Chương 2): Trong giai đoạn thực hiện, người quản lý dự án cần tập trung vào điều gì?",
+    "options": [
+      "Điều phối nguồn lực và giám sát tiến độ",
+      "Đánh giá hiệu quả sau khi hoàn thành",
+      "Tổng kết chi phí",
+      "Tạo báo cáo kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 47 (Chương 2): Giai đoạn nào nhằm đảm bảo dự án hoàn tất và bàn giao kết quả cho khách hàng?",
+    "options": [
+      "Kết thúc dự án",
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 48 (Chương 2): Giai đoạn nào nhằm đảm bảo dự án hoàn tất và bàn giao kết quả cho khách hàng?",
+    "options": [
+      "Kết thúc dự án",
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 49 (Chương 2): Giai đoạn nào nhằm đảm bảo dự án hoàn tất và bàn giao kết quả cho khách hàng?",
+    "options": [
+      "Kết thúc dự án",
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 50 (Chương 2): Tại sao cần đánh giá sau khi kết thúc dự án?",
+    "options": [
+      "Để rút kinh nghiệm và cải thiện cho các dự án sau",
+      "Để xác định lại mục tiêu ban đầu",
+      "Để kéo dài dự án",
+      "Để thay đổi đội ngũ quản lý"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 51 (Chương 2): Chu kỳ sống của dự án bao gồm mấy giai đoạn chính?",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "answer": 1,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 52 (Chương 2): Chu kỳ sống của dự án bao gồm mấy giai đoạn chính?",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "answer": 1,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 53 (Chương 2): Trong giai đoạn thực hiện, người quản lý dự án cần tập trung vào điều gì?",
+    "options": [
+      "Điều phối nguồn lực và giám sát tiến độ",
+      "Đánh giá hiệu quả sau khi hoàn thành",
+      "Tổng kết chi phí",
+      "Tạo báo cáo kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 54 (Chương 2): Tài liệu nào thường được tạo ra sau khi hoàn thành dự án?",
+    "options": [
+      "Báo cáo tổng kết dự án (Project Closure Report)",
+      "Bản điều lệ dự án",
+      "Biên bản khởi động",
+      "Bản kế hoạch sơ bộ"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 55 (Chương 2): Đầu ra quan trọng của giai đoạn khởi động là gì?",
+    "options": [
+      "Bản điều lệ dự án (Project Charter)",
+      "Báo cáo tiến độ",
+      "Kế hoạch rủi ro",
+      "Danh sách kiểm tra"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 56 (Chương 2): Tại sao cần đánh giá sau khi kết thúc dự án?",
+    "options": [
+      "Để rút kinh nghiệm và cải thiện cho các dự án sau",
+      "Để xác định lại mục tiêu ban đầu",
+      "Để kéo dài dự án",
+      "Để thay đổi đội ngũ quản lý"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 57 (Chương 2): Giai đoạn nào tiêu tốn nhiều tài nguyên nhất trong chu kỳ dự án?",
+    "options": [
+      "Thực hiện dự án",
+      "Khởi động",
+      "Lập kế hoạch",
+      "Kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 58 (Chương 2): Mục tiêu của giai đoạn khởi động dự án là gì?",
+    "options": [
+      "Xác định tính khả thi và phê duyệt khởi tạo dự án",
+      "Phân công công việc cụ thể cho từng thành viên",
+      "Báo cáo tiến độ",
+      "Kiểm toán tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 59 (Chương 2): Đầu ra quan trọng của giai đoạn khởi động là gì?",
+    "options": [
+      "Bản điều lệ dự án (Project Charter)",
+      "Báo cáo tiến độ",
+      "Kế hoạch rủi ro",
+      "Danh sách kiểm tra"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 60 (Chương 2): Giai đoạn đầu tiên trong chu kỳ sống của dự án là gì?",
+    "options": [
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện",
+      "Kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 61 (Chương 2): Giai đoạn nào tiêu tốn nhiều tài nguyên nhất trong chu kỳ dự án?",
+    "options": [
+      "Thực hiện dự án",
+      "Khởi động",
+      "Lập kế hoạch",
+      "Kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 62 (Chương 2): Giai đoạn đầu tiên trong chu kỳ sống của dự án là gì?",
+    "options": [
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện",
+      "Kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 63 (Chương 2): Tài liệu nào thường được tạo ra sau khi hoàn thành dự án?",
+    "options": [
+      "Báo cáo tổng kết dự án (Project Closure Report)",
+      "Bản điều lệ dự án",
+      "Biên bản khởi động",
+      "Bản kế hoạch sơ bộ"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 64 (Chương 2): Chu kỳ sống của dự án bao gồm mấy giai đoạn chính?",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "answer": 1,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 65 (Chương 2): Trong giai đoạn thực hiện, người quản lý dự án cần tập trung vào điều gì?",
+    "options": [
+      "Điều phối nguồn lực và giám sát tiến độ",
+      "Đánh giá hiệu quả sau khi hoàn thành",
+      "Tổng kết chi phí",
+      "Tạo báo cáo kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 66 (Chương 2): Đầu ra quan trọng của giai đoạn khởi động là gì?",
+    "options": [
+      "Bản điều lệ dự án (Project Charter)",
+      "Báo cáo tiến độ",
+      "Kế hoạch rủi ro",
+      "Danh sách kiểm tra"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 67 (Chương 2): Một trong những mục tiêu của giai đoạn lập kế hoạch là gì?",
+    "options": [
+      "Xây dựng kế hoạch chi tiết về phạm vi, tiến độ và chi phí",
+      "Tuyển dụng thêm nhân sự",
+      "Chấm dứt dự án",
+      "Đánh giá rủi ro tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 68 (Chương 2): Giai đoạn nào nhằm đảm bảo dự án hoàn tất và bàn giao kết quả cho khách hàng?",
+    "options": [
+      "Kết thúc dự án",
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 69 (Chương 2): Giai đoạn nào tiêu tốn nhiều tài nguyên nhất trong chu kỳ dự án?",
+    "options": [
+      "Thực hiện dự án",
+      "Khởi động",
+      "Lập kế hoạch",
+      "Kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 70 (Chương 2): Trong giai đoạn thực hiện, người quản lý dự án cần tập trung vào điều gì?",
+    "options": [
+      "Điều phối nguồn lực và giám sát tiến độ",
+      "Đánh giá hiệu quả sau khi hoàn thành",
+      "Tổng kết chi phí",
+      "Tạo báo cáo kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 71 (Chương 2): Đầu ra quan trọng của giai đoạn khởi động là gì?",
+    "options": [
+      "Bản điều lệ dự án (Project Charter)",
+      "Báo cáo tiến độ",
+      "Kế hoạch rủi ro",
+      "Danh sách kiểm tra"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 72 (Chương 2): Giai đoạn nào nhằm đảm bảo dự án hoàn tất và bàn giao kết quả cho khách hàng?",
+    "options": [
+      "Kết thúc dự án",
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 73 (Chương 2): Chu kỳ sống của dự án bao gồm mấy giai đoạn chính?",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "answer": 1,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 74 (Chương 2): Giai đoạn đầu tiên trong chu kỳ sống của dự án là gì?",
+    "options": [
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện",
+      "Kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 75 (Chương 2): Trong giai đoạn thực hiện, người quản lý dự án cần tập trung vào điều gì?",
+    "options": [
+      "Điều phối nguồn lực và giám sát tiến độ",
+      "Đánh giá hiệu quả sau khi hoàn thành",
+      "Tổng kết chi phí",
+      "Tạo báo cáo kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 76 (Chương 2): Giai đoạn nào tiêu tốn nhiều tài nguyên nhất trong chu kỳ dự án?",
+    "options": [
+      "Thực hiện dự án",
+      "Khởi động",
+      "Lập kế hoạch",
+      "Kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 77 (Chương 2): Đầu ra quan trọng của giai đoạn khởi động là gì?",
+    "options": [
+      "Bản điều lệ dự án (Project Charter)",
+      "Báo cáo tiến độ",
+      "Kế hoạch rủi ro",
+      "Danh sách kiểm tra"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 78 (Chương 2): Chu kỳ sống của dự án bao gồm mấy giai đoạn chính?",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "answer": 1,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 79 (Chương 2): Mục tiêu của giai đoạn khởi động dự án là gì?",
+    "options": [
+      "Xác định tính khả thi và phê duyệt khởi tạo dự án",
+      "Phân công công việc cụ thể cho từng thành viên",
+      "Báo cáo tiến độ",
+      "Kiểm toán tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 80 (Chương 2): Tài liệu nào thường được tạo ra sau khi hoàn thành dự án?",
+    "options": [
+      "Báo cáo tổng kết dự án (Project Closure Report)",
+      "Bản điều lệ dự án",
+      "Biên bản khởi động",
+      "Bản kế hoạch sơ bộ"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 81 (Chương 2): Mục tiêu của giai đoạn khởi động dự án là gì?",
+    "options": [
+      "Xác định tính khả thi và phê duyệt khởi tạo dự án",
+      "Phân công công việc cụ thể cho từng thành viên",
+      "Báo cáo tiến độ",
+      "Kiểm toán tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 82 (Chương 2): Giai đoạn nào tiêu tốn nhiều tài nguyên nhất trong chu kỳ dự án?",
+    "options": [
+      "Thực hiện dự án",
+      "Khởi động",
+      "Lập kế hoạch",
+      "Kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 83 (Chương 2): Giai đoạn nào nhằm đảm bảo dự án hoàn tất và bàn giao kết quả cho khách hàng?",
+    "options": [
+      "Kết thúc dự án",
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 84 (Chương 2): Giai đoạn nào nhằm đảm bảo dự án hoàn tất và bàn giao kết quả cho khách hàng?",
+    "options": [
+      "Kết thúc dự án",
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 85 (Chương 2): Tài liệu nào thường được tạo ra sau khi hoàn thành dự án?",
+    "options": [
+      "Báo cáo tổng kết dự án (Project Closure Report)",
+      "Bản điều lệ dự án",
+      "Biên bản khởi động",
+      "Bản kế hoạch sơ bộ"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 86 (Chương 2): Trong giai đoạn thực hiện, người quản lý dự án cần tập trung vào điều gì?",
+    "options": [
+      "Điều phối nguồn lực và giám sát tiến độ",
+      "Đánh giá hiệu quả sau khi hoàn thành",
+      "Tổng kết chi phí",
+      "Tạo báo cáo kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 87 (Chương 2): Chu kỳ sống của dự án bao gồm mấy giai đoạn chính?",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "answer": 1,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 88 (Chương 2): Trong giai đoạn thực hiện, người quản lý dự án cần tập trung vào điều gì?",
+    "options": [
+      "Điều phối nguồn lực và giám sát tiến độ",
+      "Đánh giá hiệu quả sau khi hoàn thành",
+      "Tổng kết chi phí",
+      "Tạo báo cáo kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 89 (Chương 2): Mục tiêu của giai đoạn khởi động dự án là gì?",
+    "options": [
+      "Xác định tính khả thi và phê duyệt khởi tạo dự án",
+      "Phân công công việc cụ thể cho từng thành viên",
+      "Báo cáo tiến độ",
+      "Kiểm toán tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 90 (Chương 2): Một trong những mục tiêu của giai đoạn lập kế hoạch là gì?",
+    "options": [
+      "Xây dựng kế hoạch chi tiết về phạm vi, tiến độ và chi phí",
+      "Tuyển dụng thêm nhân sự",
+      "Chấm dứt dự án",
+      "Đánh giá rủi ro tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 91 (Chương 2): Giai đoạn nào nhằm đảm bảo dự án hoàn tất và bàn giao kết quả cho khách hàng?",
+    "options": [
+      "Kết thúc dự án",
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 92 (Chương 2): Giai đoạn nào nhằm đảm bảo dự án hoàn tất và bàn giao kết quả cho khách hàng?",
+    "options": [
+      "Kết thúc dự án",
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 93 (Chương 2): Giai đoạn đầu tiên trong chu kỳ sống của dự án là gì?",
+    "options": [
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện",
+      "Kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 94 (Chương 2): Giai đoạn nào tiêu tốn nhiều tài nguyên nhất trong chu kỳ dự án?",
+    "options": [
+      "Thực hiện dự án",
+      "Khởi động",
+      "Lập kế hoạch",
+      "Kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 95 (Chương 2): Đầu ra quan trọng của giai đoạn khởi động là gì?",
+    "options": [
+      "Bản điều lệ dự án (Project Charter)",
+      "Báo cáo tiến độ",
+      "Kế hoạch rủi ro",
+      "Danh sách kiểm tra"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 96 (Chương 2): Trong giai đoạn thực hiện, người quản lý dự án cần tập trung vào điều gì?",
+    "options": [
+      "Điều phối nguồn lực và giám sát tiến độ",
+      "Đánh giá hiệu quả sau khi hoàn thành",
+      "Tổng kết chi phí",
+      "Tạo báo cáo kết thúc"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 97 (Chương 2): Đầu ra quan trọng của giai đoạn khởi động là gì?",
+    "options": [
+      "Bản điều lệ dự án (Project Charter)",
+      "Báo cáo tiến độ",
+      "Kế hoạch rủi ro",
+      "Danh sách kiểm tra"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 98 (Chương 2): Tại sao cần đánh giá sau khi kết thúc dự án?",
+    "options": [
+      "Để rút kinh nghiệm và cải thiện cho các dự án sau",
+      "Để xác định lại mục tiêu ban đầu",
+      "Để kéo dài dự án",
+      "Để thay đổi đội ngũ quản lý"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 99 (Chương 2): Giai đoạn nào nhằm đảm bảo dự án hoàn tất và bàn giao kết quả cho khách hàng?",
+    "options": [
+      "Kết thúc dự án",
+      "Khởi động dự án",
+      "Lập kế hoạch",
+      "Thực hiện"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  },
+  {
+    "question": "Câu 100 (Chương 2): Tại sao cần đánh giá sau khi kết thúc dự án?",
+    "options": [
+      "Để rút kinh nghiệm và cải thiện cho các dự án sau",
+      "Để xác định lại mục tiêu ban đầu",
+      "Để kéo dài dự án",
+      "Để thay đổi đội ngũ quản lý"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án"
+  }
+]

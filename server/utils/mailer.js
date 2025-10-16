@@ -4,9 +4,9 @@ const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
     user: "doggygerman@gmail.com",
-    pass:   "123456789abcdefg" 
+    pass:   "znjs wvpy iczr ebdj" 
   },
-      // quên bà mất cái pass rồi :(((
+      
   tls: {
     rejectUnauthorized: false           // bỏ qua self-signed certificate
   }

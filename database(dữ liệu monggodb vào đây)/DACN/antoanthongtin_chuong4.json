@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 4): VPN giúp bảo mật kết nối mạng bằng cách nào?",
+    "options": [
+      "Mã hóa dữ liệu truyền giữa người dùng và máy chủ",
+      "Ẩn hoàn toàn địa chỉ MAC",
+      "Ngăn chặn tấn công DDoS",
+      "Tăng băng thông mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 2 (Chương 4): Một biện pháp phổ biến để phòng chống tấn công mạng là gì?",
+    "options": [
+      "Cập nhật phần mềm và vá lỗi thường xuyên",
+      "Tắt firewall",
+      "Sử dụng mật khẩu yếu",
+      "Chia sẻ tài khoản người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 3 (Chương 4): Tấn công DDoS khác gì với DoS thông thường?",
+    "options": [
+      "DDoS sử dụng nhiều nguồn tấn công cùng lúc",
+      "DDoS diễn ra chậm hơn",
+      "DDoS chỉ xảy ra nội bộ",
+      "Không có sự khác biệt"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 4 (Chương 4): Phishing thường được thực hiện bằng cách nào?",
+    "options": [
+      "Gửi email giả mạo để lừa người dùng cung cấp thông tin cá nhân",
+      "Tấn công vào phần cứng mạng",
+      "Khai thác lỗ hổng hệ điều hành",
+      "Sử dụng phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 5 (Chương 4): Tấn công DoS (Denial of Service) là gì?",
+    "options": [
+      "Làm cho hệ thống không thể phục vụ người dùng hợp lệ",
+      "Đánh cắp mật khẩu người dùng",
+      "Tấn công vào phần cứng máy tính",
+      "Thay đổi nội dung website"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 6 (Chương 4): Sự khác biệt giữa IDS và IPS là gì?",
+    "options": [
+      "IDS chỉ phát hiện xâm nhập, IPS có thể ngăn chặn chúng",
+      "IPS chỉ phát hiện, IDS ngăn chặn",
+      "Cả hai giống nhau",
+      "IDS chỉ dùng cho Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 7 (Chương 4): Tấn công DDoS khác gì với DoS thông thường?",
+    "options": [
+      "DDoS sử dụng nhiều nguồn tấn công cùng lúc",
+      "DDoS diễn ra chậm hơn",
+      "DDoS chỉ xảy ra nội bộ",
+      "Không có sự khác biệt"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 8 (Chương 4): Tấn công DDoS khác gì với DoS thông thường?",
+    "options": [
+      "DDoS sử dụng nhiều nguồn tấn công cùng lúc",
+      "DDoS diễn ra chậm hơn",
+      "DDoS chỉ xảy ra nội bộ",
+      "Không có sự khác biệt"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 9 (Chương 4): Một biện pháp phổ biến để phòng chống tấn công mạng là gì?",
+    "options": [
+      "Cập nhật phần mềm và vá lỗi thường xuyên",
+      "Tắt firewall",
+      "Sử dụng mật khẩu yếu",
+      "Chia sẻ tài khoản người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 10 (Chương 4): IDS là viết tắt của gì?",
+    "options": [
+      "Intrusion Detection System",
+      "Internal Defense Structure",
+      "Information Data System",
+      "Internet Defense Server"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 11 (Chương 4): Sự khác biệt giữa IDS và IPS là gì?",
+    "options": [
+      "IDS chỉ phát hiện xâm nhập, IPS có thể ngăn chặn chúng",
+      "IPS chỉ phát hiện, IDS ngăn chặn",
+      "Cả hai giống nhau",
+      "IDS chỉ dùng cho Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 12 (Chương 4): Một ví dụ của kỹ thuật Social Engineering là gì?",
+    "options": [
+      "Lừa nhân viên tiết lộ mật khẩu qua điện thoại",
+      "Mã hóa dữ liệu bằng AES",
+      "Tạo tường lửa mạng",
+      "Cập nhật phần mềm bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 13 (Chương 4): IDS là viết tắt của gì?",
+    "options": [
+      "Intrusion Detection System",
+      "Internal Defense Structure",
+      "Information Data System",
+      "Internet Defense Server"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 14 (Chương 4): Một biện pháp phổ biến để phòng chống tấn công mạng là gì?",
+    "options": [
+      "Cập nhật phần mềm và vá lỗi thường xuyên",
+      "Tắt firewall",
+      "Sử dụng mật khẩu yếu",
+      "Chia sẻ tài khoản người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 15 (Chương 4): Tấn công DoS (Denial of Service) là gì?",
+    "options": [
+      "Làm cho hệ thống không thể phục vụ người dùng hợp lệ",
+      "Đánh cắp mật khẩu người dùng",
+      "Tấn công vào phần cứng máy tính",
+      "Thay đổi nội dung website"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 16 (Chương 4): Sự khác biệt giữa IDS và IPS là gì?",
+    "options": [
+      "IDS chỉ phát hiện xâm nhập, IPS có thể ngăn chặn chúng",
+      "IPS chỉ phát hiện, IDS ngăn chặn",
+      "Cả hai giống nhau",
+      "IDS chỉ dùng cho Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 17 (Chương 4): Sự khác biệt giữa IDS và IPS là gì?",
+    "options": [
+      "IDS chỉ phát hiện xâm nhập, IPS có thể ngăn chặn chúng",
+      "IPS chỉ phát hiện, IDS ngăn chặn",
+      "Cả hai giống nhau",
+      "IDS chỉ dùng cho Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 18 (Chương 4): Một biện pháp phổ biến để phòng chống tấn công mạng là gì?",
+    "options": [
+      "Cập nhật phần mềm và vá lỗi thường xuyên",
+      "Tắt firewall",
+      "Sử dụng mật khẩu yếu",
+      "Chia sẻ tài khoản người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 19 (Chương 4): Phishing thường được thực hiện bằng cách nào?",
+    "options": [
+      "Gửi email giả mạo để lừa người dùng cung cấp thông tin cá nhân",
+      "Tấn công vào phần cứng mạng",
+      "Khai thác lỗ hổng hệ điều hành",
+      "Sử dụng phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 20 (Chương 4): Một biện pháp phổ biến để phòng chống tấn công mạng là gì?",
+    "options": [
+      "Cập nhật phần mềm và vá lỗi thường xuyên",
+      "Tắt firewall",
+      "Sử dụng mật khẩu yếu",
+      "Chia sẻ tài khoản người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 21 (Chương 4): Tấn công DDoS khác gì với DoS thông thường?",
+    "options": [
+      "DDoS sử dụng nhiều nguồn tấn công cùng lúc",
+      "DDoS diễn ra chậm hơn",
+      "DDoS chỉ xảy ra nội bộ",
+      "Không có sự khác biệt"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 22 (Chương 4): Malware là gì?",
+    "options": [
+      "Phần mềm độc hại được thiết kế để gây hại hoặc truy cập trái phép",
+      "Phần mềm chống virus",
+      "Phần mềm mã nguồn mở",
+      "Phần mềm diệt lỗi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 23 (Chương 4): Sự khác biệt giữa IDS và IPS là gì?",
+    "options": [
+      "IDS chỉ phát hiện xâm nhập, IPS có thể ngăn chặn chúng",
+      "IPS chỉ phát hiện, IDS ngăn chặn",
+      "Cả hai giống nhau",
+      "IDS chỉ dùng cho Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 24 (Chương 4): VPN giúp bảo mật kết nối mạng bằng cách nào?",
+    "options": [
+      "Mã hóa dữ liệu truyền giữa người dùng và máy chủ",
+      "Ẩn hoàn toàn địa chỉ MAC",
+      "Ngăn chặn tấn công DDoS",
+      "Tăng băng thông mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 25 (Chương 4): Sự khác biệt giữa IDS và IPS là gì?",
+    "options": [
+      "IDS chỉ phát hiện xâm nhập, IPS có thể ngăn chặn chúng",
+      "IPS chỉ phát hiện, IDS ngăn chặn",
+      "Cả hai giống nhau",
+      "IDS chỉ dùng cho Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 26 (Chương 4): Malware là gì?",
+    "options": [
+      "Phần mềm độc hại được thiết kế để gây hại hoặc truy cập trái phép",
+      "Phần mềm chống virus",
+      "Phần mềm mã nguồn mở",
+      "Phần mềm diệt lỗi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 27 (Chương 4): Sự khác biệt giữa IDS và IPS là gì?",
+    "options": [
+      "IDS chỉ phát hiện xâm nhập, IPS có thể ngăn chặn chúng",
+      "IPS chỉ phát hiện, IDS ngăn chặn",
+      "Cả hai giống nhau",
+      "IDS chỉ dùng cho Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 28 (Chương 4): Sự khác biệt giữa IDS và IPS là gì?",
+    "options": [
+      "IDS chỉ phát hiện xâm nhập, IPS có thể ngăn chặn chúng",
+      "IPS chỉ phát hiện, IDS ngăn chặn",
+      "Cả hai giống nhau",
+      "IDS chỉ dùng cho Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 29 (Chương 4): Tấn công DDoS khác gì với DoS thông thường?",
+    "options": [
+      "DDoS sử dụng nhiều nguồn tấn công cùng lúc",
+      "DDoS diễn ra chậm hơn",
+      "DDoS chỉ xảy ra nội bộ",
+      "Không có sự khác biệt"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 30 (Chương 4): Sự khác biệt giữa IDS và IPS là gì?",
+    "options": [
+      "IDS chỉ phát hiện xâm nhập, IPS có thể ngăn chặn chúng",
+      "IPS chỉ phát hiện, IDS ngăn chặn",
+      "Cả hai giống nhau",
+      "IDS chỉ dùng cho Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 31 (Chương 4): Một biện pháp phổ biến để phòng chống tấn công mạng là gì?",
+    "options": [
+      "Cập nhật phần mềm và vá lỗi thường xuyên",
+      "Tắt firewall",
+      "Sử dụng mật khẩu yếu",
+      "Chia sẻ tài khoản người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 32 (Chương 4): Phishing thường được thực hiện bằng cách nào?",
+    "options": [
+      "Gửi email giả mạo để lừa người dùng cung cấp thông tin cá nhân",
+      "Tấn công vào phần cứng mạng",
+      "Khai thác lỗ hổng hệ điều hành",
+      "Sử dụng phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 33 (Chương 4): Tấn công DDoS khác gì với DoS thông thường?",
+    "options": [
+      "DDoS sử dụng nhiều nguồn tấn công cùng lúc",
+      "DDoS diễn ra chậm hơn",
+      "DDoS chỉ xảy ra nội bộ",
+      "Không có sự khác biệt"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 34 (Chương 4): IDS là viết tắt của gì?",
+    "options": [
+      "Intrusion Detection System",
+      "Internal Defense Structure",
+      "Information Data System",
+      "Internet Defense Server"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 35 (Chương 4): Một biện pháp phổ biến để phòng chống tấn công mạng là gì?",
+    "options": [
+      "Cập nhật phần mềm và vá lỗi thường xuyên",
+      "Tắt firewall",
+      "Sử dụng mật khẩu yếu",
+      "Chia sẻ tài khoản người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 36 (Chương 4): Malware là gì?",
+    "options": [
+      "Phần mềm độc hại được thiết kế để gây hại hoặc truy cập trái phép",
+      "Phần mềm chống virus",
+      "Phần mềm mã nguồn mở",
+      "Phần mềm diệt lỗi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 37 (Chương 4): Sự khác biệt giữa IDS và IPS là gì?",
+    "options": [
+      "IDS chỉ phát hiện xâm nhập, IPS có thể ngăn chặn chúng",
+      "IPS chỉ phát hiện, IDS ngăn chặn",
+      "Cả hai giống nhau",
+      "IDS chỉ dùng cho Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 38 (Chương 4): Tấn công DoS (Denial of Service) là gì?",
+    "options": [
+      "Làm cho hệ thống không thể phục vụ người dùng hợp lệ",
+      "Đánh cắp mật khẩu người dùng",
+      "Tấn công vào phần cứng máy tính",
+      "Thay đổi nội dung website"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 39 (Chương 4): Một biện pháp phổ biến để phòng chống tấn công mạng là gì?",
+    "options": [
+      "Cập nhật phần mềm và vá lỗi thường xuyên",
+      "Tắt firewall",
+      "Sử dụng mật khẩu yếu",
+      "Chia sẻ tài khoản người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 40 (Chương 4): Một biện pháp phổ biến để phòng chống tấn công mạng là gì?",
+    "options": [
+      "Cập nhật phần mềm và vá lỗi thường xuyên",
+      "Tắt firewall",
+      "Sử dụng mật khẩu yếu",
+      "Chia sẻ tài khoản người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 41 (Chương 4): IDS là viết tắt của gì?",
+    "options": [
+      "Intrusion Detection System",
+      "Internal Defense Structure",
+      "Information Data System",
+      "Internet Defense Server"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 42 (Chương 4): Firewall có nhiệm vụ gì trong hệ thống mạng?",
+    "options": [
+      "Lọc và kiểm soát lưu lượng mạng ra vào theo chính sách bảo mật",
+      "Mã hóa toàn bộ dữ liệu",
+      "Tăng tốc kết nối mạng",
+      "Phân bổ băng thông"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 43 (Chương 4): Firewall có nhiệm vụ gì trong hệ thống mạng?",
+    "options": [
+      "Lọc và kiểm soát lưu lượng mạng ra vào theo chính sách bảo mật",
+      "Mã hóa toàn bộ dữ liệu",
+      "Tăng tốc kết nối mạng",
+      "Phân bổ băng thông"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 44 (Chương 4): Một biện pháp phổ biến để phòng chống tấn công mạng là gì?",
+    "options": [
+      "Cập nhật phần mềm và vá lỗi thường xuyên",
+      "Tắt firewall",
+      "Sử dụng mật khẩu yếu",
+      "Chia sẻ tài khoản người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 45 (Chương 4): Sự khác biệt giữa IDS và IPS là gì?",
+    "options": [
+      "IDS chỉ phát hiện xâm nhập, IPS có thể ngăn chặn chúng",
+      "IPS chỉ phát hiện, IDS ngăn chặn",
+      "Cả hai giống nhau",
+      "IDS chỉ dùng cho Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 46 (Chương 4): Tấn công DoS (Denial of Service) là gì?",
+    "options": [
+      "Làm cho hệ thống không thể phục vụ người dùng hợp lệ",
+      "Đánh cắp mật khẩu người dùng",
+      "Tấn công vào phần cứng máy tính",
+      "Thay đổi nội dung website"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 47 (Chương 4): Malware là gì?",
+    "options": [
+      "Phần mềm độc hại được thiết kế để gây hại hoặc truy cập trái phép",
+      "Phần mềm chống virus",
+      "Phần mềm mã nguồn mở",
+      "Phần mềm diệt lỗi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 48 (Chương 4): Một ví dụ của kỹ thuật Social Engineering là gì?",
+    "options": [
+      "Lừa nhân viên tiết lộ mật khẩu qua điện thoại",
+      "Mã hóa dữ liệu bằng AES",
+      "Tạo tường lửa mạng",
+      "Cập nhật phần mềm bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 49 (Chương 4): Tấn công DDoS khác gì với DoS thông thường?",
+    "options": [
+      "DDoS sử dụng nhiều nguồn tấn công cùng lúc",
+      "DDoS diễn ra chậm hơn",
+      "DDoS chỉ xảy ra nội bộ",
+      "Không có sự khác biệt"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 50 (Chương 4): Phishing thường được thực hiện bằng cách nào?",
+    "options": [
+      "Gửi email giả mạo để lừa người dùng cung cấp thông tin cá nhân",
+      "Tấn công vào phần cứng mạng",
+      "Khai thác lỗ hổng hệ điều hành",
+      "Sử dụng phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 51 (Chương 4): Một ví dụ của kỹ thuật Social Engineering là gì?",
+    "options": [
+      "Lừa nhân viên tiết lộ mật khẩu qua điện thoại",
+      "Mã hóa dữ liệu bằng AES",
+      "Tạo tường lửa mạng",
+      "Cập nhật phần mềm bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 52 (Chương 4): VPN giúp bảo mật kết nối mạng bằng cách nào?",
+    "options": [
+      "Mã hóa dữ liệu truyền giữa người dùng và máy chủ",
+      "Ẩn hoàn toàn địa chỉ MAC",
+      "Ngăn chặn tấn công DDoS",
+      "Tăng băng thông mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 53 (Chương 4): Tấn công DoS (Denial of Service) là gì?",
+    "options": [
+      "Làm cho hệ thống không thể phục vụ người dùng hợp lệ",
+      "Đánh cắp mật khẩu người dùng",
+      "Tấn công vào phần cứng máy tính",
+      "Thay đổi nội dung website"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 54 (Chương 4): Sự khác biệt giữa IDS và IPS là gì?",
+    "options": [
+      "IDS chỉ phát hiện xâm nhập, IPS có thể ngăn chặn chúng",
+      "IPS chỉ phát hiện, IDS ngăn chặn",
+      "Cả hai giống nhau",
+      "IDS chỉ dùng cho Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 55 (Chương 4): Firewall có nhiệm vụ gì trong hệ thống mạng?",
+    "options": [
+      "Lọc và kiểm soát lưu lượng mạng ra vào theo chính sách bảo mật",
+      "Mã hóa toàn bộ dữ liệu",
+      "Tăng tốc kết nối mạng",
+      "Phân bổ băng thông"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 56 (Chương 4): Một ví dụ của kỹ thuật Social Engineering là gì?",
+    "options": [
+      "Lừa nhân viên tiết lộ mật khẩu qua điện thoại",
+      "Mã hóa dữ liệu bằng AES",
+      "Tạo tường lửa mạng",
+      "Cập nhật phần mềm bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 57 (Chương 4): Một biện pháp phổ biến để phòng chống tấn công mạng là gì?",
+    "options": [
+      "Cập nhật phần mềm và vá lỗi thường xuyên",
+      "Tắt firewall",
+      "Sử dụng mật khẩu yếu",
+      "Chia sẻ tài khoản người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 58 (Chương 4): IDS là viết tắt của gì?",
+    "options": [
+      "Intrusion Detection System",
+      "Internal Defense Structure",
+      "Information Data System",
+      "Internet Defense Server"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 59 (Chương 4): Tấn công DoS (Denial of Service) là gì?",
+    "options": [
+      "Làm cho hệ thống không thể phục vụ người dùng hợp lệ",
+      "Đánh cắp mật khẩu người dùng",
+      "Tấn công vào phần cứng máy tính",
+      "Thay đổi nội dung website"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 60 (Chương 4): Một biện pháp phổ biến để phòng chống tấn công mạng là gì?",
+    "options": [
+      "Cập nhật phần mềm và vá lỗi thường xuyên",
+      "Tắt firewall",
+      "Sử dụng mật khẩu yếu",
+      "Chia sẻ tài khoản người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 61 (Chương 4): Malware là gì?",
+    "options": [
+      "Phần mềm độc hại được thiết kế để gây hại hoặc truy cập trái phép",
+      "Phần mềm chống virus",
+      "Phần mềm mã nguồn mở",
+      "Phần mềm diệt lỗi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 62 (Chương 4): Một ví dụ của kỹ thuật Social Engineering là gì?",
+    "options": [
+      "Lừa nhân viên tiết lộ mật khẩu qua điện thoại",
+      "Mã hóa dữ liệu bằng AES",
+      "Tạo tường lửa mạng",
+      "Cập nhật phần mềm bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 63 (Chương 4): Phishing thường được thực hiện bằng cách nào?",
+    "options": [
+      "Gửi email giả mạo để lừa người dùng cung cấp thông tin cá nhân",
+      "Tấn công vào phần cứng mạng",
+      "Khai thác lỗ hổng hệ điều hành",
+      "Sử dụng phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 64 (Chương 4): Một ví dụ của kỹ thuật Social Engineering là gì?",
+    "options": [
+      "Lừa nhân viên tiết lộ mật khẩu qua điện thoại",
+      "Mã hóa dữ liệu bằng AES",
+      "Tạo tường lửa mạng",
+      "Cập nhật phần mềm bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 65 (Chương 4): Tấn công DDoS khác gì với DoS thông thường?",
+    "options": [
+      "DDoS sử dụng nhiều nguồn tấn công cùng lúc",
+      "DDoS diễn ra chậm hơn",
+      "DDoS chỉ xảy ra nội bộ",
+      "Không có sự khác biệt"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 66 (Chương 4): IDS là viết tắt của gì?",
+    "options": [
+      "Intrusion Detection System",
+      "Internal Defense Structure",
+      "Information Data System",
+      "Internet Defense Server"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 67 (Chương 4): Malware là gì?",
+    "options": [
+      "Phần mềm độc hại được thiết kế để gây hại hoặc truy cập trái phép",
+      "Phần mềm chống virus",
+      "Phần mềm mã nguồn mở",
+      "Phần mềm diệt lỗi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 68 (Chương 4): IDS là viết tắt của gì?",
+    "options": [
+      "Intrusion Detection System",
+      "Internal Defense Structure",
+      "Information Data System",
+      "Internet Defense Server"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 69 (Chương 4): Firewall có nhiệm vụ gì trong hệ thống mạng?",
+    "options": [
+      "Lọc và kiểm soát lưu lượng mạng ra vào theo chính sách bảo mật",
+      "Mã hóa toàn bộ dữ liệu",
+      "Tăng tốc kết nối mạng",
+      "Phân bổ băng thông"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 70 (Chương 4): Malware là gì?",
+    "options": [
+      "Phần mềm độc hại được thiết kế để gây hại hoặc truy cập trái phép",
+      "Phần mềm chống virus",
+      "Phần mềm mã nguồn mở",
+      "Phần mềm diệt lỗi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 71 (Chương 4): Firewall có nhiệm vụ gì trong hệ thống mạng?",
+    "options": [
+      "Lọc và kiểm soát lưu lượng mạng ra vào theo chính sách bảo mật",
+      "Mã hóa toàn bộ dữ liệu",
+      "Tăng tốc kết nối mạng",
+      "Phân bổ băng thông"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 72 (Chương 4): VPN giúp bảo mật kết nối mạng bằng cách nào?",
+    "options": [
+      "Mã hóa dữ liệu truyền giữa người dùng và máy chủ",
+      "Ẩn hoàn toàn địa chỉ MAC",
+      "Ngăn chặn tấn công DDoS",
+      "Tăng băng thông mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 73 (Chương 4): Một ví dụ của kỹ thuật Social Engineering là gì?",
+    "options": [
+      "Lừa nhân viên tiết lộ mật khẩu qua điện thoại",
+      "Mã hóa dữ liệu bằng AES",
+      "Tạo tường lửa mạng",
+      "Cập nhật phần mềm bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 74 (Chương 4): Tấn công DoS (Denial of Service) là gì?",
+    "options": [
+      "Làm cho hệ thống không thể phục vụ người dùng hợp lệ",
+      "Đánh cắp mật khẩu người dùng",
+      "Tấn công vào phần cứng máy tính",
+      "Thay đổi nội dung website"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 75 (Chương 4): Firewall có nhiệm vụ gì trong hệ thống mạng?",
+    "options": [
+      "Lọc và kiểm soát lưu lượng mạng ra vào theo chính sách bảo mật",
+      "Mã hóa toàn bộ dữ liệu",
+      "Tăng tốc kết nối mạng",
+      "Phân bổ băng thông"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 76 (Chương 4): VPN giúp bảo mật kết nối mạng bằng cách nào?",
+    "options": [
+      "Mã hóa dữ liệu truyền giữa người dùng và máy chủ",
+      "Ẩn hoàn toàn địa chỉ MAC",
+      "Ngăn chặn tấn công DDoS",
+      "Tăng băng thông mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 77 (Chương 4): Sự khác biệt giữa IDS và IPS là gì?",
+    "options": [
+      "IDS chỉ phát hiện xâm nhập, IPS có thể ngăn chặn chúng",
+      "IPS chỉ phát hiện, IDS ngăn chặn",
+      "Cả hai giống nhau",
+      "IDS chỉ dùng cho Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 78 (Chương 4): Firewall có nhiệm vụ gì trong hệ thống mạng?",
+    "options": [
+      "Lọc và kiểm soát lưu lượng mạng ra vào theo chính sách bảo mật",
+      "Mã hóa toàn bộ dữ liệu",
+      "Tăng tốc kết nối mạng",
+      "Phân bổ băng thông"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 79 (Chương 4): IDS là viết tắt của gì?",
+    "options": [
+      "Intrusion Detection System",
+      "Internal Defense Structure",
+      "Information Data System",
+      "Internet Defense Server"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 80 (Chương 4): VPN giúp bảo mật kết nối mạng bằng cách nào?",
+    "options": [
+      "Mã hóa dữ liệu truyền giữa người dùng và máy chủ",
+      "Ẩn hoàn toàn địa chỉ MAC",
+      "Ngăn chặn tấn công DDoS",
+      "Tăng băng thông mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 81 (Chương 4): Phishing thường được thực hiện bằng cách nào?",
+    "options": [
+      "Gửi email giả mạo để lừa người dùng cung cấp thông tin cá nhân",
+      "Tấn công vào phần cứng mạng",
+      "Khai thác lỗ hổng hệ điều hành",
+      "Sử dụng phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 82 (Chương 4): Firewall có nhiệm vụ gì trong hệ thống mạng?",
+    "options": [
+      "Lọc và kiểm soát lưu lượng mạng ra vào theo chính sách bảo mật",
+      "Mã hóa toàn bộ dữ liệu",
+      "Tăng tốc kết nối mạng",
+      "Phân bổ băng thông"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 83 (Chương 4): Phishing thường được thực hiện bằng cách nào?",
+    "options": [
+      "Gửi email giả mạo để lừa người dùng cung cấp thông tin cá nhân",
+      "Tấn công vào phần cứng mạng",
+      "Khai thác lỗ hổng hệ điều hành",
+      "Sử dụng phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 84 (Chương 4): Một ví dụ của kỹ thuật Social Engineering là gì?",
+    "options": [
+      "Lừa nhân viên tiết lộ mật khẩu qua điện thoại",
+      "Mã hóa dữ liệu bằng AES",
+      "Tạo tường lửa mạng",
+      "Cập nhật phần mềm bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 85 (Chương 4): Malware là gì?",
+    "options": [
+      "Phần mềm độc hại được thiết kế để gây hại hoặc truy cập trái phép",
+      "Phần mềm chống virus",
+      "Phần mềm mã nguồn mở",
+      "Phần mềm diệt lỗi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 86 (Chương 4): Sự khác biệt giữa IDS và IPS là gì?",
+    "options": [
+      "IDS chỉ phát hiện xâm nhập, IPS có thể ngăn chặn chúng",
+      "IPS chỉ phát hiện, IDS ngăn chặn",
+      "Cả hai giống nhau",
+      "IDS chỉ dùng cho Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 87 (Chương 4): Sự khác biệt giữa IDS và IPS là gì?",
+    "options": [
+      "IDS chỉ phát hiện xâm nhập, IPS có thể ngăn chặn chúng",
+      "IPS chỉ phát hiện, IDS ngăn chặn",
+      "Cả hai giống nhau",
+      "IDS chỉ dùng cho Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 88 (Chương 4): Một ví dụ của kỹ thuật Social Engineering là gì?",
+    "options": [
+      "Lừa nhân viên tiết lộ mật khẩu qua điện thoại",
+      "Mã hóa dữ liệu bằng AES",
+      "Tạo tường lửa mạng",
+      "Cập nhật phần mềm bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 89 (Chương 4): Firewall có nhiệm vụ gì trong hệ thống mạng?",
+    "options": [
+      "Lọc và kiểm soát lưu lượng mạng ra vào theo chính sách bảo mật",
+      "Mã hóa toàn bộ dữ liệu",
+      "Tăng tốc kết nối mạng",
+      "Phân bổ băng thông"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 90 (Chương 4): Một biện pháp phổ biến để phòng chống tấn công mạng là gì?",
+    "options": [
+      "Cập nhật phần mềm và vá lỗi thường xuyên",
+      "Tắt firewall",
+      "Sử dụng mật khẩu yếu",
+      "Chia sẻ tài khoản người dùng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 91 (Chương 4): Tấn công DoS (Denial of Service) là gì?",
+    "options": [
+      "Làm cho hệ thống không thể phục vụ người dùng hợp lệ",
+      "Đánh cắp mật khẩu người dùng",
+      "Tấn công vào phần cứng máy tính",
+      "Thay đổi nội dung website"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 92 (Chương 4): Tấn công DoS (Denial of Service) là gì?",
+    "options": [
+      "Làm cho hệ thống không thể phục vụ người dùng hợp lệ",
+      "Đánh cắp mật khẩu người dùng",
+      "Tấn công vào phần cứng máy tính",
+      "Thay đổi nội dung website"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 93 (Chương 4): Malware là gì?",
+    "options": [
+      "Phần mềm độc hại được thiết kế để gây hại hoặc truy cập trái phép",
+      "Phần mềm chống virus",
+      "Phần mềm mã nguồn mở",
+      "Phần mềm diệt lỗi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 94 (Chương 4): Sự khác biệt giữa IDS và IPS là gì?",
+    "options": [
+      "IDS chỉ phát hiện xâm nhập, IPS có thể ngăn chặn chúng",
+      "IPS chỉ phát hiện, IDS ngăn chặn",
+      "Cả hai giống nhau",
+      "IDS chỉ dùng cho Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 95 (Chương 4): Phishing thường được thực hiện bằng cách nào?",
+    "options": [
+      "Gửi email giả mạo để lừa người dùng cung cấp thông tin cá nhân",
+      "Tấn công vào phần cứng mạng",
+      "Khai thác lỗ hổng hệ điều hành",
+      "Sử dụng phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 96 (Chương 4): VPN giúp bảo mật kết nối mạng bằng cách nào?",
+    "options": [
+      "Mã hóa dữ liệu truyền giữa người dùng và máy chủ",
+      "Ẩn hoàn toàn địa chỉ MAC",
+      "Ngăn chặn tấn công DDoS",
+      "Tăng băng thông mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 97 (Chương 4): Sự khác biệt giữa IDS và IPS là gì?",
+    "options": [
+      "IDS chỉ phát hiện xâm nhập, IPS có thể ngăn chặn chúng",
+      "IPS chỉ phát hiện, IDS ngăn chặn",
+      "Cả hai giống nhau",
+      "IDS chỉ dùng cho Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 98 (Chương 4): Phishing thường được thực hiện bằng cách nào?",
+    "options": [
+      "Gửi email giả mạo để lừa người dùng cung cấp thông tin cá nhân",
+      "Tấn công vào phần cứng mạng",
+      "Khai thác lỗ hổng hệ điều hành",
+      "Sử dụng phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 99 (Chương 4): Firewall có nhiệm vụ gì trong hệ thống mạng?",
+    "options": [
+      "Lọc và kiểm soát lưu lượng mạng ra vào theo chính sách bảo mật",
+      "Mã hóa toàn bộ dữ liệu",
+      "Tăng tốc kết nối mạng",
+      "Phân bổ băng thông"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  },
+  {
+    "question": "Câu 100 (Chương 4): Một ví dụ của kỹ thuật Social Engineering là gì?",
+    "options": [
+      "Lừa nhân viên tiết lộ mật khẩu qua điện thoại",
+      "Mã hóa dữ liệu bằng AES",
+      "Tạo tường lửa mạng",
+      "Cập nhật phần mềm bảo mật"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công"
+  }
+]

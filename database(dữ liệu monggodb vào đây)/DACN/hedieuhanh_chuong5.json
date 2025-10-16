@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 5): Secure Boot có chức năng gì?",
+    "options": [
+      "Chỉ cho phép phần mềm được ký hợp lệ chạy khi khởi động",
+      "Tăng tốc khởi động",
+      "Chống phân mảnh ổ đĩa",
+      "Tạo file backup"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 2 (Chương 5): Nguyên tắc 'Least Privilege' trong bảo mật hệ điều hành nhằm mục đích gì?",
+    "options": [
+      "Giảm thiểu quyền truy cập chỉ ở mức cần thiết",
+      "Cấp quyền tối đa cho mọi người dùng",
+      "Xóa tất cả quyền người dùng",
+      "Không cho phép truy cập tài nguyên"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 3 (Chương 5): SELinux là gì?",
+    "options": [
+      "Cơ chế kiểm soát truy cập bắt buộc (MAC) trên Linux",
+      "Trình quản lý file",
+      "Một loại kernel module",
+      "Phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 4 (Chương 5): SELinux là gì?",
+    "options": [
+      "Cơ chế kiểm soát truy cập bắt buộc (MAC) trên Linux",
+      "Trình quản lý file",
+      "Một loại kernel module",
+      "Phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 5 (Chương 5): Patch Management trong hệ điều hành giúp gì cho bảo mật?",
+    "options": [
+      "Khắc phục lỗ hổng bảo mật và cập nhật phần mềm",
+      "Xóa dữ liệu người dùng",
+      "Giảm hiệu năng hệ thống",
+      "Vô hiệu hóa quyền admin"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 6 (Chương 5): Privilege escalation là gì?",
+    "options": [
+      "Lỗ hổng cho phép người dùng leo lên quyền cao hơn so với được cấp",
+      "Tăng tốc xử lý CPU",
+      "Tăng bộ nhớ hệ thống",
+      "Mở rộng dung lượng ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 7 (Chương 5): Authentication và Authorization khác nhau như thế nào?",
+    "options": [
+      "Authentication xác minh danh tính, Authorization xác định quyền truy cập",
+      "Authorization xác minh danh tính, Authentication xác định quyền truy cập",
+      "Cả hai giống nhau",
+      "Không liên quan đến bảo mật"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 8 (Chương 5): Firewall có vai trò gì trong hệ điều hành?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra theo quy tắc bảo mật",
+      "Tăng tốc độ CPU",
+      "Lưu trữ file người dùng",
+      "Tắt các dịch vụ mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 9 (Chương 5): Secure Boot có chức năng gì?",
+    "options": [
+      "Chỉ cho phép phần mềm được ký hợp lệ chạy khi khởi động",
+      "Tăng tốc khởi động",
+      "Chống phân mảnh ổ đĩa",
+      "Tạo file backup"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 10 (Chương 5): Một phương pháp để bảo vệ dữ liệu nhạy cảm là gì?",
+    "options": [
+      "Mã hóa dữ liệu trên ổ đĩa hoặc hệ thống tệp",
+      "Tăng RAM",
+      "Tắt firewall",
+      "Xóa file hệ thống"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 11 (Chương 5): Audit logs được dùng để làm gì?",
+    "options": [
+      "Theo dõi hoạt động hệ thống và phát hiện hành vi bất thường",
+      "Tăng dung lượng RAM",
+      "Xóa file tạm thời",
+      "Cập nhật driver"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 12 (Chương 5): Authentication và Authorization khác nhau như thế nào?",
+    "options": [
+      "Authentication xác minh danh tính, Authorization xác định quyền truy cập",
+      "Authorization xác minh danh tính, Authentication xác định quyền truy cập",
+      "Cả hai giống nhau",
+      "Không liên quan đến bảo mật"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 13 (Chương 5): Nguyên tắc 'Least Privilege' trong bảo mật hệ điều hành nhằm mục đích gì?",
+    "options": [
+      "Giảm thiểu quyền truy cập chỉ ở mức cần thiết",
+      "Cấp quyền tối đa cho mọi người dùng",
+      "Xóa tất cả quyền người dùng",
+      "Không cho phép truy cập tài nguyên"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 14 (Chương 5): Firewall có vai trò gì trong hệ điều hành?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra theo quy tắc bảo mật",
+      "Tăng tốc độ CPU",
+      "Lưu trữ file người dùng",
+      "Tắt các dịch vụ mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 15 (Chương 5): Một thực hành tốt khi quản trị hệ điều hành là gì?",
+    "options": [
+      "Cập nhật bản vá, sao lưu dữ liệu, giới hạn quyền người dùng",
+      "Cho phép tất cả quyền truy cập",
+      "Không bao giờ cập nhật",
+      "Tắt bảo mật mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 16 (Chương 5): Audit logs được dùng để làm gì?",
+    "options": [
+      "Theo dõi hoạt động hệ thống và phát hiện hành vi bất thường",
+      "Tăng dung lượng RAM",
+      "Xóa file tạm thời",
+      "Cập nhật driver"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 17 (Chương 5): Firewall có vai trò gì trong hệ điều hành?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra theo quy tắc bảo mật",
+      "Tăng tốc độ CPU",
+      "Lưu trữ file người dùng",
+      "Tắt các dịch vụ mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 18 (Chương 5): Audit logs được dùng để làm gì?",
+    "options": [
+      "Theo dõi hoạt động hệ thống và phát hiện hành vi bất thường",
+      "Tăng dung lượng RAM",
+      "Xóa file tạm thời",
+      "Cập nhật driver"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 19 (Chương 5): Một thực hành tốt khi quản trị hệ điều hành là gì?",
+    "options": [
+      "Cập nhật bản vá, sao lưu dữ liệu, giới hạn quyền người dùng",
+      "Cho phép tất cả quyền truy cập",
+      "Không bao giờ cập nhật",
+      "Tắt bảo mật mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 20 (Chương 5): Privilege escalation là gì?",
+    "options": [
+      "Lỗ hổng cho phép người dùng leo lên quyền cao hơn so với được cấp",
+      "Tăng tốc xử lý CPU",
+      "Tăng bộ nhớ hệ thống",
+      "Mở rộng dung lượng ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 21 (Chương 5): Một phương pháp để bảo vệ dữ liệu nhạy cảm là gì?",
+    "options": [
+      "Mã hóa dữ liệu trên ổ đĩa hoặc hệ thống tệp",
+      "Tăng RAM",
+      "Tắt firewall",
+      "Xóa file hệ thống"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 22 (Chương 5): Nguyên tắc 'Least Privilege' trong bảo mật hệ điều hành nhằm mục đích gì?",
+    "options": [
+      "Giảm thiểu quyền truy cập chỉ ở mức cần thiết",
+      "Cấp quyền tối đa cho mọi người dùng",
+      "Xóa tất cả quyền người dùng",
+      "Không cho phép truy cập tài nguyên"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 23 (Chương 5): Authentication và Authorization khác nhau như thế nào?",
+    "options": [
+      "Authentication xác minh danh tính, Authorization xác định quyền truy cập",
+      "Authorization xác minh danh tính, Authentication xác định quyền truy cập",
+      "Cả hai giống nhau",
+      "Không liên quan đến bảo mật"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 24 (Chương 5): Nguyên tắc 'Least Privilege' trong bảo mật hệ điều hành nhằm mục đích gì?",
+    "options": [
+      "Giảm thiểu quyền truy cập chỉ ở mức cần thiết",
+      "Cấp quyền tối đa cho mọi người dùng",
+      "Xóa tất cả quyền người dùng",
+      "Không cho phép truy cập tài nguyên"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 25 (Chương 5): SELinux là gì?",
+    "options": [
+      "Cơ chế kiểm soát truy cập bắt buộc (MAC) trên Linux",
+      "Trình quản lý file",
+      "Một loại kernel module",
+      "Phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 26 (Chương 5): Secure Boot có chức năng gì?",
+    "options": [
+      "Chỉ cho phép phần mềm được ký hợp lệ chạy khi khởi động",
+      "Tăng tốc khởi động",
+      "Chống phân mảnh ổ đĩa",
+      "Tạo file backup"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 27 (Chương 5): Patch Management trong hệ điều hành giúp gì cho bảo mật?",
+    "options": [
+      "Khắc phục lỗ hổng bảo mật và cập nhật phần mềm",
+      "Xóa dữ liệu người dùng",
+      "Giảm hiệu năng hệ thống",
+      "Vô hiệu hóa quyền admin"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 28 (Chương 5): Secure Boot có chức năng gì?",
+    "options": [
+      "Chỉ cho phép phần mềm được ký hợp lệ chạy khi khởi động",
+      "Tăng tốc khởi động",
+      "Chống phân mảnh ổ đĩa",
+      "Tạo file backup"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 29 (Chương 5): Patch Management trong hệ điều hành giúp gì cho bảo mật?",
+    "options": [
+      "Khắc phục lỗ hổng bảo mật và cập nhật phần mềm",
+      "Xóa dữ liệu người dùng",
+      "Giảm hiệu năng hệ thống",
+      "Vô hiệu hóa quyền admin"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 30 (Chương 5): Authentication và Authorization khác nhau như thế nào?",
+    "options": [
+      "Authentication xác minh danh tính, Authorization xác định quyền truy cập",
+      "Authorization xác minh danh tính, Authentication xác định quyền truy cập",
+      "Cả hai giống nhau",
+      "Không liên quan đến bảo mật"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 31 (Chương 5): SELinux là gì?",
+    "options": [
+      "Cơ chế kiểm soát truy cập bắt buộc (MAC) trên Linux",
+      "Trình quản lý file",
+      "Một loại kernel module",
+      "Phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 32 (Chương 5): Một thực hành tốt khi quản trị hệ điều hành là gì?",
+    "options": [
+      "Cập nhật bản vá, sao lưu dữ liệu, giới hạn quyền người dùng",
+      "Cho phép tất cả quyền truy cập",
+      "Không bao giờ cập nhật",
+      "Tắt bảo mật mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 33 (Chương 5): Audit logs được dùng để làm gì?",
+    "options": [
+      "Theo dõi hoạt động hệ thống và phát hiện hành vi bất thường",
+      "Tăng dung lượng RAM",
+      "Xóa file tạm thời",
+      "Cập nhật driver"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 34 (Chương 5): Firewall có vai trò gì trong hệ điều hành?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra theo quy tắc bảo mật",
+      "Tăng tốc độ CPU",
+      "Lưu trữ file người dùng",
+      "Tắt các dịch vụ mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 35 (Chương 5): Secure Boot có chức năng gì?",
+    "options": [
+      "Chỉ cho phép phần mềm được ký hợp lệ chạy khi khởi động",
+      "Tăng tốc khởi động",
+      "Chống phân mảnh ổ đĩa",
+      "Tạo file backup"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 36 (Chương 5): SELinux là gì?",
+    "options": [
+      "Cơ chế kiểm soát truy cập bắt buộc (MAC) trên Linux",
+      "Trình quản lý file",
+      "Một loại kernel module",
+      "Phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 37 (Chương 5): Nguyên tắc 'Least Privilege' trong bảo mật hệ điều hành nhằm mục đích gì?",
+    "options": [
+      "Giảm thiểu quyền truy cập chỉ ở mức cần thiết",
+      "Cấp quyền tối đa cho mọi người dùng",
+      "Xóa tất cả quyền người dùng",
+      "Không cho phép truy cập tài nguyên"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 38 (Chương 5): Một phương pháp để bảo vệ dữ liệu nhạy cảm là gì?",
+    "options": [
+      "Mã hóa dữ liệu trên ổ đĩa hoặc hệ thống tệp",
+      "Tăng RAM",
+      "Tắt firewall",
+      "Xóa file hệ thống"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 39 (Chương 5): Privilege escalation là gì?",
+    "options": [
+      "Lỗ hổng cho phép người dùng leo lên quyền cao hơn so với được cấp",
+      "Tăng tốc xử lý CPU",
+      "Tăng bộ nhớ hệ thống",
+      "Mở rộng dung lượng ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 40 (Chương 5): Firewall có vai trò gì trong hệ điều hành?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra theo quy tắc bảo mật",
+      "Tăng tốc độ CPU",
+      "Lưu trữ file người dùng",
+      "Tắt các dịch vụ mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 41 (Chương 5): Authentication và Authorization khác nhau như thế nào?",
+    "options": [
+      "Authentication xác minh danh tính, Authorization xác định quyền truy cập",
+      "Authorization xác minh danh tính, Authentication xác định quyền truy cập",
+      "Cả hai giống nhau",
+      "Không liên quan đến bảo mật"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 42 (Chương 5): Patch Management trong hệ điều hành giúp gì cho bảo mật?",
+    "options": [
+      "Khắc phục lỗ hổng bảo mật và cập nhật phần mềm",
+      "Xóa dữ liệu người dùng",
+      "Giảm hiệu năng hệ thống",
+      "Vô hiệu hóa quyền admin"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 43 (Chương 5): Secure Boot có chức năng gì?",
+    "options": [
+      "Chỉ cho phép phần mềm được ký hợp lệ chạy khi khởi động",
+      "Tăng tốc khởi động",
+      "Chống phân mảnh ổ đĩa",
+      "Tạo file backup"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 44 (Chương 5): SELinux là gì?",
+    "options": [
+      "Cơ chế kiểm soát truy cập bắt buộc (MAC) trên Linux",
+      "Trình quản lý file",
+      "Một loại kernel module",
+      "Phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 45 (Chương 5): Secure Boot có chức năng gì?",
+    "options": [
+      "Chỉ cho phép phần mềm được ký hợp lệ chạy khi khởi động",
+      "Tăng tốc khởi động",
+      "Chống phân mảnh ổ đĩa",
+      "Tạo file backup"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 46 (Chương 5): Nguyên tắc 'Least Privilege' trong bảo mật hệ điều hành nhằm mục đích gì?",
+    "options": [
+      "Giảm thiểu quyền truy cập chỉ ở mức cần thiết",
+      "Cấp quyền tối đa cho mọi người dùng",
+      "Xóa tất cả quyền người dùng",
+      "Không cho phép truy cập tài nguyên"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 47 (Chương 5): Nguyên tắc 'Least Privilege' trong bảo mật hệ điều hành nhằm mục đích gì?",
+    "options": [
+      "Giảm thiểu quyền truy cập chỉ ở mức cần thiết",
+      "Cấp quyền tối đa cho mọi người dùng",
+      "Xóa tất cả quyền người dùng",
+      "Không cho phép truy cập tài nguyên"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 48 (Chương 5): Authentication và Authorization khác nhau như thế nào?",
+    "options": [
+      "Authentication xác minh danh tính, Authorization xác định quyền truy cập",
+      "Authorization xác minh danh tính, Authentication xác định quyền truy cập",
+      "Cả hai giống nhau",
+      "Không liên quan đến bảo mật"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 49 (Chương 5): Firewall có vai trò gì trong hệ điều hành?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra theo quy tắc bảo mật",
+      "Tăng tốc độ CPU",
+      "Lưu trữ file người dùng",
+      "Tắt các dịch vụ mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 50 (Chương 5): Firewall có vai trò gì trong hệ điều hành?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra theo quy tắc bảo mật",
+      "Tăng tốc độ CPU",
+      "Lưu trữ file người dùng",
+      "Tắt các dịch vụ mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 51 (Chương 5): Nguyên tắc 'Least Privilege' trong bảo mật hệ điều hành nhằm mục đích gì?",
+    "options": [
+      "Giảm thiểu quyền truy cập chỉ ở mức cần thiết",
+      "Cấp quyền tối đa cho mọi người dùng",
+      "Xóa tất cả quyền người dùng",
+      "Không cho phép truy cập tài nguyên"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 52 (Chương 5): Authentication và Authorization khác nhau như thế nào?",
+    "options": [
+      "Authentication xác minh danh tính, Authorization xác định quyền truy cập",
+      "Authorization xác minh danh tính, Authentication xác định quyền truy cập",
+      "Cả hai giống nhau",
+      "Không liên quan đến bảo mật"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 53 (Chương 5): SELinux là gì?",
+    "options": [
+      "Cơ chế kiểm soát truy cập bắt buộc (MAC) trên Linux",
+      "Trình quản lý file",
+      "Một loại kernel module",
+      "Phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 54 (Chương 5): Authentication và Authorization khác nhau như thế nào?",
+    "options": [
+      "Authentication xác minh danh tính, Authorization xác định quyền truy cập",
+      "Authorization xác minh danh tính, Authentication xác định quyền truy cập",
+      "Cả hai giống nhau",
+      "Không liên quan đến bảo mật"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 55 (Chương 5): Nguyên tắc 'Least Privilege' trong bảo mật hệ điều hành nhằm mục đích gì?",
+    "options": [
+      "Giảm thiểu quyền truy cập chỉ ở mức cần thiết",
+      "Cấp quyền tối đa cho mọi người dùng",
+      "Xóa tất cả quyền người dùng",
+      "Không cho phép truy cập tài nguyên"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 56 (Chương 5): Secure Boot có chức năng gì?",
+    "options": [
+      "Chỉ cho phép phần mềm được ký hợp lệ chạy khi khởi động",
+      "Tăng tốc khởi động",
+      "Chống phân mảnh ổ đĩa",
+      "Tạo file backup"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 57 (Chương 5): Một thực hành tốt khi quản trị hệ điều hành là gì?",
+    "options": [
+      "Cập nhật bản vá, sao lưu dữ liệu, giới hạn quyền người dùng",
+      "Cho phép tất cả quyền truy cập",
+      "Không bao giờ cập nhật",
+      "Tắt bảo mật mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 58 (Chương 5): Firewall có vai trò gì trong hệ điều hành?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra theo quy tắc bảo mật",
+      "Tăng tốc độ CPU",
+      "Lưu trữ file người dùng",
+      "Tắt các dịch vụ mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 59 (Chương 5): Privilege escalation là gì?",
+    "options": [
+      "Lỗ hổng cho phép người dùng leo lên quyền cao hơn so với được cấp",
+      "Tăng tốc xử lý CPU",
+      "Tăng bộ nhớ hệ thống",
+      "Mở rộng dung lượng ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 60 (Chương 5): Authentication và Authorization khác nhau như thế nào?",
+    "options": [
+      "Authentication xác minh danh tính, Authorization xác định quyền truy cập",
+      "Authorization xác minh danh tính, Authentication xác định quyền truy cập",
+      "Cả hai giống nhau",
+      "Không liên quan đến bảo mật"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 61 (Chương 5): Firewall có vai trò gì trong hệ điều hành?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra theo quy tắc bảo mật",
+      "Tăng tốc độ CPU",
+      "Lưu trữ file người dùng",
+      "Tắt các dịch vụ mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 62 (Chương 5): SELinux là gì?",
+    "options": [
+      "Cơ chế kiểm soát truy cập bắt buộc (MAC) trên Linux",
+      "Trình quản lý file",
+      "Một loại kernel module",
+      "Phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 63 (Chương 5): Privilege escalation là gì?",
+    "options": [
+      "Lỗ hổng cho phép người dùng leo lên quyền cao hơn so với được cấp",
+      "Tăng tốc xử lý CPU",
+      "Tăng bộ nhớ hệ thống",
+      "Mở rộng dung lượng ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 64 (Chương 5): Audit logs được dùng để làm gì?",
+    "options": [
+      "Theo dõi hoạt động hệ thống và phát hiện hành vi bất thường",
+      "Tăng dung lượng RAM",
+      "Xóa file tạm thời",
+      "Cập nhật driver"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 65 (Chương 5): Firewall có vai trò gì trong hệ điều hành?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra theo quy tắc bảo mật",
+      "Tăng tốc độ CPU",
+      "Lưu trữ file người dùng",
+      "Tắt các dịch vụ mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 66 (Chương 5): Privilege escalation là gì?",
+    "options": [
+      "Lỗ hổng cho phép người dùng leo lên quyền cao hơn so với được cấp",
+      "Tăng tốc xử lý CPU",
+      "Tăng bộ nhớ hệ thống",
+      "Mở rộng dung lượng ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 67 (Chương 5): SELinux là gì?",
+    "options": [
+      "Cơ chế kiểm soát truy cập bắt buộc (MAC) trên Linux",
+      "Trình quản lý file",
+      "Một loại kernel module",
+      "Phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 68 (Chương 5): Patch Management trong hệ điều hành giúp gì cho bảo mật?",
+    "options": [
+      "Khắc phục lỗ hổng bảo mật và cập nhật phần mềm",
+      "Xóa dữ liệu người dùng",
+      "Giảm hiệu năng hệ thống",
+      "Vô hiệu hóa quyền admin"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 69 (Chương 5): Secure Boot có chức năng gì?",
+    "options": [
+      "Chỉ cho phép phần mềm được ký hợp lệ chạy khi khởi động",
+      "Tăng tốc khởi động",
+      "Chống phân mảnh ổ đĩa",
+      "Tạo file backup"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 70 (Chương 5): SELinux là gì?",
+    "options": [
+      "Cơ chế kiểm soát truy cập bắt buộc (MAC) trên Linux",
+      "Trình quản lý file",
+      "Một loại kernel module",
+      "Phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 71 (Chương 5): Một thực hành tốt khi quản trị hệ điều hành là gì?",
+    "options": [
+      "Cập nhật bản vá, sao lưu dữ liệu, giới hạn quyền người dùng",
+      "Cho phép tất cả quyền truy cập",
+      "Không bao giờ cập nhật",
+      "Tắt bảo mật mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 72 (Chương 5): Firewall có vai trò gì trong hệ điều hành?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra theo quy tắc bảo mật",
+      "Tăng tốc độ CPU",
+      "Lưu trữ file người dùng",
+      "Tắt các dịch vụ mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 73 (Chương 5): Secure Boot có chức năng gì?",
+    "options": [
+      "Chỉ cho phép phần mềm được ký hợp lệ chạy khi khởi động",
+      "Tăng tốc khởi động",
+      "Chống phân mảnh ổ đĩa",
+      "Tạo file backup"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 74 (Chương 5): Một thực hành tốt khi quản trị hệ điều hành là gì?",
+    "options": [
+      "Cập nhật bản vá, sao lưu dữ liệu, giới hạn quyền người dùng",
+      "Cho phép tất cả quyền truy cập",
+      "Không bao giờ cập nhật",
+      "Tắt bảo mật mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 75 (Chương 5): Một phương pháp để bảo vệ dữ liệu nhạy cảm là gì?",
+    "options": [
+      "Mã hóa dữ liệu trên ổ đĩa hoặc hệ thống tệp",
+      "Tăng RAM",
+      "Tắt firewall",
+      "Xóa file hệ thống"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 76 (Chương 5): Patch Management trong hệ điều hành giúp gì cho bảo mật?",
+    "options": [
+      "Khắc phục lỗ hổng bảo mật và cập nhật phần mềm",
+      "Xóa dữ liệu người dùng",
+      "Giảm hiệu năng hệ thống",
+      "Vô hiệu hóa quyền admin"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 77 (Chương 5): Privilege escalation là gì?",
+    "options": [
+      "Lỗ hổng cho phép người dùng leo lên quyền cao hơn so với được cấp",
+      "Tăng tốc xử lý CPU",
+      "Tăng bộ nhớ hệ thống",
+      "Mở rộng dung lượng ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 78 (Chương 5): Một thực hành tốt khi quản trị hệ điều hành là gì?",
+    "options": [
+      "Cập nhật bản vá, sao lưu dữ liệu, giới hạn quyền người dùng",
+      "Cho phép tất cả quyền truy cập",
+      "Không bao giờ cập nhật",
+      "Tắt bảo mật mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 79 (Chương 5): Authentication và Authorization khác nhau như thế nào?",
+    "options": [
+      "Authentication xác minh danh tính, Authorization xác định quyền truy cập",
+      "Authorization xác minh danh tính, Authentication xác định quyền truy cập",
+      "Cả hai giống nhau",
+      "Không liên quan đến bảo mật"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 80 (Chương 5): Nguyên tắc 'Least Privilege' trong bảo mật hệ điều hành nhằm mục đích gì?",
+    "options": [
+      "Giảm thiểu quyền truy cập chỉ ở mức cần thiết",
+      "Cấp quyền tối đa cho mọi người dùng",
+      "Xóa tất cả quyền người dùng",
+      "Không cho phép truy cập tài nguyên"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 81 (Chương 5): Secure Boot có chức năng gì?",
+    "options": [
+      "Chỉ cho phép phần mềm được ký hợp lệ chạy khi khởi động",
+      "Tăng tốc khởi động",
+      "Chống phân mảnh ổ đĩa",
+      "Tạo file backup"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 82 (Chương 5): Audit logs được dùng để làm gì?",
+    "options": [
+      "Theo dõi hoạt động hệ thống và phát hiện hành vi bất thường",
+      "Tăng dung lượng RAM",
+      "Xóa file tạm thời",
+      "Cập nhật driver"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 83 (Chương 5): SELinux là gì?",
+    "options": [
+      "Cơ chế kiểm soát truy cập bắt buộc (MAC) trên Linux",
+      "Trình quản lý file",
+      "Một loại kernel module",
+      "Phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 84 (Chương 5): Nguyên tắc 'Least Privilege' trong bảo mật hệ điều hành nhằm mục đích gì?",
+    "options": [
+      "Giảm thiểu quyền truy cập chỉ ở mức cần thiết",
+      "Cấp quyền tối đa cho mọi người dùng",
+      "Xóa tất cả quyền người dùng",
+      "Không cho phép truy cập tài nguyên"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 85 (Chương 5): Một thực hành tốt khi quản trị hệ điều hành là gì?",
+    "options": [
+      "Cập nhật bản vá, sao lưu dữ liệu, giới hạn quyền người dùng",
+      "Cho phép tất cả quyền truy cập",
+      "Không bao giờ cập nhật",
+      "Tắt bảo mật mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 86 (Chương 5): Firewall có vai trò gì trong hệ điều hành?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra theo quy tắc bảo mật",
+      "Tăng tốc độ CPU",
+      "Lưu trữ file người dùng",
+      "Tắt các dịch vụ mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 87 (Chương 5): Audit logs được dùng để làm gì?",
+    "options": [
+      "Theo dõi hoạt động hệ thống và phát hiện hành vi bất thường",
+      "Tăng dung lượng RAM",
+      "Xóa file tạm thời",
+      "Cập nhật driver"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 88 (Chương 5): Secure Boot có chức năng gì?",
+    "options": [
+      "Chỉ cho phép phần mềm được ký hợp lệ chạy khi khởi động",
+      "Tăng tốc khởi động",
+      "Chống phân mảnh ổ đĩa",
+      "Tạo file backup"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 89 (Chương 5): Secure Boot có chức năng gì?",
+    "options": [
+      "Chỉ cho phép phần mềm được ký hợp lệ chạy khi khởi động",
+      "Tăng tốc khởi động",
+      "Chống phân mảnh ổ đĩa",
+      "Tạo file backup"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 90 (Chương 5): Privilege escalation là gì?",
+    "options": [
+      "Lỗ hổng cho phép người dùng leo lên quyền cao hơn so với được cấp",
+      "Tăng tốc xử lý CPU",
+      "Tăng bộ nhớ hệ thống",
+      "Mở rộng dung lượng ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 91 (Chương 5): Nguyên tắc 'Least Privilege' trong bảo mật hệ điều hành nhằm mục đích gì?",
+    "options": [
+      "Giảm thiểu quyền truy cập chỉ ở mức cần thiết",
+      "Cấp quyền tối đa cho mọi người dùng",
+      "Xóa tất cả quyền người dùng",
+      "Không cho phép truy cập tài nguyên"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 92 (Chương 5): Patch Management trong hệ điều hành giúp gì cho bảo mật?",
+    "options": [
+      "Khắc phục lỗ hổng bảo mật và cập nhật phần mềm",
+      "Xóa dữ liệu người dùng",
+      "Giảm hiệu năng hệ thống",
+      "Vô hiệu hóa quyền admin"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 93 (Chương 5): Patch Management trong hệ điều hành giúp gì cho bảo mật?",
+    "options": [
+      "Khắc phục lỗ hổng bảo mật và cập nhật phần mềm",
+      "Xóa dữ liệu người dùng",
+      "Giảm hiệu năng hệ thống",
+      "Vô hiệu hóa quyền admin"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 94 (Chương 5): Audit logs được dùng để làm gì?",
+    "options": [
+      "Theo dõi hoạt động hệ thống và phát hiện hành vi bất thường",
+      "Tăng dung lượng RAM",
+      "Xóa file tạm thời",
+      "Cập nhật driver"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 95 (Chương 5): Nguyên tắc 'Least Privilege' trong bảo mật hệ điều hành nhằm mục đích gì?",
+    "options": [
+      "Giảm thiểu quyền truy cập chỉ ở mức cần thiết",
+      "Cấp quyền tối đa cho mọi người dùng",
+      "Xóa tất cả quyền người dùng",
+      "Không cho phép truy cập tài nguyên"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 96 (Chương 5): Authentication và Authorization khác nhau như thế nào?",
+    "options": [
+      "Authentication xác minh danh tính, Authorization xác định quyền truy cập",
+      "Authorization xác minh danh tính, Authentication xác định quyền truy cập",
+      "Cả hai giống nhau",
+      "Không liên quan đến bảo mật"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 97 (Chương 5): Privilege escalation là gì?",
+    "options": [
+      "Lỗ hổng cho phép người dùng leo lên quyền cao hơn so với được cấp",
+      "Tăng tốc xử lý CPU",
+      "Tăng bộ nhớ hệ thống",
+      "Mở rộng dung lượng ổ đĩa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 98 (Chương 5): SELinux là gì?",
+    "options": [
+      "Cơ chế kiểm soát truy cập bắt buộc (MAC) trên Linux",
+      "Trình quản lý file",
+      "Một loại kernel module",
+      "Phần mềm diệt virus"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 99 (Chương 5): Secure Boot có chức năng gì?",
+    "options": [
+      "Chỉ cho phép phần mềm được ký hợp lệ chạy khi khởi động",
+      "Tăng tốc khởi động",
+      "Chống phân mảnh ổ đĩa",
+      "Tạo file backup"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  },
+  {
+    "question": "Câu 100 (Chương 5): Nguyên tắc 'Least Privilege' trong bảo mật hệ điều hành nhằm mục đích gì?",
+    "options": [
+      "Giảm thiểu quyền truy cập chỉ ở mức cần thiết",
+      "Cấp quyền tối đa cho mọi người dùng",
+      "Xóa tất cả quyền người dùng",
+      "Không cho phép truy cập tài nguyên"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành"
+  }
+]

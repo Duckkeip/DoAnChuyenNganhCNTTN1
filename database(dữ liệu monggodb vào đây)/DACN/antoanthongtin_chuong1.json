@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 1): Confidentiality (Tính bảo mật) đảm bảo điều gì?",
+    "options": [
+      "Chỉ người được phép mới có thể truy cập thông tin",
+      "Thông tin không bao giờ bị mất",
+      "Dữ liệu được mã hóa",
+      "Hệ thống hoạt động liên tục"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 2 (Chương 1): Ba yếu tố cốt lõi của bảo mật thông tin (tam giác CIA) bao gồm gì?",
+    "options": [
+      "Confidentiality, Integrity, Availability",
+      "Control, Identity, Access",
+      "Confidentiality, Innovation, Accuracy",
+      "Cryptography, Information, Access"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 3 (Chương 1): Một ví dụ của lỗ hổng bảo mật (vulnerability) là gì?",
+    "options": [
+      "Phần mềm có lỗi cho phép truy cập trái phép",
+      "Mật khẩu mạnh",
+      "Firewall hoạt động tốt",
+      "Mã hóa dữ liệu đúng chuẩn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 4 (Chương 1): Availability (Tính sẵn sàng) nghĩa là gì?",
+    "options": [
+      "Thông tin và hệ thống luôn sẵn sàng khi người dùng được phép truy cập",
+      "Dữ liệu được mã hóa an toàn",
+      "Hệ thống không cần bảo trì",
+      "Không cần sao lưu dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 5 (Chương 1): Một ví dụ của lỗ hổng bảo mật (vulnerability) là gì?",
+    "options": [
+      "Phần mềm có lỗi cho phép truy cập trái phép",
+      "Mật khẩu mạnh",
+      "Firewall hoạt động tốt",
+      "Mã hóa dữ liệu đúng chuẩn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 6 (Chương 1): Confidentiality (Tính bảo mật) đảm bảo điều gì?",
+    "options": [
+      "Chỉ người được phép mới có thể truy cập thông tin",
+      "Thông tin không bao giờ bị mất",
+      "Dữ liệu được mã hóa",
+      "Hệ thống hoạt động liên tục"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 7 (Chương 1): Ba yếu tố cốt lõi của bảo mật thông tin (tam giác CIA) bao gồm gì?",
+    "options": [
+      "Confidentiality, Integrity, Availability",
+      "Control, Identity, Access",
+      "Confidentiality, Innovation, Accuracy",
+      "Cryptography, Information, Access"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 8 (Chương 1): Confidentiality (Tính bảo mật) đảm bảo điều gì?",
+    "options": [
+      "Chỉ người được phép mới có thể truy cập thông tin",
+      "Thông tin không bao giờ bị mất",
+      "Dữ liệu được mã hóa",
+      "Hệ thống hoạt động liên tục"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 9 (Chương 1): Ai chịu trách nhiệm chính trong việc đảm bảo an toàn thông tin của tổ chức?",
+    "options": [
+      "Tất cả nhân viên trong tổ chức",
+      "Chỉ bộ phận IT",
+      "Chỉ quản lý cấp cao",
+      "Nhà cung cấp dịch vụ Internet"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 10 (Chương 1): Mối đe dọa (threat) trong an toàn thông tin là gì?",
+    "options": [
+      "Bất kỳ hành động hoặc sự kiện nào có thể gây hại đến hệ thống thông tin",
+      "Một bản vá lỗi phần mềm",
+      "Một hệ thống sao lưu",
+      "Một công cụ giám sát mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 11 (Chương 1): An toàn thông tin là gì?",
+    "options": [
+      "Bảo vệ thông tin khỏi truy cập, sửa đổi hoặc phá hủy trái phép",
+      "Lưu trữ thông tin trong máy tính",
+      "Chia sẻ dữ liệu qua Internet",
+      "Tăng tốc độ truyền dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 12 (Chương 1): Một ví dụ của lỗ hổng bảo mật (vulnerability) là gì?",
+    "options": [
+      "Phần mềm có lỗi cho phép truy cập trái phép",
+      "Mật khẩu mạnh",
+      "Firewall hoạt động tốt",
+      "Mã hóa dữ liệu đúng chuẩn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 13 (Chương 1): Một ví dụ của lỗ hổng bảo mật (vulnerability) là gì?",
+    "options": [
+      "Phần mềm có lỗi cho phép truy cập trái phép",
+      "Mật khẩu mạnh",
+      "Firewall hoạt động tốt",
+      "Mã hóa dữ liệu đúng chuẩn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 14 (Chương 1): Confidentiality (Tính bảo mật) đảm bảo điều gì?",
+    "options": [
+      "Chỉ người được phép mới có thể truy cập thông tin",
+      "Thông tin không bao giờ bị mất",
+      "Dữ liệu được mã hóa",
+      "Hệ thống hoạt động liên tục"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 15 (Chương 1): Mối đe dọa (threat) trong an toàn thông tin là gì?",
+    "options": [
+      "Bất kỳ hành động hoặc sự kiện nào có thể gây hại đến hệ thống thông tin",
+      "Một bản vá lỗi phần mềm",
+      "Một hệ thống sao lưu",
+      "Một công cụ giám sát mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 16 (Chương 1): Confidentiality (Tính bảo mật) đảm bảo điều gì?",
+    "options": [
+      "Chỉ người được phép mới có thể truy cập thông tin",
+      "Thông tin không bao giờ bị mất",
+      "Dữ liệu được mã hóa",
+      "Hệ thống hoạt động liên tục"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 17 (Chương 1): Integrity (Tính toàn vẹn) nghĩa là gì trong bảo mật thông tin?",
+    "options": [
+      "Dữ liệu không bị thay đổi trái phép trong quá trình lưu trữ hoặc truyền",
+      "Người dùng có quyền truy cập hợp lệ",
+      "Hệ thống luôn sẵn sàng hoạt động",
+      "Không ai biết thông tin"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 18 (Chương 1): Một ví dụ của lỗ hổng bảo mật (vulnerability) là gì?",
+    "options": [
+      "Phần mềm có lỗi cho phép truy cập trái phép",
+      "Mật khẩu mạnh",
+      "Firewall hoạt động tốt",
+      "Mã hóa dữ liệu đúng chuẩn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 19 (Chương 1): Integrity (Tính toàn vẹn) nghĩa là gì trong bảo mật thông tin?",
+    "options": [
+      "Dữ liệu không bị thay đổi trái phép trong quá trình lưu trữ hoặc truyền",
+      "Người dùng có quyền truy cập hợp lệ",
+      "Hệ thống luôn sẵn sàng hoạt động",
+      "Không ai biết thông tin"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 20 (Chương 1): Integrity (Tính toàn vẹn) nghĩa là gì trong bảo mật thông tin?",
+    "options": [
+      "Dữ liệu không bị thay đổi trái phép trong quá trình lưu trữ hoặc truyền",
+      "Người dùng có quyền truy cập hợp lệ",
+      "Hệ thống luôn sẵn sàng hoạt động",
+      "Không ai biết thông tin"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 21 (Chương 1): Ai chịu trách nhiệm chính trong việc đảm bảo an toàn thông tin của tổ chức?",
+    "options": [
+      "Tất cả nhân viên trong tổ chức",
+      "Chỉ bộ phận IT",
+      "Chỉ quản lý cấp cao",
+      "Nhà cung cấp dịch vụ Internet"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 22 (Chương 1): Mối đe dọa (threat) trong an toàn thông tin là gì?",
+    "options": [
+      "Bất kỳ hành động hoặc sự kiện nào có thể gây hại đến hệ thống thông tin",
+      "Một bản vá lỗi phần mềm",
+      "Một hệ thống sao lưu",
+      "Một công cụ giám sát mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 23 (Chương 1): Confidentiality (Tính bảo mật) đảm bảo điều gì?",
+    "options": [
+      "Chỉ người được phép mới có thể truy cập thông tin",
+      "Thông tin không bao giờ bị mất",
+      "Dữ liệu được mã hóa",
+      "Hệ thống hoạt động liên tục"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 24 (Chương 1): An toàn thông tin là gì?",
+    "options": [
+      "Bảo vệ thông tin khỏi truy cập, sửa đổi hoặc phá hủy trái phép",
+      "Lưu trữ thông tin trong máy tính",
+      "Chia sẻ dữ liệu qua Internet",
+      "Tăng tốc độ truyền dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 25 (Chương 1): An toàn thông tin là gì?",
+    "options": [
+      "Bảo vệ thông tin khỏi truy cập, sửa đổi hoặc phá hủy trái phép",
+      "Lưu trữ thông tin trong máy tính",
+      "Chia sẻ dữ liệu qua Internet",
+      "Tăng tốc độ truyền dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 26 (Chương 1): Confidentiality (Tính bảo mật) đảm bảo điều gì?",
+    "options": [
+      "Chỉ người được phép mới có thể truy cập thông tin",
+      "Thông tin không bao giờ bị mất",
+      "Dữ liệu được mã hóa",
+      "Hệ thống hoạt động liên tục"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 27 (Chương 1): Availability (Tính sẵn sàng) nghĩa là gì?",
+    "options": [
+      "Thông tin và hệ thống luôn sẵn sàng khi người dùng được phép truy cập",
+      "Dữ liệu được mã hóa an toàn",
+      "Hệ thống không cần bảo trì",
+      "Không cần sao lưu dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 28 (Chương 1): Availability (Tính sẵn sàng) nghĩa là gì?",
+    "options": [
+      "Thông tin và hệ thống luôn sẵn sàng khi người dùng được phép truy cập",
+      "Dữ liệu được mã hóa an toàn",
+      "Hệ thống không cần bảo trì",
+      "Không cần sao lưu dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 29 (Chương 1): Confidentiality (Tính bảo mật) đảm bảo điều gì?",
+    "options": [
+      "Chỉ người được phép mới có thể truy cập thông tin",
+      "Thông tin không bao giờ bị mất",
+      "Dữ liệu được mã hóa",
+      "Hệ thống hoạt động liên tục"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 30 (Chương 1): Integrity (Tính toàn vẹn) nghĩa là gì trong bảo mật thông tin?",
+    "options": [
+      "Dữ liệu không bị thay đổi trái phép trong quá trình lưu trữ hoặc truyền",
+      "Người dùng có quyền truy cập hợp lệ",
+      "Hệ thống luôn sẵn sàng hoạt động",
+      "Không ai biết thông tin"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 31 (Chương 1): Ba yếu tố cốt lõi của bảo mật thông tin (tam giác CIA) bao gồm gì?",
+    "options": [
+      "Confidentiality, Integrity, Availability",
+      "Control, Identity, Access",
+      "Confidentiality, Innovation, Accuracy",
+      "Cryptography, Information, Access"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 32 (Chương 1): Confidentiality (Tính bảo mật) đảm bảo điều gì?",
+    "options": [
+      "Chỉ người được phép mới có thể truy cập thông tin",
+      "Thông tin không bao giờ bị mất",
+      "Dữ liệu được mã hóa",
+      "Hệ thống hoạt động liên tục"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 33 (Chương 1): Mối đe dọa (threat) trong an toàn thông tin là gì?",
+    "options": [
+      "Bất kỳ hành động hoặc sự kiện nào có thể gây hại đến hệ thống thông tin",
+      "Một bản vá lỗi phần mềm",
+      "Một hệ thống sao lưu",
+      "Một công cụ giám sát mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 34 (Chương 1): Tấn công từ chối dịch vụ (DoS) nhằm mục tiêu gì?",
+    "options": [
+      "Làm cho hệ thống không thể cung cấp dịch vụ cho người dùng hợp lệ",
+      "Lấy cắp dữ liệu",
+      "Giải mã mật khẩu",
+      "Tăng hiệu năng server"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 35 (Chương 1): Availability (Tính sẵn sàng) nghĩa là gì?",
+    "options": [
+      "Thông tin và hệ thống luôn sẵn sàng khi người dùng được phép truy cập",
+      "Dữ liệu được mã hóa an toàn",
+      "Hệ thống không cần bảo trì",
+      "Không cần sao lưu dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 36 (Chương 1): Ba yếu tố cốt lõi của bảo mật thông tin (tam giác CIA) bao gồm gì?",
+    "options": [
+      "Confidentiality, Integrity, Availability",
+      "Control, Identity, Access",
+      "Confidentiality, Innovation, Accuracy",
+      "Cryptography, Information, Access"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 37 (Chương 1): Ba yếu tố cốt lõi của bảo mật thông tin (tam giác CIA) bao gồm gì?",
+    "options": [
+      "Confidentiality, Integrity, Availability",
+      "Control, Identity, Access",
+      "Confidentiality, Innovation, Accuracy",
+      "Cryptography, Information, Access"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 38 (Chương 1): Confidentiality (Tính bảo mật) đảm bảo điều gì?",
+    "options": [
+      "Chỉ người được phép mới có thể truy cập thông tin",
+      "Thông tin không bao giờ bị mất",
+      "Dữ liệu được mã hóa",
+      "Hệ thống hoạt động liên tục"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 39 (Chương 1): Mối đe dọa (threat) trong an toàn thông tin là gì?",
+    "options": [
+      "Bất kỳ hành động hoặc sự kiện nào có thể gây hại đến hệ thống thông tin",
+      "Một bản vá lỗi phần mềm",
+      "Một hệ thống sao lưu",
+      "Một công cụ giám sát mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 40 (Chương 1): Availability (Tính sẵn sàng) nghĩa là gì?",
+    "options": [
+      "Thông tin và hệ thống luôn sẵn sàng khi người dùng được phép truy cập",
+      "Dữ liệu được mã hóa an toàn",
+      "Hệ thống không cần bảo trì",
+      "Không cần sao lưu dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 41 (Chương 1): Phishing là hình thức tấn công nào?",
+    "options": [
+      "Giả mạo email hoặc website để đánh cắp thông tin người dùng",
+      "Tấn công từ chối dịch vụ",
+      "Tấn công brute force",
+      "Xâm nhập vật lý"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 42 (Chương 1): An toàn thông tin là gì?",
+    "options": [
+      "Bảo vệ thông tin khỏi truy cập, sửa đổi hoặc phá hủy trái phép",
+      "Lưu trữ thông tin trong máy tính",
+      "Chia sẻ dữ liệu qua Internet",
+      "Tăng tốc độ truyền dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 43 (Chương 1): Ba yếu tố cốt lõi của bảo mật thông tin (tam giác CIA) bao gồm gì?",
+    "options": [
+      "Confidentiality, Integrity, Availability",
+      "Control, Identity, Access",
+      "Confidentiality, Innovation, Accuracy",
+      "Cryptography, Information, Access"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 44 (Chương 1): Availability (Tính sẵn sàng) nghĩa là gì?",
+    "options": [
+      "Thông tin và hệ thống luôn sẵn sàng khi người dùng được phép truy cập",
+      "Dữ liệu được mã hóa an toàn",
+      "Hệ thống không cần bảo trì",
+      "Không cần sao lưu dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 45 (Chương 1): Ba yếu tố cốt lõi của bảo mật thông tin (tam giác CIA) bao gồm gì?",
+    "options": [
+      "Confidentiality, Integrity, Availability",
+      "Control, Identity, Access",
+      "Confidentiality, Innovation, Accuracy",
+      "Cryptography, Information, Access"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 46 (Chương 1): Mối đe dọa (threat) trong an toàn thông tin là gì?",
+    "options": [
+      "Bất kỳ hành động hoặc sự kiện nào có thể gây hại đến hệ thống thông tin",
+      "Một bản vá lỗi phần mềm",
+      "Một hệ thống sao lưu",
+      "Một công cụ giám sát mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 47 (Chương 1): An toàn thông tin là gì?",
+    "options": [
+      "Bảo vệ thông tin khỏi truy cập, sửa đổi hoặc phá hủy trái phép",
+      "Lưu trữ thông tin trong máy tính",
+      "Chia sẻ dữ liệu qua Internet",
+      "Tăng tốc độ truyền dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 48 (Chương 1): Ba yếu tố cốt lõi của bảo mật thông tin (tam giác CIA) bao gồm gì?",
+    "options": [
+      "Confidentiality, Integrity, Availability",
+      "Control, Identity, Access",
+      "Confidentiality, Innovation, Accuracy",
+      "Cryptography, Information, Access"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 49 (Chương 1): Ba yếu tố cốt lõi của bảo mật thông tin (tam giác CIA) bao gồm gì?",
+    "options": [
+      "Confidentiality, Integrity, Availability",
+      "Control, Identity, Access",
+      "Confidentiality, Innovation, Accuracy",
+      "Cryptography, Information, Access"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 50 (Chương 1): Một ví dụ của lỗ hổng bảo mật (vulnerability) là gì?",
+    "options": [
+      "Phần mềm có lỗi cho phép truy cập trái phép",
+      "Mật khẩu mạnh",
+      "Firewall hoạt động tốt",
+      "Mã hóa dữ liệu đúng chuẩn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 51 (Chương 1): An toàn thông tin là gì?",
+    "options": [
+      "Bảo vệ thông tin khỏi truy cập, sửa đổi hoặc phá hủy trái phép",
+      "Lưu trữ thông tin trong máy tính",
+      "Chia sẻ dữ liệu qua Internet",
+      "Tăng tốc độ truyền dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 52 (Chương 1): Mối đe dọa (threat) trong an toàn thông tin là gì?",
+    "options": [
+      "Bất kỳ hành động hoặc sự kiện nào có thể gây hại đến hệ thống thông tin",
+      "Một bản vá lỗi phần mềm",
+      "Một hệ thống sao lưu",
+      "Một công cụ giám sát mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 53 (Chương 1): Một ví dụ của lỗ hổng bảo mật (vulnerability) là gì?",
+    "options": [
+      "Phần mềm có lỗi cho phép truy cập trái phép",
+      "Mật khẩu mạnh",
+      "Firewall hoạt động tốt",
+      "Mã hóa dữ liệu đúng chuẩn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 54 (Chương 1): Tấn công từ chối dịch vụ (DoS) nhằm mục tiêu gì?",
+    "options": [
+      "Làm cho hệ thống không thể cung cấp dịch vụ cho người dùng hợp lệ",
+      "Lấy cắp dữ liệu",
+      "Giải mã mật khẩu",
+      "Tăng hiệu năng server"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 55 (Chương 1): Phishing là hình thức tấn công nào?",
+    "options": [
+      "Giả mạo email hoặc website để đánh cắp thông tin người dùng",
+      "Tấn công từ chối dịch vụ",
+      "Tấn công brute force",
+      "Xâm nhập vật lý"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 56 (Chương 1): Mối đe dọa (threat) trong an toàn thông tin là gì?",
+    "options": [
+      "Bất kỳ hành động hoặc sự kiện nào có thể gây hại đến hệ thống thông tin",
+      "Một bản vá lỗi phần mềm",
+      "Một hệ thống sao lưu",
+      "Một công cụ giám sát mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 57 (Chương 1): Integrity (Tính toàn vẹn) nghĩa là gì trong bảo mật thông tin?",
+    "options": [
+      "Dữ liệu không bị thay đổi trái phép trong quá trình lưu trữ hoặc truyền",
+      "Người dùng có quyền truy cập hợp lệ",
+      "Hệ thống luôn sẵn sàng hoạt động",
+      "Không ai biết thông tin"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 58 (Chương 1): Một ví dụ của lỗ hổng bảo mật (vulnerability) là gì?",
+    "options": [
+      "Phần mềm có lỗi cho phép truy cập trái phép",
+      "Mật khẩu mạnh",
+      "Firewall hoạt động tốt",
+      "Mã hóa dữ liệu đúng chuẩn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 59 (Chương 1): Một ví dụ của lỗ hổng bảo mật (vulnerability) là gì?",
+    "options": [
+      "Phần mềm có lỗi cho phép truy cập trái phép",
+      "Mật khẩu mạnh",
+      "Firewall hoạt động tốt",
+      "Mã hóa dữ liệu đúng chuẩn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 60 (Chương 1): Availability (Tính sẵn sàng) nghĩa là gì?",
+    "options": [
+      "Thông tin và hệ thống luôn sẵn sàng khi người dùng được phép truy cập",
+      "Dữ liệu được mã hóa an toàn",
+      "Hệ thống không cần bảo trì",
+      "Không cần sao lưu dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 61 (Chương 1): An toàn thông tin là gì?",
+    "options": [
+      "Bảo vệ thông tin khỏi truy cập, sửa đổi hoặc phá hủy trái phép",
+      "Lưu trữ thông tin trong máy tính",
+      "Chia sẻ dữ liệu qua Internet",
+      "Tăng tốc độ truyền dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 62 (Chương 1): Availability (Tính sẵn sàng) nghĩa là gì?",
+    "options": [
+      "Thông tin và hệ thống luôn sẵn sàng khi người dùng được phép truy cập",
+      "Dữ liệu được mã hóa an toàn",
+      "Hệ thống không cần bảo trì",
+      "Không cần sao lưu dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 63 (Chương 1): Một ví dụ của lỗ hổng bảo mật (vulnerability) là gì?",
+    "options": [
+      "Phần mềm có lỗi cho phép truy cập trái phép",
+      "Mật khẩu mạnh",
+      "Firewall hoạt động tốt",
+      "Mã hóa dữ liệu đúng chuẩn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 64 (Chương 1): Mối đe dọa (threat) trong an toàn thông tin là gì?",
+    "options": [
+      "Bất kỳ hành động hoặc sự kiện nào có thể gây hại đến hệ thống thông tin",
+      "Một bản vá lỗi phần mềm",
+      "Một hệ thống sao lưu",
+      "Một công cụ giám sát mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 65 (Chương 1): Phishing là hình thức tấn công nào?",
+    "options": [
+      "Giả mạo email hoặc website để đánh cắp thông tin người dùng",
+      "Tấn công từ chối dịch vụ",
+      "Tấn công brute force",
+      "Xâm nhập vật lý"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 66 (Chương 1): Phishing là hình thức tấn công nào?",
+    "options": [
+      "Giả mạo email hoặc website để đánh cắp thông tin người dùng",
+      "Tấn công từ chối dịch vụ",
+      "Tấn công brute force",
+      "Xâm nhập vật lý"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 67 (Chương 1): Integrity (Tính toàn vẹn) nghĩa là gì trong bảo mật thông tin?",
+    "options": [
+      "Dữ liệu không bị thay đổi trái phép trong quá trình lưu trữ hoặc truyền",
+      "Người dùng có quyền truy cập hợp lệ",
+      "Hệ thống luôn sẵn sàng hoạt động",
+      "Không ai biết thông tin"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 68 (Chương 1): An toàn thông tin là gì?",
+    "options": [
+      "Bảo vệ thông tin khỏi truy cập, sửa đổi hoặc phá hủy trái phép",
+      "Lưu trữ thông tin trong máy tính",
+      "Chia sẻ dữ liệu qua Internet",
+      "Tăng tốc độ truyền dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 69 (Chương 1): Phishing là hình thức tấn công nào?",
+    "options": [
+      "Giả mạo email hoặc website để đánh cắp thông tin người dùng",
+      "Tấn công từ chối dịch vụ",
+      "Tấn công brute force",
+      "Xâm nhập vật lý"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 70 (Chương 1): Availability (Tính sẵn sàng) nghĩa là gì?",
+    "options": [
+      "Thông tin và hệ thống luôn sẵn sàng khi người dùng được phép truy cập",
+      "Dữ liệu được mã hóa an toàn",
+      "Hệ thống không cần bảo trì",
+      "Không cần sao lưu dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 71 (Chương 1): Một ví dụ của lỗ hổng bảo mật (vulnerability) là gì?",
+    "options": [
+      "Phần mềm có lỗi cho phép truy cập trái phép",
+      "Mật khẩu mạnh",
+      "Firewall hoạt động tốt",
+      "Mã hóa dữ liệu đúng chuẩn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 72 (Chương 1): Tấn công từ chối dịch vụ (DoS) nhằm mục tiêu gì?",
+    "options": [
+      "Làm cho hệ thống không thể cung cấp dịch vụ cho người dùng hợp lệ",
+      "Lấy cắp dữ liệu",
+      "Giải mã mật khẩu",
+      "Tăng hiệu năng server"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 73 (Chương 1): Một ví dụ của lỗ hổng bảo mật (vulnerability) là gì?",
+    "options": [
+      "Phần mềm có lỗi cho phép truy cập trái phép",
+      "Mật khẩu mạnh",
+      "Firewall hoạt động tốt",
+      "Mã hóa dữ liệu đúng chuẩn"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 74 (Chương 1): Ba yếu tố cốt lõi của bảo mật thông tin (tam giác CIA) bao gồm gì?",
+    "options": [
+      "Confidentiality, Integrity, Availability",
+      "Control, Identity, Access",
+      "Confidentiality, Innovation, Accuracy",
+      "Cryptography, Information, Access"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 75 (Chương 1): Ai chịu trách nhiệm chính trong việc đảm bảo an toàn thông tin của tổ chức?",
+    "options": [
+      "Tất cả nhân viên trong tổ chức",
+      "Chỉ bộ phận IT",
+      "Chỉ quản lý cấp cao",
+      "Nhà cung cấp dịch vụ Internet"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 76 (Chương 1): Ai chịu trách nhiệm chính trong việc đảm bảo an toàn thông tin của tổ chức?",
+    "options": [
+      "Tất cả nhân viên trong tổ chức",
+      "Chỉ bộ phận IT",
+      "Chỉ quản lý cấp cao",
+      "Nhà cung cấp dịch vụ Internet"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 77 (Chương 1): Phishing là hình thức tấn công nào?",
+    "options": [
+      "Giả mạo email hoặc website để đánh cắp thông tin người dùng",
+      "Tấn công từ chối dịch vụ",
+      "Tấn công brute force",
+      "Xâm nhập vật lý"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 78 (Chương 1): Phishing là hình thức tấn công nào?",
+    "options": [
+      "Giả mạo email hoặc website để đánh cắp thông tin người dùng",
+      "Tấn công từ chối dịch vụ",
+      "Tấn công brute force",
+      "Xâm nhập vật lý"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 79 (Chương 1): Confidentiality (Tính bảo mật) đảm bảo điều gì?",
+    "options": [
+      "Chỉ người được phép mới có thể truy cập thông tin",
+      "Thông tin không bao giờ bị mất",
+      "Dữ liệu được mã hóa",
+      "Hệ thống hoạt động liên tục"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 80 (Chương 1): Phishing là hình thức tấn công nào?",
+    "options": [
+      "Giả mạo email hoặc website để đánh cắp thông tin người dùng",
+      "Tấn công từ chối dịch vụ",
+      "Tấn công brute force",
+      "Xâm nhập vật lý"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 81 (Chương 1): Ba yếu tố cốt lõi của bảo mật thông tin (tam giác CIA) bao gồm gì?",
+    "options": [
+      "Confidentiality, Integrity, Availability",
+      "Control, Identity, Access",
+      "Confidentiality, Innovation, Accuracy",
+      "Cryptography, Information, Access"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 82 (Chương 1): Ai chịu trách nhiệm chính trong việc đảm bảo an toàn thông tin của tổ chức?",
+    "options": [
+      "Tất cả nhân viên trong tổ chức",
+      "Chỉ bộ phận IT",
+      "Chỉ quản lý cấp cao",
+      "Nhà cung cấp dịch vụ Internet"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 83 (Chương 1): Tấn công từ chối dịch vụ (DoS) nhằm mục tiêu gì?",
+    "options": [
+      "Làm cho hệ thống không thể cung cấp dịch vụ cho người dùng hợp lệ",
+      "Lấy cắp dữ liệu",
+      "Giải mã mật khẩu",
+      "Tăng hiệu năng server"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 84 (Chương 1): An toàn thông tin là gì?",
+    "options": [
+      "Bảo vệ thông tin khỏi truy cập, sửa đổi hoặc phá hủy trái phép",
+      "Lưu trữ thông tin trong máy tính",
+      "Chia sẻ dữ liệu qua Internet",
+      "Tăng tốc độ truyền dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 85 (Chương 1): Integrity (Tính toàn vẹn) nghĩa là gì trong bảo mật thông tin?",
+    "options": [
+      "Dữ liệu không bị thay đổi trái phép trong quá trình lưu trữ hoặc truyền",
+      "Người dùng có quyền truy cập hợp lệ",
+      "Hệ thống luôn sẵn sàng hoạt động",
+      "Không ai biết thông tin"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 86 (Chương 1): Tấn công từ chối dịch vụ (DoS) nhằm mục tiêu gì?",
+    "options": [
+      "Làm cho hệ thống không thể cung cấp dịch vụ cho người dùng hợp lệ",
+      "Lấy cắp dữ liệu",
+      "Giải mã mật khẩu",
+      "Tăng hiệu năng server"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 87 (Chương 1): Confidentiality (Tính bảo mật) đảm bảo điều gì?",
+    "options": [
+      "Chỉ người được phép mới có thể truy cập thông tin",
+      "Thông tin không bao giờ bị mất",
+      "Dữ liệu được mã hóa",
+      "Hệ thống hoạt động liên tục"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 88 (Chương 1): Ai chịu trách nhiệm chính trong việc đảm bảo an toàn thông tin của tổ chức?",
+    "options": [
+      "Tất cả nhân viên trong tổ chức",
+      "Chỉ bộ phận IT",
+      "Chỉ quản lý cấp cao",
+      "Nhà cung cấp dịch vụ Internet"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 89 (Chương 1): Availability (Tính sẵn sàng) nghĩa là gì?",
+    "options": [
+      "Thông tin và hệ thống luôn sẵn sàng khi người dùng được phép truy cập",
+      "Dữ liệu được mã hóa an toàn",
+      "Hệ thống không cần bảo trì",
+      "Không cần sao lưu dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 90 (Chương 1): Integrity (Tính toàn vẹn) nghĩa là gì trong bảo mật thông tin?",
+    "options": [
+      "Dữ liệu không bị thay đổi trái phép trong quá trình lưu trữ hoặc truyền",
+      "Người dùng có quyền truy cập hợp lệ",
+      "Hệ thống luôn sẵn sàng hoạt động",
+      "Không ai biết thông tin"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 91 (Chương 1): Availability (Tính sẵn sàng) nghĩa là gì?",
+    "options": [
+      "Thông tin và hệ thống luôn sẵn sàng khi người dùng được phép truy cập",
+      "Dữ liệu được mã hóa an toàn",
+      "Hệ thống không cần bảo trì",
+      "Không cần sao lưu dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 92 (Chương 1): Tấn công từ chối dịch vụ (DoS) nhằm mục tiêu gì?",
+    "options": [
+      "Làm cho hệ thống không thể cung cấp dịch vụ cho người dùng hợp lệ",
+      "Lấy cắp dữ liệu",
+      "Giải mã mật khẩu",
+      "Tăng hiệu năng server"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 93 (Chương 1): Mối đe dọa (threat) trong an toàn thông tin là gì?",
+    "options": [
+      "Bất kỳ hành động hoặc sự kiện nào có thể gây hại đến hệ thống thông tin",
+      "Một bản vá lỗi phần mềm",
+      "Một hệ thống sao lưu",
+      "Một công cụ giám sát mạng"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 94 (Chương 1): Availability (Tính sẵn sàng) nghĩa là gì?",
+    "options": [
+      "Thông tin và hệ thống luôn sẵn sàng khi người dùng được phép truy cập",
+      "Dữ liệu được mã hóa an toàn",
+      "Hệ thống không cần bảo trì",
+      "Không cần sao lưu dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 95 (Chương 1): Ba yếu tố cốt lõi của bảo mật thông tin (tam giác CIA) bao gồm gì?",
+    "options": [
+      "Confidentiality, Integrity, Availability",
+      "Control, Identity, Access",
+      "Confidentiality, Innovation, Accuracy",
+      "Cryptography, Information, Access"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 96 (Chương 1): Ba yếu tố cốt lõi của bảo mật thông tin (tam giác CIA) bao gồm gì?",
+    "options": [
+      "Confidentiality, Integrity, Availability",
+      "Control, Identity, Access",
+      "Confidentiality, Innovation, Accuracy",
+      "Cryptography, Information, Access"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 97 (Chương 1): Ba yếu tố cốt lõi của bảo mật thông tin (tam giác CIA) bao gồm gì?",
+    "options": [
+      "Confidentiality, Integrity, Availability",
+      "Control, Identity, Access",
+      "Confidentiality, Innovation, Accuracy",
+      "Cryptography, Information, Access"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 98 (Chương 1): Availability (Tính sẵn sàng) nghĩa là gì?",
+    "options": [
+      "Thông tin và hệ thống luôn sẵn sàng khi người dùng được phép truy cập",
+      "Dữ liệu được mã hóa an toàn",
+      "Hệ thống không cần bảo trì",
+      "Không cần sao lưu dữ liệu"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 99 (Chương 1): Ai chịu trách nhiệm chính trong việc đảm bảo an toàn thông tin của tổ chức?",
+    "options": [
+      "Tất cả nhân viên trong tổ chức",
+      "Chỉ bộ phận IT",
+      "Chỉ quản lý cấp cao",
+      "Nhà cung cấp dịch vụ Internet"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  },
+  {
+    "question": "Câu 100 (Chương 1): Ba yếu tố cốt lõi của bảo mật thông tin (tam giác CIA) bao gồm gì?",
+    "options": [
+      "Confidentiality, Integrity, Availability",
+      "Control, Identity, Access",
+      "Confidentiality, Innovation, Accuracy",
+      "Cryptography, Information, Access"
+    ],
+    "answer": 0,
+    "category": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin"
+  }
+]

@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 4): Một biện pháp phổ biến để bảo vệ mạng Wi-Fi cá nhân là gì?",
+    "options": [
+      "Sử dụng mật khẩu mạnh và mã hóa WPA2 hoặc WPA3",
+      "Tắt tường lửa",
+      "Phát Wi-Fi công khai",
+      "Không đặt mật khẩu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 2 (Chương 4): VPN có chức năng gì?",
+    "options": [
+      "Tạo kết nối an toàn giữa các mạng thông qua Internet",
+      "Tăng tốc CPU",
+      "Giảm dung lượng RAM",
+      "Tự động backup dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 3 (Chương 4): Wi-Fi hoạt động dựa trên tiêu chuẩn nào?",
+    "options": [
+      "IEEE 802.11",
+      "IEEE 802.3",
+      "IEEE 802.5",
+      "IEEE 802.15"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 4 (Chương 4): SSID trong mạng Wi-Fi là gì?",
+    "options": [
+      "Tên định danh của mạng không dây",
+      "Mã hóa dữ liệu Wi-Fi",
+      "Địa chỉ IP của router",
+      "Cổng kết nối Internet"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 5 (Chương 4): VPN có chức năng gì?",
+    "options": [
+      "Tạo kết nối an toàn giữa các mạng thông qua Internet",
+      "Tăng tốc CPU",
+      "Giảm dung lượng RAM",
+      "Tự động backup dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 6 (Chương 4): Bluetooth thuộc loại mạng nào?",
+    "options": [
+      "PAN (Personal Area Network)",
+      "LAN",
+      "MAN",
+      "WAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 7 (Chương 4): Giao thức nào được sử dụng để mã hóa kết nối web an toàn?",
+    "options": [
+      "HTTPS (HTTP Secure)",
+      "FTP",
+      "SMTP",
+      "Telnet"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 8 (Chương 4): Mạng không dây (Wireless Network) là gì?",
+    "options": [
+      "Mạng kết nối các thiết bị bằng sóng vô tuyến thay vì dây cáp",
+      "Mạng dùng dây cáp quang",
+      "Mạng chỉ hoạt động trong văn phòng",
+      "Mạng chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 9 (Chương 4): Firewall trong bảo mật mạng có nhiệm vụ gì?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra dựa trên quy tắc bảo mật",
+      "Mã hóa dữ liệu truyền",
+      "Lưu trữ thông tin người dùng",
+      "Phát Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 10 (Chương 4): Bluetooth thuộc loại mạng nào?",
+    "options": [
+      "PAN (Personal Area Network)",
+      "LAN",
+      "MAN",
+      "WAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 11 (Chương 4): Một biện pháp phổ biến để bảo vệ mạng Wi-Fi cá nhân là gì?",
+    "options": [
+      "Sử dụng mật khẩu mạnh và mã hóa WPA2 hoặc WPA3",
+      "Tắt tường lửa",
+      "Phát Wi-Fi công khai",
+      "Không đặt mật khẩu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 12 (Chương 4): Firewall trong bảo mật mạng có nhiệm vụ gì?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra dựa trên quy tắc bảo mật",
+      "Mã hóa dữ liệu truyền",
+      "Lưu trữ thông tin người dùng",
+      "Phát Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 13 (Chương 4): Bluetooth thuộc loại mạng nào?",
+    "options": [
+      "PAN (Personal Area Network)",
+      "LAN",
+      "MAN",
+      "WAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 14 (Chương 4): Một biện pháp phổ biến để bảo vệ mạng Wi-Fi cá nhân là gì?",
+    "options": [
+      "Sử dụng mật khẩu mạnh và mã hóa WPA2 hoặc WPA3",
+      "Tắt tường lửa",
+      "Phát Wi-Fi công khai",
+      "Không đặt mật khẩu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 15 (Chương 4): WPA2 là gì?",
+    "options": [
+      "Chuẩn bảo mật cho mạng Wi-Fi thay thế WEP",
+      "Giao thức định tuyến",
+      "Phần mềm tường lửa",
+      "Bộ định tuyến không dây"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 16 (Chương 4): Mạng không dây (Wireless Network) là gì?",
+    "options": [
+      "Mạng kết nối các thiết bị bằng sóng vô tuyến thay vì dây cáp",
+      "Mạng dùng dây cáp quang",
+      "Mạng chỉ hoạt động trong văn phòng",
+      "Mạng chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 17 (Chương 4): Giao thức nào được sử dụng để mã hóa kết nối web an toàn?",
+    "options": [
+      "HTTPS (HTTP Secure)",
+      "FTP",
+      "SMTP",
+      "Telnet"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 18 (Chương 4): Firewall trong bảo mật mạng có nhiệm vụ gì?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra dựa trên quy tắc bảo mật",
+      "Mã hóa dữ liệu truyền",
+      "Lưu trữ thông tin người dùng",
+      "Phát Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 19 (Chương 4): VPN có chức năng gì?",
+    "options": [
+      "Tạo kết nối an toàn giữa các mạng thông qua Internet",
+      "Tăng tốc CPU",
+      "Giảm dung lượng RAM",
+      "Tự động backup dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 20 (Chương 4): Firewall trong bảo mật mạng có nhiệm vụ gì?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra dựa trên quy tắc bảo mật",
+      "Mã hóa dữ liệu truyền",
+      "Lưu trữ thông tin người dùng",
+      "Phát Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 21 (Chương 4): Bluetooth thuộc loại mạng nào?",
+    "options": [
+      "PAN (Personal Area Network)",
+      "LAN",
+      "MAN",
+      "WAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 22 (Chương 4): Bluetooth thuộc loại mạng nào?",
+    "options": [
+      "PAN (Personal Area Network)",
+      "LAN",
+      "MAN",
+      "WAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 23 (Chương 4): Mạng không dây (Wireless Network) là gì?",
+    "options": [
+      "Mạng kết nối các thiết bị bằng sóng vô tuyến thay vì dây cáp",
+      "Mạng dùng dây cáp quang",
+      "Mạng chỉ hoạt động trong văn phòng",
+      "Mạng chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 24 (Chương 4): Giao thức nào được sử dụng để mã hóa kết nối web an toàn?",
+    "options": [
+      "HTTPS (HTTP Secure)",
+      "FTP",
+      "SMTP",
+      "Telnet"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 25 (Chương 4): Wi-Fi hoạt động dựa trên tiêu chuẩn nào?",
+    "options": [
+      "IEEE 802.11",
+      "IEEE 802.3",
+      "IEEE 802.5",
+      "IEEE 802.15"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 26 (Chương 4): Tấn công 'Man-in-the-Middle' (MITM) là gì?",
+    "options": [
+      "Kẻ tấn công chặn và thay đổi dữ liệu giữa hai bên giao tiếp",
+      "Tấn công vào cơ sở dữ liệu",
+      "Tấn công từ chối dịch vụ",
+      "Tấn công bằng mã độc"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 27 (Chương 4): Tấn công 'Man-in-the-Middle' (MITM) là gì?",
+    "options": [
+      "Kẻ tấn công chặn và thay đổi dữ liệu giữa hai bên giao tiếp",
+      "Tấn công vào cơ sở dữ liệu",
+      "Tấn công từ chối dịch vụ",
+      "Tấn công bằng mã độc"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 28 (Chương 4): Mạng không dây (Wireless Network) là gì?",
+    "options": [
+      "Mạng kết nối các thiết bị bằng sóng vô tuyến thay vì dây cáp",
+      "Mạng dùng dây cáp quang",
+      "Mạng chỉ hoạt động trong văn phòng",
+      "Mạng chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 29 (Chương 4): Tấn công 'Man-in-the-Middle' (MITM) là gì?",
+    "options": [
+      "Kẻ tấn công chặn và thay đổi dữ liệu giữa hai bên giao tiếp",
+      "Tấn công vào cơ sở dữ liệu",
+      "Tấn công từ chối dịch vụ",
+      "Tấn công bằng mã độc"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 30 (Chương 4): Giao thức nào được sử dụng để mã hóa kết nối web an toàn?",
+    "options": [
+      "HTTPS (HTTP Secure)",
+      "FTP",
+      "SMTP",
+      "Telnet"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 31 (Chương 4): SSID trong mạng Wi-Fi là gì?",
+    "options": [
+      "Tên định danh của mạng không dây",
+      "Mã hóa dữ liệu Wi-Fi",
+      "Địa chỉ IP của router",
+      "Cổng kết nối Internet"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 32 (Chương 4): Một biện pháp phổ biến để bảo vệ mạng Wi-Fi cá nhân là gì?",
+    "options": [
+      "Sử dụng mật khẩu mạnh và mã hóa WPA2 hoặc WPA3",
+      "Tắt tường lửa",
+      "Phát Wi-Fi công khai",
+      "Không đặt mật khẩu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 33 (Chương 4): Wi-Fi hoạt động dựa trên tiêu chuẩn nào?",
+    "options": [
+      "IEEE 802.11",
+      "IEEE 802.3",
+      "IEEE 802.5",
+      "IEEE 802.15"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 34 (Chương 4): Mạng không dây (Wireless Network) là gì?",
+    "options": [
+      "Mạng kết nối các thiết bị bằng sóng vô tuyến thay vì dây cáp",
+      "Mạng dùng dây cáp quang",
+      "Mạng chỉ hoạt động trong văn phòng",
+      "Mạng chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 35 (Chương 4): Mạng không dây (Wireless Network) là gì?",
+    "options": [
+      "Mạng kết nối các thiết bị bằng sóng vô tuyến thay vì dây cáp",
+      "Mạng dùng dây cáp quang",
+      "Mạng chỉ hoạt động trong văn phòng",
+      "Mạng chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 36 (Chương 4): Bluetooth thuộc loại mạng nào?",
+    "options": [
+      "PAN (Personal Area Network)",
+      "LAN",
+      "MAN",
+      "WAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 37 (Chương 4): Bluetooth thuộc loại mạng nào?",
+    "options": [
+      "PAN (Personal Area Network)",
+      "LAN",
+      "MAN",
+      "WAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 38 (Chương 4): Firewall trong bảo mật mạng có nhiệm vụ gì?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra dựa trên quy tắc bảo mật",
+      "Mã hóa dữ liệu truyền",
+      "Lưu trữ thông tin người dùng",
+      "Phát Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 39 (Chương 4): Firewall trong bảo mật mạng có nhiệm vụ gì?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra dựa trên quy tắc bảo mật",
+      "Mã hóa dữ liệu truyền",
+      "Lưu trữ thông tin người dùng",
+      "Phát Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 40 (Chương 4): VPN có chức năng gì?",
+    "options": [
+      "Tạo kết nối an toàn giữa các mạng thông qua Internet",
+      "Tăng tốc CPU",
+      "Giảm dung lượng RAM",
+      "Tự động backup dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 41 (Chương 4): Một biện pháp phổ biến để bảo vệ mạng Wi-Fi cá nhân là gì?",
+    "options": [
+      "Sử dụng mật khẩu mạnh và mã hóa WPA2 hoặc WPA3",
+      "Tắt tường lửa",
+      "Phát Wi-Fi công khai",
+      "Không đặt mật khẩu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 42 (Chương 4): Bluetooth thuộc loại mạng nào?",
+    "options": [
+      "PAN (Personal Area Network)",
+      "LAN",
+      "MAN",
+      "WAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 43 (Chương 4): Tấn công 'Man-in-the-Middle' (MITM) là gì?",
+    "options": [
+      "Kẻ tấn công chặn và thay đổi dữ liệu giữa hai bên giao tiếp",
+      "Tấn công vào cơ sở dữ liệu",
+      "Tấn công từ chối dịch vụ",
+      "Tấn công bằng mã độc"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 44 (Chương 4): Mạng không dây (Wireless Network) là gì?",
+    "options": [
+      "Mạng kết nối các thiết bị bằng sóng vô tuyến thay vì dây cáp",
+      "Mạng dùng dây cáp quang",
+      "Mạng chỉ hoạt động trong văn phòng",
+      "Mạng chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 45 (Chương 4): Wi-Fi hoạt động dựa trên tiêu chuẩn nào?",
+    "options": [
+      "IEEE 802.11",
+      "IEEE 802.3",
+      "IEEE 802.5",
+      "IEEE 802.15"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 46 (Chương 4): WPA2 là gì?",
+    "options": [
+      "Chuẩn bảo mật cho mạng Wi-Fi thay thế WEP",
+      "Giao thức định tuyến",
+      "Phần mềm tường lửa",
+      "Bộ định tuyến không dây"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 47 (Chương 4): Mạng không dây (Wireless Network) là gì?",
+    "options": [
+      "Mạng kết nối các thiết bị bằng sóng vô tuyến thay vì dây cáp",
+      "Mạng dùng dây cáp quang",
+      "Mạng chỉ hoạt động trong văn phòng",
+      "Mạng chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 48 (Chương 4): Firewall trong bảo mật mạng có nhiệm vụ gì?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra dựa trên quy tắc bảo mật",
+      "Mã hóa dữ liệu truyền",
+      "Lưu trữ thông tin người dùng",
+      "Phát Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 49 (Chương 4): Wi-Fi hoạt động dựa trên tiêu chuẩn nào?",
+    "options": [
+      "IEEE 802.11",
+      "IEEE 802.3",
+      "IEEE 802.5",
+      "IEEE 802.15"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 50 (Chương 4): VPN có chức năng gì?",
+    "options": [
+      "Tạo kết nối an toàn giữa các mạng thông qua Internet",
+      "Tăng tốc CPU",
+      "Giảm dung lượng RAM",
+      "Tự động backup dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 51 (Chương 4): Wi-Fi hoạt động dựa trên tiêu chuẩn nào?",
+    "options": [
+      "IEEE 802.11",
+      "IEEE 802.3",
+      "IEEE 802.5",
+      "IEEE 802.15"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 52 (Chương 4): VPN có chức năng gì?",
+    "options": [
+      "Tạo kết nối an toàn giữa các mạng thông qua Internet",
+      "Tăng tốc CPU",
+      "Giảm dung lượng RAM",
+      "Tự động backup dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 53 (Chương 4): SSID trong mạng Wi-Fi là gì?",
+    "options": [
+      "Tên định danh của mạng không dây",
+      "Mã hóa dữ liệu Wi-Fi",
+      "Địa chỉ IP của router",
+      "Cổng kết nối Internet"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 54 (Chương 4): VPN có chức năng gì?",
+    "options": [
+      "Tạo kết nối an toàn giữa các mạng thông qua Internet",
+      "Tăng tốc CPU",
+      "Giảm dung lượng RAM",
+      "Tự động backup dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 55 (Chương 4): Một biện pháp phổ biến để bảo vệ mạng Wi-Fi cá nhân là gì?",
+    "options": [
+      "Sử dụng mật khẩu mạnh và mã hóa WPA2 hoặc WPA3",
+      "Tắt tường lửa",
+      "Phát Wi-Fi công khai",
+      "Không đặt mật khẩu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 56 (Chương 4): Mạng không dây (Wireless Network) là gì?",
+    "options": [
+      "Mạng kết nối các thiết bị bằng sóng vô tuyến thay vì dây cáp",
+      "Mạng dùng dây cáp quang",
+      "Mạng chỉ hoạt động trong văn phòng",
+      "Mạng chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 57 (Chương 4): SSID trong mạng Wi-Fi là gì?",
+    "options": [
+      "Tên định danh của mạng không dây",
+      "Mã hóa dữ liệu Wi-Fi",
+      "Địa chỉ IP của router",
+      "Cổng kết nối Internet"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 58 (Chương 4): Wi-Fi hoạt động dựa trên tiêu chuẩn nào?",
+    "options": [
+      "IEEE 802.11",
+      "IEEE 802.3",
+      "IEEE 802.5",
+      "IEEE 802.15"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 59 (Chương 4): WPA2 là gì?",
+    "options": [
+      "Chuẩn bảo mật cho mạng Wi-Fi thay thế WEP",
+      "Giao thức định tuyến",
+      "Phần mềm tường lửa",
+      "Bộ định tuyến không dây"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 60 (Chương 4): WPA2 là gì?",
+    "options": [
+      "Chuẩn bảo mật cho mạng Wi-Fi thay thế WEP",
+      "Giao thức định tuyến",
+      "Phần mềm tường lửa",
+      "Bộ định tuyến không dây"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 61 (Chương 4): Bluetooth thuộc loại mạng nào?",
+    "options": [
+      "PAN (Personal Area Network)",
+      "LAN",
+      "MAN",
+      "WAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 62 (Chương 4): Bluetooth thuộc loại mạng nào?",
+    "options": [
+      "PAN (Personal Area Network)",
+      "LAN",
+      "MAN",
+      "WAN"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 63 (Chương 4): SSID trong mạng Wi-Fi là gì?",
+    "options": [
+      "Tên định danh của mạng không dây",
+      "Mã hóa dữ liệu Wi-Fi",
+      "Địa chỉ IP của router",
+      "Cổng kết nối Internet"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 64 (Chương 4): SSID trong mạng Wi-Fi là gì?",
+    "options": [
+      "Tên định danh của mạng không dây",
+      "Mã hóa dữ liệu Wi-Fi",
+      "Địa chỉ IP của router",
+      "Cổng kết nối Internet"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 65 (Chương 4): Firewall trong bảo mật mạng có nhiệm vụ gì?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra dựa trên quy tắc bảo mật",
+      "Mã hóa dữ liệu truyền",
+      "Lưu trữ thông tin người dùng",
+      "Phát Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 66 (Chương 4): WPA2 là gì?",
+    "options": [
+      "Chuẩn bảo mật cho mạng Wi-Fi thay thế WEP",
+      "Giao thức định tuyến",
+      "Phần mềm tường lửa",
+      "Bộ định tuyến không dây"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 67 (Chương 4): Firewall trong bảo mật mạng có nhiệm vụ gì?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra dựa trên quy tắc bảo mật",
+      "Mã hóa dữ liệu truyền",
+      "Lưu trữ thông tin người dùng",
+      "Phát Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 68 (Chương 4): WPA2 là gì?",
+    "options": [
+      "Chuẩn bảo mật cho mạng Wi-Fi thay thế WEP",
+      "Giao thức định tuyến",
+      "Phần mềm tường lửa",
+      "Bộ định tuyến không dây"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 69 (Chương 4): Mạng không dây (Wireless Network) là gì?",
+    "options": [
+      "Mạng kết nối các thiết bị bằng sóng vô tuyến thay vì dây cáp",
+      "Mạng dùng dây cáp quang",
+      "Mạng chỉ hoạt động trong văn phòng",
+      "Mạng chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 70 (Chương 4): Tấn công 'Man-in-the-Middle' (MITM) là gì?",
+    "options": [
+      "Kẻ tấn công chặn và thay đổi dữ liệu giữa hai bên giao tiếp",
+      "Tấn công vào cơ sở dữ liệu",
+      "Tấn công từ chối dịch vụ",
+      "Tấn công bằng mã độc"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 71 (Chương 4): Firewall trong bảo mật mạng có nhiệm vụ gì?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra dựa trên quy tắc bảo mật",
+      "Mã hóa dữ liệu truyền",
+      "Lưu trữ thông tin người dùng",
+      "Phát Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 72 (Chương 4): SSID trong mạng Wi-Fi là gì?",
+    "options": [
+      "Tên định danh của mạng không dây",
+      "Mã hóa dữ liệu Wi-Fi",
+      "Địa chỉ IP của router",
+      "Cổng kết nối Internet"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 73 (Chương 4): Giao thức nào được sử dụng để mã hóa kết nối web an toàn?",
+    "options": [
+      "HTTPS (HTTP Secure)",
+      "FTP",
+      "SMTP",
+      "Telnet"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 74 (Chương 4): WPA2 là gì?",
+    "options": [
+      "Chuẩn bảo mật cho mạng Wi-Fi thay thế WEP",
+      "Giao thức định tuyến",
+      "Phần mềm tường lửa",
+      "Bộ định tuyến không dây"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 75 (Chương 4): Firewall trong bảo mật mạng có nhiệm vụ gì?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra dựa trên quy tắc bảo mật",
+      "Mã hóa dữ liệu truyền",
+      "Lưu trữ thông tin người dùng",
+      "Phát Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 76 (Chương 4): Mạng không dây (Wireless Network) là gì?",
+    "options": [
+      "Mạng kết nối các thiết bị bằng sóng vô tuyến thay vì dây cáp",
+      "Mạng dùng dây cáp quang",
+      "Mạng chỉ hoạt động trong văn phòng",
+      "Mạng chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 77 (Chương 4): WPA2 là gì?",
+    "options": [
+      "Chuẩn bảo mật cho mạng Wi-Fi thay thế WEP",
+      "Giao thức định tuyến",
+      "Phần mềm tường lửa",
+      "Bộ định tuyến không dây"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 78 (Chương 4): WPA2 là gì?",
+    "options": [
+      "Chuẩn bảo mật cho mạng Wi-Fi thay thế WEP",
+      "Giao thức định tuyến",
+      "Phần mềm tường lửa",
+      "Bộ định tuyến không dây"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 79 (Chương 4): SSID trong mạng Wi-Fi là gì?",
+    "options": [
+      "Tên định danh của mạng không dây",
+      "Mã hóa dữ liệu Wi-Fi",
+      "Địa chỉ IP của router",
+      "Cổng kết nối Internet"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 80 (Chương 4): Wi-Fi hoạt động dựa trên tiêu chuẩn nào?",
+    "options": [
+      "IEEE 802.11",
+      "IEEE 802.3",
+      "IEEE 802.5",
+      "IEEE 802.15"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 81 (Chương 4): Tấn công 'Man-in-the-Middle' (MITM) là gì?",
+    "options": [
+      "Kẻ tấn công chặn và thay đổi dữ liệu giữa hai bên giao tiếp",
+      "Tấn công vào cơ sở dữ liệu",
+      "Tấn công từ chối dịch vụ",
+      "Tấn công bằng mã độc"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 82 (Chương 4): WPA2 là gì?",
+    "options": [
+      "Chuẩn bảo mật cho mạng Wi-Fi thay thế WEP",
+      "Giao thức định tuyến",
+      "Phần mềm tường lửa",
+      "Bộ định tuyến không dây"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 83 (Chương 4): SSID trong mạng Wi-Fi là gì?",
+    "options": [
+      "Tên định danh của mạng không dây",
+      "Mã hóa dữ liệu Wi-Fi",
+      "Địa chỉ IP của router",
+      "Cổng kết nối Internet"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 84 (Chương 4): Giao thức nào được sử dụng để mã hóa kết nối web an toàn?",
+    "options": [
+      "HTTPS (HTTP Secure)",
+      "FTP",
+      "SMTP",
+      "Telnet"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 85 (Chương 4): Firewall trong bảo mật mạng có nhiệm vụ gì?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra dựa trên quy tắc bảo mật",
+      "Mã hóa dữ liệu truyền",
+      "Lưu trữ thông tin người dùng",
+      "Phát Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 86 (Chương 4): VPN có chức năng gì?",
+    "options": [
+      "Tạo kết nối an toàn giữa các mạng thông qua Internet",
+      "Tăng tốc CPU",
+      "Giảm dung lượng RAM",
+      "Tự động backup dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 87 (Chương 4): Mạng không dây (Wireless Network) là gì?",
+    "options": [
+      "Mạng kết nối các thiết bị bằng sóng vô tuyến thay vì dây cáp",
+      "Mạng dùng dây cáp quang",
+      "Mạng chỉ hoạt động trong văn phòng",
+      "Mạng chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 88 (Chương 4): Firewall trong bảo mật mạng có nhiệm vụ gì?",
+    "options": [
+      "Kiểm soát lưu lượng mạng vào và ra dựa trên quy tắc bảo mật",
+      "Mã hóa dữ liệu truyền",
+      "Lưu trữ thông tin người dùng",
+      "Phát Wi-Fi"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 89 (Chương 4): Wi-Fi hoạt động dựa trên tiêu chuẩn nào?",
+    "options": [
+      "IEEE 802.11",
+      "IEEE 802.3",
+      "IEEE 802.5",
+      "IEEE 802.15"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 90 (Chương 4): Tấn công 'Man-in-the-Middle' (MITM) là gì?",
+    "options": [
+      "Kẻ tấn công chặn và thay đổi dữ liệu giữa hai bên giao tiếp",
+      "Tấn công vào cơ sở dữ liệu",
+      "Tấn công từ chối dịch vụ",
+      "Tấn công bằng mã độc"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 91 (Chương 4): Tấn công 'Man-in-the-Middle' (MITM) là gì?",
+    "options": [
+      "Kẻ tấn công chặn và thay đổi dữ liệu giữa hai bên giao tiếp",
+      "Tấn công vào cơ sở dữ liệu",
+      "Tấn công từ chối dịch vụ",
+      "Tấn công bằng mã độc"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 92 (Chương 4): Tấn công 'Man-in-the-Middle' (MITM) là gì?",
+    "options": [
+      "Kẻ tấn công chặn và thay đổi dữ liệu giữa hai bên giao tiếp",
+      "Tấn công vào cơ sở dữ liệu",
+      "Tấn công từ chối dịch vụ",
+      "Tấn công bằng mã độc"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 93 (Chương 4): Mạng không dây (Wireless Network) là gì?",
+    "options": [
+      "Mạng kết nối các thiết bị bằng sóng vô tuyến thay vì dây cáp",
+      "Mạng dùng dây cáp quang",
+      "Mạng chỉ hoạt động trong văn phòng",
+      "Mạng chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 94 (Chương 4): Một biện pháp phổ biến để bảo vệ mạng Wi-Fi cá nhân là gì?",
+    "options": [
+      "Sử dụng mật khẩu mạnh và mã hóa WPA2 hoặc WPA3",
+      "Tắt tường lửa",
+      "Phát Wi-Fi công khai",
+      "Không đặt mật khẩu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 95 (Chương 4): Mạng không dây (Wireless Network) là gì?",
+    "options": [
+      "Mạng kết nối các thiết bị bằng sóng vô tuyến thay vì dây cáp",
+      "Mạng dùng dây cáp quang",
+      "Mạng chỉ hoạt động trong văn phòng",
+      "Mạng chỉ dùng cho server"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 96 (Chương 4): VPN có chức năng gì?",
+    "options": [
+      "Tạo kết nối an toàn giữa các mạng thông qua Internet",
+      "Tăng tốc CPU",
+      "Giảm dung lượng RAM",
+      "Tự động backup dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 97 (Chương 4): Tấn công 'Man-in-the-Middle' (MITM) là gì?",
+    "options": [
+      "Kẻ tấn công chặn và thay đổi dữ liệu giữa hai bên giao tiếp",
+      "Tấn công vào cơ sở dữ liệu",
+      "Tấn công từ chối dịch vụ",
+      "Tấn công bằng mã độc"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 98 (Chương 4): VPN có chức năng gì?",
+    "options": [
+      "Tạo kết nối an toàn giữa các mạng thông qua Internet",
+      "Tăng tốc CPU",
+      "Giảm dung lượng RAM",
+      "Tự động backup dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 99 (Chương 4): VPN có chức năng gì?",
+    "options": [
+      "Tạo kết nối an toàn giữa các mạng thông qua Internet",
+      "Tăng tốc CPU",
+      "Giảm dung lượng RAM",
+      "Tự động backup dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  },
+  {
+    "question": "Câu 100 (Chương 4): SSID trong mạng Wi-Fi là gì?",
+    "options": [
+      "Tên định danh của mạng không dây",
+      "Mã hóa dữ liệu Wi-Fi",
+      "Địa chỉ IP của router",
+      "Cổng kết nối Internet"
+    ],
+    "answer": 0,
+    "category": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật"
+  }
+]

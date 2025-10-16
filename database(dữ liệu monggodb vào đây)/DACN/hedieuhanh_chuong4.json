@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 4): Write-back cache có đặc điểm gì so với write-through cache?",
+    "options": [
+      "Dữ liệu được ghi tạm thời trong cache trước khi ghi xuống đĩa",
+      "Dữ liệu được ghi xuống đĩa ngay lập tức",
+      "Không lưu dữ liệu tạm",
+      "Chỉ dùng cho ổ cứng HDD"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 2 (Chương 4): Journaling file system có ưu điểm gì?",
+    "options": [
+      "Giảm nguy cơ mất dữ liệu bằng cách ghi nhật ký các thay đổi",
+      "Tăng tốc CPU",
+      "Không cần phân quyền",
+      "Giảm RAM sử dụng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 3 (Chương 4): Caching khác buffering ở điểm nào?",
+    "options": [
+      "Caching lưu dữ liệu để truy xuất nhanh hơn, buffering chỉ lưu tạm trong truyền dữ liệu",
+      "Cả hai giống nhau",
+      "Buffering nhanh hơn caching",
+      "Chỉ dùng cho ổ SSD"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 4 (Chương 4): Buffering trong hệ thống I/O có mục đích gì?",
+    "options": [
+      "Lưu tạm dữ liệu để tăng hiệu suất truyền vào/ra",
+      "Nén dữ liệu",
+      "Giảm dung lượng ổ cứng",
+      "Tăng tốc CPU"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 5 (Chương 4): Buffering trong hệ thống I/O có mục đích gì?",
+    "options": [
+      "Lưu tạm dữ liệu để tăng hiệu suất truyền vào/ra",
+      "Nén dữ liệu",
+      "Giảm dung lượng ổ cứng",
+      "Tăng tốc CPU"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 6 (Chương 4): Buffering trong hệ thống I/O có mục đích gì?",
+    "options": [
+      "Lưu tạm dữ liệu để tăng hiệu suất truyền vào/ra",
+      "Nén dữ liệu",
+      "Giảm dung lượng ổ cứng",
+      "Tăng tốc CPU"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 7 (Chương 4): RAID dùng để làm gì?",
+    "options": [
+      "Tăng độ tin cậy và/hoặc hiệu năng lưu trữ bằng cách kết hợp nhiều ổ đĩa",
+      "Quản lý bộ nhớ RAM",
+      "Lập lịch CPU",
+      "Mã hóa file hệ thống"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 8 (Chương 4): Mount point trong hệ thống tệp có vai trò gì?",
+    "options": [
+      "Gắn một hệ thống tệp vào cây thư mục chung để truy cập",
+      "Xóa file cũ",
+      "Tạo phân vùng mới",
+      "Mở kết nối mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 9 (Chương 4): Filesystem permission 'rwx' có nghĩa là gì?",
+    "options": [
+      "Quyền đọc, ghi và thực thi",
+      "Chỉ quyền đọc và ghi",
+      "Chỉ quyền đọc",
+      "Không có quyền nào"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 10 (Chương 4): Inode trong hệ thống tệp Unix lưu trữ thông tin nào?",
+    "options": [
+      "Metadata của tệp như quyền, kích thước và con trỏ khối",
+      "Tên tệp và nội dung tệp",
+      "Chỉ thời gian tạo",
+      "Người dùng sở hữu"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 11 (Chương 4): Filesystem permission 'rwx' có nghĩa là gì?",
+    "options": [
+      "Quyền đọc, ghi và thực thi",
+      "Chỉ quyền đọc và ghi",
+      "Chỉ quyền đọc",
+      "Không có quyền nào"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 12 (Chương 4): Caching khác buffering ở điểm nào?",
+    "options": [
+      "Caching lưu dữ liệu để truy xuất nhanh hơn, buffering chỉ lưu tạm trong truyền dữ liệu",
+      "Cả hai giống nhau",
+      "Buffering nhanh hơn caching",
+      "Chỉ dùng cho ổ SSD"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 13 (Chương 4): Caching khác buffering ở điểm nào?",
+    "options": [
+      "Caching lưu dữ liệu để truy xuất nhanh hơn, buffering chỉ lưu tạm trong truyền dữ liệu",
+      "Cả hai giống nhau",
+      "Buffering nhanh hơn caching",
+      "Chỉ dùng cho ổ SSD"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 14 (Chương 4): Hệ thống tệp (file system) có chức năng gì trong hệ điều hành?",
+    "options": [
+      "Tổ chức, lưu trữ và truy xuất dữ liệu trên thiết bị lưu trữ",
+      "Quản lý tiến trình",
+      "Điều khiển CPU",
+      "Giám sát người dùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 15 (Chương 4): RAID dùng để làm gì?",
+    "options": [
+      "Tăng độ tin cậy và/hoặc hiệu năng lưu trữ bằng cách kết hợp nhiều ổ đĩa",
+      "Quản lý bộ nhớ RAM",
+      "Lập lịch CPU",
+      "Mã hóa file hệ thống"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 16 (Chương 4): Journaling file system có ưu điểm gì?",
+    "options": [
+      "Giảm nguy cơ mất dữ liệu bằng cách ghi nhật ký các thay đổi",
+      "Tăng tốc CPU",
+      "Không cần phân quyền",
+      "Giảm RAM sử dụng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 17 (Chương 4): RAID dùng để làm gì?",
+    "options": [
+      "Tăng độ tin cậy và/hoặc hiệu năng lưu trữ bằng cách kết hợp nhiều ổ đĩa",
+      "Quản lý bộ nhớ RAM",
+      "Lập lịch CPU",
+      "Mã hóa file hệ thống"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 18 (Chương 4): Buffering trong hệ thống I/O có mục đích gì?",
+    "options": [
+      "Lưu tạm dữ liệu để tăng hiệu suất truyền vào/ra",
+      "Nén dữ liệu",
+      "Giảm dung lượng ổ cứng",
+      "Tăng tốc CPU"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 19 (Chương 4): Write-back cache có đặc điểm gì so với write-through cache?",
+    "options": [
+      "Dữ liệu được ghi tạm thời trong cache trước khi ghi xuống đĩa",
+      "Dữ liệu được ghi xuống đĩa ngay lập tức",
+      "Không lưu dữ liệu tạm",
+      "Chỉ dùng cho ổ cứng HDD"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 20 (Chương 4): Inode trong hệ thống tệp Unix lưu trữ thông tin nào?",
+    "options": [
+      "Metadata của tệp như quyền, kích thước và con trỏ khối",
+      "Tên tệp và nội dung tệp",
+      "Chỉ thời gian tạo",
+      "Người dùng sở hữu"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 21 (Chương 4): Buffering trong hệ thống I/O có mục đích gì?",
+    "options": [
+      "Lưu tạm dữ liệu để tăng hiệu suất truyền vào/ra",
+      "Nén dữ liệu",
+      "Giảm dung lượng ổ cứng",
+      "Tăng tốc CPU"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 22 (Chương 4): Caching khác buffering ở điểm nào?",
+    "options": [
+      "Caching lưu dữ liệu để truy xuất nhanh hơn, buffering chỉ lưu tạm trong truyền dữ liệu",
+      "Cả hai giống nhau",
+      "Buffering nhanh hơn caching",
+      "Chỉ dùng cho ổ SSD"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 23 (Chương 4): Filesystem permission 'rwx' có nghĩa là gì?",
+    "options": [
+      "Quyền đọc, ghi và thực thi",
+      "Chỉ quyền đọc và ghi",
+      "Chỉ quyền đọc",
+      "Không có quyền nào"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 24 (Chương 4): Filesystem permission 'rwx' có nghĩa là gì?",
+    "options": [
+      "Quyền đọc, ghi và thực thi",
+      "Chỉ quyền đọc và ghi",
+      "Chỉ quyền đọc",
+      "Không có quyền nào"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 25 (Chương 4): Filesystem permission 'rwx' có nghĩa là gì?",
+    "options": [
+      "Quyền đọc, ghi và thực thi",
+      "Chỉ quyền đọc và ghi",
+      "Chỉ quyền đọc",
+      "Không có quyền nào"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 26 (Chương 4): Mount point trong hệ thống tệp có vai trò gì?",
+    "options": [
+      "Gắn một hệ thống tệp vào cây thư mục chung để truy cập",
+      "Xóa file cũ",
+      "Tạo phân vùng mới",
+      "Mở kết nối mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 27 (Chương 4): Inode trong hệ thống tệp Unix lưu trữ thông tin nào?",
+    "options": [
+      "Metadata của tệp như quyền, kích thước và con trỏ khối",
+      "Tên tệp và nội dung tệp",
+      "Chỉ thời gian tạo",
+      "Người dùng sở hữu"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 28 (Chương 4): Journaling file system có ưu điểm gì?",
+    "options": [
+      "Giảm nguy cơ mất dữ liệu bằng cách ghi nhật ký các thay đổi",
+      "Tăng tốc CPU",
+      "Không cần phân quyền",
+      "Giảm RAM sử dụng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 29 (Chương 4): Journaling file system có ưu điểm gì?",
+    "options": [
+      "Giảm nguy cơ mất dữ liệu bằng cách ghi nhật ký các thay đổi",
+      "Tăng tốc CPU",
+      "Không cần phân quyền",
+      "Giảm RAM sử dụng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 30 (Chương 4): Hệ thống tệp (file system) có chức năng gì trong hệ điều hành?",
+    "options": [
+      "Tổ chức, lưu trữ và truy xuất dữ liệu trên thiết bị lưu trữ",
+      "Quản lý tiến trình",
+      "Điều khiển CPU",
+      "Giám sát người dùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 31 (Chương 4): Buffering trong hệ thống I/O có mục đích gì?",
+    "options": [
+      "Lưu tạm dữ liệu để tăng hiệu suất truyền vào/ra",
+      "Nén dữ liệu",
+      "Giảm dung lượng ổ cứng",
+      "Tăng tốc CPU"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 32 (Chương 4): Inode trong hệ thống tệp Unix lưu trữ thông tin nào?",
+    "options": [
+      "Metadata của tệp như quyền, kích thước và con trỏ khối",
+      "Tên tệp và nội dung tệp",
+      "Chỉ thời gian tạo",
+      "Người dùng sở hữu"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 33 (Chương 4): Buffering trong hệ thống I/O có mục đích gì?",
+    "options": [
+      "Lưu tạm dữ liệu để tăng hiệu suất truyền vào/ra",
+      "Nén dữ liệu",
+      "Giảm dung lượng ổ cứng",
+      "Tăng tốc CPU"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 34 (Chương 4): Filesystem permission 'rwx' có nghĩa là gì?",
+    "options": [
+      "Quyền đọc, ghi và thực thi",
+      "Chỉ quyền đọc và ghi",
+      "Chỉ quyền đọc",
+      "Không có quyền nào"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 35 (Chương 4): Inode trong hệ thống tệp Unix lưu trữ thông tin nào?",
+    "options": [
+      "Metadata của tệp như quyền, kích thước và con trỏ khối",
+      "Tên tệp và nội dung tệp",
+      "Chỉ thời gian tạo",
+      "Người dùng sở hữu"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 36 (Chương 4): Journaling file system có ưu điểm gì?",
+    "options": [
+      "Giảm nguy cơ mất dữ liệu bằng cách ghi nhật ký các thay đổi",
+      "Tăng tốc CPU",
+      "Không cần phân quyền",
+      "Giảm RAM sử dụng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 37 (Chương 4): Journaling file system có ưu điểm gì?",
+    "options": [
+      "Giảm nguy cơ mất dữ liệu bằng cách ghi nhật ký các thay đổi",
+      "Tăng tốc CPU",
+      "Không cần phân quyền",
+      "Giảm RAM sử dụng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 38 (Chương 4): RAID dùng để làm gì?",
+    "options": [
+      "Tăng độ tin cậy và/hoặc hiệu năng lưu trữ bằng cách kết hợp nhiều ổ đĩa",
+      "Quản lý bộ nhớ RAM",
+      "Lập lịch CPU",
+      "Mã hóa file hệ thống"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 39 (Chương 4): Buffering trong hệ thống I/O có mục đích gì?",
+    "options": [
+      "Lưu tạm dữ liệu để tăng hiệu suất truyền vào/ra",
+      "Nén dữ liệu",
+      "Giảm dung lượng ổ cứng",
+      "Tăng tốc CPU"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 40 (Chương 4): Inode trong hệ thống tệp Unix lưu trữ thông tin nào?",
+    "options": [
+      "Metadata của tệp như quyền, kích thước và con trỏ khối",
+      "Tên tệp và nội dung tệp",
+      "Chỉ thời gian tạo",
+      "Người dùng sở hữu"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 41 (Chương 4): Buffering trong hệ thống I/O có mục đích gì?",
+    "options": [
+      "Lưu tạm dữ liệu để tăng hiệu suất truyền vào/ra",
+      "Nén dữ liệu",
+      "Giảm dung lượng ổ cứng",
+      "Tăng tốc CPU"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 42 (Chương 4): Hệ thống tệp (file system) có chức năng gì trong hệ điều hành?",
+    "options": [
+      "Tổ chức, lưu trữ và truy xuất dữ liệu trên thiết bị lưu trữ",
+      "Quản lý tiến trình",
+      "Điều khiển CPU",
+      "Giám sát người dùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 43 (Chương 4): RAID dùng để làm gì?",
+    "options": [
+      "Tăng độ tin cậy và/hoặc hiệu năng lưu trữ bằng cách kết hợp nhiều ổ đĩa",
+      "Quản lý bộ nhớ RAM",
+      "Lập lịch CPU",
+      "Mã hóa file hệ thống"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 44 (Chương 4): Journaling file system có ưu điểm gì?",
+    "options": [
+      "Giảm nguy cơ mất dữ liệu bằng cách ghi nhật ký các thay đổi",
+      "Tăng tốc CPU",
+      "Không cần phân quyền",
+      "Giảm RAM sử dụng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 45 (Chương 4): Mount point trong hệ thống tệp có vai trò gì?",
+    "options": [
+      "Gắn một hệ thống tệp vào cây thư mục chung để truy cập",
+      "Xóa file cũ",
+      "Tạo phân vùng mới",
+      "Mở kết nối mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 46 (Chương 4): Thuật toán lập lịch đĩa SSTF hoạt động theo nguyên tắc nào?",
+    "options": [
+      "Ưu tiên yêu cầu có thời gian tìm kiếm ngắn nhất",
+      "Xử lý yêu cầu theo thứ tự đến",
+      "Ngẫu nhiên chọn yêu cầu",
+      "Luôn phục vụ yêu cầu ở giữa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 47 (Chương 4): Caching khác buffering ở điểm nào?",
+    "options": [
+      "Caching lưu dữ liệu để truy xuất nhanh hơn, buffering chỉ lưu tạm trong truyền dữ liệu",
+      "Cả hai giống nhau",
+      "Buffering nhanh hơn caching",
+      "Chỉ dùng cho ổ SSD"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 48 (Chương 4): Thuật toán lập lịch đĩa SSTF hoạt động theo nguyên tắc nào?",
+    "options": [
+      "Ưu tiên yêu cầu có thời gian tìm kiếm ngắn nhất",
+      "Xử lý yêu cầu theo thứ tự đến",
+      "Ngẫu nhiên chọn yêu cầu",
+      "Luôn phục vụ yêu cầu ở giữa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 49 (Chương 4): Journaling file system có ưu điểm gì?",
+    "options": [
+      "Giảm nguy cơ mất dữ liệu bằng cách ghi nhật ký các thay đổi",
+      "Tăng tốc CPU",
+      "Không cần phân quyền",
+      "Giảm RAM sử dụng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 50 (Chương 4): RAID dùng để làm gì?",
+    "options": [
+      "Tăng độ tin cậy và/hoặc hiệu năng lưu trữ bằng cách kết hợp nhiều ổ đĩa",
+      "Quản lý bộ nhớ RAM",
+      "Lập lịch CPU",
+      "Mã hóa file hệ thống"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 51 (Chương 4): Mount point trong hệ thống tệp có vai trò gì?",
+    "options": [
+      "Gắn một hệ thống tệp vào cây thư mục chung để truy cập",
+      "Xóa file cũ",
+      "Tạo phân vùng mới",
+      "Mở kết nối mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 52 (Chương 4): Hệ thống tệp (file system) có chức năng gì trong hệ điều hành?",
+    "options": [
+      "Tổ chức, lưu trữ và truy xuất dữ liệu trên thiết bị lưu trữ",
+      "Quản lý tiến trình",
+      "Điều khiển CPU",
+      "Giám sát người dùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 53 (Chương 4): Caching khác buffering ở điểm nào?",
+    "options": [
+      "Caching lưu dữ liệu để truy xuất nhanh hơn, buffering chỉ lưu tạm trong truyền dữ liệu",
+      "Cả hai giống nhau",
+      "Buffering nhanh hơn caching",
+      "Chỉ dùng cho ổ SSD"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 54 (Chương 4): Inode trong hệ thống tệp Unix lưu trữ thông tin nào?",
+    "options": [
+      "Metadata của tệp như quyền, kích thước và con trỏ khối",
+      "Tên tệp và nội dung tệp",
+      "Chỉ thời gian tạo",
+      "Người dùng sở hữu"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 55 (Chương 4): Mount point trong hệ thống tệp có vai trò gì?",
+    "options": [
+      "Gắn một hệ thống tệp vào cây thư mục chung để truy cập",
+      "Xóa file cũ",
+      "Tạo phân vùng mới",
+      "Mở kết nối mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 56 (Chương 4): Journaling file system có ưu điểm gì?",
+    "options": [
+      "Giảm nguy cơ mất dữ liệu bằng cách ghi nhật ký các thay đổi",
+      "Tăng tốc CPU",
+      "Không cần phân quyền",
+      "Giảm RAM sử dụng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 57 (Chương 4): Mount point trong hệ thống tệp có vai trò gì?",
+    "options": [
+      "Gắn một hệ thống tệp vào cây thư mục chung để truy cập",
+      "Xóa file cũ",
+      "Tạo phân vùng mới",
+      "Mở kết nối mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 58 (Chương 4): Buffering trong hệ thống I/O có mục đích gì?",
+    "options": [
+      "Lưu tạm dữ liệu để tăng hiệu suất truyền vào/ra",
+      "Nén dữ liệu",
+      "Giảm dung lượng ổ cứng",
+      "Tăng tốc CPU"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 59 (Chương 4): Journaling file system có ưu điểm gì?",
+    "options": [
+      "Giảm nguy cơ mất dữ liệu bằng cách ghi nhật ký các thay đổi",
+      "Tăng tốc CPU",
+      "Không cần phân quyền",
+      "Giảm RAM sử dụng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 60 (Chương 4): Hệ thống tệp (file system) có chức năng gì trong hệ điều hành?",
+    "options": [
+      "Tổ chức, lưu trữ và truy xuất dữ liệu trên thiết bị lưu trữ",
+      "Quản lý tiến trình",
+      "Điều khiển CPU",
+      "Giám sát người dùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 61 (Chương 4): Write-back cache có đặc điểm gì so với write-through cache?",
+    "options": [
+      "Dữ liệu được ghi tạm thời trong cache trước khi ghi xuống đĩa",
+      "Dữ liệu được ghi xuống đĩa ngay lập tức",
+      "Không lưu dữ liệu tạm",
+      "Chỉ dùng cho ổ cứng HDD"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 62 (Chương 4): Mount point trong hệ thống tệp có vai trò gì?",
+    "options": [
+      "Gắn một hệ thống tệp vào cây thư mục chung để truy cập",
+      "Xóa file cũ",
+      "Tạo phân vùng mới",
+      "Mở kết nối mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 63 (Chương 4): Mount point trong hệ thống tệp có vai trò gì?",
+    "options": [
+      "Gắn một hệ thống tệp vào cây thư mục chung để truy cập",
+      "Xóa file cũ",
+      "Tạo phân vùng mới",
+      "Mở kết nối mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 64 (Chương 4): RAID dùng để làm gì?",
+    "options": [
+      "Tăng độ tin cậy và/hoặc hiệu năng lưu trữ bằng cách kết hợp nhiều ổ đĩa",
+      "Quản lý bộ nhớ RAM",
+      "Lập lịch CPU",
+      "Mã hóa file hệ thống"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 65 (Chương 4): Inode trong hệ thống tệp Unix lưu trữ thông tin nào?",
+    "options": [
+      "Metadata của tệp như quyền, kích thước và con trỏ khối",
+      "Tên tệp và nội dung tệp",
+      "Chỉ thời gian tạo",
+      "Người dùng sở hữu"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 66 (Chương 4): Hệ thống tệp (file system) có chức năng gì trong hệ điều hành?",
+    "options": [
+      "Tổ chức, lưu trữ và truy xuất dữ liệu trên thiết bị lưu trữ",
+      "Quản lý tiến trình",
+      "Điều khiển CPU",
+      "Giám sát người dùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 67 (Chương 4): RAID dùng để làm gì?",
+    "options": [
+      "Tăng độ tin cậy và/hoặc hiệu năng lưu trữ bằng cách kết hợp nhiều ổ đĩa",
+      "Quản lý bộ nhớ RAM",
+      "Lập lịch CPU",
+      "Mã hóa file hệ thống"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 68 (Chương 4): Caching khác buffering ở điểm nào?",
+    "options": [
+      "Caching lưu dữ liệu để truy xuất nhanh hơn, buffering chỉ lưu tạm trong truyền dữ liệu",
+      "Cả hai giống nhau",
+      "Buffering nhanh hơn caching",
+      "Chỉ dùng cho ổ SSD"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 69 (Chương 4): Inode trong hệ thống tệp Unix lưu trữ thông tin nào?",
+    "options": [
+      "Metadata của tệp như quyền, kích thước và con trỏ khối",
+      "Tên tệp và nội dung tệp",
+      "Chỉ thời gian tạo",
+      "Người dùng sở hữu"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 70 (Chương 4): Thuật toán lập lịch đĩa SSTF hoạt động theo nguyên tắc nào?",
+    "options": [
+      "Ưu tiên yêu cầu có thời gian tìm kiếm ngắn nhất",
+      "Xử lý yêu cầu theo thứ tự đến",
+      "Ngẫu nhiên chọn yêu cầu",
+      "Luôn phục vụ yêu cầu ở giữa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 71 (Chương 4): RAID dùng để làm gì?",
+    "options": [
+      "Tăng độ tin cậy và/hoặc hiệu năng lưu trữ bằng cách kết hợp nhiều ổ đĩa",
+      "Quản lý bộ nhớ RAM",
+      "Lập lịch CPU",
+      "Mã hóa file hệ thống"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 72 (Chương 4): Journaling file system có ưu điểm gì?",
+    "options": [
+      "Giảm nguy cơ mất dữ liệu bằng cách ghi nhật ký các thay đổi",
+      "Tăng tốc CPU",
+      "Không cần phân quyền",
+      "Giảm RAM sử dụng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 73 (Chương 4): Mount point trong hệ thống tệp có vai trò gì?",
+    "options": [
+      "Gắn một hệ thống tệp vào cây thư mục chung để truy cập",
+      "Xóa file cũ",
+      "Tạo phân vùng mới",
+      "Mở kết nối mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 74 (Chương 4): Write-back cache có đặc điểm gì so với write-through cache?",
+    "options": [
+      "Dữ liệu được ghi tạm thời trong cache trước khi ghi xuống đĩa",
+      "Dữ liệu được ghi xuống đĩa ngay lập tức",
+      "Không lưu dữ liệu tạm",
+      "Chỉ dùng cho ổ cứng HDD"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 75 (Chương 4): Caching khác buffering ở điểm nào?",
+    "options": [
+      "Caching lưu dữ liệu để truy xuất nhanh hơn, buffering chỉ lưu tạm trong truyền dữ liệu",
+      "Cả hai giống nhau",
+      "Buffering nhanh hơn caching",
+      "Chỉ dùng cho ổ SSD"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 76 (Chương 4): Caching khác buffering ở điểm nào?",
+    "options": [
+      "Caching lưu dữ liệu để truy xuất nhanh hơn, buffering chỉ lưu tạm trong truyền dữ liệu",
+      "Cả hai giống nhau",
+      "Buffering nhanh hơn caching",
+      "Chỉ dùng cho ổ SSD"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 77 (Chương 4): Thuật toán lập lịch đĩa SSTF hoạt động theo nguyên tắc nào?",
+    "options": [
+      "Ưu tiên yêu cầu có thời gian tìm kiếm ngắn nhất",
+      "Xử lý yêu cầu theo thứ tự đến",
+      "Ngẫu nhiên chọn yêu cầu",
+      "Luôn phục vụ yêu cầu ở giữa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 78 (Chương 4): Mount point trong hệ thống tệp có vai trò gì?",
+    "options": [
+      "Gắn một hệ thống tệp vào cây thư mục chung để truy cập",
+      "Xóa file cũ",
+      "Tạo phân vùng mới",
+      "Mở kết nối mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 79 (Chương 4): Write-back cache có đặc điểm gì so với write-through cache?",
+    "options": [
+      "Dữ liệu được ghi tạm thời trong cache trước khi ghi xuống đĩa",
+      "Dữ liệu được ghi xuống đĩa ngay lập tức",
+      "Không lưu dữ liệu tạm",
+      "Chỉ dùng cho ổ cứng HDD"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 80 (Chương 4): Write-back cache có đặc điểm gì so với write-through cache?",
+    "options": [
+      "Dữ liệu được ghi tạm thời trong cache trước khi ghi xuống đĩa",
+      "Dữ liệu được ghi xuống đĩa ngay lập tức",
+      "Không lưu dữ liệu tạm",
+      "Chỉ dùng cho ổ cứng HDD"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 81 (Chương 4): Thuật toán lập lịch đĩa SSTF hoạt động theo nguyên tắc nào?",
+    "options": [
+      "Ưu tiên yêu cầu có thời gian tìm kiếm ngắn nhất",
+      "Xử lý yêu cầu theo thứ tự đến",
+      "Ngẫu nhiên chọn yêu cầu",
+      "Luôn phục vụ yêu cầu ở giữa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 82 (Chương 4): Mount point trong hệ thống tệp có vai trò gì?",
+    "options": [
+      "Gắn một hệ thống tệp vào cây thư mục chung để truy cập",
+      "Xóa file cũ",
+      "Tạo phân vùng mới",
+      "Mở kết nối mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 83 (Chương 4): Hệ thống tệp (file system) có chức năng gì trong hệ điều hành?",
+    "options": [
+      "Tổ chức, lưu trữ và truy xuất dữ liệu trên thiết bị lưu trữ",
+      "Quản lý tiến trình",
+      "Điều khiển CPU",
+      "Giám sát người dùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 84 (Chương 4): Hệ thống tệp (file system) có chức năng gì trong hệ điều hành?",
+    "options": [
+      "Tổ chức, lưu trữ và truy xuất dữ liệu trên thiết bị lưu trữ",
+      "Quản lý tiến trình",
+      "Điều khiển CPU",
+      "Giám sát người dùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 85 (Chương 4): Write-back cache có đặc điểm gì so với write-through cache?",
+    "options": [
+      "Dữ liệu được ghi tạm thời trong cache trước khi ghi xuống đĩa",
+      "Dữ liệu được ghi xuống đĩa ngay lập tức",
+      "Không lưu dữ liệu tạm",
+      "Chỉ dùng cho ổ cứng HDD"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 86 (Chương 4): Filesystem permission 'rwx' có nghĩa là gì?",
+    "options": [
+      "Quyền đọc, ghi và thực thi",
+      "Chỉ quyền đọc và ghi",
+      "Chỉ quyền đọc",
+      "Không có quyền nào"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 87 (Chương 4): Write-back cache có đặc điểm gì so với write-through cache?",
+    "options": [
+      "Dữ liệu được ghi tạm thời trong cache trước khi ghi xuống đĩa",
+      "Dữ liệu được ghi xuống đĩa ngay lập tức",
+      "Không lưu dữ liệu tạm",
+      "Chỉ dùng cho ổ cứng HDD"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 88 (Chương 4): Journaling file system có ưu điểm gì?",
+    "options": [
+      "Giảm nguy cơ mất dữ liệu bằng cách ghi nhật ký các thay đổi",
+      "Tăng tốc CPU",
+      "Không cần phân quyền",
+      "Giảm RAM sử dụng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 89 (Chương 4): Mount point trong hệ thống tệp có vai trò gì?",
+    "options": [
+      "Gắn một hệ thống tệp vào cây thư mục chung để truy cập",
+      "Xóa file cũ",
+      "Tạo phân vùng mới",
+      "Mở kết nối mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 90 (Chương 4): Journaling file system có ưu điểm gì?",
+    "options": [
+      "Giảm nguy cơ mất dữ liệu bằng cách ghi nhật ký các thay đổi",
+      "Tăng tốc CPU",
+      "Không cần phân quyền",
+      "Giảm RAM sử dụng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 91 (Chương 4): Journaling file system có ưu điểm gì?",
+    "options": [
+      "Giảm nguy cơ mất dữ liệu bằng cách ghi nhật ký các thay đổi",
+      "Tăng tốc CPU",
+      "Không cần phân quyền",
+      "Giảm RAM sử dụng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 92 (Chương 4): Filesystem permission 'rwx' có nghĩa là gì?",
+    "options": [
+      "Quyền đọc, ghi và thực thi",
+      "Chỉ quyền đọc và ghi",
+      "Chỉ quyền đọc",
+      "Không có quyền nào"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 93 (Chương 4): Inode trong hệ thống tệp Unix lưu trữ thông tin nào?",
+    "options": [
+      "Metadata của tệp như quyền, kích thước và con trỏ khối",
+      "Tên tệp và nội dung tệp",
+      "Chỉ thời gian tạo",
+      "Người dùng sở hữu"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 94 (Chương 4): Mount point trong hệ thống tệp có vai trò gì?",
+    "options": [
+      "Gắn một hệ thống tệp vào cây thư mục chung để truy cập",
+      "Xóa file cũ",
+      "Tạo phân vùng mới",
+      "Mở kết nối mạng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 95 (Chương 4): Hệ thống tệp (file system) có chức năng gì trong hệ điều hành?",
+    "options": [
+      "Tổ chức, lưu trữ và truy xuất dữ liệu trên thiết bị lưu trữ",
+      "Quản lý tiến trình",
+      "Điều khiển CPU",
+      "Giám sát người dùng"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 96 (Chương 4): RAID dùng để làm gì?",
+    "options": [
+      "Tăng độ tin cậy và/hoặc hiệu năng lưu trữ bằng cách kết hợp nhiều ổ đĩa",
+      "Quản lý bộ nhớ RAM",
+      "Lập lịch CPU",
+      "Mã hóa file hệ thống"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 97 (Chương 4): Thuật toán lập lịch đĩa SSTF hoạt động theo nguyên tắc nào?",
+    "options": [
+      "Ưu tiên yêu cầu có thời gian tìm kiếm ngắn nhất",
+      "Xử lý yêu cầu theo thứ tự đến",
+      "Ngẫu nhiên chọn yêu cầu",
+      "Luôn phục vụ yêu cầu ở giữa"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 98 (Chương 4): RAID dùng để làm gì?",
+    "options": [
+      "Tăng độ tin cậy và/hoặc hiệu năng lưu trữ bằng cách kết hợp nhiều ổ đĩa",
+      "Quản lý bộ nhớ RAM",
+      "Lập lịch CPU",
+      "Mã hóa file hệ thống"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 99 (Chương 4): Caching khác buffering ở điểm nào?",
+    "options": [
+      "Caching lưu dữ liệu để truy xuất nhanh hơn, buffering chỉ lưu tạm trong truyền dữ liệu",
+      "Cả hai giống nhau",
+      "Buffering nhanh hơn caching",
+      "Chỉ dùng cho ổ SSD"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  },
+  {
+    "question": "Câu 100 (Chương 4): RAID dùng để làm gì?",
+    "options": [
+      "Tăng độ tin cậy và/hoặc hiệu năng lưu trữ bằng cách kết hợp nhiều ổ đĩa",
+      "Quản lý bộ nhớ RAM",
+      "Lập lịch CPU",
+      "Mã hóa file hệ thống"
+    ],
+    "answer": 0,
+    "category": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O"
+  }
+]

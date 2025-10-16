@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 4): Mục tiêu chính của việc tối ưu truy vấn trong cơ sở dữ liệu là gì?",
+    "options": [
+      "Giảm thời gian thực thi và sử dụng tài nguyên hiệu quả",
+      "Tăng kích thước cơ sở dữ liệu",
+      "Thay đổi cấu trúc bảng dữ liệu",
+      "Làm cho câu lệnh SQL dài hơn"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 2 (Chương 4): Tối ưu hóa truy vấn có thể đạt được bằng cách nào sau đây?",
+    "options": [
+      "Tạo chỉ mục phù hợp và tránh truy vấn lồng nhau không cần thiết",
+      "Tăng kích thước bảng dữ liệu",
+      "Giảm số lượng người dùng",
+      "Xóa các chỉ mục"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 3 (Chương 4): Công cụ nào trong SQL Server dùng để xem kế hoạch thực thi truy vấn?",
+    "options": [
+      "Execution Plan",
+      "Query Manager",
+      "Optimizer Tool",
+      "Index Viewer"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 4 (Chương 4): Tại sao việc phân tích kế hoạch thực thi (Execution Plan) lại quan trọng?",
+    "options": [
+      "Giúp hiểu cách SQL Server thực hiện truy vấn và xác định điểm nghẽn hiệu năng",
+      "Để thay đổi cú pháp SQL",
+      "Để tăng kích thước bảng",
+      "Để xóa dữ liệu cũ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 5 (Chương 4): Khi nào nên sử dụng chỉ mục dạng Clustered Index?",
+    "options": [
+      "Khi cột thường được sắp xếp hoặc tìm kiếm theo thứ tự",
+      "Khi dữ liệu không có khóa chính",
+      "Khi bảng chỉ có một vài dòng",
+      "Khi muốn ngăn chặn truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 6 (Chương 4): Chỉ mục (Index) giúp cải thiện điều gì trong truy vấn?",
+    "options": [
+      "Tốc độ truy xuất dữ liệu",
+      "Tốc độ chèn dữ liệu",
+      "Tốc độ xóa bảng",
+      "Tốc độ sao lưu cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 7 (Chương 4): Chỉ mục (Index) giúp cải thiện điều gì trong truy vấn?",
+    "options": [
+      "Tốc độ truy xuất dữ liệu",
+      "Tốc độ chèn dữ liệu",
+      "Tốc độ xóa bảng",
+      "Tốc độ sao lưu cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 8 (Chương 4): Thống kê (Statistics) trong cơ sở dữ liệu dùng để làm gì?",
+    "options": [
+      "Giúp bộ tối ưu truy vấn ước lượng chi phí và chọn kế hoạch tốt nhất",
+      "Lưu bản sao dữ liệu dự phòng",
+      "Tăng quyền truy cập của người dùng",
+      "Quản lý quyền hạn trong hệ thống"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 9 (Chương 4): Câu lệnh nào trong SQL Server dùng để cập nhật thống kê của bảng?",
+    "options": [
+      "UPDATE STATISTICS",
+      "REFRESH DATA",
+      "ANALYZE PLAN",
+      "OPTIMIZE INDEX"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 10 (Chương 4): Tại sao nên tránh sử dụng SELECT * trong truy vấn?",
+    "options": [
+      "Vì nó truy xuất nhiều dữ liệu không cần thiết, làm giảm hiệu năng",
+      "Vì nó không được phép trong SQL",
+      "Vì nó không trả về dữ liệu",
+      "Vì nó chỉ dùng trong các bảng tạm"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 11 (Chương 4): Khi nào nên sử dụng chỉ mục dạng Clustered Index?",
+    "options": [
+      "Khi cột thường được sắp xếp hoặc tìm kiếm theo thứ tự",
+      "Khi dữ liệu không có khóa chính",
+      "Khi bảng chỉ có một vài dòng",
+      "Khi muốn ngăn chặn truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 12 (Chương 4): Công cụ nào trong SQL Server dùng để xem kế hoạch thực thi truy vấn?",
+    "options": [
+      "Execution Plan",
+      "Query Manager",
+      "Optimizer Tool",
+      "Index Viewer"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 13 (Chương 4): Chỉ mục (Index) giúp cải thiện điều gì trong truy vấn?",
+    "options": [
+      "Tốc độ truy xuất dữ liệu",
+      "Tốc độ chèn dữ liệu",
+      "Tốc độ xóa bảng",
+      "Tốc độ sao lưu cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 14 (Chương 4): Tại sao nên tránh sử dụng SELECT * trong truy vấn?",
+    "options": [
+      "Vì nó truy xuất nhiều dữ liệu không cần thiết, làm giảm hiệu năng",
+      "Vì nó không được phép trong SQL",
+      "Vì nó không trả về dữ liệu",
+      "Vì nó chỉ dùng trong các bảng tạm"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 15 (Chương 4): Công cụ nào trong SQL Server dùng để xem kế hoạch thực thi truy vấn?",
+    "options": [
+      "Execution Plan",
+      "Query Manager",
+      "Optimizer Tool",
+      "Index Viewer"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 16 (Chương 4): Loại JOIN nào thường tốn tài nguyên nhất khi dữ liệu lớn?",
+    "options": [
+      "CROSS JOIN",
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 17 (Chương 4): Công cụ nào trong SQL Server dùng để xem kế hoạch thực thi truy vấn?",
+    "options": [
+      "Execution Plan",
+      "Query Manager",
+      "Optimizer Tool",
+      "Index Viewer"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 18 (Chương 4): Chỉ mục (Index) giúp cải thiện điều gì trong truy vấn?",
+    "options": [
+      "Tốc độ truy xuất dữ liệu",
+      "Tốc độ chèn dữ liệu",
+      "Tốc độ xóa bảng",
+      "Tốc độ sao lưu cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 19 (Chương 4): Tối ưu hóa truy vấn có thể đạt được bằng cách nào sau đây?",
+    "options": [
+      "Tạo chỉ mục phù hợp và tránh truy vấn lồng nhau không cần thiết",
+      "Tăng kích thước bảng dữ liệu",
+      "Giảm số lượng người dùng",
+      "Xóa các chỉ mục"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 20 (Chương 4): Thống kê (Statistics) trong cơ sở dữ liệu dùng để làm gì?",
+    "options": [
+      "Giúp bộ tối ưu truy vấn ước lượng chi phí và chọn kế hoạch tốt nhất",
+      "Lưu bản sao dữ liệu dự phòng",
+      "Tăng quyền truy cập của người dùng",
+      "Quản lý quyền hạn trong hệ thống"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 21 (Chương 4): Loại JOIN nào thường tốn tài nguyên nhất khi dữ liệu lớn?",
+    "options": [
+      "CROSS JOIN",
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 22 (Chương 4): Thống kê (Statistics) trong cơ sở dữ liệu dùng để làm gì?",
+    "options": [
+      "Giúp bộ tối ưu truy vấn ước lượng chi phí và chọn kế hoạch tốt nhất",
+      "Lưu bản sao dữ liệu dự phòng",
+      "Tăng quyền truy cập của người dùng",
+      "Quản lý quyền hạn trong hệ thống"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 23 (Chương 4): Tại sao việc phân tích kế hoạch thực thi (Execution Plan) lại quan trọng?",
+    "options": [
+      "Giúp hiểu cách SQL Server thực hiện truy vấn và xác định điểm nghẽn hiệu năng",
+      "Để thay đổi cú pháp SQL",
+      "Để tăng kích thước bảng",
+      "Để xóa dữ liệu cũ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 24 (Chương 4): Thống kê (Statistics) trong cơ sở dữ liệu dùng để làm gì?",
+    "options": [
+      "Giúp bộ tối ưu truy vấn ước lượng chi phí và chọn kế hoạch tốt nhất",
+      "Lưu bản sao dữ liệu dự phòng",
+      "Tăng quyền truy cập của người dùng",
+      "Quản lý quyền hạn trong hệ thống"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 25 (Chương 4): Mục tiêu chính của việc tối ưu truy vấn trong cơ sở dữ liệu là gì?",
+    "options": [
+      "Giảm thời gian thực thi và sử dụng tài nguyên hiệu quả",
+      "Tăng kích thước cơ sở dữ liệu",
+      "Thay đổi cấu trúc bảng dữ liệu",
+      "Làm cho câu lệnh SQL dài hơn"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 26 (Chương 4): Thống kê (Statistics) trong cơ sở dữ liệu dùng để làm gì?",
+    "options": [
+      "Giúp bộ tối ưu truy vấn ước lượng chi phí và chọn kế hoạch tốt nhất",
+      "Lưu bản sao dữ liệu dự phòng",
+      "Tăng quyền truy cập của người dùng",
+      "Quản lý quyền hạn trong hệ thống"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 27 (Chương 4): Loại JOIN nào thường tốn tài nguyên nhất khi dữ liệu lớn?",
+    "options": [
+      "CROSS JOIN",
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 28 (Chương 4): Tối ưu hóa truy vấn có thể đạt được bằng cách nào sau đây?",
+    "options": [
+      "Tạo chỉ mục phù hợp và tránh truy vấn lồng nhau không cần thiết",
+      "Tăng kích thước bảng dữ liệu",
+      "Giảm số lượng người dùng",
+      "Xóa các chỉ mục"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 29 (Chương 4): Câu lệnh nào trong SQL Server dùng để cập nhật thống kê của bảng?",
+    "options": [
+      "UPDATE STATISTICS",
+      "REFRESH DATA",
+      "ANALYZE PLAN",
+      "OPTIMIZE INDEX"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 30 (Chương 4): Tại sao nên tránh sử dụng SELECT * trong truy vấn?",
+    "options": [
+      "Vì nó truy xuất nhiều dữ liệu không cần thiết, làm giảm hiệu năng",
+      "Vì nó không được phép trong SQL",
+      "Vì nó không trả về dữ liệu",
+      "Vì nó chỉ dùng trong các bảng tạm"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 31 (Chương 4): Mục tiêu chính của việc tối ưu truy vấn trong cơ sở dữ liệu là gì?",
+    "options": [
+      "Giảm thời gian thực thi và sử dụng tài nguyên hiệu quả",
+      "Tăng kích thước cơ sở dữ liệu",
+      "Thay đổi cấu trúc bảng dữ liệu",
+      "Làm cho câu lệnh SQL dài hơn"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 32 (Chương 4): Công cụ nào trong SQL Server dùng để xem kế hoạch thực thi truy vấn?",
+    "options": [
+      "Execution Plan",
+      "Query Manager",
+      "Optimizer Tool",
+      "Index Viewer"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 33 (Chương 4): Khi nào nên sử dụng chỉ mục dạng Clustered Index?",
+    "options": [
+      "Khi cột thường được sắp xếp hoặc tìm kiếm theo thứ tự",
+      "Khi dữ liệu không có khóa chính",
+      "Khi bảng chỉ có một vài dòng",
+      "Khi muốn ngăn chặn truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 34 (Chương 4): Mục tiêu chính của việc tối ưu truy vấn trong cơ sở dữ liệu là gì?",
+    "options": [
+      "Giảm thời gian thực thi và sử dụng tài nguyên hiệu quả",
+      "Tăng kích thước cơ sở dữ liệu",
+      "Thay đổi cấu trúc bảng dữ liệu",
+      "Làm cho câu lệnh SQL dài hơn"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 35 (Chương 4): Tại sao việc phân tích kế hoạch thực thi (Execution Plan) lại quan trọng?",
+    "options": [
+      "Giúp hiểu cách SQL Server thực hiện truy vấn và xác định điểm nghẽn hiệu năng",
+      "Để thay đổi cú pháp SQL",
+      "Để tăng kích thước bảng",
+      "Để xóa dữ liệu cũ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 36 (Chương 4): Công cụ nào trong SQL Server dùng để xem kế hoạch thực thi truy vấn?",
+    "options": [
+      "Execution Plan",
+      "Query Manager",
+      "Optimizer Tool",
+      "Index Viewer"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 37 (Chương 4): Tối ưu hóa truy vấn có thể đạt được bằng cách nào sau đây?",
+    "options": [
+      "Tạo chỉ mục phù hợp và tránh truy vấn lồng nhau không cần thiết",
+      "Tăng kích thước bảng dữ liệu",
+      "Giảm số lượng người dùng",
+      "Xóa các chỉ mục"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 38 (Chương 4): Chỉ mục (Index) giúp cải thiện điều gì trong truy vấn?",
+    "options": [
+      "Tốc độ truy xuất dữ liệu",
+      "Tốc độ chèn dữ liệu",
+      "Tốc độ xóa bảng",
+      "Tốc độ sao lưu cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 39 (Chương 4): Câu lệnh nào trong SQL Server dùng để cập nhật thống kê của bảng?",
+    "options": [
+      "UPDATE STATISTICS",
+      "REFRESH DATA",
+      "ANALYZE PLAN",
+      "OPTIMIZE INDEX"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 40 (Chương 4): Công cụ nào trong SQL Server dùng để xem kế hoạch thực thi truy vấn?",
+    "options": [
+      "Execution Plan",
+      "Query Manager",
+      "Optimizer Tool",
+      "Index Viewer"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 41 (Chương 4): Câu lệnh nào trong SQL Server dùng để cập nhật thống kê của bảng?",
+    "options": [
+      "UPDATE STATISTICS",
+      "REFRESH DATA",
+      "ANALYZE PLAN",
+      "OPTIMIZE INDEX"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 42 (Chương 4): Thống kê (Statistics) trong cơ sở dữ liệu dùng để làm gì?",
+    "options": [
+      "Giúp bộ tối ưu truy vấn ước lượng chi phí và chọn kế hoạch tốt nhất",
+      "Lưu bản sao dữ liệu dự phòng",
+      "Tăng quyền truy cập của người dùng",
+      "Quản lý quyền hạn trong hệ thống"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 43 (Chương 4): Công cụ nào trong SQL Server dùng để xem kế hoạch thực thi truy vấn?",
+    "options": [
+      "Execution Plan",
+      "Query Manager",
+      "Optimizer Tool",
+      "Index Viewer"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 44 (Chương 4): Câu lệnh nào trong SQL Server dùng để cập nhật thống kê của bảng?",
+    "options": [
+      "UPDATE STATISTICS",
+      "REFRESH DATA",
+      "ANALYZE PLAN",
+      "OPTIMIZE INDEX"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 45 (Chương 4): Mục tiêu chính của việc tối ưu truy vấn trong cơ sở dữ liệu là gì?",
+    "options": [
+      "Giảm thời gian thực thi và sử dụng tài nguyên hiệu quả",
+      "Tăng kích thước cơ sở dữ liệu",
+      "Thay đổi cấu trúc bảng dữ liệu",
+      "Làm cho câu lệnh SQL dài hơn"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 46 (Chương 4): Tối ưu hóa truy vấn có thể đạt được bằng cách nào sau đây?",
+    "options": [
+      "Tạo chỉ mục phù hợp và tránh truy vấn lồng nhau không cần thiết",
+      "Tăng kích thước bảng dữ liệu",
+      "Giảm số lượng người dùng",
+      "Xóa các chỉ mục"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 47 (Chương 4): Chỉ mục (Index) giúp cải thiện điều gì trong truy vấn?",
+    "options": [
+      "Tốc độ truy xuất dữ liệu",
+      "Tốc độ chèn dữ liệu",
+      "Tốc độ xóa bảng",
+      "Tốc độ sao lưu cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 48 (Chương 4): Tại sao việc phân tích kế hoạch thực thi (Execution Plan) lại quan trọng?",
+    "options": [
+      "Giúp hiểu cách SQL Server thực hiện truy vấn và xác định điểm nghẽn hiệu năng",
+      "Để thay đổi cú pháp SQL",
+      "Để tăng kích thước bảng",
+      "Để xóa dữ liệu cũ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 49 (Chương 4): Khi nào nên sử dụng chỉ mục dạng Clustered Index?",
+    "options": [
+      "Khi cột thường được sắp xếp hoặc tìm kiếm theo thứ tự",
+      "Khi dữ liệu không có khóa chính",
+      "Khi bảng chỉ có một vài dòng",
+      "Khi muốn ngăn chặn truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 50 (Chương 4): Loại JOIN nào thường tốn tài nguyên nhất khi dữ liệu lớn?",
+    "options": [
+      "CROSS JOIN",
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 51 (Chương 4): Câu lệnh nào trong SQL Server dùng để cập nhật thống kê của bảng?",
+    "options": [
+      "UPDATE STATISTICS",
+      "REFRESH DATA",
+      "ANALYZE PLAN",
+      "OPTIMIZE INDEX"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 52 (Chương 4): Chỉ mục (Index) giúp cải thiện điều gì trong truy vấn?",
+    "options": [
+      "Tốc độ truy xuất dữ liệu",
+      "Tốc độ chèn dữ liệu",
+      "Tốc độ xóa bảng",
+      "Tốc độ sao lưu cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 53 (Chương 4): Câu lệnh nào trong SQL Server dùng để cập nhật thống kê của bảng?",
+    "options": [
+      "UPDATE STATISTICS",
+      "REFRESH DATA",
+      "ANALYZE PLAN",
+      "OPTIMIZE INDEX"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 54 (Chương 4): Mục tiêu chính của việc tối ưu truy vấn trong cơ sở dữ liệu là gì?",
+    "options": [
+      "Giảm thời gian thực thi và sử dụng tài nguyên hiệu quả",
+      "Tăng kích thước cơ sở dữ liệu",
+      "Thay đổi cấu trúc bảng dữ liệu",
+      "Làm cho câu lệnh SQL dài hơn"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 55 (Chương 4): Chỉ mục (Index) giúp cải thiện điều gì trong truy vấn?",
+    "options": [
+      "Tốc độ truy xuất dữ liệu",
+      "Tốc độ chèn dữ liệu",
+      "Tốc độ xóa bảng",
+      "Tốc độ sao lưu cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 56 (Chương 4): Chỉ mục (Index) giúp cải thiện điều gì trong truy vấn?",
+    "options": [
+      "Tốc độ truy xuất dữ liệu",
+      "Tốc độ chèn dữ liệu",
+      "Tốc độ xóa bảng",
+      "Tốc độ sao lưu cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 57 (Chương 4): Chỉ mục (Index) giúp cải thiện điều gì trong truy vấn?",
+    "options": [
+      "Tốc độ truy xuất dữ liệu",
+      "Tốc độ chèn dữ liệu",
+      "Tốc độ xóa bảng",
+      "Tốc độ sao lưu cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 58 (Chương 4): Loại JOIN nào thường tốn tài nguyên nhất khi dữ liệu lớn?",
+    "options": [
+      "CROSS JOIN",
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 59 (Chương 4): Khi nào nên sử dụng chỉ mục dạng Clustered Index?",
+    "options": [
+      "Khi cột thường được sắp xếp hoặc tìm kiếm theo thứ tự",
+      "Khi dữ liệu không có khóa chính",
+      "Khi bảng chỉ có một vài dòng",
+      "Khi muốn ngăn chặn truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 60 (Chương 4): Câu lệnh nào trong SQL Server dùng để cập nhật thống kê của bảng?",
+    "options": [
+      "UPDATE STATISTICS",
+      "REFRESH DATA",
+      "ANALYZE PLAN",
+      "OPTIMIZE INDEX"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 61 (Chương 4): Tại sao nên tránh sử dụng SELECT * trong truy vấn?",
+    "options": [
+      "Vì nó truy xuất nhiều dữ liệu không cần thiết, làm giảm hiệu năng",
+      "Vì nó không được phép trong SQL",
+      "Vì nó không trả về dữ liệu",
+      "Vì nó chỉ dùng trong các bảng tạm"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 62 (Chương 4): Câu lệnh nào trong SQL Server dùng để cập nhật thống kê của bảng?",
+    "options": [
+      "UPDATE STATISTICS",
+      "REFRESH DATA",
+      "ANALYZE PLAN",
+      "OPTIMIZE INDEX"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 63 (Chương 4): Loại JOIN nào thường tốn tài nguyên nhất khi dữ liệu lớn?",
+    "options": [
+      "CROSS JOIN",
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 64 (Chương 4): Thống kê (Statistics) trong cơ sở dữ liệu dùng để làm gì?",
+    "options": [
+      "Giúp bộ tối ưu truy vấn ước lượng chi phí và chọn kế hoạch tốt nhất",
+      "Lưu bản sao dữ liệu dự phòng",
+      "Tăng quyền truy cập của người dùng",
+      "Quản lý quyền hạn trong hệ thống"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 65 (Chương 4): Công cụ nào trong SQL Server dùng để xem kế hoạch thực thi truy vấn?",
+    "options": [
+      "Execution Plan",
+      "Query Manager",
+      "Optimizer Tool",
+      "Index Viewer"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 66 (Chương 4): Khi nào nên sử dụng chỉ mục dạng Clustered Index?",
+    "options": [
+      "Khi cột thường được sắp xếp hoặc tìm kiếm theo thứ tự",
+      "Khi dữ liệu không có khóa chính",
+      "Khi bảng chỉ có một vài dòng",
+      "Khi muốn ngăn chặn truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 67 (Chương 4): Mục tiêu chính của việc tối ưu truy vấn trong cơ sở dữ liệu là gì?",
+    "options": [
+      "Giảm thời gian thực thi và sử dụng tài nguyên hiệu quả",
+      "Tăng kích thước cơ sở dữ liệu",
+      "Thay đổi cấu trúc bảng dữ liệu",
+      "Làm cho câu lệnh SQL dài hơn"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 68 (Chương 4): Tối ưu hóa truy vấn có thể đạt được bằng cách nào sau đây?",
+    "options": [
+      "Tạo chỉ mục phù hợp và tránh truy vấn lồng nhau không cần thiết",
+      "Tăng kích thước bảng dữ liệu",
+      "Giảm số lượng người dùng",
+      "Xóa các chỉ mục"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 69 (Chương 4): Thống kê (Statistics) trong cơ sở dữ liệu dùng để làm gì?",
+    "options": [
+      "Giúp bộ tối ưu truy vấn ước lượng chi phí và chọn kế hoạch tốt nhất",
+      "Lưu bản sao dữ liệu dự phòng",
+      "Tăng quyền truy cập của người dùng",
+      "Quản lý quyền hạn trong hệ thống"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 70 (Chương 4): Khi nào nên sử dụng chỉ mục dạng Clustered Index?",
+    "options": [
+      "Khi cột thường được sắp xếp hoặc tìm kiếm theo thứ tự",
+      "Khi dữ liệu không có khóa chính",
+      "Khi bảng chỉ có một vài dòng",
+      "Khi muốn ngăn chặn truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 71 (Chương 4): Công cụ nào trong SQL Server dùng để xem kế hoạch thực thi truy vấn?",
+    "options": [
+      "Execution Plan",
+      "Query Manager",
+      "Optimizer Tool",
+      "Index Viewer"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 72 (Chương 4): Khi nào nên sử dụng chỉ mục dạng Clustered Index?",
+    "options": [
+      "Khi cột thường được sắp xếp hoặc tìm kiếm theo thứ tự",
+      "Khi dữ liệu không có khóa chính",
+      "Khi bảng chỉ có một vài dòng",
+      "Khi muốn ngăn chặn truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 73 (Chương 4): Công cụ nào trong SQL Server dùng để xem kế hoạch thực thi truy vấn?",
+    "options": [
+      "Execution Plan",
+      "Query Manager",
+      "Optimizer Tool",
+      "Index Viewer"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 74 (Chương 4): Mục tiêu chính của việc tối ưu truy vấn trong cơ sở dữ liệu là gì?",
+    "options": [
+      "Giảm thời gian thực thi và sử dụng tài nguyên hiệu quả",
+      "Tăng kích thước cơ sở dữ liệu",
+      "Thay đổi cấu trúc bảng dữ liệu",
+      "Làm cho câu lệnh SQL dài hơn"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 75 (Chương 4): Chỉ mục (Index) giúp cải thiện điều gì trong truy vấn?",
+    "options": [
+      "Tốc độ truy xuất dữ liệu",
+      "Tốc độ chèn dữ liệu",
+      "Tốc độ xóa bảng",
+      "Tốc độ sao lưu cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 76 (Chương 4): Chỉ mục (Index) giúp cải thiện điều gì trong truy vấn?",
+    "options": [
+      "Tốc độ truy xuất dữ liệu",
+      "Tốc độ chèn dữ liệu",
+      "Tốc độ xóa bảng",
+      "Tốc độ sao lưu cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 77 (Chương 4): Khi nào nên sử dụng chỉ mục dạng Clustered Index?",
+    "options": [
+      "Khi cột thường được sắp xếp hoặc tìm kiếm theo thứ tự",
+      "Khi dữ liệu không có khóa chính",
+      "Khi bảng chỉ có một vài dòng",
+      "Khi muốn ngăn chặn truy cập"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 78 (Chương 4): Tối ưu hóa truy vấn có thể đạt được bằng cách nào sau đây?",
+    "options": [
+      "Tạo chỉ mục phù hợp và tránh truy vấn lồng nhau không cần thiết",
+      "Tăng kích thước bảng dữ liệu",
+      "Giảm số lượng người dùng",
+      "Xóa các chỉ mục"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 79 (Chương 4): Công cụ nào trong SQL Server dùng để xem kế hoạch thực thi truy vấn?",
+    "options": [
+      "Execution Plan",
+      "Query Manager",
+      "Optimizer Tool",
+      "Index Viewer"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 80 (Chương 4): Câu lệnh nào trong SQL Server dùng để cập nhật thống kê của bảng?",
+    "options": [
+      "UPDATE STATISTICS",
+      "REFRESH DATA",
+      "ANALYZE PLAN",
+      "OPTIMIZE INDEX"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 81 (Chương 4): Chỉ mục (Index) giúp cải thiện điều gì trong truy vấn?",
+    "options": [
+      "Tốc độ truy xuất dữ liệu",
+      "Tốc độ chèn dữ liệu",
+      "Tốc độ xóa bảng",
+      "Tốc độ sao lưu cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 82 (Chương 4): Mục tiêu chính của việc tối ưu truy vấn trong cơ sở dữ liệu là gì?",
+    "options": [
+      "Giảm thời gian thực thi và sử dụng tài nguyên hiệu quả",
+      "Tăng kích thước cơ sở dữ liệu",
+      "Thay đổi cấu trúc bảng dữ liệu",
+      "Làm cho câu lệnh SQL dài hơn"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 83 (Chương 4): Tối ưu hóa truy vấn có thể đạt được bằng cách nào sau đây?",
+    "options": [
+      "Tạo chỉ mục phù hợp và tránh truy vấn lồng nhau không cần thiết",
+      "Tăng kích thước bảng dữ liệu",
+      "Giảm số lượng người dùng",
+      "Xóa các chỉ mục"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 84 (Chương 4): Thống kê (Statistics) trong cơ sở dữ liệu dùng để làm gì?",
+    "options": [
+      "Giúp bộ tối ưu truy vấn ước lượng chi phí và chọn kế hoạch tốt nhất",
+      "Lưu bản sao dữ liệu dự phòng",
+      "Tăng quyền truy cập của người dùng",
+      "Quản lý quyền hạn trong hệ thống"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 85 (Chương 4): Tại sao nên tránh sử dụng SELECT * trong truy vấn?",
+    "options": [
+      "Vì nó truy xuất nhiều dữ liệu không cần thiết, làm giảm hiệu năng",
+      "Vì nó không được phép trong SQL",
+      "Vì nó không trả về dữ liệu",
+      "Vì nó chỉ dùng trong các bảng tạm"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 86 (Chương 4): Tại sao nên tránh sử dụng SELECT * trong truy vấn?",
+    "options": [
+      "Vì nó truy xuất nhiều dữ liệu không cần thiết, làm giảm hiệu năng",
+      "Vì nó không được phép trong SQL",
+      "Vì nó không trả về dữ liệu",
+      "Vì nó chỉ dùng trong các bảng tạm"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 87 (Chương 4): Câu lệnh nào trong SQL Server dùng để cập nhật thống kê của bảng?",
+    "options": [
+      "UPDATE STATISTICS",
+      "REFRESH DATA",
+      "ANALYZE PLAN",
+      "OPTIMIZE INDEX"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 88 (Chương 4): Thống kê (Statistics) trong cơ sở dữ liệu dùng để làm gì?",
+    "options": [
+      "Giúp bộ tối ưu truy vấn ước lượng chi phí và chọn kế hoạch tốt nhất",
+      "Lưu bản sao dữ liệu dự phòng",
+      "Tăng quyền truy cập của người dùng",
+      "Quản lý quyền hạn trong hệ thống"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 89 (Chương 4): Chỉ mục (Index) giúp cải thiện điều gì trong truy vấn?",
+    "options": [
+      "Tốc độ truy xuất dữ liệu",
+      "Tốc độ chèn dữ liệu",
+      "Tốc độ xóa bảng",
+      "Tốc độ sao lưu cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 90 (Chương 4): Công cụ nào trong SQL Server dùng để xem kế hoạch thực thi truy vấn?",
+    "options": [
+      "Execution Plan",
+      "Query Manager",
+      "Optimizer Tool",
+      "Index Viewer"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 91 (Chương 4): Mục tiêu chính của việc tối ưu truy vấn trong cơ sở dữ liệu là gì?",
+    "options": [
+      "Giảm thời gian thực thi và sử dụng tài nguyên hiệu quả",
+      "Tăng kích thước cơ sở dữ liệu",
+      "Thay đổi cấu trúc bảng dữ liệu",
+      "Làm cho câu lệnh SQL dài hơn"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 92 (Chương 4): Công cụ nào trong SQL Server dùng để xem kế hoạch thực thi truy vấn?",
+    "options": [
+      "Execution Plan",
+      "Query Manager",
+      "Optimizer Tool",
+      "Index Viewer"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 93 (Chương 4): Tại sao việc phân tích kế hoạch thực thi (Execution Plan) lại quan trọng?",
+    "options": [
+      "Giúp hiểu cách SQL Server thực hiện truy vấn và xác định điểm nghẽn hiệu năng",
+      "Để thay đổi cú pháp SQL",
+      "Để tăng kích thước bảng",
+      "Để xóa dữ liệu cũ"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 94 (Chương 4): Loại JOIN nào thường tốn tài nguyên nhất khi dữ liệu lớn?",
+    "options": [
+      "CROSS JOIN",
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 95 (Chương 4): Tối ưu hóa truy vấn có thể đạt được bằng cách nào sau đây?",
+    "options": [
+      "Tạo chỉ mục phù hợp và tránh truy vấn lồng nhau không cần thiết",
+      "Tăng kích thước bảng dữ liệu",
+      "Giảm số lượng người dùng",
+      "Xóa các chỉ mục"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 96 (Chương 4): Mục tiêu chính của việc tối ưu truy vấn trong cơ sở dữ liệu là gì?",
+    "options": [
+      "Giảm thời gian thực thi và sử dụng tài nguyên hiệu quả",
+      "Tăng kích thước cơ sở dữ liệu",
+      "Thay đổi cấu trúc bảng dữ liệu",
+      "Làm cho câu lệnh SQL dài hơn"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 97 (Chương 4): Tại sao nên tránh sử dụng SELECT * trong truy vấn?",
+    "options": [
+      "Vì nó truy xuất nhiều dữ liệu không cần thiết, làm giảm hiệu năng",
+      "Vì nó không được phép trong SQL",
+      "Vì nó không trả về dữ liệu",
+      "Vì nó chỉ dùng trong các bảng tạm"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 98 (Chương 4): Chỉ mục (Index) giúp cải thiện điều gì trong truy vấn?",
+    "options": [
+      "Tốc độ truy xuất dữ liệu",
+      "Tốc độ chèn dữ liệu",
+      "Tốc độ xóa bảng",
+      "Tốc độ sao lưu cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 99 (Chương 4): Chỉ mục (Index) giúp cải thiện điều gì trong truy vấn?",
+    "options": [
+      "Tốc độ truy xuất dữ liệu",
+      "Tốc độ chèn dữ liệu",
+      "Tốc độ xóa bảng",
+      "Tốc độ sao lưu cơ sở dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  },
+  {
+    "question": "Câu 100 (Chương 4): Thống kê (Statistics) trong cơ sở dữ liệu dùng để làm gì?",
+    "options": [
+      "Giúp bộ tối ưu truy vấn ước lượng chi phí và chọn kế hoạch tốt nhất",
+      "Lưu bản sao dữ liệu dự phòng",
+      "Tăng quyền truy cập của người dùng",
+      "Quản lý quyền hạn trong hệ thống"
+    ],
+    "answer": 0,
+    "category": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn"
+  }
+]

@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 6): Kiểm soát thay đổi (Change Control) nhằm mục đích gì?",
+    "options": [
+      "Quản lý và phê duyệt các thay đổi ảnh hưởng đến phạm vi, tiến độ hoặc chi phí",
+      "Xóa bỏ các thay đổi phát sinh",
+      "Chỉ theo dõi thay đổi về nhân sự",
+      "Tạo thêm rủi ro mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 2 (Chương 6): Công cụ phổ biến để theo dõi tiến độ dự án là gì?",
+    "options": [
+      "Biểu đồ Gantt",
+      "Sơ đồ tổ chức",
+      "Sổ kế toán",
+      "Báo cáo tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 3 (Chương 6): Kiểm soát thay đổi (Change Control) nhằm mục đích gì?",
+    "options": [
+      "Quản lý và phê duyệt các thay đổi ảnh hưởng đến phạm vi, tiến độ hoặc chi phí",
+      "Xóa bỏ các thay đổi phát sinh",
+      "Chỉ theo dõi thay đổi về nhân sự",
+      "Tạo thêm rủi ro mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 4 (Chương 6): Báo cáo hiệu suất (Performance Report) thường bao gồm nội dung gì?",
+    "options": [
+      "Tiến độ, chi phí và các vấn đề rủi ro của dự án",
+      "Thông tin nhân sự cá nhân",
+      "Kế hoạch tuyển dụng",
+      "Kết quả bán hàng"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 5 (Chương 6): Kiểm soát thay đổi (Change Control) nhằm mục đích gì?",
+    "options": [
+      "Quản lý và phê duyệt các thay đổi ảnh hưởng đến phạm vi, tiến độ hoặc chi phí",
+      "Xóa bỏ các thay đổi phát sinh",
+      "Chỉ theo dõi thay đổi về nhân sự",
+      "Tạo thêm rủi ro mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 6 (Chương 6): Công cụ phổ biến để theo dõi tiến độ dự án là gì?",
+    "options": [
+      "Biểu đồ Gantt",
+      "Sơ đồ tổ chức",
+      "Sổ kế toán",
+      "Báo cáo tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 7 (Chương 6): Hoạt động nào thường diễn ra trong giai đoạn kết thúc dự án?",
+    "options": [
+      "Nghiệm thu, bàn giao và đánh giá tổng kết dự án",
+      "Bổ sung phạm vi dự án",
+      "Tuyển thêm nhân sự",
+      "Tăng chi phí dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 8 (Chương 6): Báo cáo hiệu suất (Performance Report) thường bao gồm nội dung gì?",
+    "options": [
+      "Tiến độ, chi phí và các vấn đề rủi ro của dự án",
+      "Thông tin nhân sự cá nhân",
+      "Kế hoạch tuyển dụng",
+      "Kết quả bán hàng"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 9 (Chương 6): Ai thường phê duyệt các thay đổi lớn trong dự án?",
+    "options": [
+      "Hội đồng kiểm soát thay đổi (Change Control Board - CCB)",
+      "Từng thành viên nhóm dự án",
+      "Nhà cung cấp vật tư",
+      "Phòng kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 10 (Chương 6): Ai thường phê duyệt các thay đổi lớn trong dự án?",
+    "options": [
+      "Hội đồng kiểm soát thay đổi (Change Control Board - CCB)",
+      "Từng thành viên nhóm dự án",
+      "Nhà cung cấp vật tư",
+      "Phòng kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 11 (Chương 6): Mục tiêu chính của giám sát và kiểm soát dự án là gì?",
+    "options": [
+      "Đảm bảo dự án đi đúng hướng so với kế hoạch về phạm vi, thời gian và chi phí",
+      "Tăng số lượng tài liệu của dự án",
+      "Kéo dài tiến độ dự án để đảm bảo chất lượng",
+      "Thay đổi phạm vi mà không cần phê duyệt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 12 (Chương 6): Báo cáo hiệu suất (Performance Report) thường bao gồm nội dung gì?",
+    "options": [
+      "Tiến độ, chi phí và các vấn đề rủi ro của dự án",
+      "Thông tin nhân sự cá nhân",
+      "Kế hoạch tuyển dụng",
+      "Kết quả bán hàng"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 13 (Chương 6): Chỉ số CPI (Cost Performance Index) < 1 cho biết điều gì?",
+    "options": [
+      "Dự án đang vượt chi phí so với kế hoạch",
+      "Dự án tiết kiệm chi phí",
+      "Dự án hoàn thành đúng ngân sách",
+      "Dự án chưa được khởi động"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 14 (Chương 6): Ai thường phê duyệt các thay đổi lớn trong dự án?",
+    "options": [
+      "Hội đồng kiểm soát thay đổi (Change Control Board - CCB)",
+      "Từng thành viên nhóm dự án",
+      "Nhà cung cấp vật tư",
+      "Phòng kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 15 (Chương 6): Chỉ số CPI (Cost Performance Index) < 1 cho biết điều gì?",
+    "options": [
+      "Dự án đang vượt chi phí so với kế hoạch",
+      "Dự án tiết kiệm chi phí",
+      "Dự án hoàn thành đúng ngân sách",
+      "Dự án chưa được khởi động"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 16 (Chương 6): Kiểm soát thay đổi (Change Control) nhằm mục đích gì?",
+    "options": [
+      "Quản lý và phê duyệt các thay đổi ảnh hưởng đến phạm vi, tiến độ hoặc chi phí",
+      "Xóa bỏ các thay đổi phát sinh",
+      "Chỉ theo dõi thay đổi về nhân sự",
+      "Tạo thêm rủi ro mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 17 (Chương 6): Công cụ phổ biến để theo dõi tiến độ dự án là gì?",
+    "options": [
+      "Biểu đồ Gantt",
+      "Sơ đồ tổ chức",
+      "Sổ kế toán",
+      "Báo cáo tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 18 (Chương 6): Ai thường phê duyệt các thay đổi lớn trong dự án?",
+    "options": [
+      "Hội đồng kiểm soát thay đổi (Change Control Board - CCB)",
+      "Từng thành viên nhóm dự án",
+      "Nhà cung cấp vật tư",
+      "Phòng kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 19 (Chương 6): Một trong những kết quả quan trọng của giai đoạn kết thúc là gì?",
+    "options": [
+      "Bài học kinh nghiệm (Lessons Learned)",
+      "Báo cáo rủi ro mới",
+      "Kế hoạch mở rộng dự án",
+      "Bản hợp đồng mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 20 (Chương 6): Mục tiêu chính của giám sát và kiểm soát dự án là gì?",
+    "options": [
+      "Đảm bảo dự án đi đúng hướng so với kế hoạch về phạm vi, thời gian và chi phí",
+      "Tăng số lượng tài liệu của dự án",
+      "Kéo dài tiến độ dự án để đảm bảo chất lượng",
+      "Thay đổi phạm vi mà không cần phê duyệt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 21 (Chương 6): Mục tiêu chính của giám sát và kiểm soát dự án là gì?",
+    "options": [
+      "Đảm bảo dự án đi đúng hướng so với kế hoạch về phạm vi, thời gian và chi phí",
+      "Tăng số lượng tài liệu của dự án",
+      "Kéo dài tiến độ dự án để đảm bảo chất lượng",
+      "Thay đổi phạm vi mà không cần phê duyệt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 22 (Chương 6): Báo cáo hiệu suất (Performance Report) thường bao gồm nội dung gì?",
+    "options": [
+      "Tiến độ, chi phí và các vấn đề rủi ro của dự án",
+      "Thông tin nhân sự cá nhân",
+      "Kế hoạch tuyển dụng",
+      "Kết quả bán hàng"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 23 (Chương 6): Mục đích của cuộc họp tổng kết (Post-project review) là gì?",
+    "options": [
+      "Đánh giá kết quả, rút kinh nghiệm và ghi nhận bài học cho các dự án sau",
+      "Xác định rủi ro mới",
+      "Phân tích thị trường",
+      "Đàm phán hợp đồng mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 24 (Chương 6): Chỉ số CPI (Cost Performance Index) < 1 cho biết điều gì?",
+    "options": [
+      "Dự án đang vượt chi phí so với kế hoạch",
+      "Dự án tiết kiệm chi phí",
+      "Dự án hoàn thành đúng ngân sách",
+      "Dự án chưa được khởi động"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 25 (Chương 6): Kiểm soát thay đổi (Change Control) nhằm mục đích gì?",
+    "options": [
+      "Quản lý và phê duyệt các thay đổi ảnh hưởng đến phạm vi, tiến độ hoặc chi phí",
+      "Xóa bỏ các thay đổi phát sinh",
+      "Chỉ theo dõi thay đổi về nhân sự",
+      "Tạo thêm rủi ro mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 26 (Chương 6): Ai thường phê duyệt các thay đổi lớn trong dự án?",
+    "options": [
+      "Hội đồng kiểm soát thay đổi (Change Control Board - CCB)",
+      "Từng thành viên nhóm dự án",
+      "Nhà cung cấp vật tư",
+      "Phòng kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 27 (Chương 6): Chỉ số CPI (Cost Performance Index) < 1 cho biết điều gì?",
+    "options": [
+      "Dự án đang vượt chi phí so với kế hoạch",
+      "Dự án tiết kiệm chi phí",
+      "Dự án hoàn thành đúng ngân sách",
+      "Dự án chưa được khởi động"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 28 (Chương 6): Mục đích của cuộc họp tổng kết (Post-project review) là gì?",
+    "options": [
+      "Đánh giá kết quả, rút kinh nghiệm và ghi nhận bài học cho các dự án sau",
+      "Xác định rủi ro mới",
+      "Phân tích thị trường",
+      "Đàm phán hợp đồng mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 29 (Chương 6): Mục tiêu chính của giám sát và kiểm soát dự án là gì?",
+    "options": [
+      "Đảm bảo dự án đi đúng hướng so với kế hoạch về phạm vi, thời gian và chi phí",
+      "Tăng số lượng tài liệu của dự án",
+      "Kéo dài tiến độ dự án để đảm bảo chất lượng",
+      "Thay đổi phạm vi mà không cần phê duyệt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 30 (Chương 6): Báo cáo hiệu suất (Performance Report) thường bao gồm nội dung gì?",
+    "options": [
+      "Tiến độ, chi phí và các vấn đề rủi ro của dự án",
+      "Thông tin nhân sự cá nhân",
+      "Kế hoạch tuyển dụng",
+      "Kết quả bán hàng"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 31 (Chương 6): Kiểm soát thay đổi (Change Control) nhằm mục đích gì?",
+    "options": [
+      "Quản lý và phê duyệt các thay đổi ảnh hưởng đến phạm vi, tiến độ hoặc chi phí",
+      "Xóa bỏ các thay đổi phát sinh",
+      "Chỉ theo dõi thay đổi về nhân sự",
+      "Tạo thêm rủi ro mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 32 (Chương 6): Tại sao việc bàn giao dự án cần biên bản nghiệm thu?",
+    "options": [
+      "Để xác nhận chính thức rằng sản phẩm dự án đã đáp ứng yêu cầu",
+      "Để kéo dài thời gian dự án",
+      "Để thay đổi phạm vi dự án",
+      "Để xin thêm ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 33 (Chương 6): Chỉ số CPI (Cost Performance Index) < 1 cho biết điều gì?",
+    "options": [
+      "Dự án đang vượt chi phí so với kế hoạch",
+      "Dự án tiết kiệm chi phí",
+      "Dự án hoàn thành đúng ngân sách",
+      "Dự án chưa được khởi động"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 34 (Chương 6): Công cụ phổ biến để theo dõi tiến độ dự án là gì?",
+    "options": [
+      "Biểu đồ Gantt",
+      "Sơ đồ tổ chức",
+      "Sổ kế toán",
+      "Báo cáo tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 35 (Chương 6): Công cụ phổ biến để theo dõi tiến độ dự án là gì?",
+    "options": [
+      "Biểu đồ Gantt",
+      "Sơ đồ tổ chức",
+      "Sổ kế toán",
+      "Báo cáo tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 36 (Chương 6): Kiểm soát thay đổi (Change Control) nhằm mục đích gì?",
+    "options": [
+      "Quản lý và phê duyệt các thay đổi ảnh hưởng đến phạm vi, tiến độ hoặc chi phí",
+      "Xóa bỏ các thay đổi phát sinh",
+      "Chỉ theo dõi thay đổi về nhân sự",
+      "Tạo thêm rủi ro mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 37 (Chương 6): Chỉ số CPI (Cost Performance Index) < 1 cho biết điều gì?",
+    "options": [
+      "Dự án đang vượt chi phí so với kế hoạch",
+      "Dự án tiết kiệm chi phí",
+      "Dự án hoàn thành đúng ngân sách",
+      "Dự án chưa được khởi động"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 38 (Chương 6): Ai thường phê duyệt các thay đổi lớn trong dự án?",
+    "options": [
+      "Hội đồng kiểm soát thay đổi (Change Control Board - CCB)",
+      "Từng thành viên nhóm dự án",
+      "Nhà cung cấp vật tư",
+      "Phòng kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 39 (Chương 6): Mục tiêu chính của giám sát và kiểm soát dự án là gì?",
+    "options": [
+      "Đảm bảo dự án đi đúng hướng so với kế hoạch về phạm vi, thời gian và chi phí",
+      "Tăng số lượng tài liệu của dự án",
+      "Kéo dài tiến độ dự án để đảm bảo chất lượng",
+      "Thay đổi phạm vi mà không cần phê duyệt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 40 (Chương 6): Mục tiêu chính của giám sát và kiểm soát dự án là gì?",
+    "options": [
+      "Đảm bảo dự án đi đúng hướng so với kế hoạch về phạm vi, thời gian và chi phí",
+      "Tăng số lượng tài liệu của dự án",
+      "Kéo dài tiến độ dự án để đảm bảo chất lượng",
+      "Thay đổi phạm vi mà không cần phê duyệt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 41 (Chương 6): Mục tiêu chính của giám sát và kiểm soát dự án là gì?",
+    "options": [
+      "Đảm bảo dự án đi đúng hướng so với kế hoạch về phạm vi, thời gian và chi phí",
+      "Tăng số lượng tài liệu của dự án",
+      "Kéo dài tiến độ dự án để đảm bảo chất lượng",
+      "Thay đổi phạm vi mà không cần phê duyệt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 42 (Chương 6): Hoạt động nào thường diễn ra trong giai đoạn kết thúc dự án?",
+    "options": [
+      "Nghiệm thu, bàn giao và đánh giá tổng kết dự án",
+      "Bổ sung phạm vi dự án",
+      "Tuyển thêm nhân sự",
+      "Tăng chi phí dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 43 (Chương 6): Công cụ phổ biến để theo dõi tiến độ dự án là gì?",
+    "options": [
+      "Biểu đồ Gantt",
+      "Sơ đồ tổ chức",
+      "Sổ kế toán",
+      "Báo cáo tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 44 (Chương 6): Mục tiêu chính của giám sát và kiểm soát dự án là gì?",
+    "options": [
+      "Đảm bảo dự án đi đúng hướng so với kế hoạch về phạm vi, thời gian và chi phí",
+      "Tăng số lượng tài liệu của dự án",
+      "Kéo dài tiến độ dự án để đảm bảo chất lượng",
+      "Thay đổi phạm vi mà không cần phê duyệt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 45 (Chương 6): Chỉ số CPI (Cost Performance Index) < 1 cho biết điều gì?",
+    "options": [
+      "Dự án đang vượt chi phí so với kế hoạch",
+      "Dự án tiết kiệm chi phí",
+      "Dự án hoàn thành đúng ngân sách",
+      "Dự án chưa được khởi động"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 46 (Chương 6): Tại sao việc bàn giao dự án cần biên bản nghiệm thu?",
+    "options": [
+      "Để xác nhận chính thức rằng sản phẩm dự án đã đáp ứng yêu cầu",
+      "Để kéo dài thời gian dự án",
+      "Để thay đổi phạm vi dự án",
+      "Để xin thêm ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 47 (Chương 6): Mục tiêu chính của giám sát và kiểm soát dự án là gì?",
+    "options": [
+      "Đảm bảo dự án đi đúng hướng so với kế hoạch về phạm vi, thời gian và chi phí",
+      "Tăng số lượng tài liệu của dự án",
+      "Kéo dài tiến độ dự án để đảm bảo chất lượng",
+      "Thay đổi phạm vi mà không cần phê duyệt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 48 (Chương 6): Mục đích của cuộc họp tổng kết (Post-project review) là gì?",
+    "options": [
+      "Đánh giá kết quả, rút kinh nghiệm và ghi nhận bài học cho các dự án sau",
+      "Xác định rủi ro mới",
+      "Phân tích thị trường",
+      "Đàm phán hợp đồng mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 49 (Chương 6): Mục tiêu chính của giám sát và kiểm soát dự án là gì?",
+    "options": [
+      "Đảm bảo dự án đi đúng hướng so với kế hoạch về phạm vi, thời gian và chi phí",
+      "Tăng số lượng tài liệu của dự án",
+      "Kéo dài tiến độ dự án để đảm bảo chất lượng",
+      "Thay đổi phạm vi mà không cần phê duyệt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 50 (Chương 6): Một trong những kết quả quan trọng của giai đoạn kết thúc là gì?",
+    "options": [
+      "Bài học kinh nghiệm (Lessons Learned)",
+      "Báo cáo rủi ro mới",
+      "Kế hoạch mở rộng dự án",
+      "Bản hợp đồng mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 51 (Chương 6): Chỉ số CPI (Cost Performance Index) < 1 cho biết điều gì?",
+    "options": [
+      "Dự án đang vượt chi phí so với kế hoạch",
+      "Dự án tiết kiệm chi phí",
+      "Dự án hoàn thành đúng ngân sách",
+      "Dự án chưa được khởi động"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 52 (Chương 6): Ai thường phê duyệt các thay đổi lớn trong dự án?",
+    "options": [
+      "Hội đồng kiểm soát thay đổi (Change Control Board - CCB)",
+      "Từng thành viên nhóm dự án",
+      "Nhà cung cấp vật tư",
+      "Phòng kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 53 (Chương 6): Kiểm soát thay đổi (Change Control) nhằm mục đích gì?",
+    "options": [
+      "Quản lý và phê duyệt các thay đổi ảnh hưởng đến phạm vi, tiến độ hoặc chi phí",
+      "Xóa bỏ các thay đổi phát sinh",
+      "Chỉ theo dõi thay đổi về nhân sự",
+      "Tạo thêm rủi ro mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 54 (Chương 6): Ai thường phê duyệt các thay đổi lớn trong dự án?",
+    "options": [
+      "Hội đồng kiểm soát thay đổi (Change Control Board - CCB)",
+      "Từng thành viên nhóm dự án",
+      "Nhà cung cấp vật tư",
+      "Phòng kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 55 (Chương 6): Mục tiêu chính của giám sát và kiểm soát dự án là gì?",
+    "options": [
+      "Đảm bảo dự án đi đúng hướng so với kế hoạch về phạm vi, thời gian và chi phí",
+      "Tăng số lượng tài liệu của dự án",
+      "Kéo dài tiến độ dự án để đảm bảo chất lượng",
+      "Thay đổi phạm vi mà không cần phê duyệt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 56 (Chương 6): Báo cáo hiệu suất (Performance Report) thường bao gồm nội dung gì?",
+    "options": [
+      "Tiến độ, chi phí và các vấn đề rủi ro của dự án",
+      "Thông tin nhân sự cá nhân",
+      "Kế hoạch tuyển dụng",
+      "Kết quả bán hàng"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 57 (Chương 6): Mục đích của cuộc họp tổng kết (Post-project review) là gì?",
+    "options": [
+      "Đánh giá kết quả, rút kinh nghiệm và ghi nhận bài học cho các dự án sau",
+      "Xác định rủi ro mới",
+      "Phân tích thị trường",
+      "Đàm phán hợp đồng mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 58 (Chương 6): Chỉ số CPI (Cost Performance Index) < 1 cho biết điều gì?",
+    "options": [
+      "Dự án đang vượt chi phí so với kế hoạch",
+      "Dự án tiết kiệm chi phí",
+      "Dự án hoàn thành đúng ngân sách",
+      "Dự án chưa được khởi động"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 59 (Chương 6): Tại sao việc bàn giao dự án cần biên bản nghiệm thu?",
+    "options": [
+      "Để xác nhận chính thức rằng sản phẩm dự án đã đáp ứng yêu cầu",
+      "Để kéo dài thời gian dự án",
+      "Để thay đổi phạm vi dự án",
+      "Để xin thêm ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 60 (Chương 6): Báo cáo hiệu suất (Performance Report) thường bao gồm nội dung gì?",
+    "options": [
+      "Tiến độ, chi phí và các vấn đề rủi ro của dự án",
+      "Thông tin nhân sự cá nhân",
+      "Kế hoạch tuyển dụng",
+      "Kết quả bán hàng"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 61 (Chương 6): Tại sao việc bàn giao dự án cần biên bản nghiệm thu?",
+    "options": [
+      "Để xác nhận chính thức rằng sản phẩm dự án đã đáp ứng yêu cầu",
+      "Để kéo dài thời gian dự án",
+      "Để thay đổi phạm vi dự án",
+      "Để xin thêm ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 62 (Chương 6): Ai thường phê duyệt các thay đổi lớn trong dự án?",
+    "options": [
+      "Hội đồng kiểm soát thay đổi (Change Control Board - CCB)",
+      "Từng thành viên nhóm dự án",
+      "Nhà cung cấp vật tư",
+      "Phòng kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 63 (Chương 6): Kiểm soát thay đổi (Change Control) nhằm mục đích gì?",
+    "options": [
+      "Quản lý và phê duyệt các thay đổi ảnh hưởng đến phạm vi, tiến độ hoặc chi phí",
+      "Xóa bỏ các thay đổi phát sinh",
+      "Chỉ theo dõi thay đổi về nhân sự",
+      "Tạo thêm rủi ro mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 64 (Chương 6): Kiểm soát thay đổi (Change Control) nhằm mục đích gì?",
+    "options": [
+      "Quản lý và phê duyệt các thay đổi ảnh hưởng đến phạm vi, tiến độ hoặc chi phí",
+      "Xóa bỏ các thay đổi phát sinh",
+      "Chỉ theo dõi thay đổi về nhân sự",
+      "Tạo thêm rủi ro mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 65 (Chương 6): Tại sao việc bàn giao dự án cần biên bản nghiệm thu?",
+    "options": [
+      "Để xác nhận chính thức rằng sản phẩm dự án đã đáp ứng yêu cầu",
+      "Để kéo dài thời gian dự án",
+      "Để thay đổi phạm vi dự án",
+      "Để xin thêm ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 66 (Chương 6): Công cụ phổ biến để theo dõi tiến độ dự án là gì?",
+    "options": [
+      "Biểu đồ Gantt",
+      "Sơ đồ tổ chức",
+      "Sổ kế toán",
+      "Báo cáo tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 67 (Chương 6): Hoạt động nào thường diễn ra trong giai đoạn kết thúc dự án?",
+    "options": [
+      "Nghiệm thu, bàn giao và đánh giá tổng kết dự án",
+      "Bổ sung phạm vi dự án",
+      "Tuyển thêm nhân sự",
+      "Tăng chi phí dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 68 (Chương 6): Báo cáo hiệu suất (Performance Report) thường bao gồm nội dung gì?",
+    "options": [
+      "Tiến độ, chi phí và các vấn đề rủi ro của dự án",
+      "Thông tin nhân sự cá nhân",
+      "Kế hoạch tuyển dụng",
+      "Kết quả bán hàng"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 69 (Chương 6): Tại sao việc bàn giao dự án cần biên bản nghiệm thu?",
+    "options": [
+      "Để xác nhận chính thức rằng sản phẩm dự án đã đáp ứng yêu cầu",
+      "Để kéo dài thời gian dự án",
+      "Để thay đổi phạm vi dự án",
+      "Để xin thêm ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 70 (Chương 6): Hoạt động nào thường diễn ra trong giai đoạn kết thúc dự án?",
+    "options": [
+      "Nghiệm thu, bàn giao và đánh giá tổng kết dự án",
+      "Bổ sung phạm vi dự án",
+      "Tuyển thêm nhân sự",
+      "Tăng chi phí dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 71 (Chương 6): Chỉ số CPI (Cost Performance Index) < 1 cho biết điều gì?",
+    "options": [
+      "Dự án đang vượt chi phí so với kế hoạch",
+      "Dự án tiết kiệm chi phí",
+      "Dự án hoàn thành đúng ngân sách",
+      "Dự án chưa được khởi động"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 72 (Chương 6): Báo cáo hiệu suất (Performance Report) thường bao gồm nội dung gì?",
+    "options": [
+      "Tiến độ, chi phí và các vấn đề rủi ro của dự án",
+      "Thông tin nhân sự cá nhân",
+      "Kế hoạch tuyển dụng",
+      "Kết quả bán hàng"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 73 (Chương 6): Kiểm soát thay đổi (Change Control) nhằm mục đích gì?",
+    "options": [
+      "Quản lý và phê duyệt các thay đổi ảnh hưởng đến phạm vi, tiến độ hoặc chi phí",
+      "Xóa bỏ các thay đổi phát sinh",
+      "Chỉ theo dõi thay đổi về nhân sự",
+      "Tạo thêm rủi ro mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 74 (Chương 6): Tại sao việc bàn giao dự án cần biên bản nghiệm thu?",
+    "options": [
+      "Để xác nhận chính thức rằng sản phẩm dự án đã đáp ứng yêu cầu",
+      "Để kéo dài thời gian dự án",
+      "Để thay đổi phạm vi dự án",
+      "Để xin thêm ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 75 (Chương 6): Công cụ phổ biến để theo dõi tiến độ dự án là gì?",
+    "options": [
+      "Biểu đồ Gantt",
+      "Sơ đồ tổ chức",
+      "Sổ kế toán",
+      "Báo cáo tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 76 (Chương 6): Một trong những kết quả quan trọng của giai đoạn kết thúc là gì?",
+    "options": [
+      "Bài học kinh nghiệm (Lessons Learned)",
+      "Báo cáo rủi ro mới",
+      "Kế hoạch mở rộng dự án",
+      "Bản hợp đồng mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 77 (Chương 6): Kiểm soát thay đổi (Change Control) nhằm mục đích gì?",
+    "options": [
+      "Quản lý và phê duyệt các thay đổi ảnh hưởng đến phạm vi, tiến độ hoặc chi phí",
+      "Xóa bỏ các thay đổi phát sinh",
+      "Chỉ theo dõi thay đổi về nhân sự",
+      "Tạo thêm rủi ro mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 78 (Chương 6): Tại sao việc bàn giao dự án cần biên bản nghiệm thu?",
+    "options": [
+      "Để xác nhận chính thức rằng sản phẩm dự án đã đáp ứng yêu cầu",
+      "Để kéo dài thời gian dự án",
+      "Để thay đổi phạm vi dự án",
+      "Để xin thêm ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 79 (Chương 6): Công cụ phổ biến để theo dõi tiến độ dự án là gì?",
+    "options": [
+      "Biểu đồ Gantt",
+      "Sơ đồ tổ chức",
+      "Sổ kế toán",
+      "Báo cáo tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 80 (Chương 6): Ai thường phê duyệt các thay đổi lớn trong dự án?",
+    "options": [
+      "Hội đồng kiểm soát thay đổi (Change Control Board - CCB)",
+      "Từng thành viên nhóm dự án",
+      "Nhà cung cấp vật tư",
+      "Phòng kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 81 (Chương 6): Mục đích của cuộc họp tổng kết (Post-project review) là gì?",
+    "options": [
+      "Đánh giá kết quả, rút kinh nghiệm và ghi nhận bài học cho các dự án sau",
+      "Xác định rủi ro mới",
+      "Phân tích thị trường",
+      "Đàm phán hợp đồng mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 82 (Chương 6): Tại sao việc bàn giao dự án cần biên bản nghiệm thu?",
+    "options": [
+      "Để xác nhận chính thức rằng sản phẩm dự án đã đáp ứng yêu cầu",
+      "Để kéo dài thời gian dự án",
+      "Để thay đổi phạm vi dự án",
+      "Để xin thêm ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 83 (Chương 6): Kiểm soát thay đổi (Change Control) nhằm mục đích gì?",
+    "options": [
+      "Quản lý và phê duyệt các thay đổi ảnh hưởng đến phạm vi, tiến độ hoặc chi phí",
+      "Xóa bỏ các thay đổi phát sinh",
+      "Chỉ theo dõi thay đổi về nhân sự",
+      "Tạo thêm rủi ro mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 84 (Chương 6): Chỉ số CPI (Cost Performance Index) < 1 cho biết điều gì?",
+    "options": [
+      "Dự án đang vượt chi phí so với kế hoạch",
+      "Dự án tiết kiệm chi phí",
+      "Dự án hoàn thành đúng ngân sách",
+      "Dự án chưa được khởi động"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 85 (Chương 6): Kiểm soát thay đổi (Change Control) nhằm mục đích gì?",
+    "options": [
+      "Quản lý và phê duyệt các thay đổi ảnh hưởng đến phạm vi, tiến độ hoặc chi phí",
+      "Xóa bỏ các thay đổi phát sinh",
+      "Chỉ theo dõi thay đổi về nhân sự",
+      "Tạo thêm rủi ro mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 86 (Chương 6): Ai thường phê duyệt các thay đổi lớn trong dự án?",
+    "options": [
+      "Hội đồng kiểm soát thay đổi (Change Control Board - CCB)",
+      "Từng thành viên nhóm dự án",
+      "Nhà cung cấp vật tư",
+      "Phòng kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 87 (Chương 6): Mục tiêu chính của giám sát và kiểm soát dự án là gì?",
+    "options": [
+      "Đảm bảo dự án đi đúng hướng so với kế hoạch về phạm vi, thời gian và chi phí",
+      "Tăng số lượng tài liệu của dự án",
+      "Kéo dài tiến độ dự án để đảm bảo chất lượng",
+      "Thay đổi phạm vi mà không cần phê duyệt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 88 (Chương 6): Kiểm soát thay đổi (Change Control) nhằm mục đích gì?",
+    "options": [
+      "Quản lý và phê duyệt các thay đổi ảnh hưởng đến phạm vi, tiến độ hoặc chi phí",
+      "Xóa bỏ các thay đổi phát sinh",
+      "Chỉ theo dõi thay đổi về nhân sự",
+      "Tạo thêm rủi ro mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 89 (Chương 6): Ai thường phê duyệt các thay đổi lớn trong dự án?",
+    "options": [
+      "Hội đồng kiểm soát thay đổi (Change Control Board - CCB)",
+      "Từng thành viên nhóm dự án",
+      "Nhà cung cấp vật tư",
+      "Phòng kế toán"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 90 (Chương 6): Kiểm soát thay đổi (Change Control) nhằm mục đích gì?",
+    "options": [
+      "Quản lý và phê duyệt các thay đổi ảnh hưởng đến phạm vi, tiến độ hoặc chi phí",
+      "Xóa bỏ các thay đổi phát sinh",
+      "Chỉ theo dõi thay đổi về nhân sự",
+      "Tạo thêm rủi ro mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 91 (Chương 6): Kiểm soát thay đổi (Change Control) nhằm mục đích gì?",
+    "options": [
+      "Quản lý và phê duyệt các thay đổi ảnh hưởng đến phạm vi, tiến độ hoặc chi phí",
+      "Xóa bỏ các thay đổi phát sinh",
+      "Chỉ theo dõi thay đổi về nhân sự",
+      "Tạo thêm rủi ro mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 92 (Chương 6): Công cụ phổ biến để theo dõi tiến độ dự án là gì?",
+    "options": [
+      "Biểu đồ Gantt",
+      "Sơ đồ tổ chức",
+      "Sổ kế toán",
+      "Báo cáo tài chính"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 93 (Chương 6): Một trong những kết quả quan trọng của giai đoạn kết thúc là gì?",
+    "options": [
+      "Bài học kinh nghiệm (Lessons Learned)",
+      "Báo cáo rủi ro mới",
+      "Kế hoạch mở rộng dự án",
+      "Bản hợp đồng mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 94 (Chương 6): Báo cáo hiệu suất (Performance Report) thường bao gồm nội dung gì?",
+    "options": [
+      "Tiến độ, chi phí và các vấn đề rủi ro của dự án",
+      "Thông tin nhân sự cá nhân",
+      "Kế hoạch tuyển dụng",
+      "Kết quả bán hàng"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 95 (Chương 6): Mục đích của cuộc họp tổng kết (Post-project review) là gì?",
+    "options": [
+      "Đánh giá kết quả, rút kinh nghiệm và ghi nhận bài học cho các dự án sau",
+      "Xác định rủi ro mới",
+      "Phân tích thị trường",
+      "Đàm phán hợp đồng mới"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 96 (Chương 6): Mục tiêu chính của giám sát và kiểm soát dự án là gì?",
+    "options": [
+      "Đảm bảo dự án đi đúng hướng so với kế hoạch về phạm vi, thời gian và chi phí",
+      "Tăng số lượng tài liệu của dự án",
+      "Kéo dài tiến độ dự án để đảm bảo chất lượng",
+      "Thay đổi phạm vi mà không cần phê duyệt"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 97 (Chương 6): Tại sao việc bàn giao dự án cần biên bản nghiệm thu?",
+    "options": [
+      "Để xác nhận chính thức rằng sản phẩm dự án đã đáp ứng yêu cầu",
+      "Để kéo dài thời gian dự án",
+      "Để thay đổi phạm vi dự án",
+      "Để xin thêm ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 98 (Chương 6): Chỉ số CPI (Cost Performance Index) < 1 cho biết điều gì?",
+    "options": [
+      "Dự án đang vượt chi phí so với kế hoạch",
+      "Dự án tiết kiệm chi phí",
+      "Dự án hoàn thành đúng ngân sách",
+      "Dự án chưa được khởi động"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 99 (Chương 6): Hoạt động nào thường diễn ra trong giai đoạn kết thúc dự án?",
+    "options": [
+      "Nghiệm thu, bàn giao và đánh giá tổng kết dự án",
+      "Bổ sung phạm vi dự án",
+      "Tuyển thêm nhân sự",
+      "Tăng chi phí dự án"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  },
+  {
+    "question": "Câu 100 (Chương 6): Tại sao việc bàn giao dự án cần biên bản nghiệm thu?",
+    "options": [
+      "Để xác nhận chính thức rằng sản phẩm dự án đã đáp ứng yêu cầu",
+      "Để kéo dài thời gian dự án",
+      "Để thay đổi phạm vi dự án",
+      "Để xin thêm ngân sách"
+    ],
+    "answer": 0,
+    "category": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án"
+  }
+]

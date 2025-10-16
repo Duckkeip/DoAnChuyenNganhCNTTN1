@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Câu 1 (Chương 5): Khi nói thuật toán A tốt hơn thuật toán B, điều đó nghĩa là gì?",
+    "options": [
+      "A có độ phức tạp thời gian hoặc không gian thấp hơn",
+      "A có mã nguồn dài hơn",
+      "A có nhiều biến hơn",
+      "A cần nhiều vòng lặp hơn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 2 (Chương 5): Thuật toán có độ phức tạp O(n²) thường thể hiện điều gì?",
+    "options": [
+      "Thời gian thực hiện tăng bình phương theo kích thước dữ liệu",
+      "Không phụ thuộc vào dữ liệu đầu vào",
+      "Chạy rất nhanh với dữ liệu lớn",
+      "Chỉ dùng cho dữ liệu nhỏ"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 3 (Chương 5): Độ phức tạp O(n log n) thường gặp trong loại thuật toán nào?",
+    "options": [
+      "Sắp xếp hiệu quả như Merge Sort, Quick Sort",
+      "Tìm kiếm tuyến tính",
+      "Sắp xếp nổi bọt",
+      "Thuật toán vét cạn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 4 (Chương 5): Thuật toán có độ phức tạp O(1) nghĩa là gì?",
+    "options": [
+      "Thời gian thực hiện không phụ thuộc vào kích thước dữ liệu đầu vào",
+      "Tăng tuyến tính theo dữ liệu",
+      "Tăng theo logarit của dữ liệu",
+      "Tăng theo bình phương của dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 5 (Chương 5): Độ phức tạp không gian (Space Complexity) là gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để chạy thuật toán",
+      "Tốc độ xử lý trung bình",
+      "Kích thước tệp kết quả",
+      "Số lần lặp của vòng lặp chính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 6 (Chương 5): Ký hiệu Big Ω (Omega) biểu diễn điều gì?",
+    "options": [
+      "Giới hạn dưới của độ phức tạp",
+      "Giới hạn trên của độ phức tạp",
+      "Độ phức tạp trung bình",
+      "Số lượng phép toán tối đa"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 7 (Chương 5): Thuật toán có độ phức tạp O(n²) thường thể hiện điều gì?",
+    "options": [
+      "Thời gian thực hiện tăng bình phương theo kích thước dữ liệu",
+      "Không phụ thuộc vào dữ liệu đầu vào",
+      "Chạy rất nhanh với dữ liệu lớn",
+      "Chỉ dùng cho dữ liệu nhỏ"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 8 (Chương 5): Độ phức tạp thời gian (Time Complexity) đo lường điều gì?",
+    "options": [
+      "Số lượng phép toán cần thực hiện để hoàn thành thuật toán",
+      "Dung lượng bộ nhớ cần dùng",
+      "Số lần biên dịch chương trình",
+      "Tốc độ CPU"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 9 (Chương 5): Độ phức tạp O(n log n) thường gặp trong loại thuật toán nào?",
+    "options": [
+      "Sắp xếp hiệu quả như Merge Sort, Quick Sort",
+      "Tìm kiếm tuyến tính",
+      "Sắp xếp nổi bọt",
+      "Thuật toán vét cạn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 10 (Chương 5): Ký hiệu Big O được sử dụng để biểu diễn điều gì?",
+    "options": [
+      "Giới hạn trên của tốc độ tăng độ phức tạp",
+      "Giới hạn dưới của tốc độ tăng",
+      "Số lượng lỗi của chương trình",
+      "Dung lượng bộ nhớ cố định"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 11 (Chương 5): Tối ưu thuật toán nhằm mục đích gì?",
+    "options": [
+      "Giảm thời gian và tài nguyên cần thiết để thực hiện",
+      "Tăng kích thước bộ nhớ",
+      "Thêm nhiều vòng lặp lồng nhau",
+      "Giảm độ chính xác của kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 12 (Chương 5): Độ phức tạp không gian (Space Complexity) là gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để chạy thuật toán",
+      "Tốc độ xử lý trung bình",
+      "Kích thước tệp kết quả",
+      "Số lần lặp của vòng lặp chính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 13 (Chương 5): Ký hiệu Big Ω (Omega) biểu diễn điều gì?",
+    "options": [
+      "Giới hạn dưới của độ phức tạp",
+      "Giới hạn trên của độ phức tạp",
+      "Độ phức tạp trung bình",
+      "Số lượng phép toán tối đa"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 14 (Chương 5): Độ phức tạp không gian (Space Complexity) là gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để chạy thuật toán",
+      "Tốc độ xử lý trung bình",
+      "Kích thước tệp kết quả",
+      "Số lần lặp của vòng lặp chính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 15 (Chương 5): Thuật toán có độ phức tạp O(n²) thường thể hiện điều gì?",
+    "options": [
+      "Thời gian thực hiện tăng bình phương theo kích thước dữ liệu",
+      "Không phụ thuộc vào dữ liệu đầu vào",
+      "Chạy rất nhanh với dữ liệu lớn",
+      "Chỉ dùng cho dữ liệu nhỏ"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 16 (Chương 5): Thuật toán có độ phức tạp O(n²) thường thể hiện điều gì?",
+    "options": [
+      "Thời gian thực hiện tăng bình phương theo kích thước dữ liệu",
+      "Không phụ thuộc vào dữ liệu đầu vào",
+      "Chạy rất nhanh với dữ liệu lớn",
+      "Chỉ dùng cho dữ liệu nhỏ"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 17 (Chương 5): Tối ưu thuật toán nhằm mục đích gì?",
+    "options": [
+      "Giảm thời gian và tài nguyên cần thiết để thực hiện",
+      "Tăng kích thước bộ nhớ",
+      "Thêm nhiều vòng lặp lồng nhau",
+      "Giảm độ chính xác của kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 18 (Chương 5): Thuật toán có độ phức tạp O(n²) thường thể hiện điều gì?",
+    "options": [
+      "Thời gian thực hiện tăng bình phương theo kích thước dữ liệu",
+      "Không phụ thuộc vào dữ liệu đầu vào",
+      "Chạy rất nhanh với dữ liệu lớn",
+      "Chỉ dùng cho dữ liệu nhỏ"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 19 (Chương 5): Khi nói thuật toán A tốt hơn thuật toán B, điều đó nghĩa là gì?",
+    "options": [
+      "A có độ phức tạp thời gian hoặc không gian thấp hơn",
+      "A có mã nguồn dài hơn",
+      "A có nhiều biến hơn",
+      "A cần nhiều vòng lặp hơn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 20 (Chương 5): Thuật toán có độ phức tạp O(n²) thường thể hiện điều gì?",
+    "options": [
+      "Thời gian thực hiện tăng bình phương theo kích thước dữ liệu",
+      "Không phụ thuộc vào dữ liệu đầu vào",
+      "Chạy rất nhanh với dữ liệu lớn",
+      "Chỉ dùng cho dữ liệu nhỏ"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 21 (Chương 5): Độ phức tạp O(n log n) thường gặp trong loại thuật toán nào?",
+    "options": [
+      "Sắp xếp hiệu quả như Merge Sort, Quick Sort",
+      "Tìm kiếm tuyến tính",
+      "Sắp xếp nổi bọt",
+      "Thuật toán vét cạn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 22 (Chương 5): Độ phức tạp O(n log n) thường gặp trong loại thuật toán nào?",
+    "options": [
+      "Sắp xếp hiệu quả như Merge Sort, Quick Sort",
+      "Tìm kiếm tuyến tính",
+      "Sắp xếp nổi bọt",
+      "Thuật toán vét cạn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 23 (Chương 5): Thuật toán có độ phức tạp O(1) nghĩa là gì?",
+    "options": [
+      "Thời gian thực hiện không phụ thuộc vào kích thước dữ liệu đầu vào",
+      "Tăng tuyến tính theo dữ liệu",
+      "Tăng theo logarit của dữ liệu",
+      "Tăng theo bình phương của dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 24 (Chương 5): Khi nói thuật toán A tốt hơn thuật toán B, điều đó nghĩa là gì?",
+    "options": [
+      "A có độ phức tạp thời gian hoặc không gian thấp hơn",
+      "A có mã nguồn dài hơn",
+      "A có nhiều biến hơn",
+      "A cần nhiều vòng lặp hơn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 25 (Chương 5): Độ phức tạp O(n log n) thường gặp trong loại thuật toán nào?",
+    "options": [
+      "Sắp xếp hiệu quả như Merge Sort, Quick Sort",
+      "Tìm kiếm tuyến tính",
+      "Sắp xếp nổi bọt",
+      "Thuật toán vét cạn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 26 (Chương 5): Ký hiệu Big O được sử dụng để biểu diễn điều gì?",
+    "options": [
+      "Giới hạn trên của tốc độ tăng độ phức tạp",
+      "Giới hạn dưới của tốc độ tăng",
+      "Số lượng lỗi của chương trình",
+      "Dung lượng bộ nhớ cố định"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 27 (Chương 5): Độ phức tạp không gian (Space Complexity) là gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để chạy thuật toán",
+      "Tốc độ xử lý trung bình",
+      "Kích thước tệp kết quả",
+      "Số lần lặp của vòng lặp chính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 28 (Chương 5): Ký hiệu Big O được sử dụng để biểu diễn điều gì?",
+    "options": [
+      "Giới hạn trên của tốc độ tăng độ phức tạp",
+      "Giới hạn dưới của tốc độ tăng",
+      "Số lượng lỗi của chương trình",
+      "Dung lượng bộ nhớ cố định"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 29 (Chương 5): Thuật toán có độ phức tạp O(n²) thường thể hiện điều gì?",
+    "options": [
+      "Thời gian thực hiện tăng bình phương theo kích thước dữ liệu",
+      "Không phụ thuộc vào dữ liệu đầu vào",
+      "Chạy rất nhanh với dữ liệu lớn",
+      "Chỉ dùng cho dữ liệu nhỏ"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 30 (Chương 5): Thuật toán có độ phức tạp O(1) nghĩa là gì?",
+    "options": [
+      "Thời gian thực hiện không phụ thuộc vào kích thước dữ liệu đầu vào",
+      "Tăng tuyến tính theo dữ liệu",
+      "Tăng theo logarit của dữ liệu",
+      "Tăng theo bình phương của dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 31 (Chương 5): Độ phức tạp không gian (Space Complexity) là gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để chạy thuật toán",
+      "Tốc độ xử lý trung bình",
+      "Kích thước tệp kết quả",
+      "Số lần lặp của vòng lặp chính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 32 (Chương 5): Tối ưu thuật toán nhằm mục đích gì?",
+    "options": [
+      "Giảm thời gian và tài nguyên cần thiết để thực hiện",
+      "Tăng kích thước bộ nhớ",
+      "Thêm nhiều vòng lặp lồng nhau",
+      "Giảm độ chính xác của kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 33 (Chương 5): Thuật toán có độ phức tạp O(1) nghĩa là gì?",
+    "options": [
+      "Thời gian thực hiện không phụ thuộc vào kích thước dữ liệu đầu vào",
+      "Tăng tuyến tính theo dữ liệu",
+      "Tăng theo logarit của dữ liệu",
+      "Tăng theo bình phương của dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 34 (Chương 5): Khi nói thuật toán A tốt hơn thuật toán B, điều đó nghĩa là gì?",
+    "options": [
+      "A có độ phức tạp thời gian hoặc không gian thấp hơn",
+      "A có mã nguồn dài hơn",
+      "A có nhiều biến hơn",
+      "A cần nhiều vòng lặp hơn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 35 (Chương 5): Thuật toán có độ phức tạp O(n²) thường thể hiện điều gì?",
+    "options": [
+      "Thời gian thực hiện tăng bình phương theo kích thước dữ liệu",
+      "Không phụ thuộc vào dữ liệu đầu vào",
+      "Chạy rất nhanh với dữ liệu lớn",
+      "Chỉ dùng cho dữ liệu nhỏ"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 36 (Chương 5): Độ phức tạp không gian (Space Complexity) là gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để chạy thuật toán",
+      "Tốc độ xử lý trung bình",
+      "Kích thước tệp kết quả",
+      "Số lần lặp của vòng lặp chính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 37 (Chương 5): Thuật toán có độ phức tạp O(n²) thường thể hiện điều gì?",
+    "options": [
+      "Thời gian thực hiện tăng bình phương theo kích thước dữ liệu",
+      "Không phụ thuộc vào dữ liệu đầu vào",
+      "Chạy rất nhanh với dữ liệu lớn",
+      "Chỉ dùng cho dữ liệu nhỏ"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 38 (Chương 5): Tối ưu thuật toán nhằm mục đích gì?",
+    "options": [
+      "Giảm thời gian và tài nguyên cần thiết để thực hiện",
+      "Tăng kích thước bộ nhớ",
+      "Thêm nhiều vòng lặp lồng nhau",
+      "Giảm độ chính xác của kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 39 (Chương 5): Thuật toán có độ phức tạp O(1) nghĩa là gì?",
+    "options": [
+      "Thời gian thực hiện không phụ thuộc vào kích thước dữ liệu đầu vào",
+      "Tăng tuyến tính theo dữ liệu",
+      "Tăng theo logarit của dữ liệu",
+      "Tăng theo bình phương của dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 40 (Chương 5): Độ phức tạp không gian (Space Complexity) là gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để chạy thuật toán",
+      "Tốc độ xử lý trung bình",
+      "Kích thước tệp kết quả",
+      "Số lần lặp của vòng lặp chính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 41 (Chương 5): Ký hiệu Big Ω (Omega) biểu diễn điều gì?",
+    "options": [
+      "Giới hạn dưới của độ phức tạp",
+      "Giới hạn trên của độ phức tạp",
+      "Độ phức tạp trung bình",
+      "Số lượng phép toán tối đa"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 42 (Chương 5): Khi nói thuật toán A tốt hơn thuật toán B, điều đó nghĩa là gì?",
+    "options": [
+      "A có độ phức tạp thời gian hoặc không gian thấp hơn",
+      "A có mã nguồn dài hơn",
+      "A có nhiều biến hơn",
+      "A cần nhiều vòng lặp hơn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 43 (Chương 5): Thuật toán có độ phức tạp O(n²) thường thể hiện điều gì?",
+    "options": [
+      "Thời gian thực hiện tăng bình phương theo kích thước dữ liệu",
+      "Không phụ thuộc vào dữ liệu đầu vào",
+      "Chạy rất nhanh với dữ liệu lớn",
+      "Chỉ dùng cho dữ liệu nhỏ"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 44 (Chương 5): Khi nói thuật toán A tốt hơn thuật toán B, điều đó nghĩa là gì?",
+    "options": [
+      "A có độ phức tạp thời gian hoặc không gian thấp hơn",
+      "A có mã nguồn dài hơn",
+      "A có nhiều biến hơn",
+      "A cần nhiều vòng lặp hơn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 45 (Chương 5): Tối ưu thuật toán nhằm mục đích gì?",
+    "options": [
+      "Giảm thời gian và tài nguyên cần thiết để thực hiện",
+      "Tăng kích thước bộ nhớ",
+      "Thêm nhiều vòng lặp lồng nhau",
+      "Giảm độ chính xác của kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 46 (Chương 5): Ký hiệu Big O được sử dụng để biểu diễn điều gì?",
+    "options": [
+      "Giới hạn trên của tốc độ tăng độ phức tạp",
+      "Giới hạn dưới của tốc độ tăng",
+      "Số lượng lỗi của chương trình",
+      "Dung lượng bộ nhớ cố định"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 47 (Chương 5): Thuật toán có độ phức tạp O(n²) thường thể hiện điều gì?",
+    "options": [
+      "Thời gian thực hiện tăng bình phương theo kích thước dữ liệu",
+      "Không phụ thuộc vào dữ liệu đầu vào",
+      "Chạy rất nhanh với dữ liệu lớn",
+      "Chỉ dùng cho dữ liệu nhỏ"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 48 (Chương 5): Mục tiêu của việc phân tích thuật toán là gì?",
+    "options": [
+      "Đánh giá hiệu năng để chọn giải pháp tối ưu",
+      "Tăng số dòng mã nguồn",
+      "Giảm độ chính xác",
+      "Thêm nhiều lệnh điều kiện"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 49 (Chương 5): Tối ưu thuật toán nhằm mục đích gì?",
+    "options": [
+      "Giảm thời gian và tài nguyên cần thiết để thực hiện",
+      "Tăng kích thước bộ nhớ",
+      "Thêm nhiều vòng lặp lồng nhau",
+      "Giảm độ chính xác của kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 50 (Chương 5): Khi nói thuật toán A tốt hơn thuật toán B, điều đó nghĩa là gì?",
+    "options": [
+      "A có độ phức tạp thời gian hoặc không gian thấp hơn",
+      "A có mã nguồn dài hơn",
+      "A có nhiều biến hơn",
+      "A cần nhiều vòng lặp hơn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 51 (Chương 5): Mục tiêu của việc phân tích thuật toán là gì?",
+    "options": [
+      "Đánh giá hiệu năng để chọn giải pháp tối ưu",
+      "Tăng số dòng mã nguồn",
+      "Giảm độ chính xác",
+      "Thêm nhiều lệnh điều kiện"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 52 (Chương 5): Mục tiêu của việc phân tích thuật toán là gì?",
+    "options": [
+      "Đánh giá hiệu năng để chọn giải pháp tối ưu",
+      "Tăng số dòng mã nguồn",
+      "Giảm độ chính xác",
+      "Thêm nhiều lệnh điều kiện"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 53 (Chương 5): Thuật toán có độ phức tạp O(n²) thường thể hiện điều gì?",
+    "options": [
+      "Thời gian thực hiện tăng bình phương theo kích thước dữ liệu",
+      "Không phụ thuộc vào dữ liệu đầu vào",
+      "Chạy rất nhanh với dữ liệu lớn",
+      "Chỉ dùng cho dữ liệu nhỏ"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 54 (Chương 5): Ký hiệu Big O được sử dụng để biểu diễn điều gì?",
+    "options": [
+      "Giới hạn trên của tốc độ tăng độ phức tạp",
+      "Giới hạn dưới của tốc độ tăng",
+      "Số lượng lỗi của chương trình",
+      "Dung lượng bộ nhớ cố định"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 55 (Chương 5): Tối ưu thuật toán nhằm mục đích gì?",
+    "options": [
+      "Giảm thời gian và tài nguyên cần thiết để thực hiện",
+      "Tăng kích thước bộ nhớ",
+      "Thêm nhiều vòng lặp lồng nhau",
+      "Giảm độ chính xác của kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 56 (Chương 5): Thuật toán có độ phức tạp O(n²) thường thể hiện điều gì?",
+    "options": [
+      "Thời gian thực hiện tăng bình phương theo kích thước dữ liệu",
+      "Không phụ thuộc vào dữ liệu đầu vào",
+      "Chạy rất nhanh với dữ liệu lớn",
+      "Chỉ dùng cho dữ liệu nhỏ"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 57 (Chương 5): Ký hiệu Big O được sử dụng để biểu diễn điều gì?",
+    "options": [
+      "Giới hạn trên của tốc độ tăng độ phức tạp",
+      "Giới hạn dưới của tốc độ tăng",
+      "Số lượng lỗi của chương trình",
+      "Dung lượng bộ nhớ cố định"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 58 (Chương 5): Độ phức tạp không gian (Space Complexity) là gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để chạy thuật toán",
+      "Tốc độ xử lý trung bình",
+      "Kích thước tệp kết quả",
+      "Số lần lặp của vòng lặp chính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 59 (Chương 5): Độ phức tạp O(n log n) thường gặp trong loại thuật toán nào?",
+    "options": [
+      "Sắp xếp hiệu quả như Merge Sort, Quick Sort",
+      "Tìm kiếm tuyến tính",
+      "Sắp xếp nổi bọt",
+      "Thuật toán vét cạn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 60 (Chương 5): Ký hiệu Big O được sử dụng để biểu diễn điều gì?",
+    "options": [
+      "Giới hạn trên của tốc độ tăng độ phức tạp",
+      "Giới hạn dưới của tốc độ tăng",
+      "Số lượng lỗi của chương trình",
+      "Dung lượng bộ nhớ cố định"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 61 (Chương 5): Thuật toán có độ phức tạp O(1) nghĩa là gì?",
+    "options": [
+      "Thời gian thực hiện không phụ thuộc vào kích thước dữ liệu đầu vào",
+      "Tăng tuyến tính theo dữ liệu",
+      "Tăng theo logarit của dữ liệu",
+      "Tăng theo bình phương của dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 62 (Chương 5): Thuật toán có độ phức tạp O(1) nghĩa là gì?",
+    "options": [
+      "Thời gian thực hiện không phụ thuộc vào kích thước dữ liệu đầu vào",
+      "Tăng tuyến tính theo dữ liệu",
+      "Tăng theo logarit của dữ liệu",
+      "Tăng theo bình phương của dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 63 (Chương 5): Độ phức tạp không gian (Space Complexity) là gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để chạy thuật toán",
+      "Tốc độ xử lý trung bình",
+      "Kích thước tệp kết quả",
+      "Số lần lặp của vòng lặp chính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 64 (Chương 5): Độ phức tạp O(n log n) thường gặp trong loại thuật toán nào?",
+    "options": [
+      "Sắp xếp hiệu quả như Merge Sort, Quick Sort",
+      "Tìm kiếm tuyến tính",
+      "Sắp xếp nổi bọt",
+      "Thuật toán vét cạn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 65 (Chương 5): Ký hiệu Big Ω (Omega) biểu diễn điều gì?",
+    "options": [
+      "Giới hạn dưới của độ phức tạp",
+      "Giới hạn trên của độ phức tạp",
+      "Độ phức tạp trung bình",
+      "Số lượng phép toán tối đa"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 66 (Chương 5): Khi nói thuật toán A tốt hơn thuật toán B, điều đó nghĩa là gì?",
+    "options": [
+      "A có độ phức tạp thời gian hoặc không gian thấp hơn",
+      "A có mã nguồn dài hơn",
+      "A có nhiều biến hơn",
+      "A cần nhiều vòng lặp hơn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 67 (Chương 5): Thuật toán có độ phức tạp O(1) nghĩa là gì?",
+    "options": [
+      "Thời gian thực hiện không phụ thuộc vào kích thước dữ liệu đầu vào",
+      "Tăng tuyến tính theo dữ liệu",
+      "Tăng theo logarit của dữ liệu",
+      "Tăng theo bình phương của dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 68 (Chương 5): Mục tiêu của việc phân tích thuật toán là gì?",
+    "options": [
+      "Đánh giá hiệu năng để chọn giải pháp tối ưu",
+      "Tăng số dòng mã nguồn",
+      "Giảm độ chính xác",
+      "Thêm nhiều lệnh điều kiện"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 69 (Chương 5): Độ phức tạp thời gian (Time Complexity) đo lường điều gì?",
+    "options": [
+      "Số lượng phép toán cần thực hiện để hoàn thành thuật toán",
+      "Dung lượng bộ nhớ cần dùng",
+      "Số lần biên dịch chương trình",
+      "Tốc độ CPU"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 70 (Chương 5): Khi nói thuật toán A tốt hơn thuật toán B, điều đó nghĩa là gì?",
+    "options": [
+      "A có độ phức tạp thời gian hoặc không gian thấp hơn",
+      "A có mã nguồn dài hơn",
+      "A có nhiều biến hơn",
+      "A cần nhiều vòng lặp hơn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 71 (Chương 5): Khi nói thuật toán A tốt hơn thuật toán B, điều đó nghĩa là gì?",
+    "options": [
+      "A có độ phức tạp thời gian hoặc không gian thấp hơn",
+      "A có mã nguồn dài hơn",
+      "A có nhiều biến hơn",
+      "A cần nhiều vòng lặp hơn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 72 (Chương 5): Độ phức tạp O(n log n) thường gặp trong loại thuật toán nào?",
+    "options": [
+      "Sắp xếp hiệu quả như Merge Sort, Quick Sort",
+      "Tìm kiếm tuyến tính",
+      "Sắp xếp nổi bọt",
+      "Thuật toán vét cạn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 73 (Chương 5): Ký hiệu Big Ω (Omega) biểu diễn điều gì?",
+    "options": [
+      "Giới hạn dưới của độ phức tạp",
+      "Giới hạn trên của độ phức tạp",
+      "Độ phức tạp trung bình",
+      "Số lượng phép toán tối đa"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 74 (Chương 5): Tối ưu thuật toán nhằm mục đích gì?",
+    "options": [
+      "Giảm thời gian và tài nguyên cần thiết để thực hiện",
+      "Tăng kích thước bộ nhớ",
+      "Thêm nhiều vòng lặp lồng nhau",
+      "Giảm độ chính xác của kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 75 (Chương 5): Khi nói thuật toán A tốt hơn thuật toán B, điều đó nghĩa là gì?",
+    "options": [
+      "A có độ phức tạp thời gian hoặc không gian thấp hơn",
+      "A có mã nguồn dài hơn",
+      "A có nhiều biến hơn",
+      "A cần nhiều vòng lặp hơn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 76 (Chương 5): Khi nói thuật toán A tốt hơn thuật toán B, điều đó nghĩa là gì?",
+    "options": [
+      "A có độ phức tạp thời gian hoặc không gian thấp hơn",
+      "A có mã nguồn dài hơn",
+      "A có nhiều biến hơn",
+      "A cần nhiều vòng lặp hơn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 77 (Chương 5): Độ phức tạp O(n log n) thường gặp trong loại thuật toán nào?",
+    "options": [
+      "Sắp xếp hiệu quả như Merge Sort, Quick Sort",
+      "Tìm kiếm tuyến tính",
+      "Sắp xếp nổi bọt",
+      "Thuật toán vét cạn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 78 (Chương 5): Khi nói thuật toán A tốt hơn thuật toán B, điều đó nghĩa là gì?",
+    "options": [
+      "A có độ phức tạp thời gian hoặc không gian thấp hơn",
+      "A có mã nguồn dài hơn",
+      "A có nhiều biến hơn",
+      "A cần nhiều vòng lặp hơn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 79 (Chương 5): Ký hiệu Big Ω (Omega) biểu diễn điều gì?",
+    "options": [
+      "Giới hạn dưới của độ phức tạp",
+      "Giới hạn trên của độ phức tạp",
+      "Độ phức tạp trung bình",
+      "Số lượng phép toán tối đa"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 80 (Chương 5): Khi nói thuật toán A tốt hơn thuật toán B, điều đó nghĩa là gì?",
+    "options": [
+      "A có độ phức tạp thời gian hoặc không gian thấp hơn",
+      "A có mã nguồn dài hơn",
+      "A có nhiều biến hơn",
+      "A cần nhiều vòng lặp hơn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 81 (Chương 5): Tối ưu thuật toán nhằm mục đích gì?",
+    "options": [
+      "Giảm thời gian và tài nguyên cần thiết để thực hiện",
+      "Tăng kích thước bộ nhớ",
+      "Thêm nhiều vòng lặp lồng nhau",
+      "Giảm độ chính xác của kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 82 (Chương 5): Độ phức tạp thời gian (Time Complexity) đo lường điều gì?",
+    "options": [
+      "Số lượng phép toán cần thực hiện để hoàn thành thuật toán",
+      "Dung lượng bộ nhớ cần dùng",
+      "Số lần biên dịch chương trình",
+      "Tốc độ CPU"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 83 (Chương 5): Ký hiệu Big O được sử dụng để biểu diễn điều gì?",
+    "options": [
+      "Giới hạn trên của tốc độ tăng độ phức tạp",
+      "Giới hạn dưới của tốc độ tăng",
+      "Số lượng lỗi của chương trình",
+      "Dung lượng bộ nhớ cố định"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 84 (Chương 5): Thuật toán có độ phức tạp O(n²) thường thể hiện điều gì?",
+    "options": [
+      "Thời gian thực hiện tăng bình phương theo kích thước dữ liệu",
+      "Không phụ thuộc vào dữ liệu đầu vào",
+      "Chạy rất nhanh với dữ liệu lớn",
+      "Chỉ dùng cho dữ liệu nhỏ"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 85 (Chương 5): Ký hiệu Big Ω (Omega) biểu diễn điều gì?",
+    "options": [
+      "Giới hạn dưới của độ phức tạp",
+      "Giới hạn trên của độ phức tạp",
+      "Độ phức tạp trung bình",
+      "Số lượng phép toán tối đa"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 86 (Chương 5): Độ phức tạp O(n log n) thường gặp trong loại thuật toán nào?",
+    "options": [
+      "Sắp xếp hiệu quả như Merge Sort, Quick Sort",
+      "Tìm kiếm tuyến tính",
+      "Sắp xếp nổi bọt",
+      "Thuật toán vét cạn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 87 (Chương 5): Độ phức tạp O(n log n) thường gặp trong loại thuật toán nào?",
+    "options": [
+      "Sắp xếp hiệu quả như Merge Sort, Quick Sort",
+      "Tìm kiếm tuyến tính",
+      "Sắp xếp nổi bọt",
+      "Thuật toán vét cạn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 88 (Chương 5): Mục tiêu của việc phân tích thuật toán là gì?",
+    "options": [
+      "Đánh giá hiệu năng để chọn giải pháp tối ưu",
+      "Tăng số dòng mã nguồn",
+      "Giảm độ chính xác",
+      "Thêm nhiều lệnh điều kiện"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 89 (Chương 5): Độ phức tạp không gian (Space Complexity) là gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để chạy thuật toán",
+      "Tốc độ xử lý trung bình",
+      "Kích thước tệp kết quả",
+      "Số lần lặp của vòng lặp chính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 90 (Chương 5): Độ phức tạp không gian (Space Complexity) là gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để chạy thuật toán",
+      "Tốc độ xử lý trung bình",
+      "Kích thước tệp kết quả",
+      "Số lần lặp của vòng lặp chính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 91 (Chương 5): Độ phức tạp không gian (Space Complexity) là gì?",
+    "options": [
+      "Lượng bộ nhớ cần thiết để chạy thuật toán",
+      "Tốc độ xử lý trung bình",
+      "Kích thước tệp kết quả",
+      "Số lần lặp của vòng lặp chính"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 92 (Chương 5): Tối ưu thuật toán nhằm mục đích gì?",
+    "options": [
+      "Giảm thời gian và tài nguyên cần thiết để thực hiện",
+      "Tăng kích thước bộ nhớ",
+      "Thêm nhiều vòng lặp lồng nhau",
+      "Giảm độ chính xác của kết quả"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 93 (Chương 5): Thuật toán có độ phức tạp O(1) nghĩa là gì?",
+    "options": [
+      "Thời gian thực hiện không phụ thuộc vào kích thước dữ liệu đầu vào",
+      "Tăng tuyến tính theo dữ liệu",
+      "Tăng theo logarit của dữ liệu",
+      "Tăng theo bình phương của dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 94 (Chương 5): Mục tiêu của việc phân tích thuật toán là gì?",
+    "options": [
+      "Đánh giá hiệu năng để chọn giải pháp tối ưu",
+      "Tăng số dòng mã nguồn",
+      "Giảm độ chính xác",
+      "Thêm nhiều lệnh điều kiện"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 95 (Chương 5): Độ phức tạp thời gian (Time Complexity) đo lường điều gì?",
+    "options": [
+      "Số lượng phép toán cần thực hiện để hoàn thành thuật toán",
+      "Dung lượng bộ nhớ cần dùng",
+      "Số lần biên dịch chương trình",
+      "Tốc độ CPU"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 96 (Chương 5): Ký hiệu Big Ω (Omega) biểu diễn điều gì?",
+    "options": [
+      "Giới hạn dưới của độ phức tạp",
+      "Giới hạn trên của độ phức tạp",
+      "Độ phức tạp trung bình",
+      "Số lượng phép toán tối đa"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 97 (Chương 5): Độ phức tạp O(n log n) thường gặp trong loại thuật toán nào?",
+    "options": [
+      "Sắp xếp hiệu quả như Merge Sort, Quick Sort",
+      "Tìm kiếm tuyến tính",
+      "Sắp xếp nổi bọt",
+      "Thuật toán vét cạn"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 98 (Chương 5): Thuật toán có độ phức tạp O(n²) thường thể hiện điều gì?",
+    "options": [
+      "Thời gian thực hiện tăng bình phương theo kích thước dữ liệu",
+      "Không phụ thuộc vào dữ liệu đầu vào",
+      "Chạy rất nhanh với dữ liệu lớn",
+      "Chỉ dùng cho dữ liệu nhỏ"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 99 (Chương 5): Thuật toán có độ phức tạp O(1) nghĩa là gì?",
+    "options": [
+      "Thời gian thực hiện không phụ thuộc vào kích thước dữ liệu đầu vào",
+      "Tăng tuyến tính theo dữ liệu",
+      "Tăng theo logarit của dữ liệu",
+      "Tăng theo bình phương của dữ liệu"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  },
+  {
+    "question": "Câu 100 (Chương 5): Mục tiêu của việc phân tích thuật toán là gì?",
+    "options": [
+      "Đánh giá hiệu năng để chọn giải pháp tối ưu",
+      "Tăng số dòng mã nguồn",
+      "Giảm độ chính xác",
+      "Thêm nhiều lệnh điều kiện"
+    ],
+    "answer": 0,
+    "category": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán"
+  }
+]
