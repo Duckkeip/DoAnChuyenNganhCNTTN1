@@ -52,7 +52,7 @@ cp .env.example .env
 npm run dev
 ```
 
-**Ví dụ `.env`**
+**`.env` khi clone từ git về thì sẽ không có file môi trường do bị gitignore nên tự tạo trong folder server/gần server.js **
 
 ```.env
 PORT=5000
