@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "68dc19012f76d0652a835b5c"
+  },
+  "username": "testuser3",
+  "email": "test@example3.com",
+  "passwordHash": "$2b$10$5VV/5K0.PR8Ffpwsb.gBIue4qTxSskcFW3VdFkjvBy3UNoxTzuX6K",
+  "role": "user",
+  "status": "active",
+  "createdAt": {
+    "$date": "2025-09-30T17:53:05.992Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f140c6a5809c12c09b2b1e"
+  },
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "username": "Admin",
+  "password": "123456",
+  "passwordHash": "$2b$10$xn80KN6gAU5LtBg6/CSPwOQXZ.b1RfMbHsU.3MJgsRZQWastxLjTW",
+  "email": "liducdps@gmail.com",
+  "avatar": "",
+  "verificationLink": "http://localhost:5000/auth/verify/c2c4ebfaeafb7c05e4b0dc3bee0b899bf038920c433d801174f63e343489a54c",
+  "tinhtrang": "active",
+  "verified": true,
+  "verificationToken": null,
+  "ngaytaotk": {
+    "$date": "2025-10-16T19:00:22.639Z"
+  },
+  "__v": 0
+}]

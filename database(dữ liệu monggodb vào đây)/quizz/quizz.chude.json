@@ -1,0 +1,341 @@
+[{
+  "_id": {
+    "$oid": "68f12e5a66a40acf78565022"
+  },
+  "idchude": "ATTT001",
+  "tenchude": "An toàn thông tin - Chương 1: Tổng quan về An toàn thông tin",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f246fa148d553489322abe"
+  },
+  "idchude": "ATTT002",
+  "tenchude": "An toàn thông tin - Chương 2: Mã hóa và quản lý khóa",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24755148d553489322ac3"
+  },
+  "idchude": "ATTT003",
+  "tenchude": "An toàn thông tin - Chương 3: Kiểm soát truy cập và xác thực",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24769148d553489322ac4"
+  },
+  "idchude": "ATTT004",
+  "tenchude": "An toàn thông tin - Chương 4: An ninh mạng và phòng chống tấn công",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322ac6"
+  },
+  "idchude": "ATTT005",
+  "tenchude": "An toàn thông tin - Chương 5: Quản lý rủi ro và khôi phục sau sự cố",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322ac7"
+  },
+  "idchude": "CTDLGT001",
+  "tenchude": "Cấu trúc dữ liệu & Giải thuật - Chương 1: Tổng quan về cấu trúc dữ liệu và giải thuật",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322ac8"
+  },
+  "idchude": "CTDLGT002",
+  "tenchude": "Cấu trúc dữ liệu & Giải thuật - Chương 2: Danh sách, ngăn xếp và hàng đợi",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322ac9"
+  },
+  "idchude": "CTDLGT003",
+  "tenchude": "Cấu trúc dữ liệu & Giải thuật - Chương 3: Cây và đồ thị",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322aca"
+  },
+  "idchude": "CTDLGT004",
+  "tenchude": "Cấu trúc dữ liệu & Giải thuật - Chương 4: Thuật toán tìm kiếm và sắp xếp",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322acb"
+  },
+  "idchude": "CTDLGT005",
+  "tenchude": "Cấu trúc dữ liệu & Giải thuật - Chương 5: Phân tích độ phức tạp và tối ưu thuật toán",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322acc"
+  },
+  "idchude": "HDH001",
+  "tenchude": "Hệ điều hành - Chương 1: Tổng quan về Hệ điều hành",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322acd"
+  },
+  "idchude": "HDH002",
+  "tenchude": "Hệ điều hành - Chương 2: Quản lý tiến trình và đồng bộ hóa",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322ace"
+  },
+  "idchude": "HDH003",
+  "tenchude": "Hệ điều hành - Chương 3: Quản lý bộ nhớ",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322acf"
+  },
+  "idchude": "HDH004",
+  "tenchude": "Hệ điều hành - Chương 4: Hệ thống tệp và I/O",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322ad0"
+  },
+  "idchude": "HDH005",
+  "tenchude": "Hệ điều hành - Chương 5: Bảo mật và quản trị hệ điều hành",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322ad1"
+  },
+  "idchude": "LTCSDL001",
+  "tenchude": "Lập trình cơ sở dữ liệu - Chương 1: Giới thiệu về cơ sở dữ liệu",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322ad2"
+  },
+  "idchude": "LTCSDL002",
+  "tenchude": "Lập trình cơ sở dữ liệu - Chương 2: Ngôn ngữ SQL (DDL, DML, DCL)",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322ad3"
+  },
+  "idchude": "LTCSDL003",
+  "tenchude": "Lập trình cơ sở dữ liệu - Chương 3: Lập trình kết nối cơ sở dữ liệu (JDBC/PHP/MySQL)",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322ad4"
+  },
+  "idchude": "LTCSDL004",
+  "tenchude": "Lập trình cơ sở dữ liệu - Chương 4: Tối ưu truy vấn",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322ad5"
+  },
+  "idchude": "LTCSDL005",
+  "tenchude": "Lập trình cơ sở dữ liệu - Chương 5: Quản lý và bảo mật cơ sở dữ liệu",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322ad6"
+  },
+  "idchude": "MMT001",
+  "tenchude": "Mạng máy tính - Chương 1: Tổng quan về mạng máy tính",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322ad7"
+  },
+  "idchude": "MMT002",
+  "tenchude": "Mạng máy tính - Chương 2: Mô hình OSI và TCP/IP",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322ad8"
+  },
+  "idchude": "MMT003",
+  "tenchude": "Mạng máy tính - Chương 3: Giao thức truyền thông và định tuyến",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322ad9"
+  },
+  "idchude": "MMT004",
+  "tenchude": "Mạng máy tính - Chương 4: Mạng không dây và bảo mật",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322ada"
+  },
+  "idchude": "MMT005",
+  "tenchude": "Mạng máy tính - Chương 5: Quản trị và giám sát mạng",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322adb"
+  },
+  "idchude": "QTDA001",
+  "tenchude": "Quản trị dự án - Chương 1: Tổng quan về quản trị dự án",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322adc"
+  },
+  "idchude": "QTDA002",
+  "tenchude": "Quản trị dự án - Chương 2: Chu kỳ sống của dự án",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322add"
+  },
+  "idchude": "QTDA003",
+  "tenchude": "Quản trị dự án - Chương 3: Lập kế hoạch và quản lý phạm vi dự án",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322ade"
+  },
+  "idchude": "QTDA004",
+  "tenchude": "Quản trị dự án - Chương 4: Quản lý thời gian và chi phí dự án",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322adf"
+  },
+  "idchude": "QTDA005",
+  "tenchude": "Quản trị dự án - Chương 5: Quản lý rủi ro dự án",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+},
+{
+  "_id": {
+    "$oid": "68f24d30148d553489322ae0"
+  },
+  "idchude": "QTDA006",
+  "tenchude": "Quản trị dự án - Chương 6: Giám sát, kiểm soát và kết thúc dự án",
+  "loaichude": "ôn tập",
+  "user_id": "1d4935f7d1a200403ff4c0eaddf99de0",
+  "ngaytao": "2025-10-17T00:00:00.000Z",
+  "tinhtrang": "active"
+}]

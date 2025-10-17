@@ -20,4 +20,4 @@ const CauhoiSchema = new mongoose.Schema({
   }
 });
 
-export default mongoose.model("Cauhoi", CauhoiSchema);
+export default mongoose.model("Cauhoi", CauhoiSchema,"cauhoi");

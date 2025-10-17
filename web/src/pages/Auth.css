@@ -4,14 +4,14 @@
   flex-direction: row;
   height: 100vh;
   font-family: "Segoe UI", sans-serif;
-  background: linear-gradient(135deg, #ffffffb9, #ffffffb9);
+  background: linear-gradient(180deg, #276dfa, #0cececb9);
   
 }
 
 /* === Bên trái: Logo / hình ảnh thương hiệu === */
 .auth-left {
   flex: 1;
-  background: linear-gradient(135deg, #21dfdfb9,#470ad8cc);
+  background: linear-gradient(135deg, #6200ffb9,#0cececb9);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,6 +19,9 @@
   text-align: center;
   flex-direction: column;
   border-radius: 0px;
+  cursor: pointer;
+  border-bottom-right-radius: 10vh;
+  border-top-right-radius: 10vh;
   padding: 40px;
   
 }
@@ -28,7 +31,7 @@
   max-width: 70%;
   margin-bottom: 20px;
   border-radius: 20px; /* bo tròn góc */
-  animation: fadeIn 1.0s ease;
+  animation: fadeIn 1.0s ease-in-out;
 }
 
 .auth-left h1 {
@@ -43,7 +46,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg,#ffffff,#21dfdfb9);
+  background: linear-gradient(-135deg,#6200ffb9,#0cececb9);
   border-bottom-left-radius: 10vh;
   border-top-left-radius: 10vh;
   animation: fadeIn 1.0s ease-in-out;
@@ -81,7 +84,7 @@
   border: 1px solid #ccc;
   border-radius: 10px;
   font-size: 16px;
-  text-shadow:  2px 2px 4px rgba(0,0,0,0.3);
+  
 }
 
 .auth-card button {
@@ -102,7 +105,7 @@
 }
 
 .switch a {
-  color: #4b6cb7;
+  color: #1bb1f7;
   text-decoration: none;
   font-weight: 600;
 }

@@ -30,12 +30,16 @@ function Register() {
     }
     
   };// Xử lý khi người dùng submit form
-
+  const handleLogoClick = () => {
+    setTimeout(() => {
+      navigate('/home'); //chuyển hướng sau khi đăng ký thành công
+    }, 1000); //chờ 1 giây trước khi chuyển hướng
+  }
   return (
      <div className="auth-container">
         {/* Cột trái: Logo */}
         <div className="auth-left">
-          <img src="./logoa.png" alt="Logo Website" />
+          <img src="./logoa.png" alt="Logo Website"  onClick={handleLogoClick} />
           <h1>Quizz Game</h1>
         </div>
         {/* Cột phải: Form đăng nhập */}
@@ -47,7 +51,7 @@ function Register() {
             <input name="tenhienthi" placeholder="Tên hiển thị" onChange={handleChange} />
             <input type="email" name="email" placeholder="Email" onChange={handleChange} required />
             <input type="password" name="password" placeholder="Mật khẩu" onChange={handleChange} required />
-            <button type="submit" disabled={loading} >{loading ? "⏳ Đang đăng ký..." : "Tạo tài khoản"} Tạo tài khoản</button>
+            <button type="submit" disabled={loading} >{loading ? "⏳ Đang đăng ký..." : "Tạo tài khoản"} </button>
           </form>
           <p className="switch">
             Đã có tài khoản? <a href="/login">Đăng nhập</a>

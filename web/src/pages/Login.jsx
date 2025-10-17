@@ -4,34 +4,43 @@ import "./Auth.css";
 import { useNavigate } from "react-router-dom";
 
 function Login() {
-  const [form, setForm] = useState({ email: "", password: "" });
+  const [form, setForm] = useState({ identifier: "", password: "" });
   const [message, setMessage] = useState("");
+ 
   const navigate = useNavigate();
 
+ 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };// Cập nhật trạng thái form khi người dùng nhập liệu
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    
     try {
       const res = await axios.post("http://localhost:5000/api/auth/login", form);
-      localStorage.setItem("token", res.data.token);
+      localStorage.setItem("token", res.data.token);// Lưu token vào localStorage
+      const user = res.data.user;
        setTimeout(() => {
-        navigate("/home"); //chuyển hướng sau khi đăng ký thành công
+        navigate(`/home/${user._id}`);
+         //chuyển hướng sau khi đăng ký thành công
       }, 1000); //chờ 1 giây trước khi chuyển hướng
       setMessage("✅ " + res.data.message);
     } catch (err) {
-        
+      
       setMessage("❌ " + (err.response?.data?.message || "Đăng nhập thất bại"));
     }
   };// Xử lý khi người dùng submit form
-
+  const handleLogoClick = () => {
+    setTimeout(() => {
+      navigate('/home'); //chuyển hướng sau khi đăng ký thành công
+    }, 1000); //chờ 1 giây trước khi chuyển hướng
+  }
   return (
     <div className="auth-container">
       {/* Cột trái: Logo */}
       <div className="auth-left">
-        <img src="./logoa.png" alt="Logo Website" />
+        <img src="./logoa.png" alt="Logo Website"  onClick={handleLogoClick}/>
         <h1>Quizz Game</h1>
       </div>
       {/* Cột phải: Form đăng nhập */}
