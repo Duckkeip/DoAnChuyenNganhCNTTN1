@@ -25,7 +25,10 @@ function Register() {
       }, 1000); //chờ 1 giây trước khi chuyển hướng 
     } catch (err) {
       setMessage("❌ " + (err.response?.data?.message || "Lỗi khi đăng ký"));
+    }finally {
+      setLoading(false);
     }
+    
   };// Xử lý khi người dùng submit form
 
   return (
@@ -44,7 +47,7 @@ function Register() {
             <input name="tenhienthi" placeholder="Tên hiển thị" onChange={handleChange} />
             <input type="email" name="email" placeholder="Email" onChange={handleChange} required />
             <input type="password" name="password" placeholder="Mật khẩu" onChange={handleChange} required />
-            <button type="submit">Tạo tài khoản</button>
+            <button type="submit" disabled={loading} >{loading ? "⏳ Đang đăng ký..." : "Tạo tài khoản"} Tạo tài khoản</button>
           </form>
           <p className="switch">
             Đã có tài khoản? <a href="/login">Đăng nhập</a>

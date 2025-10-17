@@ -4,7 +4,7 @@
   flex-direction: row;
   height: 100vh;
   font-family: "Segoe UI", sans-serif;
-  background: linear-gradient(135deg, #ffffffb9, #470ad8cc);
+  background: linear-gradient(135deg, #ffffffb9, #ffffffb9);
   
 }
 
@@ -28,7 +28,7 @@
   max-width: 70%;
   margin-bottom: 20px;
   border-radius: 20px; /* bo tròn góc */
-  animation: fadeIn 1.5s ease;
+  animation: fadeIn 1.0s ease;
 }
 
 .auth-left h1 {
@@ -46,7 +46,7 @@
   background: linear-gradient(90deg,#ffffff,#21dfdfb9);
   border-bottom-left-radius: 10vh;
   border-top-left-radius: 10vh;
-  animation: fadeIn 1.25s ease-in-out;
+  animation: fadeIn 1.0s ease-in-out;
   text-shadow:  1px 5px 4px rgba(0, 0, 0, 0.3);  
   
 }
@@ -92,14 +92,13 @@
   border-radius: 10px;
   cursor: pointer;
   transition: 0.3s;
-  font-size: 1rem;
-  
+  font: italic bold 1rem "Segoe UI", sans-serif;
 }
 
 .auth-card button:hover {
   transform: scale(1.05);
   opacity: 0.9;
-  color-scheme: red;
+  color:rgba(0, 0, 0, 0.671);
 }
 
 .switch a {

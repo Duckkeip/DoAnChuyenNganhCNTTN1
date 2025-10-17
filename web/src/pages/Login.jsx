@@ -18,7 +18,7 @@ function Login() {
       const res = await axios.post("http://localhost:5000/api/auth/login", form);
       localStorage.setItem("token", res.data.token);
        setTimeout(() => {
-        navigate("/"); //chuyển hướng sau khi đăng ký thành công
+        navigate("/home"); //chuyển hướng sau khi đăng ký thành công
       }, 1000); //chờ 1 giây trước khi chuyển hướng
       setMessage("✅ " + res.data.message);
     } catch (err) {
