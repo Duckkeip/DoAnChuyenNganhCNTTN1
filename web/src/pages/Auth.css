@@ -4,32 +4,37 @@
   flex-direction: row;
   height: 100vh;
   font-family: "Segoe UI", sans-serif;
-  background: linear-gradient(135deg, #21dfdfb9, #470ad8cc);
+  background: linear-gradient(135deg, #ffffffb9, #470ad8cc);
+  
 }
 
 /* === Bên trái: Logo / hình ảnh thương hiệu === */
 .auth-left {
   flex: 1;
-  background: linear-gradient(135deg, #21dfdfb9, #470ad8cc);
+  background: linear-gradient(135deg, #21dfdfb9,#470ad8cc);
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   text-align: center;
   flex-direction: column;
-  border-radius: 100px;
+  border-radius: 0px;
   padding: 40px;
+  
 }
 
 .auth-left img {
   width: 50vh;
   max-width: 70%;
   margin-bottom: 20px;
+  border-radius: 20px; /* bo tròn góc */
+  animation: fadeIn 1.5s ease;
 }
 
 .auth-left h1 {
   font-size: 2rem;
   letter-spacing: 1px;
+  text-shadow:  2px 2px 4px rgba(0,0,0,0.3);
 }
 
 /* === Bên phải: Form đăng nhập/đăng ký === */
@@ -38,9 +43,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: white;
-  border-radius: 100px;
-  animation: fadeIn 0.5s ease;
+  background: linear-gradient(90deg,#ffffff,#21dfdfb9);
+  border-bottom-left-radius: 10vh;
+  border-top-left-radius: 10vh;
+  animation: fadeIn 1.25s ease-in-out;
+  text-shadow:  1px 5px 4px rgba(0, 0, 0, 0.3);  
+  
 }
 
 .auth-card {
@@ -51,18 +59,21 @@
   width: 80%;
   max-width: 400px;
   text-align: center;
+  box-shadow: -5px 15px 20px rgba(0, 0, 0, 0.363);
 }
 
 .auth-card h2 {
   margin-bottom: 25px;
   color: #333;
   font-size: 1.8rem;
+  
 }
 
 .auth-card form {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  text-shadow:  2px 2px 4px rgba(0,0,0,0.3);
 }
 
 .auth-card input {
@@ -70,6 +81,7 @@
   border: 1px solid #ccc;
   border-radius: 10px;
   font-size: 16px;
+  text-shadow:  2px 2px 4px rgba(0,0,0,0.3);
 }
 
 .auth-card button {
@@ -81,11 +93,13 @@
   cursor: pointer;
   transition: 0.3s;
   font-size: 1rem;
+  
 }
 
 .auth-card button:hover {
   transform: scale(1.05);
   opacity: 0.9;
+  color-scheme: red;
 }
 
 .switch a {

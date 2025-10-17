@@ -4,25 +4,29 @@ import "./Auth.css";
 import { useNavigate } from "react-router-dom";
 
 function Register() {
-  const [form, setForm] = useState({ username: "", email: "", password: "", tenhienthi: "" });
-  const [message, setMessage] = useState("");
+  const [form, setForm] = useState({ username: "", email: "", password: "", tenhienthi: "" });// 
+  // trạng thái form đăng ký
+  const [message, setMessage] = useState("");// thông báo lỗi hoặc thành công
+  const [loading, setLoading] = useState(false);// trạng thái đang xử lý
   const navigate = useNavigate();//chuyển hướng sau khi đăng ký thành công  
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
-  };
+  };// Cập nhật trạng thái form khi người dùng nhập dữ liệu
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
+  setMessage("⏳ Đang xử lý...");
     try {
       const res = await axios.post("http://localhost:5000/api/auth/register", form);
       setMessage("✅ " + res.data.message);
       setTimeout(() => {
         navigate('/login'); //chuyển hướng sau khi đăng ký thành công
-      }, 2000); //chờ 2 giây trước khi chuyển hướng 
+      }, 1000); //chờ 1 giây trước khi chuyển hướng 
     } catch (err) {
       setMessage("❌ " + (err.response?.data?.message || "Lỗi khi đăng ký"));
     }
-  };
+  };// Xử lý khi người dùng submit form
 
   return (
      <div className="auth-container">
