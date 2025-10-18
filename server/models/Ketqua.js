@@ -2,6 +2,7 @@ import mongoose from "mongoose";
 
 const KetquaSchema = new mongoose.Schema({
   user_id: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
+  id_ketqua: { type: String, required: true, unique: true },
   id_chude: { type: mongoose.Schema.Types.ObjectId, ref: "Chude", required: true },
   tong_cau: { type: Number, required: true },
   cau_dung: { type: Number, required: true },
