@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 //phòng chơi
 
 const QuizzUserSchema = new mongoose.Schema({
-  id_room: { type: String, required: true, unique: true },
+  id_room: { type: String, required: true },
   tenroom: { type: String, required: true },
   id_host: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
   id_chude: { type: mongoose.Schema.Types.ObjectId, ref: "Chude", required: true },
