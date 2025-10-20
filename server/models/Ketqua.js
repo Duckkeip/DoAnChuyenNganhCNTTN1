@@ -19,4 +19,4 @@ const KetquaSchema = new mongoose.Schema({
   ngay_lam: { type: Date, default: Date.now }
 });
 
-export default mongoose.model("Ketqua", KetquaSchema);
+export default mongoose.model("Ketqua", KetquaSchema,"ketqua");

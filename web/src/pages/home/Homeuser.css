@@ -10,6 +10,10 @@
   --transition: all 0.3s ease;
 }
 
+
+/* HOMEUSER */
+
+
 /* RESET CHUNG CHO CẢ TRANG /home */
 * {
   margin: 0;
@@ -32,7 +36,7 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  padding: 0 20px 10px;
+  padding: 0 10px 1px;
 }
 
 /* === HEADER === */
@@ -64,7 +68,7 @@ header {
 
 .logo:hover {
   transform: translateX(-20px);
-  font-size: 2.2rem;
+  font-size: 1.7rem;
 }
 
 .logo-icon {
@@ -271,23 +275,7 @@ header {
   padding-top: 10px;
 }
 
-@media (max-width: 600px) {
-  .footer-content {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-  }
 
-  .footer-right {
-    flex-direction: row;
-    justify-content: center;
-    gap: 15px;
-  }
-
-  .footer-left p {
-    font-size: 0.9rem;
-  }
-}
 .pagination {
   display: flex;
   justify-content: center;
@@ -322,6 +310,123 @@ header {
   cursor: not-allowed;
 }
 
+/* === MENU SECTION === */
+.menu-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  background: linear-gradient(135deg, #ffffff, #f3f7ff);
+  padding: 16px 0;
+  border-radius: 50px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* hỗ trợ Safari */
+}
+
+/* Nút trong menu */
+.btn-menu {
+  background: transparent;
+  color: var(--dark);
+  border: 2px solid var(--primary);
+  border-radius: 30px;
+  padding: 10px 22px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+/* Hover effect */
+.btn-menu:hover {
+  background: linear-gradient(45deg, var(--primary), var(--primary-light));
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 238, 255, 0.3);
+}
+
+/* Active button (trang hiện tại) */
+.btn-menu.active {
+  background: linear-gradient(45deg, var(--primary), var(--primary-light));
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 238, 255, 0.4);
+  transform: scale(1.05);
+}
+
+
+/*HOMEPAGE*/
+
+.homepage-container {
+  width: 100%;
+  min-height: 100vh;
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.auth-buttons button {
+  margin-left: 0.5rem;
+}
+
+/* --- Thanh cuộn ngang --- */
+.chude-section {
+  padding: 2rem;
+}
+
+.chude-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  scroll-behavior: smooth;
+  padding-bottom: 1rem;
+}
+
+.chude-scroll::-webkit-scrollbar {
+  height: 0px;
+  overflow: hidden;
+}
+
+.chude-scroll::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+.chude-card {
+  flex: 0 0 250px; /* ✅ kích thước mỗi card */
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.chude-card:hover {
+  transform: translateY(-5px);
+}
+
+
+
 /* RESPONSIVE */
 @media (max-width: 992px) {
   header {
@@ -353,4 +458,23 @@ header {
   .quiz-content {
     padding: 20px;
   }
+}
+
+@media (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer-right {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .footer-left p {
+    font-size: 0.9rem;
+  }
+
 }

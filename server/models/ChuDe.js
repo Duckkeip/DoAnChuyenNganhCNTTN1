@@ -8,7 +8,7 @@ const chudeSchema = new mongoose.Schema({
     enum: ['ôn tập', 'thi thử', 'đố vui', 'thi đấu'], 
     required: true 
   },
-  user_id: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
+  user_id: { type: mongoose.Schema.Types.ObjectId, ref: "User", default: null},
   ngaytao: { type: Date, default: Date.now },
   tinhtrang: { type: String, default: 'active' }
 });

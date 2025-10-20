@@ -14,4 +14,4 @@ const QuizzUserSchema = new mongoose.Schema({
   ngaytao: { type: Date, default: Date.now }
 });
 
-export default mongoose.model("QuizzUser", QuizzUserSchema);
+export default mongoose.model("QuizzUser", QuizzUserSchema,"quizzuser");

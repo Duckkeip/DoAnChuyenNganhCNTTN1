@@ -13,7 +13,7 @@ const Quizzuser = require("../models/Quizzuser");
 // ----------------------------
 router.get("/chude", async (req, res) => {
   try {
-    const data = await Chude.find().populate("user_id", "username");
+    const data = await Chude.find().populate("user_id");
     res.json(data);
   } catch (err) {
     res.status(500).json({ error: err.message });

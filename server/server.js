@@ -11,14 +11,14 @@ app.use(express.json());
 // Kết nối DB
 connectDB();
 
-// Các route có sẵn
+// Test server
 app.use("/auth", require("./routes/auth"));
-app.use("/api/auth", require("./routes/auth"));
-app.use("/quizzes", require("./routes/quizzes"));
 
-// ✅ Route mới cho chủ đề, câu hỏi, phòng, kết quả
-app.use("/api", require("./routes/chude"));
+//``````
 
+
+app.use("/api/auth", require("./routes/auth")); // Auth routes
+app.use("/api/chude", require("./routes/chude")); // Chude routes
 // Test route
 app.get("/", (req, res) => {
   res.send("Quiz API đang chạy...");

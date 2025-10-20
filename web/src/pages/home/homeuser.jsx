@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import jwt_decode from "jwt-decode";
-import api from "../../api/checktoken";
+import api from "../../api/check";
 import "./Homeuser.css";
 
-function Homepage() {
+function Homeuser() {
   const [user, setUser] = useState(null);
   const [chudes, setChudes] = useState([]);
   const [, setRoom] = useState(null);
@@ -25,6 +25,7 @@ function Homepage() {
           navigate("/login");
         } else {
           setUser(decoded);
+          var currentUser = decoded;
         }
       } catch {
         localStorage.removeItem("token");
@@ -39,7 +40,15 @@ function Homepage() {
       .get("/chude")
       .then((res) => {
         console.log("Dữ liệu chủ đề nhận từ backend:", res.data);
-        setChudes(res.data);
+
+        let userChude = res.data;
+      if (currentUser && currentUser._id) {
+        // ✅ Lọc theo user_id nếu có
+        userChude = res.data.filter(
+           (c) => c.user_id?._id === currentUser._id
+        );
+      }
+        setChudes(userChude);
         setCurrentPage(1); // reset về trang đầu
       })
       .catch((err) => {
@@ -142,11 +151,21 @@ function Homepage() {
           )}
         </div>
       </header>
-
+          <section className="menu-section">
+        <button className="btn btn-menu" onClick={() => navigate(`/home/${user ? user.id : ""}`)}>
+          Trang chủ
+        </button>
+        <button className="btn btn-menu" onClick={() => navigate(`/user/${user ? user.id : ""}`)}>
+          Hồ sơ của tôi
+        </button>
+        <button className="btn btn-menu" onClick={() => navigate(`/history/${user ? user.id : ""}`)}>
+          Lịch sử chơi
+        </button>
+      </section>
       {/* ---------- MAIN CONTENT ---------- */}
       <section className="quiz-list">
         <h2 className="section-title">
-          <span className="section-icon"></span> Danh sách chủ đề
+          <span className="section-icon"></span> Danh sách chủ đề của bạn :
         </h2>
 
         <div className="quiz-grid">
@@ -176,7 +195,7 @@ function Homepage() {
           )}
         </div>
 
-        {/* ---------- PAGINATION ---------- */}
+        {/* ---------- Phân trang ---------- */}
         {totalPages > 1 && (
           <div className="pagination">
             <button
@@ -243,4 +262,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default Homeuser;

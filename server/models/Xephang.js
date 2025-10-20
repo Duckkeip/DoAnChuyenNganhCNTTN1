@@ -7,4 +7,5 @@ const XephangSchema = new mongoose.Schema({
   id_chude: { type: mongoose.Schema.Types.ObjectId, ref: "Chude", required: true }
 });
 
-export default mongoose.model("Xephang", XephangSchema);
+export default mongoose.model("Xephang", XephangSchema,"xephang");
+  
