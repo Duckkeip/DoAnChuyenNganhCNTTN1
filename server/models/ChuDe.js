@@ -5,7 +5,7 @@ const chudeSchema = new mongoose.Schema({
   tenchude: { type: String, required: true },
   loaichude: { 
     type: String, 
-    enum: ['ôn tập', 'thi thử', 'đố vui', 'thi đấu'], 
+    enum: ['ôn tập',  'thi đấu'], 
     required: true 
   },
   user_id: { type: mongoose.Schema.Types.ObjectId, ref: "User", default: null},
