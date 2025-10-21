@@ -7,14 +7,14 @@ const User = require('../models/User');
 const transporter = require('../utils/mailer');
 
 // ----- Cấu hình chế độ dev/prod -----
-const DEV_MODE = false; 
+//const DEV_MODE = false; 
 // true = dev: không gửi mail
 // false = production: gửi mail xác thực tài khoản
 
 // ===== ĐĂNG KÝ =====
 router.post('/register', async (req, res) => {
   try {
-    const { username, email, password, tenhienthi } = req.body;
+    const { username, email, password, SDT } = req.body;
 
     // Kiểm tra trùng email
     const existingEmail = await User.findOne({ email });
@@ -35,6 +35,7 @@ router.post('/register', async (req, res) => {
     const user = new User({
       user_id: crypto.randomBytes(16).toString('hex'),
       username,
+      SDT,
       email,
       password,
       passwordHash,
@@ -43,23 +44,15 @@ router.post('/register', async (req, res) => {
       verified: false
     });
 
-    // Dev mode: không gửi mail, trả token về
-    if (DEV_MODE) {
-      console.log(`✅ Dev mode: token cho ${username}: ${verificationToken}`);
-      await user.save();
-      return res.json({
-        message: 'Đăng ký thành công (DEV MODE)!',
-        verificationToken,
-        verifyLink
-      });
-    }
+   
+    
 
     // Production: gửi mail xác thực
     await transporter.sendMail({
       from: `"Hệ thống Quiz" <${process.env.EMAIL_USER}>`,
       to: email,
       subject: 'Xác nhận đăng ký tài khoản',
-      text: `Xin chào ${tenhienthi || username}, nhấn vào link sau để xác nhận tài khoản của bạn: ${verifyLink}`
+      text: `Xin chào ${ username}, nhấn vào link sau để xác nhận tài khoản của bạn: ${verifyLink}`
     });
 
     // Lưu user sau khi gửi mail thành công

@@ -48,7 +48,7 @@ function Register() {
           <h2>📝 Đăng ký</h2>
           <form onSubmit={handleSubmit}>
             <input name="username" placeholder="Tên đăng nhập" onChange={handleChange} required />
-            <input name="tenhienthi" placeholder="Tên hiển thị" onChange={handleChange} />
+            <input name="SDT" placeholder="Số điện thoại" onChange={handleChange} />
             <input type="email" name="email" placeholder="Email" onChange={handleChange} required />
             <input type="password" name="password" placeholder="Mật khẩu" onChange={handleChange} required />
             <button type="submit" disabled={loading} >{loading ? "⏳ Đang đăng ký..." : "Tạo tài khoản"} </button>
