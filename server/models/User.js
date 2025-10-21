@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const userSchema = new mongoose.Schema({
   username: { type: String, required: true, unique: true },
   password: { type: String, required: true }, 
+  SDT: { type: String, default: '' },
   passwordHash: { type: String, required: true },// Mật khẩu đã được hash
   email: { type: String, required: true, unique: true },
   avatar: { type: String, default: '' },
