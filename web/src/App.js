@@ -8,7 +8,7 @@ import { Navigate } from "react-router-dom";
 export default function App() {
   return (
     <Router>
-      <Routes>
+      <Routes>{/* User */}
         <Route path="/" element={<Navigate to="/home" replace />} />
         <Route path="/home" element={<Homepage />} />
         {/* Trang homepage với tham số id */}
@@ -17,6 +17,9 @@ export default function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
 
+      </Routes>
+      <Routes>{/* Admin */}
+          
       </Routes>
     </Router>
   );
