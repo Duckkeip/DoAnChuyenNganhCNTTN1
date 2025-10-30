@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const chudeSchema = new mongoose.Schema({
-  idchude: { type: String, required: true, unique: true },
+  
   tenchude: { type: String, required: true },
   loaichude: { 
     type: String, 
