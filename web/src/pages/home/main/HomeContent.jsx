@@ -1,17 +1,12 @@
-import React, { useEffect, useState } from "react";
-import { useNavigate,useLocation } from "react-router-dom";
+import React, { useEffect, useCallback ,useState } from "react";
+import { useNavigate } from "react-router-dom";
 import jwt_decode from "jwt-decode";
-import axios from "axios";
 import api from "../../token/check"
 import "./HomeContent.css";  
-
-{/* HomeContent*/}
-
-
 function HomeContent(){
     const [user, setUser] = useState(null);
     const navigate = useNavigate();
-    const location = useLocation(); 
+    
     const [chudes, setChudes] = useState([]);
     const [, setRoom] = useState(null);
     const [currentPage, setCurrentPage] = useState(1);
@@ -22,9 +17,7 @@ function HomeContent(){
      const currentChudes = chudes.slice(indexOfFirst, indexOfLast);
      const totalPages = Math.ceil(chudes.length / itemsPerPage);
 
-
      
-
       // ✅ Phân trang
      
     const handlePageChange = (page) => {
@@ -33,35 +26,64 @@ function HomeContent(){
         }
       };
     
-      const handleLogoClick = () => {
-        if (user) {
-          navigate(`/home/${user.id}`);
+     // ✅ Check token với useCallback
+  const Checktoken = useCallback(async () => {
+    const token = localStorage.getItem("token");
+    if (token) {
+      try {
+        const decoded = jwt_decode(token);
+        const now = Date.now() / 1000;
+        if (decoded.exp < now) {
+          console.log("Token đã hết hạn, đăng xuất...");
+          localStorage.removeItem("token");
+          navigate("/login");
         } else {
-          navigate("/home");
+          console.log("Token hợp lệ, user:", decoded);
+          setUser(decoded);
         }
-      };
-    
-       // ✅ Lấy danh sách chủ đề
-    const fetchChude = async () => {
-        try {
-          const res = await api.get("/topic/chude");
-          console.log("Dữ liệu chủ đề nhận từ backend:", res.data);
-      
-          let userChude = res.data;
-          if (user && user._id) {
-            // ✅ Lọc theo user_id nếu có
-            userChude = res.data.filter((c) => c.user_id?._id === user._id);
-          }
-      
-          setChudes(userChude);
-          setCurrentPage(1); // reset về trang đầu
-        } catch (err) {
-          console.error("Lỗi lấy chủ đề:", err);
-          setChudes([]);
-        }
-      };
+      } catch (err) {
+        console.log("Lỗi decode token:", err);
+        localStorage.removeItem("token");
+        setUser(null);
+      }
+    } else {
+      console.log("Không có token trong localStorage");
+      setUser(null);
+    }
+  }, [navigate]); // ✅ vì navigate là dependency
+
+  // ✅ Lấy danh sách chủ đề với useCallback
+  const fetchChude = useCallback(async () => {
+    try {
+      const res = await api.get("/topic/chude");
+      console.log("Dữ liệu chủ đề nhận từ backend:", res.data);
+
+      let userChude = res.data;
+      if (user && user._id) {
+        // ✅ Lọc theo user_id nếu có
+        userChude = res.data.filter((c) => c.user_id?._id === user._id);
+      }
+
+      setChudes(userChude);
+      setCurrentPage(1);
+    } catch (err) {
+      console.error("Lỗi lấy chủ đề:", err);
+      setChudes([]);
+    }
+  }, [user]); // ✅ phụ thuộc vào user
+    // ✅ useEffect đầu tiên: chỉ check token
+  useEffect(() => {
+    Checktoken();
+  }, [Checktoken]);
+
+  // ✅ useEffect thứ hai: chỉ gọi fetchChude khi user đã có
+  useEffect(() => {
+    if (user) {
+      fetchChude();
+    }
+  }, [user, fetchChude]);   
   // ✅ Hàm tạo phòng và lấy câu hỏi
-     const handleStartQuiz = async (chude) => {
+  const handleStartQuiz = async (chude) => {
     if (!user) {
       alert("Vui lòng đăng nhập để chơi quiz!");
       navigate("/login");
@@ -89,37 +111,8 @@ function HomeContent(){
       alert("Không thể tạo phòng hoặc lấy câu hỏi cho chủ đề này!");
     }
   };
-  const Checktoken = async () => {
-    const token = localStorage.getItem("token");
-        if (token) {
-          try {
-            const decoded = jwt_decode(token);
-            const now = Date.now() / 1000;
-            if (decoded.exp < now) {
-              console.log("Token đã hết hạn, đăng xuất...");
-              localStorage.removeItem("token");
-              navigate("/login");
-            } else {
-              setUser(decoded);
-              var currentUser = decoded;
-            }
-          } catch {
-            localStorage.removeItem("token");
-            setUser(null);
-          }
-        } else {
-          setUser(null);
-        }
-  }
-//kt token
-useEffect(() => {
-    Checktoken();
-    }, [navigate]);
-//fetch chude
-useEffect(() => {
-        if (user) fetchChude();
-    }, [user]);
-    
+
+
      
 
     return (    

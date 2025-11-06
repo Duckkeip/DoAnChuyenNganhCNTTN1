@@ -25,7 +25,7 @@ export default function App() {
             {/* Trang homepage với tham số id */}
             {/* ✅ Protected User Routes */}
             <Route element={<Protected />}>
-              <Route path="/home/:user_id" element={<Homeuser />}>
+              <Route path="/home/:id" element={<Homeuser />}>
                 <Route index element={<HomeContent />} />
                 <Route path="profile" element={<Profile />} />
               </Route>

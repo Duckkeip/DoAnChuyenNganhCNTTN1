@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState ,useCallback} from "react";
 import { useNavigate,useLocation } from "react-router-dom";
-
 import "./Homeuser.css";  
+import jwt_decode from "jwt-decode";
 import { Outlet } from "react-router-dom";
 
 function Homeuser() {
@@ -9,29 +9,52 @@ function Homeuser() {
   const navigate = useNavigate();
   const location = useLocation(); 
   
-
-  const handleLogoClick = () => {
-    if (user) {
-      navigate(`/home/${user.id}`);
-    } else {
-      navigate("/home");
+  // ✅ Kiểm tra token (dùng useCallback để không tạo lại mỗi render)
+  const Checktoken = useCallback(() => {
+    const token = localStorage.getItem("token");
+    if (!token) {
+      console.log("Không có token trong localStorage");
+      setUser(null);
+      return;
     }
-  };
 
-  const handleLogout = () => {
-    localStorage.removeItem("token");
-    setUser(null);
-    setTimeout(() => console.log("Người dùng đã đăng xuất sau 3 giây"), 3000);
-    navigate("/home");
-  };
+    try {
+      const decoded = jwt_decode(token);
+      const now = Date.now() / 1000;
+      if (decoded.exp < now) {
+        console.log("Token hết hạn, đăng xuất...");
+        localStorage.removeItem("token");
+        setUser(null);
+        navigate("/login");
+      } else {
+        console.log("Token hợp lệ:", decoded);
+        setUser(decoded);
+      }
+    } catch (err) {
+      console.log("Lỗi decode token:", err);
+      localStorage.removeItem("token");
+      setUser(null);
+    }
+  }, [navigate]);
 
+  // ✅ useEffect chỉ chạy 1 lần
   useEffect(() => {
+    Checktoken();
     const storedUser = localStorage.getItem("user");
     if (storedUser) {
       setUser(JSON.parse(storedUser));
     }
-  }, []);
-  
+  }, [Checktoken]); // ✅ thêm dependency hợp lệ
+
+  const handleLogoClick = () => navigate(user ? `/home/${user.id}` : "/home");
+
+  const handleLogout = () => {
+    localStorage.removeItem("token");
+    setUser(null);
+    console.log("Đã đăng xuất!");
+    navigate("/home");
+  };
+
   return (
     <div className="homeuser-container">
       {/* ---------- HEADER ---------- */}
@@ -78,7 +101,9 @@ function Homeuser() {
   className={`btn btn-menu ${location.pathname === `/home/${user?.id}` ? "active" : ""}`}
   onClick={() => {
     if (!user?.id) return console.warn("User chưa sẵn sàng!");
+    setTimeout(() => {
     navigate(`/home/${user.id}`);
+    },200)
   }}
 >
   Trang chủ
@@ -86,14 +111,21 @@ function Homeuser() {
 
         <button
           className={`btn btn-menu ${location.pathname.includes("profile") ? "active" : ""}`}
-          onClick={() => navigate(`/home/${user?._id}/profile`)}
+          onClick={() => 
+            setTimeout(() => {
+            navigate(`/home/${user?.id}/profile`);
+            },200)}
         >
           Hồ sơ của tôi
         </button>
 
         <button
           className={`btn btn-menu ${location.pathname.includes("history") ? "active" : ""}`}
-          onClick={() => navigate(`/home/${user?._id}/history`)}
+          onClick={() => 
+            setTimeout(() => {
+            navigate(`/home/${user?._id}/history`)
+            },200)
+        }
         >
           Lịch sử chơi
         </button>

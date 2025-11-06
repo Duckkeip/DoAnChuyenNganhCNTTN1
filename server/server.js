@@ -3,8 +3,8 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const connectDB = require("./config/db");
-const app = express();
 
+const app = express();
 app.use(cors());
 app.use(express.json());
 
@@ -12,14 +12,13 @@ app.use(express.json());
 connectDB();
 
 // Test server
-app.use("/auth", require("./routes/auth"));
 
 //``````
 app.use("/uploads", express.static("uploads"));//avatar
 
-app.use("/api/users",require("./routes/users"))//User routes
+app.use("/api/user",require("./routes/users"))//User routes
 app.use("/api/auth", require("./routes/auth")); // Auth routes
-app.use("/api/topic", require("./routes/chude")); // Chude routes
+app.use("/api/topic",require("./routes/chude")); // Chude routes
 // Test route
 app.get("/", (req, res) => {
   res.send("Quiz API đang chạy...");

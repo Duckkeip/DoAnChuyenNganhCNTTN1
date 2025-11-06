@@ -1,8 +1,10 @@
 .bgprofile{
   background: linear-gradient(to right, #6200ffb9, #0cececb9);
+  border-radius: 100px;
 }
 .profile-container {
     max-width: 700px;
+    
     margin: 40px auto;
     padding: 25px;
     background: linear-gradient(to right, #210f3bb9, #266969b9,#210f3bb9);

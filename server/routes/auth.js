@@ -14,7 +14,9 @@ const path = require('path')
 
 // ===== ĐĂNG KÝ =====
 router.post('/register', async (req, res) => {
+  
   try {
+   
     const { username, email, password, SDT } = req.body;
 
     // Kiểm tra trùng email
@@ -30,8 +32,9 @@ router.post('/register', async (req, res) => {
 
     // Tạo token xác thực và link
     const verificationToken = crypto.randomBytes(32).toString('hex');
-    const verifyLink = `http://10.40.5.240:5000/auth/verify/${verificationToken}`;
-
+    const verifyLink = `http://localhost:5000/auth/verify/${verificationToken}`;
+    //                thay đổi locahost = ip laptop hoặc PC để xác thực bằng điện thoại
+    //                với điều kiện local 
     // Tạo user object (chưa lưu)
     const user = new User({
       user_id: crypto.randomBytes(16).toString('hex'),
@@ -44,10 +47,8 @@ router.post('/register', async (req, res) => {
       verificationLink: "http://localhost:5000/auth/verify/" + verificationToken,
       verified: false
     });
-
-   
-    
-    
+    // Lưu user sau khi gửi mail thành công
+    await user.save();
     // Production: gửi mail xác thực
     await transporter.sendMail({
       from: `"Hệ thống Quiz" <${process.env.EMAIL_USER}>`,
@@ -84,8 +85,7 @@ router.post('/register', async (req, res) => {
       `
     });
 
-    // Lưu user sau khi gửi mail thành công
-    await user.save();
+    
 
     res.json({ message: 'Đăng ký thành công! Vui lòng kiểm tra email để xác nhận tài khoản.' });
 
@@ -134,8 +134,11 @@ router.post('/login', async (req, res) => {
 
 // ===== XÁC NHẬN EMAIL =====
 router.get('/verify/:token', async (req, res) => {
+  console.log("👉 Nhận yêu cầu verify:", req.params.token);
   try {
     const user = await User.findOne({ verificationToken: req.params.token });
+    console.log("✅ Tìm thấy user:", user ? user.email : "Không có");
+
     if (!user) return res.sendFile(path.join(__dirname, '../utils/verifythatbai.html'));
 
     user.verified = true;

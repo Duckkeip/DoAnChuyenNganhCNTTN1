@@ -2,11 +2,10 @@ import React, { useEffect, useState } from "react";
 import api from "../../token/check"
 import { useParams, useNavigate } from "react-router-dom";
 import "./Profile.css";
-
+//import jwt_decode from "jwt-decode";
 const Profile = () => {
   const { id } = useParams();//truyền id của user
   const navigate = useNavigate();
-
 
   const [showPassword, setShowPassword] = useState(false);
   const [showChangePassModal, setShowChangePassModal] = useState(false);//hộp thoại đổi mk
@@ -52,6 +51,7 @@ const Profile = () => {
     const { password, ...formWithoutPassword } = form;
 
     await api.put(`/user/${id}`, formWithoutPassword);
+    window.location.reload();
     alert("Cập nhật thành công!");
     }catch(err){
     console.log("Lỗi: " + err);
