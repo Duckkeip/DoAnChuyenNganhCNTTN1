@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import axios from "axios";
+
+import api from "./token/check"
 import "./Auth.css";
 import { useNavigate } from "react-router-dom";
 
@@ -18,9 +19,12 @@ function Login() {
     e.preventDefault();
     
     try {
-      const res = await axios.post("http://localhost:5000/api/auth/login", form);
+      const res = await api.post("/auth/login", form);
+      const { token, user } = res.data;
       localStorage.setItem("token", res.data.token);// Lưu token vào localStorage
-      const user = res.data.user;
+
+      localStorage.setItem("token", token);
+      localStorage.setItem("user", JSON.stringify(user));
       console.log("Đăng nhập thành công:", user);
        setTimeout(() => {
         navigate(`/home/${user.id}`);

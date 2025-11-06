@@ -5,6 +5,7 @@ const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 const User = require('../models/User');
 const transporter = require('../utils/mailer');
+const path = require('path')
 
 // ----- Cấu hình chế độ dev/prod -----
 //const DEV_MODE = false; 
@@ -29,7 +30,7 @@ router.post('/register', async (req, res) => {
 
     // Tạo token xác thực và link
     const verificationToken = crypto.randomBytes(32).toString('hex');
-    const verifyLink = `http://localhost:5000/auth/verify/${verificationToken}`;
+    const verifyLink = `http://10.40.5.240:5000/auth/verify/${verificationToken}`;
 
     // Tạo user object (chưa lưu)
     const user = new User({
@@ -46,13 +47,41 @@ router.post('/register', async (req, res) => {
 
    
     
-
+    
     // Production: gửi mail xác thực
     await transporter.sendMail({
       from: `"Hệ thống Quiz" <${process.env.EMAIL_USER}>`,
       to: email,
-      subject: 'Xác nhận đăng ký tài khoản',
-      text: `Xin chào ${ username}, nhấn vào link sau để xác nhận tài khoản của bạn: ${verifyLink}`
+      subject: '🎉 Xác nhận đăng ký tài khoản của bạn',
+      html: `
+      <div style="font-family: Arial, sans-serif; background-color: #f7f9fc; padding: 30px;">
+        <div style="max-width: 600px; margin: auto; background: white; border-radius: 10px; padding: 25px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+          <h2 style="text-align: center; color: #4e73df;">Chào mừng ${username}!</h2>
+          <p style="font-size: 16px; color: #333;">
+            Cảm ơn bạn đã đăng ký tài khoản tại <b>Hệ thống Quiz</b>.  
+            Vui lòng xác nhận địa chỉ email của bạn bằng cách nhấn nút bên dưới:
+          </p>
+    
+          <div style="text-align: center; margin: 30px 0;">
+            <a href="${verifyLink}" 
+              style="background-color: #4e73df; color: white; padding: 12px 25px; 
+                     text-decoration: none; border-radius: 6px; font-size: 16px; font-weight: bold;">
+              Xác nhận tài khoản
+            </a>
+          </div>
+    
+          <p style="color: #666; font-size: 14px;">
+            Nếu bạn không đăng ký tài khoản này, hãy bỏ qua email này.<br>
+            Liên kết xác nhận chỉ có hiệu lực trong 24 giờ.
+          </p>
+    
+          <hr style="margin: 20px 0;">
+          <p style="font-size: 12px; text-align: center; color: #999;">
+            © ${new Date().getFullYear()} Hệ thống Quiz. Mọi quyền được bảo lưu.
+          </p>
+        </div>
+      </div>
+      `
     });
 
     // Lưu user sau khi gửi mail thành công
@@ -107,13 +136,14 @@ router.post('/login', async (req, res) => {
 router.get('/verify/:token', async (req, res) => {
   try {
     const user = await User.findOne({ verificationToken: req.params.token });
-    if (!user) return res.status(400).send('❌ Liên kết xác nhận không hợp lệ.');
+    if (!user) return res.sendFile(path.join(__dirname, '../utils/verifythatbai.html'));
 
     user.verified = true;
     user.verificationToken = null;
     await user.save();
 
-    res.send('✅ Xác nhận tài khoản thành công! Bạn có thể đăng nhập.');
+    res.sendFile(path.join(__dirname, '../utils/verifythanhcong.html'));
+
   } catch (err) {
     console.error('💥 Lỗi xác nhận email:', err);
     res.status(500).send('Lỗi xác nhận tài khoản.');

@@ -1,0 +1,156 @@
+.bgprofile{
+  background: linear-gradient(to right, #6200ffb9, #0cececb9);
+}
+.profile-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 25px;
+    background: linear-gradient(to right, #210f3bb9, #266969b9,#210f3bb9);
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 238, 255, 0.1);
+  }
+  .createddate {
+    background: linear-gradient(to right, #050505, #000000b9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+  }
+  .profile-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00e1ff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+  }
+  
+  .avatar-section {
+    text-align: center;
+    margin-bottom: 25px;
+    color: white;
+  }
+  
+  .avatar-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00e1ff;
+    margin-bottom: 10px;
+  }
+  
+  .info-section label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #ccc;
+  }
+  
+  .info-section input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #00e1ff;
+    background: #121212;
+    color: white;
+    margin-top: 5px;
+    transition: 0.3s;
+    font-weight: bolder; 
+  }
+  
+  .info-section input:focus {
+    border-color: #00ffff;
+    outline: none;
+    font-weight: bolder; 
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+  }
+  
+  .btn.save {
+    background: linear-gradient(45deg, #00e1ff, #00ffff);
+    color: #000;
+  }
+  
+  .btn.save:hover {
+    transform: scale(1.05);
+  }
+  
+  .btn.delete {
+    background: #ff4d4d;
+    color: #fff;
+  }
+  
+  .btn.delete:hover {
+    background: #ff1a1a;
+  }
+  .btn.show{
+    background: linear-gradient(45deg, #00e1ff, #00ffff);
+    color: #000;
+  }
+  .btn.show:hover{
+    transform: scale(1.05);
+  }
+  .btn.dialog{
+    background: linear-gradient(45deg, #00e1ff, #00ffff);
+    color: #000;
+  }
+  .btn.dialog:hover{
+    transform: scale(1.05);
+  }
+  .btn.avatarup{
+    background: linear-gradient(45deg, #00e1ff, #00ffff);
+    color: #000;
+  }
+  .btn.avatarup:hover{
+    transform: scale(1.05);
+  }
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 10px #00000044;
+    width: 320px;
+  }
+  
+  .modal input {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+ 

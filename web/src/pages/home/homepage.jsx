@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef  } from "react";
-import api from "../../api/check";
+import api from "../token/check";
 import { useNavigate } from "react-router-dom";
 import "./Homeuser.css";
 

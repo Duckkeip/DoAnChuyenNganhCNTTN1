@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import axios from "axios";
+import api from "./token/check"
 import "./Auth.css";
 import { useNavigate } from "react-router-dom";
 
@@ -18,7 +18,7 @@ function Register() {
     setLoading(true);
   setMessage("⏳ Đang xử lý...");
     try {
-      const res = await axios.post("http://localhost:5000/api/auth/register", form);
+      const res = await api.post("auth/register", form);
       setMessage("✅ " + res.data.message);
       setTimeout(() => {
         navigate('/login'); //chuyển hướng sau khi đăng ký thành công

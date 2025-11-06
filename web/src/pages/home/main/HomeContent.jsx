@@ -1,0 +1,193 @@
+import React, { useEffect, useState } from "react";
+import { useNavigate,useLocation } from "react-router-dom";
+import jwt_decode from "jwt-decode";
+import axios from "axios";
+import api from "../../token/check"
+import "./HomeContent.css";  
+
+{/* HomeContent*/}
+
+
+function HomeContent(){
+    const [user, setUser] = useState(null);
+    const navigate = useNavigate();
+    const location = useLocation(); 
+    const [chudes, setChudes] = useState([]);
+    const [, setRoom] = useState(null);
+    const [currentPage, setCurrentPage] = useState(1);
+    const itemsPerPage = 20; // ✅ Số chủ đề mỗi trang
+
+    const indexOfLast = currentPage * itemsPerPage;
+     const indexOfFirst = indexOfLast - itemsPerPage;
+     const currentChudes = chudes.slice(indexOfFirst, indexOfLast);
+     const totalPages = Math.ceil(chudes.length / itemsPerPage);
+
+
+     
+
+      // ✅ Phân trang
+     
+    const handlePageChange = (page) => {
+        if (page >= 1 && page <= totalPages) {
+          setCurrentPage(page);
+        }
+      };
+    
+      const handleLogoClick = () => {
+        if (user) {
+          navigate(`/home/${user.id}`);
+        } else {
+          navigate("/home");
+        }
+      };
+    
+       // ✅ Lấy danh sách chủ đề
+    const fetchChude = async () => {
+        try {
+          const res = await api.get("/topic/chude");
+          console.log("Dữ liệu chủ đề nhận từ backend:", res.data);
+      
+          let userChude = res.data;
+          if (user && user._id) {
+            // ✅ Lọc theo user_id nếu có
+            userChude = res.data.filter((c) => c.user_id?._id === user._id);
+          }
+      
+          setChudes(userChude);
+          setCurrentPage(1); // reset về trang đầu
+        } catch (err) {
+          console.error("Lỗi lấy chủ đề:", err);
+          setChudes([]);
+        }
+      };
+  // ✅ Hàm tạo phòng và lấy câu hỏi
+     const handleStartQuiz = async (chude) => {
+    if (!user) {
+      alert("Vui lòng đăng nhập để chơi quiz!");
+      navigate("/login");
+      return;
+    }
+
+    try {
+      const roomRes = await api.post("/quizzes", {
+        id_host: user._id,
+        id_chude: chude._id,
+        tenroom: `Phòng - ${chude.tenchude}`,
+      });
+      const newRoom = roomRes.data;
+      setRoom(newRoom);
+      console.log("Phòng mới:", newRoom);
+
+      const questionRes = await api.get(`/cauhoi/${chude._id}`);
+      const cauhoi = questionRes.data;
+      console.log(`Câu hỏi của chủ đề ${chude.tenchude}:`, cauhoi);
+
+      alert(`Phòng đã tạo cho chủ đề "${chude.tenchude}" với ${cauhoi.length} câu hỏi`);
+      // navigate(`/room/${newRoom._id}`, { state: { room: newRoom, cauhoi } });
+    } catch (err) {
+      console.error("Lỗi tạo phòng hoặc lấy câu hỏi:", err);
+      alert("Không thể tạo phòng hoặc lấy câu hỏi cho chủ đề này!");
+    }
+  };
+  const Checktoken = async () => {
+    const token = localStorage.getItem("token");
+        if (token) {
+          try {
+            const decoded = jwt_decode(token);
+            const now = Date.now() / 1000;
+            if (decoded.exp < now) {
+              console.log("Token đã hết hạn, đăng xuất...");
+              localStorage.removeItem("token");
+              navigate("/login");
+            } else {
+              setUser(decoded);
+              var currentUser = decoded;
+            }
+          } catch {
+            localStorage.removeItem("token");
+            setUser(null);
+          }
+        } else {
+          setUser(null);
+        }
+  }
+//kt token
+useEffect(() => {
+    Checktoken();
+    }, [navigate]);
+//fetch chude
+useEffect(() => {
+        if (user) fetchChude();
+    }, [user]);
+    
+     
+
+    return (    
+        <div>
+            {/* ---------- MAIN CONTENT ---------- */}
+            <section className="quiz-list">
+            <h2 className="section-title">
+                <span className="section-icon"></span> Danh sách chủ đề của bạn :
+            </h2>
+
+            <div className="quiz-grid">
+                {currentChudes.length > 0 ? (
+                currentChudes.map((chude) => (
+                    <div className="quiz-card" key={chude._id}>
+                    <div className="quiz-content">
+                        <h3 className="quiz-title">{chude.tenchude}</h3>
+                        <p className="quiz-description">Loại: {chude.loaichude}</p>
+                        <button
+                        className="btn btn-primary"
+                        onClick={() => handleStartQuiz(chude)}
+                        >
+                        Bắt đầu
+                        </button>
+                        <div className="quiz-meta">
+                        <span>
+                            Người tạo: {chude.user_id?.username || "Unknown"}
+                        </span>
+                        <span>Trạng thái: {chude.tinhtrang}</span>
+                        </div>
+                    </div>
+                    </div>
+                ))
+                ) : (
+                <p>Không có chủ đề nào để hiển thị.</p>
+                )}
+            </div>
+
+            {/* ---------- Phân trang ---------- */}
+            {totalPages > 1 && (
+                <div className="pagination">
+                <button
+                    onClick={() => handlePageChange(currentPage - 1)}
+                    disabled={currentPage === 1}
+                >
+                    ← Trước
+                </button>
+
+                {[...Array(totalPages)].map((_, index) => (
+                    <button
+                    key={index}
+                    className={currentPage === index + 1 ? "active" : ""}
+                    onClick={() => handlePageChange(index + 1)}
+                    >
+                    {index + 1}
+                    </button>
+                ))}
+
+                <button
+                    onClick={() => handlePageChange(currentPage + 1)}
+                    disabled={currentPage === totalPages}
+                >
+                    Sau →
+                </button>
+                </div>
+            )}
+            </section>
+    </div>
+    )
+}
+
+export default HomeContent;
