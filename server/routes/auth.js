@@ -167,5 +167,112 @@ router.get('/verify/:token', async (req, res) => {
     res.status(500).send('Lỗi xác nhận tài khoản.');
   }
 });
+//===============OTP quên nk ================
+
+// POST /api/auth/forgot-password
+router.post("/forgot-password", async (req, res) => {
+  const { email } = req.body;
+  try {
+    const user = await User.findOne({ email });
+    if (!user) return res.status(404).json({ message: "Không tìm thấy email." });
+
+    const otp = Math.floor(100000 + Math.random() * 900000);
+    user.resetToken = otp;
+    user.resetTokenExpireDate = Date.now() + 10 * 60 * 1000;
+    await user.save();
+
+    await transporter.sendMail({
+      from:`Hệ thống Quizz ${process.env.EMAIL_USER}`,
+      to: email,
+      subject: "Mã xác thực đặt lại mật khẩu",
+       html: `
+  <div style="font-family: Arial, sans-serif; background-color:#f4f4f4; padding: 20px;">
+    <div style="max-width:600px; margin:auto; background:#ffffff; border-radius:10px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,0.1);">
+      
+      <div style="background:#007bff; color:#fff; padding:15px 20px; text-align:center;">
+        <h2>Hệ thống Quizz</h2>
+      </div>
+      
+      <div style="padding:20px; color:#333;">
+        <p>Xin chào,</p>
+        <p>Bạn đã yêu cầu đặt lại mật khẩu. Dưới đây là mã xác thực (OTP) của bạn:</p>
+
+        <div style="text-align:center; margin: 30px 0;">
+          <span style="display:inline-block; background:#007bff; color:#fff; padding:15px 30px; border-radius:8px; font-size:24px; font-weight:bold; letter-spacing:3px;">
+            ${otp}
+          </span>
+        </div>
+
+        <p>Mã này có hiệu lực trong <b style="font-size:bold">10 phút</b> kể từ lúc được gửi đi. Vui lòng không chia sẻ mã này với bất kỳ ai.</p>
+        <p>Nếu bạn không yêu cầu đặt lại mật khẩu, hãy bỏ qua email này.</p>
+
+        <p style="margin-top:30px;">Trân trọng,<br><b>Đội ngũ Hệ thống Quizz</b></p>
+      </div>
+
+      <div style="background:#f0f0f0; padding:10px 20px; text-align:center; font-size:12px; color:#777;">
+        © ${new Date().getFullYear()} Hệ thống Quizz. Mọi quyền được bảo lưu.
+      </div>
+    </div>
+  </div>
+  `
+});
+
+    res.json({ message: "✅ Đã gửi mã xác thực đến email của bạn." });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: "Lỗi server" });
+  }
+});
+
+//========Xác thực OTP===========
+// Xác thực OTP
+router.post("/verify-otp", async (req, res) => {
+  const { email, otp } = req.body;
+  try {
+    const user = await User.findOne({ email });
+    if (!user) return res.status(404).json({ message: "Không tìm thấy người dùng" });
+    if (!user.resetToken || !user.resetTokenExpireDate)
+      return res.status(400).json({ message: "Không có yêu cầu đặt lại mật khẩu nào" });
+    if (Date.now() > user.resetTokenExpireDate)
+      return res.status(400).json({ message: "Mã OTP đã hết hạn" });
+
+    console.log("OTP client:", otp);
+    console.log("OTP server:", user.resetToken);
+
+    if (user.resetToken != otp)
+      return res.status(400).json({ message: "Mã OTP sai" });
+
+    user.resetToken = null;
+    user.resetTokenExpireDate = null;
+    await user.save();
+
+    res.json({ message: "Xác thực thành công! Bạn có thể đặt lại mật khẩu mới." });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: "Lỗi máy chủ" });
+  }
+});
+
+//===============Đặt lại mật khẩu mới ==============
+router.post("/reset-password", async (req, res) => {
+  const { email, password } = req.body;
+  try {
+    const user = await User.findOne({ email });
+    if (!user) return res.status(404).json({ message: "Không tìm thấy người dùng." });
+
+    const hashed = await bcrypt.hash(password, 10);
+    user.password = password;
+    user.passwordHash= hashed;
+    user.resetToken = undefined;
+    user.resetTokenExpireDate = undefined;
+
+    await user.save();
+
+    res.json({ message: "✅ Đặt lại mật khẩu thành công!" });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: "Lỗi server" });
+  }
+});
 
 module.exports = router;

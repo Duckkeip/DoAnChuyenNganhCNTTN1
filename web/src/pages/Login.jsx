@@ -58,10 +58,14 @@ function Login() {
             <input type="password" name="password" placeholder="Mật khẩu" onChange={handleChange} required />
             <button type="submit">Đăng nhập</button>
           </form>
-          <p className="switch">
-            Chưa có tài khoản? <a href="/register">Đăng ký</a>
-          </p>
-          {message && <p className="msg">{message}</p>}
+            
+           
+            <p className="switch">
+              Chưa có tài khoản? <a href="/register">Đăng ký</a>
+              <br></br>
+              <a href="/forgot-password">Quên mật khẩu?</a>
+            </p>
+            {message && <p className="msg">{message}</p>}
         </div>
       </div>
     </div>

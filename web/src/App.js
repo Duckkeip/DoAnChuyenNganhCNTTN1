@@ -8,7 +8,9 @@ import { Navigate } from "react-router-dom";
 import Protected from "./pages/token/Protected";
 import Profile from "./pages/home/profile/Profile"; 
 import HomeContent from "./pages/home/main/HomeContent"
-
+import ForgotPassword from "./pages/QuenMK";
+import VerifyOtp from "./pages/OTP";
+import ResetPassword from "./pages/ResetPass";
 export default function App() {
   return (
        
@@ -18,7 +20,11 @@ export default function App() {
             <Route path="/" element={<Navigate to="/login" replace />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
-            
+            <Route path="/forgot-password" element={<ForgotPassword />} />
+            <Route path="/verify-otp" element={<VerifyOtp />} />
+            <Route path="/reset-password" element={<ResetPassword />} />
+
+
             {/*public */}
             <Route path="/home" element={<Homepage />} />
             {/* User */}

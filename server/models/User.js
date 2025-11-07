@@ -16,7 +16,11 @@ const userSchema = new mongoose.Schema({
   },
 
   verified: { type: Boolean, default: false },         // gui email xac thuc
-  verificationToken: { type: String } 
+  verificationToken: { type: String } ,
+
+  //THÊM 2 TRƯỜNG NÀY CHO CHỨC NĂNG QUÊN MẬT KHẨU
+  resetToken: { type: String, default: null },
+  resetTokenExpireDate: { type: Date, default: null }
 });
 
 module.exports = mongoose.model('User', userSchema,"users");
