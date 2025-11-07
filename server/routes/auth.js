@@ -6,11 +6,26 @@ const crypto = require('crypto');
 const User = require('../models/User');
 const transporter = require('../utils/mailer');
 const path = require('path')
-
+const os = require('os');// bắt mạng wifi đang sử dụng
 // ----- Cấu hình chế độ dev/prod -----
 //const DEV_MODE = false; 
 // true = dev: không gửi mail
 // false = production: gửi mail xác thực tài khoản
+
+
+//  Hàm lấy IP Wi-Fi hiện tại
+function getWifiIP() {
+  const interfaces = os.networkInterfaces();
+  
+  for (const name in interfaces) {
+    for (const iface of interfaces[name]) {
+      if (iface.family === 'IPv4' && !iface.internal) {
+        return iface.address; // IP LAN
+      }
+    }
+  }
+  return "localhost"; // Không có mạng
+}
 
 // ===== ĐĂNG KÝ =====
 router.post('/register', async (req, res) => {
@@ -32,11 +47,11 @@ router.post('/register', async (req, res) => {
 
     // Tạo token xác thực và link
     const verificationToken = crypto.randomBytes(32).toString('hex');
-    const verifyLink = `http://localhost:5000/auth/verify/${verificationToken}`;
-    //                thay đổi locahost = ip laptop hoặc PC để xác thực bằng điện thoại
-    //                với điều kiện local 
+    const ip = getWifiIP();
+    
+    const verifyLink = `http://${ip}:5000/api/auth/verify/${verificationToken}`;
     // Tạo user object (chưa lưu)
-    const user = new User({
+    const user = new User({ 
       user_id: crypto.randomBytes(16).toString('hex'),
       username,
       SDT,
@@ -44,7 +59,7 @@ router.post('/register', async (req, res) => {
       password,
       passwordHash,
       verificationToken,
-      verificationLink: "http://localhost:5000/auth/verify/" + verificationToken,
+      verificationLink: verifyLink,
       verified: false
     });
     // Lưu user sau khi gửi mail thành công

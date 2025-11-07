@@ -22,7 +22,7 @@ function Register() {
       setMessage("✅ " + res.data.message);
       setTimeout(() => {
         navigate('/login'); //chuyển hướng sau khi đăng ký thành công
-      }, 1000); //chờ 1 giây trước khi chuyển hướng 
+      }, 700); //chờ 1 giây trước khi chuyển hướng 
     } catch (err) {
       setMessage("❌ " + (err.response?.data?.message || "Lỗi khi đăng ký"));
     }finally {
