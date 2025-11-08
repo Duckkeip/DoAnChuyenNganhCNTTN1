@@ -1,7 +1,6 @@
 import axios from "axios";
 
 let host = window.location.hostname;
-
 // Chuyển 127.0.0.1 → localhost
 if (host === "127.0.0.1") host = "localhost"; 
 

@@ -6,26 +6,14 @@ const crypto = require('crypto');
 const User = require('../models/User');
 const transporter = require('../utils/mailer');
 const path = require('path')
-const os = require('os');// bắt mạng wifi đang sử dụng
+const getWifiIP = require('../config/getIP')
 // ----- Cấu hình chế độ dev/prod -----
 //const DEV_MODE = false; 
 // true = dev: không gửi mail
 // false = production: gửi mail xác thực tài khoản
 
 
-//  Hàm lấy IP Wi-Fi hiện tại
-function getWifiIP() {
-  const interfaces = os.networkInterfaces();
-  
-  for (const name in interfaces) {
-    for (const iface of interfaces[name]) {
-      if (iface.family === 'IPv4' && !iface.internal) {
-        return iface.address; // IP LAN
-      }
-    }
-  }
-  return "localhost"; // Không có mạng
-}
+
 
 // ===== ĐĂNG KÝ =====
 router.post('/register', async (req, res) => {
