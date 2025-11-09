@@ -49,7 +49,7 @@ npm install
 cp .env.example .env
 # chỉnh .env theo môi trường của bạn
 # chạy server
-npm run dev
+npm run rs
 ```
 
 **`.env` khi clone từ git về thì sẽ không có file môi trường do bị gitignore nên tự tạo trong folder server/gần server.js **
@@ -65,7 +65,7 @@ JWT_SECRET=verysecretkey
 ```bash
 cd web
 npm install
-npm start
+npm run start
 ```
 
 ### Frontend Mobile (React Native)
@@ -86,18 +86,8 @@ npx react-native run-ios
 ├─ server/          # Backend (Express, routes, controllers, models)
 ├─ web/             # Frontend web (React)
 ├─ mobile/          # Frontend mobile (React Native)
-├─ docs/            # Tài liệu, wireframes, ERD
 └─ README.md
 ```
-
-## API cơ bản
-
-* `POST /api/auth/register` — đăng ký
-* `POST /api/auth/login` — đăng nhập
-* `GET /api/quizzes` — lấy danh sách quiz
-* `POST /api/quizzes/:id/submit` — nộp bài và nhận điểm
-* `GET /api/users/:id/history` — lịch sử làm bài của user
-
 
 
 ## Triển khai (Deployment)
