@@ -109,7 +109,9 @@ router.post('/login', async (req, res) => {
     if (!user.verified) {
       return res.status(403).json({ message: 'Vui lòng xác nhận email trước khi đăng nhập.' });
     }
-
+    if (user.tinhtrang === 'blocked') {
+      return res.status(403).json({ message: 'Tài khoản của bạn đã bị khóa.' });
+    }
     const match = await bcrypt.compare(password, user.passwordHash);
     if (!match) return res.status(400).json({ message: 'Sai email hoặc mật khẩu' });
 
