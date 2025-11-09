@@ -70,16 +70,46 @@ router.post("/chude", async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
-//tạo câu hỏi
+// Xóa chủ đề và câu hỏi
+router.delete("/chude/:id", async (req, res) => {
+  try {
+    //  xóa chủ đề
+    const chude = await Chude.findByIdAndDelete(req.params.id);
+    if (!chude)
+      return res.status(404).json({ message: "Không tìm thấy chủ đề" });
+
+    // xóa tất cả câu hỏi thuộc chủ đề này
+    const result = await Cauhoi.deleteMany({ id_chude: req.params.id });
+    //  trả về phản hồi
+    res.json({
+      message: "Đã xoá chủ đề và tất cả câu hỏi liên quan",
+      deletedQuestions: result.deletedCount,
+    });
+  } catch (err) {
+    res.status(500).json({
+      message: "Lỗi server khi xoá chủ đề",
+      error: err.message,
+    });
+  }
+});
+
 router.post("/cauhoi", async (req, res) => {
   try {
+    console.log("req.body nhận được:", req.body);
+
+    // Kiểm tra id_chude hợp lệ
+    if (!mongoose.Types.ObjectId.isValid(req.body.id_chude)) {
+      return res.status(400).json({ error: "id_chude không hợp lệ" });
+    }
     const newQuestion = new Cauhoi(req.body);
     await newQuestion.save();
     res.json(newQuestion);
   } catch (err) {
+    console.error(err);
     res.status(500).json({ error: err.message });
   }
 });
+
 
 // 🏁 Tạo PHÒNG THI
 router.post("/room", async (req, res) => {

@@ -102,18 +102,18 @@ function Homeuser() {
   onClick={() => {
     if (!user?.id) return console.warn("User chưa sẵn sàng!");
     setTimeout(() => {
-    navigate(`/home/${user.id}`);
+    navigate(`/homeuser/${user.id}`);
     },200)
   }}
 >
-  Trang chủ
+  Trang cá nhân
 </button>
 
         <button
           className={`btn btn-menu ${location.pathname.includes("profile") ? "active" : ""}`}
           onClick={() => 
             setTimeout(() => {
-            navigate(`/home/${user?.id}/profile`);
+            navigate(`/homeuser/${user?.id}/profile`);
             },200)}
         >
           Hồ sơ của tôi
@@ -123,7 +123,7 @@ function Homeuser() {
           className={`btn btn-menu ${location.pathname.includes("history") ? "active" : ""}`}
           onClick={() => 
             setTimeout(() => {
-            navigate(`/home/${user?._id}/history`)
+            navigate(`/homeuser/${user?._id}/history`)
             },200)
         }
         >

@@ -12,10 +12,15 @@ function HomeContent(){
     const [, setRoom] = useState(null);
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 20; // ✅ Số chủ đề mỗi trang
-
+    const [searchTerm, setSearchTerm] = useState("");//tìm kiếm  
+    
     const indexOfLast = currentPage * itemsPerPage;
      const indexOfFirst = indexOfLast - itemsPerPage;
-     const currentChudes = chudes.slice(indexOfFirst, indexOfLast);
+    const filteredChudes = chudes.filter(chude =>
+      chude.tenchude.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+
+    const currentChudes = filteredChudes.slice(indexOfFirst, indexOfLast);
      const totalPages = Math.ceil(chudes.length / itemsPerPage);
 
      
@@ -76,8 +81,25 @@ function HomeContent(){
     if (user) {
       fetchChude();
     }
-  }, [user, fetchChude]);   
-  // ✅ Hàm tạo phòng và lấy câu hỏi
+  }, [user, fetchChude]);  
+  
+  // ✅ Xóa 1 chủ đề cụ thể
+  const handleDelete = async (chude) => {
+    try {
+      if (!user) return;
+      if (!window.confirm(`Bạn có chắc muốn xoá chủ đề "${chude.tenchude}" không?`)) return;
+      
+      const res = await api.delete(`/topic/chude/${chude._id}`);
+      
+      if (res.status === 200) {
+        alert("Đã xoá chủ đề thành công!");
+        fetchChude(); // hoặc cập nhật lại danh sách nếu có hàm này
+      }
+    } catch (err) {
+      console.error("Lỗi xoá chủ đề:", err);
+      alert("Lỗi khi xoá chủ đề.");
+    }
+  };
   const handleStartQuiz = async (chude) => {
     if (!user) {
       alert("Vui lòng đăng nhập để chơi quiz!");
@@ -108,27 +130,38 @@ function HomeContent(){
   };
 
 
-     
-
     return (    
         <div>
             {/* ---------- MAIN CONTENT ---------- */}
             <section className="quiz-list">
             <h2 className="section-title">
-                <span className="section-icon"></span> Danh sách chủ đề của bạn :
-                <h2><div className="create-topic">
-            <button
-               className={`btn btn-primary ${location.pathname.includes("create-topic") ? "active" : ""}`}
-               onClick={() => 
-                 setTimeout(() => {
-                 navigate(`/home/${user?.id}/create-topic`);
-                 },200)}
-            >
-              Tạo chủ đề và câu hỏi
-            </button>
-          </div></h2>
-            </h2>
-            
+                  <span className="section-icon"></span> Danh sách chủ đề của bạn :
+                  <span>
+                    <div className="create-topic">
+                      <button
+                        className={`btn btn-primary ${location.pathname.includes("create-topic") ? "active" : ""}`}
+                        onClick={() => 
+                          setTimeout(() => {
+                          navigate(`/homeuser/${user?.id}/create-topic`);
+                          },200)}
+                      >
+                        Tạo chủ đề và câu hỏi
+                      </button>
+                    </div>
+                   </span>
+          </h2>
+            <div className="search-container">
+              <input
+                type="text"
+                placeholder="🔍 Tìm kiếm chủ đề..."
+                value={searchTerm}
+                onChange={(e) => {
+                  setSearchTerm(e.target.value);
+                  setCurrentPage(1); // reset về trang đầu khi tìm
+                }}
+                className="search-input"
+              />
+            </div>
             <div className="quiz-grid">
                 {currentChudes.length > 0 ? (
                 currentChudes.map((chude) => (
@@ -141,6 +174,12 @@ function HomeContent(){
                         onClick={() => handleStartQuiz(chude)}
                         >
                         Bắt đầu
+                        </button>
+                        <button
+                        className="btn btn-primary"
+                        onClick={() => handleDelete(chude)}
+                        >
+                        Xem Thông tin
                         </button>
                         <div className="quiz-meta">
                         <span>

@@ -58,8 +58,9 @@ function CreateTopic() {
           dapan_b: "",
            dapan_c: "", 
            dapan_d: "",
-            dapandung: "A",
-             mucdo: "easy" 
+            dapandung: "",
+             mucdo: "",
+             diem: "" 
             }
     ]);
   };
@@ -103,21 +104,22 @@ function CreateTopic() {
       // Tạo câu hỏi cho chủ đề
       for (let q of cauHoi) {
         if (q.noidung.trim() !== "") {
-          await api.post("/topic/question/cauhoi", {
+          await api.post("/topic/cauhoi", {
             id_chude: newChude._id,
             noidung: q.noidung,
             dapan_a: q.dapan_a,
             dapan_b: q.dapan_b,
             dapan_c: q.dapan_c,
             dapan_d: q.dapan_d,
-            dapan_dung: q.dapandung,
-            mucdo:q.mucdo
+            dapandung: q.dapandung,
+            mucdo: q.mucdo,
+            diem : q.diem
           });
         }
       }
 
       alert("Tạo chủ đề và câu hỏi thành công!");
-      navigate(`/home/${user._id}`); // Quay lại trang Home
+      navigate(`/homeuser/${user._id}`); // Quay lại trang Home
     } catch (err) {
       console.error("Lỗi tạo chủ đề/câu hỏi:", err);
       alert("Không thể tạo chủ đề/câu hỏi!");
@@ -144,6 +146,7 @@ function CreateTopic() {
 
         <label>Loại chủ đề:</label>
         <select  value={loaiChude} onChange={e => setLoaiChude(e.target.value)}>
+        <option value="none">     </option>
         <option value="ôn tập">Ôn tập</option>
         <option value="thi đấu">Thi đấu</option>
         </select>
