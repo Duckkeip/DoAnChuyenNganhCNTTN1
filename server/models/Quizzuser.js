@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+const mongoose =require ("mongoose");
 //phòng chơi
 
 const QuizzUserSchema = new mongoose.Schema({
@@ -37,4 +37,4 @@ QuizzUserSchema.pre("save", async function (next) {
   next();
 });
 
-export default mongoose.model("QuizzUser", QuizzUserSchema,"quizzuser");
+module.exports = mongoose.model("QuizzUser", QuizzUserSchema,"quizzuser");

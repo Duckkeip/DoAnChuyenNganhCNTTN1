@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+const mongoose =require ("mongoose");
 
 const KetquaSchema = new mongoose.Schema({
   user_id: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
@@ -19,4 +19,4 @@ const KetquaSchema = new mongoose.Schema({
   ngay_lam: { type: Date, default: Date.now }
 });
 
-export default mongoose.model("Ketqua", KetquaSchema,"ketqua");
+module.exports = mongoose.model("Ketqua", KetquaSchema,"ketqua");

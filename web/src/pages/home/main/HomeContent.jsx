@@ -1,11 +1,12 @@
 import React, { useEffect, useCallback ,useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate,useLocation } from "react-router-dom";
 import jwt_decode from "jwt-decode";
 import api from "../../token/check"
 import "./HomeContent.css";  
 function HomeContent(){
     const [user, setUser] = useState(null);
     const navigate = useNavigate();
+    const location = useLocation(); 
     
     const [chudes, setChudes] = useState([]);
     const [, setRoom] = useState(null);
@@ -55,16 +56,10 @@ function HomeContent(){
   // ✅ Lấy danh sách chủ đề với useCallback
   const fetchChude = useCallback(async () => {
     try {
-      const res = await api.get("/topic/chude");
-      console.log("Dữ liệu chủ đề nhận từ backend:", res.data);
-
-      let userChude = res.data;
-      if (user && user._id) {
-        // ✅ Lọc theo user_id nếu có
-        userChude = res.data.filter((c) => c.user_id?._id === user._id);
-      }
-
-      setChudes(userChude);
+      if (!user) return;
+      const res = await api.get(`/topic/chude/${user._id || user.id}`);
+      
+      setChudes(res.data);
       setCurrentPage(1);
     } catch (err) {
       console.error("Lỗi lấy chủ đề:", err);
@@ -121,8 +116,19 @@ function HomeContent(){
             <section className="quiz-list">
             <h2 className="section-title">
                 <span className="section-icon"></span> Danh sách chủ đề của bạn :
+                <h2><div className="create-topic">
+            <button
+               className={`btn btn-primary ${location.pathname.includes("create-topic") ? "active" : ""}`}
+               onClick={() => 
+                 setTimeout(() => {
+                 navigate(`/home/${user?.id}/create-topic`);
+                 },200)}
+            >
+              Tạo chủ đề và câu hỏi
+            </button>
+          </div></h2>
             </h2>
-
+            
             <div className="quiz-grid">
                 {currentChudes.length > 0 ? (
                 currentChudes.map((chude) => (

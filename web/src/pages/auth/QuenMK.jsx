@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import api from "./token/check";
+import api from "../token/check";
 import "./Auth.css";
 import { useNavigate } from "react-router-dom";
 

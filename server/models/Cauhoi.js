@@ -1,7 +1,6 @@
-import mongoose from "mongoose";
+const mongoose = require('mongoose')
 
 const CauhoiSchema = new mongoose.Schema({
-  id_cauhoi: { type: String, required: true },
   id_chude: { type: mongoose.Schema.Types.ObjectId, ref: "Chude", required: true },
   noidung: { type: String, required: true },
   dapan_a: { type: String, required: true },
@@ -20,4 +19,4 @@ const CauhoiSchema = new mongoose.Schema({
   }
 });
 
-export default mongoose.model("Cauhoi", CauhoiSchema,"cauhoi");
+module.exports = mongoose.model("Cauhoi", CauhoiSchema,"cauhoi");

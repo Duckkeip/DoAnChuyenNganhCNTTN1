@@ -1,0 +1,98 @@
+.create-topic-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .create-topic-container h2,
+  .create-topic-container h3 {
+    margin-bottom: 10px;
+  }
+  
+  .topic-info label,
+  .question-card label {
+    display: block;
+    margin: 5px 0 2px;
+    font-weight: 500;
+  }
+  
+  .topic-info input,
+  .question-card input,
+  .question-meta select {
+    width: 100%;
+    padding: 6px 10px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .question-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .answers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .question-meta {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .btn-add,
+  .btn-submit,
+  .btn-remove {
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .btn-add {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .btn-submit {
+    background-color: #2196f3;
+    color: white;
+    margin-left: 10px;
+  }
+  
+  .btn-remove {
+    background-color: #f44336;
+    color: white;
+  }
+  .questions-grid {
+   
+    display: grid;
+    grid-template-columns: repeat(2, minmax(350px, 2fr)); /* mỗi cột tối thiểu 350px */
+    gap: 15px;
+  }
+  .buttons-group {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn-remove-all {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

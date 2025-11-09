@@ -8,14 +8,14 @@ const chudeSchema = new mongoose.Schema({
     enum: ['ôn tập',  'thi đấu'], 
     required: true 
   },
-  user_id: { type: mongoose.Schema.Types.ObjectId, ref: "User", default: null},
+  user_id: { type: String , ref: "User", default: null},
   ngaytao: { type: Date, default: Date.now },
   tinhtrang: { type: String, default: 'active' }
 });
 
 // Virtual populate đến các câu hỏi trong chủ đề
 chudeSchema.virtual("cauhoi", {
-  ref: "Cauhoi", // ← đổi từ "Ketqua" thành "Cauhoi"
+  ref: "Cauhoi", // Cauhoi
   localField: "_id",
   foreignField: "id_chude"
 });

@@ -1,5 +1,5 @@
 import React, { useEffect, useState ,useCallback} from "react";
-import { useNavigate,useLocation } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import "./Homeuser.css";  
 import jwt_decode from "jwt-decode";
 import { Outlet } from "react-router-dom";
@@ -27,7 +27,7 @@ function Homeuser() {
         setUser(null);
         navigate("/login");
       } else {
-        console.log("Token hợp lệ:", decoded);
+        console.log("Token hợp lệ():", decoded);
         setUser(decoded);
       }
     } catch (err) {
