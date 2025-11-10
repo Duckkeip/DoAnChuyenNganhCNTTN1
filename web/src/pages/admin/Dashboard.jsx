@@ -1,15 +1,28 @@
 import React, { useEffect, useState } from "react";
 import api from "../token/check"; // axios instance
 import "./Admin.css";
-
 function Dashboard() {
-  const [stats, setStats] = useState({
-    users: 0,
-    topics: 0,
-  });
-
+  const [stats, setStats] = useState({ users: 0, topics: 0 });
   const [topics, setTopics] = useState([]);
+  const [questions, setQuestions] = useState([]); // câu hỏi của chủ đề hiện tại
 
+
+  const [showDetailModal, setShowDetailModal] = useState(false);
+  
+
+  const [currentTopic, setCurrentTopic] = useState(null);
+  const [currentQuestion, setCurrentQuestion] = useState(null); // câu hỏi đang sửa
+  const [editedQuestion, setEditedQuestion] = useState({ 
+    noidung: "",
+     dapan_a: "", 
+     dapan_b: "",
+      dapan_c: "",
+       dapan_d: "",
+        dapandung: "",
+        mucdo:""
+     });
+
+  
   useEffect(() => {
     const fetchStats = async () => {
       try {
@@ -24,6 +37,7 @@ function Dashboard() {
       try {
         const res = await api.get("/topic/chude"); // API trả về danh sách chủ đề
         setTopics(res.data);
+        console.log(res.data);
       } catch (error) {
         console.error("Lỗi khi lấy chủ đề", error);
       }
@@ -34,29 +48,63 @@ function Dashboard() {
   }, []);
 
   // Các hàm thao tác chủ đề
-  const handleApprove = (id) => {
-    alert("Duyệt chủ đề: " + id);
-    // TODO: Gọi API để duyệt
+  const handleApprove = (id) => {alert("Duyệt chủ đề: " + id);};// TODO: Gọi API để duyệt 
+  const handleCancel = (id) => {alert("Huỷ chủ đề: " + id);}; // TODO: Gọi API để huỷ
+  
+  const handleDetail = async (topic) => {
+    try {
+      const res = await api.get(`/topic/question/cauhoi/${topic._id}`); // API lấy câu hỏi theo chủ đề
+      setQuestions(res.data);
+      setCurrentTopic(topic);
+      setShowDetailModal(true);
+      
+    } catch (err) {
+      console.error("Lỗi khi lấy câu hỏi", err);
+    }
   };
 
-  const handleCancel = (id) => {
-    alert("Huỷ chủ đề: " + id);
-    // TODO: Gọi API để huỷ
+  const handleEdit = (question) => {
+    console.log("Sửa câu hỏi:", question);
+    setEditedQuestion({
+        _id: question._id || "",
+        noidung: question.noidung || "",
+        dapan_a: question.dapan_a || "",
+        dapan_b: question.dapan_b || "",
+        dapan_c: question.dapan_c || "",
+        dapan_d: question.dapan_d || "",
+        dapandung: question.dapandung || "A",
+        mucdo: question.mucdo || "easy"
+      });
+    };
+
+  const saveEditedQuestion = async () => {
+    if (!editedQuestion?._id) return;
+  
+    try {
+      const res = await api.put(`/topic/cauhoi/${editedQuestion._id}`, editedQuestion);
+      alert(res.data.message || "Cập nhật thành công!");
+  
+      // Cập nhật trong state local
+      setQuestions((prev) =>
+        prev.map((q) => (q._id === editedQuestion._id ? { ...q, ...editedQuestion } : q))
+      );
+  
+      // Ẩn form sửa
+      setEditedQuestion(null);
+  
+    } catch (err) {
+      console.error(err);
+      alert("Cập nhật thất bại!");
+    }
+  };
+  
+  const closeDetailModal = () => {
+    setShowDetailModal(false);
+    setQuestions([]);
+    setCurrentTopic(null);
+    setEditedQuestion(null); // reset form sửa luôn
   };
 
-  const handleViewQuestions = (id) => {
-    alert("Xem câu hỏi chủ đề: " + id);
-    // TODO: Chuyển sang trang danh sách câu hỏi theo chủ đề
-  };
-
-  const handleEdit = (id) => {
-    alert("Sửa chủ đề: " + id);
-    // TODO: Chuyển sang trang sửa chủ đề
-  };
-  const handleDetail = (id) => {
-    alert("Xem chi tiết " + id);
-    // TODO: Chuyển sang trang sửa chủ đề
-  };
   return (
     <div className="dashboard-container">
       <h2>📊 Thống kê tổng quan</h2>
@@ -91,11 +139,9 @@ function Dashboard() {
                 <td>{topic.loaichude}</td>
                 <td>{new Date(topic.ngaytao).toLocaleDateString()}</td>
                 <td>
-                  <button onClick={() => handleApprove(topic._id)}>Duyệt</button>{" "}
-                  <button onClick={() => handleCancel(topic._id)}>Huỷ</button>{" "}
-                  <button onClick={() => handleViewQuestions(topic._id)}>Xem câu hỏi</button>{" "}
-                  <button onClick={() => handleEdit(topic._id)}>Sửa</button>
-                  <button onClick={() => handleDetail(topic._id)}>Xem chi tiết</button>
+                  <button onClick={() => handleApprove(topic)}>Duyệt</button>{" "}
+                  <button onClick={() => handleCancel(topic)}>Xoá</button>{" "}
+                   <button onClick={() => handleDetail(topic)}>Xem chi tiết</button>
                   
                 </td>
               </tr>
@@ -108,6 +154,95 @@ function Dashboard() {
           </tbody>
         </table>
       </section>
+{/* Modal hiển thị câu hỏi */}
+{showDetailModal && currentTopic && (
+  <div className="modal-overlay">
+    <div className="modal-content modal-detail">
+      <div className="modal-header">
+        <h3>Câu hỏi của chủ đề: {currentTopic?.tenchude}</h3>
+        <button className="close-btn" onClick={closeDetailModal}>✖</button>
+      </div>
+
+      <div className="modal-body">
+        {questions.length > 0 ? (
+          <table className="question-table">
+            <thead>
+              <tr>
+                <th>STT</th>
+                <th>Nội dung</th>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+                <th>D</th>
+                <th>Đáp án đúng</th>
+                <th>Thao tác</th>
+              </tr>
+            </thead>
+            <tbody>
+                {questions.map((q, idx) => (
+                    <tr key={q._id}>
+                    <td>{idx + 1}</td>
+                    <td>{q.noidung}</td>
+                    <td>{q.dapan_a}</td>
+                    <td>{q.dapan_b}</td>
+                    <td>{q.dapan_c}</td>
+                    <td>{q.dapan_d}</td>
+                    <td>{q.dapandung}</td>
+                    <td>
+                        <button onClick={() => handleEdit(q)}>✏ Sửa</button>
+                    </td>
+                    </tr>
+                ))}
+                </tbody>
+          </table>
+        ) : (
+          <p>Chưa có câu hỏi nào.</p>
+        )}
+
+        {/* Form sửa câu hỏi nằm ngay trong modal chi tiết */}
+          {/* Form sửa câu hỏi */}
+          {console.log("editedQuestion hiện tại:", editedQuestion)}
+          {editedQuestion && (      
+                <div className="edit-question-form">
+                  <h4>✏ Sửa câu hỏi</h4>
+                  {["noidung", "dapan_a", "dapan_b", "dapan_c", "dapan_d"].map((field) => (
+                    <div className="form-group" key={field}>
+                      <label>{field === "noidung" ? "Nội dung" : `Đáp án ${field.slice(-1).toUpperCase()}`}:</label>
+                      <input
+                        type="text"
+                        value={editedQuestion[field]}
+                        onChange={(e) =>
+                          setEditedQuestion({ ...editedQuestion, [field]: e.target.value })
+                        }
+                      />
+                    </div>
+                  ))}
+                  <div className="form-group">
+                    <label>Đáp án đúng:</label>
+                    <select
+                      value={editedQuestion.dapandung}
+                      onChange={(e) =>
+                        setEditedQuestion({ ...editedQuestion, dapandung: e.target.value })
+                      }
+                    >
+                      <option value="A">A</option>
+                      <option value="B">B</option>
+                      <option value="C">C</option>
+                      <option value="D">D</option>
+                    </select>
+                  </div>
+
+                  <div style={{ textAlign: "right", marginTop: "10px" }}>
+                    <button className="save-btn" onClick={saveEditedQuestion}>💾 Lưu</button>{" "}
+                    <button className="cancel-btn" onClick={() => setEditedQuestion(null)}>❌ Huỷ</button>
+                  </div>
+                </div>
+              )}
+      </div>
+    </div>
+  </div>
+)}
+
     </div>
   );
 }

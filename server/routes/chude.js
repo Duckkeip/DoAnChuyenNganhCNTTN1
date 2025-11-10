@@ -1,3 +1,4 @@
+//routes/chude.js
 const express = require("express");
 const router = express.Router();
 const mongoose = require("mongoose")
@@ -46,7 +47,6 @@ router.get("/cauhoi/:id_chude", async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
-
 
 //tạo chủ đề 
 router.post("/chude", async (req, res) => {
@@ -109,7 +109,43 @@ router.post("/cauhoi", async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
+// ===== CẬP NHẬT CÂU HỎI =====
+router.put("/cauhoi/", async (req, res) => {
+  try {
+    const { id } = req.params;
+    const {
+      noidung,
+      dapan_a,
+      dapan_b,
+      dapan_c,
+      dapan_d,
+      dapandung,
+      mucdo,
+    } = req.body;
 
+    // Kiểm tra xem câu hỏi có tồn tại không
+    const question = await Cauhoi.findById(id);
+    if (!question) {
+      return res.status(404).json({ message: "Không tìm thấy câu hỏi." });
+    }
+
+    // Cập nhật nội dung
+    question.noidung = noidung;
+    question.dapan_a = dapan_a;
+    question.dapan_b = dapan_b;
+    question.dapan_c = dapan_c;
+    question.dapan_d = dapan_d;
+    question.dapandung = dapandung;
+    question.mucdo = mucdo;
+
+    await question.save();
+
+    res.json({ message: "Cập nhật câu hỏi thành công!", question });
+  } catch (err) {
+    console.error("Lỗi khi cập nhật câu hỏi:", err);
+    res.status(500).json({ message: "Lỗi server khi cập nhật câu hỏi." });
+  }
+});
 
 // 🏁 Tạo PHÒNG THI
 router.post("/room", async (req, res) => {
