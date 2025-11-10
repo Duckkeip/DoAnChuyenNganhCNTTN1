@@ -1,0 +1,142 @@
+.admin-layout {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f4f6f8;
+    font-family: Arial, sans-serif;
+  }
+  
+  .admin-sidebar {
+    width: 180px;
+    background: linear-gradient(to top, #6200ffb9, #0c2eecb9,#6200ffb9);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 15px;
+  }
+  
+  .admin-sidebar h2,
+  .admin-sidebar p {
+      margin-bottom: 20px;
+      font-weight: bold;
+  
+      /* Gradient chữ */
+      background: linear-gradient(to top, #3b0753b9, rgb(61, 12, 117),purple);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
+  .admin-sidebar nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .admin-sidebar button {
+    background: none;
+    color: white;
+    border: none;
+    font-weight:bold;
+    padding: 10px 15px;
+    margin: 5px 0;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.2s;
+  }
+  
+  .admin-sidebar button:hover {
+    background: rgba(255, 255, 255, 0.15);
+  }
+  
+  .logout-btn {
+    margin-top: auto;
+    align-self: flex-start;
+    margin-left: 15px;
+    background: #5c16ff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .logout-btn:hover{
+    color: #fa0707;
+    transform: translateY(-2px);
+    opacity: 0.9;
+  }
+  
+  .admin-content {
+    flex: 1;
+    padding: 25px;
+  }
+  .dashboard-container,
+.userlist-container {
+  padding: 20px;
+}
+
+.stats-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.stat-card {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.user-table th, .user-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .admin-table th,
+  .admin-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .admin-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .admin-table button {
+    margin: 2px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .admin-table button:hover {
+    opacity: 0.8;
+    background: linear-gradient(to top, #6200ffb9, #0c2eecb9,#6200ffb9);
+  }
+  

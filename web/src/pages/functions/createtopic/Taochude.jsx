@@ -1,6 +1,6 @@
 import React, { useEffect, useState ,useCallback} from "react";
 import { useNavigate } from "react-router-dom";
-import api from "../token/check";
+import api from "../../token/check";
 import jwt_decode from "jwt-decode";
 import "./Taochude.css"
 function CreateTopic() {
@@ -146,7 +146,7 @@ function CreateTopic() {
 
         <label>Loại chủ đề:</label>
         <select  value={loaiChude} onChange={e => setLoaiChude(e.target.value)}>
-        <option value="none">     </option>
+        <option value="none"></option>
         <option value="ôn tập">Ôn tập</option>
         <option value="thi đấu">Thi đấu</option>
         </select>

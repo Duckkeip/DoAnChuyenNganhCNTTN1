@@ -7,6 +7,7 @@ const userSchema = new mongoose.Schema({
   passwordHash: { type: String, required: true },// Mật khẩu đã được hash
   email: { type: String, required: true, unique: true },
   avatar: { type: String, default: '' },
+  role:{ type: String, default:'user'},
   ngaytaotk: { type: Date, default: Date.now },
   verificationLink: { type: String } , // link xac thuc email
   tinhtrang: { 

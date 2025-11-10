@@ -92,7 +92,7 @@ router.delete("/chude/:id", async (req, res) => {
     });
   }
 });
-
+//tạo câu hỏi
 router.post("/cauhoi", async (req, res) => {
   try {
     console.log("req.body nhận được:", req.body);

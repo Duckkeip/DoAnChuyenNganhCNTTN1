@@ -21,14 +21,18 @@ function Login() {
     try {
       
       const res = await api.post("/auth/login", form);
-      const { token, user } = res.data;
+      const { token, user, role } = res.data;
       localStorage.setItem("token", res.data.token);// Lưu token vào localStorage
 
       localStorage.setItem("token", token);
       localStorage.setItem("user", JSON.stringify(user));
       console.log("Đăng nhập thành công:", user);
        setTimeout(() => {
+        if (user.role === "admin") {
+          navigate(`/admin/${user.id}`); // hoặc /admin/home tùy bạn đặt route
+        } else {
         navigate(`/home/${user.id}`);
+        }
          //chuyển hướng sau khi đăng ký thành công
       }, 1000); //chờ 1 giây trước khi chuyển hướng
       setMessage("✅ " + res.data.message);

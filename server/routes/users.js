@@ -5,6 +5,7 @@ const multer = require("multer");
 const path = require("path");
 const fs = require("fs");
 const bcrypt = require("bcryptjs");
+
 // ------------------ CẤU HÌNH MULTER CHO ẢNH ĐẠI DIỆN ------------------
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {

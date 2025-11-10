@@ -11,7 +11,11 @@ import HomeContent from "./pages/home/main/HomeContent"
 import ForgotPassword from "./pages/auth/QuenMK";
 import VerifyOtp from "./pages/auth/OTP";
 import ResetPassword from "./pages/auth/ResetPass";
-import CreateTopic from "./pages/createtopic/Taochude";
+import CreateTopic from "./pages/functions/createtopic/Taochude";
+import AdminPage from "./pages/admin/AdminPage";
+import Dashboard from "./pages/admin/Dashboard"
+import UserList from "./pages/admin/Userlist"
+
 export default function App() {
   return (
        
@@ -44,11 +48,13 @@ export default function App() {
             </Route>
             
       
-            {/* Admin routes 
-            <Route path="/admin/*" element={<AdminLayout />}>
-              <Route index element={<Dashboard />} />
-              <Route path="users" element={<UserList />} />
-            </Route>*/}
+            {/* Admin routes */}
+            <Route element={<Protected />}>
+              <Route path="/admin/:id/*" element={<AdminPage />}>
+                <Route index element={<Dashboard />} />
+                <Route path="users" element={<UserList />} />
+              </Route>
+            </Route>
         </Routes>
       </Router>
     
