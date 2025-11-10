@@ -11,7 +11,6 @@ function Dashboard() {
   
 
   const [currentTopic, setCurrentTopic] = useState(null);
-  const [currentQuestion, setCurrentQuestion] = useState(null); // câu hỏi đang sửa
   const [editedQuestion, setEditedQuestion] = useState({ 
     noidung: "",
      dapan_a: "", 
@@ -142,7 +141,6 @@ function Dashboard() {
                   <button onClick={() => handleApprove(topic)}>Duyệt</button>{" "}
                   <button onClick={() => handleCancel(topic)}>Xoá</button>{" "}
                    <button onClick={() => handleDetail(topic)}>Xem chi tiết</button>
-                  
                 </td>
               </tr>
             ))}
@@ -198,50 +196,58 @@ function Dashboard() {
         ) : (
           <p>Chưa có câu hỏi nào.</p>
         )}
+          </div>
+        </div>
+            {/* 🟩 Modal con cho sửa câu hỏi */}
+        {editedQuestion && (
+          <div className="modal-overlay inner-modal">
+            <div className="modal-content edit-modal">
+              <div className="modal-header">
+                <h4>✏ Sửa câu hỏi</h4>
+                <button className="close-btn" onClick={() => setEditedQuestion(null)}>✖</button>
+              </div>
 
-        {/* Form sửa câu hỏi nằm ngay trong modal chi tiết */}
-          {/* Form sửa câu hỏi */}
-          {console.log("editedQuestion hiện tại:", editedQuestion)}
-          {editedQuestion && (      
-                <div className="edit-question-form">
-                  <h4>✏ Sửa câu hỏi</h4>
-                  {["noidung", "dapan_a", "dapan_b", "dapan_c", "dapan_d"].map((field) => (
-                    <div className="form-group" key={field}>
-                      <label>{field === "noidung" ? "Nội dung" : `Đáp án ${field.slice(-1).toUpperCase()}`}:</label>
-                      <input
-                        type="text"
-                        value={editedQuestion[field]}
-                        onChange={(e) =>
-                          setEditedQuestion({ ...editedQuestion, [field]: e.target.value })
-                        }
-                      />
-                    </div>
-                  ))}
-                  <div className="form-group">
-                    <label>Đáp án đúng:</label>
-                    <select
-                      value={editedQuestion.dapandung}
+              <div className="modal-body">
+                {["noidung", "dapan_a", "dapan_b", "dapan_c", "dapan_d"].map((field) => (
+                  <div className="form-group" key={field}>
+                    <label>
+                      {field === "noidung" ? "Nội dung" : `Đáp án ${field.slice(-1).toUpperCase()}`}:
+                    </label>
+                    <input
+                      type="text"
+                      value={editedQuestion[field]}
                       onChange={(e) =>
-                        setEditedQuestion({ ...editedQuestion, dapandung: e.target.value })
+                        setEditedQuestion({ ...editedQuestion, [field]: e.target.value })
                       }
-                    >
-                      <option value="A">A</option>
-                      <option value="B">B</option>
-                      <option value="C">C</option>
-                      <option value="D">D</option>
-                    </select>
+                    />
                   </div>
+                ))}
 
-                  <div style={{ textAlign: "right", marginTop: "10px" }}>
-                    <button className="save-btn" onClick={saveEditedQuestion}>💾 Lưu</button>{" "}
-                    <button className="cancel-btn" onClick={() => setEditedQuestion(null)}>❌ Huỷ</button>
-                  </div>
+                <div className="form-group">
+                  <label>Đáp án đúng:</label>
+                  <select
+                    value={editedQuestion.dapandung}
+                    onChange={(e) =>
+                      setEditedQuestion({ ...editedQuestion, dapandung: e.target.value })
+                    }
+                  >
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                  </select>
                 </div>
-              )}
+              </div>
+
+              <div className="modal-footer" style={{ textAlign: "right" }}>
+                <button className="save-btn" onClick={saveEditedQuestion}>💾 Lưu</button>{" "}
+                <button className="cancel-btn" onClick={() => setEditedQuestion(null)}>❌ Huỷ</button>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
-    </div>
-  </div>
-)}
+    )}
 
     </div>
   );

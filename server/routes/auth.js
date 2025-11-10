@@ -12,9 +12,6 @@ const getWifiIP = require('../config/getIP')
 // true = dev: không gửi mail
 // false = production: gửi mail xác thực tài khoản
 
-
-
-
 // ===== ĐĂNG KÝ =====
 router.post('/register', async (req, res) => {
   

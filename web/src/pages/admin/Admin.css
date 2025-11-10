@@ -126,7 +126,7 @@
   .admin-table th {
     background-color: #f0f0f0;
   }
-  
+  .view-btn,
   .admin-table button {
     margin: 2px;
     padding: 4px 8px;
@@ -134,7 +134,7 @@
     border: none;
     cursor: pointer;
   }
-  
+  .view-btn,
   .admin-table button:hover {
     opacity: 0.8;
     background: linear-gradient(to top, #6200ffb9, #0c2eecb9,#6200ffb9);
@@ -239,7 +239,7 @@
   }
   
   .save-btn:hover {
-    background-color: #45a049;
+    background-color: #3cb342;
   }
   
   .question-table th, .question-table td {
@@ -262,4 +262,15 @@
   .question-table tr:hover {
     background-color: #f1f1f1;
   }
-  
+  /*Nút hủy*/
+  .cancel-btn{
+    background-color: #df4949;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .cancel-btn:hover {
+    background-color: #ff0000;
+  }

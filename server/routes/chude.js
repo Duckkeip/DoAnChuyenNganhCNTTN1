@@ -110,7 +110,7 @@ router.post("/cauhoi", async (req, res) => {
   }
 });
 // ===== CẬP NHẬT CÂU HỎI =====
-router.put("/cauhoi/", async (req, res) => {
+router.put("/cauhoi/:id", async (req, res) => {
   try {
     const { id } = req.params;
     const {
