@@ -6,32 +6,39 @@ import "./play.css";
 export default function Play() {
   const location = useLocation();
   const navigate = useNavigate();
-  const { room, user } = location.state || {};
-  const [questions, setQuestions] = useState([]);
-  const [current, setCurrent] = useState(0);
-  const [answers, setAnswers] = useState({});
-  const [score, setScore] = useState(null);
-  const [finished, setFinished] = useState(false);
-  const [isSubmitted, setIsSubmitted] = useState(false); // ✅ khóa khi nộp
 
-  const [timeLeft, setTimeLeft] = useState(600); // 10 phút
+  // 1️⃣ Load state: location.state > localStorage
+  const saved = JSON.parse(localStorage.getItem("currentQuiz") || "null");
+  const initialState = location.state || saved;
+
+  const { room, user } = initialState || {};
+
+  const [questions, setQuestions] = useState(saved?.questions || []);
+  const [current, setCurrent] = useState(saved?.current || 0);
+  const [answers, setAnswers] = useState(saved?.answers || {});
+  const [score, setScore] = useState(saved?.score || null);
+  const [finished, setFinished] = useState(saved?.finished || false);
+  const [isSubmitted, setIsSubmitted] = useState(saved?.isSubmitted || false);
+
+  const [timeLeft, setTimeLeft] = useState(saved?.timeLeft || 600); // 10 phút
   const timerRef = useRef(null);
 
-  // 🧠 Lấy câu hỏi
+  // 2️⃣ Lấy câu hỏi
   useEffect(() => {
     if (!room) return;
     const fetchQuestions = async () => {
       try {
-        const res = await api.get(`/topic/cauhoi/${room.id_chude}`);
+        const chudeId = room.id_chude._id || room.id_chude;
+        const res = await api.get(`/topic/cauhoi/${chudeId}`);
         setQuestions(res.data);
       } catch (err) {
         console.error("Lỗi tải câu hỏi:", err);
       }
     };
-    fetchQuestions();
-  }, [room]);
+    if (!questions.length) fetchQuestions();
+  }, [room, questions.length]);
 
-  // 🕒 Đếm ngược thời gian
+  // 3️⃣ Timer
   useEffect(() => {
     if (finished) return;
     timerRef.current = setInterval(() => {
@@ -47,32 +54,37 @@ export default function Play() {
     return () => clearInterval(timerRef.current);
   }, [finished]);
 
+  // 4️⃣ Lưu trạng thái vào localStorage để Back/Forward không mất
+  useEffect(() => {
+    if (!room) return;
+    localStorage.setItem(
+      "currentQuiz",
+      JSON.stringify({ room, user, questions, current, answers, score, finished, isSubmitted, timeLeft })
+    );
+  }, [room, user, questions, current, answers, score, finished, isSubmitted, timeLeft]);
+
   if (!room) return <p>❌ Không có thông tin phòng!</p>;
   if (!questions.length) return <p>⏳ Đang tải câu hỏi...</p>;
 
   const question = questions[current];
 
-  // ✅ Chọn đáp án
   const handleAnswer = (option) => {
-    if (isSubmitted) return; // 🔒 khóa khi nộp
+    if (isSubmitted) return;
     setAnswers((prev) => ({ ...prev, [question._id]: option }));
   };
 
-  // ⏭️ Câu tiếp theo
   const handleNext = () => {
-    if (isSubmitted) return; // 🔒 khóa
+    if (isSubmitted) return;
     if (current < questions.length - 1) setCurrent(current + 1);
   };
 
-  // ⏮️ Câu trước
   const handlePrev = () => {
-    if (isSubmitted) return; // 🔒 khóa
+    if (isSubmitted) return;
     if (current > 0) setCurrent(current - 1);
   };
 
-  // 🧾 Nộp bài
   const handleFinish = (auto = false) => {
-    if (isSubmitted) return; // 🔒 tránh double submit
+    if (isSubmitted) return;
     clearInterval(timerRef.current);
     setIsSubmitted(true);
 
@@ -98,20 +110,16 @@ export default function Play() {
         .catch((err) => console.error("❌ Lỗi khi lưu kết quả:", err));
     }
 
-    if (!auto)
-      navigate("/ranking", { state: { id_chude: room.id_chude } });
-    else
-      alert("⏰ Hết thời gian! Hệ thống tự động nộp bài.");
+    if (!auto) navigate("/ranking", { state: { id_chude: room.id_chude } });
+    else alert("⏰ Hết thời gian! Hệ thống tự động nộp bài.");
   };
 
-  // 🕓 Định dạng thời gian
   const formatTime = (s) => {
     const m = Math.floor(s / 60);
     const sec = s % 60;
     return `${m}:${sec.toString().padStart(2, "0")}`;
   };
 
-  // 🏁 Hiển thị kết quả
   if (finished) {
     return (
       <div className="result">
@@ -124,7 +132,14 @@ export default function Play() {
           ).length}{" "}
           / {questions.length} câu
         </p>
-        <button onClick={() => navigate("/")}>🏠 Về trang chủ</button>
+        <button
+          onClick={() => {
+            localStorage.removeItem("currentQuiz");
+            navigate("/");
+          }}
+        >
+          🏠 Về trang chủ
+        </button>
       </div>
     );
   }
@@ -146,7 +161,6 @@ export default function Play() {
         </div>
       </div>
 
-      {/* 🔹 Thanh đánh dấu câu hỏi */}
       <div className="question-map">
         {questions.map((q, i) => (
           <button
@@ -155,14 +169,13 @@ export default function Play() {
             className={`map-btn ${current === i ? "current" : ""} ${
               answers[q._id] ? "answered" : ""
             }`}
-            disabled={isSubmitted} // 🔒 khóa map
+            disabled={isSubmitted}
           >
             {i + 1}
           </button>
         ))}
       </div>
 
-      {/* 🔹 Câu hỏi */}
       <div className="question-box">
         <p>
           <b>Câu {current + 1}:</b> {question.noidung}
@@ -175,7 +188,7 @@ export default function Play() {
               className={`option ${
                 answers[question._id] === opt.toUpperCase() ? "selected" : ""
               }`}
-              style={{ pointerEvents: isSubmitted ? "none" : "auto" }} // 🔒 khóa click
+              style={{ pointerEvents: isSubmitted ? "none" : "auto" }}
             >
               {opt.toUpperCase()}. {question[`dapan_${opt}`]}
             </li>
@@ -183,7 +196,6 @@ export default function Play() {
         </ul>
       </div>
 
-      {/* 🔹 Nút điều hướng */}
       <div className="nav-buttons">
         <button onClick={handlePrev} disabled={current === 0 || isSubmitted}>
           ⬅️ Trước đó

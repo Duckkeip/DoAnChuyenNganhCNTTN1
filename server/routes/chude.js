@@ -150,24 +150,34 @@ router.put("/cauhoi/:id", async (req, res) => {
 // 🏁 Tạo PHÒNG THI
 router.post("/room", async (req, res) => {
   try {
-    if (!req.body.id_host || !req.body.id_chude || !req.body.tenroom) {
+    const { id_host, id_chude, tenroom } = req.body;
+
+    if (!id_host || !id_chude || !tenroom) {
       return res.status(400).json({ error: "id_host, id_chude, tenroom bắt buộc" });
     }
 
     const room = new Quizzuser({
       ...req.body,
-      id_room: req.body.id_room || Date.now().toString() // tự tạo id_room nếu chưa có
+      id_room: req.body.id_room || Date.now().toString(), // tự tạo id_room nếu chưa có
+      participants: [], // host tự động là người đầu tiên tham gia
     });
 
-    await room.validate(); // đảm bảo pin được tạo
+    await room.validate();
     await room.save();
 
-    res.json(room);
+    // ✅ Populate trước khi gửi về client
+    const populatedRoom = await Quizzuser.findById(room._id)
+      .populate("id_host", "username")
+      .populate("id_chude", "tenchude")
+      .populate({ path: "participants", select: "username" });
+
+    res.json(populatedRoom);
   } catch (err) {
     console.error("Lỗi tạo phòng:", err);
     res.status(500).json({ error: err.message });
   }
 });
+
 
 
 // 🔍 Tìm phòng theo PIN
@@ -176,19 +186,55 @@ router.get("/room/pin/:pin", async (req, res) => {
     const room = await Quizzuser.findOne({
       pin: req.params.pin,
       status: { $ne: "ketthuc" },
-    });
+    })
 
+  .populate("id_host", "username")
+  .populate("id_chude", "tenchude")
+  .populate({ path: "participants", select: "username" });
     if (!room) return res.status(404).json({ message: "Không tìm thấy phòng" });
-
-    // Populate từng bước
-    const populatedRoom = await room
-      .populate("id_host", "username")
-      .populate("id_chude", "tenchude")
-      .populate({ path: "participants", select: "username" }); // ngay cả khi empty array vẫn ok
-
-    res.json(populatedRoom);
+    res.json(room);
   } catch (err) {
     console.error("Lỗi /room/pin/:pin:", err.message);
+    res.status(500).json({ error: err.message });
+  }
+});
+
+
+// 🧩 Tham gia phòng bằng PIN
+router.post("/room/join/:pin", async (req, res) => {
+  try {
+    console.log("📩 Dữ liệu nhận từ client:", req.params, req.body);
+    const { userId } = req.body;
+    const io = req.app.get("io");
+
+    // Tìm phòng và populate
+    const room = await Quizzuser.findOne({
+      pin: req.params.pin,
+      status: { $ne: "ketthuc" },
+    })
+    .populate("id_host", "username")
+    .populate("id_chude", "tenchude")
+    .populate({ path: "participants", select: "username" });
+
+    if (!room) return res.status(404).json({ message: "Không tìm thấy phòng hoặc đã kết thúc" });
+
+    // Thêm người chơi nếu chưa có
+    if (!room.participants.some(p => p && p._id.toString() === userId)) {
+      room.participants.push(userId);
+      await room.save();
+      await room.populate({ path: "participants", select: "username" });
+    }
+
+    // Loại bỏ null
+    room.participants = room.participants.filter(p => p != null);
+
+    // Emit event cho tất cả trong room
+    io.to(room.pin).emit("updateParticipants", room.participants);
+
+    res.json(room);
+
+  } catch (err) {
+    console.error("Lỗi /room/join/:pin:", err);
     res.status(500).json({ error: err.message });
   }
 });

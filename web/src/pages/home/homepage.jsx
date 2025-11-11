@@ -96,9 +96,6 @@ function Homepage() {
     navigate("/home");
   };
 
-
-
-
   const handleStartQuiz = async (chude) => {
   if (!user) {
     alert("Vui lòng đăng nhập để chơi quiz!");
@@ -140,30 +137,53 @@ const handleJoinWithPin = async () => {
     alert("Vui lòng nhập mã PIN!");
     return;
   }
+
+  if (!user || !user.id) {
+    alert("Vui lòng đăng nhập để tham gia phòng!");
+    navigate("/login");
+    return;
+  }
+
   try {
-   
-    const res = await api.get(`/topic/room/pin/${pinInput.trim()}`);
-    
-    const roomData = res.data;
+    const pin = pinInput.trim();
+
+    // 🧩 Gọi API JOIN để thêm người chơi vào participants
+    const joinRes = await api.post(`/topic/room/join/${pin}`, { userId: user.id });
+    const roomData = joinRes.data;
 
     if (!roomData) {
       alert("PIN không hợp lệ hoặc phòng đã kết thúc!");
       return;
     }
-    // Lấy chủ đề và câu hỏi
-    const chudeRes = await api.get(`/topic/chude/${roomData.id_chude}`);
+
+    // 🧩 Kiểm tra id_chude có tồn tại không
+    if (!roomData.id_chude || !roomData.id_chude._id) {
+      console.error("Không thể lấy ID chủ đề từ roomData:", roomData.id_chude);
+      alert("Lỗi dữ liệu phòng, vui lòng thử lại!");
+      return;
+    }
+
+    const chudeId = roomData.id_chude._id;
+
+    // 🧩 Lấy chủ đề
+    const chudeRes = await api.get(`/topic/chude/${chudeId}`);
     const chudeData = chudeRes.data;
-  
 
-    const chudeId = roomData.id_chude._id || roomData.id_chude; // fallback nếu là string
+    if (!chudeData) {
+      alert("Không thể lấy thông tin chủ đề!");
+      return;
+    }
 
+    // 🧩 Lấy câu hỏi theo chủ đề
     const questionRes = await api.get(`/topic/cauhoi/${chudeId}`);
-    const cauhoi = questionRes.data;
-    
-    const roomName = roomData.tenroom || `Phòng - ${chudeData.tenchude}`;
-    console.log(roomData)
-    roomData.tenroom = roomName;
+    const cauhoi = questionRes.data || [];
 
+    // 🧩 Đặt tên phòng hiển thị nếu chưa có
+    roomData.tenroom = roomData.tenroom || `Phòng - ${chudeData.tenchude}`;
+
+    console.log("Người chơi tham gia phòng:", { roomData, chudeData, cauhoi });
+
+    // 🧩 Điều hướng sang trang tạo phòng (CreateRoom)
     navigate("/room/createroom", {
       state: {
         room: roomData,
@@ -177,6 +197,7 @@ const handleJoinWithPin = async () => {
     alert("Không thể tham gia phòng, vui lòng thử lại!");
   }
 };
+
 
   return (
     <div className="homeuser-container">
