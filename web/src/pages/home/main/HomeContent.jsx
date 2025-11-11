@@ -108,7 +108,7 @@ function HomeContent(){
     }
 
     try {
-      const roomRes = await api.post("/quizzes", {
+      const roomRes = await api.post("/topic/room", {
         id_host: user._id,
         id_chude: chude._id,
         tenroom: `Phòng - ${chude.tenchude}`,
@@ -117,7 +117,7 @@ function HomeContent(){
       setRoom(newRoom);
       console.log("Phòng mới:", newRoom);
 
-      const questionRes = await api.get(`/cauhoi/${chude._id}`);
+      const questionRes = await api.get(`/topic/cauhoi/${chude._id}`);
       const cauhoi = questionRes.data;
       console.log(`Câu hỏi của chủ đề ${chude.tenchude}:`, cauhoi);
 
@@ -179,7 +179,7 @@ function HomeContent(){
                         className="btn btn-primary"
                         onClick={() => handleDelete(chude)}
                         >
-                        Xem Thông tin
+                        Xóa
                         </button>
                         <div className="quiz-meta">
                         <span>

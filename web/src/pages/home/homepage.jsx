@@ -13,6 +13,9 @@ function Homepage() {
   const [selectedChude, setSelectedChude] = useState(null);//chọn chủ đề 
   const [showModal, setShowModal] = useState(false);//hộp thoại chi tiết 
   const [searchTerm, setSearchTerm] = useState("");//tìm kiếm  
+
+  const [pinInput, setPinInput] = useState("");//mã PIN
+
   
   const itemsPerPage = 20; // ✅ Số chủ đề mỗi trang
   const indexOfLast = currentPage * itemsPerPage;
@@ -97,33 +100,84 @@ function Homepage() {
 
 
   const handleStartQuiz = async (chude) => {
-    if (!user) {
-      alert("Vui lòng đăng nhập để chơi quiz!");
-      navigate("/login");
+  if (!user) {
+    alert("Vui lòng đăng nhập để chơi quiz!");
+    navigate("/login");
+    return;
+  }
+
+  const payload = {
+    id_room: Date.now().toString(),      // bắt buộc
+    id_host: user.id,        // tuỳ bạn lưu gì
+    id_chude: chude._id,
+    tenroom: `Phòng - ${chude.tenchude}`
+  };
+
+  console.log("Payload tạo phòng:", payload);
+
+  try {
+    const roomRes = await api.post("/topic/room", payload);
+    const newRoom = roomRes.data;
+    setRoom(newRoom);
+    console.log("Phòng mới:", newRoom);
+
+    const questionRes = await api.get(`/topic/cauhoi/${chude._id}`);
+    const cauhoi = questionRes.data;
+    console.log(`Câu hỏi của chủ đề ${chude.tenchude}:`, cauhoi);
+
+    alert(`Phòng đã tạo cho chủ đề "${chude.tenchude}" với ${cauhoi.length} câu hỏi`);
+      navigate("/room/createroom", { state: { room: newRoom, chude, user, cauhoi } });
+  } catch (err) {
+    console.error("Lỗi tạo phòng hoặc lấy câu hỏi:", err);
+    alert("Không thể tạo phòng hoặc lấy câu hỏi cho chủ đề này!");
+  }
+};
+
+
+  // Thêm function kiểm tra PIN
+const handleJoinWithPin = async () => {
+  if (!pinInput.trim()) {
+    alert("Vui lòng nhập mã PIN!");
+    return;
+  }
+  try {
+   
+    const res = await api.get(`/topic/room/pin/${pinInput.trim()}`);
+    
+    const roomData = res.data;
+
+    if (!roomData) {
+      alert("PIN không hợp lệ hoặc phòng đã kết thúc!");
       return;
     }
+    // Lấy chủ đề và câu hỏi
+    const chudeRes = await api.get(`/topic/chude/${roomData.id_chude}`);
+    const chudeData = chudeRes.data;
+  
 
-    try {
-      const roomRes = await api.post("/quizzes", {
-        id_host: user._id,
-        id_chude: chude._id,
-        tenroom: `Phòng - ${chude.tenchude}`,
-      });
-      const newRoom = roomRes.data;
-      setRoom(newRoom);
-      console.log("Phòng mới:", newRoom);
+    const chudeId = roomData.id_chude._id || roomData.id_chude; // fallback nếu là string
 
-      const questionRes = await api.get(`/cauhoi/${chude._id}`);
-      const cauhoi = questionRes.data;
-      console.log(`Câu hỏi của chủ đề ${chude.tenchude}:`, cauhoi);
+    const questionRes = await api.get(`/topic/cauhoi/${chudeId}`);
+    const cauhoi = questionRes.data;
+    
+    const roomName = roomData.tenroom || `Phòng - ${chudeData.tenchude}`;
+    console.log(roomData)
+    roomData.tenroom = roomName;
 
-      alert(`Phòng đã tạo cho chủ đề "${chude.tenchude}" với ${cauhoi.length} câu hỏi`);
-      // navigate(`/room/${newRoom._id}`, { state: { room: newRoom, cauhoi } });
-    } catch (err) {
-      console.error("Lỗi tạo phòng hoặc lấy câu hỏi:", err);
-      alert("Không thể tạo phòng hoặc lấy câu hỏi cho chủ đề này!");
-    }
-  };
+    navigate("/room/createroom", {
+      state: {
+        room: roomData,
+        chude: chudeData,
+        user,
+        cauhoi,
+      },
+    });
+  } catch (err) {
+    console.error("Lỗi khi tham gia phòng bằng PIN:", err);
+    alert("Không thể tham gia phòng, vui lòng thử lại!");
+  }
+};
+
   return (
     <div className="homeuser-container">
       <header>
@@ -185,6 +239,18 @@ function Homepage() {
             }}
             className="search-input"
           />
+        
+        </div>
+        <div className="join-pin-container">
+          <input
+            type="text"
+            placeholder="Nhập mã PIN phòng..."
+            value={pinInput}
+            onChange={(e) => setPinInput(e.target.value)}
+          />
+          <button className="btn btn-success" onClick={handleJoinWithPin}>
+            Tham gia phòng
+          </button>
         </div>
           <div className="quiz-grid">
                 {currentChudes.length > 0 ? (

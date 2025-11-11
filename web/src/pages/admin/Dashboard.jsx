@@ -52,7 +52,7 @@ function Dashboard() {
   
   const handleDetail = async (topic) => {
     try {
-      const res = await api.get(`/topic/question/cauhoi/${topic._id}`); // API lấy câu hỏi theo chủ đề
+      const res = await api.get(`/topic/cauhoi/${topic._id}`); // API lấy câu hỏi theo chủ đề
       setQuestions(res.data);
       setCurrentTopic(topic);
       setShowDetailModal(true);

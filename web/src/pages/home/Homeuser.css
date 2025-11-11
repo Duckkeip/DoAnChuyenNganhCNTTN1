@@ -331,7 +331,7 @@ header {
 /* Nút trong menu */
 .btn-menu {
   background: transparent;
-  color: var(--dark);
+  color: #333;
   border: 2px solid var(--primary);
   border-radius: 30px;
   padding: 10px 22px;
@@ -346,7 +346,7 @@ header {
 /* Hover effect */
 .btn-menu:hover {
   background: linear-gradient(45deg, var(--primary), var(--primary-light));
-  color: white;
+  color: rgb(45, 13, 160);
   transform: translateY(-3px);
   box-shadow: 0 4px 12px rgba(0, 238, 255, 0.3);
 }
@@ -354,11 +354,18 @@ header {
 /* Active button (trang hiện tại) */
 .btn-menu.active {
   background: linear-gradient(45deg, var(--primary), var(--primary-light));
-  color: white;
+  color: rgb(255, 238, 0);
   box-shadow: 0 0 10px rgba(0, 238, 255, 0.4);
   transform: scale(1.05);
 }
-
+@keyframes glow {
+  from {
+    box-shadow: 0 0 15px rgba(0, 238, 255, 0.5);
+  }
+  to {
+    box-shadow: 0 0 30px rgba(0, 238, 255, 0.9);
+  }
+}
 
 /*HOMEPAGE*/
 
@@ -564,4 +571,31 @@ header {
 
 .user-icon:hover {
   transform: scale(1.2); /* phóng to khi hover */
+}
+.join-pin-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.join-pin-container input {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.join-pin-container button {
+  padding: 8px 15px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.join-pin-container button:hover {
+  background-color: #218838;
 }

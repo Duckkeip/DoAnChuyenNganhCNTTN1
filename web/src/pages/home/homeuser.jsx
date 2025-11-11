@@ -67,6 +67,14 @@ function Homeuser() {
         <div className="user-section">
           {user ? (
             <>
+            <span
+            className="home-icon"
+            onClick={() => navigate(`/home/${user.id}`)} // đổi /profile thành route bạn muốn
+            style={{ cursor: "pointer", marginRight: "8px" }}
+            title="Về trang chủ"
+          >
+            🏠
+          </span>
               <span className="user-greeting">
                 Xin chào, {user?.tenhienthi || user?.username}!
               </span>
@@ -98,18 +106,18 @@ function Homeuser() {
          {/* ---------- MENU ---------- */}
       <section className="menu-section">
       <button
-  className={`btn btn-menu ${location.pathname === `/home/${user?.id}` ? "active" : ""}`}
-  onClick={() => {
-    if (!user?.id) return console.warn("User chưa sẵn sàng!");
-    setTimeout(() => {
-    navigate(`/homeuser/${user.id}`);
-    },200)
-  }}
->
-  Trang cá nhân
-</button>
+          className={`btn btn-menu ${location.pathname === `/home/${user?.id}` ? "active" : ""}`}
+          onClick={() => {
+            if (!user?.id) return console.warn("User chưa sẵn sàng!");
+            setTimeout(() => {
+            navigate(`/homeuser/${user.id}`);
+            },200)
+          }}
+        >
+          Trang cá nhân 
+      </button>
 
-        <button
+      <button
           className={`btn btn-menu ${location.pathname.includes("profile") ? "active" : ""}`}
           onClick={() => 
             setTimeout(() => {
@@ -117,9 +125,9 @@ function Homeuser() {
             },200)}
         >
           Hồ sơ của tôi
-        </button>
+      </button>
 
-        <button
+      <button
           className={`btn btn-menu ${location.pathname.includes("history") ? "active" : ""}`}
           onClick={() => 
             setTimeout(() => {
@@ -128,7 +136,7 @@ function Homeuser() {
         }
         >
           Lịch sử chơi
-        </button>
+      </button>
       </section>
 
       {/* ✅ Vùng Outlet để hiển thị Profile/History/HomeContent */}

@@ -51,7 +51,6 @@ app.use(cors({
   app.use("/api/user",require("./routes/users"))//User routes
   app.use("/api/auth", require("./routes/auth")); // Auth routes
   app.use("/api/topic",require("./routes/chude")); // Chude routes (chỉ lấy chủ đề , tất cả hoặc cụ thể chủ đề )
-  app.use("/api/topic/question",require("./routes/chude")); // Cauhoi routes(lấy tất cả hoặc cụ thể câu hỏi)
   app.use("/api/admin",require("./routes/admin")); // Admin
   
 

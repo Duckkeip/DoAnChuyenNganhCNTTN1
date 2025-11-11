@@ -6,6 +6,7 @@ const QuizzUserSchema = new mongoose.Schema({
   tenroom: { type: String, required: true },
   id_host: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
   id_chude: { type: mongoose.Schema.Types.ObjectId, ref: "Chude", required: true },
+  participants: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }],
   pin: { type: String, required: true, unique: true },
   status: { 
     type: String, 
@@ -21,7 +22,7 @@ function generatePin() {
 }
 
 // Tạo mã PIN duy nhất trước khi lưu
-QuizzUserSchema.pre("save", async function (next) {
+QuizzUserSchema.pre("validate", async function (next) {
   if (!this.pin) {
     let newPin;
     let existing;

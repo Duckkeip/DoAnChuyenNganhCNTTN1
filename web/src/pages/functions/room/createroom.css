@@ -1,0 +1,105 @@
+/* createroom.css */
+/* Background động toàn trang */
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(270deg, #c0b4b4, #fad0c4, #fbc2eb, #a6c1ee);
+  background-size: 800% 800%;
+  animation: gradientBG 15s ease infinite;
+}
+        
+/* Hiệu ứng gradient animation */
+@keyframes gradientBG {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+.create-room {
+  max-width: auto;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 15px;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: linear-gradient(-45deg, #6a11cb, #af02ff, #10cfff, #08bbf1);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.room-header h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.pin-box {
+  font-size: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+}
+
+.room-info p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.participants {
+  margin: 20px 0;
+  text-align: left;
+  background: rgba(0,0,0,0.2);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.participants h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  padding-bottom: 5px;
+}
+
+.participants ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.participants li {
+  padding: 5px 0;
+}
+
+.btn-start {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background: #ff416c;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-start:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}

@@ -15,6 +15,9 @@ import CreateTopic from "./pages/functions/createtopic/Taochude";
 import AdminPage from "./pages/admin/AdminPage";
 import Dashboard from "./pages/admin/Dashboard"
 import UserList from "./pages/admin/Userlist"
+import CreateRoom from "./pages/functions/room/CreateRoom";
+import Play from "./pages/functions/play/Play";
+import Ranking from "./pages/functions/rank/Ranking";
 
 export default function App() {
   return (
@@ -45,6 +48,9 @@ export default function App() {
                 <Route path="profile" element={<Profile />} />{/*profile tài khoản*/}
                 <Route path="create-topic" element={<CreateTopic />} />
               </Route>
+              <Route path="/room/createroom" element={<CreateRoom />} />
+              <Route path="/play" element={<Play />} />
+              <Route path="/ranking" element={<Ranking />} />
             </Route>
             
       
