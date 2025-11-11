@@ -205,3 +205,13 @@
   background: #218838;
   transform: scale(1.05);
 }
+.play-screen.disabled {
+  opacity: 0.6;
+  pointer-events: none; /* Khóa toàn bộ thao tác */
+}
+
+.result {
+  text-align: center;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
