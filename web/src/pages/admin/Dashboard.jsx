@@ -138,7 +138,7 @@ function Dashboard() {
                 <td>{topic.loaichude}</td>
                 <td>{new Date(topic.ngaytao).toLocaleDateString()}</td>
                 <td>
-                  <button onClick={() => handleApprove(topic)}>Duyệt</button>{" "}
+                  <button onClick={() => handleApprove(topic)}></button>{" "}
                   <button onClick={() => handleCancel(topic)}>Xoá</button>{" "}
                    <button onClick={() => handleDetail(topic)}>Xem chi tiết</button>
                 </td>
