@@ -1,7 +1,8 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef} from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import api from "../../token/check";
 import "./play.css";
+import jwt_decode from "jwt-decode";
 
 export default function Play() {
   const location = useLocation();
@@ -10,8 +11,8 @@ export default function Play() {
   // 1️⃣ Load state: location.state > localStorage
   const saved = JSON.parse(localStorage.getItem("currentQuiz") || "null");
   const initialState = location.state || saved;
-
-  const { room, user } = initialState || {};
+  const [user, setUser] = useState(null);
+  const { room, user: initialUser } = initialState || {};
 
   const [questions, setQuestions] = useState(saved?.questions || []);
   const [current, setCurrent] = useState(saved?.current || 0);
@@ -23,6 +24,32 @@ export default function Play() {
   const [timeLeft, setTimeLeft] = useState(saved?.timeLeft || 600); // 10 phút
   const timerRef = useRef(null);
 
+  useEffect(() => {
+  const token = localStorage.getItem("token");
+  if (!token) return;
+  
+  try {
+    const decoded = jwt_decode(token);
+    const now = Date.now() / 1000;
+    if (decoded.exp < now) {
+      localStorage.removeItem("token");
+      navigate("/login");
+      return;
+    }
+    // Chuẩn hóa user
+    const normalizedUser = {
+      _id: decoded._id || decoded.id,
+      username: decoded.username,
+      email: decoded.email
+    };
+    setUser(normalizedUser);
+    localStorage.setItem("user", JSON.stringify(normalizedUser));
+  } catch (err) {
+    console.error(err);
+    localStorage.removeItem("token");
+    navigate("/login");
+  }
+}, [navigate]);
   // 2️⃣ Lấy câu hỏi
   useEffect(() => {
     if (!room) return;
@@ -98,16 +125,19 @@ export default function Play() {
     setFinished(true);
 
     if (user) {
-      api
-        .post("/ketqua", {
-          user_id: user._id,
-          id_chude: room.id_chude,
-          diem: finalScore,
-          tongcauhoi: questions.length,
-          socaudung: correct,
-        })
+    const payload = {
+      user_id: user._id,
+      id_chude: room.id_chude._id || room.id_chude,
+      diem: finalScore,
+      tongcauhoi: questions.length,
+      socaudung: correct,
+    };
+
+  console.log("📤 POST payload:", payload);
+
+      api.post("/rank/xephang", payload)
         .then(() => console.log("✅ Đã lưu kết quả"))
-        .catch((err) => console.error("❌ Lỗi khi lưu kết quả:", err));
+        .catch((err) => console.error("❌ Lỗi khi lưu kết quả:", err.response?.data || err));
     }
 
     if (!auto) navigate("/ranking", { state: { id_chude: room.id_chude } });
@@ -119,7 +149,7 @@ export default function Play() {
     const sec = s % 60;
     return `${m}:${sec.toString().padStart(2, "0")}`;
   };
-
+  
   if (finished) {
     return (
       <div className="result">
@@ -134,8 +164,9 @@ export default function Play() {
         </p>
         <button
           onClick={() => {
+            console.log("👉 user khi về trang chủ:", user);
             localStorage.removeItem("currentQuiz");
-            navigate("/");
+            navigate(`/home/${user.id}`);
           }}
         >
           🏠 Về trang chủ

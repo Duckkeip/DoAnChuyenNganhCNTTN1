@@ -41,6 +41,8 @@ app.use("/api/user", require("./routes/users"));
 app.use("/api/auth", require("./routes/auth"));
 app.use("/api/topic", require("./routes/chude"));
 app.use("/api/admin", require("./routes/admin"));
+app.use("/api/rank", require("./routes/rank"));
+app.use("/api/result", require("./routes/ketqua"));
 
 // Test route
 app.get("/", (req, res) => res.send("Quiz API đang chạy..."));

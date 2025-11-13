@@ -10,28 +10,31 @@ export default function CreateRoom() {
   const location = useLocation();
 
   // 1️⃣ Lấy state từ location hoặc localStorage
-  const storedState = JSON.parse(localStorage.getItem("currentRoom") || "null");
-  const locationState = location.state || storedState;
+  let storedState = JSON.parse(localStorage.getItem("currentRoom") || "null");
+  let locationState = location.state || storedState;
 
-  // 2️⃣ Nếu không có dữ liệu, render thông báo
-  if (!locationState) {
-    return <p>Không có dữ liệu phòng, vui lòng tạo lại từ Homepage.</p>;
-  }
+  const [participants, setParticipants] = useState(locationState?.room?.participants || []);
 
-  const { room, chude, user, cauhoi } = locationState;
-  const isHost = user.id === room.id_host?._id;
+  // Bỏ logic return trước, để hook luôn ở top-level
+  const hasRoomData = !!locationState;
+  const room = locationState?.room;
+  const chude = locationState?.chude;
+  const user = locationState?.user;
+  const cauhoi = locationState?.cauhoi;
 
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  const [participants, setParticipants] = useState(room.participants || []);
+  const userId = user?._id || user?.id;
+  const hostId = room?.id_host?._id || room?.id_host?.id;
+  const isHost = userId && hostId && userId === hostId;
 
-  // 3️⃣ useEffect top-level, không dependency là participants
-  // eslint-disable-next-line react-hooks/rules-of-hooks
   useEffect(() => {
-    // Lưu vào localStorage để Back/Forward
-    localStorage.setItem("currentRoom", JSON.stringify(locationState));
+    if (!hasRoomData) return; 
+    // Lưu phòng vào localStorage chỉ khi status là dangcho
+    if (room.status === "dangcho") {
+      localStorage.setItem("currentRoom", JSON.stringify(locationState));
+    }
 
     // Thêm user nếu chưa có
-    if (!participants.some(p => p?._id?.toString() === user.id)) {
+    if (!participants.some(p => (p._id || p.id) === userId)) {
       setParticipants(prev => [user, ...prev]);
     }
 
@@ -46,17 +49,24 @@ export default function CreateRoom() {
       navigate("/play", { state: locationState });
     });
 
-    return () => {
+     return () => {
       socket.off("updateParticipants");
       socket.off("gameStarted");
     };
-  }, [room.pin, user.id, locationState, navigate]);
+  }, [room, user, participants, locationState, navigate, hasRoomData, userId]);
 
-  // 4️⃣ Host bắt đầu game
   const handleStart = () => {
-    socket.emit("startGame", room.pin); // gửi tới server
-    navigate("/play", { state: locationState }); // cũng navigate chính host
+    if (!room) return;
+    room.status = "dangchoi";
+    localStorage.removeItem("currentRoom");
+    socket.emit("startGame", room.pin);
+    navigate("/play", { state: locationState });
   };
+
+  if (!hasRoomData) {
+    return <p>Không có dữ liệu phòng, vui lòng tạo lại từ Homepage.</p>;
+  }
+
 
   return (
     <div className="container">
@@ -79,14 +89,18 @@ export default function CreateRoom() {
           <ul>
             <li key="host"><b>Host:</b> {room.id_host?.username || "Unknown"}</li>
             {participants
-              .filter(p => p && p._id !== room.id_host?._id)
+              .filter(p => p && (p._id || p.id) !== hostId)
               .map((p, i) => <li key={i}>{p.username || p.tenhienthi}</li>)
             }
           </ul>
         </div>
 
         {isHost ? (
-          <button className="btn-start" onClick={handleStart}>Bắt đầu chơi</button>
+          room.status === "dangcho" ? (
+            <button className="btn-start" onClick={handleStart}>Bắt đầu chơi</button>
+          ) : (
+            <p>⏳ Phòng đang chơi...</p>
+          )
         ) : (
           <p>⏳ Chờ host bắt đầu...</p>
         )}

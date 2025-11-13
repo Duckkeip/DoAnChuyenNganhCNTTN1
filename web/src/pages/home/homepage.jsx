@@ -1,4 +1,4 @@
-import React, { useEffect, useState  ,useCallback } from "react";
+import React, { useEffect, useState  } from "react";
 import api from "../token/check";
 import { useNavigate} from "react-router-dom";
 import "./Homeuser.css";
@@ -42,43 +42,32 @@ function Homepage() {
       setShowModal(false);
       setSelectedChude(null);
     };
-
-  const Checktoken = useCallback(() => {
-      const token = localStorage.getItem("token");
-      if (!token) {
-        console.log("Không có token trong localStorage");
-        setUser(null);
+useEffect(() => {
+    const token = localStorage.getItem("token");
+    if (!token) return;
+    
+    try {
+      const decoded = jwt_decode(token);
+      const now = Date.now() / 1000;
+      if (decoded.exp < now) {
+        localStorage.removeItem("token");
+        navigate("/login");
         return;
       }
-  
-      try {
-        const decoded = jwt_decode(token);
-        const now = Date.now() / 1000;
-        if (decoded.exp < now) {
-          console.log("Token hết hạn, đăng xuất...");
-          localStorage.removeItem("token");
-          setUser(null);
-          navigate("/login");
-        } else {
-          console.log("Token hợp lệ():", decoded);
-          setUser(decoded);
-        }
-      } catch (err) {
-        console.log("Lỗi decode token:", err);
-        localStorage.removeItem("token");
-        setUser(null);
-      }
-    }, [navigate]);
-  
-    // ✅ useEffect chỉ chạy 1 lần
-    useEffect(() => {
-      Checktoken();
-      const storedUser = localStorage.getItem("user");
-      if (storedUser) {
-        setUser(JSON.parse(storedUser));
-      }
-    }, [Checktoken]); // ✅ thêm dependency hợp lệ
-
+      // Chuẩn hóa user
+      const normalizedUser = {
+        _id: decoded.id,
+        username: decoded.username,
+        email: decoded.email
+      };
+      setUser(normalizedUser);
+      localStorage.setItem("user", JSON.stringify(normalizedUser));
+    } catch (err) {
+      console.error(err);
+      localStorage.removeItem("token");
+      navigate("/login");
+    }
+  }, [navigate]);
 
   useEffect(() => {
     api.get("/topic/chude")
@@ -88,7 +77,7 @@ function Homepage() {
         setChudes([]);
       });
 
-  }, []);
+  }, [user]);
   const handleLogout = () => {
     localStorage.removeItem("token");
     setUser(null);
@@ -102,10 +91,14 @@ function Homepage() {
     navigate("/login");
     return;
   }
+  
+  // ✅ Xóa localStorage phòng cũ
+  localStorage.removeItem("currentRoom");
+  localStorage.removeItem("currentQuiz");
 
   const payload = {
     id_room: Date.now().toString(),      // bắt buộc
-    id_host: user.id,        // tuỳ bạn lưu gì
+    id_host: user._id,        // tuỳ bạn lưu gì
     id_chude: chude._id,
     tenroom: `Phòng - ${chude.tenchude}`
   };
