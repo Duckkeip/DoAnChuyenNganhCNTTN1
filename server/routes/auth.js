@@ -142,7 +142,7 @@ router.get('/verify/:token', async (req, res) => {
   console.log("👉 Nhận yêu cầu verify:", req.params.token);
   try {
     const user = await User.findOne({ verificationToken: req.params.token });
-    console.log("✅ Tìm thấy user:", user ? user.email : "Không có");
+    console.log("✅ Email User yêu cầu xác thực ", user ? user.email : "Không có");
 
     if (!user) return res.sendFile(path.join(__dirname, '../utils/verifythatbai.html'));
 
