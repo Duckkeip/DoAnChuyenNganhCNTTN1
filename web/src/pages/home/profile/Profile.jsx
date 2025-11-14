@@ -58,13 +58,6 @@ const Profile = () => {
     }
   };
 
-  const handleDelete = async () => {
-    if (window.confirm("Bạn có chắc muốn xoá tài khoản?")) {
-      await api.delete(`/user/${id}`);
-      alert("Tài khoản đã bị xoá!");
-      navigate("/login");
-    }
-  };
 
   const handleAvatarUpload = async () => {
     if (!avatarFile) return alert("Chưa chọn ảnh!");
@@ -166,7 +159,6 @@ const Profile = () => {
 
             <div className="button-group">
               <button className="btn save" onClick={handleSave}>Lưu</button>
-              <button className="btn delete" onClick={handleDelete}>Xoá tài khoản</button>
             </div>
           </div>
 

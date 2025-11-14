@@ -210,8 +210,8 @@
   pointer-events: none; /* Khóa toàn bộ thao tác */
 }
 
-.result {
-  text-align: center;
-  padding: 30px;
-  font-family: Arial, sans-serif;
+.result button {
+  margin: 10px;      /* cách nút ra 10px */
+  padding: 10px 20px;
+  font-size: 16px;
 }

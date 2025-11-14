@@ -18,7 +18,7 @@ import UserList from "./pages/admin/Userlist"
 import CreateRoom from "./pages/functions/room/CreateRoom";
 import Play from "./pages/functions/play/Play";
 import Ranking from "./pages/functions/rank/Ranking";
-
+import History from "./pages/home/history/History";
 export default function App() {
   return (
        
@@ -47,6 +47,8 @@ export default function App() {
                 <Route index element={<HomeContent />} />
                 <Route path="profile" element={<Profile />} />{/*profile tài khoản*/}
                 <Route path="create-topic" element={<CreateTopic />} />
+                <Route path="history" element={<History/>} />
+                
               </Route>
               <Route path="/room/createroom" element={<CreateRoom />} />
               <Route path="/play" element={<Play />} />

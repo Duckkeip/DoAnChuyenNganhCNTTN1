@@ -206,7 +206,7 @@ const handleJoinWithPin = async () => {
       {/* Icon người dùng */}
       <span
         className="user-icon"
-        onClick={() => navigate(`/homeuser/${user.id}`)} // đổi /profile thành route bạn muốn
+        onClick={() => navigate(`/homeuser/${user._id}`)} // đổi /profile thành route bạn muốn
         style={{ cursor: "pointer", marginRight: "8px" }}
         title="Xem thông tin cá nhân"
       >

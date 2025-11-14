@@ -86,7 +86,7 @@ export default function Ranking() {
 
   return (
     <div className="ranking">
-      <h2>Bảng xếp hạng</h2>
+      <h2>Bảng xếp hạng người chơi chủ đề này </h2>
       <table border="1" cellPadding="8" style={{ borderCollapse: "collapse" }}>
         <thead>
           <tr>

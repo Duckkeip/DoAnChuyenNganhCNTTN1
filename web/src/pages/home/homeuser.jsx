@@ -10,41 +10,32 @@ function Homeuser() {
   const location = useLocation(); 
   
   // ✅ Kiểm tra token (dùng useCallback để không tạo lại mỗi render)
-  const Checktoken = useCallback(() => {
-    const token = localStorage.getItem("token");
-    if (!token) {
-      console.log("Không có token trong localStorage");
-      setUser(null);
-      return;
-    }
-
-    try {
-      const decoded = jwt_decode(token);
-      const now = Date.now() / 1000;
-      if (decoded.exp < now) {
-        console.log("Token hết hạn, đăng xuất...");
-        localStorage.removeItem("token");
-        setUser(null);
-        navigate("/login");
-      } else {
-        console.log("Token hợp lệ():", decoded);
-        setUser(decoded);
-      }
-    } catch (err) {
-      console.log("Lỗi decode token:", err);
-      localStorage.removeItem("token");
-      setUser(null);
-    }
-  }, [navigate]);
-
-  // ✅ useEffect chỉ chạy 1 lần
-  useEffect(() => {
-    Checktoken();
-    const storedUser = localStorage.getItem("user");
-    if (storedUser) {
-      setUser(JSON.parse(storedUser));
-    }
-  }, [Checktoken]); // ✅ thêm dependency hợp lệ
+ useEffect(() => {
+     const token = localStorage.getItem("token");
+     if (!token) return;
+     
+     try {
+       const decoded = jwt_decode(token);
+       const now = Date.now() / 1000;
+       if (decoded.exp < now) {
+         localStorage.removeItem("token");
+         navigate("/login");
+         return;
+       }
+       // Chuẩn hóa user
+       const normalizedUser = {
+         id: decoded.id,
+         username: decoded.username,
+         email: decoded.email
+       };
+       setUser(normalizedUser);
+       localStorage.setItem("user", JSON.stringify(normalizedUser));
+     } catch (err) {
+       console.error(err);
+       localStorage.removeItem("token");
+       navigate("/login");
+     }
+   }, [navigate]);
 
   const handleLogoClick = () => navigate(user ? `/home/${user.id}` : "/home");
 
@@ -131,7 +122,7 @@ function Homeuser() {
           className={`btn btn-menu ${location.pathname.includes("history") ? "active" : ""}`}
           onClick={() => 
             setTimeout(() => {
-            navigate(`/homeuser/${user?._id}/history`)
+            navigate(`/homeuser/${user?.id}/history`)
             },200)
         }
         >
