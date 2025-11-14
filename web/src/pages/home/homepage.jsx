@@ -131,7 +131,7 @@ const handleJoinWithPin = async () => {
     return;
   }
 
-  if (!user || !user.id) {
+  if (!user || !user._id) {
     alert("Vui lòng đăng nhập để tham gia phòng!");
     navigate("/login");
     return;
