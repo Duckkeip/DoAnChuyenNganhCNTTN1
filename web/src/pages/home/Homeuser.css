@@ -598,4 +598,73 @@ header {
 
 .join-pin-container button:hover {
   background-color: #218838;
+/* SIDEBAR ẨN HIỆN */
+}.sidebar-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  z-index: 1000;
+}
+
+.sidebar {
+  width: 200px;
+  background:linear-gradient(135deg, #21dfdf, #470ad8cc);
+  color: #000000;
+  padding-top: 50px;
+  transform: translateX(-100%);
+  transition: transform 0.3s;
+}
+
+.sidebar-wrapper:hover .sidebar {
+  transform: translateX(0);
+}
+
+.sidebar-trigger {
+  width: 0px;
+  height: 100%;
+  cursor: pointer;
+}
+.sidebar ul {
+  list-style: none; /* bỏ bullet points */
+  padding: 0;       /* bỏ padding mặc định của ul */
+  margin: 0;        /* bỏ margin mặc định của ul */
+}
+
+.sidebar ul li {
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.sidebar ul li:hover {
+  background-color: #333;
+}
+
+/* Dấu nhỏ luôn hiển thị */
+.sidebar-trigger-icon {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-color: #470ad8;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+  z-index: 1100;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  /* Di chuyển theo sidebar */
+  transition: transform 0.3s ease;
+}
+
+/* Khi sidebar mở, dấu nhỏ trượt sang */
+.sidebar-active + .sidebar-trigger-icon {
+  transform: translateX(-200px);
 }

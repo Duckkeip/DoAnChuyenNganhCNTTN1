@@ -193,7 +193,28 @@ const handleJoinWithPin = async () => {
 
 
   return (
+    
     <div className="homeuser-container">
+     <div className="sidebar-wrapper">
+      <div className="sidebar-trigger" />
+      <div className="sidebar">
+        <ul>
+          <li onClick={() => navigate("/homecontent")}>🏠 Home</li>
+          <li onClick={() => navigate(`/homeuser/${user?._id}`)}>👤 Profile</li>
+          <li onClick={() => navigate("/history")}>📜 History</li>
+          <li onClick={() => navigate("/setting")}>⚙️ Setting</li>
+        </ul>
+      </div>
+      <div className="sidebar-trigger-icon" 
+          onMouseEnter={() =>
+            document.querySelector(".sidebar").classList.add("sidebar-active")
+          }
+          onMouseLeave={() =>
+            document.querySelector(".sidebar").classList.remove("sidebar-active")
+          }>
+        ☰
+      </div>
+    </div>
       <header>
         <div className="logo">
            <span className="logo-icon">🧠</span>
@@ -238,6 +259,7 @@ const handleJoinWithPin = async () => {
       </>
     )}
   </div>
+  
 </header>
 
       <section className="quiz-list">
@@ -308,7 +330,7 @@ const handleJoinWithPin = async () => {
                 )}
             </div>
 
-
+   
        {/* ---------- Phân trang ---------- */}
             {totalPages > 1 && (
                 <div className="pagination">
@@ -338,7 +360,6 @@ const handleJoinWithPin = async () => {
                 </div>
             )}
       </section>
-      
       {/* ---------- FOOTER ---------- */}
       <footer className="footer">
         <div className="footer-content">

@@ -11,6 +11,7 @@ const Profile = () => {
   const [showChangePassModal, setShowChangePassModal] = useState(false);//hộp thoại đổi mk
   const [newPassword,setNewPassword]=useState();//biến đổi mật khẩu
   const [confirmPassword, setConfirmPassword] = useState("");
+  const [oldPassword, setOldPassword] = useState("");//mật kkhau cũ
 
 
   const [user, setUser] = useState(null);
@@ -71,6 +72,10 @@ const Profile = () => {
   };
 
   const handleChangePassword = async () => {
+    if (oldPassword !== user.password) {
+      alert("Mật khẩu cũ không đúng!");
+      return;
+    }
     if (newPassword !== confirmPassword) {
       alert("Mật khẩu xác nhận không khớp!");
       return;
@@ -168,28 +173,47 @@ const Profile = () => {
               <div className="modal">
                 <h3>Đổi mật khẩu</h3>
                 <input
+                    type="password"
+                    placeholder="Mật khẩu cũ"
+                    value={oldPassword}
+                    onChange={(e) => setOldPassword(e.target.value)}
+                />
+
+
+                <input
                   type="password"
                   placeholder="Mật khẩu mới"
                   value={newPassword}
                   onChange={(e) => setNewPassword(e.target.value)}
                 />
+
+
                 <input
                   type="password"
                   placeholder="Xác nhận mật khẩu"
                   value={confirmPassword}
                   onChange={(e) => setConfirmPassword(e.target.value)}
                 />
+
+
                 <div className="modal-buttons">
+
+
                   <button onClick={handleChangePassword} className="btn save">
-                    Xác nhận
+                    Xác nhậns
                   </button>
+
+
                   <button
                     onClick={() => setShowChangePassModal(false)}
                     className="btn delete"
                   >
                     Hủy
                   </button>
+
                 </div>
+
+
               </div>
             </div>
           )}
