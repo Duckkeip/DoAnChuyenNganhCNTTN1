@@ -16,6 +16,10 @@ function Homepage() {
 
   const [pinInput, setPinInput] = useState("");//mã PIN
 
+
+  const [showSetting, setShowSetting] = useState(false);//hiện setting
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");//chủ đề sáng/tối
+
   
   const itemsPerPage = 20; // ✅ Số chủ đề mỗi trang
   const indexOfLast = currentPage * itemsPerPage;
@@ -190,8 +194,15 @@ const handleJoinWithPin = async () => {
     alert("Không thể tham gia phòng, vui lòng thử lại!");
   }
 };
-
-
+  useEffect(() => {
+      document.body.classList.toggle("dark-mode", theme === "dark");
+    }, [theme]);
+    
+  const toggleTheme = () => {
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+    localStorage.setItem("theme", newTheme);
+  };
   return (
     
     <div className="homeuser-container">
@@ -199,10 +210,10 @@ const handleJoinWithPin = async () => {
       <div className="sidebar-trigger" />
       <div className="sidebar">
         <ul>
-          <li onClick={() => navigate("/homecontent")}>🏠 Home</li>
-          <li onClick={() => navigate(`/homeuser/${user?._id}`)}>👤 Profile</li>
-          <li onClick={() => navigate("/history")}>📜 History</li>
-          <li onClick={() => navigate("/setting")}>⚙️ Setting</li>
+          <li onClick={() => navigate(`/homeuser/${user?._id}`)}>🏠 Home</li>
+          <li onClick={() => navigate(`/homeuser/${user?._id}/profile`)}>👤 Profile</li>
+          <li onClick={() => navigate(`/homeuser/${user?._id}/history`)}>📜 History</li>
+          <li onClick={() => setShowSetting(true)}>⚙️ Setting</li>
         </ul>
       </div>
       <div className="sidebar-trigger-icon" 
@@ -360,6 +371,7 @@ const handleJoinWithPin = async () => {
                 </div>
             )}
       </section>
+
       {/* ---------- FOOTER ---------- */}
       <footer className="footer">
         <div className="footer-content">
@@ -414,6 +426,38 @@ const handleJoinWithPin = async () => {
         </div>
       </div>
     )}
+        
+            {showSetting && (
+        <div className="modal-overlay" onClick={() => setShowSetting(false)}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <h2>⚙️ Cài đặt</h2>
+
+            <div className="setting-item">
+              <label>Giao diện:</label>
+              <button className="btn btn-primary" onClick={toggleTheme}>
+                Đổi sang {theme === "light" ? "Dark Mode 🌙" : "Light Mode ☀️"}
+              </button>
+            </div>
+
+            <div className="setting-item">
+              <label>Cỡ chữ:</label>
+              <button className="btn btn-secondary">Nhỏ</button>
+              <button className="btn btn-secondary">Vừa</button>
+              <button className="btn btn-secondary">Lớn</button>
+            </div>
+
+            <div className="setting-item">
+              <label>Thông báo:</label>
+              <input type="checkbox" /> Bật thông báo
+            </div>
+
+            <button className="btn btn-danger" onClick={() => setShowSetting(false)}>
+              Đóng
+            </button>
+          </div>
+        </div>
+      )}
+    
     </div>
   );
 }

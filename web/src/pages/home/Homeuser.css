@@ -667,4 +667,17 @@ header {
 /* Khi sidebar mở, dấu nhỏ trượt sang */
 .sidebar-active + .sidebar-trigger-icon {
   transform: translateX(-200px);
+}:root {
+  --bg-color: white;
+  --text-color: black;
+}
+
+body.dark-mode {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+}
+
+.homeuser-container {
+  background: var(--bg-color);
+  color: var(--text-color);
 }
