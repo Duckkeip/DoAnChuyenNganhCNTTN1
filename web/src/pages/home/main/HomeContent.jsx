@@ -56,7 +56,7 @@ function HomeContent(){
       console.log("Không có token trong localStorage");
       setUser(null);
     }
-  }, [navigate]); // ✅ vì navigate là dependency
+  }, [navigate]); 
 
   // ✅ Lấy danh sách chủ đề với useCallback
   const fetchChude = useCallback(async () => {
