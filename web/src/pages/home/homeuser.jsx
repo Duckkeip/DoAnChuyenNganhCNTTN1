@@ -67,7 +67,7 @@ function Homeuser() {
             🏠
           </span>
               <span className="user-greeting">
-                Xin chào, {user?.tenhienthi || user?.username}!
+                Xin Chào, {user?.tenhienthi || user?.username}!
               </span>
               <button className="btn btn-danger" onClick={handleLogout}>
                 Đăng xuất

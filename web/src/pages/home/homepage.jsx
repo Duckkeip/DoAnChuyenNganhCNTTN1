@@ -127,7 +127,40 @@ useEffect(() => {
   }
 };
 
+const handleMockTest = async (chude) => {
+  try {
+    if (!user || !user._id) {
+      alert("Vui lòng đăng nhập để tham gia thi thử!");
+      navigate("/login");
+      return;
+    }
+    const questionRes = await api.get(`/topic/cauhoi/${chude._id}`);
+    let questions = questionRes.data || [];
 
+    if (questions.length === 0) {
+      alert("Chủ đề này chưa có câu hỏi để thi thử!");
+      return;
+    }
+    // Giới hạn số câu hỏi thi thử, ví dụ 10 câu
+    const randomQuestions = questions
+      .map(q => ({ ...q, sort: Math.random() })) // Thêm thuộc tính tạm thời để xáo trộn
+      .sort((a, b) => a.sort - b.sort)          // Xáo trộn câu hỏi
+      .slice(0, 50)                             // Lấy 10 câu hỏi đầu tiên
+      .map(q=> {
+        const shuffledAnswers = q.answers 
+          .map(a => ({ ...a, sort: Math.random() })) // Thêm thuộc tính tạm thời để xáo trộn
+          .sort((a, b) => a.sort - b.sort)           // Xáo trộn câu trả lời
+          .map(a => ({ text: a.text, correct: a.correct })); 
+        return { ...q, answers: shuffledAnswers };  
+      });
+    console.log("Examination:", randomQuestions);
+    navigate("/mocktest", { state: { chude, questions: randomQuestions, user } }); //Dieu huong den trang lam bai Thi Thu 
+  }
+    catch ( error ){
+      console.error("Lỗi khi tham gia thi thử:", error);
+      alert("Không thể tham gia thi thử, vui lòng thử lại!");
+    }
+};
   // Thêm function kiểm tra PIN
 const handleJoinWithPin = async () => {
   if (!pinInput.trim()) {
@@ -318,7 +351,13 @@ const handleJoinWithPin = async () => {
                           className="btn btn-primary"
                           onClick={() => handleStartQuiz(chude)}
                         >
-                          Bắt đầu
+                          Thi Đấu
+                        </button>
+                        <button
+                          className="btn btn-MockTest"
+                          onClick={() => handleMockTest(chude)}
+                        >
+                          Ôn Tập 
                         </button>
                         <button
                           className="btn btn-primary"
