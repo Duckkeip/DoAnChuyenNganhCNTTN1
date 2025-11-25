@@ -52,7 +52,7 @@ router.get("/cauhoi/:id_chude", async (req, res) => {
 router.post("/chude", async (req, res) => {
   try {
     console.log("Body nhận từ client:", req.body); // debug
-    const { tenchude, loaichude, user_id } = req.body;
+    const { tenchude, loaichude, user_id,nganh } = req.body;
 
     if (!tenchude || !loaichude) {
       return res.status(400).json({ error: "tenchude và loaichude là bắt buộc" });
@@ -62,7 +62,7 @@ router.post("/chude", async (req, res) => {
       return res.status(400).json({ error: "loaichude không hợp lệ" });
     }
 
-    const newChude = new Chude({ tenchude, loaichude, user_id });
+    const newChude = new Chude({ tenchude, loaichude,nganh, user_id });
     await newChude.save();
     res.json(newChude);
   } catch (err) {

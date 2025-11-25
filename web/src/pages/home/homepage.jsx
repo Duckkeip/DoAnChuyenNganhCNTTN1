@@ -19,7 +19,7 @@ function Homepage() {
 
   const [showSetting, setShowSetting] = useState(false);//hiện setting
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");//chủ đề sáng/tối
-
+  
   
   const itemsPerPage = 20; // ✅ Số chủ đề mỗi trang
   const indexOfLast = currentPage * itemsPerPage;
@@ -241,14 +241,14 @@ const handleJoinWithPin = async () => {
     <div className="homeuser-container">
      <div className="sidebar-wrapper">
       <div className="sidebar-trigger" />
-      <div className="sidebar">
-        <ul>
-          <li onClick={() => navigate(`/homeuser/${user?._id}`)}>🏠 Home</li>
-          <li onClick={() => navigate(`/homeuser/${user?._id}/profile`)}>👤 Profile</li>
-          <li onClick={() => navigate(`/homeuser/${user?._id}/history`)}>📜 History</li>
-          <li onClick={() => setShowSetting(true)}>⚙️ Setting</li>
-        </ul>
-      </div>
+        <div className="sidebar">
+          <ul>
+            <li onClick={() => navigate(`/homeuser/${user?._id}`)}>🏠 Home</li>
+            <li onClick={() => navigate(`/homeuser/${user?._id}/profile`)}>👤 Profile</li>
+            <li onClick={() => navigate(`/homeuser/${user?._id}/history`)}>📜 History</li>
+            <li onClick={() => setShowSetting(true)}>⚙️ Setting</li>
+          </ul>
+        </div>
       <div className="sidebar-trigger-icon" 
           onMouseEnter={() =>
             document.querySelector(".sidebar").classList.add("sidebar-active")

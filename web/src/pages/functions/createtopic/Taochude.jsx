@@ -8,6 +8,7 @@ function CreateTopic() {
   const [user, setUser] = useState(null);
   const [tenChude, setTenChude] = useState("");
   const [loaiChude, setLoaiChude] = useState("");
+  const [nganh, setNganh] = useState("");// ngành học
   const [cauHoi, setCauHoi] = useState([ {
     
     noidung: "",
@@ -97,6 +98,7 @@ function CreateTopic() {
       const chudeRes = await api.post("/topic/chude", {
         tenchude: tenChude,
         loaichude: loaiChude,
+        nganh: nganh, 
         user_id: user.id
       });
       const newChude = chudeRes.data;
@@ -145,11 +147,29 @@ function CreateTopic() {
         <input value={tenChude} onChange={(e) => setTenChude(e.target.value)} />
 
         <label>Loại chủ đề:</label>
-        <select  value={loaiChude} onChange={e => setLoaiChude(e.target.value)}>
-        <option value="none"></option>
-        <option value="ôn tập">Ôn tập</option>
-        <option value="thi đấu">Thi đấu</option>
-        </select>
+            <select  value={loaiChude} onChange={e => setLoaiChude(e.target.value)}>
+                <option value=""></option>
+                <option value="ôn tập">Ôn tập</option>
+                <option value="thi đấu">Thi đấu</option>
+            </select>
+        <label>Ngành:</label>
+            <select value={nganh} onChange={(e) => setNganh(e.target.value)}>
+                <option value="">--Chọn ngành--</option>
+                <option value="Kinh doanh quốc tế">Kinh doanh quốc tế</option>
+                <option value="Quản trị kinh doanh">Quản trị  kinh doanh</option>
+                <option value="Quản trị kinh doanh – VLVH">Quản trị kinh doanh – VLVH</option>
+                <option value="Công nghệ thông tin">Công nghệ thông tin</option>
+                <option value="Quản trị dịch vụ du lịch và lữ hành">Quản trị dịch vụ du lịch và lữ hành</option>
+                <option value="Quản trị nhân lực">Quản trị nhân lực</option>
+                <option value="Quản lý hoạt động bay">Quản lý hoạt động bay</option>
+                <option value="Quản lý hoạt động bay – VLVH">Quản lý hoạt động bay – VLVH</option>
+                <option value="Kinh tế vận tải">Kinh tế vận tải</option>
+                <option value="Kỹ thuật hàng không">Kỹ thuật hàng không</option>
+                <option value="Công nghệ kỹ thuật điều khiển và tự động hóa">Công nghệ kỹ thuật điều khiển và tự động hóa</option>
+                <option value="Công nghệ kỹ thuật điện tử – viễn thông">Công nghệ kỹ thuật điện tử – viễn thông</option>
+                <option value="Công nghệ kỹ thuật công trình xây dựng">Công nghệ kỹ thuật công trình xây dựng</option>
+                <option value="Ngôn ngữ Anh">Ngôn ngữ Anh</option>
+            </select>
       </div>
 
       <h3>Câu hỏi</h3>

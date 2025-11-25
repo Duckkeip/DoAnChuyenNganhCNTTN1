@@ -43,16 +43,17 @@ export default function App() {
             {/* HOMEUSER sẽ gồm các file như history main profile*/}
             <Route element={<Protected />}>
               <Route path="/home/:id"element={<Homepage/>}></Route>
-              <Route path="/homeuser/:id" element={<Homeuser />}>{/*trang cá nhân của mỗi id */}
-                <Route index element={<HomeContent />} />
-                <Route path="profile" element={<Profile />} />{/*profile tài khoản*/}
-                <Route path="create-topic" element={<CreateTopic />} />
-                <Route path="history" element={<History/>} />
-                
-              </Route>
+                <Route path="/homeuser/:id" element={<Homeuser />}>{/*trang cá nhân của mỗi id */}
+                  <Route index element={<HomeContent />} />
+                  <Route path="profile" element={<Profile />} />{/*profile tài khoản*/}
+                  <Route path="create-topic" element={<CreateTopic />} />
+                  <Route path="history" element={<History/>} />
+                  
+                </Route>
               <Route path="/room/createroom" element={<CreateRoom />} />
               <Route path="/play" element={<Play />} />
               <Route path="/ranking" element={<Ranking />} />
+
             </Route>
             
       

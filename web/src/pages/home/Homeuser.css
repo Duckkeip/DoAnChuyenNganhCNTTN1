@@ -609,7 +609,7 @@ header {
 }
 
 .sidebar {
-  width: 200px;
+  width: 100px;
   background:linear-gradient(135deg, #21dfdf, #470ad8cc);
   color: #000000;
   padding-top: 50px;
@@ -639,7 +639,7 @@ header {
 }
 
 .sidebar ul li:hover {
-  background-color: #333;
+  background-color: #f5e1e1;
 }
 
 /* Dấu nhỏ luôn hiển thị */
@@ -664,9 +664,10 @@ header {
   transition: transform 0.3s ease;
 }
 
-/* Khi sidebar mở, dấu nhỏ trượt sang */
-.sidebar-active + .sidebar-trigger-icon {
-  transform: translateX(-200px);
+
+/* Khi hover sidebar-wrapper, icon cũng trượt */
+.sidebar-wrapper:hover .sidebar-trigger-icon {
+  transform: translateX(-200px); /* cùng trượt với sidebar */
 }:root {
   --bg-color: white;
   --text-color: black;
