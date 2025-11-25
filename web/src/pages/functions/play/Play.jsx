@@ -326,16 +326,15 @@ const handleFinish = useCallback(
           <b>Câu {current + 1}:</b> {question.noidung}
         </p>
         <ul>
-          {question.options?.map((opt) => (
+          {question.options?.map((opt, index) => (
             <li
               key={opt.key}
               onClick={() => handleAnswer(opt.key)}
-              className={`option ${
-                answers[qid] === opt.key ? "selected" : ""
-              }`}
+              className={`option ${answers[qid] === opt.key ? "selected" : ""}`}
               style={{ pointerEvents: isSubmitted ? "none" : "auto" }}
             >
-              {opt.key}. {opt.text}
+              {/* Thay vì opt.key, dùng index để hiển thị A. B. C. D. */}
+              {["A", "B", "C", "D"][index]}. {opt.text}
             </li>
           ))}
         </ul>
