@@ -1,3 +1,4 @@
+
 const mongoose = require('mongoose')
 
 const CauhoiSchema = new mongoose.Schema({
@@ -19,26 +20,4 @@ const CauhoiSchema = new mongoose.Schema({
   }
 });
 
-
-function shuffleOptions(q) {
-  const options = [
-    { key: "A", text: q.dapan_a },
-    { key: "B", text: q.dapan_b },
-    { key: "C", text: q.dapan_c },
-    { key: "D", text: q.dapan_d }
-  ];
-
-  // 🔀 Xáo trộn
-  const shuffled = options.sort(() => Math.random() - 0.5);
-
-  return {
-    _id: q._id,
-    noidung: q.noidung,
-    options: shuffled,
-    correct: q.dapandung, // vẫn giữ để chấm điểm
-    mucdo: q.mucdo,
-    diem: q.diem
-  };
-}
-
-module.exports = { Cauhoi: mongoose.model("Cauhoi", CauhoiSchema,"cauhoi"),shuffleOptions};
+module.exports = mongoose.model("Cauhoi", CauhoiSchema,"cauhoi");

@@ -4,7 +4,29 @@ import api from "../../token/check";
 import "./play.css";
 import jwt_decode from "jwt-decode";
 
+
+// 🔀 Xáo trộn mảng
+function shuffleArray(array) {
+  return array
+  
+    .map((a) => ({ sort: Math.random(), value: a }))
+    .sort((a, b) => a.sort - b.sort)
+    .map((a) => a.value);
+}
+
+// 🔀 Chuyển câu hỏi sang dạng có options random
+function prepareQuestion(q) {
+  const shuffled = q.options.sort(() => Math.random() - 0.5); // shuffle nếu muốn
+  return {
+    ...q,
+    options: shuffled,
+    dapandung: q.correct // API trả sẵn
+  };
+}
+
+
 export default function Play() {
+  
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -51,24 +73,35 @@ export default function Play() {
       navigate("/login");
     }
   }, [navigate]);
-
+ 
   // 3️⃣ Lấy câu hỏi từ API
   useEffect(() => {
     if (!room) return;
     if (questions.length > 0) return;
-
+  
     const fetchQuestions = async () => {
       try {
         const chudeId = room.id_chude._id || room.id_chude;
         const res = await api.get(`/topic/cauhoi/${chudeId}`);
-        setQuestions(res.data);
+  
+        if (res.data && Array.isArray(res.data)) {
+          console.log("FIRST QUESTION FROM DB:", res.data[0]);
+          const shuffledQuestions = res.data.map(prepareQuestion);
+          setQuestions(shuffledQuestions);
+          console.log("👉 First question after prepare:", shuffledQuestions[0]);
+
+          console.log("✅ Questions loaded from API:", shuffledQuestions);
+        } else {
+          console.warn("⚠ API không trả về mảng câu hỏi");
+        }
+  
       } catch (err) {
-        console.error("Lỗi tải câu hỏi:", err);
+        console.error("❌ Lỗi tải câu hỏi:", err);
       }
     };
-
     fetchQuestions();
-  }, [room, questions.length]);
+  }, [room]);
+ 
 
   // 4️⃣ Hàm format thời gian
   const formatTime = (s) => {
@@ -77,7 +110,7 @@ export default function Play() {
     return `${m}:${sec.toString().padStart(2, "0")}`;
   };
 
-  // 5️⃣ Hàm submit kết quả & rank
+
   // 5️⃣ Hàm submit kết quả & rank
 const handleFinish = useCallback(
   (auto = false) => {
@@ -89,7 +122,8 @@ const handleFinish = useCallback(
     // Tính số câu đúng
     let correct = 0;
     questions.forEach((q) => {
-      if (answers[q._id] === q.dapandung) correct++;
+      if (answers[q._id] === q.dapandung)
+        correct++;
     });
 
     const totalQuestions = questions.length;
@@ -190,9 +224,9 @@ const handleFinish = useCallback(
 
   const question = questions[current];
 
-  const handleAnswer = (option) => {
+  const handleAnswer = (key) => {
     if (isSubmitted) return;
-    setAnswers((prev) => ({ ...prev, [question._id]: option }));
+    setAnswers(prev => ({ ...prev, [question._id]: key }));
   };
 
   const handleNext = () => {
@@ -204,6 +238,7 @@ const handleFinish = useCallback(
     if (isSubmitted) return;
     if (current > 0) setCurrent(current - 1);
   };
+
 
   // 8️⃣ Render kết quả
   if (finished) {
@@ -252,6 +287,7 @@ const handleFinish = useCallback(
     );
   }
 
+  const qid = String(question._id);
   // 9️⃣ Render quiz
   return (
     <div className={`play-screen ${isSubmitted ? "disabled" : ""}`}>
@@ -276,7 +312,7 @@ const handleFinish = useCallback(
             key={q._id}
             onClick={() => !isSubmitted && setCurrent(i)}
             className={`map-btn ${current === i ? "current" : ""} ${
-              answers[q._id] ? "answered" : ""
+              answers[String(q._id)] ? "answered" : ""
             }`}
             disabled={isSubmitted}
           >
@@ -290,16 +326,16 @@ const handleFinish = useCallback(
           <b>Câu {current + 1}:</b> {question.noidung}
         </p>
         <ul>
-          {["a", "b", "c", "d"].map((opt) => (
+          {question.options?.map((opt) => (
             <li
-              key={opt}
-              onClick={() => handleAnswer(opt.toUpperCase())}
+              key={opt.key}
+              onClick={() => handleAnswer(opt.key)}
               className={`option ${
-                answers[question._id] === opt.toUpperCase() ? "selected" : ""
+                answers[qid] === opt.key ? "selected" : ""
               }`}
               style={{ pointerEvents: isSubmitted ? "none" : "auto" }}
             >
-              {opt.toUpperCase()}. {question[`dapan_${opt}`]}
+              {opt.key}. {opt.text}
             </li>
           ))}
         </ul>

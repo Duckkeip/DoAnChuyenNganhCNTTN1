@@ -4,7 +4,7 @@ const router = express.Router();
 const mongoose = require("mongoose")
 // Import models
 const Chude = require("../models/ChuDe");
-const Cauhoi = require("../models/Cauhoi");
+const {Cauhoi, shuffleOptions} = require("../models/Cauhoi");
 const Ketqua = require("../models/Ketqua");
 const Quizzuser = require("../models/Quizzuser");
 
@@ -41,9 +41,20 @@ router.get("/cauhoi", async (req, res) => {
 router.get("/cauhoi/:id_chude", async (req, res) => {
   try {
     const { id_chude } = req.params;
-    const data = await Cauhoi.find({ id_chude: id_chude });
-    res.json(data);
+
+    // ✅ Kiểm tra id_chude hợp lệ
+    if (!mongoose.Types.ObjectId.isValid(id_chude)) {
+      return res.status(400).json({ error: "id_chude không hợp lệ" });
+    }
+
+    const data = await Cauhoi.find({ id_chude: id_chude }).lean(); 
+
+    // ✅ Shuffle đáp án cho từng câu hỏi
+    const randomizedQuestions = data.map(q => shuffleOptions(q));
+
+    res.json(randomizedQuestions);
   } catch (err) {
+    console.error("Lỗi GET /cauhoi/:id_chude:", err);
     res.status(500).json({ error: err.message });
   }
 });

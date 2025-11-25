@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import "./createroom.css";
 import { io } from "socket.io-client";
+import api from "../../token/check";
+
 
 const socket = io("http://localhost:5000");
 
@@ -55,13 +57,19 @@ export default function CreateRoom() {
     };
   }, [room, user, participants, locationState, navigate, hasRoomData, userId]);
 
-  const handleStart = () => {
+  const handleStart = async () => {
     if (!room) return;
+
+
+    // Lấy câu hỏi mới từ server với shuffle
+    const questionRes = await api.get(`/topic/cauhoi/${chude._id}`);
+    const cauhoiRandom = questionRes.data;
+
     room.status = "dangchoi";
     localStorage.removeItem("currentRoom");
-    socket.emit("startGame", room.pin);
-    navigate("/play", { state: locationState });
-  };
+    socket.emit("startGame", { pin: room.pin, cauhoi: cauhoiRandom });
+    navigate("/play", { state: { ...locationState, cauhoi: cauhoiRandom } });
+};
 
   if (!hasRoomData) {
     return <p>Không có dữ liệu phòng, vui lòng tạo lại từ Homepage.</p>;

@@ -127,7 +127,7 @@ useEffect(() => {
   }
 };
 
-const handleMockTest = async (chude) => {
+const thithu = async (chude) => {
   try {
     if (!user || !user._id) {
       alert("Vui lòng đăng nhập để tham gia thi thử!");
@@ -346,18 +346,18 @@ const handleJoinWithPin = async () => {
                     >
                       <div className="quiz-content">
                         <h3 className="quiz-title">{chude.tenchude}</h3>
-                        <p className="quiz-description">Loại: {chude.loaichude}</p>
+                        <p className="quiz-description"></p>
                         <button
                           className="btn btn-primary"
                           onClick={() => handleStartQuiz(chude)}
                         >
-                          Thi Đấu
+                          Ôn tập
                         </button>
                         <button
-                          className="btn btn-MockTest"
-                          onClick={() => handleMockTest(chude)}
+                          className="btn btn-primary"
+                          onClick={() => thithu(chude)}
                         >
-                          Ôn Tập 
+                          Thi thử
                         </button>
                         <button
                           className="btn btn-primary"
