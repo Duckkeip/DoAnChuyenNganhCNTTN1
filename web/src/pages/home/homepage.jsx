@@ -245,6 +245,24 @@ const handleJoinWithPin = async () => {
     alert("Không thể tham gia phòng, vui lòng thử lại!");
   }
 };
+
+// 🆕 NEW FUNCTION: Điều hướng đến trang cài đặt Multi-Topic
+const handleGoToMultiTopicSetup = () => {
+    if (!user || !user._id) {
+      alert("Vui lòng đăng nhập để tạo phòng!");
+      navigate("/login");
+      return;
+    }
+    // Điều hướng với cờ isMultiTopicSetup để createroom biết cần hiển thị Modal cài đặt
+    navigate("/room/createroom", { 
+      state: { 
+        user, 
+        isMultiTopicSetup: true // Cờ mới
+      } 
+ });
+};
+
+
   useEffect(() => {
       document.body.classList.toggle("dark-mode", theme === "dark");
     }, [theme]);
@@ -254,6 +272,8 @@ const handleJoinWithPin = async () => {
     setTheme(newTheme);
     localStorage.setItem("theme", newTheme);
   };
+  const availableTopics = chudes.filter(c => c.tinhtrang === "public");
+  const maxQuestions = availableTopics.reduce((sum, chude) => sum + (chude.socaudung || 0), 0);
   return (
     
     <div className="homeuser-container">
@@ -346,9 +366,13 @@ const handleJoinWithPin = async () => {
             value={pinInput}
             onChange={(e) => setPinInput(e.target.value)}
           />
-          <button className="btn btn-success" onClick={handleJoinWithPin}>
+          <button className="btn-join" onClick={handleJoinWithPin}>
             Tham gia phòng
           </button>
+         
+          <button className="btn-create"  onClick={handleGoToMultiTopicSetup}> 
+           Tạo phòng 
+          </button>
         </div>
           <div className="quiz-grid">
                 {currentChudes.length > 0 ? (

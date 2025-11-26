@@ -126,7 +126,7 @@ const handleFinish = useCallback(
             // Theo yêu cầu của Schema hiện tại, "A" là giải pháp an toàn nhất.
             dapan_chon_key = "A"; 
           }
-
+              
           return {
             id_cauhoi: q._id,
             dapan_chon: dapan_chon_key, 
