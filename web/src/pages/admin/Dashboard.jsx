@@ -6,10 +6,8 @@ function Dashboard() {
   const [topics, setTopics] = useState([]);
   const [questions, setQuestions] = useState([]); // câu hỏi của chủ đề hiện tại
 
-
   const [showDetailModal, setShowDetailModal] = useState(false);
   
-
   const [currentTopic, setCurrentTopic] = useState(null);
   const [editedQuestion, setEditedQuestion] = useState({ 
     noidung: "",
@@ -52,7 +50,7 @@ function Dashboard() {
   
   const handleDetail = async (topic) => {
     try {
-      const res = await api.get(`/topic/cauhoi/${topic._id}`); // API lấy câu hỏi theo chủ đề
+      const res = await api.get(`/admin/questions/${topic._id}`); // API lấy câu hỏi theo chủ đề
       setQuestions(res.data);
       setCurrentTopic(topic);
       setShowDetailModal(true);
@@ -63,18 +61,23 @@ function Dashboard() {
   };
 
   const handleEdit = (question) => {
-    console.log("Sửa câu hỏi:", question);
-    setEditedQuestion({
-        _id: question._id || "",
-        noidung: question.noidung || "",
-        dapan_a: question.dapan_a || "",
-        dapan_b: question.dapan_b || "",
-        dapan_c: question.dapan_c || "",
-        dapan_d: question.dapan_d || "",
-        dapandung: question.dapandung || "A",
-        mucdo: question.mucdo || "easy"
-      });
-    };
+    console.log("Sửa câu hỏi:", question);
+    
+    const correctLetters = ['A', 'B', 'C', 'D'];
+    const correctLetter = correctLetters[question.correct] || 'A'; 
+    
+    setEditedQuestion({
+        _id: question._id || "",
+        noidung: question.noidung || "",
+      
+        dapan_a: question.options?.[0]?.text || "", 
+        dapan_b: question.options?.[1]?.text || "", 
+        dapan_c: question.options?.[2]?.text || "", 
+        dapan_d: question.options?.[3]?.text || "", 
+        dapandung: correctLetter, // Sử dụng giá trị đã chuyển đổi
+        mucdo: question.mucdo || "easy"
+      });
+    };
 
   const saveEditedQuestion = async () => {
     if (!editedQuestion?._id) return;
@@ -96,7 +99,29 @@ function Dashboard() {
       alert("Cập nhật thất bại!");
     }
   };
-  
+  // 🆕 Thêm hàm xử lý xóa câu hỏi
+  const handleDelete = async (questionId) => {
+    if (!window.confirm("Bạn có chắc chắn muốn xóa câu hỏi này?")) {
+      return;
+    }
+
+    try {
+      // 🛑 SỬA TẠI ĐÂY: Thay đổi đường dẫn thành '/admin/questions/:id'
+      const res = await api.delete(`/admin/questions/${questionId}`); 
+      alert(res.data.message || "Xóa câu hỏi thành công!");
+
+      // Cập nhật state local: lọc bỏ câu hỏi đã xóa
+      setQuestions((prev) => prev.filter((q) => q._id !== questionId));
+
+      // Đóng form sửa nếu câu hỏi đang được sửa
+      if (editedQuestion?._id === questionId) {
+        setEditedQuestion(null);
+      }
+    } catch (err) {
+      console.error("Lỗi khi xóa câu hỏi:", err);
+      alert("Xóa câu hỏi thất bại!");
+    }
+  };
   const closeDetailModal = () => {
     setShowDetailModal(false);
     setQuestions([]);
@@ -188,6 +213,12 @@ function Dashboard() {
                     <td>{q.dapandung}</td>
                     <td>
                         <button onClick={() => handleEdit(q)}>✏ Sửa</button>
+                        <button 
+                            onClick={() => handleDelete(q._id)} 
+                            style={{ marginLeft: '5px', backgroundColor: '#dc3545', color: 'white', border: 'none', padding: '5px 10px', borderRadius: '4px', cursor: 'pointer' }}
+                        >
+                            🗑 Xoá
+                        </button>
                     </td>
                     </tr>
                 ))}

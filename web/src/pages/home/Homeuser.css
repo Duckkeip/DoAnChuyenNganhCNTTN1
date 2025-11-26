@@ -629,7 +629,7 @@ header {
 }
 
 .sidebar-wrapper:hover .sidebar {
-  transform: translateX(0);
+  transform: translateX(0%);
 }
 
 .sidebar-trigger {

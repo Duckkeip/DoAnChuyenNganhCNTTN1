@@ -55,6 +55,9 @@ function shuffleOptions(q) {
   };
 }
 
+const model = mongoose.model("Cauhoi", CauhoiSchema, "cauhoi");
+
 module.exports = {
-  Cauhoi: mongoose.model("Cauhoi", CauhoiSchema, "cauhoi"), shuffleOptions
+  Cauhoi: model,
+  shuffleOptions
 };
