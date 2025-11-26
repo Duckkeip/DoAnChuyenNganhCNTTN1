@@ -55,9 +55,14 @@ npm run rs
 **`.env` khi clone từ git về thì sẽ không có file môi trường do bị gitignore nên tự tạo trong folder server/gần server.js **
 
 ```.env
+#------DATABASE MONGO ATLAS---
+MONGO_URI=mongodb+srv://admin:177013@quizz.cuvxrtf.mongodb.net/quizz?retryWrites=true&w=majority
+CLIENT_URL=http://localhost:3000
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/quizz
-JWT_SECRET=verysecretkey
+JWT_SECRET=177013
+#------EMAIL---
+EMAIL_USER=doggygerman@gmail.com
+EMAIL_PASS= # https://myaccount.google.com/apppasswords
 ```
 
 ### Frontend Web
