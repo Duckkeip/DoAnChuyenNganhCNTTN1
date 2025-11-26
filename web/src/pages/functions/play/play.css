@@ -123,7 +123,7 @@
 
 .option.selected {
   border: 2px solid #007bff;
-  background: linear-gradient(135deg, #e0edff, #f8fbff);
+  background: linear-gradient(135deg, #3985ef, #102643);
   font-weight: 600;
   color: #004ba0;
   box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);

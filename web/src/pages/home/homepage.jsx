@@ -127,40 +127,58 @@ useEffect(() => {
   }
 };
 
-const thithu = async (chude) => {
-  try {
-    if (!user || !user._id) {
-      alert("Vui lòng đăng nhập để tham gia thi thử!");
-      navigate("/login");
-      return;
-    }
-    const questionRes = await api.get(`/topic/cauhoi/${chude._id}`);
-    let questions = questionRes.data || [];
+// 2️⃣ Xử lý Thi thử / Tạo phòng cài đặt
+  const thithu = async (chude) => {
+    try {
+      if (!user || !user._id) {
+        alert("Vui lòng đăng nhập để tham gia thi thử!");
+        navigate("/login");
+        return;
+      }
 
-    if (questions.length === 0) {
-      alert("Chủ đề này chưa có câu hỏi để thi thử!");
-      return;
+      // Tạo phòng tạm thời trên server
+      const payload = {
+        id_room: Date.now().toString(),
+        id_host: user._id,
+        id_chude: chude._id,
+        tenroom: `Phòng Thi thử - ${chude.tenchude}`, // Tên phòng đặc biệt
+        // Có thể thêm cờ isMockTest: true vào payload nếu cần phân biệt trên server
+      };
+
+      console.log("Payload tạo phòng Thi thử:", payload);
+
+      const roomRes = await api.post("/topic/room", payload);
+      const newRoom = roomRes.data;
+      setRoom(newRoom);
+      console.log("Phòng Thi thử mới:", newRoom);
+      
+      // Lấy TẤT CẢ câu hỏi của chủ đề
+      const questionRes = await api.get(`/topic/cauhoi/${chude._id}`);
+      const cauhoi = questionRes.data || [];
+
+      if (cauhoi.length === 0) {
+        alert("Chủ đề này chưa có câu hỏi để thi thử!");
+        return;
+      }
+
+      console.log(`Câu hỏi của chủ đề ${chude.tenchude}:`, cauhoi);
+
+      // Điều hướng đến trang phòng, nơi host có thể cài đặt số lượng câu
+      navigate("/room/createroom", { 
+        state: { 
+          room: newRoom, 
+          chude, 
+          user, 
+          cauhoi,
+          isMockTest: true // ✅ Cờ để trang createroom biết đây là Thi Thử
+        } 
+      }); 
     }
-    // Giới hạn số câu hỏi thi thử, ví dụ 10 câu
-    const randomQuestions = questions
-      .map(q => ({ ...q, sort: Math.random() })) // Thêm thuộc tính tạm thời để xáo trộn
-      .sort((a, b) => a.sort - b.sort)          // Xáo trộn câu hỏi
-      .slice(0, 50)                             // Lấy 10 câu hỏi đầu tiên
-      .map(q=> {
-        const shuffledAnswers = q.answers 
-          .map(a => ({ ...a, sort: Math.random() })) // Thêm thuộc tính tạm thời để xáo trộn
-          .sort((a, b) => a.sort - b.sort)           // Xáo trộn câu trả lời
-          .map(a => ({ text: a.text, correct: a.correct })); 
-        return { ...q, answers: shuffledAnswers };  
-      });
-    console.log("Examination:", randomQuestions);
-    navigate("/mocktest", { state: { chude, questions: randomQuestions, user } }); //Dieu huong den trang lam bai Thi Thu 
-  }
-    catch ( error ){
+    catch (error) {
       console.error("Lỗi khi tham gia thi thử:", error);
       alert("Không thể tham gia thi thử, vui lòng thử lại!");
     }
-};
+  };
   // Thêm function kiểm tra PIN
 const handleJoinWithPin = async () => {
   if (!pinInput.trim()) {

@@ -19,7 +19,6 @@ const CauhoiSchema = new mongoose.Schema({
   }
 });
 
-
 function shuffleOptions(q) {
   const options = [
     { key: "A", text: q.dapan_a },
@@ -28,17 +27,34 @@ function shuffleOptions(q) {
     { key: "D", text: q.dapan_d }
   ];
 
-  // 🔀 Xáo trộn
-  const shuffled = options.sort(() => Math.random() - 0.5);
+  // ✅ xác định đáp án đúng ban đầu theo index
+  const correctIndexOriginal = ["A", "B", "C", "D"].indexOf(q.dapandung);
 
+  // ✅ tạo mảng kèm theo index gốc
+  const optionsWithIndex = options.map((opt, idx) => ({
+    ...opt,
+    originalIndex: idx
+  }));
+
+  // ✅ random vị trí
+  const shuffled = optionsWithIndex.sort(() => Math.random() - 0.5);
+
+  // ✅ tìm xem đáp án đúng sau random nằm ở đâu
+  const correctIndexAfterShuffle = shuffled.findIndex(
+    (opt) => opt.originalIndex === correctIndexOriginal
+  );
+
+  // ✅ trả về câu hỏi đã random và đúng chuẩn
   return {
     _id: q._id,
     noidung: q.noidung,
-    options: shuffled,
-    correct: q.dapandung, // vẫn giữ để chấm điểm
+    options: shuffled.map(o => ({ text: o.text })), // ✅ bỏ key A/B/C/D
+    correct: correctIndexAfterShuffle,              // ✅ lưu index đáp án đúng (0–3)
     mucdo: q.mucdo,
     diem: q.diem
   };
 }
 
-module.exports = { Cauhoi: mongoose.model("Cauhoi", CauhoiSchema,"cauhoi"),shuffleOptions};
+module.exports = {
+  Cauhoi: mongoose.model("Cauhoi", CauhoiSchema, "cauhoi"), shuffleOptions
+};
