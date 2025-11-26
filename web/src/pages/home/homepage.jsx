@@ -278,8 +278,16 @@ const handleGoToMultiTopicSetup = () => {
     
     <div className="homeuser-container">
      <div className="sidebar-wrapper">
-      <div className="sidebar-trigger" />
-        <div className="sidebar">
+        <div className="sidebar-trigger" />
+        <div 
+          className="sidebar"
+          
+          onMouseLeave={() => {
+            document.querySelector(".sidebar").classList.remove("sidebar-active");
+        
+            document.querySelector(".sidebar-trigger-icon").classList.remove("icon-hidden");
+          }}
+        > 
           <ul>
             <li onClick={() => navigate(`/homeuser/${user?._id}`)}>🏠 Home</li>
             <li onClick={() => navigate(`/homeuser/${user?._id}/profile`)}>👤 Profile</li>
@@ -287,16 +295,18 @@ const handleGoToMultiTopicSetup = () => {
             <li onClick={() => setShowSetting(true)}>⚙️ Setting</li>
           </ul>
         </div>
-      <div className="sidebar-trigger-icon" 
-          onMouseEnter={() =>
-            document.querySelector(".sidebar").classList.add("sidebar-active")
-          }
-          onMouseLeave={() =>
-            document.querySelector(".sidebar").classList.remove("sidebar-active")
-          }>
-        ☰
+        <div 
+          className="sidebar-trigger-icon"
+          // Khi chuột lia vào ICON (30px x 30px) thì mở sidebar
+          onMouseEnter={() => {
+            document.querySelector(".sidebar").classList.add("sidebar-active");
+            // Khi mở sidebar, icon phải thụt vào
+            document.querySelector(".sidebar-trigger-icon").classList.add("icon-hidden");
+          }}
+        >
+          ☰
+        </div>
       </div>
-    </div>
       <header>
         <div className="logo">
            <span className="logo-icon">🧠</span>

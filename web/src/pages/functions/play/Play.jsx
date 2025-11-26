@@ -129,6 +129,7 @@ const handleFinish = useCallback(
               
           return {
             id_cauhoi: q._id,
+            noidung: q.noidung,
             dapan_chon: dapan_chon_key, 
             dung: answers[q._id] === q.correct
           };

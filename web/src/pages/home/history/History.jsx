@@ -100,7 +100,8 @@ export default function History() {
             <table className="detail-table">
               <thead>
                 <tr>
-                  <th>Câu hỏi ID</th>
+
+                  <th>Nội dung câu hỏi</th>
                   <th>Đáp án chọn</th>
                   <th>Đúng/Sai</th>
                 </tr>
@@ -108,7 +109,8 @@ export default function History() {
               <tbody>
                 {selectedDetail.dapAnDaChon.map((d, i) => (
                   <tr key={i}>
-                    <td>{d.id_cauhoi}</td>
+                    
+                    <td>{d.noidung}</td>
                     <td>{d.dapan_chon || "Chưa chọn"}</td>
                     <td>{d.dung ? "✅" : "❌"}</td>
                   </tr>

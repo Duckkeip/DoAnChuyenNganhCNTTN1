@@ -10,6 +10,7 @@ const KetquaSchema = new mongoose.Schema({
   dapAnDaChon: [
     { 
       id_cauhoi: { type: mongoose.Schema.Types.ObjectId, ref: "Cauhoi", required: true },
+      noidung: { type: String, required: true },
       dapan_chon: { type: String, enum: ["A", "B", "C", "D"], required: null },
       dung: { type: Boolean, required: true }
     }
