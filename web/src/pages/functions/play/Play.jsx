@@ -74,6 +74,11 @@ const handleFinish = useCallback(
   (auto = false) => {
     if (isSubmitted) return;
     
+    if (!auto) {
+      const nopbai = window.confirm("Bạn có chắc muốn nộp bài không?");
+      if (!nopbai) return;  
+    }
+
     // ✅ Thêm mảng ánh xạ để chuyển đổi index số (0-3) sang ký tự chữ cái ("A"-"D")
     const ANSWER_KEYS = ["A", "B", "C", "D"];
 

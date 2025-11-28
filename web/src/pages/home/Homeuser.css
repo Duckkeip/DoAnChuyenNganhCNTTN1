@@ -639,7 +639,7 @@ header {
 }
 .sidebar ul {
   list-style: none; /* bỏ bullet points */
-  padding: 0;       /* bỏ padding mặc định của ul */
+  padding: 0px;       /* bỏ padding mặc định của ul */
   margin: 0;        /* bỏ margin mặc định của ul */
 }
 

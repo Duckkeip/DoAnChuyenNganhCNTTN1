@@ -115,7 +115,7 @@ router.post('/login', async (req, res) => {
     if (!match) return res.status(400).json({ message: 'Sai email hoặc mật khẩu' });
 
     const token = jwt.sign(
-      { id: user._id, username: user.username },
+      { id: user._id, username: user.username , role: user.role, email: user.email },
       process.env.JWT_SECRET || "MY_SECRET_KEY",
       { expiresIn: '1d' }
     );

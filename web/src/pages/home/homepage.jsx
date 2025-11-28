@@ -48,6 +48,7 @@ function Homepage() {
     };
 useEffect(() => {
     const token = localStorage.getItem("token");
+   
     if (!token) return;
     
     try {
@@ -62,10 +63,12 @@ useEffect(() => {
       const normalizedUser = {
         _id: decoded.id,
         username: decoded.username,
+        role: decoded.role,
         email: decoded.email
       };
       setUser(normalizedUser);
       localStorage.setItem("user", JSON.stringify(normalizedUser));
+      console.log("Người dùng đã đăng nhập:", normalizedUser);  
     } catch (err) {
       console.error(err);
       localStorage.removeItem("token");

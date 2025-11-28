@@ -46,8 +46,32 @@ function Dashboard() {
 
   // Các hàm thao tác chủ đề
   const handleApprove = (id) => {alert("Duyệt chủ đề: " + id);};// TODO: Gọi API để duyệt 
-  const handleCancel = (id) => {alert("Huỷ chủ đề: " + id);}; // TODO: Gọi API để huỷ
+
+
+  const handleCancel = async (topic) => {
+    if (window.confirm("Bạn có chắc muốn xoá chủ đề này không?")) {
+      try {
+        const token = localStorage.getItem("token");
+        const res = await fetch(`http://localhost:5000/api/admin/${topic._id}`, {
+          method: "DELETE",
+          headers: {
+            "Authorization": `Bearer ${token}`
+          }
+        });
   
+        const data = await res.json();
+        if (res.ok) {
+          alert(data.message);
+          // TODO: reload list chủ đề
+        } else {
+          alert(data.message);
+        }
+      } catch (err) {
+        console.error(err);
+        alert("Lỗi khi xoá chủ đề");
+      }
+    }
+  };
   const handleDetail = async (topic) => {
     try {
       const res = await api.get(`/admin/questions/${topic._id}`); // API lấy câu hỏi theo chủ đề
