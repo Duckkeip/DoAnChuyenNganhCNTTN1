@@ -102,4 +102,140 @@
 .btn-start:hover {
   transform: scale(1.05);
   box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}.settings-section {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px 25px;
+  background-color: #f8f9fa; /* màu nền nhẹ */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.settings-section h3 {
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  color: #1a73e8; /* màu xanh nổi bật */
+}
+
+.settings-section label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.settings-section input[type="number"] {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.settings-section input[type="number"]:focus {
+  border-color: #1a73e8;
+  box-shadow: 0 0 5px rgba(26, 115, 232, 0.3);
+}
+
+.settings-section p {
+  margin-top: 5px;
+  font-size: 0.85rem;
+  color: #555;
+}
+/* Nền tối cho modal */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Nội dung Modal */
+.modal-content.multi-topic-modal {
+    background: white; /* Hoặc màu nền của bạn */
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh; /* Giới hạn chiều cao */
+    overflow-y: auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.setting-control {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-limit {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.topic-selection-list h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.topic-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+}
+
+.topic-item {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #4a39c9;
+}
+
+.topic-item:hover {
+    border-color: #d2adad;
+    transform: translateY(-2px);
+}
+
+.topic-item.selected {
+    border-color: #34dc69;
+    background-color: #277c0b;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.topic-count {
+    font-size: small;
+    color: #666;
+    display: block;
+    margin-top: 3px;
+}
+
+.topic-item.selected .topic-count {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.modal-buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
 }

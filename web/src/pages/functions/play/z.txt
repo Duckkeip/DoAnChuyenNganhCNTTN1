@@ -1,0 +1,26 @@
+  // 3️⃣ Lấy câu hỏi từ API
+  useEffect(() => {
+    if (!room) return;
+    if (questions.length > 0) return;
+  
+    const fetchQuestions = async () => {
+      try {
+        const chudeId = room.id_chude._id || room.id_chude;
+        const res = await api.get(`/topic/cauhoi/${chudeId}`);
+  
+        if (res.data && Array.isArray(res.data)) {
+          console.log("FIRST QUESTION FROM DB:", res.data[0]);
+          setQuestions(res.data); // ✅ Dùng dữ liệu đã xáo trộn từ backend
+
+          console.log("✅ Questions loaded from API:", res.data);
+        } else {
+          console.warn("⚠ API không trả về mảng câu hỏi");
+        }
+  
+      } catch (err) {
+        console.error("❌ Lỗi tải câu hỏi:", err);
+      }
+    };
+    fetchQuestions();
+  }, [room]);
+ 

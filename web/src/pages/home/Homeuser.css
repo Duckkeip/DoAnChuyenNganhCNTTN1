@@ -575,7 +575,7 @@ header {
 .join-pin-container {
   display: flex;
   justify-content: center;
-  margin: 20px 0;
+  margin: 10px 100px;
   gap: 10px;
 }
 
@@ -586,8 +586,8 @@ header {
   border: 1px solid #ccc;
 }
 
-.join-pin-container button {
-  padding: 8px 15px;
+.btn-join {
+  padding: 8px 10px;
   font-size: 16px;
   background-color: #28a745;
   color: white;
@@ -596,7 +596,7 @@ header {
   cursor: pointer;
 }
 
-.join-pin-container button:hover {
+.btn-join:hover {
   background-color: #218838;
 /* SIDEBAR ẨN HIỆN */
 }.sidebar-wrapper {
@@ -607,9 +607,20 @@ header {
   display: flex;
   z-index: 1000;
 }
-
+.btn-create {
+  padding: 8px 10px;
+  font-size: 16px;
+  background-color: #21b026;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.btn-create:hover {
+  background-color: #0069d9;
+}
 .sidebar {
-  width: 100px;
+  width: 200px;
   background:linear-gradient(135deg, #21dfdf, #470ad8cc);
   color: #000000;
   padding-top: 50px;
@@ -617,8 +628,8 @@ header {
   transition: transform 0.3s;
 }
 
-.sidebar-wrapper:hover .sidebar {
-  transform: translateX(0);
+.sidebar.sidebar-active {
+  transform: translateX(0%); /* Mở sidebar */
 }
 
 .sidebar-trigger {
@@ -663,12 +674,11 @@ header {
   /* Di chuyển theo sidebar */
   transition: transform 0.3s ease;
 }
+.sidebar-trigger-icon.icon-hidden {
+    transform: translateX(-100px); 
+}
 
-
-/* Khi hover sidebar-wrapper, icon cũng trượt */
-.sidebar-wrapper:hover .sidebar-trigger-icon {
-  transform: translateX(-200px); /* cùng trượt với sidebar */
-}:root {
+:root {
   --bg-color: white;
   --text-color: black;
 }

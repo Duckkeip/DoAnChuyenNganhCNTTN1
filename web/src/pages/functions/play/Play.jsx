@@ -5,25 +5,6 @@ import "./play.css";
 import jwt_decode from "jwt-decode";
 
 
-// 🔀 Xáo trộn mảng
-function shuffleArray(array) {
-  return array
-  
-    .map((a) => ({ sort: Math.random(), value: a }))
-    .sort((a, b) => a.sort - b.sort)
-    .map((a) => a.value);
-}
-
-// 🔀 Chuyển câu hỏi sang dạng có options random
-function prepareQuestion(q) {
-  const shuffled = q.options.sort(() => Math.random() - 0.5); // shuffle nếu muốn
-  return {
-    ...q,
-    options: shuffled,
-    dapandung: q.correct // API trả sẵn
-  };
-}
-
 
 export default function Play() {
   
@@ -33,17 +14,21 @@ export default function Play() {
   // 1️⃣ Load state từ location.state hoặc localStorage
   const saved = JSON.parse(localStorage.getItem("currentQuiz") || "null");
   const initialState = location.state || saved;
-  const { room } = initialState || {};
+  const { room, user: userFromState, cauhoi: initialQuestions } = initialState || {};
+
+  // 2️⃣ CẬP NHẬT: Dùng câu hỏi đã được xử lý (xáo trộn/cắt bớt) từ state
+  // Nếu không có trong state, dùng cái đã lưu, nếu không có thì là mảng rỗng.
+  const [questions, setQuestions] = useState(initialQuestions || saved?.questions || []);
 
   const [user, setUser] = useState(null);
-  const [questions, setQuestions] = useState(saved?.questions || []);
+ 
   const [current, setCurrent] = useState(saved?.current || 0);
   const [answers, setAnswers] = useState(saved?.answers || {});
   const [score, setScore] = useState(saved?.score || null);
   const [finished, setFinished] = useState(saved?.finished || false);
   const [isSubmitted, setIsSubmitted] = useState(saved?.isSubmitted || false);
   const [timeLeft, setTimeLeft] = useState(saved?.timeLeft || 600); // 10 phút
-
+  
   const timerRef = useRef(null);
 
   // 2️⃣ Kiểm tra token và load user
@@ -74,34 +59,7 @@ export default function Play() {
     }
   }, [navigate]);
  
-  // 3️⃣ Lấy câu hỏi từ API
-  useEffect(() => {
-    if (!room) return;
-    if (questions.length > 0) return;
-  
-    const fetchQuestions = async () => {
-      try {
-        const chudeId = room.id_chude._id || room.id_chude;
-        const res = await api.get(`/topic/cauhoi/${chudeId}`);
-  
-        if (res.data && Array.isArray(res.data)) {
-          console.log("FIRST QUESTION FROM DB:", res.data[0]);
-          const shuffledQuestions = res.data.map(prepareQuestion);
-          setQuestions(shuffledQuestions);
-          console.log("👉 First question after prepare:", shuffledQuestions[0]);
 
-          console.log("✅ Questions loaded from API:", shuffledQuestions);
-        } else {
-          console.warn("⚠ API không trả về mảng câu hỏi");
-        }
-  
-      } catch (err) {
-        console.error("❌ Lỗi tải câu hỏi:", err);
-      }
-    };
-    fetchQuestions();
-  }, [room]);
- 
 
   // 4️⃣ Hàm format thời gian
   const formatTime = (s) => {
@@ -115,6 +73,9 @@ export default function Play() {
 const handleFinish = useCallback(
   (auto = false) => {
     if (isSubmitted) return;
+    
+    // ✅ Thêm mảng ánh xạ để chuyển đổi index số (0-3) sang ký tự chữ cái ("A"-"D")
+    const ANSWER_KEYS = ["A", "B", "C", "D"];
 
     clearInterval(timerRef.current);
     setIsSubmitted(true);
@@ -122,7 +83,7 @@ const handleFinish = useCallback(
     // Tính số câu đúng
     let correct = 0;
     questions.forEach((q) => {
-      if (answers[q._id] === q.dapandung)
+      if (answers[q._id] === q.correct)
         correct++;
     });
 
@@ -143,7 +104,7 @@ const handleFinish = useCallback(
         socaudung: correct
       };
 
-      // Payload cho bảng Ketqua (schema mới, required: true)
+      // Payload cho bảng Ketqua 
       const ketquaPayload = {
         user_id: user._id,
         id_chude: room.id_chude._id || room.id_chude,
@@ -152,11 +113,27 @@ const handleFinish = useCallback(
         cau_sai: totalQuestions - correct,
         tong_diem: finalScore,
         thoigian_lam: formatTime(600 - timeLeft), // hoặc thời gian thực
-        dapAnDaChon: questions.map((q) => ({
-          id_cauhoi: q._id,
-          dapan_chon: answers[q._id] || null, // không để null, mặc định "A"
-          dung: answers[q._id] === q.dapandung
-        }))
+        dapAnDaChon: questions.map((q) => {
+          const selectedIndex = answers[q._id];
+          let dapan_chon_key;
+
+          if (selectedIndex !== undefined && selectedIndex >= 0 && selectedIndex <= 3) {
+            // ✅ Chuyển index số (0-3) sang ký tự chữ cái ("A"-"D")
+            dapan_chon_key = ANSWER_KEYS[selectedIndex]; 
+          } else {
+            // ✅ Nếu không chọn (undefined), gán giá trị mặc định là "A" (một giá trị hợp lệ trong enum)
+            // Hoặc bạn có thể cân nhắc gán một giá trị đặc biệt như "N/A" và sửa Schema để chấp nhận nó.
+            // Theo yêu cầu của Schema hiện tại, "A" là giải pháp an toàn nhất.
+            dapan_chon_key = "A"; 
+          }
+              
+          return {
+            id_cauhoi: q._id,
+            noidung: q.noidung,
+            dapan_chon: dapan_chon_key, 
+            dung: answers[q._id] === q.correct
+          };
+        })
       };
 
       console.log("📤 rankPayload:", rankPayload);
@@ -207,7 +184,7 @@ const handleFinish = useCallback(
       "currentQuiz",
       JSON.stringify({
         room,
-        user,
+        user: user || userFromState,
         questions,
         current,
         answers,
@@ -217,17 +194,26 @@ const handleFinish = useCallback(
         timeLeft
       })
     );
-  }, [room, user, questions, current, answers, score, finished, isSubmitted, timeLeft]);
+  }, [room, user, userFromState, questions, current, answers, score, finished, isSubmitted, timeLeft]);
+
 
   if (!room) return <p>❌ Không có thông tin phòng!</p>;
   if (!questions.length) return <p>⏳ Đang tải câu hỏi...</p>;
 
   const question = questions[current];
+  
+  if (!question) {
+    console.warn(`⚠ current index (${current}) is out of bounds. Resetting to 0.`);
+    setCurrent(0); // Reset current index về 0
+    // Trả về sớm để component render lại với current = 0
+    return <p>⏳ Đang đồng bộ lại câu hỏi...</p>; 
+  }
 
-  const handleAnswer = (key) => {
+
+  const handleAnswer = (index) => {
     if (isSubmitted) return;
-    setAnswers(prev => ({ ...prev, [question._id]: key }));
-  };
+    setAnswers(prev => ({ ...prev, [question._id]: index }));
+};
 
   const handleNext = () => {
     if (isSubmitted) return;
@@ -239,56 +225,56 @@ const handleFinish = useCallback(
     if (current > 0) setCurrent(current - 1);
   };
 
-
-  // 8️⃣ Render kết quả
+// 9️⃣ Render kết quả (Đã sửa logic tính correctCount)
   if (finished) {
+    // ✅ Tính lại số câu đúng ở đây
+    const correctCount = questions.filter(q => answers[q._id] === q.correct).length;
+
     return (
       <div className="result">
         <h2>Kết quả quiz</h2>
         <p>Điểm: {score} / 100</p>
         <p>
-          Đúng{" "}
-          {Object.values(answers).filter(
-            (ans, i) => ans === questions[i]?.dapandung
-          ).length}{" "}
-          / {questions.length} câu
+          {/* ✅ Sử dụng biến đã tính */}
+          Đúng {correctCount} / {questions.length} câu
         </p>
 
         <button
           onClick={() => {
+            // Xóa quiz khỏi localStorage
+            localStorage.removeItem("currentQuiz"); 
             navigate("/ranking", { state: { id_chude: room.id_chude } });
           }}
           className="btnxephang"
         >
           📊 Xem bảng xếp hạng
         </button>
-       <button
-        onClick={() => {
-          // Lấy user hiện tại từ state hoặc localStorage
-          const currentUser =
-            user || JSON.parse(localStorage.getItem("user") || "null");
+        <button
+          onClick={() => {
+            const currentUser =
+              user || JSON.parse(localStorage.getItem("user") || "null");
 
-          if (!currentUser?._id) {
-            alert("Vui lòng đăng nhập!");
-            navigate("/login");
-            return;
-          }
+            if (!currentUser?._id) {
+              alert("Vui lòng đăng nhập!");
+              navigate("/login");
+              return;
+            }
 
-          console.log("👉 user khi về trang chủ:", currentUser);
-          localStorage.removeItem("currentQuiz");
-          navigate(`/home/${currentUser._id}`);
-        }}
-        className="btnhome"
-      >
-        🏠 Về trang chủ
-      </button>
+            console.log("👉 user khi về trang chủ:", currentUser);
+            localStorage.removeItem("currentQuiz");
+            navigate(`/home/${currentUser._id}`);
+          }}
+          className="btnhome"
+        >
+          🏠 Về trang chủ
+        </button>
 
       </div>
     );
   }
 
   const qid = String(question._id);
-  // 9️⃣ Render quiz
+  // 🔟 Render quiz (Giữ nguyên)
   return (
     <div className={`play-screen ${isSubmitted ? "disabled" : ""}`}>
       <div className="header">
@@ -312,7 +298,7 @@ const handleFinish = useCallback(
             key={q._id}
             onClick={() => !isSubmitted && setCurrent(i)}
             className={`map-btn ${current === i ? "current" : ""} ${
-              answers[String(q._id)] ? "answered" : ""
+              answers[String(q._id)] !== undefined ? "answered" : ""
             }`}
             disabled={isSubmitted}
           >
@@ -326,17 +312,27 @@ const handleFinish = useCallback(
           <b>Câu {current + 1}:</b> {question.noidung}
         </p>
         <ul>
-          {question.options?.map((opt, index) => (
-            <li
-              key={opt.key}
-              onClick={() => handleAnswer(opt.key)}
-              className={`option ${answers[qid] === opt.key ? "selected" : ""}`}
-              style={{ pointerEvents: isSubmitted ? "none" : "auto" }}
-            >
-              {/* Thay vì opt.key, dùng index để hiển thị A. B. C. D. */}
-              {["A", "B", "C", "D"][index]}. {opt.text}
-            </li>
-          ))}
+          {question.options?.map((opt, index) => {
+            let cls = "option";
+
+            if (isSubmitted) {
+              if (index === question.correct) cls += " correct"; // đáp án đúng
+              else if (answers[qid] === index) cls += " wrong"; // đáp án sai đã chọn
+            } else if (answers[qid] === index) {
+              cls += " selected"; // đang chọn nhưng chưa nộp
+            }
+
+            return (
+              <li
+                key={index}
+                onClick={() => handleAnswer(index)}
+                className={cls}
+                style={{ pointerEvents: isSubmitted ? "none" : "auto" }}
+              >
+                {["A", "B", "C", "D"][index]}. {opt.text}
+              </li>
+            );
+          })}
         </ul>
       </div>
 

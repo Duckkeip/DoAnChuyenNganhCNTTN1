@@ -127,40 +127,58 @@ useEffect(() => {
   }
 };
 
-const thithu = async (chude) => {
-  try {
-    if (!user || !user._id) {
-      alert("Vui lòng đăng nhập để tham gia thi thử!");
-      navigate("/login");
-      return;
-    }
-    const questionRes = await api.get(`/topic/cauhoi/${chude._id}`);
-    let questions = questionRes.data || [];
+// 2️⃣ Xử lý Thi thử / Tạo phòng cài đặt
+  const thithu = async (chude) => {
+    try {
+      if (!user || !user._id) {
+        alert("Vui lòng đăng nhập để tham gia thi thử!");
+        navigate("/login");
+        return;
+      }
 
-    if (questions.length === 0) {
-      alert("Chủ đề này chưa có câu hỏi để thi thử!");
-      return;
+      // Tạo phòng tạm thời trên server
+      const payload = {
+        id_room: Date.now().toString(),
+        id_host: user._id,
+        id_chude: chude._id,
+        tenroom: `Phòng Thi thử - ${chude.tenchude}`, // Tên phòng đặc biệt
+        // Có thể thêm cờ isMockTest: true vào payload nếu cần phân biệt trên server
+      };
+
+      console.log("Payload tạo phòng Thi thử:", payload);
+
+      const roomRes = await api.post("/topic/room", payload);
+      const newRoom = roomRes.data;
+      setRoom(newRoom);
+      console.log("Phòng Thi thử mới:", newRoom);
+      
+      // Lấy TẤT CẢ câu hỏi của chủ đề
+      const questionRes = await api.get(`/topic/cauhoi/${chude._id}`);
+      const cauhoi = questionRes.data || [];
+
+      if (cauhoi.length === 0) {
+        alert("Chủ đề này chưa có câu hỏi để thi thử!");
+        return;
+      }
+
+      console.log(`Câu hỏi của chủ đề ${chude.tenchude}:`, cauhoi);
+
+      // Điều hướng đến trang phòng, nơi host có thể cài đặt số lượng câu
+      navigate("/room/createroom", { 
+        state: { 
+          room: newRoom, 
+          chude, 
+          user, 
+          cauhoi,
+          isMockTest: true // ✅ Cờ để trang createroom biết đây là Thi Thử
+        } 
+      }); 
     }
-    // Giới hạn số câu hỏi thi thử, ví dụ 10 câu
-    const randomQuestions = questions
-      .map(q => ({ ...q, sort: Math.random() })) // Thêm thuộc tính tạm thời để xáo trộn
-      .sort((a, b) => a.sort - b.sort)          // Xáo trộn câu hỏi
-      .slice(0, 50)                             // Lấy 10 câu hỏi đầu tiên
-      .map(q=> {
-        const shuffledAnswers = q.answers 
-          .map(a => ({ ...a, sort: Math.random() })) // Thêm thuộc tính tạm thời để xáo trộn
-          .sort((a, b) => a.sort - b.sort)           // Xáo trộn câu trả lời
-          .map(a => ({ text: a.text, correct: a.correct })); 
-        return { ...q, answers: shuffledAnswers };  
-      });
-    console.log("Examination:", randomQuestions);
-    navigate("/mocktest", { state: { chude, questions: randomQuestions, user } }); //Dieu huong den trang lam bai Thi Thu 
-  }
-    catch ( error ){
+    catch (error) {
       console.error("Lỗi khi tham gia thi thử:", error);
       alert("Không thể tham gia thi thử, vui lòng thử lại!");
     }
-};
+  };
   // Thêm function kiểm tra PIN
 const handleJoinWithPin = async () => {
   if (!pinInput.trim()) {
@@ -227,6 +245,24 @@ const handleJoinWithPin = async () => {
     alert("Không thể tham gia phòng, vui lòng thử lại!");
   }
 };
+
+// 🆕 NEW FUNCTION: Điều hướng đến trang cài đặt Multi-Topic
+const handleGoToMultiTopicSetup = () => {
+    if (!user || !user._id) {
+      alert("Vui lòng đăng nhập để tạo phòng!");
+      navigate("/login");
+      return;
+    }
+    // Điều hướng với cờ isMultiTopicSetup để createroom biết cần hiển thị Modal cài đặt
+    navigate("/room/createroom", { 
+      state: { 
+        user, 
+        isMultiTopicSetup: true // Cờ mới
+      } 
+ });
+};
+
+
   useEffect(() => {
       document.body.classList.toggle("dark-mode", theme === "dark");
     }, [theme]);
@@ -236,12 +272,22 @@ const handleJoinWithPin = async () => {
     setTheme(newTheme);
     localStorage.setItem("theme", newTheme);
   };
+  const availableTopics = chudes.filter(c => c.tinhtrang === "public");
+  const maxQuestions = availableTopics.reduce((sum, chude) => sum + (chude.socaudung || 0), 0);
   return (
     
     <div className="homeuser-container">
      <div className="sidebar-wrapper">
-      <div className="sidebar-trigger" />
-        <div className="sidebar">
+        <div className="sidebar-trigger" />
+        <div 
+          className="sidebar"
+          
+          onMouseLeave={() => {
+            document.querySelector(".sidebar").classList.remove("sidebar-active");
+        
+            document.querySelector(".sidebar-trigger-icon").classList.remove("icon-hidden");
+          }}
+        > 
           <ul>
             <li onClick={() => navigate(`/homeuser/${user?._id}`)}>🏠 Home</li>
             <li onClick={() => navigate(`/homeuser/${user?._id}/profile`)}>👤 Profile</li>
@@ -249,16 +295,18 @@ const handleJoinWithPin = async () => {
             <li onClick={() => setShowSetting(true)}>⚙️ Setting</li>
           </ul>
         </div>
-      <div className="sidebar-trigger-icon" 
-          onMouseEnter={() =>
-            document.querySelector(".sidebar").classList.add("sidebar-active")
-          }
-          onMouseLeave={() =>
-            document.querySelector(".sidebar").classList.remove("sidebar-active")
-          }>
-        ☰
+        <div 
+          className="sidebar-trigger-icon"
+          // Khi chuột lia vào ICON (30px x 30px) thì mở sidebar
+          onMouseEnter={() => {
+            document.querySelector(".sidebar").classList.add("sidebar-active");
+            // Khi mở sidebar, icon phải thụt vào
+            document.querySelector(".sidebar-trigger-icon").classList.add("icon-hidden");
+          }}
+        >
+          ☰
+        </div>
       </div>
-    </div>
       <header>
         <div className="logo">
            <span className="logo-icon">🧠</span>
@@ -328,9 +376,13 @@ const handleJoinWithPin = async () => {
             value={pinInput}
             onChange={(e) => setPinInput(e.target.value)}
           />
-          <button className="btn btn-success" onClick={handleJoinWithPin}>
+          <button className="btn-join" onClick={handleJoinWithPin}>
             Tham gia phòng
           </button>
+         
+          <button className="btn-create"  onClick={handleGoToMultiTopicSetup}> 
+           Tạo phòng 
+          </button>
         </div>
           <div className="quiz-grid">
                 {currentChudes.length > 0 ? (
