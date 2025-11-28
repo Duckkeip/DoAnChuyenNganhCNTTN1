@@ -7,11 +7,17 @@
   
   .admin-sidebar {
     width: 180px;
+    height: 100vh; /* chiếm toàn bộ chiều cao màn hình */
+    position:sticky; /* cố định sidebar bên trái khi cuộn */
+    top: 0;
+    left: 0;
+
     background: linear-gradient(to top, #6200ffb9, #0c2eecb9,#6200ffb9);
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     padding: 25px 15px;
   }
   
@@ -19,7 +25,7 @@
   .admin-sidebar p {
       margin-bottom: 20px;
       font-weight: bold;
-  
+    
       /* Gradient chữ */
       background: linear-gradient(to top, #3b0753b9, rgb(61, 12, 117),purple);
       -webkit-background-clip: text;

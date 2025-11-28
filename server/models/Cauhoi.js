@@ -7,7 +7,7 @@ const CauhoiSchema = new mongoose.Schema({
   dapan_b: { type: String, required: true },
   dapan_c: { type: String, required: true },
   dapan_d: { type: String, required: true },
-  dapandung: { type: String, enum: ["A", "B", "C", "D"], required: true },
+  dapandung: { type: String, enum: ["A", "B", "C", "D"], required: false },
   mucdo: { type: String, enum: ["easy", "average", "hard"], default: "easy" },
   diem: { 
     type: Number,

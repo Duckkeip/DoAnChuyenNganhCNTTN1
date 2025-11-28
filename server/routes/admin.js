@@ -126,4 +126,28 @@ router.delete("/questions/:id", verifyToken, isAdmin, async (req, res) => {
     }
   });
 
+// DELETE /chude/:id → Xoá chủ đề
+router.delete("/:id", verifyToken, isAdmin, async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    // Kiểm tra chủ đề có tồn tại không
+    const chude = await ChuDe.findById(id);
+    if (!chude) {
+      return res.status(404).json({ message: "Chủ đề không tồn tại" });
+    }
+
+    // Xoá tất cả các câu hỏi liên quan
+    await Cauhoi.deleteMany({ id_chude: id });
+
+    // Xoá chủ đề
+    await ChuDe.findByIdAndDelete(id);
+
+    res.json({ message: "✅ Xoá chủ đề thành công" });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: "❌ Lỗi server khi xoá chủ đề" });
+  }
+});
+
 module.exports = router;

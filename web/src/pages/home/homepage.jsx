@@ -48,6 +48,7 @@ function Homepage() {
     };
 useEffect(() => {
     const token = localStorage.getItem("token");
+   
     if (!token) return;
     
     try {
@@ -62,10 +63,12 @@ useEffect(() => {
       const normalizedUser = {
         _id: decoded.id,
         username: decoded.username,
+        role: decoded.role,
         email: decoded.email
       };
       setUser(normalizedUser);
       localStorage.setItem("user", JSON.stringify(normalizedUser));
+      console.log("Người dùng đã đăng nhập:", normalizedUser);  
     } catch (err) {
       console.error(err);
       localStorage.removeItem("token");
@@ -497,7 +500,7 @@ const handleGoToMultiTopicSetup = () => {
         </div>
       </footer>
 
-      {showModal && selectedChude && (
+      {showModal && selectedChude  && (
       <div className="modal-overlay" onClick={closeModal}>
         <div className="modal-content" onClick={(e) => e.stopPropagation()}>
           <h2>{selectedChude.tenchude}</h2>
@@ -507,8 +510,11 @@ const handleGoToMultiTopicSetup = () => {
           <p><strong>Trạng thái:</strong> {selectedChude.tinhtrang}</p>
 
           <div className="modal-buttons">
-            <button className="btn btn-primary" onClick={() => navigate("/login")}>
-              Bắt đầu
+          <button className="btn btn-primary" onClick={() => handleStartQuiz(selectedChude)}>
+              Ôn tập
+            </button>
+            <button className="btn btn-primary" onClick={() => thithu(selectedChude)}>
+              Thi thử
             </button>
             <button className="btn btn-secondary" onClick={closeModal}>
               Đóng

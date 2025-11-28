@@ -30,6 +30,7 @@ function AdminPage() {
             <nav>
               <button onClick={() => navigate(`/admin/${id}`)}>🏠 Dashboard</button>
               <button onClick={() => navigate(`/admin/${id}/users`)}>👥 Quản lý User</button>
+              <button onClick={() => navigate(`/home/${id}`)}>Sang trang người dùng</button>
             </nav>
             <button className="logout-btn" onClick={handleLogout}>  🚪 Đăng xuất</button>
           </aside>
