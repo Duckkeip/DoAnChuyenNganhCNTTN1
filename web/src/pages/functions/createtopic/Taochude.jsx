@@ -106,6 +106,7 @@ function CreateTopic() {
       // Tạo câu hỏi cho chủ đề
       for (let q of cauHoi) {
         if (q.noidung.trim() !== "") {
+          let dapandung = q.dapandung.trim() === "" ? undefined : q.dapandung;
           await api.post("/topic/cauhoi", {
             id_chude: newChude._id,
             noidung: q.noidung,
@@ -113,7 +114,7 @@ function CreateTopic() {
             dapan_b: q.dapan_b,
             dapan_c: q.dapan_c,
             dapan_d: q.dapan_d,
-            dapandung: q.dapandung,
+            dapandung: dapandung,
             mucdo: q.mucdo,
             diem : q.diem
           });

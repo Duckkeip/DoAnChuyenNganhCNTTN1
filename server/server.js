@@ -6,7 +6,7 @@ const path = require("path");
 const http = require("http");
 const { Server } = require("socket.io");
 const getWifiIP = require("./config/getIP");
-
+const Quizzuser = require("./models/Quizzuser");
 const app = express();
 const server = http.createServer(app);
 
@@ -47,37 +47,16 @@ app.use("/api/result", require("./routes/ketqua"));
 // Test route
 app.get("/", (req, res) => res.send("Quiz API đang chạy..."));
 
-// ================= SOCKET.IO =================
 const io = new Server(server, {
   cors: { origin: allowedOrigins }
 });
 
-  app.set("io", io);
+// Gắn io vào app nếu cần gọi trong route
+app.set("io", io);
 
-  io.on("connection", (socket) => {
-  console.log("⚡️ Client connected:", socket.id);
+// Import socket handlers
+require("./routes/socket")(io);
 
-
-  // Join room theo PIN
-  socket.on("joinRoom", (roomPin) => {
-    socket.join(roomPin);
-    console.log(`Socket ${socket.id} joined room ${roomPin}`);
-  });
-  // Update participants (client emit)
-  socket.on("updateParticipants", ({ pin, participants }) => {
-    io.to(pin).emit("updateParticipants", participants);
-  });
-
-  // Host bắt đầu chơi
-  socket.on("startGame", (pin) => {
-    console.log(`Game started in room ${pin}`);
-    io.to(pin).emit("gameStarted"); // gửi event cho tất cả client
-  });
-  
-  socket.on("disconnect", () => {
-    console.log("⚡️ Client disconnected:", socket.id);
-  });
-});
 
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, "0.0.0.0", () => 

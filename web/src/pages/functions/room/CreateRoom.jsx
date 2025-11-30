@@ -7,13 +7,22 @@ import api from "../../token/check";
 
 const socket = io("http://localhost:5000");
 
-
+const formatTime = (s) => {
+    const m = Math.floor(s / 60);
+    const sec = s % 60;
+    return `${m}:${sec.toString().padStart(2, "0")}`;
+};
 // 🔀 Hàm xáo trộn mảng (để đảm bảo câu hỏi được chọn ngẫu nhiên)
 function shuffleArray(array) {
   return array
     .map(a => ({ sort: Math.random(), value: a }))
     .sort((a, b) => a.sort - b.sort)
     .map(a => a.value);
+}
+// 🔀 Hàm xáo trộn options bên trong câu hỏi
+function shuffleOptions(options) {
+    if (!options || options.length === 0) return [];
+    return shuffleArray(options);
 }
 
 export default function CreateRoom() {
@@ -51,11 +60,18 @@ export default function CreateRoom() {
   const [totalQuestionLimit, setTotalQuestionLimit] = useState(30); 
   const [isSetupLoading, setIsSetupLoading] = useState(false); // Loading state cho việc tạo phòng/fetch data
 
+  const [gameTimeLimit, setGameTimeLimit] = useState(locationState?.room?.timeLimit || 600); // Default 10 minutes (600 seconds) 
 
+
+  const isSetupInitialized = React.useRef(false); // Ngăn tạo phòng Multi-Topic trùng lặp
+  const lastJoinedPin = React.useRef(null); // Ngăn joinRoom Socket trùng lặp
   // 3️⃣ Logic TẠO PHÒNG và Fetch Chủ đề nếu là Multi-Topic Setup ban đầu
   useEffect(() => {
       // Nếu là setup Multi-Topic lần đầu và chưa có dữ liệu phòng (chưa tạo)
-      if (isMultiTopicSetup && !room && user) {
+      if (isMultiTopicSetup && !room && user && !isSetupInitialized.current) {
+          isSetupInitialized.current = true; // x Đặt cờ 
+          setIsSetupLoading(true);
+
           setIsSetupLoading(true);
 
           // 1. Fetch danh sách chủ đề
@@ -70,7 +86,7 @@ export default function CreateRoom() {
                       navigate(`/home/${userId}`);
                       return Promise.reject("No public topics available."); 
                   }
-                  // END FIX
+
 
                   setAllTopics(publicTopics);
 
@@ -148,8 +164,11 @@ export default function CreateRoom() {
     }
 
     // Join room socket
-    socket.emit("joinRoom", room.pin);
-
+    if (room.pin && lastJoinedPin.current !== room.pin) {
+      socket.emit("joinRoom", room.pin);
+      lastJoinedPin.current = room.pin; // 👈 Cập nhật PIN đã join
+      console.log(`[Client] Joined room ${room.pin}`);
+    }
     // Lắng nghe server update participants
     socket.on("updateParticipants", setParticipants);
 
@@ -186,7 +205,11 @@ const handleActivateMultiTopicRoom = async () => {
       alert("Số lượng câu hỏi không hợp lệ!");
       return;
     }
-    
+    // 🆕 Kiểm tra thời gian
+    if (gameTimeLimit <= 0) {
+        alert("Thời gian làm bài phải lớn hơn 0!");
+        return;
+    }
     setIsSetupLoading(true);
 
     // 1. Fetch tất cả câu hỏi từ các chủ đề đã chọn
@@ -248,7 +271,8 @@ const handleActivateMultiTopicRoom = async () => {
           ...locationState,
           room: { // Cập nhật tên phòng tạm thời
                 ...room, 
-                tenroom: `Phòng Multi-Topic (${numTopicsFinal} CD)`
+                tenroom: `Phòng Multi-Topic (${numTopicsFinal} CD)`,
+                timeLimit: gameTimeLimit // 🆕 Lưu thời gian tùy chỉnh
             },
           chude: { tenchude: `Multi-Topic (${numTopicsFinal} CD)`, _id: selectedTopicIds[0] },
           cauhoi: finalQuestions,
@@ -274,6 +298,12 @@ const handleActivateMultiTopicRoom = async () => {
 
   const handleStart = async () => {
     if (!room || !chude) return; 
+
+     // 🆕 Kiểm tra thời gian
+    if (gameTimeLimit <= 0) {
+        alert("Thời gian làm bài phải lớn hơn 0!");
+        return;
+    }
 
     let cauhoiToPlay = []
 
@@ -306,14 +336,17 @@ const handleActivateMultiTopicRoom = async () => {
     try {
         room.status = "dangchoi"; 
 
-        socket.emit("startGame", { pin: room.pin, cauhoi: cauhoiToPlay });
+        socket.emit("startGame", { pin: room.pin, cauhoi: cauhoiToPlay , timeLimit: gameTimeLimit });
         localStorage.removeItem("currentRoom");
         
         navigate("/play", { 
             state: { 
                 ...locationState, 
                 cauhoi: cauhoiToPlay,
-                room: room 
+                room: {
+                    ...room,
+                    timeLimit: gameTimeLimit // 🆕 Truyền timeLimit vào state
+                }
             } 
         });
     } catch (error) {
@@ -344,7 +377,7 @@ const handleActivateMultiTopicRoom = async () => {
 
   // 🆕 Giao diện Setup Multi-Topic tích hợp vào màn hình phòng chờ (Chỉ Host thấy)
   if (isHost && isPendingMultiTopicSetup && room.status === "dangcho") {
-      
+      const minutesLimit = Math.ceil(gameTimeLimit / 60);
       const totalAvailableQuestions = allTopics.reduce((sum, c) => sum + (c.socaudung || 0), 0);
 
       return (
@@ -360,7 +393,24 @@ const handleActivateMultiTopicRoom = async () => {
                    <p style={{marginBottom: '20px'}}>Bạn đang ở giao diện cài đặt phòng Multi-Topic. Vui lòng chọn chủ đề và số lượng câu hỏi trước khi bắt đầu.</p>
                   
                   <div className="settings-section">
-                      <h3> Cài đặt số lượng câu hỏi</h3>
+                      <h3> Cài đặt </h3>
+                         {/* 🆕 Time Limit Input for Multi-Topic */}
+                        <div className="setting-control" style={{ marginBottom: '15px' }}>
+                            <label htmlFor="timeLimitMT">Thời gian làm bài (phút):</label>
+                            <input
+                                id="timeLimitMT"
+                                type="number"
+                                min="1"
+                                value={minutesLimit}
+                                onChange={(e) => {
+                                    const val = parseInt(e.target.value) || 1;
+                                    const seconds = Math.max(60, val * 60); // Min 1 minute (60s)
+                                    setGameTimeLimit(seconds);
+                                }}
+                                className="input-limit"
+                            />
+                            <p style={{ marginTop: '5px', fontSize: 'small' }}>Khoảng {formatTime(gameTimeLimit)}</p>
+                        </div>
                       <div className="setting-control" style={{marginBottom: '15px'}}>
                           <label htmlFor="limit">Số lượng câu hỏi (tối đa):</label>
                           <input
@@ -379,7 +429,7 @@ const handleActivateMultiTopicRoom = async () => {
                       </div>
                       {/* FIX: Chỉ hiển thị cảnh báo khi đã tải xong danh sách chủ đề nhưng tổng số câu hỏi bằng 0. */}
                       {(allTopics.length > 0 && totalAvailableQuestions === 0) && (
-                          <p style={{color: 'red'}}>Không có chủ đề công khai nào có câu hỏi!</p>
+                          <p style={{color: 'red'}}></p>
                       )}
                   </div>
 
@@ -407,7 +457,7 @@ const handleActivateMultiTopicRoom = async () => {
                       <button 
                           className="btn-start" 
                           onClick={handleActivateMultiTopicRoom}
-                          disabled={selectedTopicIds.length === 0 || parseInt(totalQuestionLimit) <= 0}
+                          disabled={selectedTopicIds.length === 0 || parseInt(totalQuestionLimit) <=  0 || gameTimeLimit <= 0}
                       >
                           Kích hoạt phòng ({totalQuestionLimit} câu)
                       </button>

@@ -2,12 +2,12 @@ import React, { useEffect, useState, useRef, useCallback } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import api from "../../token/check";
 import "./play.css";
+import { io } from "socket.io-client";
 import jwt_decode from "jwt-decode";
 
-
+const socket = io("http://localhost:5000"); 
 
 export default function Play() {
-  
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -21,13 +21,14 @@ export default function Play() {
   const [questions, setQuestions] = useState(initialQuestions || saved?.questions || []);
 
   const [user, setUser] = useState(null);
- 
+ const startingTimeLimit = room?.timeLimit || saved?.startingTimeLimit || 600;
+
   const [current, setCurrent] = useState(saved?.current || 0);
   const [answers, setAnswers] = useState(saved?.answers || {});
   const [score, setScore] = useState(saved?.score || null);
   const [finished, setFinished] = useState(saved?.finished || false);
   const [isSubmitted, setIsSubmitted] = useState(saved?.isSubmitted || false);
-  const [timeLeft, setTimeLeft] = useState(saved?.timeLeft || 600); // 10 phút
+  const [timeLeft, setTimeLeft] = useState(saved?.timeLeft || startingTimeLimit); // 10 phút
   
   const timerRef = useRef(null);
 
@@ -59,7 +60,42 @@ export default function Play() {
     }
   }, [navigate]);
  
+   useEffect(() => {
+    if (!room || !room.pin) return;
 
+    // 1. Tham gia phòng
+    socket.emit("joinRoom", room.pin);
+    console.log(`📡 Tham gia phòng socket: ${room.pin}`);
+
+    // 2. Lắng nghe lệnh bắt đầu Quiz từ Host
+    // Sự kiện này được gửi khi host nhấn "Bắt đầu Quiz" trong CreateRoom
+    socket.on("startQuiz", (data) => {
+        console.log("🔥 Quiz bắt đầu! Nhận dữ liệu câu hỏi và thời gian.");
+        
+        // Cập nhật state với câu hỏi và thời gian mới nhận
+        setQuestions(data.questions); 
+        setTimeLeft(data.timeLimit); // Cập nhật thời gian giới hạn mới
+        
+        // Lưu trạng thái mới vào localStorage để duy trì
+        localStorage.setItem("currentQuiz", JSON.stringify({
+            room,
+            user: user || userFromState,
+            questions: data.questions, // Lưu câu hỏi mới
+            current: 0,
+            answers: {},
+            score: null,
+            finished: false,
+            isSubmitted: false,
+            timeLeft: data.timeLimit, // Lưu thời gian mới
+            startingTimeLimit: data.timeLimit
+        }));
+    });
+
+    return () => {
+        // Dọn dẹp listener khi component unmount
+        socket.off("startQuiz");
+    };
+  }, [room, user, userFromState]); // Thêm dependencies cần thiết
 
   // 4️⃣ Hàm format thời gian
   const formatTime = (s) => {
@@ -99,7 +135,15 @@ const handleFinish = useCallback(
 
     if (user) {
       console.log("🔵 Bắt đầu gửi dữ liệu xếp hạng & kết quả...");
-
+      
+      if (room && room.pin && user._id) {
+          socket.emit("playerFinished", { 
+              pin: room.pin, 
+              userId: user._id,
+              score: finalScore 
+          });
+          console.log(`📤 Gửi sự kiện 'playerFinished' cho phòng ${room.pin}`);
+      }
       // Payload cho bảng Xephang
       const rankPayload = {
         user_id: user._id,
@@ -117,7 +161,7 @@ const handleFinish = useCallback(
         cau_dung: correct,
         cau_sai: totalQuestions - correct,
         tong_diem: finalScore,
-        thoigian_lam: formatTime(600 - timeLeft), // hoặc thời gian thực
+        thoigian_lam: formatTime(startingTimeLimit  - timeLeft), // hoặc thời gian thực
         dapAnDaChon: questions.map((q) => {
           const selectedIndex = answers[q._id];
           let dapan_chon_key;
@@ -160,7 +204,7 @@ const handleFinish = useCallback(
 
     if (auto) alert("⏰ Hết thời gian! Hệ thống tự động nộp bài.");
   },
-  [isSubmitted, questions, answers, user, room, timeLeft]
+  [isSubmitted, questions, answers, user, room, timeLeft,startingTimeLimit ]
 );
 
 
@@ -196,11 +240,29 @@ const handleFinish = useCallback(
         score,
         finished,
         isSubmitted,
-        timeLeft
+        timeLeft,
+        startingTimeLimit: startingTimeLimit 
       })
     );
-  }, [room, user, userFromState, questions, current, answers, score, finished, isSubmitted, timeLeft]);
+  }, [room, user, userFromState, questions, current, answers, score, finished, isSubmitted, timeLeft, startingTimeLimit]);
 
+
+  useEffect(() => {
+    if (!room || !room.pin || !navigate) return;
+
+    // Lắng nghe sự kiện Server gửi về khi tất cả người chơi nộp bài
+    socket.on("gameEndedByAllSubmission", (data) => {
+        console.log(`🎉 Phòng ${room.pin} đã kết thúc do tất cả người chơi nộp bài!`);
+        
+        // Điều hướng đến màn hình xếp hạng (tương tự như nút "Xem bảng xếp hạng" đã có)
+        localStorage.removeItem("currentQuiz"); 
+        navigate("/ranking", { state: { id_chude: room.id_chude } }); 
+    });
+
+    return () => {
+        socket.off("gameEndedByAllSubmission");
+    };
+  }, [room, navigate]); // navigate là dependency quan trọng
 
   if (!room) return <p>❌ Không có thông tin phòng!</p>;
   if (!questions.length) return <p>⏳ Đang tải câu hỏi...</p>;

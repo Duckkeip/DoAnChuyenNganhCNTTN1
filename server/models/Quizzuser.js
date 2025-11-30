@@ -6,7 +6,10 @@ const QuizzUserSchema = new mongoose.Schema({
   tenroom: { type: String, required: true },
   id_host: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
   id_chude: { type: mongoose.Schema.Types.ObjectId, ref: "Chude", required: true },
-  participants: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }],
+  participants: [{ 
+        user_id: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
+        submitted: { type: Boolean, default: false } // 👈 Trường mới để theo dõi
+    }],
   pin: { type: String, required: true, unique: true },
   status: { 
     type: String, 

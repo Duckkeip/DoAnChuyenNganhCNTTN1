@@ -49,8 +49,10 @@ function Homepage() {
 useEffect(() => {
     const token = localStorage.getItem("token");
    
-    if (!token) return;
-    
+    if (!token) {
+        navigate("/login");
+        return;
+    }
     try {
       const decoded = jwt_decode(token);
       const now = Date.now() / 1000;
@@ -197,55 +199,63 @@ const handleJoinWithPin = async () => {
 
   try {
     const pin = pinInput.trim();
-
-    // 🧩 Gọi API JOIN để thêm người chơi vào participants
-    const joinRes = await api.post(`/topic/room/join/${pin}`, { userId: user.id });
+    // 1. Gọi API JOIN để lấy thông tin phòng
+    // Server phải trả về room.questions và room.timeLimit
+    const joinRes = await api.post(`/topic/room/join/${pin}`, { userId: user._id });
     const roomData = joinRes.data;
 
     if (!roomData) {
       alert("PIN không hợp lệ hoặc phòng đã kết thúc!");
       return;
     }
+    
+    // Kiểm tra và lấy thông tin chủ đề
+    const chudeId = roomData.id_chude?._id || roomData.id_chude;
+    let chudeData = roomData.id_chude; // Giả định server đã populate
 
-    // 🧩 Kiểm tra id_chude có tồn tại không
-    if (!roomData.id_chude || !roomData.id_chude._id) {
-      console.error("Không thể lấy ID chủ đề từ roomData:", roomData.id_chude);
-      alert("Lỗi dữ liệu phòng, vui lòng thử lại!");
-      return;
+    // Fallback: Nếu chủ đề chưa được populate, fetch thủ công
+    if (!chudeData || !chudeData.tenchude) {
+        const chudeRes = await api.get(`/topic/chude/${chudeId}`);
+        chudeData = chudeRes.data;
     }
 
-    const chudeId = roomData.id_chude._id;
+    // 2. Kiểm tra trạng thái phòng
+    if (roomData.status === 'dangchoi' && roomData.questions?.length > 0) {
+        
+        // 🛑 PHÒNG ĐANG CHƠI: Chuyển thẳng đến trang Play
+        
+        const newLocationState = {
+            room: roomData,
+            user: user,
+            chude: chudeData, // Thông tin chủ đề
+            cauhoi: roomData.questions, // ✅ DÙNG DANH SÁCH CÂU HỎI ĐÃ CẮT/XÁO TRỘN TỪ SERVER
+            startingTimeLimit: roomData.timeLimit // Giới hạn thời gian
+        };
 
-    // 🧩 Lấy chủ đề
-    const chudeRes = await api.get(`/topic/chude/${chudeId}`);
-    const chudeData = chudeRes.data;
+        localStorage.setItem("currentQuiz", JSON.stringify(newLocationState));
+        navigate("/play", { state: newLocationState });
+        
+    } else {
+        
+        // 🔔 PHÒNG CHỜ/CHƯA BẮT ĐẦU: Chuyển đến Lobby (CreateRoom)
+        
+        // Đặt tên phòng hiển thị nếu chưa có
+        roomData.tenroom = roomData.tenroom || `Phòng - ${chudeData.tenchude}`;
 
-    if (!chudeData) {
-      alert("Không thể lấy thông tin chủ đề!");
-      return;
+        const newLocationState = {
+            room: roomData,
+            chude: chudeData,
+            user,
+            cauhoi: roomData.questions || [], // Sẽ là mảng rỗng nếu chưa bắt đầu
+        };
+
+        // Điều hướng sang trang tạo phòng (CreateRoom) - Lobby
+        navigate("/room/createroom", { state: newLocationState });
     }
 
-    // 🧩 Lấy câu hỏi theo chủ đề
-    const questionRes = await api.get(`/topic/cauhoi/${chudeId}`);
-    const cauhoi = questionRes.data || [];
-
-    // 🧩 Đặt tên phòng hiển thị nếu chưa có
-    roomData.tenroom = roomData.tenroom || `Phòng - ${chudeData.tenchude}`;
-
-    console.log("Người chơi tham gia phòng:", { roomData, chudeData, cauhoi });
-
-    // 🧩 Điều hướng sang trang tạo phòng (CreateRoom)
-    navigate("/room/createroom", {
-      state: {
-        room: roomData,
-        chude: chudeData,
-        user,
-        cauhoi,
-      },
-    });
   } catch (err) {
     console.error("Lỗi khi tham gia phòng bằng PIN:", err);
-    alert("Không thể tham gia phòng, vui lòng thử lại!");
+    alert(`Không thể tham gia phòng! ${err.response?.data?.message || err.message}`);
   }
 };
 
