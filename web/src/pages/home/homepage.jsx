@@ -518,7 +518,7 @@ const handleGoToMultiTopicSetup = () => {
           <p><strong>Người tạo:</strong> {selectedChude.user_id?.username || "Không xác định"}</p>
           <p><strong>Ngày tạo:</strong> {new Date(selectedChude.ngaytao).toLocaleDateString()}</p>
           <p><strong>Trạng thái:</strong> {selectedChude.tinhtrang}</p>
-
+          <p><strong>Ngành:</strong> {selectedChude.nganh}</p>
           <div className="modal-buttons">
           <button className="btn btn-primary" onClick={() => handleStartQuiz(selectedChude)}>
               Ôn tập
