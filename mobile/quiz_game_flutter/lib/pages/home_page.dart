@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> {
     });
 
     try {
-      final res = await ApiService.get("/chude", useAuth: false);
+      final res = await ApiService.get("/topic/chude", useAuth: false);
 
       if (res.statusCode == 200) {
         final List data = jsonDecode(res.body);

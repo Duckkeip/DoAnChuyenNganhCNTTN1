@@ -24,7 +24,7 @@ class PlayPage extends StatefulWidget {
 
 class _PlayPageState extends State<PlayPage> {
   List<Question> _questions = [];
-  Map<String, int> _answers = {}; // id_cauhoi => index đáp án
+  final Map<String, int> _answers = {}; // id_cauhoi => index đáp án
   int _currentIndex = 0;
   bool _finished = false;
   bool _submitting = false;

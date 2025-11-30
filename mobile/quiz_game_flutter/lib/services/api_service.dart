@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ApiService {
-  static const String baseUrl = "http://192.168.1.2:5000/api";
+  static const String baseUrl = "http://192.168.1.13:5000/api";
 
   // Lấy token từ local
   static Future<String?> _getToken() async {
