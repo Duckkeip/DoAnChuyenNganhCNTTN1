@@ -285,7 +285,7 @@ header {
 }
 
 .pagination button {
-  background-color: #eee;
+  background-color: #229df0 !important;
   border: none;
   padding: 6px 12px;
   border-radius: 6px;
@@ -295,13 +295,13 @@ header {
 }
 
 .pagination button:hover {
-  background-color: #ccc;
+  background-color: #e90c0c !important;
   transform: scale(1.05);
 }
 
 .pagination button.active {
-  background-color: #007bff;
-  color: white;
+  background-color: #7810ff !important;
+  color: rgb(0, 0, 0);
   font-weight: bold;
 }
 
