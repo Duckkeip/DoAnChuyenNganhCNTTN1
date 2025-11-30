@@ -17,6 +17,7 @@ console.log('📡 LAN IP:', LAN_IP);
 // --- CORS ---
 const allowedOrigins = [
   'http://localhost:3000',
+  'http://127.0.0.1:3000',
   `http://${LAN_IP}:3000`
 ];
 

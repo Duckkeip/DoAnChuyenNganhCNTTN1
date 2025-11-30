@@ -17,8 +17,8 @@ module.exports = (io) => {
   });
 
   // 🛑 FIX LỖI START GAME (Nhận object data & Cập nhật DB)
-  socket.on("startGame", async (data) => { 
-    const { pin, cauhoi, timeLimit } = data; // 🆕 Lấy các trường từ object data
+  socket.on("startQuiz", async (data) => { 
+    const { pin, questions, timeLimit } = data; // 🆕 Lấy các trường từ object data
     
     // Log đúng PIN
     console.log(`Game started in room ${pin}`); 
@@ -29,7 +29,7 @@ module.exports = (io) => {
             { pin: pin }, 
             { 
                 status: "dangchoi", 
-                questions: cauhoi,     // 👈 Lưu danh sách câu hỏi đã chọn/xáo trộn
+                questions: questions,     // 👈 Lưu danh sách câu hỏi đã chọn/xáo trộn
                 timeLimit: timeLimit,  // 👈 Lưu giới hạn thời gian
                 // 🆕 Đảm bảo tất cả người chơi có submitted: false khi game bắt đầu
                 // (Chỉ cần thiết nếu bạn có logic thêm người chơi sau khi phòng đã chơi,
@@ -38,8 +38,7 @@ module.exports = (io) => {
         );
         
         // 2. Thông báo cho tất cả người chơi trong phòng
-        io.to(pin).emit("gameStarted"); 
-        
+        io.to(pin).emit("startQuiz", { questions: questions, timeLimit: timeLimit });
     } catch (error) {
         console.error(`Lỗi khi bắt đầu trò chơi phòng ${pin}:`, error);
     }

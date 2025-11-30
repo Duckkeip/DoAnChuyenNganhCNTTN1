@@ -172,14 +172,39 @@ export default function CreateRoom() {
     // Lắng nghe server update participants
     socket.on("updateParticipants", setParticipants);
 
-    // Lắng nghe host bắt đầu chơi
-    socket.on("gameStarted", () => {
-      navigate("/play", { state: locationState });
+    socket.on("startQuiz", (data) => {
+        console.log("📣 Game đã bắt đầu! Đang điều hướng đến /play.");
+        
+        // ⚠️ VẤN ĐỀ NHỎ: Server đang phát 'questions' và 'timeLimit', 
+        // nhưng listener này chỉ dùng để điều hướng, không cần dùng data. 
+        // Tuy nhiên, ta nên truyền state mới (có questions và timeLimit) 
+        // để Play.jsx có thể dùng làm fallback nếu Socket.IO data bị mất.
+        const updatedState = {
+            ...locationState,
+            cauhoi: data.questions,
+            room: {
+                ...locationState.room,
+                timeLimit: data.timeLimit
+            }
+        };
+
+        // Cập nhật localStorage để Play.jsx có thể tải lại nếu F5
+        localStorage.setItem("currentQuiz", JSON.stringify({ 
+             room: updatedState.room, 
+             user: updatedState.user, 
+             questions: updatedState.cauhoi,
+             timeLeft: data.timeLimit,
+             startingTimeLimit: data.timeLimit
+        }));
+
+        localStorage.removeItem("currentRoom"); // Xóa phòng chờ cũ
+        
+        navigate("/play", { state: updatedState });
     });
 
      return () => {
       socket.off("updateParticipants");
-      socket.off("gameStarted");
+      socket.off("startQuiz");
     };
   }, [room, user, participants, locationState, navigate, userId, isSetupLoading]);
 
@@ -336,7 +361,7 @@ const handleActivateMultiTopicRoom = async () => {
     try {
         room.status = "dangchoi"; 
 
-        socket.emit("startGame", { pin: room.pin, cauhoi: cauhoiToPlay , timeLimit: gameTimeLimit });
+        socket.emit("startQuiz", { pin: room.pin, questions: cauhoiToPlay, timeLimit: gameTimeLimit });
         localStorage.removeItem("currentRoom");
         
         navigate("/play", { 
